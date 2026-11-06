@@ -1,0 +1,735 @@
+{
+  "book-135-122": {
+    "questionInPlainEnglish": "Which listed blood-group feature is genetically linked with M and N?",
+    "explanation": "M, N, S, and s belong to the MNS blood-group system. Their genes lie close together on chromosome 4, so these traits are often inherited together. Linked means nearby in the genetic instruction set.",
+    "optionExplanations": [
+      "McLeod is an XK-related phenotype that weakens Kell antigen expression.",
+      "Mg is a rare MNS allele, but is not the S/s linkage pair asked for.",
+      "Kpᵃ is a Kell-system antigen, not the linked S/s pair.",
+      "S and s are genetically linked with M and N in the MNS system."
+    ],
+    "memory": "MNS puts MN and Ss in one family.",
+    "quickCheck": {
+      "question": "What does genetic linkage mean?",
+      "answer": "Genes are close together on a chromosome and tend to be inherited together."
+    },
+    "sourceNote": "The source’s blanket population claims about Kpᵃ and historical paternity certainty should not be applied; individual typing and DNA evidence are required."
+  },
+  "book-135-123": {
+    "questionInPlainEnglish": "Which choice is a rare allele associated with M and N?",
+    "explanation": "Mg, often written Mᵍ, is a rare variant in the MNS system. An allele is an alternative version of a gene. Rare variants can complicate typing when a limited reagent set does not recognize them.",
+    "optionExplanations": [
+      "McLeod is an XK-related red-cell phenotype, not an M/N allele.",
+      "Mᵍ is the rare MNS allele intended.",
+      "Kpᵃ belongs to the Kell system.",
+      "S and s are linked MNS antigens, not this particular rare M/N variant."
+    ],
+    "memory": "Mᵍ belongs with M and N.",
+    "quickCheck": {
+      "question": "What is an allele?",
+      "answer": "A version of a gene."
+    },
+    "sourceNote": "The rationale contains OCR substitutions such as M8 for Mᵍ. Red-cell antigen similarities cannot by themselves prove paternity; modern testing uses DNA."
+  },
+  "book-135-128": {
+    "questionInPlainEnglish": "Which treatment of panel cells would help investigate the suspected Kell-system antibody?",
+    "explanation": "The source chart shows the lone nonreactive cell lacks k, a common Kell antigen. DTT treatment destroys Kell antigens on reagent red cells. If reactions disappear after this treatment, that supports a Kell-system target, though it does not by itself prove anti-k.",
+    "optionExplanations": [
+      "Proteolytic enzymes do not remove Kell antigens in the helpful way needed here.",
+      "DTT-treated panel cells lose Kell antigens, helping test the suspected target.",
+      "DTT treatment of serum mainly disrupts IgM; anti-k is usually IgG.",
+      "Treating serum with a proteolytic enzyme is not the appropriate antigen-removal comparison."
+    ],
+    "memory": "DTT destroys Kell targets on cells.",
+    "quickCheck": {
+      "question": "Does loss of reactivity after DTT alone prove anti-k?",
+      "answer": "No; additional identification and patient typing are needed."
+    },
+    "sourceNote": "Chart-dependent: red-cell panel chart 3 is needed. The fourth option contains severe OCR spillover from later chart text, which should not be treated as part of its clinical meaning."
+  },
+  "book-135-131": {
+    "questionInPlainEnglish": "Which antibody does the book identify from the warm and antiglobulin panel pattern?",
+    "explanation": "The book selects anti-D because the reactive and nonreactive panel cells separate according to the D antigen in the referenced chart. Antiglobulin testing, or AHG, helps reveal antibodies attached to red cells. The temperature alone cannot identify anti-D.",
+    "optionExplanations": [
+      "Anti-C would predict a reaction with Cell 5 that the source says is absent.",
+      "Anti-D matches the chart’s D-related pattern according to the source.",
+      "Anti-CD would require evidence for both C and D targets, which is not present.",
+      "Anti-K fails because several reactive cells lack K."
+    ],
+    "memory": "An antibody name must fit the whole antigen pattern.",
+    "quickCheck": {
+      "question": "Can a reaction at 37°C alone distinguish anti-C from anti-D?",
+      "answer": "No; compare antigen profiles and all reactions."
+    },
+    "sourceNote": "Panel-dependent: chart 3 and the linked reaction table are required to verify specificity; the isolated stem cannot establish anti-D."
+  },
+  "book-135-173": {
+    "questionInPlainEnglish": "How can cold-antibody interference be reduced in a recently transfused patient?",
+    "explanation": "The ii cell lacks the usual adult I target, so this pattern suggests cold autoanti-I. A validated prewarmed technique keeps samples warm before mixing, reducing cold reactions. Recent donor cells make autoadsorption unsuitable because they could remove an important alloantibody.",
+    "optionExplanations": [
+      "Autoadsorption is unsafe to interpret after recent transfusion because circulating donor cells may adsorb alloantibodies.",
+      "Prewarming is the book’s way to reduce cold interference while testing compatibility.",
+      "A rare donor search is not the first response to this typical cold-autoantibody pattern.",
+      "LISS can enhance some antibody reactions but does not specifically solve cold interference."
+    ],
+    "memory": "Recent transfusion makes self-adsorption unreliable.",
+    "quickCheck": {
+      "question": "Why can donor cells interfere with autoadsorption?",
+      "answer": "They may remove antibodies directed against donor antigens."
+    },
+    "sourceNote": "Prewarming must use a validated method and preserve detection of clinically significant antibodies; recent transfusion still requires careful alloantibody investigation."
+  },
+  "book-135-174": {
+    "questionInPlainEnglish": "What donor label fits no A/B cell antigens, expected anti-A/anti-B in serum, and a strong D reaction?",
+    "explanation": "Forward grouping finds neither A nor B, which fits group O. Reverse grouping reacts with A₁, A₂, and B cells, also fitting group O. Anti-D reacts strongly, so the donor red cells are D-positive.",
+    "optionExplanations": [
+      "Group O, D-positive fits agreement of both ABO tests and anti-D.",
+      "D-negative contradicts the strong anti-D reaction.",
+      "There is no unexpected plasma antibody stated to justify withholding plasma.",
+      "No discrepancy requiring additional testing is given here.",
+      "Nothing in this case calls for discarding the unit."
+    ],
+    "memory": "O cells lack A and B; O serum reacts with both.",
+    "quickCheck": {
+      "question": "Do forward and reverse grouping agree here?",
+      "answer": "Yes; both indicate group O."
+    },
+    "sourceNote": "Historical donated-unit matching exercise; actual disposition also requires all current donor eligibility and component-release requirements."
+  },
+  "book-135-175": {
+    "questionInPlainEnglish": "How should a donor unit with valid weak-D positivity be labeled?",
+    "explanation": "Both ABO tests agree on group O. Although direct anti-D is negative, the weak-D test is positive and the DAT control is negative. A donor’s weak-D-positive cells are labeled D-positive to protect D-negative recipients from exposure.",
+    "optionExplanations": [
+      "Group O, D-positive is correct for a valid weak-D-positive donor.",
+      "D-negative would hide the D antigen demonstrated by the weak-D test.",
+      "No unexpected plasma antibody is given to support withholding plasma.",
+      "The stated weak-D result has a negative DAT control and resolves donor D labeling in the book.",
+      "Nothing stated requires discard."
+    ],
+    "memory": "Donor weak D counts as D-positive.",
+    "quickCheck": {
+      "question": "Why not label a weak-D-positive donor D-negative?",
+      "answer": "The donor cells could stimulate anti-D in a D-negative recipient."
+    },
+    "sourceNote": "Donor labeling differs from some recipient and pregnancy decisions, where RHD genotype can guide management."
+  },
+  "book-135-176": {
+    "questionInPlainEnglish": "What action does this older textbook choose when both weak-D testing and the DAT are positive?",
+    "explanation": "The DAT detects antibody already attached to donor red cells. That coating can make an antiglobulin weak-D test positive even without proving D. The weak-D result is therefore uninterpretable by this method; the book chooses discard.",
+    "optionExplanations": [
+      "D-positive cannot be established from this confounded weak-D result.",
+      "D-negative also cannot be established by ignoring the confounded result.",
+      "Withholding plasma does not resolve antibody coating on the red cells.",
+      "Further investigation is scientifically relevant, but the book’s historical disposition is discard.",
+      "Discard the unit is the book’s selected rule for this DAT-positive donation."
+    ],
+    "memory": "A positive DAT can confuse an AHG weak-D test.",
+    "quickCheck": {
+      "question": "What does a DAT detect?",
+      "answer": "Antibody or complement already attached to red cells."
+    },
+    "sourceNote": "The blanket discard rule is historical. Current donor investigation and component disposition depend on regulations, validated methods, and collection-service policy."
+  },
+  "book-135-177": {
+    "questionInPlainEnglish": "What should happen when donor cells look group O but serum reacts with A₁ and B, not A₂?",
+    "explanation": "Forward and reverse ABO results disagree. The A₁-only serum reaction can suggest an A subgroup with anti-A₁, even if routine forward testing misses weak A expression. Investigate before assigning a final group.",
+    "optionExplanations": [
+      "An O label is premature because group O serum should ordinarily react with A₂ too.",
+      "D-negative contradicts the strong D reaction and ignores the ABO mismatch.",
+      "Simply withholding plasma does not resolve the donor’s true ABO group.",
+      "Additional testing is needed to resolve the subgroup or other discrepancy.",
+      "Automatic discard is not the first step for a potentially resolvable ABO discrepancy."
+    ],
+    "memory": "A₁ reacts, A₂ does not: consider anti-A₁ and investigate.",
+    "quickCheck": {
+      "question": "Can a final ABO label be based on forward grouping alone here?",
+      "answer": "No."
+    },
+    "sourceNote": "This historical table assumes routine controls and other required donor testing are satisfactory."
+  },
+  "book-135-178": {
+    "questionInPlainEnglish": "What should happen when donor cells test O but reverse grouping resembles group A?",
+    "explanation": "The cells do not react with anti-A or anti-B, suggesting O. The serum reacts with B cells but neither A₁ nor A₂, suggesting A. Because these disagree, additional testing is needed before a final ABO group is assigned.",
+    "optionExplanations": [
+      "Group O is not confirmed because the reverse result lacks the expected anti-A.",
+      "D-negative contradicts anti-D 3+ and leaves the ABO mismatch unresolved.",
+      "Plasma restriction alone does not establish the correct ABO label.",
+      "Additional testing addresses the forward/reverse discrepancy.",
+      "Immediate discard skips investigation of a potentially resolvable mismatch."
+    ],
+    "memory": "Forward O plus reverse A needs investigation.",
+    "quickCheck": {
+      "question": "Which antibody appears missing for an ordinary group O serum?",
+      "answer": "Anti-A."
+    }
+  },
+  "book-135-179": {
+    "questionInPlainEnglish": "What does the book do with an O, D-positive donation containing anti-Fyᵃ?",
+    "explanation": "ABO and D grouping are consistent, but anti-Fyᵃ in donor plasma could attack a recipient’s Fyᵃ-positive cells. The book permits the red-cell component with minimal plasma and withholds that plasma from direct transfusion.",
+    "optionExplanations": [
+      "The ABO/D label alone overlooks the unexpected plasma antibody.",
+      "D-negative contradicts the positive anti-D result.",
+      "O, D-positive red cells with plasma restriction is the book’s selected disposition.",
+      "The identified antibody explains the screen; this is not primarily an unresolved grouping problem.",
+      "The book does not require discarding every component for this finding."
+    ],
+    "memory": "A donor’s plasma antibody can target a recipient’s cells.",
+    "quickCheck": {
+      "question": "Why is anti-Fyᵃ more concerning in a plasma-rich component?",
+      "answer": "More donor antibody can reach the recipient."
+    },
+    "sourceNote": "Historical component-disposition rule; current labeling, processing, and release decisions follow applicable blood-service policy."
+  },
+  "book-135-180": {
+    "questionInPlainEnglish": "Which component does the older book match to von Willebrand disease?",
+    "explanation": "Von Willebrand factor helps platelets stick at an injured vessel and carries factor VIII. Cryoprecipitate contains both, explaining the historical match. Modern treatment often uses targeted products or other therapies chosen for the patient.",
+    "optionExplanations": [
+      "Platelets are not the usual replacement for a missing plasma von Willebrand factor.",
+      "Red cells carry oxygen but do not correct this factor defect.",
+      "Cryoprecipitate contains von Willebrand factor and is the book’s historical answer.",
+      "Plasma contains the factor but is less concentrated than the historical selected product."
+    ],
+    "memory": "Von Willebrand factor helps platelets grip.",
+    "quickCheck": {
+      "question": "What does von Willebrand factor help platelets do?",
+      "answer": "Attach at a damaged blood-vessel surface."
+    },
+    "sourceNote": "Historical matching only: specific von Willebrand factor products are generally preferred where indicated and available. This is not a treatment instruction."
+  },
+  "book-135-181": {
+    "questionInPlainEnglish": "Which listed component is rich in the protein missing in hypofibrinogenemia?",
+    "explanation": "Hypofibrinogenemia means too little fibrinogen, the soluble protein turned into the fibrin mesh of a clot. Cryoprecipitate is rich in fibrinogen, explaining the book’s component match.",
+    "optionExplanations": [
+      "Platelets help form a plug but do not provide concentrated fibrinogen replacement.",
+      "Red cells mainly carry oxygen.",
+      "Cryoprecipitate supplies concentrated fibrinogen.",
+      "Plasma contains fibrinogen, but is less concentrated than the book’s selected component."
+    ],
+    "memory": "Fibrinogen becomes the clot’s fibrin net.",
+    "quickCheck": {
+      "question": "What does hypo mean?",
+      "answer": "Too little or below normal."
+    },
+    "sourceNote": "Component matching is educational; patient-specific decisions may include fibrinogen concentrate and depend on current local practice."
+  },
+  "book-135-182": {
+    "questionInPlainEnglish": "Which component does the book match to factor V deficiency?",
+    "explanation": "Factor V is one of the proteins that helps blood clot. Fresh-frozen plasma contains a broad range of clotting factors, including factor V. Cryoprecipitate is not a reliable concentrated source of factor V.",
+    "optionExplanations": [
+      "Platelets are not the plasma-factor replacement selected here.",
+      "Red cells do not replace a plasma clotting-factor deficiency.",
+      "Cryoprecipitate mainly concentrates fibrinogen, VIII, XIII, and von Willebrand factor, not factor V.",
+      "Fresh-frozen plasma supplies factor V and is the intended match."
+    ],
+    "memory": "Factor V is in plasma’s broad factor supply.",
+    "quickCheck": {
+      "question": "Does cryoprecipitate contain every clotting factor in useful amounts?",
+      "answer": "No."
+    },
+    "sourceNote": "Historical matching exercise, not patient-specific transfusion advice."
+  },
+  "book-135-183": {
+    "questionInPlainEnglish": "Which component does the book match to multiple clotting-factor problems in liver disease?",
+    "explanation": "The liver makes many clotting proteins. When liver disease causes clinically important multiple-factor deficiency, plasma can supply a broad mixture. The match assumes a need for factor support; liver disease alone does not establish a need for transfusion.",
+    "optionExplanations": [
+      "Platelets address platelet deficiency, not broad plasma-factor deficiency.",
+      "Red cells address oxygen-carrying cell loss, not the assumed factor problem.",
+      "Cryoprecipitate supplies selected factors rather than the broad mixture intended.",
+      "Fresh-frozen plasma is the book’s broad-factor replacement match."
+    ],
+    "memory": "Liver makes many factors; plasma carries many factors.",
+    "quickCheck": {
+      "question": "Does a diagnosis of liver disease automatically require plasma?",
+      "answer": "No."
+    },
+    "sourceNote": "Modern transfusion decisions depend on bleeding, procedures, specific deficiencies, and patient assessment; an abnormal coagulation result alone may not justify plasma."
+  },
+  "book-135-184": {
+    "questionInPlainEnglish": "Which component does the book associate with bleeding during intensive chemotherapy?",
+    "explanation": "Chemotherapy can suppress bone marrow production of platelets. Too few platelets means the first plug at a damaged vessel cannot form well. The book assumes this is the bleeding problem and chooses platelets.",
+    "optionExplanations": [
+      "Platelet concentrate addresses the assumed chemotherapy-related low platelet count.",
+      "Red cells can treat associated anemia but do not fix the platelet plug problem.",
+      "Cryoprecipitate treats selected factor deficiencies, not primarily low platelet count.",
+      "Plasma replaces clotting factors but does not restore the platelet count."
+    ],
+    "memory": "Marrow suppression can reduce platelets and weaken the plug.",
+    "quickCheck": {
+      "question": "Where are platelets produced?",
+      "answer": "From megakaryocytes in bone marrow."
+    },
+    "sourceNote": "The short stem does not provide counts or establish the cause of bleeding; this is the historical matching assumption, not an automatic treatment choice."
+  },
+  "book-135-201": {
+    "questionInPlainEnglish": "Using the textbook’s linked 65-mL fetal-blood estimate, what vial count follows its historical safety-margin rule?",
+    "explanation": "The linked source gives a 1.3% Kleihauer–Betke result and a 65 mL fetal whole-blood estimate. In the book’s exam method, divide 65 mL by 30 mL covered per standard vial: 65/30 = 2.17. Round to 2 and add one safety-margin vial, giving 3. This explains the answer rather than prescribing care.",
+    "optionExplanations": [
+      "One vial is below the calculated 2.17-vial amount.",
+      "Two vials omit the book’s extra safety margin.",
+      "Three vials match rounding 2.17 to 2 and adding one.",
+      "Four vials exceed the result of this particular historical rounding rule."
+    ],
+    "memory": "Textbook FMH arithmetic adds a safety margin after rounding.",
+    "quickCheck": {
+      "question": "What fetal-blood volume is missing from the isolated stem?",
+      "answer": "65 mL, from the linked question’s 1.3% result."
+    },
+    "sourceNote": "Shared context restored from PDF page 161, questions 200–201. Real RhIG selection uses validated quantification, product labeling, and clinical protocols; this historical exercise is not dosing advice."
+  },
+  "book-135-221": {
+    "questionInPlainEnglish": "In the older book, is a D-negative mother eligible for RhIG after a weak-D-positive infant?",
+    "explanation": "A weak-D-positive infant still has D antigen that can expose the mother’s immune system. Rh immune globulin, or RhIG, supplies temporary anti-D to help prevent her from making lasting anti-D. The historical table chooses its standard postpartum category.",
+    "optionExplanations": [
+      "The small early-pregnancy category is not the postpartum category selected here.",
+      "This is the book’s standard postpartum choice for a D-negative mother and D-bearing infant.",
+      "Extra bleed-quantification findings are not given in this simple matching case.",
+      "Saying no RhIG overlooks the infant’s D antigen."
+    ],
+    "memory": "Weak D in the infant can still expose a D-negative mother.",
+    "quickCheck": {
+      "question": "Does weak D mean the infant has no D antigen?",
+      "answer": "No; D expression is reduced or altered."
+    },
+    "sourceNote": "Historical exam selection only. Actual RhIG use and amount follow current clinical protocols and fetal-maternal hemorrhage assessment, not this isolated table."
+  },
+  "book-135-222": {
+    "questionInPlainEnglish": "What does this older table decide for a mother typed strongly weak D?",
+    "explanation": "The older book groups a weak-D mother with D-positive mothers and selects no RhIG. Modern testing is more precise: some RHD genotypes can be managed as D-positive, while other variants may form anti-D. Serologic strength alone cannot decide this.",
+    "optionExplanations": [
+      "The small-dose category is not the book’s decision for a weak-D mother.",
+      "The standard-dose category is not the book’s selected historical classification.",
+      "The book does not choose a hemorrhage-based dose investigation for this phenotype alone.",
+      "No RhIG is the older table’s answer, subject to the important modern genotype limitation."
+    ],
+    "memory": "Maternal weak D needs genotype-aware interpretation.",
+    "quickCheck": {
+      "question": "Does a strong weak-D reaction identify the RHD genotype?",
+      "answer": "No."
+    },
+    "sourceNote": "The blanket old weak-D rule is outdated. Genotype-guided recommendations distinguish weak D types 1, 2, and 3 from other variants; clinical decisions require current specialist guidance."
+  },
+  "book-135-223": {
+    "questionInPlainEnglish": "Does one D-positive twin create a D-exposure issue for a D-negative mother?",
+    "explanation": "Yes. The D-negative twin does not cancel exposure to the D-positive twin. The book therefore places the mother in its standard postpartum RhIG category, assuming she has not already formed immune anti-D.",
+    "optionExplanations": [
+      "The small early-pregnancy category is not the one used for this delivery case.",
+      "The standard postpartum category is the book’s choice because one infant is D-positive.",
+      "The stem supplies no positive hemorrhage screen to select the extra-testing choice.",
+      "No RhIG would ignore exposure from the D-positive twin."
+    ],
+    "memory": "One D-positive twin is enough for D exposure.",
+    "quickCheck": {
+      "question": "Does the D-negative twin remove the other twin’s D antigen?",
+      "answer": "No."
+    },
+    "sourceNote": "Historical matching answer only; actual postpartum assessment includes current protocols and hemorrhage testing as indicated, especially with multiple birth."
+  },
+  "book-135-224": {
+    "questionInPlainEnglish": "Does an existing antibody to Fyᵃ prevent RhIG eligibility in a D-negative mother?",
+    "explanation": "Anti-Fyᵃ targets a Duffy blood-group antigen, not D. It does not show that the mother has already become immune to D. The older table therefore still selects its standard postpartum RhIG category for a D-positive infant.",
+    "optionExplanations": [
+      "The small-dose early-pregnancy category is not the postpartum selection here.",
+      "The standard postpartum category remains the book’s choice despite anti-Fyᵃ.",
+      "The presence of anti-Fyᵃ alone does not establish the need for extra RhIG bleed quantification.",
+      "No RhIG incorrectly treats anti-Fyᵃ as if it were immune anti-D."
+    ],
+    "memory": "A different antibody is not anti-D.",
+    "quickCheck": {
+      "question": "Which antigen does anti-Fyᵃ recognize?",
+      "answer": "Fyᵃ of the Duffy blood-group system."
+    },
+    "sourceNote": "Historical exam interpretation only. Anti-Fyᵃ itself may require obstetric monitoring; actual RhIG decisions follow current care protocols."
+  },
+  "book-135-225": {
+    "questionInPlainEnglish": "What does the book do when a D-negative mother’s infant has uncertain D typing and a positive DAT?",
+    "explanation": "The infant’s negative direct anti-D result does not exclude weak D, and weak-D testing was not done. A positive DAT means antibody already coats the infant’s cells and can complicate antiglobulin typing. The book chooses its cautious standard postpartum category rather than assuming no D exposure.",
+    "optionExplanations": [
+      "The small early-pregnancy category is not the table’s choice after delivery.",
+      "The book selects the standard postpartum category when infant D status is unresolved in this way.",
+      "Further typing may be clinically needed, but this option refers to dose determination rather than the book’s default selection.",
+      "No RhIG would assume the unconfirmed infant D status is safely negative."
+    ],
+    "memory": "Unresolved infant D typing does not prove no D exposure.",
+    "quickCheck": {
+      "question": "What does a positive infant DAT show?",
+      "answer": "Antibody or complement is attached to the infant’s red cells."
+    },
+    "sourceNote": "Historical selection only; infant DAT positivity and weak-D interpretation require current validated methods. Group O mother/A infant can suggest ABO-related coating, but the DAT alone does not identify the antibody."
+  },
+  "book-135-226": {
+    "questionInPlainEnglish": "Does a low anti-D result after earlier RhIG necessarily mean permanent D sensitization?",
+    "explanation": "No. RhIG itself contains anti-D, so a low anti-D result afterward can be passive antibody from that product. The table assumes this explanation and selects its standard postpartum category for the D-positive infant. A single low titer cannot prove the antibody’s origin.",
+    "optionExplanations": [
+      "The small early-pregnancy category does not match this postpartum case.",
+      "The standard postpartum category is the book’s choice under its passive-antibody assumption.",
+      "A low titer after RhIG alone does not quantify a fetal-maternal bleed.",
+      "No RhIG would incorrectly assume any detected anti-D must be immune sensitization."
+    ],
+    "memory": "Passive anti-D can come from RhIG.",
+    "quickCheck": {
+      "question": "Can titer strength alone always separate passive from immune anti-D?",
+      "answer": "No."
+    },
+    "sourceNote": "Historical matching only. Review timing, prior results, clinical history, and current protocols to distinguish passive from immune antibody and determine care."
+  },
+  "book-135-227": {
+    "questionInPlainEnglish": "What did this older textbook recommend after pregnancy loss at 11 weeks in a D-negative woman?",
+    "explanation": "The historical table chooses its smaller early-pregnancy RhIG category. It assumed an unsensitized D-negative woman and used gestational age to select that category. Current early-loss recommendations differ from this older blanket rule.",
+    "optionExplanations": [
+      "The 50-microgram category is the old book’s stated answer.",
+      "The 300-microgram category is not the smaller early-pregnancy category selected by this table.",
+      "The stem gives no hemorrhage result for its additional-testing choice.",
+      "No RhIG differs from the old book, although some current guidance recommends forgoing routine RhIG in certain losses before 12 weeks."
+    ],
+    "memory": "Early-loss RhIG guidance has changed since older exam tables.",
+    "quickCheck": {
+      "question": "Should this old table be used alone for current early-pregnancy care?",
+      "answer": "No."
+    },
+    "sourceNote": "Historical answer retained. Current guidance varies by jurisdiction, circumstance, and gestational age, with several guidelines moving away from routine RhIG before 12 weeks. This is not a treatment or dosing instruction."
+  },
+  "book-135-228": {
+    "questionInPlainEnglish": "What does a positive rosette screen mean for the book’s RhIG decision process?",
+    "explanation": "A rosette test screens for D-positive fetal red cells in a D-negative mother’s blood. A positive result suggests enough fetal cells to require a quantitative bleed estimate. It does not itself measure the exact volume or establish a final product amount.",
+    "optionExplanations": [
+      "The small early-pregnancy category does not resolve a positive postpartum bleed screen.",
+      "Choosing a routine category alone skips the bleed quantification called for.",
+      "Additional testing to estimate fetal-maternal hemorrhage is the intended answer.",
+      "No RhIG ignores D exposure in the stated D-negative mother."
+    ],
+    "memory": "Rosette screens; quantification measures.",
+    "quickCheck": {
+      "question": "Does counting a few rosettes directly give an exact bleed volume?",
+      "answer": "No."
+    },
+    "sourceNote": "Interpret positivity using the validated assay criteria. Quantification may use Kleihauer–Betke or flow cytometry; actual RhIG decisions follow current product and clinical protocols."
+  },
+  "book-351-1": {
+    "questionInPlainEnglish": "Why is first-morning urine often useful for routine testing?",
+    "explanation": "During sleep, people usually drink little and urine stays in the bladder for several hours. The sample is often concentrated, so small amounts of abnormal chemicals or sediment are easier to find.",
+    "optionExplanations": [
+      "First-morning urine is usually more concentrated, not most dilute.",
+      "Collection contamination is still possible; bladder residence does not guarantee a clean specimen.",
+      "Orthostatic means upright, whereas people generally lie down at night.",
+      "Greater concentration can make abnormalities easier to detect, which is the correct reason."
+    ],
+    "memory": "Morning urine concentrates overnight.",
+    "quickCheck": {
+      "question": "What does orthostatic mean?",
+      "answer": "Related to being upright."
+    },
+    "sourceNote": "First-morning concentration is typical rather than guaranteed; specimen choice depends on the test. The final symbols in the option are OCR debris."
+  },
+  "book-351-11": {
+    "questionInPlainEnglish": "What is urine with a repeatedly fixed specific gravity around 1.010 called?",
+    "explanation": "Isosthenuria means the kidneys are not varying urine concentration as expected. Several samples stay near 1.010, roughly the density of protein-free plasma filtrate. A single value of 1.010 is not enough to establish this pattern.",
+    "optionExplanations": [
+      "Exactly 1.000 is approximately pure water’s specific gravity, not the isosthenuric level.",
+      "Below 1.007 describes dilute urine, but not a fixed 1.010 pattern.",
+      "Above 1.020 describes concentrated urine, not isosthenuria.",
+      "Repeatedly fixed values near 1.010 define isosthenuria."
+    ],
+    "memory": "Iso = same: stuck near 1.010.",
+    "quickCheck": {
+      "question": "Can one urine sample at 1.010 prove isosthenuria?",
+      "answer": "No; the repeated fixed pattern matters."
+    }
+  },
+  "book-351-21": {
+    "questionInPlainEnglish": "Calculate the urine albumin-to-creatinine ratio and classify it.",
+    "explanation": "Convert creatinine to grams: 140 mg/dL = 0.140 g/dL. Albumin-to-creatinine ratio = 16 mg/dL ÷ 0.140 g/dL = 114.3 mg/g. That lies in the older microalbuminuria range of about 30–299 mg/g.",
+    "optionExplanations": [
+      "Microalbuminuria is the older name for this moderately increased 114 mg/g ratio.",
+      "Macroalbuminuria generally starts around 300 mg/g, above this value.",
+      "Nephrotic syndrome involves much larger protein loss and other findings; this ratio does not establish it.",
+      "Obstructive jaundice concerns bile flow, not this albumin/creatinine pattern."
+    ],
+    "memory": "Convert creatinine to grams before reporting mg/g.",
+    "quickCheck": {
+      "question": "Why use a ratio rather than albumin concentration alone?",
+      "answer": "It helps account for how dilute or concentrated the urine is."
+    },
+    "sourceNote": "Current terminology is moderately increased albuminuria, category A2, usually 30–300 mg/g. Persistent abnormality should be confirmed in clinical context."
+  },
+  "book-351-27": {
+    "questionInPlainEnglish": "What does the book identify as the main cells and organisms in the urine image?",
+    "explanation": "The book describes white blood cells and budding yeast. White cells suggest inflammation, while budding yeast can be recognized by attached smaller daughter cells. Diabetes can increase susceptibility to yeast problems, but the image and clinical context are needed.",
+    "optionExplanations": [
+      "The source describes few bacteria, and bacteria numbers alone do not guarantee nitrite positivity.",
+      "White cells and yeast are the book’s predominant image findings.",
+      "The source identifies transitional rather than numerous squamous cells, so this does not establish poor collection.",
+      "The few stated red cells do not support the book’s proposed strong blood-pad inference."
+    ],
+    "memory": "Budding suggests yeast; white cells suggest inflammation.",
+    "quickCheck": {
+      "question": "What does budding mean?",
+      "answer": "A smaller daughter cell grows from the parent yeast cell."
+    },
+    "sourceNote": "Image-dependent: Color Plate 46B is required. Urine glucose cannot be assumed increased solely from a history of controlled diabetes; blood-pad sensitivity also depends on concentration and method."
+  },
+  "book-351-36": {
+    "questionInPlainEnglish": "What is true of the coffin-lid crystals described in the referenced urine plate?",
+    "explanation": "Triple phosphate crystals, also called struvite, commonly have a coffin-lid shape and form in neutral to alkaline urine. They can appear without disease, although some urinary infections also promote their formation.",
+    "optionExplanations": [
+      "They may occur in otherwise normal alkaline urine, which is the correct statement.",
+      "Their presence alone does not establish kidney disease.",
+      "They are not a specific marker of glomerulonephritis.",
+      "They do not specifically indicate lung disease."
+    ],
+    "memory": "Triple phosphate: coffin lids in alkaline urine.",
+    "quickCheck": {
+      "question": "Do triple phosphate crystals alone prove a urinary infection?",
+      "answer": "No."
+    },
+    "sourceNote": "Image-dependent: Color Plate 47 is needed to confirm the crystal identification; struvite may also occur with urease-producing infections."
+  },
+  "book-351-44": {
+    "questionInPlainEnglish": "Which listed substance can contribute to yellowish CSF?",
+    "explanation": "Xanthochromia means yellow coloration. Very high protein can contribute to a yellow appearance of cerebrospinal fluid. Blood-breakdown pigments can also cause it, so color alone does not identify a single disease.",
+    "optionExplanations": [
+      "Chloride at clinical concentrations does not explain yellow CSF.",
+      "Increased protein can contribute to xanthochromia.",
+      "Glucose does not give CSF the yellow color described.",
+      "Magnesium is not a yellow CSF pigment."
+    ],
+    "memory": "Xantho means yellow.",
+    "quickCheck": {
+      "question": "Is yellow CSF specific to one cause?",
+      "answer": "No; interpret it with other findings."
+    }
+  },
+  "book-373-1": {
+    "questionInPlainEnglish": "Find the molarity of 18.7 g KCl in 500 mL of solution.",
+    "explanation": "KCl molar mass = 39 + 35.5 = 74.5 g/mol. Moles = 18.7 g ÷ 74.5 g/mol = 0.251 mol. Volume = 0.500 L. Molarity = 0.251 mol ÷ 0.500 L = 0.502 mol/L, about 0.5 M.",
+    "optionExplanations": [
+      "0.1 M would contain much less KCl in this volume.",
+      "0.5 M matches about 0.251 mol in half a liter.",
+      "1.0 M would contain roughly twice the stated mass.",
+      "5.0 M would be about ten times the calculated concentration."
+    ],
+    "memory": "Molarity = moles divided by liters.",
+    "quickCheck": {
+      "question": "What is the KCl molar mass used here?",
+      "answer": "74.5 g/mol."
+    },
+    "sourceNote": "“KC1” is an OCR substitution for KCl, potassium chloride."
+  },
+  "book-373-10": {
+    "questionInPlainEnglish": "Convert 70°F to Celsius.",
+    "explanation": "Subtract the Fahrenheit zero-point difference first: 70 − 32 = 38. Then multiply by 5/9: 38 × 5/9 = 21.1°C. Rounded to a whole degree, that is 21°C.",
+    "optionExplanations": [
+      "7°C is too cold: subtracting 32 from 70°F and multiplying by 5/9 gives approximately 21°C.",
+      "12°C is below the calculated 21.1°C.",
+      "20°C is close, but does not match the nearest-degree result.",
+      "21°C is the correctly rounded conversion."
+    ],
+    "memory": "Fahrenheit to Celsius: minus 32, then times five-ninths.",
+    "quickCheck": {
+      "question": "What is 32°F in Celsius?",
+      "answer": "0°C."
+    }
+  },
+  "book-373-21": {
+    "questionInPlainEnglish": "How much glacial acetic acid does the book use to prepare 2 L at 5% v/v?",
+    "explanation": "5% v/v means 5 mL of the stated liquid reagent in every 100 mL of final solution. Two liters is 2,000 mL, or twenty 100-mL portions. Reagent volume = 5 mL × 20 = 100 mL, diluted to 2 L total.",
+    "optionExplanations": [
+      "6 mL is far below the required reagent volume.",
+      "10 mL supplies one tenth of the required volume.",
+      "50 mL is enough for 1 L, rather than 2 L.",
+      "100 mL matches the book’s v/v preparation."
+    ],
+    "memory": "v/v percent counts mL per 100 mL total.",
+    "quickCheck": {
+      "question": "Is 2 L the water volume or final solution volume?",
+      "answer": "Final solution volume."
+    },
+    "sourceNote": "The book defines the target using glacial reagent volume and does not correct the 99.7% assay. A target defined as pure acetic acid rather than reagent v/v would require a specified purity basis and appropriate correction."
+  },
+  "book-373-23": {
+    "questionInPlainEnglish": "How many grams of NaOH make 2,500 mL at 4 M?",
+    "explanation": "Convert 2,500 mL to 2.5 L. Moles needed = 4 mol/L × 2.5 L = 10 mol. NaOH molar mass is 40 g/mol. Mass = 10 mol × 40 g/mol = 400 g.",
+    "optionExplanations": [
+      "40 g is only 1 mol, below the required 10 mol.",
+      "100 g is 2.5 mol, still too little.",
+      "160 g is enough for 1 L at 4 M, not 2.5 L.",
+      "400 g provides the required 10 mol."
+    ],
+    "memory": "Molarity × liters × molar mass gives grams.",
+    "quickCheck": {
+      "question": "How many moles are required?",
+      "answer": "10 mol."
+    }
+  },
+  "book-373-35": {
+    "questionInPlainEnglish": "How much water dilutes the remaining acid from 0.208 N to 0.20 N?",
+    "explanation": "Titration used 10 mL, leaving 2,000 − 10 = 1,990 mL. Final volume = 1,990 mL × 0.208/0.20 = 2,069.6 mL. Water added = 2,069.6 − 1,990 = 79.6 mL.",
+    "optionExplanations": [
+      "10.4 mL is too little to reach the target dilution.",
+      "76.5 mL is below the calculated added volume.",
+      "79.6 mL matches the remaining-volume calculation.",
+      "80.0 mL would match using the original full 2 L instead of the 1,990 mL left."
+    ],
+    "memory": "Subtract the titration sample before correcting the remaining batch.",
+    "quickCheck": {
+      "question": "How much acid solution remains before dilution?",
+      "answer": "1,990 mL."
+    }
+  },
+  "book-373-54": {
+    "questionInPlainEnglish": "Convert 68% light transmittance into absorbance.",
+    "explanation": "Transmittance is the fraction of light that passes through: 68% = 0.68. Absorbance A = −log₁₀(T), so A = −log₁₀(0.68) = 0.1675, rounded to 0.168. Absorbance is unitless.",
+    "optionExplanations": [
+      "0.109 is lower than −log₁₀(0.68).",
+      "0.168 is the rounded absorbance.",
+      "0.320 is the fraction of incident light not transmitted, not the logarithmic absorbance.",
+      "0.495 is above the calculated absorbance."
+    ],
+    "memory": "Turn percent into a fraction before taking minus log.",
+    "quickCheck": {
+      "question": "What fraction corresponds to 68%?",
+      "answer": "0.68."
+    },
+    "sourceNote": "The stem’s “%r” is an OCR error for %T."
+  },
+  "book-373-60": {
+    "questionInPlainEnglish": "How much NaCl contains 50 mg of chloride?",
+    "explanation": "Each 58.5 mg NaCl contains 35.5 mg chloride; the rest is sodium. Required salt = 50 mg chloride × (58.5 mg NaCl/35.5 mg chloride) = 82.4 mg NaCl. The salt must weigh more than the chloride it contains.",
+    "optionExplanations": [
+      "19.6 mg salt cannot contain 50 mg chloride because total mass is too small.",
+      "30.3 mg salt is also less than the required chloride mass.",
+      "50.0 mg salt includes sodium, so its chloride content is less than 50 mg.",
+      "82.4 mg salt provides 50 mg chloride by the mass ratio."
+    ],
+    "memory": "A compound weighs more than just one of its ingredients.",
+    "quickCheck": {
+      "question": "Why is the answer greater than 50 mg?",
+      "answer": "NaCl includes sodium mass as well as chloride mass."
+    }
+  },
+  "book-399-11": {
+    "questionInPlainEnglish": "Which water category is intended for accurate analytical testing?",
+    "explanation": "Reagent-grade water has impurity levels controlled for laboratory analysis. Unwanted ions, organics, particles, or microbes can affect a test. The required water quality must match the method rather than rely on a name alone.",
+    "optionExplanations": [
+      "Distillation is a treatment method and does not by itself guarantee every required quality criterion.",
+      "Pure grade is not a sufficiently defined analytical specification.",
+      "Reagent-grade water is the intended general analytical category.",
+      "Special reagent water is tailored to particular uses rather than the general answer selected here."
+    ],
+    "memory": "Water is a reagent too.",
+    "quickCheck": {
+      "question": "Can a water impurity alter an assay result?",
+      "answer": "Yes."
+    },
+    "sourceNote": "Water classifications have evolved; validate the method-specific requirements and current standards rather than assuming one production method guarantees suitability."
+  },
+  "book-399-21": {
+    "questionInPlainEnglish": "What happens to control results when a new calibrator is weaker than its assigned label says?",
+    "explanation": "The instrument sees a smaller signal but is told it represents the full assigned concentration. It then scales unknown samples too high. Because the calibrator changed at one point, control values show an upward shift rather than a slow trend.",
+    "optionExplanations": [
+      "An upward trend is gradual, whereas the new calibrator causes an abrupt change.",
+      "A downward trend has both the wrong direction and wrong time pattern.",
+      "An upward shift matches abrupt overestimation.",
+      "A downward shift would imply results suddenly became too low."
+    ],
+    "memory": "A weak mislabeled calibrator makes samples look too strong.",
+    "quickCheck": {
+      "question": "Does a shift happen abruptly or gradually?",
+      "answer": "Abruptly."
+    }
+  },
+  "book-399-31": {
+    "questionInPlainEnglish": "Which statistic is calculated by the source formula that includes a final square root?",
+    "explanation": "The book identifies sample standard deviation: s = √[Σ(x − mean)²/(n − 1)]. It measures spread in the same units as the results. For values 2 and 4, mean = 3, squared deviations total 2, and s = √[2/(2 − 1)] = 1.414.",
+    "optionExplanations": [
+      "CV divides SD by the mean and usually expresses it as a percentage.",
+      "Variance is the expression before taking the square root.",
+      "Confidence limits require an estimate and an uncertainty interval.",
+      "Standard deviation is the square root of sample variance."
+    ],
+    "memory": "Final square root returns spread to the original units.",
+    "quickCheck": {
+      "question": "What are variance units if results are in mg/dL?",
+      "answer": "(mg/dL)²."
+    },
+    "sourceNote": "The original extracted stem formula was OCR-damaged. The intended formula is s = √[Σ(x − x̄)²/(n − 1)], which calculates sample standard deviation."
+  },
+  "book-399-40": {
+    "questionInPlainEnglish": "What should a technologist do if unsure of a specialized test’s exact steps?",
+    "explanation": "Consult the current procedure manual and seek supervisor guidance. A written validated procedure keeps timing, volumes, and interpretation consistent instead of relying on incomplete memory.",
+    "optionExplanations": [
+      "Another qualified worker may help, but simply handing off the task does not address the need to review the procedure.",
+      "Reviewing the procedure and notifying the supervisor is the best course.",
+      "Guessing the steps can create errors even if a control appears acceptable.",
+      "Uncertainty about technique does not by itself make the patient specimen unacceptable."
+    ],
+    "memory": "When memory is uncertain, the procedure is the reference.",
+    "quickCheck": {
+      "question": "Can acceptable controls justify inventing uncertain procedure steps?",
+      "answer": "No."
+    }
+  },
+  "book-399-43": {
+    "questionInPlainEnglish": "Which Westgard rule detects a high and a low control separated by more than four SD within a run?",
+    "explanation": "If one control is beyond +2 SD and another beyond −2 SD in the same run, the distance between them exceeds 4 SD. This is the R₄s rule, where R means range. It often suggests random analytical error.",
+    "optionExplanations": [
+      "1₂s flags one result beyond two SD as a warning in a multirule system.",
+      "2₂s needs two results beyond the same two-SD boundary.",
+      "4₁s requires four results beyond one SD on the same side.",
+      "R₄s matches a within-run range greater than four SD."
+    ],
+    "memory": "R means range: high-to-low gap over four SD.",
+    "quickCheck": {
+      "question": "Should R₄s be applied across unrelated runs?",
+      "answer": "No; it is a within-run rule."
+    },
+    "sourceNote": "The item assumes both points are in the same analytical run; exact repeats and corrective action follow the validated quality-control procedure."
+  },
+  "book-399-60": {
+    "questionInPlainEnglish": "After immediate water flushing for a corrosive hand exposure, what source guides the next response?",
+    "explanation": "The chemical’s safety data sheet gives specific first-aid and hazard information. Consult it promptly while continuing the required flushing and arranging medical help as appropriate. Do not interrupt urgent decontamination just to find paperwork.",
+    "optionExplanations": [
+      "The safety data sheet provides the chemical-specific response information sought.",
+      "Wiping the bench is not the next priority for an exposed person.",
+      "Diluting and bagging the spill does not address the person’s exposure and may be unsafe.",
+      "Emergency medical evaluation may be needed, but the book asks for the next information source after initial rinsing."
+    ],
+    "memory": "Rinse immediately; use the SDS to guide the response.",
+    "quickCheck": {
+      "question": "Should water flushing stop just so someone can fetch the SDS?",
+      "answer": "No; someone else can retrieve it while flushing continues."
+    },
+    "sourceNote": "MSDS is older terminology for SDS. Follow current chemical-specific first aid and seek urgent medical care when indicated; flushing should not be shortened by this exam sequence."
+  },
+  "book-399-71": {
+    "questionInPlainEnglish": "Which practice safely secures a compressed-gas cylinder in use?",
+    "explanation": "A cylinder stores gas at high pressure. If it falls and its valve breaks, escaping gas can propel it violently. Securing it upright to a suitable support helps prevent that accident.",
+    "optionExplanations": [
+      "Loose transport on a cart allows the cylinder to fall; use an appropriate secured cylinder cart.",
+      "Securing the cylinder to a wall or bench is the correct listed practice.",
+      "Gas cylinders and flammable liquids should not simply be grouped together; compatibility and fire rules matter.",
+      "Ordering the largest cylinder solely to reduce movement can create unsuitable handling and storage risks."
+    ],
+    "memory": "Secure the cylinder; protect the valve.",
+    "quickCheck": {
+      "question": "Why can a broken cylinder valve be dangerous?",
+      "answer": "High-pressure gas can propel the cylinder."
+    },
+    "sourceNote": "The rationale incorrectly implies all compressed gases are combustible. Many are inert or oxidizing; storage must follow the specific gas hazards and compatibility rules."
+  },
+  "book-399-81": {
+    "questionInPlainEnglish": "Which item is NOT part of a chemical safety data sheet?",
+    "explanation": "A safety data sheet describes hazards, protective measures, first aid, storage, and spill response. Purchase price is commercial information rather than a safety requirement, so cost is the exception.",
+    "optionExplanations": [
+      "Health hazard information belongs on an SDS.",
+      "Fire and explosion hazards belong on an SDS.",
+      "First-aid measures belong on an SDS.",
+      "Chemical cost is not a required SDS safety-information section."
+    ],
+    "memory": "SDS explains safe use, not sale price.",
+    "quickCheck": {
+      "question": "Where would you look for chemical first-aid information?",
+      "answer": "The safety data sheet."
+    },
+    "sourceNote": "Material safety data sheet, or MSDS, is older terminology; the current standardized document is an SDS."
+  }
+}

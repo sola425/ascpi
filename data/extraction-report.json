@@ -1,0 +1,1216 @@
+{
+  "pdfPages": 434,
+  "practiceQuestions": 1484,
+  "sections": [
+    {
+      "topic": "Hematology",
+      "questionPages": [
+        1,
+        35
+      ],
+      "answerPages": [
+        36,
+        85
+      ],
+      "detectedQuestions": 300,
+      "practiceQuestions": 300,
+      "omitted": [],
+      "initialDetectedQuestions": 301,
+      "initialPracticeQuestions": 281,
+      "initialOmissions": [
+        {
+          "number": 3,
+          "page": 1,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 31,
+          "page": 4,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 34,
+          "page": 4,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 41,
+          "page": 5,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 50,
+          "page": 6,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 61,
+          "page": 6,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 63,
+          "page": 7,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 100,
+          "page": 11,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 110,
+          "page": 12,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 138,
+          "page": 16,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 152,
+          "page": 17,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 170,
+          "page": 19,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 180,
+          "page": 20,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 170,
+          "page": 20,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 224,
+          "page": 24,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 234,
+          "page": 25,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 241,
+          "page": 26,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 288,
+          "page": 33,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        },
+        {
+          "number": 292,
+          "page": 34,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        },
+        {
+          "number": 296,
+          "page": 34,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Hemostasis",
+      "questionPages": [
+        86,
+        98
+      ],
+      "answerPages": [
+        99,
+        109
+      ],
+      "detectedQuestions": 75,
+      "practiceQuestions": 75,
+      "omitted": [],
+      "initialDetectedQuestions": 74,
+      "initialPracticeQuestions": 66,
+      "initialOmissions": [
+        {
+          "number": 7,
+          "page": 87,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 21,
+          "page": 88,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 28,
+          "page": 89,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 30,
+          "page": 89,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 41,
+          "page": 90,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 55,
+          "page": 92,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 68,
+          "page": 95,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 71,
+          "page": 97,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Immunology",
+      "questionPages": [
+        110,
+        121
+      ],
+      "answerPages": [
+        122,
+        134
+      ],
+      "detectedQuestions": 100,
+      "practiceQuestions": 100,
+      "omitted": [],
+      "initialDetectedQuestions": 100,
+      "initialPracticeQuestions": 91,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 110,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 11,
+          "page": 111,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 30,
+          "page": 113,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 56,
+          "page": 115,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 58,
+          "page": 116,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 70,
+          "page": 117,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 71,
+          "page": 117,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 78,
+          "page": 118,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 80,
+          "page": 118,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Blood bank",
+      "questionPages": [
+        135,
+        165
+      ],
+      "answerPages": [
+        166,
+        202
+      ],
+      "detectedQuestions": 228,
+      "practiceQuestions": 228,
+      "omitted": [],
+      "initialDetectedQuestions": 225,
+      "initialPracticeQuestions": 151,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 135,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 2,
+          "page": 135,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 11,
+          "page": 136,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 16,
+          "page": 137,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 17,
+          "page": 137,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 18,
+          "page": 138,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 19,
+          "page": 138,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 20,
+          "page": 138,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 21,
+          "page": 138,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 24,
+          "page": 138,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 31,
+          "page": 139,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 34,
+          "page": 140,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 38,
+          "page": 140,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        },
+        {
+          "number": 39,
+          "page": 140,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 40,
+          "page": 140,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 41,
+          "page": 140,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 42,
+          "page": 140,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 43,
+          "page": 140,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 44,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 45,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 46,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 47,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 48,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 49,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 50,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 51,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 52,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 53,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 54,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 55,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 56,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 57,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 58,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 59,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 60,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 62,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 63,
+          "page": 141,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 91,
+          "page": 145,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 93,
+          "page": 145,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 110,
+          "page": 149,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        },
+        {
+          "number": 111,
+          "page": 149,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 112,
+          "page": 149,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 113,
+          "page": 149,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 114,
+          "page": 149,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 115,
+          "page": 149,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 116,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 117,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 118,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 119,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 120,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 121,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 122,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 123,
+          "page": 150,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 128,
+          "page": 151,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        },
+        {
+          "number": 131,
+          "page": 152,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 173,
+          "page": 158,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        },
+        {
+          "number": 175,
+          "page": 158,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 176,
+          "page": 158,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 177,
+          "page": 158,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 178,
+          "page": 158,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 180,
+          "page": 159,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 181,
+          "page": 159,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 182,
+          "page": 159,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 183,
+          "page": 159,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 184,
+          "page": 159,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 201,
+          "page": 161,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 221,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 222,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 223,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 224,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 225,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 226,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 227,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 228,
+          "page": 165,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Bacteriology",
+      "questionPages": [
+        203,
+        241
+      ],
+      "answerPages": [
+        242,
+        288
+      ],
+      "detectedQuestions": 360,
+      "practiceQuestions": 360,
+      "omitted": [],
+      "initialDetectedQuestions": 357,
+      "initialPracticeQuestions": 330,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 203,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 5,
+          "page": 203,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 11,
+          "page": 204,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 23,
+          "page": 205,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 30,
+          "page": 206,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 51,
+          "page": 208,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 60,
+          "page": 209,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 79,
+          "page": 211,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 101,
+          "page": 213,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 111,
+          "page": 214,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 111,
+          "page": 215,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 126,
+          "page": 216,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 157,
+          "page": 219,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 111,
+          "page": 220,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 111,
+          "page": 220,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 188,
+          "page": 221,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 198,
+          "page": 222,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 208,
+          "page": 223,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 221,
+          "page": 224,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 221,
+          "page": 225,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 237,
+          "page": 226,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 251,
+          "page": 228,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 254,
+          "page": 228,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 251,
+          "page": 228,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 271,
+          "page": 230,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 315,
+          "page": 234,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 5,
+          "page": 234,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Mycology",
+      "questionPages": [
+        289,
+        294
+      ],
+      "answerPages": [
+        295,
+        301
+      ],
+      "detectedQuestions": 50,
+      "practiceQuestions": 50,
+      "omitted": [],
+      "initialDetectedQuestions": 48,
+      "initialPracticeQuestions": 31,
+      "initialOmissions": [
+        {
+          "number": 4,
+          "page": 290,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 80,
+          "page": 290,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 1,
+          "page": 290,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 11,
+          "page": 291,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 31,
+          "page": 293,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 32,
+          "page": 293,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 34,
+          "page": 293,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 35,
+          "page": 293,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 36,
+          "page": 293,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 37,
+          "page": 293,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 39,
+          "page": 294,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 42,
+          "page": 294,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 43,
+          "page": 294,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 45,
+          "page": 294,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 47,
+          "page": 294,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 48,
+          "page": 294,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 49,
+          "page": 294,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Parasitology",
+      "questionPages": [
+        302,
+        309
+      ],
+      "answerPages": [
+        310,
+        317
+      ],
+      "detectedQuestions": 60,
+      "practiceQuestions": 60,
+      "omitted": [],
+      "initialDetectedQuestions": 58,
+      "initialPracticeQuestions": 53,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 302,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 2,
+          "page": 302,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 11,
+          "page": 303,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 45,
+          "page": 307,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 51,
+          "page": 308,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Virology",
+      "questionPages": [
+        318,
+        323
+      ],
+      "answerPages": [
+        324,
+        330
+      ],
+      "detectedQuestions": 50,
+      "practiceQuestions": 50,
+      "omitted": [],
+      "initialDetectedQuestions": 50,
+      "initialPracticeQuestions": 45,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 318,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 21,
+          "page": 320,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 22,
+          "page": 320,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 23,
+          "page": 320,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 49,
+          "page": 323,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Molecular diagnostics",
+      "questionPages": [
+        331,
+        337
+      ],
+      "answerPages": [
+        338,
+        350
+      ],
+      "detectedQuestions": 50,
+      "practiceQuestions": 50,
+      "omitted": [],
+      "initialDetectedQuestions": 49,
+      "initialPracticeQuestions": 42,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 331,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 8,
+          "page": 332,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 32,
+          "page": 335,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 44,
+          "page": 336,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        },
+        {
+          "number": 45,
+          "page": 336,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 46,
+          "page": 337,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 47,
+          "page": 337,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Urinalysis",
+      "questionPages": [
+        351,
+        360
+      ],
+      "answerPages": [
+        361,
+        372
+      ],
+      "detectedQuestions": 67,
+      "practiceQuestions": 67,
+      "omitted": [],
+      "initialDetectedQuestions": 67,
+      "initialPracticeQuestions": 61,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 351,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 11,
+          "page": 352,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 21,
+          "page": 354,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 27,
+          "page": 355,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 36,
+          "page": 356,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 44,
+          "page": 357,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Laboratory mathematics",
+      "questionPages": [
+        373,
+        380
+      ],
+      "answerPages": [
+        381,
+        398
+      ],
+      "detectedQuestions": 60,
+      "practiceQuestions": 60,
+      "omitted": [],
+      "initialDetectedQuestions": 60,
+      "initialPracticeQuestions": 53,
+      "initialOmissions": [
+        {
+          "number": 1,
+          "page": 373,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 10,
+          "page": 374,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 21,
+          "page": 375,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 23,
+          "page": 375,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 35,
+          "page": 376,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 54,
+          "page": 378,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 60,
+          "page": 379,
+          "reason": "Empty or unusually long extracted text; inspect source"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    },
+    {
+      "topic": "Lab essentials",
+      "questionPages": [
+        399,
+        409
+      ],
+      "answerPages": [
+        410,
+        422
+      ],
+      "detectedQuestions": 84,
+      "practiceQuestions": 84,
+      "omitted": [],
+      "initialDetectedQuestions": 84,
+      "initialPracticeQuestions": 76,
+      "initialOmissions": [
+        {
+          "number": 11,
+          "page": 400,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 21,
+          "page": 401,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 31,
+          "page": 402,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 40,
+          "page": 403,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 43,
+          "page": 404,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 60,
+          "page": 406,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 71,
+          "page": 407,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        },
+        {
+          "number": 81,
+          "page": 409,
+          "reason": "Incomplete options or missing explicit numbered rationale"
+        }
+      ],
+      "status": "All numbered questions restored and included."
+    }
+  ],
+  "note": "All 1,484 numbered questions are represented after full-page OCR, grouped-key recovery and matching/table transcription. Source repairs are recorded separately. Original PDF preserved. Source content may contain historical or scientific errors; teaching notes flag known issues. Structural completeness does not establish a full medical audit.",
+  "previousConservativeQuestionCount": 1280,
+  "recoveredQuestions": 204,
+  "verifiedChapterInventory": {
+    "Hematology": 300,
+    "Hemostasis": 75,
+    "Immunology": 100,
+    "Blood bank": 228,
+    "Bacteriology": 360,
+    "Mycology": 50,
+    "Parasitology": 60,
+    "Virology": 50,
+    "Molecular diagnostics": 50,
+    "Urinalysis": 67,
+    "Laboratory mathematics": 60,
+    "Lab essentials": 84
+  }
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "term": "Hematopoiesis",
+    "aliases": [
+      "hematopoietic"
+    ],
+    "meaning": "Making blood cells. Think of bone marrow as the body’s blood-cell factory."
+  },
+  {
+    "term": "Erythrocyte",
+    "aliases": [
+      "erythrocytes",
+      "red blood cells"
+    ],
+    "meaning": "A red blood cell. Its main delivery job is carrying oxygen around the body."
+  },
+  {
+    "term": "Leukocyte",
+    "aliases": [
+      "leukocytes",
+      "white blood cells"
+    ],
+    "meaning": "A white blood cell. Different types help defend the body in different ways."
+  },
+  {
+    "term": "Platelet",
+    "aliases": [
+      "platelets",
+      "thrombocyte"
+    ],
+    "meaning": "A tiny cell fragment that helps form a plug at a damaged blood vessel."
+  },
+  {
+    "term": "Megakaryocyte",
+    "aliases": [
+      "megakaryocytes"
+    ],
+    "meaning": "A very large bone-marrow cell that releases small pieces which become platelets."
+  },
+  {
+    "term": "Lymphocyte",
+    "aliases": [
+      "lymphocytes"
+    ],
+    "meaning": "An immune cell from the B-cell, T-cell or natural-killer-cell groups."
+  },
+  {
+    "term": "Neutrophil",
+    "aliases": [
+      "neutrophils",
+      "polymorphonuclear"
+    ],
+    "meaning": "A white blood cell that can quickly swallow microbes. It is part of the body’s early defense."
+  },
+  {
+    "term": "Monocyte",
+    "aliases": [
+      "monocytes"
+    ],
+    "meaning": "A white blood cell that can enter tissues and develop into a cleanup cell called a macrophage."
+  },
+  {
+    "term": "Macrophage",
+    "aliases": [
+      "macrophages"
+    ],
+    "meaning": "A tissue immune cell that swallows microbes and debris, like a tiny cleanup worker."
+  },
+  {
+    "term": "Granulocyte",
+    "aliases": [
+      "granulocytes",
+      "granulocytic"
+    ],
+    "meaning": "A white blood cell with storage packets called granules. Neutrophils are one example."
+  },
+  {
+    "term": "Myeloid",
+    "aliases": [],
+    "meaning": "A blood-cell family branch that makes red cells, platelets and several kinds of white cells."
+  },
+  {
+    "term": "Erythroid",
+    "aliases": [
+      "erythrocytic"
+    ],
+    "meaning": "Belonging to the red-blood-cell family, especially while the cells are developing."
+  },
+  {
+    "term": "Precursor",
+    "aliases": [
+      "precursors",
+      "progenitor"
+    ],
+    "meaning": "An earlier cell that can develop into a more mature cell, like a trainee growing into its job."
+  },
+  {
+    "term": "Blast",
+    "aliases": [
+      "blasts",
+      "myeloblast"
+    ],
+    "meaning": "A very immature blood-forming cell. Its meaning depends on its number, type and location."
+  },
+  {
+    "term": "Hemoglobin",
+    "aliases": [
+      "haemoglobin"
+    ],
+    "meaning": "The oxygen-carrying protein inside red blood cells. It contains iron-bearing heme groups."
+  },
+  {
+    "term": "Heme",
+    "aliases": [],
+    "meaning": "The iron-containing part of hemoglobin that helps bind oxygen."
+  },
+  {
+    "term": "Globin",
+    "aliases": [
+      "globin chains"
+    ],
+    "meaning": "The protein-chain part of hemoglobin. Several chains fit together to make the full molecule."
+  },
+  {
+    "term": "Anemia",
+    "aliases": [
+      "anaemia"
+    ],
+    "meaning": "A hemoglobin level below the suitable reference range, reducing the blood’s oxygen-carrying capacity."
+  },
+  {
+    "term": "Hematocrit",
+    "aliases": [
+      "haematocrit"
+    ],
+    "meaning": "The fraction of a blood sample’s volume occupied by red cells."
+  },
+  {
+    "term": "Reticulocyte",
+    "aliases": [
+      "reticulocytes"
+    ],
+    "meaning": "A young red blood cell that has recently left the bone-marrow factory."
+  },
+  {
+    "term": "Hemolysis",
+    "aliases": [
+      "hemolytic",
+      "haemolysis"
+    ],
+    "meaning": "Red blood cells breaking apart. The cause may be inside the body or damage to a collected sample."
+  },
+  {
+    "term": "Ferritin",
+    "aliases": [],
+    "meaning": "An iron-storage protein. It is like a cupboard that stores iron for later use."
+  },
+  {
+    "term": "Transferrin",
+    "aliases": [],
+    "meaning": "A protein that transports iron in the blood, like an iron-delivery vehicle."
+  },
+  {
+    "term": "Microcytic",
+    "aliases": [],
+    "meaning": "Describing red blood cells that are smaller than the expected size."
+  },
+  {
+    "term": "Macrocytic",
+    "aliases": [],
+    "meaning": "Describing red blood cells that are larger than the expected size."
+  },
+  {
+    "term": "Hypochromic",
+    "aliases": [],
+    "meaning": "Describing red cells with less hemoglobin concentration, making them look paler."
+  },
+  {
+    "term": "Thrombocytopenia",
+    "aliases": [],
+    "meaning": "Too few platelets. Thrombo refers to clotting cells, and -penia means a shortage."
+  },
+  {
+    "term": "Neutropenia",
+    "aliases": [],
+    "meaning": "A neutrophil count below the suitable range. A severe shortage can increase infection risk."
+  },
+  {
+    "term": "Cytoplasm",
+    "aliases": [],
+    "meaning": "The material inside a cell around its nucleus, containing many of the cell’s working parts."
+  },
+  {
+    "term": "Chromatin",
+    "aliases": [],
+    "meaning": "DNA packaged with proteins inside a cell’s nucleus, like instructions bundled for storage."
+  },
+  {
+    "term": "Antigen",
+    "aliases": [
+      "antigens",
+      "antigenic"
+    ],
+    "meaning": "A target recognized by an antibody or immune receptor. It is often a small feature on a larger object."
+  },
+  {
+    "term": "Antibody",
+    "aliases": [
+      "antibodies",
+      "immunoglobulin"
+    ],
+    "meaning": "An immune protein that recognizes a matching target, rather like a specially shaped detector."
+  },
+  {
+    "term": "Cytokine",
+    "aliases": [
+      "cytokines",
+      "interleukin"
+    ],
+    "meaning": "A chemical message used by cells to tell other cells what to do."
+  },
+  {
+    "term": "Complement",
+    "aliases": [],
+    "meaning": "A team of blood proteins that help immune defenses, for example by tagging targets or damaging some microbes."
+  },
+  {
+    "term": "Autoantibody",
+    "aliases": [
+      "autoantibodies"
+    ],
+    "meaning": "An antibody that reacts with a target belonging to the person’s own body."
+  },
+  {
+    "term": "Alloantibody",
+    "aliases": [
+      "alloantibodies"
+    ],
+    "meaning": "An antibody against a different person’s version of a target, such as a donor red-cell antigen."
+  },
+  {
+    "term": "Agglutination",
+    "aliases": [
+      "agglutinate",
+      "agglutinates"
+    ],
+    "meaning": "Cells or particles clumping together, often because antibodies link them."
+  },
+  {
+    "term": "Hemostasis",
+    "aliases": [
+      "haemostasis"
+    ],
+    "meaning": "The body’s controlled process for stopping bleeding while keeping the rest of the blood flowing."
+  },
+  {
+    "term": "Coagulation",
+    "aliases": [
+      "coagulation factors"
+    ],
+    "meaning": "The clotting-protein process that builds a fibrin mesh to help stabilize a blood clot."
+  },
+  {
+    "term": "Thrombosis",
+    "aliases": [
+      "thrombotic"
+    ],
+    "meaning": "A blood clot forming inside a blood vessel where it may obstruct blood flow."
+  },
+  {
+    "term": "Fibrinolysis",
+    "aliases": [],
+    "meaning": "Breaking down a fibrin clot, like carefully removing a temporary repair when it is no longer needed."
+  },
+  {
+    "term": "Hepatic",
+    "aliases": [
+      "hepatocytes"
+    ],
+    "meaning": "Related to the liver; hepatocytes are the liver’s main working cells."
+  },
+  {
+    "term": "Renal",
+    "aliases": [],
+    "meaning": "Related to the kidneys, the organs that help control fluid balance and remove waste."
+  },
+  {
+    "term": "Anticoagulant",
+    "aliases": [
+      "anticoagulation"
+    ],
+    "meaning": "A substance that reduces or prevents clotting. Different anticoagulants work in different ways."
+  },
+  {
+    "term": "Serum",
+    "aliases": [],
+    "meaning": "The liquid left after blood has clotted; it differs from plasma, which is obtained without clotting."
+  },
+  {
+    "term": "Plasma",
+    "aliases": [],
+    "meaning": "The liquid part of unclotted blood, containing proteins including clotting factors."
+  },
+  {
+    "term": "DNA",
+    "aliases": [],
+    "meaning": "The molecule that stores genetic instructions, like an instruction book made from four kinds of letters."
+  },
+  {
+    "term": "RNA",
+    "aliases": [],
+    "meaning": "A related information-carrying molecule. Cells use RNA in reading instructions and making proteins."
+  },
+  {
+    "term": "Gene",
+    "aliases": [
+      "genes"
+    ],
+    "meaning": "A stretch of genetic instructions used to make a functional product, often a protein."
+  },
+  {
+    "term": "Allele",
+    "aliases": [
+      "alleles"
+    ],
+    "meaning": "One version of a gene or genetic location, like a different edition of the same instruction."
+  },
+  {
+    "term": "Homozygous",
+    "aliases": [],
+    "meaning": "Having two matching versions at the genetic location being discussed."
+  },
+  {
+    "term": "Heterozygous",
+    "aliases": [],
+    "meaning": "Having two different versions at the genetic location being discussed."
+  },
+  {
+    "term": "PCR",
+    "aliases": [
+      "polymerase chain reaction"
+    ],
+    "meaning": "A laboratory copying method that makes many copies of a chosen DNA segment."
+  },
+  {
+    "term": "Polymerase",
+    "aliases": [],
+    "meaning": "An enzyme that builds a DNA or RNA chain by adding matching building blocks."
+  },
+  {
+    "term": "Enzyme",
+    "aliases": [
+      "enzymes"
+    ],
+    "meaning": "A biological helper that speeds up a chemical reaction, like a tiny specialized tool."
+  },
+  {
+    "term": "Coccus",
+    "aliases": [
+      "cocci",
+      "diplococcus"
+    ],
+    "meaning": "A roughly round bacterium. Cocci is plural; diplococci are cells seen in pairs."
+  },
+  {
+    "term": "Bacillus",
+    "aliases": [
+      "bacilli",
+      "coccobacillus"
+    ],
+    "meaning": "In shape descriptions, a bacillus is a rod. A coccobacillus is a short, plump rod. Capitalized Bacillus can also name a genus."
+  },
+  {
+    "term": "Motility",
+    "aliases": [
+      "motile",
+      "nonmotile"
+    ],
+    "meaning": "A cell’s ability to move by itself. Nonmotile means it does not move under its own power."
+  },
+  {
+    "term": "Capsule",
+    "aliases": [
+      "encapsulated"
+    ],
+    "meaning": "An outer covering around some microbes. It can affect how the immune system recognizes them."
+  },
+  {
+    "term": "Fermentation",
+    "aliases": [
+      "fermenter",
+      "nonfermenter"
+    ],
+    "meaning": "A way cells obtain energy from chemicals such as sugars without using a normal respiratory pathway. A nonfermenter may still use sugar another way."
+  },
+  {
+    "term": "Oxidase",
+    "aliases": [],
+    "meaning": "An enzyme-related laboratory clue about a part of cellular respiration; it is not the same as every kind of oxygen use."
+  },
+  {
+    "term": "Catalase",
+    "aliases": [],
+    "meaning": "An enzyme that breaks hydrogen peroxide into water and oxygen."
+  },
+  {
+    "term": "Urease",
+    "aliases": [],
+    "meaning": "An enzyme that breaks down urea and can release ammonia, which can make the surroundings more alkaline."
+  },
+  {
+    "term": "Toxin",
+    "aliases": [
+      "toxins",
+      "enterotoxin"
+    ],
+    "meaning": "A harmful substance made by an organism. Enterotoxin means a toxin that affects the intestines."
+  },
+  {
+    "term": "Zoonosis",
+    "aliases": [
+      "zoonotic"
+    ],
+    "meaning": "An infection that can pass from an animal source to people."
+  },
+  {
+    "term": "Hyphae",
+    "aliases": [
+      "hypha",
+      "mycelium"
+    ],
+    "meaning": "Threadlike fungal structures. A network of these threads is called a mycelium."
+  },
+  {
+    "term": "Conidia",
+    "aliases": [
+      "conidium"
+    ],
+    "meaning": "A type of fungal reproductive spore. Its shape can be one clue used in identifying a fungus."
+  },
+  {
+    "term": "Cyst",
+    "aliases": [
+      "cysts"
+    ],
+    "meaning": "In many parasite questions, a protected resting form. In other medical contexts, cyst can mean a fluid-filled sac."
+  },
+  {
+    "term": "Trophozoite",
+    "aliases": [
+      "trophozoites"
+    ],
+    "meaning": "The active feeding form of certain single-celled parasites."
+  },
+  {
+    "term": "Assay",
+    "aliases": [
+      "assays"
+    ],
+    "meaning": "A test that measures or detects something. It is another word for a laboratory test method."
+  },
+  {
+    "term": "Reference interval",
+    "aliases": [
+      "reference range"
+    ],
+    "meaning": "A comparison range from a defined group of people. Being inside it does not guarantee health, and being outside it does not prove disease."
+  },
+  {
+    "term": "Mean",
+    "aliases": [
+      "arithmetic average"
+    ],
+    "meaning": "The average: add the values and divide by how many values there are."
+  },
+  {
+    "term": "Standard deviation",
+    "aliases": [],
+    "meaning": "A number describing how spread out values are around their mean. A bigger value usually means a wider spread."
+  },
+  {
+    "term": "Coefficient of variation",
+    "aliases": [],
+    "meaning": "Spread compared with the average, usually calculated as standard deviation divided by mean, multiplied by 100%."
+  },
+  {
+    "term": "Accuracy",
+    "aliases": [],
+    "meaning": "How close a measured result is to the accepted reference value."
+  },
+  {
+    "term": "Precision",
+    "aliases": [],
+    "meaning": "How close repeated measurements are to each other, even if they are not all close to the reference value."
+  },
+  {
+    "term": "Calibrator",
+    "aliases": [
+      "calibration"
+    ],
+    "meaning": "A material with an assigned value used to set a test system’s measuring relationship."
+  },
+  {
+    "term": "Quality control",
+    "aliases": [],
+    "meaning": "Checking suitable control materials to monitor whether a test system is performing acceptably."
+  },
+  {
+    "term": "Dilution",
+    "aliases": [
+      "diluted"
+    ],
+    "meaning": "Reducing concentration by adding a suitable liquid, while keeping track of how much the original sample was diluted."
+  },
+  {
+    "term": "Molarity",
+    "aliases": [
+      "molar solution"
+    ],
+    "meaning": "Moles of dissolved substance per liter of final solution. A mole is a counting unit for tiny particles."
+  },
+  {
+    "term": "Molality",
+    "aliases": [],
+    "meaning": "Moles of dissolved substance per kilogram of solvent, rather than per liter of solution."
+  },
+  {
+    "term": "Absorbance",
+    "aliases": [],
+    "meaning": "A measure of how much light a sample absorbs. It is related logarithmically to how much light gets through."
+  },
+  {
+    "term": "Transmittance",
+    "aliases": [],
+    "meaning": "The fraction of light that passes through a sample; percent transmittance expresses it out of 100."
+  },
+  {
+    "term": "Biopsy",
+    "aliases": [],
+    "meaning": "A tissue sample taken for examination, often to study both cells and their arrangement."
+  },
+  {
+    "term": "Aspirate",
+    "aliases": [
+      "aspiration"
+    ],
+    "meaning": "Material withdrawn by suction for examination; a marrow aspirate helps show individual developing blood cells."
+  },
+  {
+    "term": "International unit",
+    "aliases": [
+      "international units"
+    ],
+    "meaning": "A measure of a substance’s biological activity, not simply its weight in grams."
+  },
+  {
+    "term": "Anaerobe",
+    "aliases": [
+      "anaerobic",
+      "anaerobes"
+    ],
+    "meaning": "A microbe that can grow without oxygen. Some anaerobes are harmed by oxygen, while others can tolerate it."
+  },
+  {
+    "term": "Bacteremia",
+    "aliases": [
+      "bacteraemia"
+    ],
+    "meaning": "Bacteria present in the bloodstream. It is not automatically the same thing as sepsis."
+  },
+  {
+    "term": "Septicemia",
+    "aliases": [
+      "septicaemia"
+    ],
+    "meaning": "An older term often used for a serious bloodstream infection. Modern terms distinguish bloodstream infection from the body’s harmful response called sepsis."
+  },
+  {
+    "term": "Sepsis",
+    "aliases": [],
+    "meaning": "A life-threatening harmful response to an infection that can damage the body’s own organs."
+  },
+  {
+    "term": "Malignancy",
+    "aliases": [
+      "malignant"
+    ],
+    "meaning": "Cancer: abnormal cells growing in a harmful, uncontrolled way. Underlying malignancy means a cancer that may be causing another finding."
+  },
+  {
+    "term": "Colon",
+    "aliases": [],
+    "meaning": "The large-intestine section that helps absorb water and form stool; not the whole digestive system."
+  },
+  {
+    "term": "Intestinal",
+    "aliases": [
+      "intestine"
+    ],
+    "meaning": "Related to the intestines, where food is digested, nutrients absorbed and waste prepared to leave the body."
+  },
+  {
+    "term": "Infection",
+    "aliases": [
+      "infectious"
+    ],
+    "meaning": "An organism entering and multiplying in the body; whether it causes illness depends on the organism, location and host."
+  },
+  {
+    "term": "Inflammation",
+    "aliases": [
+      "inflammatory"
+    ],
+    "meaning": "The body’s response to injury or irritation. It may involve swelling, warmth or immune-cell activity and is not always caused by infection."
+  },
+  {
+    "term": "Syndrome",
+    "aliases": [],
+    "meaning": "A group of findings that tend to occur together; a syndrome can sometimes have several different causes."
+  },
+  {
+    "term": "Acute",
+    "aliases": [],
+    "meaning": "Beginning suddenly or lasting a relatively short time; it does not automatically mean severe."
+  },
+  {
+    "term": "Chronic",
+    "aliases": [],
+    "meaning": "Persisting or recurring over a long time; the exact time definition depends on the condition."
+  },
+  {
+    "term": "Congenital",
+    "aliases": [],
+    "meaning": "Present at birth. It can have inherited or non-inherited causes."
+  },
+  {
+    "term": "Hereditary",
+    "aliases": [
+      "inherited"
+    ],
+    "meaning": "Passed through genetic information from parent to child."
+  },
+  {
+    "term": "Etiology",
+    "aliases": [
+      "etiologic"
+    ],
+    "meaning": "The cause of a disease. An etiologic agent is the organism or factor causing it."
+  },
+  {
+    "term": "Pathogen",
+    "aliases": [
+      "pathogenic"
+    ],
+    "meaning": "An organism capable of causing disease in a suitable host or situation."
+  },
+  {
+    "term": "Opportunistic",
+    "aliases": [
+      "opportunist"
+    ],
+    "meaning": "Taking advantage of a chance to cause disease, such as weakened defenses or entry into an unusual body site."
+  },
+  {
+    "term": "Immunodeficiency",
+    "aliases": [
+      "immunodeficient",
+      "immunocompromised"
+    ],
+    "meaning": "Reduced immune defenses. Different conditions affect different parts of the immune system."
+  },
+  {
+    "term": "Immune",
+    "aliases": [],
+    "meaning": "Related to the body’s defenses, which recognize and respond to microbes and other targets."
+  },
+  {
+    "term": "Innate",
+    "aliases": [],
+    "meaning": "An early, general defense that does not need to learn a particular target beforehand."
+  },
+  {
+    "term": "Adaptive",
+    "aliases": [],
+    "meaning": "A target-specific immune response that develops through recognition and can form memory."
+  },
+  {
+    "term": "Humoral",
+    "aliases": [],
+    "meaning": "Related to substances in body fluids; in immunity it usually refers especially to antibodies."
+  },
+  {
+    "term": "Hypersensitivity",
+    "aliases": [],
+    "meaning": "An immune response that causes unwanted harm, such as certain allergies or other immune injuries."
+  },
+  {
+    "term": "Fc region",
+    "aliases": [
+      "Fc portion",
+      "Fc part"
+    ],
+    "meaning": "The constant stem of a Y-shaped antibody, which can interact with immune cells or other defense proteins."
+  },
+  {
+    "term": "Fab",
+    "aliases": [
+      "Fab fragment"
+    ],
+    "meaning": "The target-binding arm region of an antibody. Its shape helps it recognize a matching antigen."
+  },
+  {
+    "term": "IgG",
+    "aliases": [],
+    "meaning": "One antibody class. It is common in blood and is the main class that crosses the placenta to help protect a baby."
+  },
+  {
+    "term": "IgM",
+    "aliases": [],
+    "meaning": "An antibody class often produced early in a response; in blood it is usually arranged as a larger multi-unit molecule."
+  },
+  {
+    "term": "IgA",
+    "aliases": [],
+    "meaning": "An antibody class especially important at moist body surfaces and in secretions, such as saliva and breast milk."
+  },
+  {
+    "term": "IgE",
+    "aliases": [],
+    "meaning": "An antibody class involved in many immediate allergies and some responses to parasites."
+  },
+  {
+    "term": "Phenotype",
+    "aliases": [],
+    "meaning": "A characteristic that is expressed or can be observed, such as which blood-group markers are present."
+  },
+  {
+    "term": "Genotype",
+    "aliases": [],
+    "meaning": "The genetic versions a person or organism carries at the location being discussed."
+  },
+  {
+    "term": "HLA",
+    "aliases": [],
+    "meaning": "Human leukocyte antigens: inherited cell-surface identity markers used by the immune system to show or recognize targets."
+  },
+  {
+    "term": "Nucleus",
+    "aliases": [
+      "nuclei",
+      "nuclear"
+    ],
+    "meaning": "The compartment in many cells that holds most of their DNA instructions. Mature human red cells do not have one."
+  },
+  {
+    "term": "Mitochondria",
+    "aliases": [
+      "mitochondrion"
+    ],
+    "meaning": "Cell structures important in energy metabolism; they also have a small amount of their own DNA."
+  },
+  {
+    "term": "ATP",
+    "aliases": [],
+    "meaning": "A molecule cells use to transfer usable energy, like a small rechargeable energy token."
+  },
+  {
+    "term": "NAD",
+    "aliases": [],
+    "meaning": "A helper molecule that carries electrons in cell chemistry, including energy-related reactions."
+  },
+  {
+    "term": "Metabolism",
+    "aliases": [
+      "metabolic"
+    ],
+    "meaning": "The collection of chemical reactions that keep a cell or body working."
+  },
+  {
+    "term": "Hydrolysis",
+    "aliases": [
+      "hydrolyze",
+      "hydrolyses"
+    ],
+    "meaning": "Breaking a chemical bond using water as part of the reaction. It is one way cells split larger molecules."
+  },
+  {
+    "term": "Deaminase",
+    "aliases": [
+      "deamination"
+    ],
+    "meaning": "An enzyme or reaction that removes an amino group from a molecule, such as an amino acid."
+  },
+  {
+    "term": "Amino acid",
+    "aliases": [
+      "amino acids"
+    ],
+    "meaning": "One of the building blocks used to make proteins."
+  },
+  {
+    "term": "Protein",
+    "aliases": [
+      "proteins"
+    ],
+    "meaning": "A molecule built from amino acids; different proteins act as tools, carriers, signals or structural supports."
+  },
+  {
+    "term": "Carbohydrate",
+    "aliases": [
+      "carbohydrates"
+    ],
+    "meaning": "A group including sugars and starches; cells may use them as fuel or building materials."
+  },
+  {
+    "term": "Lipid",
+    "aliases": [
+      "lipids"
+    ],
+    "meaning": "A group of fat-like molecules used in cell membranes, energy storage and other jobs."
+  },
+  {
+    "term": "Specific gravity",
+    "aliases": [],
+    "meaning": "A comparison of a liquid’s density with water. In urine testing it can help describe how concentrated the sample is."
+  },
+  {
+    "term": "pH",
+    "aliases": [],
+    "meaning": "A scale describing acidity or alkalinity. Lower values are more acidic; higher values are more alkaline."
+  },
+  {
+    "term": "Alkaline",
+    "aliases": [
+      "alkalinity"
+    ],
+    "meaning": "Having a pH above neutral in the conditions being discussed; basic is another word for alkaline."
+  },
+  {
+    "term": "Acidic",
+    "aliases": [
+      "acidity"
+    ],
+    "meaning": "Having a pH below neutral in the conditions being discussed."
+  },
+  {
+    "term": "Cerebrospinal fluid",
+    "aliases": [
+      "CSF"
+    ],
+    "meaning": "The fluid surrounding the brain and spinal cord."
+  },
+  {
+    "term": "Meningitis",
+    "aliases": [],
+    "meaning": "Inflammation of the coverings around the brain and spinal cord, often due to an infection."
+  },
+  {
+    "term": "Pneumonia",
+    "aliases": [
+      "pneumonic"
+    ],
+    "meaning": "An infection or inflammation affecting lung tissue; different organisms can cause it."
+  },
+  {
+    "term": "Lymph node",
+    "aliases": [
+      "lymph nodes",
+      "lymphadenitis"
+    ],
+    "meaning": "A small immune-system checkpoint. Lymphadenitis means inflammation of lymph nodes."
+  },
+  {
+    "term": "Splenomegaly",
+    "aliases": [],
+    "meaning": "An enlarged spleen, an organ that helps filter blood and supports immune defenses."
+  },
+  {
+    "term": "Hepatomegaly",
+    "aliases": [],
+    "meaning": "An enlarged liver. Hepato means liver and -megaly means enlargement."
+  },
+  {
+    "term": "Cystitis",
+    "aliases": [],
+    "meaning": "Inflammation of the bladder, often caused by an infection but not always."
+  },
+  {
+    "term": "Arthritis",
+    "aliases": [],
+    "meaning": "Inflammation of a joint. Infection is one possible cause, but there are others."
+  },
+  {
+    "term": "Polymicrobial",
+    "aliases": [],
+    "meaning": "Involving more than one kind of microbe, rather than a single species."
+  },
+  {
+    "term": "Rouleaux",
+    "aliases": [],
+    "meaning": "Red cells stacked like coins, often because of the surrounding proteins; this differs from true antibody-linked clumping."
+  },
+  {
+    "term": "Allogeneic",
+    "aliases": [],
+    "meaning": "Coming from another person of the same species, such as blood from a donor."
+  },
+  {
+    "term": "Autologous",
+    "aliases": [],
+    "meaning": "Coming from the same person, such as their own previously collected blood."
+  },
+  {
+    "term": "Transfusion",
+    "aliases": [],
+    "meaning": "Giving a blood component to a patient through the circulation."
+  },
+  {
+    "term": "DAT",
+    "aliases": [
+      "direct antiglobulin"
+    ],
+    "meaning": "A test asking whether antibodies or complement are already attached to a patient’s red cells."
+  },
+  {
+    "term": "AHG",
+    "aliases": [
+      "antiglobulin"
+    ],
+    "meaning": "An antibody reagent that helps detect certain antibodies or complement attached to red cells."
+  },
+  {
+    "term": "RhIG",
+    "aliases": [
+      "Rh immune globulin"
+    ],
+    "meaning": "A prepared antibody product used in selected situations to help prevent immune sensitization to the red-cell D antigen."
+  },
+  {
+    "term": "Sensitization",
+    "aliases": [
+      "sensitized"
+    ],
+    "meaning": "The immune system becoming able to recognize and respond to a target after exposure."
+  },
+  {
+    "term": "Titer",
+    "aliases": [
+      "titre"
+    ],
+    "meaning": "A way to express how far a sample can be diluted while its reaction remains detectable."
+  },
+  {
+    "term": "Mole",
+    "aliases": [
+      "moles",
+      "millimole"
+    ],
+    "meaning": "A counting unit for an enormous fixed number of tiny particles. A millimole is one-thousandth of a mole."
+  },
+  {
+    "term": "Valence",
+    "aliases": [],
+    "meaning": "The combining charge used in an equivalent calculation; it helps relate particle amount to electrical charge or reaction capacity."
+  },
+  {
+    "term": "Osmolality",
+    "aliases": [],
+    "meaning": "A way to express dissolved-particle concentration per kilogram of solvent; particle number matters, not just mass."
+  },
+  {
+    "term": "Osmolarity",
+    "aliases": [],
+    "meaning": "A way to express dissolved-particle concentration per liter of solution, which differs from osmolality’s kilogram basis."
+  },
+  {
+    "term": "Microliter",
+    "aliases": [
+      "microliters",
+      "microlitre",
+      "microlitres"
+    ],
+    "meaning": "A tiny volume: one milliliter contains 1,000 microliters."
+  },
+  {
+    "term": "Electrophoresis",
+    "aliases": [],
+    "meaning": "A method that uses an electric field to separate molecules according to properties such as size and charge."
+  },
+  {
+    "term": "Isothermal",
+    "aliases": [],
+    "meaning": "Happening at one maintained temperature instead of cycling between different temperatures."
+  },
+  {
+    "term": "Hybridization",
+    "aliases": [
+      "hybridisation"
+    ],
+    "meaning": "Matching and joining complementary DNA or RNA sequences, like two correctly paired pieces of a molecular zipper."
+  }
+]

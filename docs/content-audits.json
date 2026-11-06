@@ -1,0 +1,188 @@
+{
+  "method": "Independent deterministic sample reviews by content agents; findings corrected by primary agent. Structural coverage separately checks every question and option. Not a clinical certification.",
+  "sampleReviews": 80,
+  "reports": [
+    {
+      "report": "audit-02-by-01.json",
+      "review": [
+        {
+          "ID": "book-1-190",
+          "issue": "The answer and option order agree with the source, but the main teaching sentence uses 'PML::RARA fusion,' 'maturation,' and 'promyelocytes' without translating them. This makes the explanation harder than the requested approximately 11-year-old reading level.",
+          "suggestedChange": "Explain that pieces of two genes become joined, stopping young white cells called promyelocytes from growing up normally. Expand DIC once as widespread clotting that uses up clotting supplies and can cause bleeding. Keep the molecular name after the plain-language explanation.",
+          "severity": "medium"
+        },
+        {
+          "ID": "book-1-207",
+          "issue": "The quick check asks for a 'gene family' but answers MYH9, which is a specific gene, not the name of a gene family. The scientific association itself is correct.",
+          "suggestedChange": "Change the quick-check question to 'Which gene is associated with May\u2013Hegglin anomaly?' Optionally explain that a gene is a set of instructions used to make a protein.",
+          "severity": "low"
+        },
+        {
+          "ID": "book-110-3",
+          "issue": "The main explanation and quick check depend on 'membrane immunoglobulin,' 'antigen receptor,' and 'signaling partners' without defining these in ordinary language. The keyed surface-immunoglobulin concept and option ordering are correct.",
+          "suggestedChange": "Say that a B cell wears antibody molecules on its surface, where they act as sensors for a particular target. Define immunoglobulin as antibody. In the quick-check answer, replace or explain 'signaling partners' as nearby proteins that pass the message into the cell.",
+          "severity": "medium"
+        },
+        {
+          "ID": "book-110-22",
+          "issue": "The central explanation says RF binds the 'Fc part of IgG,' and the recall answer repeats 'Fc portion' without teaching what Fc means. This is scientifically correct but leaves a key piece of the concept unexplained for an 11-year-old reader.",
+          "suggestedChange": "Describe Fc as the constant stem of the Y-shaped IgG antibody, rather than its target-binding arms. Keep the useful distinction that the commonly detected RF is IgM while its target is IgG.",
+          "severity": "medium"
+        },
+        {
+          "ID": "book-110-41",
+          "issue": "Several option explanations replace one technical label with another: 'adaptive humoral immunity,' 'adaptive cellular immunity,' and 'phagocytosis by polymorphonuclear cells.' The main explanation is clearer, but the option meanings are not individually accessible at the requested reading level.",
+          "suggestedChange": "Define antibody production as making target-specific defense proteins, cytotoxic T cells as trained cells that kill particular infected cells, and polymorphonuclear phagocytosis as neutrophils swallowing microbes. State that these neutrophils can act without first learning the specific target.",
+          "severity": "low"
+        },
+        {
+          "ID": "book-110-82",
+          "issue": "The heterophile-test interpretation is consistent with the source, but the first three option explanations do not explain what their named organisms mean. They mainly state that each is not the target or is tested another way.",
+          "suggestedChange": "Identify Borrelia burgdorferi as the bacterium that causes Lyme disease, and hepatitis B and C as viruses that mainly infect the liver. Then explain why those infections do not produce the classic infectious-mononucleosis differential pattern described here.",
+          "severity": "low"
+        },
+        {
+          "ID": "book-135-18",
+          "issue": "The platelet recovery arithmetic and 83% answer are correct, but the main calculation leaves the factor 1,000 and its units unexplained. The source note supplies the raw units, yet a younger learner must infer the unit conversion.",
+          "suggestedChange": "Add that there are 1,000 microliters in one milliliter, so multiplying platelets per microliter by 1,000 and then by volume in milliliters gives the total number of platelets. Retain the existing 7.5/9 \u00d7 100 calculation.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "report": "audit-01-06-by-02.json",
+      "review": {
+        "sampleIds": [
+          "book-1-1",
+          "book-1-57",
+          "book-1-112",
+          "book-86-16",
+          "book-86-75",
+          "book-1-3",
+          "book-1-100",
+          "book-1-234",
+          "book-86-21",
+          "book-86-71",
+          "book-373-2",
+          "book-373-6",
+          "book-373-30",
+          "book-373-42",
+          "book-399-48",
+          "book-135-201",
+          "book-351-21",
+          "book-373-21",
+          "book-373-35",
+          "book-399-81"
+        ],
+        "findings": []
+      }
+    },
+    {
+      "report": "audit-03-by-06.json",
+      "review": {
+        "sampleIds": [
+          "book-135-3",
+          "book-135-22",
+          "book-135-52",
+          "book-135-91",
+          "book-135-110",
+          "book-135-119",
+          "book-135-120",
+          "book-135-135",
+          "book-135-185",
+          "book-135-197",
+          "book-135-200",
+          "book-135-220",
+          "book-289-1",
+          "book-318-23",
+          "book-135-174",
+          "book-135-175",
+          "book-135-176",
+          "book-135-177",
+          "book-135-178",
+          "book-135-179"
+        ],
+        "findings": [
+          {
+            "id": "book-135-200",
+            "issue": "The current bank stem still says only \u201cWhat is the total volume of FMH?\u201d and has no context field. Teaching correctly uses 1.3% and a 5-L model, but the quiz itself does not supply the 1.3% shared source input.",
+            "suggestedChange": "Restore the source shared context from PDF page161: postpartum Kleihauer\u2013Betke acid-elution result 1.3%. Keep the model assumption explicit in teaching and preserve the keyed65 mL answer.",
+            "severity": "moderate"
+          },
+          {
+            "id": "book-135-220",
+            "issue": "The fourth current-bank option contains the entire unrelated instructions for RhIG questions221\u2013228. Teaching addresses only the meaningful first sentence and correctly preserves the historical anti-Jka answer.",
+            "suggestedChange": "Trim option4 after \u201cNo screening is necessary because all transfused cells will be destroyed anyway.\u201d Keep RhIG instructions only as context on their matching items.",
+            "severity": "moderate"
+          },
+          {
+            "id": "book-289-1",
+            "issue": "The current bank fourth choice appends unrelated examination instructions after Histoplasma capsulatum. Teaching correctly interprets the organism and has an appropriate image/biosafety caveat.",
+            "suggestedChange": "Trim the fourth option to \u201cHistoplasma capsulatum\u201d without changing its index or the book answer.",
+            "severity": "low"
+          },
+          {
+            "id": "book-135-110",
+            "issue": "Teaching is consistent with the book HLA exclusion, but HLA, allele, and paternal are left largely unexplained for an age-11 reader.",
+            "suggestedChange": "Add that HLA markers are inherited cell-surface identity tags and that the baby\u2019s B15 tag must come from a parent under the simplified exercise assumptions; explain paternal as from the father.",
+            "severity": "low"
+          },
+          {
+            "id": "book-318-23",
+            "issue": "The keyed answer and EV-D68 caveat align, but \u201cacute nonspecific febrile syndrome\u201d is repeated without a complete child-friendly definition, and \u201csymptomatic\u201d remains in the plain-English field.",
+            "suggestedChange": "Explain the keyed phrase as \u201ca sudden fever illness without a distinctive pattern\u201d and ask \u201cWhen enteroviruses cause illness, what common pattern does the book describe?\u201d",
+            "severity": "low"
+          }
+        ]
+      }
+    },
+    {
+      "report": "audit-04-by-05.json",
+      "review": {
+        "sampleIds": [
+          "book-203-68",
+          "book-203-58",
+          "book-203-59",
+          "book-203-12",
+          "book-203-116",
+          "book-203-21",
+          "book-203-81",
+          "book-203-106",
+          "book-203-85",
+          "book-203-169",
+          "book-203-167",
+          "book-203-183",
+          "book-203-23",
+          "book-203-111",
+          "book-302-32",
+          "book-302-30",
+          "book-302-43",
+          "book-302-44",
+          "book-302-52",
+          "book-302-8"
+        ],
+        "findings": [
+          {
+            "id": "book-203-21",
+            "issue": "The plain-English question says the fermentation end product supplies energy, which can teach that lactic acid itself is the fuel. Energy is obtained while sugars are broken down; lactate is the principal end product. Three distractor notes also repeat that they are not the main product without explaining that they are alternative organic acids.",
+            "suggestedChange": "Ask \u201cWhich acid is the main end product when streptococci ferment sugars?\u201d Explain that sugar breakdown generates usable cellular energy while producing lactate. Identify formic, succinic, and valeric acids as other organic acids that are not the principal product requested.",
+            "severity": "moderate"
+          },
+          {
+            "id": "book-203-183",
+            "issue": "The core answer is aligned, but the explanation never names the missing growth factor, and options A and D only say they are not the intended association. This leaves the reader with a generic helper story rather than the biological reason for the answer.",
+            "suggestedChange": "Keep this conceptual: name NAD (V factor) as the supplied growth factor, explain it as a molecule needed for metabolism, and say that H. influenzae has this characteristic dependency. Give each distractor a brief organism identity or clinical association and explain that it does not represent the classic Haemophilus factor-dependency clue. Do not add a culture procedure.",
+            "severity": "low"
+          },
+          {
+            "id": "book-203-58",
+            "issue": "The plain-English question contains the grammatical error \u201cis helped identified,\u201d and option A (\u201cTellurite and toxin tests are relevant instead\u201d) assumes the learner knows why that relates to Corynebacterium diphtheriae.",
+            "suggestedChange": "Use \u201cWhich species can be distinguished by its usual novobiocin resistance?\u201d Explain that C. diphtheriae is the diphtheria-associated rod and that novobiocin resistance is not its classic identifying clue. Retain the present S. saprophyticus answer and option order.",
+            "severity": "low"
+          }
+        ]
+      }
+    }
+  ],
+  "resolution": "Reported conceptual, wording and source-context issues corrected before 3.1.0 build."
+}

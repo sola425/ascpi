@@ -1,0 +1,2049 @@
+{
+  "book-203-2": {
+    "questionInPlainEnglish": "Which bacterium makes a throat coating and a toxin that can damage distant organs?",
+    "explanation": "Diphtheria makes a tough false membrane over the throat. Its toxin travels in blood and stops cells making proteins, injuring heart and nerves.",
+    "optionExplanations": [
+      "A throat pathogen, but not the classic diphtheria membrane-toxin disease.",
+      "Makes several toxins, but this throat membrane points elsewhere.",
+      "Causes strep throat and scarlet fever, not classic diphtheria.",
+      "Makes diphtheria toxin when carrying the required bacteriophage gene."
+    ],
+    "memory": "Diphtheria: membrane locally, toxin travels.",
+    "quickCheck": {
+      "question": "What can make a local throat infection harm the heart?",
+      "answer": "A toxin carried through the blood."
+    }
+  },
+  "book-203-3": {
+    "questionInPlainEnglish": "Which illness is caused by the gut-targeting toxin of S. aureus?",
+    "explanation": "Entero means intestine. Eating food containing already-made staphylococcal toxin can cause rapid vomiting and diarrhea; living bacteria need not remain in the food.",
+    "optionExplanations": [
+      "A deep cluster of skin boils, not intestinal toxin injury.",
+      "Inflammation of small and large intestines matches a gut toxin.",
+      "A superficial skin infection, not an intestinal illness.",
+      "Skin peeling results from exfoliative toxin, a different toxin."
+    ],
+    "memory": "Enterotoxin enters the intestine story.",
+    "quickCheck": {
+      "question": "Must bacteria grow inside you for preformed toxin food poisoning?",
+      "answer": "No; toxin already in food can cause illness."
+    }
+  },
+  "book-203-4": {
+    "questionInPlainEnglish": "Which missing growth nutrient must be supplied for Abiotrophia?",
+    "explanation": "Pyridoxal is a form of vitamin B6. These demanding bacteria need it supplied, like a recipe missing one essential ingredient. Nearby staphylococci may supply it, producing satellite growth.",
+    "optionExplanations": [
+      "An iron-containing growth factor needed by some Haemophilus, not this deficiency.",
+      "Vitamin B6 supplies the needed growth factor.",
+      "Vitamin B12 is a different vitamin; the displayed B]2 is an OCR error.",
+      "A chemical used in mycobacterial identification, not a vitamin supplement."
+    ],
+    "memory": "Abiotrophia needs B6 breakfast.",
+    "quickCheck": {
+      "question": "Why can satellite colonies grow near staphylococci?",
+      "answer": "The helper supplies a missing nutrient."
+    }
+  },
+  "book-203-6": {
+    "questionInPlainEnglish": "Which disk helps recognize group A Streptococcus?",
+    "explanation": "S. pyogenes breaks down the PYR test substrate. Adding developer produces red color, revealing the enzyme activity. This is a presumptive clue rather than a complete identification.",
+    "optionExplanations": [
+      "Detects an enzyme usually present in S. pyogenes.",
+      "Detects beta-galactosidase, useful for certain intestinal bacteria.",
+      "Sodium polyanethol sulfonate susceptibility helps identify some anaerobes.",
+      "Helps distinguish pneumococcus from other alpha-hemolytic streptococci."
+    ],
+    "memory": "PYR turns red for pyogenes.",
+    "quickCheck": {
+      "question": "What does a positive PYR test measure?",
+      "answer": "An enzyme that splits the PYR substrate."
+    }
+  },
+  "book-203-7": {
+    "questionInPlainEnglish": "Which genus matches these enzyme and resistance results?",
+    "explanation": "Micrococcus and Staphylococcus both break down peroxide. Modified oxidase and lysostaphin separate them: micrococci are usually oxidase positive and resist the cell-wall-cutting enzyme lysostaphin.",
+    "optionExplanations": [
+      "Fits catalase positivity, modified oxidase positivity, and lysostaphin resistance.",
+      "Generally catalase-negative cocci, unlike this isolate.",
+      "Generally catalase-negative cocci, often in pairs or tetrads.",
+      "Catalase positive, but usually modified oxidase negative and lysostaphin susceptible."
+    ],
+    "memory": "Micrococcus: modified oxidase positive.",
+    "quickCheck": {
+      "question": "Which result here separates Micrococcus from Staphylococcus?",
+      "answer": "Positive modified oxidase."
+    }
+  },
+  "book-203-8": {
+    "questionInPlainEnglish": "What skin finding can occur in nocardial infection?",
+    "explanation": "Nocardia can cause a long-lasting pus-producing infection. Channels called sinus tracts connect deeper infected tissue to the surface, allowing pus to drain.",
+    "optionExplanations": [
+      "Clusters of boils usually suggest staphylococcal infection.",
+      "Draining channels fit chronic nocardial mycetoma.",
+      "A severe whole-body response, not the characteristic local finding asked.",
+      "Watery body-cavity fluid does not describe nocardial sinus tracts."
+    ],
+    "memory": "Nocardia can make draining tunnels.",
+    "quickCheck": {
+      "question": "What is a draining sinus tract?",
+      "answer": "A channel carrying material from deep infection to skin."
+    },
+    "sourceNote": "N. asteroides commonly causes pulmonary/disseminated disease; cutaneous mycetoma is especially associated with N. brasiliensis. The broad book answer is retained."
+  },
+  "book-203-9": {
+    "questionInPlainEnglish": "Where does human Erysipelothrix infection usually appear?",
+    "explanation": "Animal or fish material enters through a small skin injury. Erysipeloid is a painful reddish skin lesion near that entry point, often on a hand.",
+    "optionExplanations": [
+      "A local lesion at the entry wound is typical.",
+      "Brain disease is not the usual presentation.",
+      "Lung infection is not the usual presentation.",
+      "Deep-organ abscesses are not the defining pattern."
+    ],
+    "memory": "Fish-handler cut → local erysipeloid.",
+    "quickCheck": {
+      "question": "What exposure suggests erysipeloid?",
+      "answer": "Handling fish, meat, or infected animals with broken skin."
+    }
+  },
+  "book-203-10": {
+    "questionInPlainEnglish": "Which streptococcus produces the CAMP arrowhead?",
+    "explanation": "Group B streptococcus releases CAMP factor. It cooperates with staphylococcal beta-lysin to destroy extra red cells, making an arrowhead of clearer agar.",
+    "optionExplanations": [
+      "Group B streptococcus gives the characteristic enhanced hemolysis.",
+      "A group D organism, not the standard CAMP-positive identification.",
+      "Another group D organism, not the expected arrowhead producer.",
+      "Group A streptococcus is generally CAMP negative under proper conditions."
+    ],
+    "memory": "CAMP points to group B.",
+    "quickCheck": {
+      "question": "Why is there more hemolysis near S. aureus?",
+      "answer": "Two bacterial products act together."
+    }
+  },
+  "book-203-12": {
+    "questionInPlainEnglish": "Which organism fits pregnancy-associated bloodstream infection and small beta-hemolytic colonies?",
+    "explanation": "Listeria is a small gram-positive rod that can cross the placenta. Pregnancy-associated fever and small hemolytic colonies fit; its rod shape helps distinguish it from streptococci.",
+    "optionExplanations": [
+      "A pregnancy-associated pathogen producing small beta-hemolytic colonies.",
+      "Now Cutibacterium acnes; a slow-growing anaerobic skin rod.",
+      "Can infect newborns, but is a coccus rather than the pictured rod described by the book.",
+      "A beta-hemolytic coccus, not the rod identified in the plate."
+    ],
+    "memory": "Listeria links food, pregnancy, and placenta.",
+    "quickCheck": {
+      "question": "Which shape distinguishes Listeria from group B streptococcus?",
+      "answer": "Listeria is a rod; group B streptococcus is a coccus."
+    },
+    "sourceNote": "The question relies on Color Plate 26; the book identifies gram-positive rods. Without the plate, pregnancy and hemolysis alone are not fully specific."
+  },
+  "book-203-13": {
+    "questionInPlainEnglish": "Which listed bacterium is a major cause of newborn sepsis and meningitis?",
+    "explanation": "Group B streptococci can colonize the maternal genital tract. A baby may acquire them around delivery, and bacteria can reach blood or the membranes around the brain.",
+    "optionExplanations": [
+      "Group B streptococcus is a major neonatal pathogen.",
+      "More associated with adult bloodstream infection and bowel lesions.",
+      "A major respiratory/meningitis pathogen, but not the leading neonatal choice here.",
+      "Group A causes throat and skin infections; neonatal disease is less typical."
+    ],
+    "memory": "Group B: birth-related infection.",
+    "quickCheck": {
+      "question": "How can a newborn acquire group B streptococcus?",
+      "answer": "From maternal colonization around birth."
+    }
+  },
+  "book-203-14": {
+    "questionInPlainEnglish": "Which Bacillus most often causes these opportunistic infections?",
+    "explanation": "B. cereus lives widely in soil. If introduced into an eye, blood, or damaged tissue, it can multiply and release destructive products rather than merely contaminate a culture.",
+    "optionExplanations": [
+      "An occasional opportunist, less commonly responsible for this pattern.",
+      "A recognized cause of traumatic eye infection and invasive disease.",
+      "Can cause opportunistic disease, but is less characteristic.",
+      "Often an environmental contaminant; less characteristic than B. cereus."
+    ],
+    "memory": "Cereus can be serious in an injured eye.",
+    "quickCheck": {
+      "question": "Why can soil contamination of an eye be dangerous?",
+      "answer": "B. cereus may enter damaged tissue and cause rapid infection."
+    }
+  },
+  "book-203-15": {
+    "questionInPlainEnglish": "Which bacterium is classically grown on Loeffler serum medium?",
+    "explanation": "The serum-rich medium supports C. diphtheriae and helps show its cell shape and storage granules. Growth alone does not prove toxin production.",
+    "optionExplanations": [
+      "Needs pyridoxal rather than this classic diphtheria medium.",
+      "Loeffler medium enhances its characteristic morphology.",
+      "A catalase-negative coccus, not the target of this medium.",
+      "Group B streptococcus grows on routine blood agar."
+    ],
+    "memory": "Loeffler lets diphtheria granules show.",
+    "quickCheck": {
+      "question": "Does growth on Loeffler prove toxigenicity?",
+      "answer": "No; toxin needs a separate test."
+    }
+  },
+  "book-203-16": {
+    "questionInPlainEnglish": "What do suspicious diphtheria colonies look like on Tinsdale agar?",
+    "explanation": "Tellurite reduction makes colonies dark. Cystinase activity creates a brown halo, like a dark center with a brown ring; other tests are needed for confirmation.",
+    "optionExplanations": [
+      "Agar melting is not the characteristic Tinsdale reaction.",
+      "A white precipitate describes a different type of medium reaction.",
+      "Black colonies with brown halos are the expected clue.",
+      "Agar pitting is associated with other organisms, not this reaction."
+    ],
+    "memory": "Tinsdale: black center, brown border.",
+    "quickCheck": {
+      "question": "What causes the dark colony color?",
+      "answer": "Reduction of tellurite."
+    }
+  },
+  "book-203-17": {
+    "questionInPlainEnglish": "Which test detects diphtheria toxin by a precipitin line?",
+    "explanation": "In the Elek test, toxin and its antibody spread through agar. Where they meet in matching amounts, a visible line forms, showing toxin production.",
+    "optionExplanations": [
+      "Detects inducible clindamycin resistance, not diphtheria toxin.",
+      "An immunodiffusion test for diphtheria toxin.",
+      "Historically used for carbapenemase detection.",
+      "Detects lecithinase neutralization, especially in C. perfringens."
+    ],
+    "memory": "Elek: toxin meets antibody in agar.",
+    "quickCheck": {
+      "question": "What does an Elek precipitin line show?",
+      "answer": "The isolate produces detectable diphtheria toxin."
+    }
+  },
+  "book-203-18": {
+    "questionInPlainEnglish": "Which bacterium classically causes erysipelas?",
+    "explanation": "Erysipelas is an infection of superficial skin and lymph vessels, making a raised red advancing edge. Group A streptococcus is the classic cause.",
+    "optionExplanations": [
+      "Common in abscesses and impetigo, less characteristic of erysipelas.",
+      "Causes rat-bite fever, not classic erysipelas.",
+      "Group B is not the classic organism requested.",
+      "Group A streptococcus causes the characteristic superficial spreading infection."
+    ],
+    "memory": "Erysipelas → pyogenes; erysipeloid → Erysipelothrix.",
+    "quickCheck": {
+      "question": "What distinguishes erysipeloid from erysipelas in organism naming?",
+      "answer": "Erysipeloid is linked to Erysipelothrix; erysipelas to S. pyogenes."
+    }
+  },
+  "book-203-19": {
+    "questionInPlainEnglish": "Which plate helps recover S. aureus among stool bacteria?",
+    "explanation": "Stool contains many gram-negative rods. PEA suppresses many of those competitors while allowing gram-positive cocci to grow, making staphylococci easier to find.",
+    "optionExplanations": [
+      "Selects mainly for Salmonella, not staphylococci.",
+      "PEA favors gram-positive organisms by inhibiting many gram-negative rods.",
+      "TCBS is a medium associated with Vibrio, not the gram-positive staphylococcus asked for here.",
+      "XLD is used to isolate intestinal gram-negative pathogens."
+    ],
+    "memory": "PEA protects the gram-positive search.",
+    "quickCheck": {
+      "question": "Why use a selective medium for stool?",
+      "answer": "To suppress abundant competing bacteria."
+    }
+  },
+  "book-203-20": {
+    "questionInPlainEnglish": "Which listed group normally lives in the upper airway?",
+    "explanation": "Viridans streptococci commonly live in the mouth and throat without causing disease. They can become harmful if they enter blood and settle on damaged heart valves.",
+    "optionExplanations": [
+      "Primarily associated with skin and hospital opportunistic infection.",
+      "Common in vaginal and intestinal flora rather than this best airway choice.",
+      "A common skin inhabitant, less characteristic here.",
+      "A major normal mouth and upper-airway group."
+    ],
+    "memory": "Viridans: mouth residents, valve opportunists.",
+    "quickCheck": {
+      "question": "Can normal flora cause disease elsewhere?",
+      "answer": "Yes, especially after entering a normally sterile site."
+    }
+  },
+  "book-203-21": {
+    "questionInPlainEnglish": "Which acid is the main end product when streptococci break down sugars by fermentation?",
+    "explanation": "Streptococci obtain usable energy while breaking down sugars. Lactic acid, or lactate, is the main end product left by this fermentation. Think of getting useful work from a process that also leaves something behind: the leftover acid is not itself the energy being harvested.",
+    "optionExplanations": [
+      "Formic acid is another small organic acid, but it is not the main end product requested for streptococci.",
+      "The principal acid product of streptococcal sugar fermentation.",
+      "Succinic acid is another organic acid that appears in metabolism, not the principal streptococcal fermentation product here.",
+      "Valeric acid is a different organic acid, not the principal product selected for streptococcal sugar fermentation."
+    ],
+    "memory": "Strep sugars become lactic acid.",
+    "quickCheck": {
+      "question": "Does fermentation require oxygen?",
+      "answer": "No."
+    }
+  },
+  "book-203-22": {
+    "questionInPlainEnglish": "Which enzyme do streptococci generally lack?",
+    "explanation": "Catalase breaks hydrogen peroxide into water and oxygen. Streptococci usually do not make functional catalase, so adding peroxide produces no immediate bubbling.",
+    "optionExplanations": [
+      "The peroxide-splitting enzyme is characteristically absent.",
+      "Some streptococci produce kinases such as streptokinase.",
+      "Some produce this connective-tissue-spreading enzyme.",
+      "Lipase is not the standard missing enzyme that defines this group."
+    ],
+    "memory": "Strep stays still in peroxide; staph bubbles.",
+    "quickCheck": {
+      "question": "What gas makes a catalase test bubble?",
+      "answer": "Oxygen."
+    }
+  },
+  "book-203-24": {
+    "questionInPlainEnglish": "Which culture condition can favor recovery of Streptomyces?",
+    "explanation": "These soil bacteria may grow better near room temperature than at body temperature. Incubating at 25°C can favor them relative to many routine clinical bacteria.",
+    "optionExplanations": [
+      "Heat shock selects resistant spores rather than this routine recovery feature.",
+      "Room-temperature incubation can favor some Streptomyces.",
+      "Warmer incubation is not the advantage described.",
+      "Drying is not the recommended recovery method here."
+    ],
+    "memory": "Soil Streptomyces may prefer 25°C.",
+    "quickCheck": {
+      "question": "Why can incubation temperature help isolate an organism?",
+      "answer": "Different organisms grow best at different temperatures."
+    }
+  },
+  "book-203-25": {
+    "questionInPlainEnglish": "Which aerobic gram-positive rod is unusually able to produce hydrogen sulfide?",
+    "explanation": "Erysipelothrix can release H2S from sulfur-containing compounds. In suitable iron-containing medium, this creates black iron sulfide, a useful identification clue.",
+    "optionExplanations": [
+      "Not the characteristic H2S-positive genus in this group.",
+      "H2S production helps identify Erysipelothrix.",
+      "Lactic-acid-producing rods do not fit this H2S clue.",
+      "Branching, partly acid-fast bacteria are not the expected H2S-positive choice."
+    ],
+    "memory": "Erysipelothrix: animal cuts and H2S.",
+    "quickCheck": {
+      "question": "What can blackening in an iron-containing medium indicate?",
+      "answer": "Hydrogen sulfide production."
+    }
+  },
+  "book-203-26": {
+    "questionInPlainEnglish": "Which organism makes umbrella-like growth in a room-temperature motility stab?",
+    "explanation": "Listeria moves especially well at room temperature. Cells spread outward near the oxygen-rich top of soft agar, making an umbrella rather than staying along the needle track.",
+    "optionExplanations": [
+      "Not the classic umbrella-motility organism.",
+      "A generally nonmotile corynebacterium.",
+      "Usually nonmotile and does not make the classic umbrella.",
+      "Room-temperature motility produces the characteristic umbrella."
+    ],
+    "memory": "Listeria opens an umbrella at room temperature.",
+    "quickCheck": {
+      "question": "What does growth away from the stab show?",
+      "answer": "Motility through soft agar."
+    }
+  },
+  "book-203-27": {
+    "questionInPlainEnglish": "Which animal-associated opportunist makes pale pink colonies?",
+    "explanation": "Rhodococcus equi is an environmental organism important in horses and immunocompromised people. Its salmon-pink pigment is a useful clue when combined with its rodlike appearance.",
+    "optionExplanations": [
+      "A hemolytic throat pathogen, not the classic salmon-pink isolate.",
+      "An anaerobic oral organism, not this pigmented aerobic opportunist.",
+      "Associated with bacterial vaginosis, not pink livestock-associated colonies.",
+      "Fits animal association and salmon-pink colonies."
+    ],
+    "memory": "Rhodococcus: rose-colored colonies.",
+    "quickCheck": {
+      "question": "What does equi suggest about a common animal host?",
+      "answer": "Horses."
+    }
+  },
+  "book-203-28": {
+    "questionInPlainEnglish": "Which statement is false about pneumococcus?",
+    "explanation": "Pneumococci are bile soluble: bile salts trigger breakdown of the cells. Thus calling them bile resistant reverses a useful identification characteristic.",
+    "optionExplanations": [
+      "False: pneumococci are typically bile soluble, so choose this.",
+      "True: partial red-cell destruction produces greenish alpha hemolysis.",
+      "True: paired pointed cocci are characteristic.",
+      "True: the capsule helps the organism evade immune cells."
+    ],
+    "memory": "Pneumococcus dissolves in bile.",
+    "quickCheck": {
+      "question": "Does bile resistance describe pneumococcus?",
+      "answer": "No; bile solubility is characteristic."
+    }
+  },
+  "book-203-29": {
+    "questionInPlainEnglish": "Which feature helps distinguish Nocardia from Actinomyces?",
+    "explanation": "Both can branch like tiny threads. Nocardia usually needs oxygen, is catalase positive, and may retain a weak acid-fast stain; Actinomyces generally grows anaerobically and is not acid-fast.",
+    "optionExplanations": [
+      "Reversed: Nocardia is aerobic, not an obligate anaerobe.",
+      "Reversed: partial acid-fastness points to Nocardia.",
+      "Granules are not a reliable exclusive separator; they are classically linked to actinomycosis.",
+      "Catalase positivity fits Nocardia and separates the classic pair."
+    ],
+    "memory": "Nocardia needs air and can be acid-fast.",
+    "quickCheck": {
+      "question": "Which branching genus is partly acid-fast?",
+      "answer": "Nocardia."
+    }
+  },
+  "book-203-31": {
+    "questionInPlainEnglish": "Which listed organism usually gives a negative PYR test?",
+    "explanation": "PYR detects a substrate-splitting enzyme. Group A streptococci and enterococci usually turn the test red; viridans streptococci usually do not.",
+    "optionExplanations": [
+      "An enterococcus expected to be PYR positive.",
+      "An enterococcus expected to be PYR positive.",
+      "Group A streptococcus is characteristically PYR positive.",
+      "Usually lacks the test activity, giving the requested negative reaction."
+    ],
+    "memory": "PYR red: pyogenes and enterococci.",
+    "quickCheck": {
+      "question": "What does absence of red mean after proper PYR testing?",
+      "answer": "A negative enzyme reaction."
+    }
+  },
+  "book-203-32": {
+    "questionInPlainEnglish": "Which test should follow a pneumonia specimen containing gram-positive pairs?",
+    "explanation": "Pneumococcus often appears as pointed pairs of gram-positive cocci. Optochin sensitivity helps separate it from many other alpha-hemolytic mouth streptococci.",
+    "optionExplanations": [
+      "Useful for group A streptococci and enterococci, not this leading suspect.",
+      "Tests diphtheria toxin in a rod, not these cocci.",
+      "A zone around optochin supports pneumococcal identification.",
+      "Commonly used for group B streptococci, not the suspected pneumococcus."
+    ],
+    "memory": "Pneumococcal pairs → optochin.",
+    "quickCheck": {
+      "question": "Which common look-alikes does optochin help separate?",
+      "answer": "Pneumococcus and other alpha-hemolytic streptococci."
+    }
+  },
+  "book-203-33": {
+    "questionInPlainEnglish": "Which listed bacterium can cause impetigo?",
+    "explanation": "Impetigo is a superficial skin infection, often with crusted sores. S. pyogenes and S. aureus can cause it; the listed staphylococcus is a different species.",
+    "optionExplanations": [
+      "Causes erysipeloid after animal exposure.",
+      "Can cause skin diphtheria, but is not the usual impetigo answer.",
+      "Usually linked to urinary infections rather than impetigo.",
+      "A recognized cause of nonbullous impetigo."
+    ],
+    "memory": "Pyogenes can crust the skin.",
+    "quickCheck": {
+      "question": "Which staphylococcal species also commonly causes impetigo?",
+      "answer": "S. aureus."
+    }
+  },
+  "book-203-34": {
+    "questionInPlainEnglish": "Which result supports identification of S. aureus?",
+    "explanation": "S. aureus commonly tolerates salt and ferments mannitol, making acid. On mannitol salt agar, that acid changes the indicator toward yellow.",
+    "optionExplanations": [
+      "Usually DNase positive, because it can cut DNA.",
+      "Usually coagulase positive, forming clots in plasma.",
+      "Mannitol fermentation is a classic supporting feature.",
+      "High salt usually allows staphylococcal growth rather than blocking it."
+    ],
+    "memory": "Aureus often makes mannitol medium yellow.",
+    "quickCheck": {
+      "question": "Why does mannitol fermentation change medium color?",
+      "answer": "Acid production changes the pH indicator."
+    }
+  },
+  "book-203-35": {
+    "questionInPlainEnglish": "Which listed organism is the standard hippurate-positive group B identification answer?",
+    "explanation": "Hippurate hydrolysis splits hippurate into benzoate and glycine. Detecting glycine supports group B streptococcus identification among streptococci.",
+    "optionExplanations": [
+      "Group B streptococcus is classically identified with this test.",
+      "Pneumococcus is not the standard hippurate-positive streptococcus.",
+      "Listeria can also hydrolyze hippurate, creating ambiguity in these choices.",
+      "Not the characteristic positive streptococcal choice."
+    ],
+    "memory": "Group B breaks hippurate.",
+    "quickCheck": {
+      "question": "Which split product can ninhydrin detect?",
+      "answer": "Glycine."
+    },
+    "sourceNote": "The book keys S. agalactiae, but L. monocytogenes can also hydrolyze hippurate. The question is not uniquely discriminating as written."
+  },
+  "book-203-36": {
+    "questionInPlainEnglish": "Which statement does NOT fit Listeria?",
+    "explanation": "Listeria is catalase positive, unlike streptococci. Its motility and esculin splitting provide additional clues when its small hemolytic colonies resemble group B streptococcus.",
+    "optionExplanations": [
+      "True: Listeria can enhance staphylococcal hemolysis in the CAMP test.",
+      "False: Listeria is catalase positive; select this exception.",
+      "Esculin hydrolysis means splitting esculin; Listeria can do this, so it is not the FALSE description.",
+      "True: tumbling or umbrella motility is especially evident at room temperature."
+    ],
+    "memory": "Listeria looks strep-like but bubbles.",
+    "quickCheck": {
+      "question": "Which quick test separates Listeria from group B streptococcus?",
+      "answer": "Catalase: Listeria positive, group B negative."
+    }
+  },
+  "book-203-37": {
+    "questionInPlainEnglish": "Which listed product is NOT associated with S. aureus?",
+    "explanation": "Endotoxin is lipid A in the outer membrane of gram-negative bacteria. S. aureus is gram positive and lacks that outer membrane, though it makes many secreted toxins.",
+    "optionExplanations": [
+      "Correct exception: gram-positive S. aureus does not contain classical endotoxin.",
+      "A surface factor that binds fibrinogen and promotes clumping.",
+      "DNase breaks DNA and is associated with S. aureus.",
+      "Hemolysins damage red-cell membranes and can be produced."
+    ],
+    "memory": "Endotoxin belongs to gram-negative outer membranes.",
+    "quickCheck": {
+      "question": "Is every bacterial toxin an endotoxin?",
+      "answer": "No; many are secreted protein exotoxins."
+    }
+  },
+  "book-203-38": {
+    "questionInPlainEnglish": "Which shared staphylococcal trait helps selective culture?",
+    "explanation": "Staphylococci tolerate high salt concentrations that inhibit many competitors. Mannitol salt agar uses this survival advantage to select them from mixed specimens.",
+    "optionExplanations": [
+      "Not the standard selective property used here.",
+      "55°C is too hot for reliable routine growth.",
+      "High salt tolerance is exploited by selective media.",
+      "Only some species resist novobiocin; it is not a shared isolation trait."
+    ],
+    "memory": "Salt selects staphylococci.",
+    "quickCheck": {
+      "question": "Does growth on salt agar alone prove S. aureus?",
+      "answer": "No; many staphylococci tolerate salt."
+    }
+  },
+  "book-203-39": {
+    "questionInPlainEnglish": "Which Bacillus generally cannot move?",
+    "explanation": "Most familiar Bacillus species move using flagella. B. anthracis is classically nonmotile, a warning clue in identification.",
+    "optionExplanations": [
+      "Usually motile, unlike classic B. anthracis.",
+      "B. subtilis is usually able to move, so it does not fit the requested nonmotile description.",
+      "Classically nonmotile; this fits.",
+      "B. thuringiensis is usually motile, unlike the nonmotile species selected in this comparison."
+    ],
+    "memory": "Anthracis stays anchored.",
+    "quickCheck": {
+      "question": "Why is motility useful within Bacillus?",
+      "answer": "It separates classic B. anthracis from many motile relatives."
+    }
+  },
+  "book-203-40": {
+    "questionInPlainEnglish": "Which disease includes a rash caused by erythrogenic toxin?",
+    "explanation": "Erythrogenic means redness-producing. Some group A streptococci release pyrogenic exotoxins that cause the widespread fine rash of scarlet fever.",
+    "optionExplanations": [
+      "Caused by anthrax toxins, not streptococcal erythrogenic toxin.",
+      "Caused by diphtheria toxin, which blocks protein synthesis.",
+      "A local skin infection rather than this toxin-mediated widespread rash.",
+      "The characteristic rash is associated with streptococcal pyrogenic toxin."
+    ],
+    "memory": "Erythro means red; scarlet is red.",
+    "quickCheck": {
+      "question": "Which bacterial group causes scarlet fever?",
+      "answer": "Toxin-producing group A streptococci."
+    }
+  },
+  "book-203-41": {
+    "questionInPlainEnglish": "Which pathogen is most often sought in a routine throat culture?",
+    "explanation": "A swab of the tonsils and back of the throat commonly checks for group A streptococcal pharyngitis. Finding it guides treatment and prevention of rheumatic fever.",
+    "optionExplanations": [
+      "Requires special suspicion and laboratory methods for diphtheria.",
+      "May colonize the nose but is not the usual strep-throat target.",
+      "Can colonize the airway; throat recovery does not diagnose pneumonia.",
+      "The usual target in a culture for strep throat."
+    ],
+    "memory": "Back-of-throat culture → group A strep.",
+    "quickCheck": {
+      "question": "What does pharyngitis mean?",
+      "answer": "Inflammation of the throat."
+    }
+  },
+  "book-203-42": {
+    "questionInPlainEnglish": "Which disease is linked to oral viridans streptococci entering blood?",
+    "explanation": "Viridans streptococci can stick to damaged heart valves. Slow growth there can produce subacute endocarditis, meaning a gradually developing infection of the heart lining.",
+    "optionExplanations": [
+      "Middle-ear infection is more commonly associated with other respiratory organisms.",
+      "Ordinary sore throat is not this organism’s key disease association.",
+      "A recurrent fever illness caused by certain Borrelia.",
+      "Fits oral organisms seeding damaged valves."
+    ],
+    "memory": "Mouth → blood → damaged valve.",
+    "quickCheck": {
+      "question": "What does endocarditis infect?",
+      "answer": "The inner heart lining, often the valves."
+    },
+    "sourceNote": "Streptococcus sanguis is now generally called Streptococcus sanguinis."
+  },
+  "book-203-43": {
+    "questionInPlainEnglish": "Which organism classically causes pneumonia with rusty sputum?",
+    "explanation": "Blood mixed into mucus can look rust colored. In classic lobar pneumonia, this clue plus gram-positive lancet-shaped pairs points to pneumococcus.",
+    "optionExplanations": [
+      "A skin-associated opportunist, not this classic pneumonia association.",
+      "Can cause severe pneumonia, but rusty sputum classically points to pneumococcus.",
+      "The classic cause associated with this sputum description.",
+      "Better known for pharyngitis and skin infection."
+    ],
+    "memory": "Rusty sputum → pneumococcal pneumonia.",
+    "quickCheck": {
+      "question": "What gives sputum a rusty appearance?",
+      "answer": "Blood products mixed with mucus."
+    }
+  },
+  "book-203-44": {
+    "questionInPlainEnglish": "Which organism best fits many catalase-positive cocci in a young woman’s urine?",
+    "explanation": "S. saprophyticus is a recognized cause of uncomplicated bladder infection in young women. Its catalase positivity separates it from the listed streptococci and enterococci.",
+    "optionExplanations": [
+      "A common young-woman urinary pathogen; catalase positive.",
+      "Can cause UTI but is generally catalase negative.",
+      "A streptococcal group, generally catalase negative.",
+      "Usually catalase negative and not the typical urinary pathogen here."
+    ],
+    "memory": "Saprophyticus: urinary staph, novobiocin resistant.",
+    "quickCheck": {
+      "question": "Which test helps distinguish S. saprophyticus from S. epidermidis?",
+      "answer": "Novobiocin susceptibility; S. saprophyticus is resistant."
+    }
+  },
+  "book-203-45": {
+    "questionInPlainEnglish": "Which organism is sought on cystine-tellurite agar?",
+    "explanation": "Tellurite suppresses many competing throat organisms. Corynebacteria reduce it to a dark material, making suspicious diphtheria colonies easier to find.",
+    "optionExplanations": [
+      "Classic target of tellurite-containing diphtheria media.",
+      "Group B streptococcus is usually cultured on blood agar.",
+      "Group A streptococcus is usually sought on blood agar.",
+      "Group D identification does not rely on this medium."
+    ],
+    "memory": "Tellurite darkens diphtheria colonies.",
+    "quickCheck": {
+      "question": "Does a black tellurite colony prove toxin production?",
+      "answer": "No; toxin testing is separate."
+    }
+  },
+  "book-203-46": {
+    "questionInPlainEnglish": "What occupational name describes inhalational anthrax?",
+    "explanation": "Workers handling contaminated wool could inhale B. anthracis spores. Spores reach the lungs and can lead to severe systemic disease, giving the name woolsorters disease.",
+    "optionExplanations": [
+      "A fungal infection caused by Coccidioides.",
+      "A common name for relatively mild atypical pneumonia.",
+      "A hypersensitivity lung disease from inhaled agricultural antigens.",
+      "The historic name for inhalational anthrax from contaminated animal fibers."
+    ],
+    "memory": "Wool spores → woolsorters anthrax.",
+    "quickCheck": {
+      "question": "What form of B. anthracis is inhaled?",
+      "answer": "Spores."
+    }
+  },
+  "book-203-47": {
+    "questionInPlainEnglish": "Which organism typically appears as irregular, club-shaped gram-positive rods?",
+    "explanation": "Pleomorphic means variable in shape. Corynebacteria divide with a snapping arrangement, leaving rods in angles or palisades rather than uniform straight chains.",
+    "optionExplanations": [
+      "Usually large, relatively uniform rods, often in chains.",
+      "A spore-forming rod, not the classic club-shaped arrangement.",
+      "Small rods, but less characteristic of marked club-shaped pleomorphism.",
+      "A corynebacterium with the characteristic variable club-shaped rods."
+    ],
+    "memory": "Coryne clubs form letters.",
+    "quickCheck": {
+      "question": "What does pleomorphic mean?",
+      "answer": "Having varied shapes."
+    }
+  },
+  "book-203-48": {
+    "questionInPlainEnglish": "Which rod is a hospital opportunist especially in immunocompromised patients?",
+    "explanation": "C. jeikeium can live on skin and resist multiple antibiotics. A catheter may give it a route into blood, especially when immune defenses are weakened.",
+    "optionExplanations": [
+      "Causes anthrax rather than typical hospital skin-flora bacteremia.",
+      "A recognized resistant skin-associated opportunist in these patients.",
+      "Can produce diphtheria-like disease, a different association.",
+      "Best known for strong urease activity and urinary tract disease."
+    ],
+    "memory": "Jeikeium: compromised host plus catheter.",
+    "quickCheck": {
+      "question": "How can skin flora reach the bloodstream?",
+      "answer": "Through breaks in skin, including catheter entry sites."
+    }
+  },
+  "book-203-49": {
+    "questionInPlainEnglish": "Which organism explains branching weakly acid-fast rods with lung and brain abscesses?",
+    "explanation": "Nocardia is inhaled from the environment, can infect lungs, and may spread through blood to the brain in immunocompromised people. Its branching and partial acid-fastness are especially helpful clues.",
+    "optionExplanations": [
+      "Branches but grows anaerobically and is not acid-fast.",
+      "Fits aerobic growth, branching, partial acid-fastness, and dissemination.",
+      "Acid-fast, but does not usually form the branching filaments described.",
+      "An anaerobic skin rod, not the characteristic branching acid-fast organism."
+    ],
+    "memory": "Nocardia: lung to brain, weak acid-fast stain.",
+    "quickCheck": {
+      "question": "Which feature separates this organism from Actinomyces?",
+      "answer": "Aerobic growth with partial acid-fastness."
+    }
+  },
+  "book-203-50": {
+    "questionInPlainEnglish": "Which listed genus usually lacks catalase?",
+    "explanation": "Catalase produces bubbles by breaking down hydrogen peroxide. Leuconostoc is a catalase-negative coccus, unlike the three rod genera listed.",
+    "optionExplanations": [
+      "Usually catalase-positive spore-forming rods.",
+      "Usually catalase-positive irregular rods.",
+      "Catalase-negative cocci; this is the requested exception.",
+      "Listeria are small rods with catalase activity, so they do not fit the catalase-negative clue."
+    ],
+    "memory": "Leuconostoc lacks catalase.",
+    "quickCheck": {
+      "question": "What visible result indicates catalase activity?",
+      "answer": "Immediate oxygen bubbles after adding peroxide."
+    }
+  },
+  "book-203-52": {
+    "questionInPlainEnglish": "Which bacterium most often infects implanted valves and shunts?",
+    "explanation": "S. epidermidis normally lives on skin. On artificial surfaces it can build a sticky biofilm, a protected community that helps it persist despite host defenses.",
+    "optionExplanations": [
+      "A urinary-associated corynebacterium, not the most common device pathogen.",
+      "Can cause device infections but is less common than S. epidermidis.",
+      "A major coagulase-negative staphylococcal cause of prosthetic-device infection.",
+      "An oral organism associated with dental plaque and some valve infections."
+    ],
+    "memory": "Epidermidis sticks to equipment.",
+    "quickCheck": {
+      "question": "Why do biofilms matter on implants?",
+      "answer": "They protect attached bacteria and make infection difficult to clear."
+    }
+  },
+  "book-203-53": {
+    "questionInPlainEnglish": "Which organism makes colonies with hairlike Medusa-head edges?",
+    "explanation": "Long chains of B. anthracis cells can produce irregular curling projections at a colony edge. The description is a presumptive warning clue, not sufficient identification by itself.",
+    "optionExplanations": [
+      "Classic organism associated with Medusa-head colonies.",
+      "An enterococcus without this characteristic colony edge.",
+      "A urinary staphylococcus, not a large spore-forming rod.",
+      "Group B streptococcus makes small hemolytic colonies instead."
+    ],
+    "memory": "Anthracis has Medusa-like colony hair.",
+    "quickCheck": {
+      "question": "What is a colony?",
+      "answer": "A visible mass of bacteria growing from an initial cell or group."
+    }
+  },
+  "book-203-54": {
+    "questionInPlainEnglish": "Which organism commonly colonizes the front of the nose?",
+    "explanation": "S. aureus can live in the anterior nares without causing illness. Carriage matters because hands can transfer the organism from the nose to other people or wounds.",
+    "optionExplanations": [
+      "Mainly an environmental spore-former.",
+      "Often colonizes the nasopharynx rather than being this classic anterior-nose screening target.",
+      "A common anterior-nares colonizer sought in carrier screening.",
+      "More associated with urinary infection than nasal carriage."
+    ],
+    "memory": "Aureus often occupies the anterior nose.",
+    "quickCheck": {
+      "question": "Does nasal carriage necessarily mean infection?",
+      "answer": "No; colonization can occur without illness."
+    }
+  },
+  "book-203-55": {
+    "questionInPlainEnglish": "Which organism is usually sensitive to the chemical also called optochin?",
+    "explanation": "Ethylhydrocupreine hydrochloride is optochin. It inhibits pneumococcus and helps distinguish it from usually resistant viridans streptococci.",
+    "optionExplanations": [
+      "Usually resistant; this is the main comparison group.",
+      "Group A is identified with other tests such as PYR.",
+      "Group B is identified with CAMP or other methods.",
+      "Pneumococcus is usually inhibited by optochin."
+    ],
+    "memory": "Ethylhydrocupreine = optochin.",
+    "quickCheck": {
+      "question": "Which alpha-hemolytic organism is usually optochin sensitive?",
+      "answer": "S. pneumoniae."
+    }
+  },
+  "book-203-56": {
+    "questionInPlainEnglish": "Which organism dissolves when exposed to a bile salt?",
+    "explanation": "Sodium deoxycholate triggers pneumococcal self-digestion. Cells break apart, so a turbid suspension clears or a colony disappears.",
+    "optionExplanations": [
+      "Bile tolerant rather than characteristically bile soluble.",
+      "Group B does not have this classic bile-solubility reaction.",
+      "The likely intended S. mutans is a viridans organism and usually remains intact.",
+      "Pneumococcus shows the characteristic dissolution."
+    ],
+    "memory": "Pneumococcus plus bile → breakdown.",
+    "quickCheck": {
+      "question": "What happens in a positive bile-solubility test?",
+      "answer": "Pneumococcal cells lyse and the suspension clears."
+    }
+  },
+  "book-203-57": {
+    "questionInPlainEnglish": "Which bacterium best explains sudden vomiting two hours after a picnic?",
+    "explanation": "Such a short delay suggests poison already made in food. Staphylococcal enterotoxin can act before an infection would have time to grow in the intestine.",
+    "optionExplanations": [
+      "Not a classic cause of rapid preformed-toxin vomiting.",
+      "Not the classic Bacillus emetic-food-poisoning species.",
+      "Listeriosis usually has a longer incubation and different presentation.",
+      "Preformed enterotoxin explains the rapid violent vomiting."
+    ],
+    "memory": "Two-hour vomiting: think preformed toxin.",
+    "quickCheck": {
+      "question": "Why can symptoms appear before bacteria multiply in the patient?",
+      "answer": "The swallowed toxin is already present and active."
+    }
+  },
+  "book-203-58": {
+    "questionInPlainEnglish": "Which species can be distinguished by its usual novobiocin resistance?",
+    "explanation": "Among common coagulase-negative staphylococci, S. saprophyticus usually resists novobiocin, whereas S. epidermidis is usually susceptible. This supports identification of urinary isolates.",
+    "optionExplanations": [
+      "C. diphtheriae is the diphtheria-associated rod; novobiocin resistance is not its classic identification clue.",
+      "PYR is more useful for group A streptococcus.",
+      "Optochin, not novobiocin, is the classic disk.",
+      "Usually resistant, helping separate it from S. epidermidis."
+    ],
+    "memory": "Sapro says no to novobiocin.",
+    "quickCheck": {
+      "question": "Which common coagulase-negative staphylococcus is usually novobiocin susceptible?",
+      "answer": "S. epidermidis."
+    }
+  },
+  "book-203-59": {
+    "questionInPlainEnglish": "Which organism is presumptively recognized by tellurite reduction?",
+    "explanation": "Reduction changes tellurite into a dark deposit. Together with the brown halo on Tinsdale medium, this makes suspicious C. diphtheriae colonies recognizable among throat flora.",
+    "optionExplanations": [
+      "Medusa-head morphology and other tests are relevant, not this classic reaction.",
+      "The classic organism screened with tellurite-containing medium.",
+      "H2S production is a more characteristic identification clue.",
+      "Novobiocin resistance is its classic distinguishing test."
+    ],
+    "memory": "Diphtheria darkens tellurite.",
+    "quickCheck": {
+      "question": "Does tellurite reduction establish toxin production?",
+      "answer": "No."
+    }
+  },
+  "book-203-62": {
+    "questionInPlainEnglish": "Which disease is commonly associated with B. cereus?",
+    "explanation": "B. cereus spores can survive cooking. Improper storage lets organisms grow; emetic toxin in food or diarrheal toxins produced in the gut can then cause illness.",
+    "optionExplanations": [
+      "A recognized cause, classically associated with improperly stored rice.",
+      "Usually caused by staphylococci or group A streptococci.",
+      "Usually associated with other genital-tract organisms.",
+      "Classically linked to S. aureus or S. pyogenes toxins."
+    ],
+    "memory": "Cereus spores survive; stored rice can cause illness.",
+    "quickCheck": {
+      "question": "Why can reheating fail to prevent emetic B. cereus illness?",
+      "answer": "The preformed emetic toxin is heat stable."
+    }
+  },
+  "book-203-63": {
+    "questionInPlainEnglish": "Which organism causes the skin lesion historically called malignant pustule?",
+    "explanation": "Cutaneous anthrax develops a dark dead-tissue crust called an eschar. The old name is misleading: it is not a cancer, and the classic lesion is not a pus-filled pimple.",
+    "optionExplanations": [
+      "Causes cutaneous anthrax with a black eschar.",
+      "Can cause diphtheria-like illness rather than classic anthrax eschar.",
+      "Causes erysipeloid rather than malignant pustule.",
+      "Usually linked to foodborne invasive disease, not anthrax."
+    ],
+    "memory": "Anthrax eschar is black.",
+    "quickCheck": {
+      "question": "What is an eschar?",
+      "answer": "A crust of dead tissue."
+    }
+  },
+  "book-203-64": {
+    "questionInPlainEnglish": "Which bacterium causes widespread skin peeling in this infant?",
+    "explanation": "S. aureus exfoliative toxin cuts a protein holding superficial skin cells together. The upper skin layer loosens like tiles losing their grout.",
+    "optionExplanations": [
+      "Can cause severe skin infection, but not the classic exfoliative-toxin syndrome.",
+      "Produces the toxin responsible for staphylococcal scalded skin syndrome.",
+      "Causes anthrax, not widespread superficial peeling.",
+      "Causes localized erysipeloid, not this toxin syndrome."
+    ],
+    "memory": "Exfoliative toxin unfastens skin cells.",
+    "quickCheck": {
+      "question": "Is the toxin-producing infection always at the peeling skin site?",
+      "answer": "No; toxin can travel from another site."
+    }
+  },
+  "book-203-65": {
+    "questionInPlainEnglish": "Which urine isolate both blackens bile-esculin agar and tolerates 6.5% salt?",
+    "explanation": "Enterococci split esculin and tolerate concentrated salt. Nonenterococcal group D streptococci may also blacken bile-esculin agar, so salt tolerance is the deciding clue.",
+    "optionExplanations": [
+      "A nutrient-demanding organism, not the typical bile-plus-salt pattern.",
+      "Fits bile-esculin positivity and high-salt growth.",
+      "Group B does not fit this characteristic combined pattern.",
+      "Nonenterococcal group D organisms usually fail the 6.5% salt test."
+    ],
+    "memory": "Enterococcus enters bile and salt.",
+    "quickCheck": {
+      "question": "Which test separates enterococci from the S. bovis group here?",
+      "answer": "Growth in 6.5% NaCl."
+    }
+  },
+  "book-203-66": {
+    "questionInPlainEnglish": "Which listed specimen is preferred for routine isolation in suspected brucellosis?",
+    "explanation": "Brucella can spread through the bloodstream. Multiple blood cultures improve the chance of catching it; bone marrow may also be useful, but is not offered here.",
+    "optionExplanations": [
+      "The best listed specimen for systemic brucellosis.",
+      "Not the standard first-choice culture specimen.",
+      "Useful if neurologic involvement is suspected, not the general first choice.",
+      "Not the usual site sampled for this systemic zoonosis."
+    ],
+    "memory": "Brucella bloodstream → blood cultures.",
+    "quickCheck": {
+      "question": "Why might multiple blood cultures help?",
+      "answer": "Bacteria may be present in low or varying numbers."
+    }
+  },
+  "book-203-67": {
+    "questionInPlainEnglish": "Which Klebsiella species is most often found clinically?",
+    "explanation": "K. pneumoniae is a common cause of urinary, respiratory, and bloodstream infections. Its thick capsule helps it evade defenses and often makes colonies look wet and mucoid.",
+    "optionExplanations": [
+      "A less commonly encountered Klebsiella taxon.",
+      "The most common clinical species in this list.",
+      "Formerly Enterobacter aerogenes; not the majority of Klebsiella isolates.",
+      "A recognized pathogen, but less common than K. pneumoniae."
+    ],
+    "memory": "Pneumoniae is the common clinical Klebsiella.",
+    "quickCheck": {
+      "question": "Why can Klebsiella colonies look mucoid?",
+      "answer": "Their capsule contains abundant sticky polysaccharide."
+    }
+  },
+  "book-203-68": {
+    "questionInPlainEnglish": "How do cholera toxin and E. coli heat-labile toxin cause watery diarrhea?",
+    "explanation": "They raise the intestinal cell’s cyclic AMP signal. This turns secretion up: chloride flows into the gut and water follows, like opening a fluid tap.",
+    "optionExplanations": [
+      "Correct: adenylate cyclase activation raises cAMP and fluid secretion.",
+      "Invasion is not required for these secretory toxins.",
+      "Colicins target other bacteria, not this intestinal fluid pathway.",
+      "A skin-damaging toxin does not explain the shared watery-diarrhea mechanism."
+    ],
+    "memory": "cAMP up → chloride out → water out.",
+    "quickCheck": {
+      "question": "Why does water follow secreted chloride?",
+      "answer": "Dissolved salts draw water by osmosis."
+    },
+    "sourceNote": "This shared cAMP mechanism applies to E. coli heat-labile toxin; heat-stable enterotoxin mainly acts through cGMP."
+  },
+  "book-203-69": {
+    "questionInPlainEnglish": "Which enzyme causes Neisseria’s positive oxidase color reaction?",
+    "explanation": "The reagent acts as an artificial electron donor in the oxidase reaction. A rapid purple color reveals cytochrome c oxidase activity in the bacterial respiratory system.",
+    "optionExplanations": [
+      "Splits lactose-related substrates; detected with ONPG.",
+      "Splits urea and changes pH, not the oxidase reaction.",
+      "The respiratory enzyme detected by the purple reaction.",
+      "Removes an amino group from phenylalanine, a different test."
+    ],
+    "memory": "Oxidase purple means respiratory enzyme activity.",
+    "quickCheck": {
+      "question": "What color is a positive conventional oxidase test?",
+      "answer": "Dark purple."
+    }
+  },
+  "book-203-70": {
+    "questionInPlainEnglish": "Which statement is FALSE about S. sonnei?",
+    "explanation": "Shigella can cause infection after ingestion of very few organisms. That low infectious dose helps explain person-to-person spread in childcare settings.",
+    "optionExplanations": [
+      "False: only a small inoculum may cause illness.",
+      "True as a disease pattern: invasion of the colon can cause inflammatory or bloody diarrhea.",
+      "True: children are commonly affected.",
+      "True: S. sonnei can ferment lactose slowly."
+    ],
+    "memory": "Shigella needs a small starting dose.",
+    "quickCheck": {
+      "question": "Why is hand hygiene especially important for Shigella?",
+      "answer": "A small amount of fecal contamination can transmit infection."
+    }
+  },
+  "book-203-71": {
+    "questionInPlainEnglish": "Which genus best fits yellow nonfermenting rods in wet respiratory equipment?",
+    "explanation": "Chryseobacterium species are environmental nonfermenters, often yellow pigmented. Water and moist equipment can become reservoirs for opportunistic infections.",
+    "optionExplanations": [
+      "Fits yellow pigmentation and moist environmental equipment.",
+      "Common in wet environments, but this yellow-pigment clue favors Chryseobacterium.",
+      "A nonfermenter, generally without the characteristic yellow pigment.",
+      "Usually coccoid or short rods without this characteristic yellow pattern."
+    ],
+    "memory": "Chryseo means golden: yellow nonfermenters.",
+    "quickCheck": {
+      "question": "Why can nebulizers become bacterial reservoirs?",
+      "answer": "They contain moisture that supports water-associated organisms."
+    },
+    "sourceNote": "The book’s Chryseobacterium meningosepticum is now Elizabethkingia meningoseptica; the named genus choice is retained."
+  },
+  "book-203-72": {
+    "questionInPlainEnglish": "Which organism best matches these mostly negative enteric tests and absent motility?",
+    "explanation": "Shigella dysenteriae is a nonmotile intestinal pathogen that usually cannot ferment lactose, use citrate, split urea, or decarboxylate lysine. The combined pattern helps separate it from many enteric rods.",
+    "optionExplanations": [
+      "Usually motile and urease positive, contradicting the pattern.",
+      "Can share several negative results, so clinical context and additional tests are needed.",
+      "Most are motile and lysine positive.",
+      "Fits the classic nonmotile, biochemically inactive Shigella profile."
+    ],
+    "memory": "Shigella: still, no lactose, no lysine.",
+    "quickCheck": {
+      "question": "Which simple trait separates most Salmonella from Shigella?",
+      "answer": "Salmonella are usually motile; Shigella are nonmotile."
+    },
+    "sourceNote": "Y. pestis shares several listed traits. The book intends S. dysenteriae, but this abbreviated profile is not fully unique."
+  },
+  "book-203-73": {
+    "questionInPlainEnglish": "Which rod ferments sugars yet is oxidase positive and grows on MacConkey agar?",
+    "explanation": "Aeromonas is an aquatic organism that ferments glucose and has oxidase activity. This combination separates it from common oxidase-negative enteric rods and nonfermenting pseudomonads.",
+    "optionExplanations": [
+      "Fits fermentation, oxidase positivity, motility, and MacConkey growth.",
+      "Oxidase positive but nonfermentative.",
+      "Generally oxidase negative and nonfermentative.",
+      "Ferments glucose but is oxidase negative."
+    ],
+    "memory": "Aeromonas: aquatic fermenter with oxidase.",
+    "quickCheck": {
+      "question": "Which result rules against P. aeruginosa here?",
+      "answer": "True fermentation of glucose."
+    }
+  },
+  "book-203-74": {
+    "questionInPlainEnglish": "Which genus is specifically sought on TCBS agar?",
+    "explanation": "TCBS has alkaline selective ingredients that favor vibrios. Its sucrose indicator makes sucrose-fermenting colonies yellow and nonfermenting colonies green.",
+    "optionExplanations": [
+      "Usually sought on other enteric selective agars.",
+      "Vibrio is the genus classically associated with TCBS in this laboratory-medium comparison.",
+      "Needs different selective medium and a reduced-oxygen atmosphere.",
+      "Usually sought on other enteric selective agars."
+    ],
+    "memory": "TCBS is the Vibrio plate.",
+    "quickCheck": {
+      "question": "What does a yellow TCBS colony indicate?",
+      "answer": "Sucrose fermentation with acid production."
+    }
+  },
+  "book-203-75": {
+    "questionInPlainEnglish": "Which description belongs to the K antigen?",
+    "explanation": "K identifies a capsule-associated antigen, an outer coat that may hide O antigens underneath. The book’s classical scheme describes it as heat labile, meaning heat can destroy or remove it.",
+    "optionExplanations": [
+      "The intended classical K-antigen property.",
+      "The somatic cell-surface antigen is O.",
+      "Flagella are movement structures, and their antigen is called H; K refers to a different surface antigen.",
+      "Shigella grouping mainly uses O antigens."
+    ],
+    "memory": "K = kapsule; O = body; H = flagella.",
+    "quickCheck": {
+      "question": "Which antigen can a capsule mask?",
+      "answer": "The underlying O antigen."
+    },
+    "sourceNote": "K antigens vary in heat stability; “heat labile” is a classical simplification rather than a universal rule."
+  },
+  "book-203-76": {
+    "questionInPlainEnglish": "Which organism causes melioidosis?",
+    "explanation": "B. pseudomallei lives in soil and water in endemic regions. Entry through skin, inhalation, or ingestion can lead to pneumonia or abscesses in multiple organs.",
+    "optionExplanations": [
+      "An opportunist important in cystic fibrosis, not melioidosis.",
+      "The causative organism of melioidosis.",
+      "A respiratory pathogen, not the melioidosis agent.",
+      "An opportunistic nonfermenter, not the melioidosis agent."
+    ],
+    "memory": "Pseudo-mallei → melioidosis.",
+    "quickCheck": {
+      "question": "Can melioidosis involve more than the lungs?",
+      "answer": "Yes; skin and internal-organ abscesses can occur."
+    }
+  },
+  "book-203-77": {
+    "questionInPlainEnglish": "Which organism requires cysteine-enriched medium?",
+    "explanation": "Francisella is very demanding nutritionally. Cysteine is an amino acid it needs supplied for reliable culture, so ordinary routine media may miss it.",
+    "optionExplanations": [
+      "An animal-associated organism without this defining culture requirement.",
+      "A blood-associated pathogen with different culture needs.",
+      "The tularemia organism requires cysteine/cystine enrichment.",
+      "A fastidious oral organism, but not the classic cysteine-dependent choice."
+    ],
+    "memory": "Francisella feeds on cysteine.",
+    "quickCheck": {
+      "question": "Why can a negative routine culture miss Francisella?",
+      "answer": "The medium may lack the nutrient it requires."
+    }
+  },
+  "book-203-78": {
+    "questionInPlainEnglish": "Which bacterium fits an indole-positive, citrate-negative, lactose-associated enteric pattern?",
+    "explanation": "E. coli usually ferments glucose and lactose, produces indole, and is negative for citrate, urease, and Voges-Proskauer. Several results together are more useful than the ulcer source alone.",
+    "optionExplanations": [
+      "Usually citrate and Voges-Proskauer positive, unlike this pattern.",
+      "Fits the classic biochemical combination.",
+      "Usually citrate positive, unlike the stated result.",
+      "Usually does not give this lactose/ONPG-positive acid-over-acid pattern."
+    ],
+    "memory": "E. coli: indole yes, citrate no.",
+    "quickCheck": {
+      "question": "What does an acid slant and acid butt in TSI suggest?",
+      "answer": "Glucose plus lactose and/or sucrose fermentation."
+    },
+    "sourceNote": "The stem’s “Indole positive negative Urease” appears misordered by OCR; interpreted as indole positive and urease negative, matching the rationale."
+  },
+  "book-203-80": {
+    "questionInPlainEnglish": "Which oral rod moves by gliding and can cause periodontal disease?",
+    "explanation": "Capnocytophaga lives in the mouth and can slide along surfaces without ordinary flagellar swimming. This gliding can create spreading growth around colonies.",
+    "optionExplanations": [
+      "The oral, gliding, fastidious rod described.",
+      "Usually recognized by violet pigment and different ecology.",
+      "An oral pathogen but not the classic gliding genus.",
+      "An aquatic motile rod rather than this oral glider."
+    ],
+    "memory": "Capnocytophaga glides around gums.",
+    "quickCheck": {
+      "question": "How does gliding differ from ordinary swimming?",
+      "answer": "It is movement along a surface rather than flagellar movement through liquid."
+    }
+  },
+  "book-203-81": {
+    "questionInPlainEnglish": "Which Vibrio causes especially severe wound infection in people with liver disease?",
+    "explanation": "V. vulnificus lives in coastal waters. It can enter wounds exposed to seawater and spread rapidly; liver disease increases the risk of severe infection and bloodstream invasion.",
+    "optionExplanations": [
+      "Can cause marine wound infections, but is less characteristic of this severe liver-disease association.",
+      "Best known for cholera’s watery diarrhea.",
+      "The classic rapidly invasive marine wound pathogen in this setting.",
+      "More commonly associated with seafood-related gastroenteritis."
+    ],
+    "memory": "Vulnificus: vulnerable liver, vicious wound.",
+    "quickCheck": {
+      "question": "Which environmental exposure is a clue?",
+      "answer": "A wound exposed to brackish or salt water."
+    }
+  },
+  "book-203-82": {
+    "questionInPlainEnglish": "Which bacterium is classically linked to bloodstream infection with widespread clotting and adrenal hemorrhage?",
+    "explanation": "Meningococcal bloodstream infection can trigger clotting throughout small vessels. Platelets and clotting factors are consumed, causing bleeding as well; adrenal hemorrhage is part of Waterhouse-Friderichsen syndrome.",
+    "optionExplanations": [
+      "Can cause sepsis but is not the classic named association.",
+      "Usually a respiratory organism without this classic syndrome.",
+      "Can disseminate, but is not the classic fulminant DIC association.",
+      "Meningococcemia is strongly associated with this complication."
+    ],
+    "memory": "Meningococcus can clot and bleed.",
+    "quickCheck": {
+      "question": "Why can DIC cause bleeding despite excessive clotting?",
+      "answer": "Clotting consumes platelets and coagulation factors."
+    }
+  },
+  "book-203-83": {
+    "questionInPlainEnglish": "Which H. influenzae capsule type is covered by Hib vaccine?",
+    "explanation": "Hib means H. influenzae type b. The vaccine targets its capsule and helps prevent invasive disease such as meningitis; it does not cover every H. influenzae strain.",
+    "optionExplanations": [
+      "Type a has a different capsule identity; the routine Hib vaccine targets type b, not type a.",
+      "Type b is the vaccine’s capsule target.",
+      "Type c is another capsule type and is not what the b in Hib stands for.",
+      "Type d is a different capsule type; Hib vaccination does not mean protection against every H. influenzae type."
+    ],
+    "memory": "Hib ends in b.",
+    "quickCheck": {
+      "question": "Does Hib vaccine cover nontypeable H. influenzae?",
+      "answer": "No."
+    }
+  },
+  "book-203-84": {
+    "questionInPlainEnglish": "Which result is NOT typical of Salmonella Typhi?",
+    "explanation": "Typhi differs from many other salmonellae by making only a small amount of H2S, often without gas from glucose. Expecting heavy blackening could cause a true isolate to be missed.",
+    "optionExplanations": [
+      "False: Typhi typically produces only a small amount of H2S.",
+      "True: Vi capsule antigen may be detected by agglutination.",
+      "True: lysine decarboxylase is usually positive.",
+      "True: citrate utilization is usually negative."
+    ],
+    "memory": "Typhi: tiny H2S, no gas.",
+    "quickCheck": {
+      "question": "Why might a Typhi TSI tube show little blackening?",
+      "answer": "It produces relatively little hydrogen sulfide."
+    }
+  },
+  "book-203-85": {
+    "questionInPlainEnglish": "Which sexually transmitted disease causes painful genital ulcers and tender groin nodes?",
+    "explanation": "H. ducreyi causes chancroid. The ulcers and nearby lymph nodes are often painful, unlike the classically painless primary syphilis chancre.",
+    "optionExplanations": [
+      "Fits painful ulcers caused by a small gram-negative rod.",
+      "A change in vaginal flora, not an ulcerative disease.",
+      "Caused by a spirochete; the primary chancre is usually painless.",
+      "An eye infection caused by specific C. trachomatis strains."
+    ],
+    "memory": "Chancroid hurts; syphilitic chancre usually does not.",
+    "quickCheck": {
+      "question": "Which bacterium causes chancroid?",
+      "answer": "Haemophilus ducreyi."
+    }
+  },
+  "book-203-86": {
+    "questionInPlainEnglish": "Which disease is associated with poorly maintained hot tubs?",
+    "explanation": "P. aeruginosa thrives in wet environments. Contaminated hot-tub water can infect hair follicles, especially under a swimsuit where water remains against skin.",
+    "optionExplanations": [
+      "A Coxiella infection commonly acquired from animal aerosols.",
+      "A streptococcal skin infection without this classic hot-tub link.",
+      "Not the characteristic hot-tub organism.",
+      "Hot-tub folliculitis is a classic Pseudomonas skin infection."
+    ],
+    "memory": "Warm wet tub → Pseudomonas follicles.",
+    "quickCheck": {
+      "question": "What is folliculitis?",
+      "answer": "Inflammation or infection of hair follicles."
+    }
+  },
+  "book-203-87": {
+    "questionInPlainEnglish": "Which illness is most commonly caused by Campylobacter?",
+    "explanation": "C. jejuni commonly causes inflammation of the intestine, with abdominal pain, fever, and sometimes bloody diarrhea. This is much more common than its rare infections at other sites.",
+    "optionExplanations": [
+      "Bone infection is possible but uncommon.",
+      "The typical disease is diarrheal intestinal infection.",
+      "Heart-valve infection is uncommon.",
+      "Can mimic appendicitis, but gastroenteritis is the main disease."
+    ],
+    "memory": "Campylobacter commonly camps in the gut.",
+    "quickCheck": {
+      "question": "What does gastroenteritis involve?",
+      "answer": "Inflammation of the stomach/intestines with digestive symptoms."
+    }
+  },
+  "book-203-88": {
+    "questionInPlainEnglish": "Which nonfermenter can resemble Salmonella by producing much H2S?",
+    "explanation": "Shewanella can blacken H2S-indicating enteric medium even though it is not Salmonella. Oxidase and other biochemical tests help avoid identification based on blackening alone.",
+    "optionExplanations": [
+      "Not the characteristic strong H2S-producing mimic.",
+      "Not the characteristic H2S clue in this question.",
+      "A nonfermenter, but not the classic strong H2S producer.",
+      "Strong H2S production can make it resemble enteric pathogens."
+    ],
+    "memory": "Shewanella shares sulfur blackening.",
+    "quickCheck": {
+      "question": "Does H2S production alone identify Salmonella?",
+      "answer": "No; unrelated organisms can produce H2S."
+    }
+  },
+  "book-203-89": {
+    "questionInPlainEnglish": "Which organism causes whooping cough?",
+    "explanation": "B. pertussis infects the respiratory tract and disrupts normal airway defenses. Repeated coughing fits may end with a whooping intake of breath.",
+    "optionExplanations": [
+      "The causative agent of pertussis.",
+      "Causes brucellosis, a systemic animal-associated infection.",
+      "Francisella tularensis causes tularemia, a different infection from the whooping cough asked about here.",
+      "Causes chancroid rather than respiratory disease."
+    ],
+    "memory": "Pertussis means whooping cough.",
+    "quickCheck": {
+      "question": "Which specimen region is sampled for pertussis testing?",
+      "answer": "The nasopharynx."
+    }
+  },
+  "book-203-90": {
+    "questionInPlainEnglish": "Which statement about gonorrhea is true?",
+    "explanation": "Women may carry gonorrhea without obvious symptoms. Infection can still be transmitted and may ascend to cause pelvic inflammatory disease, making screening important.",
+    "optionExplanations": [
+      "False: gonococci are diplococci, not bacilli.",
+      "True: infection may be asymptomatic in women.",
+      "False: humans are the natural host reservoir.",
+      "False: gonococci are fragile outside the body."
+    ],
+    "memory": "Silent gonorrhea can still spread.",
+    "quickCheck": {
+      "question": "Does having no symptoms rule out gonorrhea?",
+      "answer": "No."
+    }
+  },
+  "book-203-91": {
+    "questionInPlainEnglish": "Which organism fits the plate’s H2S-positive, lysine-positive, urease-negative pattern?",
+    "explanation": "H2S blackening narrows the possibilities but does not identify the organism alone. Positive lysine decarboxylase and negative urease favor Salmonella over common Proteus and Citrobacter look-alikes.",
+    "optionExplanations": [
+      "Can produce H2S but is usually lysine decarboxylase negative.",
+      "Can produce H2S but is strongly urease positive.",
+      "Typically urease positive and not this classic H2S pattern.",
+      "Fits the combined reactions described in the book."
+    ],
+    "memory": "Salmonella: sulfur yes, lysine yes, urease no.",
+    "quickCheck": {
+      "question": "Which reaction argues against Proteus?",
+      "answer": "Negative urease."
+    },
+    "sourceNote": "Requires Color Plate 27; reaction details here come from the book rationale."
+  },
+  "book-203-92": {
+    "questionInPlainEnglish": "Which organism typically forms paired kidney-bean-shaped cells?",
+    "explanation": "Neisseria cells are cocci with flattened adjacent sides. In pairs they resemble two kidney beans facing each other, rather than rods.",
+    "optionExplanations": [
+      "A classic gram-negative diplococcus with this shape.",
+      "A small gram-negative rod/coccobacillus.",
+      "Small gram-negative rods, not classic kidney-bean pairs.",
+      "Likely an OCR rendering of Acinetobacter; can appear coccobacillary, but Neisseria is the classic choice."
+    ],
+    "memory": "Neisseria beans come in pairs.",
+    "quickCheck": {
+      "question": "What does diplococcus mean?",
+      "answer": "A bacterium appearing as paired cocci."
+    }
+  },
+  "book-203-93": {
+    "questionInPlainEnglish": "Which listed nonfermenter is rarely encountered in the United States?",
+    "explanation": "B. mallei causes glanders, primarily an equine disease. Human cases are rare in the United States, whereas the other listed organisms are familiar opportunistic clinical isolates.",
+    "optionExplanations": [
+      "A common clinical nonfermenter.",
+      "A recognized hospital opportunist.",
+      "The rare glanders organism is the intended answer.",
+      "A clinically encountered opportunist, especially in cystic fibrosis."
+    ],
+    "memory": "Mallei → glanders → rare human U.S. isolate.",
+    "quickCheck": {
+      "question": "Which animal group is classically associated with glanders?",
+      "answer": "Horses and other equids."
+    }
+  },
+  "book-203-94": {
+    "questionInPlainEnglish": "Which newborn eye infection is erythromycin prophylaxis mainly intended to prevent?",
+    "explanation": "Gonococci can enter a baby’s eyes during birth and cause rapidly destructive conjunctivitis. Eye prophylaxis targets this preventable cause of neonatal blindness.",
+    "optionExplanations": [
+      "Not the principal target of routine neonatal eye prophylaxis.",
+      "Haemophilus can cause eye infections, but it is not the principal organism targeted by the newborn prophylaxis in this question.",
+      "Can cause eye disease but is not the routine prophylaxis target.",
+      "The organism targeted to prevent gonococcal ophthalmia neonatorum."
+    ],
+    "memory": "Newborn eye prophylaxis → gonococcus.",
+    "quickCheck": {
+      "question": "When can a newborn acquire gonococci in the eyes?",
+      "answer": "During exposure to infected maternal secretions at delivery."
+    }
+  },
+  "book-203-95": {
+    "questionInPlainEnglish": "Which sugar separates N. lactamica from N. meningitidis?",
+    "explanation": "Both can use glucose and maltose. N. lactamica also uses lactose and is beta-galactosidase positive, so a lactose or ONPG test helps distinguish the look-alikes.",
+    "optionExplanations": [
+      "Both may use maltose, so it does not separate them.",
+      "Lactose utilization is the distinguishing feature.",
+      "Both species can use glucose, so this shared ability would not help tell them apart.",
+      "Sucrose is not the distinguishing positive reaction intended."
+    ],
+    "memory": "Lactamica likes lactose.",
+    "quickCheck": {
+      "question": "Which enzyme test supports N. lactamica?",
+      "answer": "A positive ONPG/beta-galactosidase test."
+    }
+  },
+  "book-203-96": {
+    "questionInPlainEnglish": "Which listed organism is traditionally associated with contagious pinkeye?",
+    "explanation": "H. aegyptius can cause acute contagious conjunctivitis, especially in children. It needs both hemin and NAD growth factors, like closely related H. influenzae.",
+    "optionExplanations": [
+      "The traditional Koch-Weeks bacillus associated with acute contagious pinkeye.",
+      "Can also cause conjunctivitis, but is associated especially with angular conjunctivitis.",
+      "Causes inclusion conjunctivitis and trachoma, distinct clinical associations.",
+      "Associated with chronic nasal disease rather than pinkeye."
+    ],
+    "memory": "Aegyptius: eyes need X and V.",
+    "quickCheck": {
+      "question": "Which growth factors are X and V?",
+      "answer": "X is hemin; V is NAD."
+    },
+    "sourceNote": "“Pinkeye” is a broad clinical term with many causes; the book intends H. aegyptius, now often treated as H. influenzae biogroup aegyptius."
+  },
+  "book-203-97": {
+    "questionInPlainEnglish": "Which species name completes Hafnia in the book’s taxonomy?",
+    "explanation": "Hafnia alvei is the familiar enteric rod intended. Scientific classifications change as genetic studies reveal separate species, so the book’s claim that the genus has one species is historical.",
+    "optionExplanations": [
+      "The classic species Hafnia alvei.",
+      "Associated with Pluralibacter, not Hafnia.",
+      "Yersinia ruckeri is a different genus.",
+      "Edwardsiella tarda is a different genus."
+    ],
+    "memory": "Hafnia pairs with alvei.",
+    "quickCheck": {
+      "question": "Which familiar species belongs to Hafnia?",
+      "answer": "Hafnia alvei."
+    },
+    "sourceNote": "Hafnia now includes H. paralvei; the claim that H. alvei is the only species is outdated. “Hafiiia” is OCR for Hafnia."
+  },
+  "book-203-98": {
+    "questionInPlainEnglish": "Which statement about A. baumannii is correct?",
+    "explanation": "A. baumannii is an oxidase-negative nonfermenter. It may oxidize glucose, but oxidation using oxygen is different from fermentation.",
+    "optionExplanations": [
+      "Cysteine dependence points to organisms such as Francisella.",
+      "Correct: oxidase negativity is a useful Acinetobacter clue.",
+      "False: it does not ferment glucose, although many isolates oxidize it.",
+      "False: it generally grows on MacConkey agar."
+    ],
+    "memory": "Acinetobacter: oxidase absent, fermentation absent.",
+    "quickCheck": {
+      "question": "Does glucose oxidation equal glucose fermentation?",
+      "answer": "No; they are different metabolic processes."
+    }
+  },
+  "book-203-99": {
+    "questionInPlainEnglish": "Which milder illness can also be caused by Legionella?",
+    "explanation": "Pontiac fever is an acute fever-and-muscle-ache illness after Legionella exposure. Unlike Legionnaires disease, it does not cause pneumonia and usually resolves on its own.",
+    "optionExplanations": [
+      "An animal disease name unrelated to the intended human Legionella illness.",
+      "The nonpneumonic, usually self-limited Legionella syndrome.",
+      "A mosquito-borne viral disease.",
+      "Another name for coccidioidomycosis, a fungal disease."
+    ],
+    "memory": "Pontiac fever: fever without pneumonia.",
+    "quickCheck": {
+      "question": "What major feature separates Legionnaires disease from Pontiac fever?",
+      "answer": "Pneumonia occurs in Legionnaires disease."
+    }
+  },
+  "book-203-100": {
+    "questionInPlainEnglish": "Which listed specimen is most sensitive for detecting Brucella by culture?",
+    "explanation": "Brucella can live inside immune cells and persist in tissues such as marrow. That helps explain why marrow may reveal infection when blood testing does not.",
+    "optionExplanations": [
+      "The book’s most sensitive listed specimen.",
+      "An upper-airway swab does not target this systemic tissue infection.",
+      "A lung secretion is not the best general specimen.",
+      "Stool is not the main diagnostic specimen for brucellosis."
+    ],
+    "memory": "Brucella can hide in marrow.",
+    "quickCheck": {
+      "question": "Why might a tissue specimen detect infection missed in blood?",
+      "answer": "The organism may persist in tissue despite low numbers in blood."
+    }
+  },
+  "book-203-103": {
+    "questionInPlainEnglish": "Which statement correctly describes C. jejuni?",
+    "explanation": "C. jejuni is a curved, moving intestinal bacterium. Its ability to split hippurate is a useful conceptual identification clue among related organisms.",
+    "optionExplanations": [
+      "False: it has characteristic motility.",
+      "False: it is generally oxidase positive.",
+      "True: hippurate hydrolysis is characteristic.",
+      "False: its rods are curved rather than typically straight."
+    ],
+    "memory": "Jejuni bends and breaks hippurate.",
+    "quickCheck": {
+      "question": "What does hydrolysis mean?",
+      "answer": "Splitting a molecule using water."
+    }
+  },
+  "book-203-104": {
+    "questionInPlainEnglish": "Which listed genus is oxidase negative?",
+    "explanation": "Hafnia belongs with the common oxidase-negative enteric rods. The other three genera usually have the respiratory enzyme detected by the oxidase test.",
+    "optionExplanations": [
+      "Aeromonas usually has oxidase activity; it therefore does not fit the requested negative reaction.",
+      "Chryseobacterium is usually oxidase positive rather than the oxidase-negative choice asked for.",
+      "The oxidase-negative enteric genus in this list.",
+      "Vibrio is usually oxidase positive, so it does not match the negative clue in this comparison."
+    ],
+    "memory": "Hafnia follows the enteric oxidase-negative pattern.",
+    "quickCheck": {
+      "question": "What does a negative oxidase test say?",
+      "answer": "The test did not detect the targeted oxidase enzyme activity."
+    }
+  },
+  "book-203-105": {
+    "questionInPlainEnglish": "Which statement about gonococci is true?",
+    "explanation": "Gonococci are fragile organisms. Fatty acids and environmental stress can damage them, explaining why their recovery is more demanding than recovery of many ordinary bacteria.",
+    "optionExplanations": [
+      "True: fatty acids can inhibit or damage gonococci.",
+      "False: ordinary sheep blood agar is not their reliable growth medium.",
+      "False: gonococci use glucose but not maltose in the standard identification scheme.",
+      "False: ONPG positivity instead suggests N. lactamica."
+    ],
+    "memory": "Gonococcus is fragile and glucose-only.",
+    "quickCheck": {
+      "question": "Which sugar helps distinguish meningococcus from gonococcus?",
+      "answer": "Maltose: meningococcus uses it; gonococcus typically does not."
+    }
+  },
+  "book-203-106": {
+    "questionInPlainEnglish": "Which bacterial structure supplies the antigens used to group Shigella?",
+    "explanation": "O antigens are sugar chains on the bacterial outer surface. Their differing patterns act like name badges for serogrouping Shigella.",
+    "optionExplanations": [
+      "Bacteriocins are antibacterial proteins, not the usual serogroup badges.",
+      "H antigens are flagellar; Shigella lacks motility.",
+      "K antigens are capsule-associated, not the main grouping system here.",
+      "O surface antigens define the conventional serogroups."
+    ],
+    "memory": "Shigella groups by O, not motion.",
+    "quickCheck": {
+      "question": "Why are H antigens unsuitable for ordinary Shigella grouping?",
+      "answer": "Shigella lacks flagella."
+    }
+  },
+  "book-203-107": {
+    "questionInPlainEnglish": "Which organism causes profuse rice-water-like diarrhea?",
+    "explanation": "Cholera toxin makes intestinal cells release salt and water without needing to invade the bowel wall. Clear watery stool with mucus flecks reflects this secretory process.",
+    "optionExplanations": [
+      "More associated with bloody diarrhea and Shiga toxin.",
+      "Invades the colon and often produces inflammatory diarrhea.",
+      "The classic cause of large-volume rice-water stool.",
+      "Usually causes inflammatory intestinal illness rather than classic rice-water diarrhea."
+    ],
+    "memory": "Cholera opens the water tap.",
+    "quickCheck": {
+      "question": "What is the immediate major danger of profuse cholera diarrhea?",
+      "answer": "Severe loss of water and electrolytes."
+    }
+  },
+  "book-203-108": {
+    "questionInPlainEnglish": "Which organism is salt-loving?",
+    "explanation": "Halophilic means requiring or favoring salt. V. parahaemolyticus is adapted to marine environments, which helps explain its association with seafood.",
+    "optionExplanations": [
+      "An enteric organism without this defining salt requirement.",
+      "Associated more with fresh water and not the intended halophile.",
+      "The salt-loving marine organism in this list.",
+      "A plague organism, not a marine salt-loving bacterium."
+    ],
+    "memory": "Halo = salt; marine Vibrio loves salt.",
+    "quickCheck": {
+      "question": "What does halophilic mean?",
+      "answer": "Salt-loving."
+    }
+  },
+  "book-203-109": {
+    "questionInPlainEnglish": "Which Brucella statement is FALSE?",
+    "explanation": "Brucella is unusually important as a laboratory-acquired infection risk. Tiny airborne droplets can expose staff, so the book’s statement that its risk is ordinary is incorrect.",
+    "optionExplanations": [
+      "True: damaged skin or mucosal surfaces can provide entry.",
+      "True: it is nutritionally demanding.",
+      "False: its accidental laboratory-infection risk is higher than that of many routine organisms.",
+      "A historical specialist identification approach; not the false statement intended."
+    ],
+    "memory": "Brucella is a recognized laboratory exposure hazard.",
+    "quickCheck": {
+      "question": "Why does advance clinical suspicion matter?",
+      "answer": "It alerts the laboratory to use appropriate specialist precautions."
+    }
+  },
+  "book-203-110": {
+    "questionInPlainEnglish": "Which bacterium is linked to stomach inflammation and peptic ulcers?",
+    "explanation": "H. pylori lives in the mucus protecting the stomach lining. Its urease helps it tolerate the acidic surroundings, while infection triggers inflammation and weakens normal protection.",
+    "optionExplanations": [
+      "Usually an intestinal diarrheal pathogen.",
+      "The classic bacterium associated with gastritis and many peptic ulcers.",
+      "Causes typhoid fever rather than chronic stomach colonization.",
+      "Causes colonic dysentery rather than typical peptic ulcers."
+    ],
+    "memory": "Pylori lives by the stomach pylorus.",
+    "quickCheck": {
+      "question": "Does every peptic ulcer require H. pylori?",
+      "answer": "No; other causes include certain anti-inflammatory medicines."
+    }
+  },
+  "book-203-112": {
+    "questionInPlainEnglish": "Which organism best fits diarrhea after raw shellfish?",
+    "explanation": "V. parahaemolyticus lives in marine environments. Eating contaminated raw seafood can carry it into the intestine and cause acute abdominal pain and diarrhea.",
+    "optionExplanations": [
+      "Often foodborne, especially poultry, but raw shellfish favors Vibrio here.",
+      "Linked to chronic gastritis and ulcers rather than acute seafood diarrhea.",
+      "Transmitted fecal-orally, but not the characteristic marine association.",
+      "The salt-associated seafood gastroenteritis organism intended."
+    ],
+    "memory": "Raw shellfish → parahaemolyticus.",
+    "quickCheck": {
+      "question": "Why is seafood a clue to this organism?",
+      "answer": "It naturally occurs in marine environments."
+    }
+  },
+  "book-203-113": {
+    "questionInPlainEnglish": "Which Salmonella O group becomes identifiable once Typhi’s capsule no longer masks it?",
+    "explanation": "The Vi capsule can cover underlying O antigens like a coat hiding a shirt. Typhi belongs to O group D; the question is asking about that hidden surface identity.",
+    "optionExplanations": [
+      "Group A describes a different Salmonella surface-antigen group, not the usual group D of Typhi.",
+      "Group B is a different Salmonella antigen group; exposing Typhi’s surface antigen does not make it group B.",
+      "The displayed G! appears corrupted; it is not the intended Typhi group.",
+      "Group D is the underlying O-antigen group of Typhi."
+    ],
+    "memory": "Typhi wears Vi over group D.",
+    "quickCheck": {
+      "question": "What can a capsule do to antibody recognition?",
+      "answer": "Mask antigens underneath it."
+    }
+  },
+  "book-203-114": {
+    "questionInPlainEnglish": "Which Campylobacter is especially associated with infection outside the intestine?",
+    "explanation": "C. fetus can invade blood and other sites, particularly in people with underlying illness. This distinguishes its typical clinical association from the diarrheal pattern of C. jejuni.",
+    "optionExplanations": [
+      "More often associated with intestinal diarrhea.",
+      "The species classically associated with invasive extraintestinal disease.",
+      "Likely C. lari; usually linked to intestinal infection.",
+      "Not the characteristic invasive species in this list."
+    ],
+    "memory": "Fetus can travel farther than the gut.",
+    "quickCheck": {
+      "question": "What does extraintestinal mean?",
+      "answer": "Outside the intestine."
+    }
+  },
+  "book-203-115": {
+    "questionInPlainEnglish": "Which feature distinguishes S. sonnei from other Shigella?",
+    "explanation": "S. sonnei has beta-galactosidase, so it can split the ONPG substrate. This can reveal its lactose-related enzyme even when obvious lactose fermentation is delayed.",
+    "optionExplanations": [
+      "The characteristic distinguishing positive enzyme result.",
+      "Shigella is not characteristically phenylalanine-deaminase positive.",
+      "All ordinary Shigella are oxidase negative, so this does not distinguish sonnei.",
+      "Shigella is nonmotile; this is not its distinguishing trait."
+    ],
+    "memory": "Sonnei is slowly lactose-positive, ONPG-positive.",
+    "quickCheck": {
+      "question": "Why can ONPG detect a slow lactose fermenter?",
+      "answer": "It tests the lactose-splitting enzyme directly."
+    },
+    "sourceNote": "“Shigella sonnet” is OCR for Shigella sonnei."
+  },
+  "book-203-116": {
+    "questionInPlainEnglish": "Which organism typically produces a positive Voges-Proskauer result?",
+    "explanation": "The VP test detects acetoin, a product of one glucose-fermentation pathway. The organism historically called Enterobacter aerogenes typically uses this pathway.",
+    "optionExplanations": [
+      "Typically VP positive; now named Klebsiella aerogenes.",
+      "Usually VP negative and methyl-red positive.",
+      "P. vulgaris is generally VP negative, so it does not show the acetoin-associated positive reaction requested.",
+      "P. rettgeri is generally VP negative rather than the positive acetoin-producing choice in this list."
+    ],
+    "memory": "VP detects acetoin, not simply acid.",
+    "quickCheck": {
+      "question": "What substance does VP testing detect?",
+      "answer": "Acetoin."
+    },
+    "sourceNote": "Enterobacter aerogenes is now Klebsiella aerogenes."
+  },
+  "book-203-118": {
+    "questionInPlainEnglish": "Which O group contains the classic epidemic cholera strains?",
+    "explanation": "Toxigenic V. cholerae O1 includes the classic epidemic strains. An O group describes an outer-surface antigen, not a separate symptom or toxin name.",
+    "optionExplanations": [
+      "O1 is the classic epidemic group intended.",
+      "Not the classic epidemic group.",
+      "Not the classic epidemic group.",
+      "Not the classic epidemic group."
+    ],
+    "memory": "Classic cholera: O-one.",
+    "quickCheck": {
+      "question": "Are all V. cholerae strains classic epidemic cholera strains?",
+      "answer": "No; epidemic disease is especially associated with toxigenic O1 and O139."
+    }
+  },
+  "book-203-119": {
+    "questionInPlainEnglish": "Which description correctly identifies Brucella biology?",
+    "explanation": "Brucella can survive inside host cells, including immune cells that would normally destroy bacteria. This intracellular shelter contributes to persistent systemic infection.",
+    "optionExplanations": [
+      "Relapsing fever is caused by certain Borrelia.",
+      "Brucella are small coccobacilli, not spiral organisms.",
+      "Usually acquired from animals or animal products rather than one’s own normal flora.",
+      "Correct: Brucella are facultative intracellular pathogens."
+    ],
+    "memory": "Brucella shelters inside cells.",
+    "quickCheck": {
+      "question": "What does intracellular mean?",
+      "answer": "Inside a cell."
+    }
+  },
+  "book-203-120": {
+    "questionInPlainEnglish": "Which listed appearance can E. coli show?",
+    "explanation": "E. coli usually ferments lactose and lacks H2S, ruling out the colorless and black-centered choices. Some strains produce hemolysin that clears red cells around colonies.",
+    "optionExplanations": [
+      "Possible and the book’s intended answer: some E. coli are beta-hemolytic.",
+      "Usually false: lactose fermentation makes colonies pink.",
+      "False for typical E. coli; acid production generally gives yellow colonies.",
+      "False: H2S-negative E. coli should not form black centers."
+    ],
+    "memory": "E. coli usually ferments lactose; hemolysis varies.",
+    "quickCheck": {
+      "question": "Does absence of hemolysis exclude E. coli?",
+      "answer": "No."
+    },
+    "sourceNote": "The book overstates hemolysis as typical of most E. coli. Hemolysis varies by strain; the other options are less compatible with the usual profile."
+  },
+  "book-203-121": {
+    "questionInPlainEnglish": "Which feature correctly describes the plague organism?",
+    "explanation": "Y. pestis differs from some other Yersinia by lacking urease and remaining nonmotile. The question tests organism identity rather than the general features of its genus.",
+    "optionExplanations": [
+      "Correct: Y. pestis is urease negative.",
+      "False: it is typically H2S negative.",
+      "False: unlike some relatives it is nonmotile.",
+      "False: it is oxidase negative."
+    ],
+    "memory": "Pestis: no urease, no movement.",
+    "quickCheck": {
+      "question": "Does every species in a genus have the same test profile?",
+      "answer": "No; species-specific differences are useful for identification."
+    }
+  },
+  "book-203-122": {
+    "questionInPlainEnglish": "Which listed organism is nonmotile?",
+    "explanation": "K. oxytoca is a classic nonmotile Klebsiella. The other listed enteric rods typically move with flagella, making motility useful for separating them.",
+    "optionExplanations": [
+      "E. cloacae is usually motile, meaning cells can move on their own; this fails the nonmotile clue.",
+      "K. oxytoca is characteristically nonmotile, so it fits the request for an organism that does not swim by itself.",
+      "M. morganii is usually motile rather than fitting the no-self-movement description.",
+      "P. stuartii is generally motile, so it is not the nonmotile organism selected here."
+    ],
+    "memory": "Klebsiella keeps still.",
+    "quickCheck": {
+      "question": "What bacterial structure commonly produces swimming motility?",
+      "answer": "Flagella."
+    }
+  },
+  "book-203-123": {
+    "questionInPlainEnglish": "Which statement about Legionella illness is correct?",
+    "explanation": "Legionella can cause pneumonia or Pontiac fever. Pontiac fever produces a short-lived flu-like illness without pneumonia.",
+    "optionExplanations": [
+      "Ordinary person-to-person spread is not its main transmission route.",
+      "Environmental water systems, rather than farm animals, are the main reservoir.",
+      "Correct: Pontiac fever is a nonpneumonic febrile illness.",
+      "Cold enrichment is not the defining recovery approach for this organism."
+    ],
+    "memory": "Two Legionella stories: pneumonia or Pontiac fever.",
+    "quickCheck": {
+      "question": "What does nonpneumonic mean?",
+      "answer": "Without pneumonia."
+    },
+    "sourceNote": "The supplied rationale includes older diagnostic and treatment preferences; the teaching point here is the two clinical syndromes."
+  },
+  "book-203-124": {
+    "questionInPlainEnglish": "Which statement does NOT fit K. granulomatis?",
+    "explanation": "This cause of granuloma inguinale is difficult to grow with routine methods. Diagnosis traditionally relies on finding Donovan bodies: organisms inside cells from lesions.",
+    "optionExplanations": [
+      "True: genital transmission is an important association.",
+      "False: routine isolation on chocolate agar is not its usual diagnostic feature.",
+      "True: it causes granuloma inguinale, also called donovanosis.",
+      "True: intracellular Donovan bodies are a classic diagnostic clue."
+    ],
+    "memory": "Donovanosis shows Donovan bodies.",
+    "quickCheck": {
+      "question": "What are Donovan bodies?",
+      "answer": "Intracellular bacteria seen in affected tissue cells."
+    }
+  },
+  "book-203-125": {
+    "questionInPlainEnglish": "Which listed enteric organism makes DNase?",
+    "explanation": "DNase is an enzyme that cuts DNA into smaller pieces. S. marcescens commonly has this activity, helping distinguish it from several other enteric rods.",
+    "optionExplanations": [
+      "Usually not the DNase-positive organism intended.",
+      "Not characteristically DNase positive.",
+      "Not the characteristic positive species here.",
+      "A recognized DNase-positive enteric organism."
+    ],
+    "memory": "Serratia snips DNA.",
+    "quickCheck": {
+      "question": "What does DNase break down?",
+      "answer": "DNA."
+    }
+  },
+  "book-203-128": {
+    "questionInPlainEnglish": "Which organism typically produces indole?",
+    "explanation": "E. coli commonly has tryptophanase, an enzyme that splits the amino acid tryptophan and releases indole. That metabolic ability is an identification clue.",
+    "optionExplanations": [
+      "E. coli typically produces indole from tryptophan, matching the positive reaction requested.",
+      "Typically indole negative, unlike P. vulgaris.",
+      "S. Choleraesuis is generally indole negative, so it does not match the positive result.",
+      "S. marcescens is generally indole negative rather than the classic indole-positive choice."
+    ],
+    "memory": "E. coli: indole is in its toolkit.",
+    "quickCheck": {
+      "question": "Which starting nutrient is broken down to produce indole?",
+      "answer": "Tryptophan."
+    }
+  },
+  "book-203-129": {
+    "questionInPlainEnglish": "Which organism usually gives acid throughout a TSI tube?",
+    "explanation": "Yellow indicates acid. E. coli can ferment glucose and lactose, generating enough acid to keep both the oxygen-exposed slant and deeper butt yellow.",
+    "optionExplanations": [
+      "Typically produces the acid/acid pattern.",
+      "Typically glucose-only with an alkaline slant, often H2S.",
+      "Typically glucose-only with an alkaline slant and H2S.",
+      "Delayed lactose use usually does not give this early acid/acid result."
+    ],
+    "memory": "Yellow top and bottom means more than glucose alone.",
+    "quickCheck": {
+      "question": "Can TSI acid/acid distinguish lactose from sucrose fermentation?",
+      "answer": "No; either additional sugar can produce it."
+    }
+  },
+  "book-203-130": {
+    "questionInPlainEnglish": "Which organism makes the blue-green pigment pyocyanin?",
+    "explanation": "P. aeruginosa produces pyocyanin, a diffusible pigment. It can combine with yellow-green pyoverdin to give colonies or surrounding material a green appearance.",
+    "optionExplanations": [
+      "The characteristic pyocyanin producer.",
+      "May fluoresce from pyoverdin but does not make pyocyanin.",
+      "Known for H2S rather than this pigment.",
+      "Not a pyocyanin-producing organism."
+    ],
+    "memory": "Aeruginosa paints with pyocyanin.",
+    "quickCheck": {
+      "question": "Are pyocyanin and pyoverdin the same pigment?",
+      "answer": "No; pyocyanin is blue-green, pyoverdin is fluorescent yellow-green."
+    }
+  },
+  "book-203-131": {
+    "questionInPlainEnglish": "Which meningitis organism fits growth on chocolate but not ordinary blood agar?",
+    "explanation": "Chocolate agar contains broken-open blood cells, making growth factors available. H. influenzae needs hemin and NAD, explaining this growth difference.",
+    "optionExplanations": [
+      "Not the typical childhood meningitis organism with this growth-factor pattern.",
+      "Primarily a respiratory pathogen, not this classic meningitis pattern.",
+      "Fits childhood meningitis and the X/V-factor requirement.",
+      "Can cause meningitis but usually grows on ordinary blood agar too."
+    ],
+    "memory": "Chocolate releases X and V for Haemophilus.",
+    "quickCheck": {
+      "question": "Is chocolate agar made with chocolate?",
+      "answer": "No; heated blood gives it a chocolate-brown color."
+    },
+    "sourceNote": "The question references Color Plate 28; the growth-factor clues independently support the book answer."
+  },
+  "book-203-132": {
+    "questionInPlainEnglish": "Which statement about C. jejuni is true?",
+    "explanation": "C. jejuni is among the leading causes of bacterial gastroenteritis. Its curved rods and special oxygen preference are identification concepts, but the main correct statement is its major role in diarrhea.",
+    "optionExplanations": [
+      "False: it is generally catalase positive.",
+      "False: that is not its preferred diagnostic-growth association.",
+      "False: it is usually H2S negative by routine identification methods.",
+      "True: it is a major worldwide bacterial diarrheal pathogen."
+    ],
+    "memory": "Jejuni is a major diarrhea germ.",
+    "quickCheck": {
+      "question": "Can Campylobacter diarrhea be bloody?",
+      "answer": "Yes; intestinal inflammation can cause blood."
+    }
+  },
+  "book-203-133": {
+    "questionInPlainEnglish": "Which organism gives a positive purple oxidase reaction?",
+    "explanation": "M. catarrhalis has the respiratory enzyme detected by oxidase reagent. The other listed organisms generally lack detectable activity in this test.",
+    "optionExplanations": [
+      "Acinetobacter is generally oxidase negative, so it does not give the positive enzyme-related clue described.",
+      "Stenotrophomonas is generally oxidase negative, unlike the positive reaction the question describes.",
+      "Oxidase positive, matching the purple reaction.",
+      "Y. enterocolitica is generally oxidase negative, so it is not the dark-purple positive choice."
+    ],
+    "memory": "Moraxella makes oxidase purple.",
+    "quickCheck": {
+      "question": "Does a purple oxidase test uniquely identify Moraxella?",
+      "answer": "No; other genera are oxidase positive too."
+    }
+  },
+  "book-203-134": {
+    "questionInPlainEnglish": "Which characteristic is associated with C. hominis, and does the key agree?",
+    "explanation": "C. hominis is a fastidious cause of endocarditis that is oxidase positive, catalase negative, and usually weakly indole positive. Therefore the printed key conflicts with the organism’s established profile.",
+    "optionExplanations": [
+      "Scientifically fits: C. hominis is oxidase positive.",
+      "Does not fit: it is catalase negative.",
+      "The book-keyed answer, but incorrect biologically: it is usually weakly indole positive.",
+      "Does not fit: it can grow on blood agar."
+    ],
+    "memory": "Cardiobacterium: oxidase yes, catalase no, weak indole yes.",
+    "quickCheck": {
+      "question": "Which listed option matches the accepted profile?",
+      "answer": "Positive oxidase."
+    },
+    "sourceNote": "Book answer is index 2 (“Indole negative”), while its own rationale says weakly indole positive and oxidase positive. Index 0 is scientifically supported; the original key is preserved."
+  },
+  "book-203-135": {
+    "questionInPlainEnglish": "Which disease is especially associated with V. vulnificus?",
+    "explanation": "V. vulnificus can invade a skin wound after marine-water exposure and progress rapidly. It can also cause severe bloodstream infection, especially with underlying liver disease.",
+    "optionExplanations": [
+      "Possible, but not its defining major association among these choices.",
+      "Not its usual characteristic infection.",
+      "Not its usual characteristic infection.",
+      "A major recognized clinical syndrome caused by this marine organism."
+    ],
+    "memory": "Vulnificus invades vulnerable wounds.",
+    "quickCheck": {
+      "question": "What exposure can precede its wound infection?",
+      "answer": "A cut exposed to seawater or seafood."
+    }
+  },
+  "book-203-136": {
+    "questionInPlainEnglish": "Which organism breaks down phenylalanine by deamination?",
+    "explanation": "Phenylalanine deaminase removes an amino group from phenylalanine. Proteus, Providencia, and Morganella commonly share this trait, forming a useful identification group.",
+    "optionExplanations": [
+      "Usually negative for this characteristic reaction.",
+      "K. pneumoniae is usually negative for this amino-acid deaminase activity, so it does not fit the positive clue.",
+      "Providencia belongs to the typically positive group.",
+      "Y. enterocolitica is usually negative for phenylalanine deaminase rather than matching the requested positive reaction."
+    ],
+    "memory": "P-P-M: Proteus, Providencia, Morganella.",
+    "quickCheck": {
+      "question": "What is removed during deamination?",
+      "answer": "An amino group."
+    }
+  },
+  "book-203-137": {
+    "questionInPlainEnglish": "Which listed pseudomonad does NOT make the fluorescent pigment?",
+    "explanation": "Pyoverdin is a yellow-green fluorescent pigment associated with the fluorescent Pseudomonas group. P. alcaligenes is outside that classic pigment-producing group.",
+    "optionExplanations": [
+      "The nonfluorescent choice requested.",
+      "Can produce pyoverdin as well as pyocyanin.",
+      "Named for its characteristic fluorescence.",
+      "A member of the fluorescent group."
+    ],
+    "memory": "Alcaligenes is the exception to these fluorescent pseudomonads.",
+    "quickCheck": {
+      "question": "Which pigment produces the characteristic fluorescence?",
+      "answer": "Pyoverdin."
+    }
+  },
+  "book-203-138": {
+    "questionInPlainEnglish": "Which organism is inhibited by MacConkey agar?",
+    "explanation": "MacConkey agar favors many gram-negative intestinal rods but is too inhibitory for some demanding organisms. Kingella is one of those exceptions.",
+    "optionExplanations": [
+      "B. bronchiseptica can grow on the named medium, so it is not the organism described as unable to do so.",
+      "B. cepacia can grow on the named medium; that does not fit the inability asked for here.",
+      "The fastidious organism inhibited by this medium.",
+      "P. shigelloides can grow on the named medium, so it is not the requested exception."
+    ],
+    "memory": "Gram negative does not guarantee MacConkey growth.",
+    "quickCheck": {
+      "question": "What does fastidious mean in microbiology?",
+      "answer": "Having demanding nutritional or environmental growth needs."
+    }
+  },
+  "book-203-139": {
+    "questionInPlainEnglish": "Which statement is FALSE about Haemophilus?",
+    "explanation": "Many Haemophilus need growth factors that ordinary sheep blood agar does not make freely available. Chocolate agar releases these factors from blood cells.",
+    "optionExplanations": [
+      "Broadly true in the book’s sense of host-associated organisms.",
+      "False as a general statement: many do not grow well without accessible required factors.",
+      "True: small variable-shaped gram-negative rods are characteristic.",
+      "True: several species normally inhabit the respiratory tract."
+    ],
+    "memory": "Haemophilus often needs released blood factors.",
+    "quickCheck": {
+      "question": "Why can intact blood fail to support H. influenzae?",
+      "answer": "Needed growth factors are not sufficiently available."
+    },
+    "sourceNote": "“Obligate parasites” here describes host association, not obligatory growth inside living cells."
+  },
+  "book-203-140": {
+    "questionInPlainEnglish": "Which statement about Legionella is the best answer?",
+    "explanation": "Legionella is usually acquired from contaminated environmental water or its aerosols. It is not a typical person-to-person respiratory pathogen.",
+    "optionExplanations": [
+      "Correct: environmental sources are the usual route.",
+      "False: it does not rely on ordinary carbohydrate metabolism in the stated way.",
+      "False: it stains poorly with routine Gram methods.",
+      "Not a reliable best answer as written; fluorescence varies among Legionella species and methods."
+    ],
+    "memory": "Legionella: environmental water exposure.",
+    "quickCheck": {
+      "question": "What does aerosol mean?",
+      "answer": "Tiny liquid droplets suspended in air."
+    },
+    "sourceNote": "The book broadly states that Legionella autofluoresce; UV fluorescence is species-dependent, and L. pneumophila is not classically a strong blue-white fluorescer. The environment-source answer remains supported."
+  },
+  "book-203-141": {
+    "questionInPlainEnglish": "Which listed specimen best represents the infected site in Legionella pneumonia?",
+    "explanation": "Legionella pneumonia affects the lower respiratory tract. Bronchial washings come from that region, so they are more relevant for organism recovery than an upper-airway swab or stool.",
+    "optionExplanations": [
+      "Does not sample the main site of pneumonia.",
+      "Not the usual highest-yield listed specimen.",
+      "Samples the lower airway, making it the best listed choice.",
+      "Samples the upper airway rather than the infected lower lung."
+    ],
+    "memory": "Lung disease → lower-respiratory specimen.",
+    "quickCheck": {
+      "question": "Why does specimen location matter?",
+      "answer": "A specimen should represent where the infection is occurring."
+    }
+  },
+  "book-203-142": {
+    "questionInPlainEnglish": "Which named medium is intended for Campylobacter rather than pertussis?",
+    "explanation": "The book contrasts pathogen-associated media names. Modified Skirrow medium is associated with Campylobacter, so it is the intended exception among the pertussis choices.",
+    "optionExplanations": [
+      "A classic pertussis-associated medium.",
+      "Another classic pertussis-associated medium.",
+      "The Campylobacter-associated medium; the intended exception.",
+      "Primarily associated with Legionella; its inclusion makes the question less clean."
+    ],
+    "memory": "Skirrow points to Campylobacter.",
+    "quickCheck": {
+      "question": "Which disease does B. pertussis cause?",
+      "answer": "Whooping cough."
+    },
+    "sourceNote": "BCYE is primarily a Legionella medium, so calling every other option a standard primary pertussis medium is oversimplified. The supplied key is retained."
+  },
+  "book-203-143": {
+    "questionInPlainEnglish": "Which historically named Enterobacter makes yellow pigment?",
+    "explanation": "The organism formerly called E. sakazakii often produces yellow pigment. It is now placed in Cronobacter and is important in severe infant infections.",
+    "optionExplanations": [
+      "Now Klebsiella aerogenes; not the classic yellow-pigment choice.",
+      "Not the characteristic yellow-pigmented answer.",
+      "The classic yellow-pigmented species intended, now Cronobacter sakazakii.",
+      "Not the characteristic yellow-pigment choice."
+    ],
+    "memory": "Sakazakii: sunny yellow; now Cronobacter.",
+    "quickCheck": {
+      "question": "What is the current genus name for E. sakazakii?",
+      "answer": "Cronobacter."
+    }
+  },
+  "book-203-144": {
+    "questionInPlainEnglish": "Which organism fits a motile, urease-positive, lactose-negative urine isolate?",
+    "explanation": "P. mirabilis commonly causes urinary infection. Urease converts urea to ammonia, raising urine pH and helping promote certain urinary stones.",
+    "optionExplanations": [
+      "Usually lactose positive and urease negative.",
+      "Can be urease positive but is nonmotile and usually lactose positive.",
+      "Fits motility, lactose negativity, and strong urease activity.",
+      "Usually oxidase positive, unlike the isolate."
+    ],
+    "memory": "Proteus makes alkaline urine through urease.",
+    "quickCheck": {
+      "question": "How can urease contribute to stones?",
+      "answer": "Ammonia raises pH, favoring precipitation of some minerals."
+    }
+  },
+  "book-203-145": {
+    "questionInPlainEnglish": "Which statement correctly describes A. baumannii?",
+    "explanation": "A. baumannii is a nonmotile, oxidase-negative nonfermenter that can grow on MacConkey agar. Growth there does not automatically mean an organism ferments lactose.",
+    "optionExplanations": [
+      "False: it is characteristically nonmotile.",
+      "False: it is oxidase negative.",
+      "False: resistance to many antibiotics is common.",
+      "True: MacConkey growth is compatible with Acinetobacter."
+    ],
+    "memory": "Acinetobacter: still, oxidase negative, MacConkey positive.",
+    "quickCheck": {
+      "question": "Does MacConkey growth prove lactose fermentation?",
+      "answer": "No; growth and sugar fermentation are separate observations."
+    }
+  },
+  "book-203-146": {
+    "questionInPlainEnglish": "Which statement is NOT characteristic of Eikenella?",
+    "explanation": "Eikenella normally lives in the mouth. Bite wounds introduce several mouth organisms together, so resulting infections are often polymicrobial, meaning caused by multiple species.",
+    "optionExplanations": [
+      "True: it is a slender gram-negative rod.",
+      "True: some colonies create depressions in agar.",
+      "True: the mouth and upper airway are normal habitats.",
+      "False: it is commonly part of mixed infections rather than a pure isolate."
+    ],
+    "memory": "Eikenella: mouth, bites, mixed infection.",
+    "quickCheck": {
+      "question": "What does polymicrobial mean?",
+      "answer": "Containing multiple microbial species."
+    }
+  },
+  "book-203-147": {
+    "questionInPlainEnglish": "Which Pasteurella species is especially associated with cat-bite infection?",
+    "explanation": "P. multocida normally lives in many animals’ mouths. A bite can place it deep in tissue, causing a rapidly painful local infection.",
+    "optionExplanations": [
+      "An avian-associated name, not the most common human cat-bite species.",
+      "More associated by name and ecology with dogs.",
+      "The classic human cat-bite pathogen.",
+      "An animal oral organism, but less common than P. multocida."
+    ],
+    "memory": "Multocida moves from animal mouth to wound.",
+    "quickCheck": {
+      "question": "Why can a small puncture bite cause a significant infection?",
+      "answer": "It deposits mouth bacteria beneath the skin."
+    }
+  },
+  "book-203-148": {
+    "questionInPlainEnglish": "Which Legionella species characteristically splits hippurate?",
+    "explanation": "Hippurate hydrolysis is a metabolic identification clue associated with L. pneumophila. It helps distinguish species within a genus rather than defining every Legionella infection.",
+    "optionExplanations": [
+      "Not the characteristic hippurate-positive choice.",
+      "Not the characteristic positive choice.",
+      "Not the characteristic positive choice.",
+      "The species associated with hippurate hydrolysis."
+    ],
+    "memory": "Pneumophila is the hippurate-positive Legionella.",
+    "quickCheck": {
+      "question": "What does a species identification test distinguish?",
+      "answer": "Members of the same genus from one another."
+    },
+    "sourceNote": "The supplied rationale’s statement about autofluorescence is oversimplified; it is not needed for the hippurate answer."
+  },
+  "book-203-149": {
+    "questionInPlainEnglish": "Which statement does NOT fit H. influenzae biogroup aegyptius?",
+    "explanation": "An ALA test asks whether an organism can make its own heme-related compounds. Because this organism needs supplied X factor, a positive ALA result would contradict that requirement.",
+    "optionExplanations": [
+      "True: indole negativity fits the stated biogroup.",
+      "True: it requires NAD, or V factor.",
+      "True: it requires hemin, or X factor.",
+      "False: its inability to synthesize the needed porphyrin pathway product makes it ALA negative."
+    ],
+    "memory": "Needs X → cannot make heme → ALA negative.",
+    "quickCheck": {
+      "question": "What does X-factor dependence imply about heme synthesis?",
+      "answer": "The organism cannot make enough of the needed heme itself."
+    }
+  },
+  "book-203-150": {
+    "questionInPlainEnglish": "Which property separates K. denitrificans from gonococcus?",
+    "explanation": "Both can share oxidase positivity and glucose use. Kingella’s nitrate reduction provides a distinguishing metabolic ability; the species name denitrificans hints at nitrogen-compound metabolism.",
+    "optionExplanations": [
+      "Both may grow on this selective medium, so it does not distinguish them.",
+      "Kingella can reduce nitrate; gonococcus does not show this characteristic.",
+      "Both organisms are oxidase positive, so this shared enzyme activity cannot separate them.",
+      "Both can use glucose, so this does not distinguish them."
+    ],
+    "memory": "Denitrificans deals with nitrate.",
+    "quickCheck": {
+      "question": "Why is a shared positive test a poor separator?",
+      "answer": "Both candidates give the same result."
+    }
+  }
+}

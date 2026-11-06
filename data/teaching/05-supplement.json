@@ -1,0 +1,364 @@
+{
+  "book-203-157": {
+    "questionInPlainEnglish": "Which bacterial genus is a common clue to bacterial vaginosis?",
+    "explanation": "Bacterial vaginosis is a change in the vaginal bacterial community, rather than a simple infection with just one organism. Large numbers of Gardnerella-like bacteria coating vaginal epithelial cells create clue cells, which support the diagnosis.",
+    "optionExplanations": [
+      "Eikenella is chiefly associated with mouth flora and bite-related infections.",
+      "Capnocytophaga is chiefly associated with oral flora.",
+      "Gardnerella is strongly associated with clue cells and bacterial vaginosis.",
+      "Listeria is a foodborne pathogen, not the usual BV indicator."
+    ],
+    "memory": "Gardnerella gathers on clue cells.",
+    "quickCheck": {
+      "question": "What is a clue cell?",
+      "answer": "A vaginal epithelial cell coated with bacteria that blur its outline."
+    },
+    "sourceNote": "The rationale is dated: Gardnerella can contribute to BV biofilms and pathogenesis. It is gram variable, and mere detection does not establish BV."
+  },
+  "book-203-171": {
+    "questionInPlainEnglish": "Which listed organism characteristically breaks down gelatin?",
+    "explanation": "Gelatin is a protein that forms a gel. Serratia liquefaciens makes enzymes that break it down, so its name hints at the keyed positive reaction. However, Proteus vulgaris can also hydrolyze gelatin, so this finding alone does not uniquely identify the keyed organism.",
+    "optionExplanations": [
+      "M. morganii is not the characteristic gelatin-liquefying answer.",
+      "P. vulgaris can also hydrolyze gelatin, making this a plausible positive choice and the stem ambiguous.",
+      "S. Typhimurium is generally gelatin negative.",
+      "S. liquefaciens is characteristically gelatinase positive."
+    ],
+    "memory": "Liquefaciens liquefies gelatin.",
+    "quickCheck": {
+      "question": "What kind of substance does gelatinase digest?",
+      "answer": "Protein, specifically gelatin."
+    },
+    "sourceNote": "Potential multiple-answer problem: Proteus vulgaris can also be gelatinase positive. Serratia liquefaciens is the book’s keyed answer, but gelatin hydrolysis alone does not distinguish it from every other listed organism."
+  },
+  "book-203-177": {
+    "questionInPlainEnglish": "Which condition most clearly favors the red pigment of some Serratia strains?",
+    "explanation": "Some S. marcescens strains make prodigiosin, a red pigment. Its expression is often more obvious at cooler room temperature than near body temperature, so absence of red color does not exclude Serratia.",
+    "optionExplanations": [
+      "Room-temperature incubation is the intended pigment-favoring condition.",
+      "42°C does not favor the classic red-pigment appearance.",
+      "Blood agar alone is not the key pigment-enhancing factor.",
+      "A nonblood medium may make pigment easier to see, but the temperature choice is the key answer."
+    ],
+    "memory": "Serratia shows more scarlet when cooler.",
+    "quickCheck": {
+      "question": "Can a nonred isolate still be S. marcescens?",
+      "answer": "Yes; not all strains produce visible red pigment."
+    }
+  },
+  "book-203-188": {
+    "questionInPlainEnglish": "Which hospital pathogen is especially associated with contaminated wet equipment?",
+    "explanation": "P. aeruginosa can persist in moist environments and form biofilms, communities attached to surfaces. Water-containing equipment can become a reservoir that exposes vulnerable patients.",
+    "optionExplanations": [
+      "Klebsiella can cause hospital infections but is less characteristic of this wet-reservoir clue.",
+      "P. aeruginosa strongly fits faucets, humidifiers, and moist equipment.",
+      "Salmonella is chiefly associated with intestinal and foodborne spread.",
+      "Serratia can occur in wet hospital reservoirs, but Pseudomonas is the strongest classic answer."
+    ],
+    "memory": "Pseudomonas persists in plumbing.",
+    "quickCheck": {
+      "question": "What is a biofilm?",
+      "answer": "A surface-attached microbial community within a protective matrix."
+    }
+  },
+  "book-203-189": {
+    "questionInPlainEnglish": "Which agar is NOT appropriate for recovering gonococci?",
+    "explanation": "Neisseria gonorrhoeae needs enriched media. Chocolate agar and specialized Neisseria media fit that need. CIN is designed mainly for a different target, Yersinia enterocolitica, making it the exception.",
+    "optionExplanations": [
+      "Chocolate agar is an enriched nonselective option.",
+      "CIN is aimed mainly at Yersinia, not gonococci.",
+      "Martin-Lewis is a selective Neisseria medium.",
+      "Modified Thayer-Martin is a selective Neisseria medium."
+    ],
+    "memory": "CIN points to Yersinia, not Neisseria.",
+    "quickCheck": {
+      "question": "Why do selective Neisseria media contain inhibitory agents?",
+      "answer": "To suppress competing flora while supporting the target organisms."
+    }
+  },
+  "book-203-198": {
+    "questionInPlainEnglish": "Which organism was New York City agar designed to isolate?",
+    "explanation": "NYC agar is an enriched selective medium historically developed for gonococci. Its selective components reduce competing flora, helping recover N. gonorrhoeae from mixed specimens.",
+    "optionExplanations": [
+      "B. pertussis is associated with other specialized media.",
+      "C. fetus needs different culture conditions.",
+      "H. influenzae requires suitable X and V factors but is not NYC agar’s intended target.",
+      "N. gonorrhoeae is the intended target."
+    ],
+    "memory": "NYC and Thayer-Martin both point toward gonococci.",
+    "quickCheck": {
+      "question": "What does selective mean for a culture medium?",
+      "answer": "It inhibits some organisms while allowing intended organisms to grow."
+    }
+  },
+  "book-203-208": {
+    "questionInPlainEnglish": "Which listed stain demonstrates acid-fast mycobacteria?",
+    "explanation": "Kinyoun staining uses carbol-fuchsin to highlight acid-fast cells. Their waxy, mycolic-acid-rich envelope helps retain the dye despite acid-alcohol treatment, making them stand out from other material.",
+    "optionExplanations": [
+      "Dieterle is a silver-based stain, not the routine acid-fast choice.",
+      "Gimenez is classically associated with Rickettsia.",
+      "Kinyoun is a recognized acid-fast stain.",
+      "Wright stain is mainly used for blood-cell morphology."
+    ],
+    "memory": "Kinyoun keeps color in acid-fast cells.",
+    "quickCheck": {
+      "question": "What cell-envelope feature contributes to acid-fastness?",
+      "answer": "A waxy layer rich in mycolic acids."
+    }
+  },
+  "book-203-221": {
+    "questionInPlainEnglish": "Which listed mycobacterium is the classic common U.S. photochromogen?",
+    "explanation": "A photochromogen produces pigment after light exposure. M. kansasii fits this category and can cause chronic lung disease resembling tuberculosis. The pigment category is more reliable than historical frequency rankings.",
+    "optionExplanations": [
+      "M. bovis is generally nonchromogenic.",
+      "M. kansasii is the classic photochromogenic species.",
+      "M. tuberculosis is generally nonchromogenic.",
+      "M. xenopi is generally classified as a scotochromogen, producing pigment without light."
+    ],
+    "memory": "KansASii: after sun, yellow.",
+    "quickCheck": {
+      "question": "How does a scotochromogen differ from a photochromogen?",
+      "answer": "A scotochromogen makes pigment even without light exposure."
+    },
+    "sourceNote": "Isolation frequency varies by region and period; the rationale’s nationwide ranking of nontuberculous mycobacteria should not be treated as current universal data."
+  },
+  "book-203-227": {
+    "questionInPlainEnglish": "Which disease is NOT classically considered an animal-to-human infection?",
+    "explanation": "A zoonosis naturally passes from an animal reservoir to humans. Anthrax, brucellosis, and leptospirosis fit animal-associated transmission. Botulism usually follows environmental spores or preformed food toxin rather than transmission from an infected animal.",
+    "optionExplanations": [
+      "Anthrax can be acquired from infected animals or contaminated animal products.",
+      "Botulism is the exception in this conventional classification.",
+      "Brucellosis is associated with infected livestock and other animals.",
+      "Leptospirosis can follow exposure to urine from infected mammals."
+    ],
+    "memory": "Zoonosis needs an animal reservoir link; botulism is chiefly toxin/spores.",
+    "quickCheck": {
+      "question": "What does zoonotic mean?",
+      "answer": "Naturally transmissible from animals to humans."
+    },
+    "sourceNote": "The rationale overemphasizes rabbits for leptospirosis; rodents and many other mammals are important reservoirs, commonly spreading organisms through urine."
+  },
+  "book-203-237": {
+    "questionInPlainEnglish": "Which test most directly supports toxin-mediated C. difficile colitis?",
+    "explanation": "C. difficile disease is caused by toxins damaging the colon. Detecting toxin in stool therefore connects the symptoms to the disease mechanism. Modern laboratories use validated combinations of toxin, antigen, and/or nucleic-acid testing.",
+    "optionExplanations": [
+      "Antibody testing is not the routine diagnostic approach.",
+      "Blood culture is not the main test for this intestinal toxin disease.",
+      "Stool toxin detection is the relevant answer.",
+      "An acid-fast stain does not detect this non-acid-fast toxin-producing organism."
+    ],
+    "memory": "Difficile diarrhea: look for toxin evidence.",
+    "quickCheck": {
+      "question": "Why is a positive organism test not always proof of C. difficile disease?",
+      "answer": "A person may carry the organism without toxin-mediated symptomatic infection."
+    },
+    "sourceNote": "The modern name is Clostridioides difficile. Toxin assay performance varies, and no standalone toxin assay is universally the most accurate diagnostic approach."
+  },
+  "book-203-251": {
+    "questionInPlainEnglish": "Which statement about clostridia is false?",
+    "explanation": "Tetanus occurs when spores germinate and bacteria produce toxin in suitably low-oxygen tissue. Durable spores surviving in air does not mean the actively growing organism can cause tetanus without favorable wound conditions.",
+    "optionExplanations": [
+      "C. difficile toxin causes pseudomembranous colitis, so this is true.",
+      "Important clostridia occur in soil or intestinal flora, so this is broadly true.",
+      "Classic foodborne botulism involves preformed toxin, but this prevention statement is oversimplified.",
+      "The claim that anaerobic wound conditions are unnecessary is false."
+    ],
+    "memory": "Spores survive air; tetanus growth favors low oxygen.",
+    "quickCheck": {
+      "question": "How does a spore differ from an actively growing bacterium?",
+      "answer": "A spore is a resistant dormant form rather than an actively multiplying cell."
+    },
+    "sourceNote": "The botulism option is too broad: infant and wound botulism differ from preformed-food-toxin disease. Do not use boiling as advice to salvage suspect food; botulinum spores resist ordinary boiling."
+  },
+  "book-203-254": {
+    "questionInPlainEnglish": "Which listed feature is generally true of C. perfringens?",
+    "explanation": "C. perfringens strains produce alpha toxin, a phospholipase that damages cell membranes. Its spores are not usually obvious in routine cultures, and the familiar terminal-spore clue belongs to C. tetani.",
+    "optionExplanations": [
+      "The old five-type scheme was based on toxin patterns, not simply five serologic types, and has been expanded.",
+      "Terminal spores are not the typical C. perfringens pattern.",
+      "Alpha toxin production is the intended common feature.",
+      "Spores are often difficult to demonstrate in routine cultures."
+    ],
+    "memory": "Perfringens alpha attacks membranes.",
+    "quickCheck": {
+      "question": "What enzyme activity is associated with C. perfringens alpha toxin?",
+      "answer": "Phospholipase C, also called lecithinase."
+    },
+    "sourceNote": "The rationale is truncated and uses the older A–E toxin scheme; a newer scheme includes types A–G."
+  },
+  "book-203-257": {
+    "questionInPlainEnglish": "Which test can give an early clue to Prevotella melaninogenica?",
+    "explanation": "Certain pigmented Prevotella colonies show brick-red fluorescence before their black pigment becomes obvious. This is a presumptive clue, meaning an initial suggestion that should be interpreted with other findings.",
+    "optionExplanations": [
+      "SPS sensitivity is associated with P. anaerobius identification.",
+      "Nagler testing detects lecithinase associated with C. perfringens.",
+      "Cytotoxin assays are associated with C. difficile disease.",
+      "Brick-red fluorescence is the intended Prevotella clue."
+    ],
+    "memory": "Prevotella can glow red before looking black.",
+    "quickCheck": {
+      "question": "Does a presumptive identification equal a fully confirmed identification?",
+      "answer": "No; it is a preliminary identification supported by characteristic clues."
+    }
+  },
+  "book-203-271": {
+    "questionInPlainEnglish": "Which listed disease is caused by Chlamydia trachomatis?",
+    "explanation": "C. trachomatis can infect cells lining the eye and cause inclusion conjunctivitis. Inclusions are collections of organisms inside host cells. Different strains also cause genital infection, trachoma, and lymphogranuloma venereum.",
+    "optionExplanations": [
+      "Rat-bite fever is caused by organisms such as Streptobacillus or Spirillum.",
+      "Inclusion conjunctivitis is a recognized C. trachomatis disease.",
+      "This vague tropical-skin-disease description is not the specific classic association intended.",
+      "Parrot fever is caused by C. psittaci, not C. trachomatis."
+    ],
+    "memory": "Trachomatis: trachoma and inclusion conjunctivitis.",
+    "quickCheck": {
+      "question": "Which related species causes parrot fever?",
+      "answer": "Chlamydia psittaci."
+    },
+    "sourceNote": "The rationale misdefines entropion: it is inward turning of the eyelid, which can make lashes damage the cornea, rather than outward eversion."
+  },
+  "book-203-315": {
+    "questionInPlainEnglish": "Which supplemented medium is appropriate for pneumococcal susceptibility testing in the method described?",
+    "explanation": "S. pneumoniae is fastidious, meaning it needs extra nutrients. The book’s broth-dilution approach uses Mueller-Hinton medium supplemented with lysed horse blood, allowing growth while preserving a standardized drug test.",
+    "optionExplanations": [
+      "Chocolate agar supports growth but is not the standardized susceptibility medium intended.",
+      "Charcoal yeast extract is mainly associated with Legionella.",
+      "Mueller-Hinton with lysed horse blood is the intended supplemented formulation.",
+      "Hemoglobin and IsoVitaleX describe a different enriched formulation, not this pneumococcal method."
+    ],
+    "memory": "Pneumococcal testing needs a blood-supplemented standard medium.",
+    "quickCheck": {
+      "question": "Why is unsupplemented Mueller-Hinton inadequate for some bacteria?",
+      "answer": "Fastidious organisms may not grow sufficiently for valid interpretation."
+    },
+    "sourceNote": "The question does not specify broth versus disk testing. The rationale explicitly concerns broth dilution; disk diffusion uses method-specific blood-supplemented agar. “5. pneumoniae” is OCR for S. pneumoniae."
+  },
+  "book-331-1": {
+    "questionInPlainEnglish": "If double-stranded DNA is 20% adenine, what percentage is guanine?",
+    "explanation": "A pairs with T, so 20% adenine means 20% thymine. That uses 40%, leaving 60% for G and C. Because G equals C, guanine accounts for half of 60%, which is 30%.",
+    "optionExplanations": [
+      "20% incorrectly assumes all four bases have matching proportions.",
+      "30% follows from equal A/T and equal G/C pairing.",
+      "40% is the combined A-plus-T percentage.",
+      "60% is G plus C together, not G alone."
+    ],
+    "memory": "Pair A with T, then split the remainder between G and C.",
+    "quickCheck": {
+      "question": "If adenine is 20%, what percentage is cytosine?",
+      "answer": "30%."
+    },
+    "sourceNote": "This reasoning assumes ordinary double-stranded DNA; it is not a general rule for single-stranded genomes."
+  },
+  "book-331-8": {
+    "questionInPlainEnglish": "Which listed change can spread crowded kilobase-size gel bands farther apart?",
+    "explanation": "DNA fragments move at different speeds through agarose. Giving them more time can increase the distance between bands, like runners separating as a race continues, provided fragments do not run off the gel.",
+    "optionExplanations": [
+      "More agarose makes smaller pores and is not the intended improvement for these larger fragments.",
+      "Longer running time can increase band separation.",
+      "More sample mainly changes loading and intensity, and can worsen overloading.",
+      "Less sample may improve overloaded bands but does not primarily increase migration distance."
+    ],
+    "memory": "More time can give differently sized fragments more room to separate.",
+    "quickCheck": {
+      "question": "Why do different-sized DNA fragments separate in a gel?",
+      "answer": "They migrate through the gel at different speeds."
+    },
+    "sourceNote": "The rationale overgeneralizes: current, time, gel percentage, fragment range, and heating interact. More current or longer running does not always improve resolution."
+  },
+  "book-331-32": {
+    "questionInPlainEnglish": "Which equal-length double-stranded DNA sample usually has the higher melting temperature?",
+    "explanation": "Melting temperature describes when paired DNA strands separate. GC-rich DNA is generally more stable than AT-rich DNA under comparable conditions, so more heat is needed to separate it. Base stacking as well as hydrogen bonding contributes.",
+    "optionExplanations": [
+      "Higher G+C content generally increases melting temperature.",
+      "Higher A+T content generally lowers, rather than raises, melting temperature.",
+      "In the complete double-stranded molecule, each purine pairs with a pyrimidine.",
+      "GC-rich double-stranded DNA still has equal total purines and pyrimidines."
+    ],
+    "memory": "More GC, more heat to separate.",
+    "quickCheck": {
+      "question": "What happens to DNA strands when they melt?",
+      "answer": "The paired strands separate."
+    },
+    "sourceNote": "Equal purine/pyrimidine totals apply across both strands, not necessarily to either single strand alone."
+  },
+  "book-331-33": {
+    "questionInPlainEnglish": "Which technique separates very large bacterial DNA fragments?",
+    "explanation": "PFGE periodically changes the direction of the electric field. Large DNA pieces must turn before moving again; bigger pieces reorient more slowly, allowing sizes that ordinary gels resolve poorly to separate.",
+    "optionExplanations": [
+      "Ribotyping identifies ribosomal-gene fragment patterns but is not the large-fragment separation mechanism.",
+      "Sequencing reads bases rather than separating fragments by pulsed migration.",
+      "Pulsed-field gel electrophoresis is designed for very large DNA fragments.",
+      "RT-PCR detects RNA after conversion to DNA and does not perform this separation."
+    ],
+    "memory": "PFGE makes big DNA pause and turn.",
+    "quickCheck": {
+      "question": "Why does changing field direction help separate large DNA?",
+      "answer": "Different-sized molecules take different times to reorient."
+    },
+    "sourceNote": "The rationale’s claim that sequencing is too laborious for epidemiology is outdated; whole-genome sequencing is now widely used in outbreak investigations. Bacterial large-subunit rRNA is generally 23S, not 25S."
+  },
+  "book-331-44": {
+    "questionInPlainEnglish": "Which enzyme helps remove carryover PCR products containing uracil?",
+    "explanation": "If prior PCR products contain uracil, UNG can selectively damage those products before a later assay. Ordinary sample DNA contains thymine instead, so it is largely spared. The approach reduces one important source of false positives.",
+    "optionExplanations": [
+      "Uracil-N-glycosylase recognizes and removes uracil from DNA.",
+      "Taq polymerase copies DNA; it does not selectively remove uracil carryover.",
+      "S1 nuclease targets single-stranded nucleic acid rather than this uracil-specific mark.",
+      "General DNase could also damage the genuine DNA target."
+    ],
+    "memory": "Uracil marks old amplicons for UNG cleanup.",
+    "quickCheck": {
+      "question": "Why does UNG spare ordinary target DNA in this system?",
+      "answer": "Ordinary DNA has thymine rather than deliberately incorporated uracil."
+    },
+    "sourceNote": "“Uracil-/V-glycosylase” is OCR for uracil-N-glycosylase; “Tag” is Taq. UNG does not prevent every source of contamination or false positives."
+  },
+  "book-331-45": {
+    "questionInPlainEnglish": "Which listed temperature fits the strand-separation step of PCR?",
+    "explanation": "Step 1 in the referenced PCR diagram is denaturation. Heating disrupts base pairing so the two template strands separate. Of the choices, 95°C best represents this high-temperature stage.",
+    "optionExplanations": [
+      "35°C is far too low for standard DNA denaturation.",
+      "55°C is more typical of primer annealing.",
+      "75°C is nearer an extension temperature than standard denaturation.",
+      "95°C is the appropriate high-temperature denaturation choice."
+    ],
+    "memory": "PCR opens the DNA first with high heat.",
+    "quickCheck": {
+      "question": "What happens to double-stranded DNA during denaturation?",
+      "answer": "Its two strands separate."
+    },
+    "sourceNote": "Depends on Color Plates 58a/58b identifying Step 1 as denaturation. The shared rationale incorrectly calls all PCR products cDNA and contains an inconsistent numerical example; PCR products are generally called amplicons."
+  },
+  "book-331-46": {
+    "questionInPlainEnglish": "Which temperature range fits Step 2, primer annealing, in the PCR diagram?",
+    "explanation": "Annealing means primers bind complementary sites on the separated template strands. It needs a lower temperature than denaturation so base pairing can form. The best range listed is 55–65°C, though actual assays depend on primer design.",
+    "optionExplanations": [
+      "25–35°C is too low for the conventional range intended and may allow weak mismatches.",
+      "55–65°C is the intended typical annealing range.",
+      "70–80°C is closer to common extension conditions.",
+      "90–100°C keeps strands separated rather than allowing ordinary primer binding."
+    ],
+    "memory": "Annealing attaches primers after the DNA cools.",
+    "quickCheck": {
+      "question": "Why must PCR cool after denaturation?",
+      "answer": "Primers need conditions that allow complementary base pairing."
+    },
+    "sourceNote": "The supplied context identifies Step 2 as annealing; exact temperatures vary by assay. One scan choice label was duplicated, but option order and book answer are preserved."
+  },
+  "book-331-47": {
+    "questionInPlainEnglish": "Which listed ion is an important polymerase cofactor affecting copying accuracy?",
+    "explanation": "Magnesium is a divalent ion, meaning it has a +2 charge. DNA polymerase needs it for catalysis, and its availability influences how accurately bases are incorporated. It is one of several factors affecting PCR fidelity.",
+    "optionExplanations": [
+      "Primers define the target and affect specificity, but are not the cofactor requested.",
+      "Potassium influences ionic conditions but is not the key divalent polymerase cofactor.",
+      "Mg2+ is the required cofactor emphasized for polymerase activity and fidelity.",
+      "dNTPs are building blocks, not the divalent cofactor."
+    ],
+    "memory": "Mg2+ helps the polymerase machinery work.",
+    "quickCheck": {
+      "question": "What does divalent mean for Mg2+?",
+      "answer": "It carries two positive charges."
+    },
+    "sourceNote": "The stem uses cDNA imprecisely for ordinary PCR product; amplicon is the general term. Polymerase type, dNTP balance, and other factors also affect fidelity."
+  }
+}

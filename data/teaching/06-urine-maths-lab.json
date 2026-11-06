@@ -1,0 +1,2915 @@
+{
+  "book-351-2": {
+    "questionInPlainEnglish": "Which normal urine pigment makes urine yellow?",
+    "explanation": "Urochrome is the usual yellow pigment. Water dilutes it: more water makes pale yellow urine, while less water makes deeper yellow urine.",
+    "optionExplanations": [
+      "Bilirubin is a bile pigment; its presence in urine can signal disease rather than normal yellow color.",
+      "Melanin colors skin and hair and can darken abnormal urine.",
+      "Carotene is an orange plant pigment, not the main normal urine pigment.",
+      "Urochrome supplies the normal yellow color."
+    ],
+    "memory": "Urochrome gives urine its everyday yellow.",
+    "quickCheck": {
+      "question": "Why can normal urine look darker after little water intake?",
+      "answer": "The yellow pigment is less diluted."
+    }
+  },
+  "book-351-3": {
+    "questionInPlainEnglish": "Which pigment can turn urine black after air exposure in some cancers?",
+    "explanation": "Some melanomas, cancers of pigment-producing cells, release melanogen into urine. Oxygen changes this initially colorless material into dark melanin. Think of a cut apple changing color in air.",
+    "optionExplanations": [
+      "Urobilinogen can oxidize to urobilin but is not the melanoma-related black pigment.",
+      "Indican can contribute blue shades, not this characteristic melanin change.",
+      "Melanin is the dark pigment made when melanogen meets oxygen.",
+      "Porphyrins can cause reddish or dark urine, but do not explain this melanoma clue."
+    ],
+    "memory": "Melanoma → melanogen → air → melanin.",
+    "quickCheck": {
+      "question": "What triggers melanogen to become dark?",
+      "answer": "Oxidation by oxygen in air."
+    }
+  },
+  "book-351-4": {
+    "questionInPlainEnglish": "What pH range is expected in freshly passed urine?",
+    "explanation": "pH describes how acidic or alkaline a liquid is; 7 is neutral. Fresh urine normally spans about pH 4.5–8.0 because kidneys adjust acid removal to the body’s needs.",
+    "optionExplanations": [
+      "3.5 is below the lower end of the expected range.",
+      "This extends both too low, to 3.5, and too high, to 9.0.",
+      "Both endpoints extend beyond the book’s 4.5–8.0 range.",
+      "4.5–8.0 matches the expected fresh-urine range."
+    ],
+    "memory": "Fresh urine: four-and-a-half to eight.",
+    "quickCheck": {
+      "question": "Is pH 7 acidic, neutral, or alkaline?",
+      "answer": "Neutral."
+    }
+  },
+  "book-351-5": {
+    "questionInPlainEnglish": "Which urine waste do bacteria break down to make old urine more alkaline?",
+    "explanation": "Bacteria can split urea into ammonia. Ammonia makes urine more alkaline, meaning its pH rises. This is one reason old urine can give misleading results.",
+    "optionExplanations": [
+      "Protein breakdown is not the main urea-to-ammonia pathway described.",
+      "Urea is the nitrogen waste bacteria convert into ammonia.",
+      "Creatinine is a muscle-related waste, not the key source of this ammonia.",
+      "Ketones are fat-breakdown products, not the urea substrate."
+    ],
+    "memory": "Old urine: urea → ammonia → pH up.",
+    "quickCheck": {
+      "question": "What happens to pH when ammonia accumulates?",
+      "answer": "It rises."
+    }
+  },
+  "book-351-6": {
+    "questionInPlainEnglish": "Which word means passing more than 2,000 mL of urine in a day in this book?",
+    "explanation": "Polyuria means unusually large urine volume. The prefix poly means many or much. The book uses over 2,000 mL, which is over 2 L, in 24 hours.",
+    "optionExplanations": [
+      "Anuria means almost no urine production.",
+      "Oliguria means too little urine.",
+      "Polyuria means increased urine volume, matching the stated threshold.",
+      "Hypersthenuria means concentrated urine, not a high daily volume."
+    ],
+    "memory": "Poly = plenty; oligo = little; an = none.",
+    "quickCheck": {
+      "question": "Does polyuria describe volume or color?",
+      "answer": "Volume."
+    },
+    "sourceNote": "The book uses >2 L/day; many current adult definitions use >3 L/day. Interpret using the stated reference and clinical context."
+  },
+  "book-351-7": {
+    "questionInPlainEnglish": "Which protein does an ordinary urine protein strip detect best?",
+    "explanation": "The strip’s dye reacts especially well with albumin, a major blood protein. It reacts less well with several other proteins, so a negative strip does not exclude every kind of protein in urine.",
+    "optionExplanations": [
+      "Albumin is the protein the routine pad detects most sensitively.",
+      "Hemoglobin is a blood pigment; the blood pad is better suited to detecting it.",
+      "Alpha-globulins are proteins, but the protein pad is less sensitive to them.",
+      "Beta-globulins are also less readily detected than albumin."
+    ],
+    "memory": "The ordinary protein pad favors albumin.",
+    "quickCheck": {
+      "question": "Can a negative protein strip rule out all abnormal urine proteins?",
+      "answer": "No; it may miss non-albumin proteins."
+    }
+  },
+  "book-351-8": {
+    "questionInPlainEnglish": "Which substance can make yellow foam when urine is shaken?",
+    "explanation": "Bilirubin is a yellow bile pigment. If it is present in urine, bubbles may look yellow too. Foam color is only a clue; a chemical test is needed to check bilirubin.",
+    "optionExplanations": [
+      "Protein may cause persistent white foam, rather than the yellow foam clue.",
+      "Hemoglobin may redden or darken urine but does not explain yellow foam.",
+      "Bilirubin can color both the urine and its foam yellow.",
+      "Nitrite is a bacterial test marker, not a yellow foaming pigment."
+    ],
+    "memory": "Yellow foam points toward yellow bilirubin.",
+    "quickCheck": {
+      "question": "Is foam alone enough to confirm bilirubin?",
+      "answer": "No; confirm with appropriate testing."
+    }
+  },
+  "book-351-9": {
+    "questionInPlainEnglish": "How often should both positive and negative urine-strip controls be checked in this question?",
+    "explanation": "Controls are samples with known expected results. A positive control checks that the strip can detect a substance; a negative control checks that it does not invent one. The book calls for both daily.",
+    "optionExplanations": [
+      "Only checking the negative control with a new bottle leaves later false positives unchecked.",
+      "Expired strips should not be put into service; waiting until expiry is too late.",
+      "Daily positive and negative controls check both kinds of result.",
+      "Weekly negative controls do not meet the daily schedule given here."
+    ],
+    "memory": "Two directions, every day: positive and negative.",
+    "quickCheck": {
+      "question": "What does a negative control help detect?",
+      "answer": "A test giving a positive result when the substance is absent."
+    },
+    "sourceNote": "Follow current manufacturer instructions and the laboratory’s validated quality-control policy for actual frequency."
+  },
+  "book-351-10": {
+    "questionInPlainEnglish": "Which condition can make a protein strip falsely look positive?",
+    "explanation": "The protein pad holds its own acidic pH using a buffer, a chemical pH stabilizer. Very alkaline urine can overwhelm that buffer and change the dye even without protein.",
+    "optionExplanations": [
+      "This uric acid amount is not the alkaline-buffer interference asked about.",
+      "Vitamin C can interfere with other strip reactions, but is not the protein false-positive cause here.",
+      "Glucose at this level is not the cause of the protein dye changing falsely.",
+      "Urine above pH 8 may overwhelm the pad’s buffer and mimic protein."
+    ],
+    "memory": "Too alkaline can make the protein pad lie positive.",
+    "quickCheck": {
+      "question": "What does false positive mean?",
+      "answer": "The test looks positive even though the target is absent."
+    },
+    "sourceNote": "“nig” in the stem is an OCR error for mg; alkaline interference depends on strip design and buffering."
+  },
+  "book-351-12": {
+    "questionInPlainEnglish": "Why could a protein strip be negative while the broader SSA protein test is positive?",
+    "explanation": "The strip mainly recognizes albumin. Sulfosalicylic acid, or SSA, makes many kinds of proteins form visible cloudiness. A non-albumin protein can therefore be missed by the strip but detected by SSA.",
+    "optionExplanations": [
+      "Crystals can make urine cloudy, but do not best explain this paired protein-test pattern.",
+      "Very alkaline urine is classically a false-positive protein-strip problem, not this false-negative explanation.",
+      "A protein such as an immunoglobulin light chain can react with SSA despite weak strip detection.",
+      "Reading late is poor technique, but does not specifically establish this difference between methods."
+    ],
+    "memory": "Strip favors albumin; SSA sees a wider protein family.",
+    "quickCheck": {
+      "question": "Which test detects more types of protein, routine strip or SSA?",
+      "answer": "SSA."
+    }
+  },
+  "book-351-13": {
+    "questionInPlainEnglish": "Which listed organic substance is normally the main one in urine?",
+    "explanation": "Organic substances contain carbon in their chemical structure. Urea is the major organic urine waste; the liver makes it while safely packaging nitrogen from protein breakdown.",
+    "optionExplanations": [
+      "Sodium is an inorganic mineral ion.",
+      "Potassium is also an inorganic ion.",
+      "Glucose is organic, but healthy kidneys normally return nearly all filtered glucose to blood.",
+      "Urea is the major organic substance normally excreted."
+    ],
+    "memory": "Urea carries used-up protein nitrogen away.",
+    "quickCheck": {
+      "question": "Is sodium organic?",
+      "answer": "No; it is an inorganic ion."
+    }
+  },
+  "book-351-14": {
+    "questionInPlainEnglish": "Which quality step happens before the sample is tested?",
+    "explanation": "Preanalytical means before analysis. Instructions for collecting a full 24-hour urine sample protect the sample before any measurement starts, like following a recipe before putting food in the oven.",
+    "optionExplanations": [
+      "Collection guidelines act before testing and are preanalytical.",
+      "Microscope maintenance supports the measurement equipment.",
+      "Choosing reporting units concerns how results are presented after measurement.",
+      "Checking control acceptability governs test performance and result release, rather than specimen collection."
+    ],
+    "memory": "Pre = before: collect correctly first.",
+    "quickCheck": {
+      "question": "Is labeling a specimen preanalytical or postanalytical?",
+      "answer": "Preanalytical."
+    }
+  },
+  "book-351-15": {
+    "questionInPlainEnglish": "Which ketones does the book say the nitroprusside method can detect?",
+    "explanation": "Ketones form when the body uses much fat for fuel. Nitroprusside methods detect acetoacetate; some formulations also detect acetone. They do not measure beta-hydroxybutyrate, even when that ketone is abundant.",
+    "optionExplanations": [
+      "Beta-hydroxybutyrate does not react, so this pair fails.",
+      "Acetoacetic acid and acetone are the book’s intended reactive pair.",
+      "Diacetic acid is another name for acetoacetic acid, but beta-hydroxybutyrate still is not detected.",
+      "Acetone may react in some formulations, but beta-hydroxybutyrate does not."
+    ],
+    "memory": "Nitroprusside misses beta-hydroxybutyrate.",
+    "quickCheck": {
+      "question": "Which major ketone can be missed by nitroprusside tests?",
+      "answer": "Beta-hydroxybutyrate."
+    },
+    "sourceNote": "The book groups nitroprusside tests together. Many routine urine strips detect acetoacetate only; acetone detection depends on formulation, such as glycine-containing tablet tests."
+  },
+  "book-351-16": {
+    "questionInPlainEnglish": "Why might a child with diarrhea have urine ketones but no urine glucose?",
+    "explanation": "Diarrhea can reduce food intake and nutrient absorption. The body then burns more stored fat for energy, producing ketones. Ketones do not automatically mean diabetes.",
+    "optionExplanations": [
+      "Uncontrolled type 1 diabetes often produces glucose as well as ketones; it is not the best fit here.",
+      "Lactic acid is a different substance and does not explain a genuine ketone pattern.",
+      "Reduced nutrient absorption increases fat breakdown, explaining ketones without glucose.",
+      "Late reading can cause errors, but the illness gives a direct biological explanation."
+    ],
+    "memory": "Little usable food → fat fuel → ketones.",
+    "quickCheck": {
+      "question": "Can fasting cause ketones without glucose in urine?",
+      "answer": "Yes."
+    }
+  },
+  "book-351-17": {
+    "questionInPlainEnglish": "Which muscle substance can make the urine blood pad positive even without hemoglobin?",
+    "explanation": "The blood pad reacts with heme, an iron-containing chemical group. Both hemoglobin from blood and myoglobin from muscle contain heme, so the pad cannot distinguish them.",
+    "optionExplanations": [
+      "Ascorbic acid, or vitamin C, can suppress the reaction and cause a false negative.",
+      "Tetracycline is an antibiotic, not the muscle heme protein producing this reaction.",
+      "Myoglobin contains heme and can trigger the blood pad.",
+      "Nitrite can inhibit some reactions, rather than mimic hemoglobin here."
+    ],
+    "memory": "Blood pad sees heme in blood or muscle.",
+    "quickCheck": {
+      "question": "What protein leaks from badly damaged muscle?",
+      "answer": "Myoglobin."
+    }
+  },
+  "book-351-18": {
+    "questionInPlainEnglish": "Which urine substance reacts with a diazonium salt test pad?",
+    "explanation": "A diazonium salt joins with bilirubin to make a colored compound. This color-building reaction lets the strip show bilirubin, a pigment made during the breakdown of old red blood cells.",
+    "optionExplanations": [
+      "Glucose pads commonly use enzyme reactions, not this bilirubin dye reaction.",
+      "Ketone testing commonly uses nitroprusside.",
+      "Hemoglobin detection uses heme’s peroxide-related activity.",
+      "Bilirubin forms the colored product with the diazonium reagent."
+    ],
+    "memory": "Diazo dye detects bilirubin.",
+    "quickCheck": {
+      "question": "What does the bilirubin pad make to reveal its result?",
+      "answer": "A colored compound."
+    }
+  },
+  "book-351-19": {
+    "questionInPlainEnglish": "Which listed material adds to urine specific gravity as a dissolved substance?",
+    "explanation": "Specific gravity compares urine’s density with water’s density. Dissolved glucose adds mass to the liquid. Cells, crystals, and bacteria in sediment are not the dissolved-solute clue this question seeks.",
+    "optionExplanations": [
+      "Red blood cells are particles seen under a microscope, not the dissolved material asked for.",
+      "Dissolved glucose adds to urine density and thus specific gravity.",
+      "Amorphous phosphates here are precipitated sediment, not dissolved solute.",
+      "Bacteria are microscopic organisms, not the relevant dissolved substance."
+    ],
+    "memory": "Specific gravity counts the liquid’s dissolved load.",
+    "quickCheck": {
+      "question": "Would dissolved sugar tend to increase or decrease density?",
+      "answer": "Increase it."
+    }
+  },
+  "book-351-20": {
+    "questionInPlainEnglish": "Which white blood cell is most commonly seen in urine during infection?",
+    "explanation": "Neutrophils are rapid-response white blood cells that fight many bacterial infections. They are the usual white cells seen in an infected urine sediment, the material examined after centrifuging urine.",
+    "optionExplanations": [
+      "Eosinophils are associated with some allergic or inflammatory conditions, not the most common urine white cell.",
+      "Lymphocytes are important in immune responses but are not the usual predominant cell here.",
+      "Monocytes are larger cleanup cells and are less commonly predominant.",
+      "Neutrophils are the typical white cells in bacterial urinary infection."
+    ],
+    "memory": "Neutrophils are the usual urine infection fighters.",
+    "quickCheck": {
+      "question": "What does a high urine white-cell count suggest?",
+      "answer": "Inflammation or infection, interpreted with other findings."
+    }
+  },
+  "book-351-22": {
+    "questionInPlainEnglish": "Which microscope method helps reveal faint urinary casts?",
+    "explanation": "Casts are tube-shaped molds made inside kidney tubules. Clear casts can nearly disappear in ordinary light. Phase contrast turns tiny differences in how light travels through them into visible contrast.",
+    "optionExplanations": [
+      "Fluorescence usually needs naturally glowing material or a fluorescent label.",
+      "Phase contrast makes transparent casts easier to see.",
+      "Polarized light is especially helpful for birefringent materials such as some lipids.",
+      "Brightfield can show casts, but faint clear casts are harder to detect."
+    ],
+    "memory": "Phase contrast brings pale casts into view.",
+    "quickCheck": {
+      "question": "Why can hyaline casts be hard to see?",
+      "answer": "They are nearly transparent."
+    }
+  },
+  "book-351-23": {
+    "questionInPlainEnglish": "Which urine material is especially recognizable with polarized light?",
+    "explanation": "Polarized microscopy reveals materials that bend light differently in different directions, called birefringent materials. Cholesterol-containing fat droplets may show bright Maltese-cross patterns.",
+    "optionExplanations": [
+      "Lipids can show characteristic bright patterns under polarized light.",
+      "Casts are better highlighted by phase contrast, though their contents may sometimes polarize.",
+      "Red cells do not show the characteristic lipid polarization pattern.",
+      "Dissolved ketones are chemical-test targets, not visible polarized sediment."
+    ],
+    "memory": "Polarized light helps spot fat crosses.",
+    "quickCheck": {
+      "question": "What pattern can cholesterol-containing droplets form?",
+      "answer": "A Maltese cross."
+    }
+  },
+  "book-351-24": {
+    "questionInPlainEnglish": "A glitter cell is a special-looking form of which cell?",
+    "explanation": "A neutrophil can swell in dilute urine. Its internal granules jiggle and sparkle as tiny particles move, producing the name glitter cell. It is still a white blood cell.",
+    "optionExplanations": [
+      "Ketone bodies are dissolved chemicals, not sparkling white cells.",
+      "Oval fat bodies are cells containing fat droplets.",
+      "Fat droplets are lipid particles, not the swollen white cell described.",
+      "A glitter cell is a swollen neutrophil with moving granules."
+    ],
+    "memory": "Glitter comes from granules in a neutrophil.",
+    "quickCheck": {
+      "question": "Are glitter cells a type of red or white blood cell?",
+      "answer": "White blood cell."
+    }
+  },
+  "book-351-25": {
+    "questionInPlainEnglish": "What cast appears at the last stage of granular-cast breakdown?",
+    "explanation": "Cell-containing casts can break down into coarse granules, then finer granules. With further aging they become smooth, dense waxy casts. Imagine crumbs gradually losing their separate shapes.",
+    "optionExplanations": [
+      "Fine granular casts are an intermediate stage, before waxy casts.",
+      "Coarse granular casts appear earlier in breakdown.",
+      "Cellular casts still contain recognizable cells and precede granular stages.",
+      "Waxy casts represent advanced degeneration."
+    ],
+    "memory": "Cells → coarse → fine → waxy.",
+    "quickCheck": {
+      "question": "Which is older in this sequence, coarse granular or waxy?",
+      "answer": "Waxy."
+    }
+  },
+  "book-351-26": {
+    "questionInPlainEnglish": "Which kidney condition best fits major protein loss, swelling, low blood albumin, and urinary fat?",
+    "explanation": "Nephrotic syndrome means the kidney filters leak large amounts of protein. Blood loses albumin, which normally helps hold water inside blood vessels, so tissues swell. Fatty casts and oval fat bodies strengthen the clue.",
+    "optionExplanations": [
+      "Multiple myeloma can cause unusual urine proteins, but this heavy albumin-loss and fat pattern points elsewhere.",
+      "Glomerulonephritis often includes more bleeding and red-cell casts.",
+      "Nephrotic syndrome combines heavy protein loss, low albumin, edema, and urinary lipids.",
+      "Chronic kidney failure can raise urea and creatinine, but alone does not best name this specific protein-and-fat pattern."
+    ],
+    "memory": "Nephrotic: protein out, albumin down, swelling and fat.",
+    "quickCheck": {
+      "question": "Why does low albumin encourage swelling?",
+      "answer": "Less water stays inside blood vessels."
+    }
+  },
+  "book-351-28": {
+    "questionInPlainEnglish": "Which substance builds up and spills into urine in alkaptonuria?",
+    "explanation": "Alkaptonuria is an inherited missing-enzyme problem in the breakdown of certain amino acids, the building blocks of protein. Homogentisic acid accumulates and can make urine darken after exposure to air.",
+    "optionExplanations": [
+      "Alkaptone is not the specific metabolite named by the biochemical defect.",
+      "Phenylalanine buildup points toward phenylketonuria.",
+      "5-HIAA is a serotonin-breakdown marker, associated with carcinoid evaluation.",
+      "Homogentisic acid is the substance that accumulates in alkaptonuria."
+    ],
+    "memory": "Alkaptonuria: homogentisic acid darkens on standing.",
+    "quickCheck": {
+      "question": "Is alkaptonuria inherited or caused by ordinary urine storage?",
+      "answer": "Inherited; storage can reveal the darkening."
+    }
+  },
+  "book-351-29": {
+    "questionInPlainEnglish": "What best explains nitrite, many white cells, and bacteria without kidney casts?",
+    "explanation": "Nitrite suggests nitrate-reducing bacteria, and leukocyte esterase indicates white cells. Together they support urinary infection. Without kidney-localizing casts or other upper-tract clues, the book selects a lower urinary tract infection, such as cystitis.",
+    "optionExplanations": [
+      "Glomerulonephritis more strongly suggests blood, protein, and red-cell casts.",
+      "An upper infection may produce white-cell casts or systemic symptoms; these are not given.",
+      "A lower urinary infection fits bacteria, nitrite, and white cells without kidney-localizing findings.",
+      "Kidney stones often cause blood and pain; they do not alone explain this infection pattern."
+    ],
+    "memory": "Bacteria + nitrite + white cells suggest UTI.",
+    "quickCheck": {
+      "question": "Does urine nitrite alone locate an infection in the kidney?",
+      "answer": "No."
+    },
+    "sourceNote": "The white-cell range “25^0” is damaged OCR. Urinalysis alone cannot reliably distinguish lower from upper urinary tract infection."
+  },
+  "book-351-30": {
+    "questionInPlainEnglish": "Which urine breakdown product rises with many serotonin-producing carcinoid tumors?",
+    "explanation": "Some carcinoid tumors release serotonin. The body breaks serotonin down into 5-hydroxyindoleacetic acid, shortened to 5-HIAA, which can be measured in urine.",
+    "optionExplanations": [
+      "Serotonin is the original signaling substance, but the question asks for its usual urinary breakdown marker.",
+      "5-Hydroxytryptophan is a substance used to make serotonin.",
+      "Homogentisic acid is associated with alkaptonuria.",
+      "5-HIAA is the urinary breakdown product used in this setting."
+    ],
+    "memory": "Serotonin’s urine trail is 5-HIAA.",
+    "quickCheck": {
+      "question": "Is 5-HIAA made before or after serotonin in this pathway?",
+      "answer": "After serotonin, during breakdown."
+    }
+  },
+  "book-351-31": {
+    "questionInPlainEnglish": "Which disease-and-urine-result pairing is the best match?",
+    "explanation": "During intensive dieting, the body may burn stored fat and release ketones while urine glucose remains negative. The other pairings misunderstand protein test sensitivity or use a less reliable marker.",
+    "optionExplanations": [
+      "Nephrotic protein should generally be detectable by SSA as well as the albumin-sensitive strip.",
+      "Dieting can produce ketones without urine glucose, so this pairing fits.",
+      "Myeloma light chains may be missed by the albumin-sensitive strip while SSA is positive.",
+      "Nitrite can support cystitis, but protein is not its defining paired finding."
+    ],
+    "memory": "Dieting burns fat: ketones without sugar.",
+    "quickCheck": {
+      "question": "Which urine protein test may miss myeloma light chains?",
+      "answer": "The routine protein strip."
+    }
+  },
+  "book-351-32": {
+    "questionInPlainEnglish": "What does a positive urine nitrite result suggest?",
+    "explanation": "Some bacteria change nitrate, normally present in urine, into nitrite. The strip detects the nitrite they made. A negative nitrite result does not exclude infection because not all bacteria do this.",
+    "optionExplanations": [
+      "White blood cells are detected indirectly by leukocyte esterase, not nitrite.",
+      "Red blood cells are associated with the blood pad.",
+      "Nitrate-reducing bacteria can produce nitrite.",
+      "Yeasts are not the usual source of the positive nitrite reaction."
+    ],
+    "memory": "Bacteria can turn nitrate into nitrite.",
+    "quickCheck": {
+      "question": "Can a urinary infection have a negative nitrite test?",
+      "answer": "Yes."
+    }
+  },
+  "book-351-33": {
+    "questionInPlainEnglish": "If blood glucose is 100 mg/dL, what CSF glucose is expected?",
+    "explanation": "Cerebrospinal fluid, or CSF, cushions the brain and spinal cord. Its glucose is normally about 60–70% of blood glucose. Using 65%: 100 mg/dL × 0.65 = 65 mg/dL.",
+    "optionExplanations": [
+      "25 mg/dL is only 25% of the blood level, lower than expected here.",
+      "50 mg/dL is 50%, below the book’s expected 65%.",
+      "65 mg/dL is 65% of 100 mg/dL and matches the expected ratio.",
+      "100 mg/dL equals the full blood level, rather than the lower usual CSF level."
+    ],
+    "memory": "CSF sugar is roughly two-thirds of blood sugar.",
+    "quickCheck": {
+      "question": "What is 65% of a blood glucose of 200 mg/dL?",
+      "answer": "130 mg/dL."
+    }
+  },
+  "book-351-34": {
+    "questionInPlainEnglish": "Why can crushed muscle cause a strong urine blood-pad result with almost no red cells?",
+    "explanation": "Rhabdomyolysis means breakdown of muscle. Damaged muscle releases myoglobin, which colors urine brown and reacts on the blood pad. Because the pigment came from muscle, intact red cells need not be present.",
+    "optionExplanations": [
+      "Hemolysis can release hemoglobin, but the major crush injuries specifically support muscle breakdown.",
+      "Bilirubin is a different pigment and need not be positive after muscle injury.",
+      "Rhabdomyolysis releases myoglobin, explaining positive blood chemistry with few red cells.",
+      "Crushed bone does not specifically explain the heme-pad and microscopy mismatch."
+    ],
+    "memory": "Crushed muscle → myoglobin → blood pad positive.",
+    "quickCheck": {
+      "question": "Does a positive blood pad always mean intact red cells?",
+      "answer": "No; hemoglobin or myoglobin can also react."
+    }
+  },
+  "book-351-35": {
+    "questionInPlainEnglish": "Which kidney-function stage includes an estimated filtration rate of 42?",
+    "explanation": "eGFR estimates how much fluid the kidneys filter per minute, adjusted to a standard body size. A value of 42 mL/min/1.73 m² lies in stage 3, more specifically G3b, if persistent.",
+    "optionExplanations": [
+      "Estimated GFR is calculated from blood measurements and patient factors, not a required 24-hour urine sample.",
+      "42 is reduced filtration and cannot establish that kidney damage is absent.",
+      "Cockcroft–Gault estimates creatinine clearance and is not interchangeable with this eGFR.",
+      "42 lies in the stage 3 range of 30–59 mL/min/1.73 m²."
+    ],
+    "memory": "Forty-two falls in stage three; persistence matters.",
+    "quickCheck": {
+      "question": "Which G3 subgroup includes 42, G3a or G3b?",
+      "answer": "G3b, which spans 30–44."
+    },
+    "sourceNote": "A single low eGFR cannot diagnose chronic kidney disease; chronicity usually requires at least 3 months or other evidence."
+  },
+  "book-351-37": {
+    "questionInPlainEnglish": "Which object does the book identify in the referenced urine image?",
+    "explanation": "The book labels the pictured object a fiber artifact, meaning material introduced from outside the body rather than a kidney cast. Fibers can vary in width and have frayed or twisted edges. The image is needed to confirm those features.",
+    "optionExplanations": [
+      "Granular casts are kidney-tubule molds containing granules.",
+      "Hyaline casts are faint, smooth protein molds with more consistent outlines.",
+      "Waxy casts are dense, often blunt-ended molds that may have cracks.",
+      "A fiber artifact is outside material and is the book’s identification."
+    ],
+    "memory": "Fibers can fray; casts copy a tubule.",
+    "quickCheck": {
+      "question": "What does artifact mean in microscopy?",
+      "answer": "Material introduced by collection or handling rather than the patient’s disease."
+    },
+    "sourceNote": "Image-dependent: Color Plate 48 is required for independent identification; teaching retains the book answer."
+  },
+  "book-351-38": {
+    "questionInPlainEnglish": "Which hormone controls the final return of water from collecting ducts to blood?",
+    "explanation": "Vasopressin, also called antidiuretic hormone or ADH, tells collecting ducts to add water channels. Water then moves back into the body, making less, more concentrated urine.",
+    "optionExplanations": [
+      "Water follows concentration differences; it is not actively pumped by the distal tubule.",
+      "Angiotensin II helps regulate fluid balance, but is not the direct water-channel control asked about.",
+      "Vasopressin directly increases collecting-duct water reabsorption.",
+      "Potassium in the filtrate is not the principal control signal for this final water adjustment."
+    ],
+    "memory": "ADH adds water doors.",
+    "quickCheck": {
+      "question": "What happens to urine volume when ADH retains more water?",
+      "answer": "Urine volume decreases."
+    }
+  },
+  "book-351-39": {
+    "questionInPlainEnglish": "What can happen when urine sits for hours at room temperature?",
+    "explanation": "Bacteria can multiply in an unrefrigerated specimen. As they use nutrients and change the urine chemistry, the sample becomes less representative of the urine originally passed.",
+    "optionExplanations": [
+      "Bacterial multiplication is an expected storage change.",
+      "Glucose often decreases as cells and bacteria consume it, rather than increases.",
+      "Urea-splitting bacteria commonly make urine more alkaline, not more acidic.",
+      "Albumin deterioration is not the main characteristic change chosen here."
+    ],
+    "memory": "Warm waiting grows bacteria.",
+    "quickCheck": {
+      "question": "Why should fresh urine be tested promptly?",
+      "answer": "Storage can change cells and chemical results."
+    }
+  },
+  "book-351-40": {
+    "questionInPlainEnglish": "Which other amino acids are associated with the crystal identified in the referenced plate?",
+    "explanation": "The book’s answer points to cystine crystals and cystinuria. In cystinuria, kidney transport of cystine and the amino acids ornithine, lysine, and arginine is faulty, so these leak into urine together.",
+    "optionExplanations": [
+      "Phenylalanine and tyrosine belong to a different amino-acid pathway.",
+      "Ornithine and arginine are fellow amino acids lost with cystine in cystinuria.",
+      "Isoleucine and leucine are branched-chain amino acids, not this transport group.",
+      "Acetoacetate and beta-hydroxybutyrate are ketones, not amino acids."
+    ],
+    "memory": "COLA: Cystine, Ornithine, Lysine, Arginine.",
+    "quickCheck": {
+      "question": "What does the O in COLA stand for?",
+      "answer": "Ornithine."
+    },
+    "sourceNote": "Image-dependent: Color Plate 49B is needed to verify the cystine-crystal identification implied by the book answer."
+  },
+  "book-351-41": {
+    "questionInPlainEnglish": "Which pictured structures fit an otherwise healthy teenager with only trace protein?",
+    "explanation": "The book identifies hyaline casts and mucus. A small number of hyaline casts can occur normally, especially after exercise or in concentrated urine. Mucus can also be a normal finding; the full pattern matters.",
+    "optionExplanations": [
+      "Waxy casts and nephrotic syndrome would not fit a mostly normal urine with only trace protein.",
+      "Mucus and fibers may be harmless, but that is not the book’s pictured identification.",
+      "Red-cell and granular-cast disease findings would need evidence beyond this mild pattern.",
+      "Hyaline casts and mucus can fit normal sediment and are the book’s answer."
+    ],
+    "memory": "A few clear casts can accompany exercise.",
+    "quickCheck": {
+      "question": "Does every hyaline cast prove kidney disease?",
+      "answer": "No."
+    },
+    "sourceNote": "Image-dependent: Color Plate 50B must be viewed to distinguish hyaline casts from fibers and mucus."
+  },
+  "book-351-42": {
+    "questionInPlainEnglish": "Which statement about untreated phenylketonuria is correct?",
+    "explanation": "Phenylketonuria, or PKU, usually comes from too little phenylalanine hydroxylase activity. Phenylalanine builds up and can harm the developing brain. Early screening and carefully managed treatment help prevent that harm.",
+    "optionExplanations": [
+      "Untreated PKU can damage brain development, so this statement is the key.",
+      "The usual deficient enzyme is phenylalanine hydroxylase, not phenylalanine oxidase.",
+      "Phenylpyruvic acid can increase in PKU, making this option potentially true too; the book emphasizes the clinical harm.",
+      "Phenylalanine builds up; tyrosine production from it is reduced."
+    ],
+    "memory": "PKU screening protects the developing brain.",
+    "quickCheck": {
+      "question": "Which amino acid builds up in PKU?",
+      "answer": "Phenylalanine."
+    },
+    "sourceNote": "The item is not fully exclusive: increased phenylpyruvic acid is also compatible with PKU. The book answer is retained."
+  },
+  "book-351-43": {
+    "questionInPlainEnglish": "What condition does the book associate with the number of cells in the pictured field?",
+    "explanation": "The book calls the specimen normal. Urine microscopy is judged by both cell type and number; seeing a few normal sediment elements does not itself prove disease. The missing plate is needed to assess the count.",
+    "optionExplanations": [
+      "Glomerulonephritis would need findings such as excess red cells or red-cell casts.",
+      "Many squamous cells can suggest collection contamination, but the book does not select that pattern.",
+      "Pyelonephritis is kidney infection and may show white-cell casts and inflammation.",
+      "Normal sample is the book’s image-based conclusion."
+    ],
+    "memory": "Count and cell type matter together.",
+    "quickCheck": {
+      "question": "Can a few urine cells occur in a healthy sample?",
+      "answer": "Yes."
+    },
+    "sourceNote": "Image-dependent: Color Plate 51 is required; the stem’s plate number has OCR damage, and the exact predominant element cannot be confirmed from text alone."
+  },
+  "book-351-45": {
+    "questionInPlainEnglish": "Which disease is linked to an increase in the structure shown in the plate?",
+    "explanation": "The book associates the pictured component with acute glomerulonephritis, inflammation of the kidney’s filtering units. Such inflammation can release red cells and create red-cell casts. The plate is necessary to identify the exact structure.",
+    "optionExplanations": [
+      "Acute glomerulonephritis fits a rise in kidney-derived bleeding elements.",
+      "Bile obstruction chiefly changes bilirubin findings, not red-cell sediment.",
+      "Vaginal contamination can introduce squamous cells and white cells, rather than kidney bleeding casts.",
+      "Nephrotic syndrome more strongly features heavy protein and lipid-containing elements."
+    ],
+    "memory": "Inflamed glomeruli can leak red cells.",
+    "quickCheck": {
+      "question": "What is a glomerulus?",
+      "answer": "A tiny filtering unit in the kidney."
+    },
+    "sourceNote": "Image-dependent: Color Plate 52 is required to verify the particular urinary component; do not infer a confirmed image finding from this text."
+  },
+  "book-351-46": {
+    "questionInPlainEnglish": "Which measurement can help detect maternal urine mixed into amniotic fluid?",
+    "explanation": "Creatinine is a waste chemical concentrated in urine. Measuring it can help assess whether maternal urine has contaminated the fluid around a fetus, interpreted with the sample context and expected fluid values.",
+    "optionExplanations": [
+      "Creatinine concentration can help recognize urine contamination.",
+      "Absorbance near 410 nm is not the chosen urine-contamination measurement.",
+      "An albumin/globulin ratio compares protein groups and is not the marker asked for.",
+      "Lactate dehydrogenase measures an enzyme, not the preferred urine marker here."
+    ],
+    "memory": "Urine contamination leaves a creatinine clue.",
+    "quickCheck": {
+      "question": "What body system normally removes creatinine from blood?",
+      "answer": "The kidneys."
+    }
+  },
+  "book-351-47": {
+    "questionInPlainEnglish": "Which amniotic-fluid phospholipid rises as fetal lungs mature?",
+    "explanation": "Phosphatidylcholine, also called lecithin, is an important surfactant component. Surfactant acts like an anti-stick coating that helps tiny lung air sacs stay open. Lecithin rises as the fetal lungs mature.",
+    "optionExplanations": [
+      "Sphingomyelin is comparatively stable and was used as the comparison in the L/S ratio.",
+      "Phosphatidylethanolamine is not the main consistently increasing marker sought.",
+      "Phosphatidylinositol is a phospholipid but not the classic rising lecithin marker.",
+      "Phosphatidylcholine is lecithin, the rising surfactant-related lipid."
+    ],
+    "memory": "Lecithin rises as lungs get ready.",
+    "quickCheck": {
+      "question": "What does surfactant help prevent?",
+      "answer": "Collapse of tiny lung air sacs."
+    },
+    "sourceNote": "Amniotic-fluid lung-maturity tests reflect older practice and have limited roles in current obstetric decision-making."
+  },
+  "book-351-48": {
+    "questionInPlainEnglish": "What stool appearance is typical of bleeding higher in the digestive tract?",
+    "explanation": "Blood from the upper digestive tract is changed by digestion. It can produce very dark, black, tarry stool called melena, rather than remaining bright red.",
+    "optionExplanations": [
+      "Bright red streaks more often suggest a source nearer the lower end of the bowel.",
+      "Clay-colored stool suggests little bile pigment entering the intestine.",
+      "Dark brown to black stool fits digested blood from an upper gastrointestinal bleed.",
+      "Yellow mucus is not the characteristic appearance of digested blood."
+    ],
+    "memory": "Digested blood turns dark: melena.",
+    "quickCheck": {
+      "question": "What does melena mean?",
+      "answer": "Black, tarry stool caused by digested blood."
+    }
+  },
+  "book-351-49": {
+    "questionInPlainEnglish": "Does protein-rich, white-cell-rich fluid around the lungs fit an exudate or transudate?",
+    "explanation": "An exudate forms when inflammation makes vessel walls leak protein and cells. Here, protein of 5 g/dL and 3,000 white cells/µL support that pattern. A transudate usually contains less protein and fewer inflammatory cells.",
+    "optionExplanations": [
+      "A transudate usually results from pressure imbalance and is relatively low in protein and cells.",
+      "An exudate fits the high protein and increased white cells.",
+      "The cell-rich pattern does not support calling the fluid noninflammatory.",
+      "Hemorrhagic means bloody; a red-cell count or bloody appearance would be needed."
+    ],
+    "memory": "Exudate lets extra protein and cells escape.",
+    "quickCheck": {
+      "question": "Which fluid type is more associated with inflammation?",
+      "answer": "Exudate."
+    },
+    "sourceNote": "Modern pleural-fluid classification generally uses paired fluid and serum measurements with Light’s criteria; these values are supportive rather than a complete classification rule."
+  },
+  "book-351-50": {
+    "questionInPlainEnglish": "In diabetes insipidus, is urine plentiful or scarce, and dilute or concentrated?",
+    "explanation": "Diabetes insipidus means the body cannot properly use the water-saving signal ADH. Too much water leaves in urine. The urine volume rises, but its specific gravity falls because it is dilute.",
+    "optionExplanations": [
+      "Increased volume with decreased specific gravity matches water loss.",
+      "Increased specific gravity means concentrated urine and does not fit this water-loss pattern.",
+      "Low volume does not fit the large water loss of untreated diabetes insipidus.",
+      "Low volume with concentrated urine is the opposite of the expected pattern."
+    ],
+    "memory": "Insipidus: lots of watery urine.",
+    "quickCheck": {
+      "question": "Does dilute urine have high or low specific gravity?",
+      "answer": "Low."
+    }
+  },
+  "book-351-51": {
+    "questionInPlainEnglish": "Which body fluid is evaluated by its thickness from hyaluronic acid?",
+    "explanation": "Synovial fluid lubricates joints. Hyaluronic acid makes it thick and slippery, like a natural lubricant. Inflammation can break down that thickness, so viscosity helps assess joint fluid.",
+    "optionExplanations": [
+      "Spinal fluid is normally watery and is not assessed through this joint-lubricant property.",
+      "Peritoneal fluid surrounds abdominal organs, not joint surfaces.",
+      "Pleural fluid surrounds the lungs, not the joints.",
+      "Synovial fluid contains hyaluronic acid that contributes its viscosity."
+    ],
+    "memory": "Synovial fluid is slippery joint lubricant.",
+    "quickCheck": {
+      "question": "What does viscosity mean?",
+      "answer": "How thick a fluid is, or how strongly it resists flowing."
+    }
+  },
+  "book-351-52": {
+    "questionInPlainEnglish": "Which listed finding supports an inflammatory exudate?",
+    "explanation": "Exudates carry leaked protein and inflammatory cells. A white-cell count above 1,000/µL supports that pattern in the book’s comparison, while clear, low-protein fluid fits a transudate more closely.",
+    "optionExplanations": [
+      "More than 1,000 white cells/µL supports inflammation and an exudate.",
+      "A clear appearance alone is not the characteristic inflammatory clue.",
+      "Protein below 3 g/dL is more typical of a transudate in this older simplified scheme.",
+      "Exudates can contain fibrinogen; its absence is not the defining feature."
+    ],
+    "memory": "Exudates bring extra cells.",
+    "quickCheck": {
+      "question": "What are leukocytes?",
+      "answer": "White blood cells."
+    },
+    "sourceNote": "Cell count alone does not classify all effusions; use the appropriate validated criteria for the fluid type."
+  },
+  "book-351-53": {
+    "questionInPlainEnglish": "Which specific-gravity method uses chemicals called polyelectrolytes?",
+    "explanation": "The reagent-strip pad contains a polyelectrolyte, a chain-like chemical with charged groups. Urine ions change its behavior, causing a pH indicator to change color. This estimates ionic concentration.",
+    "optionExplanations": [
+      "A refractometer measures how light bends through the sample.",
+      "An osmometer measures a particle-related property such as freezing-point depression.",
+      "A TS meter is a refractometer type, based on light refraction.",
+      "A reagent strip uses the polyelectrolyte-and-indicator reaction."
+    ],
+    "memory": "Strip specific gravity senses salts through chemistry.",
+    "quickCheck": {
+      "question": "Does a refractometer use a color pad or bent light?",
+      "answer": "Bent light."
+    }
+  },
+  "book-351-54": {
+    "questionInPlainEnglish": "Which pair of methods can measure low protein levels in both urine and CSF?",
+    "explanation": "Urine and cerebrospinal fluid usually contain far less protein than serum. Sensitive methods are needed. Coomassie brilliant blue binds protein to form color; trichloroacetic acid makes protein form measurable cloudiness.",
+    "optionExplanations": [
+      "Trichloroacetic acid is usable, but bromcresol green is mainly an albumin method and is not the selected broad low-protein pair.",
+      "Coomassie is usable; Ponceau S is not the intended paired method here.",
+      "Bromcresol green favors albumin rather than total low-level fluid protein.",
+      "Coomassie dye binding and trichloroacetic acid precipitation are the intended pair."
+    ],
+    "memory": "Low-fluid protein: bind dye or build cloudiness.",
+    "quickCheck": {
+      "question": "What happens to protein in an acid-precipitation method?",
+      "answer": "It forms particles that make the liquid cloudy."
+    }
+  },
+  "book-351-55": {
+    "questionInPlainEnglish": "What is true about the casts the book shows in the plate?",
+    "explanation": "The book identifies a structure made of uromodulin, also called Tamm–Horsfall protein. This protein can form a mold inside kidney tubules. Hyaline casts can occur in healthy people as well as in disease.",
+    "optionExplanations": [
+      "Uromodulin forms the protein framework of urinary casts.",
+      "A few hyaline casts do not always mean disease.",
+      "Polarization is especially useful for some crystals and fats, not the defining property of these protein casts.",
+      "Hyaline casts are generally clear and faint, not characteristically yellow."
+    ],
+    "memory": "Uromodulin makes the cast mold.",
+    "quickCheck": {
+      "question": "Where do true urinary casts form?",
+      "answer": "Inside kidney tubules."
+    },
+    "sourceNote": "Image-dependent: Color Plate 53B is needed to confirm the pictured cast type."
+  },
+  "book-351-56": {
+    "questionInPlainEnglish": "What must be true of substances described as dissolved in urine?",
+    "explanation": "Urine is mostly water. A dissolved substance must be soluble in that watery liquid. Urine can carry organic molecules, inorganic ions, wastes, and useful substances that happen to be excreted.",
+    "optionExplanations": [
+      "Water solubility explains how a substance stays dissolved in urine.",
+      "Some dissolved materials are inorganic, but urea and others are organic.",
+      "Some are organic, but sodium and chloride are inorganic.",
+      "Not everything excreted is a useless waste; useful salts and other materials can also appear."
+    ],
+    "memory": "Dissolved in watery urine means water-soluble.",
+    "quickCheck": {
+      "question": "Is urine made only of organic substances?",
+      "answer": "No; it also contains inorganic ions."
+    }
+  },
+  "book-351-57": {
+    "questionInPlainEnglish": "With very little CSF available, which testing priority does the book choose?",
+    "explanation": "CSF is fluid around the brain and spinal cord. A culture looks for living infectious organisms. With a tiny sample, the book prioritizes culture before cell counting so an important infection investigation is not lost.",
+    "optionExplanations": [
+      "Chemistry is commonly assigned an early tube, but this is not the book’s correct collection statement.",
+      "Microbiology is commonly assigned tube 2, rather than routinely tube 3.",
+      "CSF needs prompt processing; holding every sample overnight is inappropriate.",
+      "With limited volume, the book places culture first."
+    ],
+    "memory": "Tiny CSF sample: protect the infection investigation.",
+    "quickCheck": {
+      "question": "Why should CSF not simply wait until the next day?",
+      "answer": "Cells deteriorate and infection testing may be compromised."
+    },
+    "sourceNote": "CSF tube assignments, storage temperatures, and limited-volume priorities depend on the requested tests and local urgent-testing policy."
+  },
+  "book-351-58": {
+    "questionInPlainEnglish": "Which statement fits the crystals identified by the book’s image answer?",
+    "explanation": "The book’s answer implies uric acid crystals, which can sometimes form six-sided shapes resembling cystine crystals. Shape alone is not enough; pH, solubility, and other features help tell them apart.",
+    "optionExplanations": [
+      "Crystals can be present in a fresh specimen, so never is too strong.",
+      "Uric acid can form plates that resemble cystine crystals, the intended comparison.",
+      "Uric acid dissolves more readily in alkaline conditions, so this is not correct.",
+      "Uric acid crystals do not by themselves prove an inherited metabolic error."
+    ],
+    "memory": "Six sides need a second look: uric acid can mimic cystine.",
+    "quickCheck": {
+      "question": "Can crystal shape alone always identify the crystal?",
+      "answer": "No."
+    },
+    "sourceNote": "Image-dependent: Color Plate 54B is needed to confirm uric acid. “Cysteine” in the option likely means cystine, the urinary crystal."
+  },
+  "book-351-59": {
+    "questionInPlainEnglish": "Which explanation best fits high urine glucose together with a positive serum ketone test?",
+    "explanation": "Diabetes mellitus can leave glucose high in the blood and spilling into urine. If the body cannot use that glucose well, it burns fat and produces ketones. This combination with illness needs prompt clinical assessment.",
+    "optionExplanations": [
+      "Diabetes mellitus fits glucose spilling into urine plus ketone production.",
+      "Crash dieting can produce ketones, but does not usually explain urine glucose of 500 mg/dL.",
+      "The combination does fit a recognized diabetes pattern.",
+      "These results can occur together and are not impossible."
+    ],
+    "memory": "Sugar outside, fat fuel inside: consider diabetes.",
+    "quickCheck": {
+      "question": "Why can ketones form even when blood contains lots of glucose?",
+      "answer": "Cells may be unable to use glucose properly without adequate insulin action."
+    }
+  },
+  "book-351-60": {
+    "questionInPlainEnglish": "Which strip result is normally reported as a small amount rather than simply negative?",
+    "explanation": "A little urobilinogen normally reaches urine after intestinal bacteria process bilirubin. Its strip scale includes a normal low concentration. Protein, bilirubin, and nitrite can appropriately be reported as negative.",
+    "optionExplanations": [
+      "Protein can be reported negative when below the strip’s detection level.",
+      "Urobilinogen normally has a low numeric or normal-range result on the strip scale.",
+      "Bilirubin is normally absent from detectable urine and can be negative.",
+      "Nitrite can be reported negative."
+    ],
+    "memory": "Urobilinogen has a normal little amount.",
+    "quickCheck": {
+      "question": "Is a small amount of urobilinogen normally expected?",
+      "answer": "Yes."
+    },
+    "sourceNote": "The word “never” reflects the reporting scale assumed by the book; reporting terminology depends on the strip and laboratory system."
+  },
+  "book-351-61": {
+    "questionInPlainEnglish": "Which condition fits jaundice, urine bilirubin, and very little urobilinogen?",
+    "explanation": "If a bile duct is blocked, processed bilirubin backs up into blood and can enter urine. Less bilirubin reaches the intestine, so less urobilinogen is made. That explains positive urine bilirubin with low urobilinogen.",
+    "optionExplanations": [
+      "Bile duct obstruction produces the backup-and-low-intestinal-product pattern.",
+      "Cirrhosis can alter both markers, but low urobilinogen with bilirubin especially suggests obstruction.",
+      "Hepatitis often allows more urobilinogen formation and does not best fit this obstructive pattern.",
+      "Hemolysis usually raises urobilinogen; unconjugated bilirubin does not enter urine readily."
+    ],
+    "memory": "Blocked bile: bilirubin backs up, urobilinogen drops.",
+    "quickCheck": {
+      "question": "Why does bile obstruction reduce urobilinogen production?",
+      "answer": "Less bilirubin reaches intestinal bacteria."
+    }
+  },
+  "book-351-62": {
+    "questionInPlainEnglish": "What drawback does the book give for stool DNA testing compared with an occult blood test?",
+    "explanation": "Stool DNA tests look for abnormal genetic material shed by bowel cells. That added laboratory processing costs more than a simpler hidden-blood test. Both can use stool collected without inserting an instrument into the body.",
+    "optionExplanations": [
+      "Stool DNA collection itself is not more invasive in the way a colonoscopy is.",
+      "Lower sensitivity is not the book’s stated disadvantage; performance depends on the test and target.",
+      "Higher cost is the intended disadvantage.",
+      "Stool DNA tests do not generally require the food restrictions associated with older guaiac blood tests."
+    ],
+    "memory": "More molecular analysis usually means more cost.",
+    "quickCheck": {
+      "question": "What does occult blood mean?",
+      "answer": "Blood that is not visible to the eye."
+    }
+  },
+  "book-351-63": {
+    "questionInPlainEnglish": "Which statement about checking sperm shape is correct?",
+    "explanation": "Morphology means shape and structure. Papanicolaou stain can color sperm parts so their heads, middle pieces, and tails can be assessed for abnormalities. Other cells should also be recorded when relevant.",
+    "optionExplanations": [
+      "A required count of 1,000 is not the standard rule stated for routine morphology assessment.",
+      "Normal shape needs a defined assessment and reference limit, not the vague claim that only a small number should be normal.",
+      "Papanicolaou stain can be used to assess sperm morphology.",
+      "Red cells, white cells, and epithelial cells can matter and should not simply be ignored."
+    ],
+    "memory": "Morphology means form; stains reveal form.",
+    "quickCheck": {
+      "question": "What does sperm morphology examine?",
+      "answer": "The shapes and structures of sperm cells."
+    },
+    "sourceNote": "Semen assessment methods and reference limits have changed across WHO editions; use the current validated laboratory procedure."
+  },
+  "book-351-64": {
+    "questionInPlainEnglish": "Which disease can cause antibodies to be made within the brain and spinal cord?",
+    "explanation": "Multiple sclerosis can stimulate antibody production inside the central nervous system. These locally made immunoglobulins may appear as oligoclonal bands in CSF, like a small set of repeated antibody stripes.",
+    "optionExplanations": [
+      "Gout involves urate crystals, usually in joints.",
+      "Erythroblastosis fetalis involves immune damage to fetal red cells.",
+      "Multiple myeloma produces abnormal antibodies mainly outside the central nervous system.",
+      "Multiple sclerosis is associated with local CSF antibody production."
+    ],
+    "memory": "MS can leave antibody bands in CSF.",
+    "quickCheck": {
+      "question": "What are immunoglobulins?",
+      "answer": "Antibodies made by immune cells."
+    }
+  },
+  "book-351-65": {
+    "questionInPlainEnglish": "How do common pregnancy screening immunoassays recognize pregnancy hormone?",
+    "explanation": "hCG is a hormone made during pregnancy. The test contains anti-hCG antibodies shaped to bind that hormone, like matching locks and keys. A test line or signal shows that binding has occurred.",
+    "optionExplanations": [
+      "Anti-hCG reagent binds the patient’s hCG, which is the basic assay principle.",
+      "First-morning urine can be preferable early in pregnancy because it is more concentrated.",
+      "Internal controls check aspects of test operation, not whether the urine was collected correctly.",
+      "External quality control still has a role under the laboratory’s policy."
+    ],
+    "memory": "Anti-hCG catches hCG.",
+    "quickCheck": {
+      "question": "What does the antibody in the test bind?",
+      "answer": "Human chorionic gonadotropin, or hCG."
+    }
+  },
+  "book-351-66": {
+    "questionInPlainEnglish": "Which disorder fits illness after milk, a negative glucose strip, and a positive reducing-sugar test?",
+    "explanation": "Milk contains lactose, which is broken into glucose and galactose. In galactosemia, galactose cannot be handled normally and can appear in urine. Clinitest detects several reducing sugars, while the glucose strip is much more specific for glucose.",
+    "optionExplanations": [
+      "Diabetes mellitus would more typically make the glucose-specific strip positive.",
+      "Ketosis would involve ketones, which are negative here.",
+      "Starvation can cause ketones but does not explain a non-glucose reducing sugar after milk.",
+      "Galactosemia explains milk-related illness and galactose detected by Clinitest."
+    ],
+    "memory": "Clinitest sees more sugars than the glucose strip.",
+    "quickCheck": {
+      "question": "Why can Clinitest be positive when the glucose pad is negative?",
+      "answer": "A different reducing sugar, such as galactose, may be present."
+    }
+  },
+  "book-351-67": {
+    "questionInPlainEnglish": "Which of these statements about urine cells, bacteria, or fluid collection is true?",
+    "explanation": "Bacteria need time to convert nitrate into nitrite. If contamination occurs at collection, it does not instantly make the nitrite test positive. This is another reason timing matters when interpreting urine.",
+    "optionExplanations": [
+      "Renal tubular cells come from kidney tubules, not the renal pelvis.",
+      "Crenation, or a shrunken spiky shape, chiefly reflects concentrated urine rather than acidity alone.",
+      "Newly introduced bacteria do not immediately produce a detectable nitrite level.",
+      "Pilocarpine iontophoresis stimulates sweat collection, not fluid collection from around the heart."
+    ],
+    "memory": "Nitrite production takes time.",
+    "quickCheck": {
+      "question": "What specimen is collected after pilocarpine iontophoresis?",
+      "answer": "Sweat."
+    }
+  },
+  "book-373-2": {
+    "questionInPlainEnglish": "Convert calcium from mg/dL to mmol/L.",
+    "explanation": "First change deciliters to liters: 10 mg/dL × 10 dL/L = 100 mg/L. Calcium has about 40 mg in each mmol. Then 100 mg/L ÷ 40 mg/mmol = 2.5 mmol/L.",
+    "optionExplanations": [
+      "2.5 mmol/L is correct: 100 mg/L divided by 40 mg/mmol gives 2.5 mmol/L.",
+      "5.0 mmol/L would contain 200 mg/L calcium, too much.",
+      "7.5 mmol/L would contain 300 mg/L, too much.",
+      "10.0 mmol/L would contain 400 mg/L, too much."
+    ],
+    "memory": "For calcium, mg/dL ÷ 4 gives mmol/L.",
+    "quickCheck": {
+      "question": "What is 12 mg/dL calcium in mmol/L?",
+      "answer": "3 mmol/L."
+    }
+  },
+  "book-373-3": {
+    "questionInPlainEnglish": "How many grams of salt supply 135 mEq/L sodium in 100 mL?",
+    "explanation": "Sodium has one charge, so 1 mmol sodium equals 1 mEq. One mmol NaCl weighs 0.0585 g. Required sodium = 135 mEq/L × 0.100 L = 13.5 mEq. Salt mass = 13.5 × 0.0585 g = 0.790 g.",
+    "optionExplanations": [
+      "0.31 g supplies too little salt for 13.5 mEq sodium.",
+      "0.79 g supplies the required 13.5 mEq.",
+      "1.2 g supplies more sodium than required.",
+      "1.8 g supplies more than twice the required salt."
+    ],
+    "memory": "Sodium’s one charge makes mmol and mEq equal.",
+    "quickCheck": {
+      "question": "Why use NaCl’s mass rather than sodium’s mass alone?",
+      "answer": "The weighed solid contains both sodium and chloride."
+    }
+  },
+  "book-373-4": {
+    "questionInPlainEnglish": "How much 95% alcohol stock is needed for 5 L at 70%?",
+    "explanation": "Dilution preserves the amount of alcohol. Use stock concentration × stock volume = final concentration × final volume: 95 × V = 70 × 5 L. V = 350 ÷ 95 = 3.68 L, about 3.7 L. Dilute to 5 L total.",
+    "optionExplanations": [
+      "2.4 L contains too little alcohol to reach the target.",
+      "3.5 L contains too little alcohol at 95% strength.",
+      "3.7 L is the rounded required stock volume.",
+      "4.4 L contains more alcohol than the target requires."
+    ],
+    "memory": "Stock amount stays the same; final volume grows.",
+    "quickCheck": {
+      "question": "Do you add 5 L water to the stock?",
+      "answer": "No; dilute until the total solution volume is 5 L."
+    }
+  },
+  "book-373-5": {
+    "questionInPlainEnglish": "Find the strength of NaOH from the acid volume needed to neutralize it.",
+    "explanation": "At neutralization, acid equivalents equal base equivalents. Normality measures equivalents per liter. N(NaOH) = 0.100 N × 11.25 mL ÷ 10.0 mL = 0.1125 N. The book selects 0.112 N.",
+    "optionExplanations": [
+      "0.100 N would require equal acid and base volumes, unlike the given data.",
+      "0.112 N is the book’s listed result for 0.1125 N.",
+      "0.113 N is also a defensible rounding of 0.1125 N under common rounding conventions.",
+      "1.125 N is ten times the calculated value."
+    ],
+    "memory": "Neutralization: acid N × V = base N × V.",
+    "quickCheck": {
+      "question": "What is the unrounded calculated normality?",
+      "answer": "0.1125 N."
+    },
+    "sourceNote": "The book gives 0.112 N. Conventional half-up rounding to three significant figures gives 0.113 N; half-even gives 0.112 N. This makes the options ambiguous."
+  },
+  "book-373-6": {
+    "questionInPlainEnglish": "How much concentrated sulfuric acid contains enough acid for 10 L of 0.1 N solution?",
+    "explanation": "Each mL contains 1.84 g × 0.97 = 1.7848 g pure acid. H₂SO₄ supplies two acid equivalents per mole, so its equivalent mass is 98 ÷ 2 = 49 g/Eq. Needed mass = 0.1 Eq/L × 10 L × 49 g/Eq = 49 g. Volume = 49 g ÷ 1.7848 g/mL = 27.5 mL.",
+    "optionExplanations": [
+      "1.84 mL supplies far less than the required 49 g acid.",
+      "9.20 mL also supplies too little pure acid.",
+      "27.5 mL contains about 49 g pure H₂SO₄.",
+      "54.4 mL supplies nearly twice the needed acid."
+    ],
+    "memory": "For sulfuric acid normality, use 49 g per equivalent.",
+    "quickCheck": {
+      "question": "Why multiply the stock mass by 0.97?",
+      "answer": "Only 97% of the stock’s mass is pure sulfuric acid."
+    }
+  },
+  "book-373-7": {
+    "questionInPlainEnglish": "How much hydrated calcium chloride gives 500 mL containing 10% anhydrous calcium chloride?",
+    "explanation": "10% w/v means 10 g per 100 mL, so 500 mL needs 50 g dry CaCl₂. The hydrate includes attached water: 147 g hydrate contains 111 g dry CaCl₂. Required hydrate = 50 g × 147/111 = 66.2 g.",
+    "optionExplanations": [
+      "33.1 g hydrate provides only about 25 g dry salt, too little.",
+      "41.3 g hydrate also provides less than 50 g dry salt.",
+      "50.0 g hydrate contains some water and therefore less than 50 g dry CaCl₂.",
+      "66.2 g hydrate provides the required 50 g dry CaCl₂."
+    ],
+    "memory": "Hydrate mass includes hitchhiking water.",
+    "quickCheck": {
+      "question": "Must the hydrate mass be larger or smaller than the required dry-salt mass?",
+      "answer": "Larger."
+    }
+  },
+  "book-373-8": {
+    "questionInPlainEnglish": "Count all dissolved particles from salt and glucose per kilogram of water.",
+    "explanation": "NaCl: 5.85 g ÷ 58.5 g/mol = 0.1 mol. Each splits into two ions, giving 0.2 Osm. Glucose: 18 g ÷ 180 g/mol = 0.1 mol and stays as single molecules, giving 0.1 Osm. Total = 0.3 Osm in 1 kg water = 0.3 Osm/kg.",
+    "optionExplanations": [
+      "0.2 Osm/kg counts fewer particles than the salt-plus-glucose total.",
+      "0.3 Osm/kg includes 0.2 from salt and 0.1 from glucose.",
+      "0.6 Osm/kg is twice the calculated particle concentration.",
+      "0.9 Osm/kg is three times the calculated value."
+    ],
+    "memory": "Salt splits into two; glucose stays one.",
+    "quickCheck": {
+      "question": "What unit uses kilograms of solvent: osmolarity or osmolality?",
+      "answer": "Osmolality."
+    }
+  },
+  "book-373-9": {
+    "questionInPlainEnglish": "Find the particle concentration per liter of 0.85% salt solution.",
+    "explanation": "0.85% w/v = 0.85 g/100 mL = 8.5 g/L. Divide by NaCl’s molar mass: 8.5 ÷ 58.5 = 0.145 mol/L. NaCl forms two ions, so osmolarity ≈ 0.145 × 2 = 0.29 Osm/L.",
+    "optionExplanations": [
+      "0.15 is close to molarity, but osmolarity counts both ions.",
+      "0.29 Osm/L matches the two-particle calculation.",
+      "0.85 is the percent value, not the osmolarity.",
+      "8.5 is grams per liter, not osmoles per liter."
+    ],
+    "memory": "Osmolarity counts particles per liter.",
+    "quickCheck": {
+      "question": "How many particles does ideal dissociation of one NaCl unit produce?",
+      "answer": "Two: Na⁺ and Cl⁻."
+    },
+    "sourceNote": "The item defines saline as 0.85%; many current clinical saline preparations are 0.9%. The calculation uses the stated 0.85%."
+  },
+  "book-373-11": {
+    "questionInPlainEnglish": "Find the strength after two successive dilutions.",
+    "explanation": "In the book’s notation, 1:4 means one part stock in four total parts. Multiply the original strength by both fractions: 5 N × 1/4 × 4/15 = 5/15 N = 0.333 N, about 0.33 N.",
+    "optionExplanations": [
+      "0.25 N is below the result of multiplying both dilution fractions.",
+      "0.33 N matches 5 × 1/4 × 4/15.",
+      "2.5 N is much too concentrated after both dilutions.",
+      "3.0 N is also too concentrated for the stated dilution factors."
+    ],
+    "memory": "Serial dilutions multiply.",
+    "quickCheck": {
+      "question": "What is the combined dilution fraction here?",
+      "answer": "1/15."
+    }
+  },
+  "book-373-12": {
+    "questionInPlainEnglish": "What fraction of the final mixture is serum?",
+    "explanation": "Add every volume: 0.1 mL serum + 5.0 mL reagent + 4.9 mL water = 10.0 mL. Serum fraction = 0.1/10 = 1/100. The serum is diluted 1 to 100.",
+    "optionExplanations": [
+      "1:5 would put much more serum in the mixture.",
+      "1:10 would mean 1 mL serum in 10 mL, not 0.1 mL.",
+      "1:50 is twice the actual serum fraction.",
+      "1:100 matches 0.1 mL in 10 mL total."
+    ],
+    "memory": "Dilution denominator is the whole mixture.",
+    "quickCheck": {
+      "question": "Should reagent volume count in the total dilution volume?",
+      "answer": "Yes."
+    }
+  },
+  "book-373-13": {
+    "questionInPlainEnglish": "If concentration doubles in the same cell, what happens to absorbance?",
+    "explanation": "Beer’s law says absorbance is proportional to concentration when conditions stay the same. Doubling concentration doubles absorbance: 0.085 × 2 = 0.170. Absorbance has no physical unit.",
+    "optionExplanations": [
+      "0.042 is smaller, contrary to doubling concentration.",
+      "0.085 would mean absorbance stayed unchanged.",
+      "0.170 is correct because it is twice the starting absorbance of 0.085, matching the doubled concentration.",
+      "5.90 is far above the required doubled absorbance."
+    ],
+    "memory": "Double concentration, double absorbance.",
+    "quickCheck": {
+      "question": "What happens if concentration is halved instead?",
+      "answer": "Absorbance halves, if Beer’s law holds."
+    }
+  },
+  "book-373-14": {
+    "questionInPlainEnglish": "Use a known standard’s absorbance to calculate the sample concentration.",
+    "explanation": "Compare sample and standard under the same conditions: sample concentration = (0.62 ÷ 0.50) × 15 mg/dL = 1.24 × 15 = 18.6 mg/dL. The sample absorbs more light, so its concentration should be higher.",
+    "optionExplanations": [
+      "0.62 mg/mL has the wrong magnitude and unit for the calculated 18.6 mg/dL.",
+      "6.2 mol/L is a different concentration unit and is unsupported by these data.",
+      "12.1 mg/dL is below the standard despite greater sample absorbance.",
+      "18.6 mg/dL matches the absorbance ratio."
+    ],
+    "memory": "Unknown = unknown absorbance ÷ standard absorbance × standard concentration.",
+    "quickCheck": {
+      "question": "Why must the sample concentration exceed 15 mg/dL?",
+      "answer": "Its absorbance, 0.62, exceeds the standard’s 0.50."
+    }
+  },
+  "book-373-15": {
+    "questionInPlainEnglish": "How much 10 mg/mL stock is needed to make 200 mL at 20 mg/dL?",
+    "explanation": "First align units: 20 mg/dL = 20 mg/100 mL = 0.2 mg/mL. Needed nitrogen mass = 0.2 mg/mL × 200 mL = 40 mg. Stock volume = 40 mg ÷ 10 mg/mL = 4 mL. Dilute to 200 mL total.",
+    "optionExplanations": [
+      "1 mL supplies only 10 mg, less than the required 40 mg.",
+      "2 mL of 10 mg/mL stock supplies 20 mg, only half the 40 mg required for the final standard.",
+      "4 mL of 10 mg/mL stock supplies exactly the required 40 mg, so it fits the target.",
+      "8 mL supplies 80 mg, twice the requirement."
+    ],
+    "memory": "Match concentration units before dilution math.",
+    "quickCheck": {
+      "question": "How many mL are in one dL?",
+      "answer": "100 mL."
+    }
+  },
+  "book-373-16": {
+    "questionInPlainEnglish": "How much 50% acetic acid stock is needed to make 1 L at 5%?",
+    "explanation": "Convert 1 L to 1,000 mL. Use C₁V₁ = C₂V₂: V₁ = 5% × 1,000 mL ÷ 50% = 100 mL. Use that stock and dilute to a final volume of 1 L.",
+    "optionExplanations": [
+      "0.01 mL is far too little stock.",
+      "0.10 mL is also far below the required amount.",
+      "10 mL supplies only one tenth of the required acid.",
+      "100 mL is the required stock volume."
+    ],
+    "memory": "Tenfold weaker means stock is one tenth of final volume.",
+    "quickCheck": {
+      "question": "What final volume should 100 mL stock be brought to?",
+      "answer": "1,000 mL total."
+    }
+  },
+  "book-373-17": {
+    "questionInPlainEnglish": "How many grams make 1 L of a 3% weight-per-volume solution?",
+    "explanation": "3% w/v means 3 g in each 100 mL of final solution. One liter has ten 100-mL portions. Mass = 3 g × 10 = 30 g. Molecular weight is unnecessary because the target is percent by mass per volume.",
+    "optionExplanations": [
+      "3.0 g is enough for only 100 mL at 3% w/v.",
+      "7.6 g is below the required 30 g.",
+      "30 g gives 3 g in every 100 mL of the 1-L total.",
+      "254 g is a mole’s mass, not the mass required by this percent target."
+    ],
+    "memory": "w/v percent means grams per 100 mL.",
+    "quickCheck": {
+      "question": "How much would 2 L of the same 3% solution need?",
+      "answer": "60 g."
+    }
+  },
+  "book-373-18": {
+    "questionInPlainEnglish": "Find the total daily protein mass from concentration and daily urine volume.",
+    "explanation": "1.2% protein means 1.2 g per 100 mL. The daily volume 2,155 mL equals 21.55 dL. Protein mass = 1.2 g/dL × 21.55 dL/day = 25.86 g/day, rounded to 25.9 g/day.",
+    "optionExplanations": [
+      "0.056 g/day is far below concentration × volume.",
+      "2.6 g/day is about ten times too low.",
+      "25.9 g/day matches the calculated 25.86 g/day.",
+      "258.6 g/day is ten times the unrounded amount."
+    ],
+    "memory": "Daily amount = concentration × whole-day volume.",
+    "quickCheck": {
+      "question": "Is 1.2% protein the same as 1.2 g per liter?",
+      "answer": "No; it is 1.2 g per 100 mL."
+    }
+  },
+  "book-373-19": {
+    "questionInPlainEnglish": "How much sulfuric acid makes 750 mL of a 2-molar solution?",
+    "explanation": "Molarity means moles per liter. Convert 750 mL to 0.750 L. Moles needed = 2 mol/L × 0.750 L = 1.5 mol. With 98 g/mol, mass = 1.5 × 98 = 147 g.",
+    "optionExplanations": [
+      "36.8 g is too little for 1.5 mol.",
+      "73.5 g is half the required mass.",
+      "98 g supplies only 1 mol rather than 1.5 mol.",
+      "147 g supplies the required 1.5 mol."
+    ],
+    "memory": "Moles = molarity × liters.",
+    "quickCheck": {
+      "question": "What does 2 M mean?",
+      "answer": "2 moles of solute per liter of final solution."
+    }
+  },
+  "book-373-20": {
+    "questionInPlainEnglish": "How much NaOH makes 4 L of a 2-normal solution?",
+    "explanation": "NaOH has one reactive hydroxide, so its equivalent mass is 40 g/Eq. Required equivalents = 2 Eq/L × 4 L = 8 Eq. Mass = 8 Eq × 40 g/Eq = 320 g.",
+    "optionExplanations": [
+      "40 g supplies only 1 Eq, below the required 8 Eq.",
+      "80 g supplies 2 Eq, still too little.",
+      "160 g supplies 4 Eq, half the requirement.",
+      "320 g supplies the required 8 Eq."
+    ],
+    "memory": "NaOH uses 40 g per equivalent.",
+    "quickCheck": {
+      "question": "For NaOH, is 1 M equal to 1 N in acid-base reactions?",
+      "answer": "Yes."
+    }
+  },
+  "book-373-22": {
+    "questionInPlainEnglish": "How much sulfuric acid makes 6 L of a 5-normal solution?",
+    "explanation": "H₂SO₄ has two replaceable hydrogen ions. Equivalent mass = 98 g/mol ÷ 2 Eq/mol = 49 g/Eq. Required mass = 5 Eq/L × 6 L × 49 g/Eq = 1,470 g.",
+    "optionExplanations": [
+      "245 g is enough for 1 L at 5 N, not 6 L.",
+      "294 g is below the required 1,470 g.",
+      "490 g is only one third of the required mass.",
+      "1,470 g supplies 30 Eq for the 6-L target."
+    ],
+    "memory": "Sulfuric acid: 98 per mole, 49 per equivalent.",
+    "quickCheck": {
+      "question": "How many equivalents are required here?",
+      "answer": "30 Eq."
+    }
+  },
+  "book-373-24": {
+    "questionInPlainEnglish": "How much salt makes 5 L of 0.85% w/v saline?",
+    "explanation": "0.85% w/v means 0.85 g per 100 mL. Five liters is 5,000 mL, or fifty 100-mL portions. Mass = 0.85 g × 50 = 42.5 g.",
+    "optionExplanations": [
+      "4.25 g is ten times too little.",
+      "8.5 g is enough for 1 L, not 5 L.",
+      "42.5 g gives 0.85 g in each 100 mL of 5 L.",
+      "170 g is four times the required salt."
+    ],
+    "memory": "Count the 100-mL portions for percent w/v.",
+    "quickCheck": {
+      "question": "How many 100-mL portions are in 5 L?",
+      "answer": "50."
+    }
+  },
+  "book-373-25": {
+    "questionInPlainEnglish": "How much NaOH makes 500 mL of a 0.02-normal solution?",
+    "explanation": "Convert 500 mL to 0.5 L. NaOH equivalent mass is 40 g/Eq. Mass = 0.02 Eq/L × 0.5 L × 40 g/Eq = 0.4 g.",
+    "optionExplanations": [
+      "0.4 g is the calculated required mass.",
+      "0.8 g would be needed for 1 L rather than 0.5 L.",
+      "4.0 g is ten times the required 0.4 g and would make the half-liter solution too concentrated.",
+      "8.0 g is twenty times too much."
+    ],
+    "memory": "Half a liter needs half the per-liter mass.",
+    "quickCheck": {
+      "question": "What is 0.4 g in milligrams?",
+      "answer": "400 mg."
+    }
+  },
+  "book-373-26": {
+    "questionInPlainEnglish": "Convert 30% w/v sulfuric acid into normality.",
+    "explanation": "30% w/v means 30 g/100 mL = 300 g/L. Sulfuric acid’s equivalent mass is 98 ÷ 2 = 49 g/Eq. Normality = 300 g/L ÷ 49 g/Eq = 6.12 Eq/L, or 6.12 N.",
+    "optionExplanations": [
+      "0.31 N is far below the required equivalent concentration.",
+      "0.61 N is about ten times too low.",
+      "3.06 is the molarity; normality is twice that for H₂SO₄.",
+      "6.12 N counts both acid equivalents per molecule."
+    ],
+    "memory": "For H₂SO₄, normality is twice molarity.",
+    "quickCheck": {
+      "question": "What mass does 30% w/v contain per liter?",
+      "answer": "300 g."
+    }
+  },
+  "book-373-27": {
+    "questionInPlainEnglish": "Convert 369 mg/dL chloride into mEq/L.",
+    "explanation": "First convert volume units: 369 mg/dL × 10 = 3,690 mg/L. Chloride has molar mass 35.5 mg/mmol and one negative charge. 3,690 ÷ 35.5 = 103.94 mmol/L = about 104 mEq/L.",
+    "optionExplanations": [
+      "5 mEq/L is much lower than the calculated concentration.",
+      "10 mEq/L is too low: converting the stated chloride mass gives approximately 104 mEq/L.",
+      "36 mEq/L does not match 3,690 ÷ 35.5.",
+      "104 mEq/L is the rounded converted value."
+    ],
+    "memory": "One-charge ions have equal mmol/L and mEq/L numbers.",
+    "quickCheck": {
+      "question": "Why are chloride mmol/L and mEq/L numerically equal?",
+      "answer": "Each chloride ion carries one charge."
+    }
+  },
+  "book-373-28": {
+    "questionInPlainEnglish": "Convert calcium 8.6 mg/dL into mmol/L.",
+    "explanation": "8.6 mg/dL × 10 = 86 mg/L. One mmol calcium weighs about 40 mg. Therefore 86 mg/L ÷ 40 mg/mmol = 2.15 mmol/L, rounded to 2.2 mmol/L. Do not multiply by charge for mmol.",
+    "optionExplanations": [
+      "2.2 mmol/L is 2.15 rounded to one decimal place.",
+      "2.5 mmol/L corresponds to 10 mg/dL, higher than given.",
+      "4.3 is the calcium mEq/L value, not mmol/L.",
+      "8.6 repeats the original number without changing the concentration units."
+    ],
+    "memory": "Calcium mmol: divide mg/dL by four.",
+    "quickCheck": {
+      "question": "What would 8.6 mg/dL calcium be in mEq/L?",
+      "answer": "4.3 mEq/L."
+    }
+  },
+  "book-373-29": {
+    "questionInPlainEnglish": "Find the concentrated nitric acid volume for 2 L of 0.15 N solution.",
+    "explanation": "Nitric acid supplies one equivalent per mole, with 63 g/Eq. Needed mass = 2 L × 0.15 Eq/L × 63 g/Eq = 18.9 g. Each stock mL contains 1.42 g × 0.70 = 0.994 g acid. Volume = 18.9 g ÷ 0.994 g/mL = 19.0 mL.",
+    "optionExplanations": [
+      "13.3 mL provides too little pure nitric acid.",
+      "19.0 mL provides about 18.9 g pure acid.",
+      "38.0 mL provides about twice the required acid.",
+      "189.9 mL is about ten times the required volume."
+    ],
+    "memory": "Density × purity gives pure acid per mL.",
+    "quickCheck": {
+      "question": "What does 70% assay tell you?",
+      "answer": "70% of the stock mass is the named acid."
+    }
+  },
+  "book-373-30": {
+    "questionInPlainEnglish": "How much concentrated HCl does the book add to strengthen the remaining diluted acid?",
+    "explanation": "Titration gives N = 0.20 N × 16 mL ÷ 7 mL = 0.4571 N. Remaining volume = 3,000 − 7 = 2,993 mL. The book rounds the deficit to 0.043 mEq/mL, giving 2,993 × 0.043 ≈ 128.7 mEq. It rounds the stock’s pure HCl content to 446 g/L, then calculates 446 g/L ÷ 36.5 g/Eq ≈ 12.22 mEq/mL. Its approximate addition is 128.7 mEq ÷ 12.22 mEq/mL = 10.53 mL.",
+    "optionExplanations": [
+      "6.40 mL does not supply enough acid for the stated deficit.",
+      "10.53 mL is the book’s approximate calculation, but neglects the added solution volume.",
+      "101.03 mL adds far more acid than required.",
+      "105.33 mL also adds far too much acid."
+    ],
+    "memory": "When adding stock, the final volume grows too.",
+    "quickCheck": {
+      "question": "What does the book’s calculation leave out?",
+      "answer": "The added stock also increases the volume that must reach 0.50 N."
+    },
+    "sourceNote": "Book answer retained. Accounting for added volume gives x = [(0.500 − 0.4571429) × 2993]/(12.2260 − 0.500) ≈ 10.94 mL. Thus 10.53 mL is approximate, not an exact 0.50 N correction."
+  },
+  "book-373-31": {
+    "questionInPlainEnglish": "Convert 369 mg/dL chloride into mmol/L.",
+    "explanation": "There are 10 deciliters per liter: 369 mg/dL × 10 = 3,690 mg/L. Chloride weighs about 35.5 mg/mmol. Divide: 3,690 mg/L ÷ 35.5 mg/mmol = 103.94 mmol/L, rounded to 104 mmol/L.",
+    "optionExplanations": [
+      "5 mmol/L is too low: the stated chloride mass corresponds to approximately 104 mmol/L.",
+      "10 mmol/L is also below the converted concentration.",
+      "36 mmol/L does not match the mass-to-moles conversion.",
+      "104 mmol/L matches the rounded calculation."
+    ],
+    "memory": "mg/L ÷ mg/mmol leaves mmol/L.",
+    "quickCheck": {
+      "question": "Should ion charge enter a conversion to mmol/L?",
+      "answer": "No; charge matters for mEq/L, not mmol/L."
+    }
+  },
+  "book-373-32": {
+    "questionInPlainEnglish": "Using the book’s intended matching percent units, how much 20% stock makes 800 mL at 2.5%?",
+    "explanation": "Treating both percentages as w/v, use C₁V₁ = C₂V₂. Stock volume = 2.5 × 800 mL ÷ 20 = 100 mL. That stock contains 20 g NaOH, which gives 2.5 g/100 mL in 800 mL total.",
+    "optionExplanations": [
+      "20 mL supplies too little NaOH for the intended target.",
+      "50 mL supplies half the required NaOH.",
+      "100 mL is correct if both concentrations are w/v.",
+      "125 mL supplies more NaOH than the intended target."
+    ],
+    "memory": "Dilution equations need matching concentration definitions.",
+    "quickCheck": {
+      "question": "Can w/v and v/v percentages be equated without extra information?",
+      "answer": "No."
+    },
+    "sourceNote": "The stem mixes 20% w/v with 2.5% v/v NaOH. The book calculation assumes the same percent basis; 2.5% w/v is the likely intended target."
+  },
+  "book-373-33": {
+    "questionInPlainEnglish": "How much 40% w/v NaOH stock makes 1.5 L at 2 N?",
+    "explanation": "NaOH needs 40 g/Eq. Required mass = 2 Eq/L × 1.5 L × 40 g/Eq = 120 g. Stock contains 40 g/100 mL = 0.4 g/mL. Needed stock = 120 g ÷ 0.4 g/mL = 300 mL.",
+    "optionExplanations": [
+      "0.3 mL contains only 0.12 g, far too little.",
+      "3.0 mL contains 1.2 g, far too little.",
+      "30 mL contains 12 g, one tenth of the need.",
+      "300 mL supplies the required 120 g NaOH."
+    ],
+    "memory": "Turn percent stock into g/mL before finding its volume.",
+    "quickCheck": {
+      "question": "How many grams are in 100 mL of 40% w/v stock?",
+      "answer": "40 g."
+    }
+  },
+  "book-373-34": {
+    "questionInPlainEnglish": "How much sodium sulfate makes 750 mL of a 23% w/v solution?",
+    "explanation": "23% w/v means 23 g per 100 mL. There are 7.5 such portions in 750 mL. Required mass = 23 g × 7.5 = 172.5 g. The molecular weight is not needed for a w/v percentage.",
+    "optionExplanations": [
+      "2.3 g is far below the needed mass.",
+      "106.5 g would give less than 23 g per 100 mL.",
+      "172.5 g is correct because 23 g per 100 mL multiplied by 7.5 portions gives the required mass for 750 mL.",
+      "230 g is enough for 1 L, rather than 750 mL."
+    ],
+    "memory": "Percent w/v uses grams, not moles.",
+    "quickCheck": {
+      "question": "Would you use molar mass to solve this percent-only problem?",
+      "answer": "No."
+    }
+  },
+  "book-373-36": {
+    "questionInPlainEnglish": "Convert 8.6 mg/dL calcium into mEq/L.",
+    "explanation": "First 8.6 mg/dL × 10 = 86 mg/L. Divide by 40 mg/mmol to get 2.15 mmol/L. Calcium has two positive charges, so 2.15 mmol/L × 2 mEq/mmol = 4.3 mEq/L.",
+    "optionExplanations": [
+      "2.2 is approximately the mmol/L value, not the mEq/L value.",
+      "2.5 mEq/L is below the calculated charge concentration.",
+      "4.3 mEq/L includes calcium’s two charges.",
+      "8.6 repeats the original mass-concentration number without conversion."
+    ],
+    "memory": "Calcium carries two charges: mEq = mmol × two.",
+    "quickCheck": {
+      "question": "What is calcium’s ionic charge?",
+      "answer": "2+."
+    }
+  },
+  "book-373-37": {
+    "questionInPlainEnglish": "How much 5 N HCl stock makes 4 L containing 10 g HCl per 100 mL?",
+    "explanation": "10% w/v = 100 g/L, so 4 L needs 400 g HCl. HCl has 36.5 g/Eq; 5 N stock contains 5 × 36.5 = 182.5 g/L. Volume = 400 g ÷ 182.5 g/L = 2.192 L = 2,192 mL.",
+    "optionExplanations": [
+      "219 mL provides only about one tenth of the required acid.",
+      "292 mL is also far too little stock.",
+      "1,460 mL provides less than the required 400 g.",
+      "2,192 mL supplies approximately 400 g HCl."
+    ],
+    "memory": "Convert both strengths to grams per liter first.",
+    "quickCheck": {
+      "question": "What does 10% w/v mean in g/L?",
+      "answer": "100 g/L."
+    }
+  },
+  "book-373-38": {
+    "questionInPlainEnglish": "Convert potassium 19.5 mg/dL into mEq/L.",
+    "explanation": "19.5 mg/dL × 10 = 195 mg/L. Potassium weighs about 39 mg/mmol and has one charge. 195 ÷ 39 = 5 mmol/L = 5 mEq/L.",
+    "optionExplanations": [
+      "0.5 mEq/L is ten times too low.",
+      "5.0 mEq/L matches the calculation.",
+      "10.0 mEq/L is twice the calculated amount.",
+      "19.5 repeats the mass concentration without converting."
+    ],
+    "memory": "Potassium: one charge, 39 mg per mmol.",
+    "quickCheck": {
+      "question": "Does potassium need a charge multiplier of two?",
+      "answer": "No; potassium is K⁺."
+    },
+    "sourceNote": "“nig/dL” is an OCR error for mg/dL."
+  },
+  "book-373-39": {
+    "questionInPlainEnglish": "Find total sodium passed in one day from urine concentration and volume.",
+    "explanation": "Convert the volume: 1,540 mL = 1.540 L. Multiply concentration by daily volume: 122.5 mmol/L × 1.540 L/day = 188.65 mmol/day. The book selects 188.6 mmol/day.",
+    "optionExplanations": [
+      "79.5 mmol/day is below the concentration-times-volume result.",
+      "188.6 mmol/day is the book’s rounded answer for 188.65.",
+      "1,886.5 mmol/day is ten times the unrounded result.",
+      "18,865 mmol/day is one hundred times the unrounded result."
+    ],
+    "memory": "Liters cancel: mmol/L × L/day = mmol/day.",
+    "quickCheck": {
+      "question": "Is 122.5 mmol/L itself the total daily sodium amount?",
+      "answer": "No; multiply by the daily volume."
+    },
+    "sourceNote": "The exact product is 188.65; rounding can yield 188.6 with half-even or 188.7 with half-up rounding. The listed book answer is retained."
+  },
+  "book-373-40": {
+    "questionInPlainEnglish": "How much water lowers the remaining acid from 0.513 N to 0.50 N?",
+    "explanation": "Acid amount stays constant while water increases volume. Final volume = 3,975 mL × 0.513/0.50 = 4,078.35 mL. Added water = 4,078.35 − 3,975 = 103.35 mL, rounded to 103.4 mL.",
+    "optionExplanations": [
+      "25.6 mL is too little dilution water.",
+      "100.7 mL is below the calculated 103.35 mL.",
+      "103.4 mL is the rounded added volume.",
+      "104.0 mL exceeds the calculated addition."
+    ],
+    "memory": "Find total volume first; subtract starting volume for water added.",
+    "quickCheck": {
+      "question": "Does adding water change the number of acid equivalents?",
+      "answer": "No, only their concentration."
+    }
+  },
+  "book-373-41": {
+    "questionInPlainEnglish": "Find pH when only 1% of 0.2 N acetic acid releases hydrogen ions.",
+    "explanation": "Acetic acid has one releasable hydrogen. At 1% ionization, [H⁺] = 0.2 mol/L × 0.01 = 0.002 mol/L. pH = −log₁₀(0.002) = 2.699. Only the released hydrogen ions set this pH.",
+    "optionExplanations": [
+      "0.703 corresponds roughly to much more hydrogen ion than 0.002 mol/L.",
+      "1.699 corresponds to 0.02 mol/L H⁺, ten times too much.",
+      "1.703 is also near a hydrogen concentration ten times too high.",
+      "2.699 is correct because pH is −log₁₀ of the calculated hydrogen-ion concentration, 0.002 mol/L."
+    ],
+    "memory": "One percent means multiply by 0.01.",
+    "quickCheck": {
+      "question": "Does all the acetic acid release H⁺ in this problem?",
+      "answer": "No; only 1% does."
+    }
+  },
+  "book-373-42": {
+    "questionInPlainEnglish": "Calculate ionic strength of 0.2 M sodium sulfate, counting both concentration and charge.",
+    "explanation": "Na₂SO₄ gives 0.4 M Na⁺ and 0.2 M SO₄²⁻. Ionic strength I = ½Σ(c × charge²). Thus I = ½[(0.4 × 1²) + (0.2 × 2²)] = ½(0.4 + 0.8) = 0.6 mol/L.",
+    "optionExplanations": [
+      "0.4 mol/L is the sodium-ion concentration alone, not the total ionic strength.",
+      "0.5 mol/L does not match the charge-squared sum.",
+      "0.6 mol/L is half the weighted sum of 1.2.",
+      "1.2 mol/L is the weighted sum before applying the required half."
+    ],
+    "memory": "Ionic strength squares charge, then halves the sum.",
+    "quickCheck": {
+      "question": "What is the sulfate charge squared?",
+      "answer": "(−2)² = 4."
+    }
+  },
+  "book-373-43": {
+    "questionInPlainEnglish": "Use bilirubin concentration and molar absorptivity to predict absorbance.",
+    "explanation": "Assuming a 1-cm cell and an actual bilirubin concentration of 1.0 mg/dL: 1.0 mg/dL = 0.010 g/L. Molarity = 0.010 ÷ 584 = 0.00001712 mol/L. Beer’s law gives A = 60,700 L/(mol·cm) × 1 cm × 0.00001712 mol/L = 1.039.",
+    "optionExplanations": [
+      "0.104 is about ten times too low.",
+      "0.607 does not match the mass-to-moles conversion.",
+      "0.962 is below the calculated absorbance.",
+      "1.039 matches the book’s calculation using 1.0 mg/dL actual bilirubin."
+    ],
+    "memory": "Molar absorptivity requires moles per liter.",
+    "quickCheck": {
+      "question": "What cell length is assumed in the book’s calculation?",
+      "answer": "1 cm."
+    },
+    "sourceNote": "The stem does not explicitly give path length; 1 cm is assumed. The book also ignores 99.0% purity. If 1.0 mg/dL refers to uncorrected weighed material, absorbance is about 1.029 instead; 1.039 assumes purity-corrected actual bilirubin concentration."
+  },
+  "book-373-44": {
+    "questionInPlainEnglish": "Convert the rate of absorbance increase into enzyme activity per liter of sample.",
+    "explanation": "Rate = (0.813 − 0.204)/(4 − 1) = 0.203 absorbance/min. Total reaction volume = 3.0 + 0.200 = 3.2 mL. With NADH absorptivity 6.22 L/(mmol·cm), activity = [0.203/(6.22 × 1)] × (3.2/0.2) × 1,000 = 522 µmol/(min·L), or 522 U/L. One U converts 1 µmol per minute.",
+    "optionExplanations": [
+      "490 U/L is lower than the calculation including all 3.2 mL reaction volume.",
+      "522 U/L matches the mean rate and total-volume correction.",
+      "525 U/L is close but does not follow the stated average rate.",
+      "1,307 U/L is far above the calculated activity."
+    ],
+    "memory": "Enzyme activity uses change per minute, not one absorbance.",
+    "quickCheck": {
+      "question": "How many minutes separate readings at minute 1 and minute 4?",
+      "answer": "3 minutes."
+    },
+    "sourceNote": "The rationale’s “1 pmol” is OCR damage: an international enzyme unit is 1 µmol converted per minute under specified conditions."
+  },
+  "book-373-45": {
+    "questionInPlainEnglish": "Convert 175.5 pounds to kilograms.",
+    "explanation": "One kilogram is approximately 2.2 pounds. Divide the pound value by pounds per kilogram: 175.5 lb ÷ 2.2 lb/kg = 79.77 kg, rounded to 79.8 kg.",
+    "optionExplanations": [
+      "8.0 kg is roughly ten times too low.",
+      "38.6 kg is far below the converted mass.",
+      "79.8 kg is correct: dividing 175.5 lb by approximately 2.2 lb/kg gives 79.77 kg before rounding.",
+      "87.8 kg is above the correctly converted mass."
+    ],
+    "memory": "Pounds to kilograms: divide by 2.2.",
+    "quickCheck": {
+      "question": "Should the kilogram number be smaller than the pound number?",
+      "answer": "Yes."
+    }
+  },
+  "book-373-46": {
+    "questionInPlainEnglish": "Convert 30 degrees Celsius to Fahrenheit.",
+    "explanation": "Use °F = (°C × 9/5) + 32. For 30°C: 30 × 1.8 = 54; 54 + 32 = 86°F. The multiplier changes degree size and 32 adjusts the zero point.",
+    "optionExplanations": [
+      "4°F is far below the warm temperature of 30°C.",
+      "10°F is below freezing and cannot represent the warm temperature of 30°C, which converts to 86°F.",
+      "49°F is below the correct 86°F.",
+      "86°F matches both the scaling and zero-point adjustment."
+    ],
+    "memory": "Celsius to Fahrenheit: times 1.8, plus 32.",
+    "quickCheck": {
+      "question": "What is 0°C in Fahrenheit?",
+      "answer": "32°F."
+    }
+  },
+  "book-373-47": {
+    "questionInPlainEnglish": "Which rate of nuclear disintegration defines one curie?",
+    "explanation": "Radioactivity measures how often unstable nuclei break down. One curie equals 3.7 × 10¹⁰ disintegrations per second, or 37 billion per second. Seconds and minutes are different, so the time unit matters.",
+    "optionExplanations": [
+      "3.7 × 10⁴ per second defines one microcurie, not one curie.",
+      "3.7 × 10⁷ per second defines one millicurie.",
+      "3.7 × 10¹⁰ per second is one curie.",
+      "3.7 × 10¹⁰ per minute is 60 times less activity than that many per second."
+    ],
+    "memory": "Curie: 3.7 × 10¹⁰ each second.",
+    "quickCheck": {
+      "question": "What does dps stand for?",
+      "answer": "Disintegrations per second."
+    }
+  },
+  "book-373-48": {
+    "questionInPlainEnglish": "How many halvings first reduce radioactivity below 1%?",
+    "explanation": "A half-life cuts activity in half. After six half-lives: 100% ÷ 2⁶ = 1.5625%, still above 1%. After seven: 100% ÷ 2⁷ = 0.78125%, now below 1%. Thus seven is the first crossing.",
+    "optionExplanations": [
+      "Three half-lives leave 12.5%, still above 1%.",
+      "Seven half-lives first reduce activity to about 0.78%.",
+      "Ten half-lives also go below 1%, but are more than needed for the first crossing.",
+      "One hundred half-lives are far more than needed."
+    ],
+    "memory": "Six leaves 1.56%; seven leaves 0.78%.",
+    "quickCheck": {
+      "question": "What fraction remains after two half-lives?",
+      "answer": "One quarter, or 25%."
+    },
+    "sourceNote": "The intended question asks the minimum number needed; 10 and 100 half-lives also leave less than 1%, so the literal wording is not exclusive."
+  },
+  "book-373-49": {
+    "questionInPlainEnglish": "What percent of iodine-125 activity remains after 180 days with a 60-day half-life?",
+    "explanation": "Count half-lives: 180 days ÷ 60 days = 3. Start at 100% and halve three times: 100 → 50 → 25 → 12.5%. Therefore 12.5% remains.",
+    "optionExplanations": [
+      "12.5% is the result of three halvings.",
+      "25% remains after only two half-lives.",
+      "33.3% is not the exponential half-life result.",
+      "50% remains after only one half-life."
+    ],
+    "memory": "Count periods, then halve for each period.",
+    "quickCheck": {
+      "question": "How much remains after 120 days here?",
+      "answer": "25%."
+    }
+  },
+  "book-373-50": {
+    "questionInPlainEnglish": "How much NaOH makes 500 mL at pH 12, assuming room-temperature ideal behavior?",
+    "explanation": "At about 25°C, pH + pOH = 14. pOH = 14 − 12 = 2, so [OH⁻] = 10⁻² = 0.01 mol/L. NaOH gives one OH⁻ per molecule. Mass = 0.01 mol/L × 0.500 L × 40 g/mol = 0.2 g.",
+    "optionExplanations": [
+      "0.02 g is ten times too little for 0.01 M in 500 mL.",
+      "0.2 g gives the required 0.005 mol.",
+      "0.4 g is the amount for 1 L, twice the requested volume.",
+      "2.0 g is ten times the required 0.2 g, so it would supply too much hydroxide for the target pH."
+    ],
+    "memory": "pH 12 → pOH 2 → 0.01 M OH⁻.",
+    "quickCheck": {
+      "question": "How many moles are needed in half a liter?",
+      "answer": "0.005 mol."
+    }
+  },
+  "book-373-51": {
+    "questionInPlainEnglish": "Find centrifuge force from 2,500 rpm and a 10-cm radius.",
+    "explanation": "Relative centrifugal force compares spinning acceleration with gravity. RCF = 1.118 × 10⁻⁵ × radius in cm × rpm². Here 2,500² = 6,250,000; multiply by 10 and 0.00001118 to get 698.75, rounded to 699 × g.",
+    "optionExplanations": [
+      "625 × g is lower than the calculated 698.75.",
+      "699 × g matches the rounded calculation.",
+      "1,250 × g is above the calculated force.",
+      "6,988 × g is about ten times too high."
+    ],
+    "memory": "RCF depends on radius and speed squared.",
+    "quickCheck": {
+      "question": "If rpm doubles at the same radius, how does RCF change?",
+      "answer": "It becomes four times as large."
+    }
+  },
+  "book-373-52": {
+    "questionInPlainEnglish": "Express a 0.2% error allowance for a 10-mL flask in mL.",
+    "explanation": "Percent means per hundred: 0.2% = 0.002. Multiply by capacity: 10 mL × 0.002 = 0.02 mL. The stated allowance is ±0.02 mL, spanning 9.98–10.02 mL.",
+    "optionExplanations": [
+      "±0.002 mL is ten times smaller than the stated allowance.",
+      "±0.01 mL is only half the stated allowance.",
+      "±0.02 mL matches 0.2% of 10 mL.",
+      "±0.04 mL is twice the stated allowance."
+    ],
+    "memory": "Percent tolerance × flask volume gives mL tolerance.",
+    "quickCheck": {
+      "question": "What decimal equals 0.2%?",
+      "answer": "0.002."
+    }
+  },
+  "book-373-53": {
+    "questionInPlainEnglish": "Convert 0.01 ppm lead in water into mg/dL.",
+    "explanation": "For dilute water with density near 1 kg/L, 1 ppm is approximately 1 mg/L. So 0.01 ppm = 0.01 mg/L. A liter contains 10 dL; 0.01 mg/L ÷ 10 = 0.001 mg/dL.",
+    "optionExplanations": [
+      "0.01 mg/dL is ten times the required concentration.",
+      "0.001 mg/dL is the converted value.",
+      "0.0001 mg/dL is ten times too low.",
+      "0.00001 mg/dL is one hundred times too low."
+    ],
+    "memory": "In dilute water, ppm ≈ mg/L; divide by ten for mg/dL.",
+    "quickCheck": {
+      "question": "What density assumption supports ppm ≈ mg/L?",
+      "answer": "Water is approximately 1 kg/L."
+    }
+  },
+  "book-373-55": {
+    "questionInPlainEnglish": "Which conditions help absorbance stay proportional to concentration?",
+    "explanation": "Beer’s law works best when the light has a narrow wavelength band, the solvent contributes negligible absorption, and the sample is dilute enough to behave linearly. All three help the instrument measure the target substance cleanly.",
+    "optionExplanations": [
+      "Nearly single-wavelength light is a valid requirement, but not the only one listed.",
+      "Minimal solvent absorption is also valid, but not the only condition.",
+      "A suitably dilute solution is also valid, but does not include the other requirements.",
+      "All three listed conditions support Beer’s law."
+    ],
+    "memory": "Clean light, quiet solvent, dilute sample.",
+    "quickCheck": {
+      "question": "Why does solvent absorption matter?",
+      "answer": "It adds signal that is not from the analyte."
+    }
+  },
+  "book-373-56": {
+    "questionInPlainEnglish": "Which statements about graph axes and scales are correct?",
+    "explanation": "The independent variable, the one selected or changed, usually goes on the x-axis. Each axis may use a different scale. A semilog graph uses powers-of-ten spacing on one axis and ordinary equal-step spacing on the other.",
+    "optionExplanations": [
+      "The x-axis usually holds the independent variable, so this is true but incomplete.",
+      "The two axes may use different scales, also true.",
+      "Semilog means one logarithmic axis and one linear axis, also true.",
+      "All three statements are correct."
+    ],
+    "memory": "X is usually what you choose; Y is what you measure.",
+    "quickCheck": {
+      "question": "What makes a graph semilog?",
+      "answer": "One axis is logarithmic and the other is linear."
+    },
+    "sourceNote": "The source rationale swaps the names ordinate and abscissa; the horizontal x-axis is the abscissa and the vertical y-axis is the ordinate."
+  },
+  "book-373-57": {
+    "questionInPlainEnglish": "Which properties make a substance suitable as a primary standard?",
+    "explanation": "A primary standard is a trustworthy starting material for setting an analytical concentration. It should be very pure, resist absorbing water, and remain stable during drying. Otherwise the weighed mass may include water or altered material.",
+    "optionExplanations": [
+      "Very high purity is an appropriate property, but not the only one listed.",
+      "Not being hygroscopic, or water-absorbing, protects the measured mass; this is also valid.",
+      "Stability during appropriate drying is also a useful property.",
+      "All listed properties support reliable weighing of a primary standard."
+    ],
+    "memory": "Primary standard: pure, dry, stable.",
+    "quickCheck": {
+      "question": "Why is water absorption a problem when weighing a standard?",
+      "answer": "The balance would count water as if it were the pure standard."
+    }
+  },
+  "book-373-58": {
+    "questionInPlainEnglish": "Which listed mass is the smallest?",
+    "explanation": "Put all masses into grams: 0.1 ng = 10⁻¹⁰ g; 0.01 g = 10⁻² g; 1 mg = 10⁻³ g; 1,000 pg = 10⁻⁹ g. The smallest is 10⁻¹⁰ g, so 0.1 ng is lightest.",
+    "optionExplanations": [
+      "0.1 ng is 100 pg, the smallest listed mass.",
+      "0.01 g equals 10 mg, much larger.",
+      "1 mg equals one million ng, much larger.",
+      "1,000 pg equals 1 ng, ten times heavier than 0.1 ng."
+    ],
+    "memory": "Compare masses only after matching units.",
+    "quickCheck": {
+      "question": "How many picograms are in 0.1 ng?",
+      "answer": "100 pg."
+    }
+  },
+  "book-373-59": {
+    "questionInPlainEnglish": "Find pH from hydroxide concentration of 10⁻⁶ mol/L.",
+    "explanation": "pOH = −log₁₀[OH⁻], so 10⁻⁶ mol/L gives pOH 6. At about 25°C, pH + pOH = 14. Thus pH = 14 − 6 = 8. The solution is mildly alkaline.",
+    "optionExplanations": [
+      "0.6 does not match either the pOH or the calculated pH.",
+      "6 is the calculated pOH from 10⁻⁶ mol/L hydroxide, but the question asks for pH, which is 14 − 6 = 8.",
+      "8 is correct because pOH is 6 and pH + pOH = 14 under the stated room-temperature assumption.",
+      "14 would imply a much higher hydroxide concentration."
+    ],
+    "memory": "Find pOH first, then subtract from fourteen.",
+    "quickCheck": {
+      "question": "Is pH 8 acidic or alkaline?",
+      "answer": "Alkaline."
+    },
+    "sourceNote": "The OCR-damaged exponent is interpreted as 10⁻⁶ mol/L, consistent with the book rationale."
+  },
+  "book-399-1": {
+    "questionInPlainEnglish": "Which named glass is especially strong aluminosilicate glass?",
+    "explanation": "Corex is the aluminosilicate glass named in this older laboratory classification. Its strength and resistance to scratching made it useful for demanding glassware such as centrifuge tubes.",
+    "optionExplanations": [
+      "Kimax is commonly a borosilicate glass brand, not the aluminosilicate answer here.",
+      "Pyrex is commonly associated with borosilicate laboratory glass.",
+      "Corning boron-free is not the specific strong aluminosilicate product selected by the book.",
+      "Corex is the named aluminosilicate glass."
+    ],
+    "memory": "Corex has a strong core.",
+    "quickCheck": {
+      "question": "Which glass type is Corex in this question?",
+      "answer": "Aluminosilicate."
+    },
+    "sourceNote": "Brand formulations and available products vary; this is the book’s historical product classification."
+  },
+  "book-399-2": {
+    "questionInPlainEnglish": "Which glassware accuracy class is the certified class sought here?",
+    "explanation": "Class A volumetric glassware is made to tighter allowed errors for measuring volume. This helps a prepared concentration be reliable: an accurately weighed chemical still needs an accurately measured final volume.",
+    "optionExplanations": [
+      "Class A is the specified high-accuracy volumetric class.",
+      "Class B generally allows larger volume errors than Class A.",
+      "Class C is not the certified class requested in this scheme.",
+      "Class D is not the requested volumetric accuracy designation."
+    ],
+    "memory": "A for accurate volume.",
+    "quickCheck": {
+      "question": "Why does flask accuracy matter when making a standard?",
+      "answer": "The final concentration depends on the final volume."
+    },
+    "sourceNote": "The book’s broad statement about mandatory use should be checked against current accreditation requirements and validated alternatives."
+  },
+  "book-399-3": {
+    "questionInPlainEnglish": "Which drying agent has the strongest water-attracting ability among these choices?",
+    "explanation": "Hygroscopic means able to take up moisture. A desiccant is used to keep an enclosed space dry. The book identifies magnesium perchlorate as the most effective water-removing agent in this list.",
+    "optionExplanations": [
+      "Silica gel removes moisture but is less hygroscopic in this comparison.",
+      "Alumina is a drying material, but not the strongest listed in the book.",
+      "Barium oxide can remove water, but is not the selected strongest agent here.",
+      "Magnesium perchlorate is the book’s most hygroscopic choice."
+    ],
+    "memory": "A desiccant drinks up moisture.",
+    "quickCheck": {
+      "question": "What does hygroscopic mean?",
+      "answer": "Able to attract and absorb water from the surroundings."
+    }
+  },
+  "book-399-4": {
+    "questionInPlainEnglish": "Which anticoagulant is in the usual lavender-top blood-count tube?",
+    "explanation": "EDTA binds calcium, a mineral needed for blood clotting. Removing available calcium keeps the sample from clotting and helps preserve cells for a complete blood count.",
+    "optionExplanations": [
+      "EDTA is the usual lavender-top additive.",
+      "Heparin is commonly used in green-top tubes.",
+      "Sodium citrate is commonly used in light-blue coagulation tubes.",
+      "Oxalate is associated with some gray-top tubes; it is not the lavender additive."
+    ],
+    "memory": "Lavender locks calcium with EDTA.",
+    "quickCheck": {
+      "question": "Why does binding calcium prevent a clot?",
+      "answer": "Several clotting reactions need calcium."
+    }
+  },
+  "book-399-5": {
+    "questionInPlainEnglish": "What is the SI category for the seven fundamental measurement units?",
+    "explanation": "Base units are the starting units of the International System of Units. Examples include meter for length, kilogram for mass, and second for time. Derived units combine base units, as speed combines meters and seconds.",
+    "optionExplanations": [
+      "Base is the official category for the seven fundamental units.",
+      "Primary is not the SI category name asked for.",
+      "Derived units are built from base units.",
+      "Elemental is not the SI category for these seven units."
+    ],
+    "memory": "Base units are the building blocks.",
+    "quickCheck": {
+      "question": "Is meters per second a base unit or a derived unit?",
+      "answer": "Derived."
+    },
+    "sourceNote": "The rationale incorrectly lists katal as a base unit and counts eight quantities. The seven base units are second, meter, kilogram, ampere, kelvin, mole, and candela; katal is derived."
+  },
+  "book-399-6": {
+    "questionInPlainEnglish": "Which factor does NOT enter the basic centrifugal-force relationship?",
+    "explanation": "The question asks for the exception. Basic centrifugal force depends on mass, distance from the spinning center, and rotation speed. Temperature is not a direct term in that relationship, although it matters for sample preservation.",
+    "optionExplanations": [
+      "Temperature is the exception: it is not directly in the force formula.",
+      "Mass affects absolute centrifugal force, so it is not the exception.",
+      "Speed strongly affects force; the speed term is squared.",
+      "Radius, the distance from the spinning center, affects force."
+    ],
+    "memory": "Spin force uses mass, radius, and speed—not a temperature term.",
+    "quickCheck": {
+      "question": "Does relative centrifugal force require sample mass?",
+      "answer": "No; RCF expresses acceleration relative to gravity."
+    },
+    "sourceNote": "Absolute force includes mass. RCF in ×g depends on radius and rpm, not mass; the stem uses the broader term centrifugal force."
+  },
+  "book-399-7": {
+    "questionInPlainEnglish": "Which historical weight class is used to check an analytical balance?",
+    "explanation": "A balance is checked with a weight whose mass is accurately known. In the older class system used by the book, Class S weights are the appropriate check for analytical balances.",
+    "optionExplanations": [
+      "Class J is associated with microanalytical work in this older scheme.",
+      "Class M is a higher reference class for checking other weights.",
+      "Class P permits wider tolerances and is not the selected analytical check class.",
+      "Class S is the book’s analytical-balance calibration class."
+    ],
+    "memory": "A known check weight tests the balance.",
+    "quickCheck": {
+      "question": "Why can an ordinary object not reliably calibrate a balance?",
+      "answer": "Its true mass is not sufficiently known."
+    },
+    "sourceNote": "Class S is a historical designation. Current weight selection commonly uses ASTM or OIML classes matched to balance performance."
+  },
+  "book-399-8": {
+    "questionInPlainEnglish": "What marking does the book associate with the pipette described?",
+    "explanation": "The book selects two etched bands, a marking commonly associated with a blow-out pipette. Such a pipette needs its final liquid expelled as its instructions specify. Always read the actual pipette marking: TD means calibrated to deliver, not automatically blow out.",
+    "optionExplanations": [
+      "Two bands identify the blow-out style intended by this question.",
+      "Self-draining capacity does not describe every delivery-calibrated pipette.",
+      "A dual-purpose label is not the identifying mark selected.",
+      "Blue graduation color is not a universal TD identifier."
+    ],
+    "memory": "Two rings can mean blow out; TD alone does not.",
+    "quickCheck": {
+      "question": "Should every TD pipette be blown out?",
+      "answer": "No; follow its calibration markings and instructions."
+    },
+    "sourceNote": "The source overgeneralizes: TD pipettes are not universally identified by two bands. Many TD volumetric pipettes drain by gravity and must not be blown out; the bands denote blow-out designs."
+  },
+  "book-399-9": {
+    "questionInPlainEnglish": "Which apparatus keeps stored materials dry?",
+    "explanation": "A desiccator is a sealed container with a drying agent beneath a shelf. The drying agent takes up moisture from the air inside, helping protect the stored chemical from water.",
+    "optionExplanations": [
+      "A buret accurately dispenses liquid during titration.",
+      "A desiccator provides a dry enclosed environment.",
+      "A separatory funnel separates liquids that do not mix.",
+      "Vacuum means reduced pressure; by itself it is not the named dry-storage apparatus."
+    ],
+    "memory": "Desiccator = dry storage.",
+    "quickCheck": {
+      "question": "What is placed in a desiccator to absorb moisture?",
+      "answer": "A desiccant."
+    }
+  },
+  "book-399-10": {
+    "questionInPlainEnglish": "Which listed advantages does the book assign to a fixed-angle centrifuge?",
+    "explanation": "A fixed-angle rotor holds tubes at a set slant inside a streamlined head. In the book’s comparison, less air resistance means less frictional heating and allows higher speeds. All three listed advantages follow that comparison.",
+    "optionExplanations": [
+      "Less air friction is one stated advantage, but not the whole answer.",
+      "Less friction-related heating is also a stated advantage.",
+      "Higher operating speed is also a stated advantage in the comparison.",
+      "All three are intended benefits in the book’s rotor comparison."
+    ],
+    "memory": "Less air drag can mean less heat and more speed.",
+    "quickCheck": {
+      "question": "What stays fixed in a fixed-angle rotor?",
+      "answer": "The angle of the tubes relative to the spinning axis."
+    },
+    "sourceNote": "Actual safe speed and heating depend on rotor design, instrument limits, load, and cooling; fixed-angle geometry alone does not guarantee higher speed."
+  },
+  "book-399-12": {
+    "questionInPlainEnglish": "Which instrument checks how fast a centrifuge rotates?",
+    "explanation": "A tachometer measures rotation rate, usually in revolutions per minute, or rpm. Checking rpm helps verify that a centrifuge can provide the intended separation conditions.",
+    "optionExplanations": [
+      "A tachometer measures rotational speed.",
+      "A wiper is not a rotation-measuring device.",
+      "A potentiometer measures or adjusts electrical potential-related quantities.",
+      "An ergometer measures physical work or exercise output."
+    ],
+    "memory": "Tachometer tells turning speed.",
+    "quickCheck": {
+      "question": "What does rpm mean?",
+      "answer": "Revolutions per minute."
+    },
+    "sourceNote": "The three-month interval is the book’s schedule; use current manufacturer and laboratory maintenance requirements."
+  },
+  "book-399-13": {
+    "questionInPlainEnglish": "Which balance counters a sample’s weight using electromagnetic force?",
+    "explanation": "An electronic analytical balance uses an electromagnetic force to balance the load on its pan. The instrument converts the balancing signal into the displayed mass.",
+    "optionExplanations": [
+      "A trip balance does not name this electromagnetic electronic design.",
+      "Class A is not the balance type defined by this mechanism.",
+      "Class S refers to a historical calibration-weight class, not this balance mechanism.",
+      "An electronic balance uses electromagnetic force compensation."
+    ],
+    "memory": "Electronic balance: electricity balances the load.",
+    "quickCheck": {
+      "question": "What does the instrument counterbalance?",
+      "answer": "The downward force from the material on its pan."
+    }
+  },
+  "book-399-14": {
+    "questionInPlainEnglish": "Which listed tube top commonly identifies a serum-separator gel tube?",
+    "explanation": "A serum-separator tube contains gel that moves during centrifugation to form a barrier between serum and the clot. The speckled, or tiger-top, design is the book’s listed example.",
+    "optionExplanations": [
+      "Light blue commonly indicates citrate for coagulation testing.",
+      "Gray commonly contains a glycolysis inhibitor, often with an anticoagulant.",
+      "Lavender commonly contains EDTA for cell counts.",
+      "A speckled top is a common serum-separator gel tube."
+    ],
+    "memory": "Tiger top traps serum above gel.",
+    "quickCheck": {
+      "question": "What does separator gel separate?",
+      "answer": "Serum from the clot and blood cells."
+    },
+    "sourceNote": "Tube colors vary by manufacturer; verify the label and additive rather than relying on color alone."
+  },
+  "book-399-15": {
+    "questionInPlainEnglish": "Which listed sequence is the correct blood-tube order of draw?",
+    "explanation": "Blood cultures or other sterile specimens come first, followed by citrate light-blue tubes and then serum tubes. The order reduces contamination by organisms or by additives carried from one tube to the next.",
+    "optionExplanations": [
+      "Sterile specimen → light blue → plain red is the correct sequence listed.",
+      "Putting the sterile specimen after blue and red increases contamination risk.",
+      "Drawing EDTA lavender before blue and red risks additive carryover.",
+      "Green before a sterile specimen is not the correct order listed."
+    ],
+    "memory": "Culture, citrate, then serum.",
+    "quickCheck": {
+      "question": "Why is order of draw important?",
+      "answer": "It helps prevent contamination and additive carryover."
+    },
+    "sourceNote": "Follow the current collection procedure for the specific tube system; the trailing section-title text is an OCR artifact."
+  },
+  "book-399-16": {
+    "questionInPlainEnglish": "What is the name for adding all values and dividing by how many values there are?",
+    "explanation": "The arithmetic mean is the familiar average. For 2, 4, and 6: add to get 12, then divide by 3 values to get a mean of 4.",
+    "optionExplanations": [
+      "Median is the middle value after sorting.",
+      "Mode is the most frequent value.",
+      "Arithmetic mean is sum divided by number of values.",
+      "Geometric mean multiplies values and takes a root, rather than simply averaging their sum."
+    ],
+    "memory": "Mean: add, then divide by the count.",
+    "quickCheck": {
+      "question": "What is the arithmetic mean of 5 and 9?",
+      "answer": "(5 + 9) ÷ 2 = 7."
+    }
+  },
+  "book-399-17": {
+    "questionInPlainEnglish": "Calculate percent CV when the mean is 89 mg/dL and two standard deviations equal 14 mg/dL.",
+    "explanation": "Coefficient of variation, or CV, expresses scatter as a percentage of the mean. First find one SD: 14 ÷ 2 = 7 mg/dL. Then CV = (7 mg/dL ÷ 89 mg/dL) × 100 = 7.865%, rounded to 7.9%.",
+    "optionExplanations": [
+      "7.8% is below the correctly rounded value.",
+      "7.9% is correct: one SD is 7 mg/dL, and (7/89) × 100 = 7.865%, rounded to 7.9%.",
+      "15.7% is about twice the correct CV because one SD is only 7 mg/dL.",
+      "15.8% is also about twice the correct CV."
+    ],
+    "memory": "CV uses one SD, even if the stem gives two.",
+    "quickCheck": {
+      "question": "What units does percent CV retain from mg/dL?",
+      "answer": "None; the mg/dL units cancel."
+    }
+  },
+  "book-399-18": {
+    "questionInPlainEnglish": "How does the book recommend collecting data for a new Levey–Jennings control chart?",
+    "explanation": "A Levey–Jennings chart plots control results over time around a mean and standard-deviation lines. Data from about 20 days include ordinary day-to-day variation; many repeats on one day miss that variation.",
+    "optionExplanations": [
+      "Testing over 20 consecutive days gives the intended spread of routine conditions.",
+      "A single batch mostly captures within-run variation, not day-to-day changes.",
+      "Using only one person needlessly excludes operator variation from routine conditions.",
+      "Weekly testing for one month provides too few observations."
+    ],
+    "memory": "To chart daily variation, gather data across days.",
+    "quickCheck": {
+      "question": "Why not use 20 measurements from one batch alone?",
+      "answer": "They miss between-day variation."
+    }
+  },
+  "book-399-19": {
+    "questionInPlainEnglish": "What should happen first when a batch fails quality control?",
+    "explanation": "Do not treat patient numbers as trustworthy until the control failure is investigated. Follow the test’s written out-of-control procedure, which gives a planned sequence for identifying and correcting the problem.",
+    "optionExplanations": [
+      "Reporting first can release unreliable patient results.",
+      "Following the specified failure procedure is the appropriate first action.",
+      "Changing calibrator lots immediately may miss the actual problem and introduce another change.",
+      "Changing reagent lots immediately is also premature without the prescribed investigation."
+    ],
+    "memory": "Control failure → stop release → follow procedure.",
+    "quickCheck": {
+      "question": "Can a failing control simply be ignored if patient results look normal?",
+      "answer": "No."
+    }
+  },
+  "book-399-20": {
+    "questionInPlainEnglish": "Which rule system is commonly used with Levey–Jennings charts?",
+    "explanation": "Westgard multirules examine patterns such as a result beyond three SD or repeated results beyond two SD on the same side. They help distinguish random scatter from evidence of an analytical problem.",
+    "optionExplanations": [
+      "Westgard multirules are the intended companion rules.",
+      "Cusum tracks cumulative deviations and is another monitoring approach, rather than the answer selected here.",
+      "Linear regression studies a relationship between variables.",
+      "A Youden plot compares paired control results, often across laboratories."
+    ],
+    "memory": "Westgard adds rules to the control chart.",
+    "quickCheck": {
+      "question": "Why inspect a pattern rather than only one control value?",
+      "answer": "Repeated small deviations can reveal a problem."
+    }
+  },
+  "book-399-22": {
+    "questionInPlainEnglish": "How often would a normally distributed control exceed the upper two-SD limit by chance?",
+    "explanation": "About 95.45% of normal values lie within ±2 SD, leaving 4.55% outside. Half that is above +2 SD: 2.275%, often rounded to 2.5%. That is about 1 in 40. The question asks only the upper tail.",
+    "optionExplanations": [
+      "1 in 10 is 10%, much more frequent than the upper-tail probability.",
+      "1 in 20 is 5%, closer to both tails combined than the upper tail alone.",
+      "1 in 40 is 2.5%, the intended approximate upper-tail rate.",
+      "1 in 100 is 1%, below the normal upper-two-SD rate."
+    ],
+    "memory": "Two-SD outside has two tails; one tail is about 2.5%.",
+    "quickCheck": {
+      "question": "Does this question count results below the lower limit too?",
+      "answer": "No; only results greater than 2.6 ng/mL."
+    }
+  },
+  "book-399-23": {
+    "questionInPlainEnglish": "What comparison does a Youden plot display?",
+    "explanation": "A Youden plot places each laboratory’s low-control result on one axis and high-control result on the other. Laboratories that are high on both may share a consistent positive bias; the paired pattern helps distinguish types of error.",
+    "optionExplanations": [
+      "Paired low and high results from several labs are the intended use.",
+      "One control followed through time is more like a Levey–Jennings chart.",
+      "Comparing two methods on one specimen is a method-comparison task, not this definition.",
+      "Following two controls in one lab over time is not the interlaboratory use asked for."
+    ],
+    "memory": "Youden pairs two controls from each lab.",
+    "quickCheck": {
+      "question": "What can both controls being high suggest?",
+      "answer": "A systematic positive bias."
+    }
+  },
+  "book-399-24": {
+    "questionInPlainEnglish": "Which two control targets check gentamicin near both its trough and peak levels?",
+    "explanation": "A trough is the low drug level before a dose; a peak is the high level after dosing. Controls should cover clinically important low and high concentrations. Here 1.5 µg/mL is below 2, and 6 µg/mL lies in the 5–8 peak range.",
+    "optionExplanations": [
+      "1 and 2 µg/mL are both low and do not test the peak range.",
+      "1 and 3 µg/mL still do not include the 5–8 peak range.",
+      "1.5 and 6 µg/mL cover both important regions.",
+      "5 and 6 µg/mL cover the peak area but miss the low trough level."
+    ],
+    "memory": "Drug QC should check the valley and the mountain.",
+    "quickCheck": {
+      "question": "What is a trough level?",
+      "answer": "The low drug concentration, usually measured just before the next dose."
+    }
+  },
+  "book-399-25": {
+    "questionInPlainEnglish": "Which item does the book exclude from its direct laboratory quality-assessment measures?",
+    "explanation": "The question asks for the exception. Specimen identification, analytical accuracy, and instrument maintenance directly monitor the testing process. The book classifies staff scheduling as an administrative task instead.",
+    "optionExplanations": [
+      "Staff scheduling is the administrative exception chosen by the book.",
+      "Specimen collection and identity are major quality measures.",
+      "Accuracy and precision directly assess measurement quality.",
+      "Preventive maintenance protects instrument performance and belongs in quality assessment."
+    ],
+    "memory": "Track the sample, the measurement, and the equipment.",
+    "quickCheck": {
+      "question": "Is checking patient identification part of quality assessment?",
+      "answer": "Yes."
+    },
+    "sourceNote": "This is a narrow older classification. Modern quality-management systems can include staffing adequacy and scheduling because they affect quality."
+  },
+  "book-399-26": {
+    "questionInPlainEnglish": "Which control-chart finding most clearly requires corrective action?",
+    "explanation": "A result beyond three standard deviations is unusually far from the expected center. It triggers the commonly used 1₃s rejection rule. Patient results should be held while the cause is addressed.",
+    "optionExplanations": [
+      "Alternating values within ±1 SD can be normal scatter.",
+      "Alternating within ±2 SD is not by itself the stated rejection pattern.",
+      "One value between 2 and 3 SD may be a warning rather than an automatic rejection.",
+      "One result outside ±3 SD meets the 1₃s rejection rule."
+    ],
+    "memory": "Three SD out: investigate before release.",
+    "quickCheck": {
+      "question": "What does SD describe?",
+      "answer": "How widely values scatter around their mean."
+    }
+  },
+  "book-399-27": {
+    "questionInPlainEnglish": "Which change does the book identify as a possible cause of a sudden control-chart shift?",
+    "explanation": "A shift is an abrupt move to a new average, rather than a gradual drift. Replacing a spectrophotometer lamp can change its light output and therefore measured signals, especially if checks or calibration are incomplete.",
+    "optionExplanations": [
+      "Recalibration is intended to maintain agreement, though an incorrect recalibration can also create a shift.",
+      "A changed aspiration probe can also affect results; it is not the book’s selected example.",
+      "Changing the light source can abruptly change optical readings and is the selected answer.",
+      "Different technique by personnel can sometimes affect results, but is not the selected hardware example."
+    ],
+    "memory": "Shift = sudden step; trend = gradual slope.",
+    "quickCheck": {
+      "question": "How does a shift differ from a trend?",
+      "answer": "A shift is abrupt; a trend develops progressively."
+    },
+    "sourceNote": "The options are not exclusive: probe replacement, faulty recalibration, or operator changes can also cause shifts. The book’s lamp-change answer is retained."
+  },
+  "book-399-28": {
+    "questionInPlainEnglish": "Which statistic measures the spread of a normal distribution in the original units?",
+    "explanation": "Standard deviation, or SD, describes how far values typically spread around the mean. A small SD means values cluster tightly; a large SD means they are more scattered.",
+    "optionExplanations": [
+      "Median identifies a central value, not scatter.",
+      "Mode identifies the most frequent value.",
+      "CV expresses SD relative to the mean as a percentage.",
+      "Standard deviation directly measures scatter around the mean in the measurement units."
+    ],
+    "memory": "SD is the spread dial.",
+    "quickCheck": {
+      "question": "Which has tighter clustering: SD 1 mg/dL or SD 8 mg/dL?",
+      "answer": "SD 1 mg/dL."
+    }
+  },
+  "book-399-29": {
+    "questionInPlainEnglish": "Which term means the proportion of people without disease correctly testing negative?",
+    "explanation": "Specificity asks about people who truly do not have the disease. It is true negatives divided by all people without disease: TN/(TN + FP). High specificity means few false alarms.",
+    "optionExplanations": [
+      "Sensitivity asks how many diseased people test positive.",
+      "Specificity asks how many non-diseased people test negative.",
+      "Positive predictive value starts with people who tested positive.",
+      "Negative predictive value starts with people who tested negative, rather than all non-diseased people."
+    ],
+    "memory": "Specificity screens out false alarms.",
+    "quickCheck": {
+      "question": "What is the denominator for specificity?",
+      "answer": "True negatives plus false positives."
+    }
+  },
+  "book-399-30": {
+    "questionInPlainEnglish": "What is unpredictable measurement scatter called?",
+    "explanation": "Random error makes repeated results vary unpredictably above or below the underlying value. It is like repeated throws scattering around a target; it reduces precision.",
+    "optionExplanations": [
+      "Random error is the unpredictable variation described.",
+      "Standard error of the mean describes uncertainty in an estimated mean.",
+      "Parametric analysis is a type of statistical method, not a measurement error.",
+      "Nonparametric analysis is another statistical approach, not the error named here."
+    ],
+    "memory": "Random error scatters results.",
+    "quickCheck": {
+      "question": "Does random error mainly harm precision or create a fixed bias?",
+      "answer": "It mainly harms precision."
+    }
+  },
+  "book-399-32": {
+    "questionInPlainEnglish": "Which term describes agreement with the true value?",
+    "explanation": "Accuracy means closeness to the accepted true value. Precision means repeated measurements agree with one another. A tightly grouped set can still be inaccurate if the whole group is off target.",
+    "optionExplanations": [
+      "Random error is unpredictable variation, not closeness to truth.",
+      "Precision is repeatability between measurements.",
+      "Accuracy is agreement with the true or reference value.",
+      "Variance quantifies spread and does not define truth agreement."
+    ],
+    "memory": "Accuracy hits the target; precision groups the shots.",
+    "quickCheck": {
+      "question": "Can results be precise but inaccurate?",
+      "answer": "Yes; they can cluster around the wrong value."
+    }
+  },
+  "book-399-33": {
+    "questionInPlainEnglish": "What fraction of a normal distribution falls within two SD of the mean?",
+    "explanation": "For a bell-shaped normal distribution, about 68.26% lies within one SD, 95.45% within two, and 99.74% within three. The question asks for the middle two-SD region.",
+    "optionExplanations": [
+      "34.13% is about the region from the mean to one SD on one side.",
+      "68.26% is the full ±1 SD region.",
+      "95.45% is correct because it is the central area within two standard deviations on both sides of a normal-distribution mean.",
+      "99.74% is approximately the ±3 SD region."
+    ],
+    "memory": "One, two, three SD: about 68, 95, 99.7%.",
+    "quickCheck": {
+      "question": "About what percentage lies outside ±2 SD?",
+      "answer": "About 4.55%."
+    }
+  },
+  "book-399-34": {
+    "questionInPlainEnglish": "Which statistic does the book choose as a measure of dispersion?",
+    "explanation": "Variance is the average squared spread around the mean, using the appropriate population or sample divisor. Squaring means large departures contribute strongly. It is one formal measure of how widely results scatter.",
+    "optionExplanations": [
+      "Range also measures spread, using only highest minus lowest, so the wording is broad.",
+      "Validity describes whether a method serves its intended purpose, not a spread statistic.",
+      "Variance is the book’s intended measure based on squared deviations.",
+      "CV also measures relative spread as a percentage, making the general wording ambiguous."
+    ],
+    "memory": "Variance squares the scatter.",
+    "quickCheck": {
+      "question": "How is standard deviation related to variance?",
+      "answer": "Standard deviation is the square root of variance."
+    },
+    "sourceNote": "The question is not exclusive: range and coefficient of variation also measure dispersion. Variance is retained as the book answer."
+  },
+  "book-399-35": {
+    "questionInPlainEnglish": "Which term means a method keeps both accuracy and precision over time?",
+    "explanation": "Reliability means the method continues to produce trustworthy measurements during ordinary ongoing use. It needs both closeness to the right value and consistent repeat results.",
+    "optionExplanations": [
+      "Reliability is sustained accurate, precise performance.",
+      "Validity concerns whether the method is appropriate for its purpose, rather than the specific ongoing-performance term.",
+      "Probability is how likely an event is.",
+      "Sensitivity concerns detecting disease or a small analytical change, depending on context."
+    ],
+    "memory": "Reliable means right and repeatable over time.",
+    "quickCheck": {
+      "question": "Is repeatability alone enough for reliability here?",
+      "answer": "No; accuracy must also be maintained."
+    }
+  },
+  "book-399-36": {
+    "questionInPlainEnglish": "What statistic is calculated by the damaged formula in the source?",
+    "explanation": "The book identifies the formula as sample variance: s² = Σ(x − mean)²/(n − 1). Subtract the mean from each value, square each difference, add the squares, then divide by one less than the number of values.",
+    "optionExplanations": [
+      "CV is SD divided by the mean, usually multiplied by 100.",
+      "Variance is the mean squared-deviation calculation with n − 1 for a sample.",
+      "Confidence limits need an estimate plus or minus an uncertainty term.",
+      "Standard deviation is the square root of this variance expression."
+    ],
+    "memory": "Squared differences without a final square root give variance.",
+    "quickCheck": {
+      "question": "What final step turns variance into standard deviation?",
+      "answer": "Take the square root."
+    },
+    "sourceNote": "The stem formula is badly OCR-damaged. This explanation reconstructs the sample-variance expression implied by the book answer; verify the page image if the displayed formula differs."
+  },
+  "book-399-37": {
+    "questionInPlainEnglish": "Which statement is NOT true about assayed quality-control material?",
+    "explanation": "Assayed controls have assigned target concentrations and check whether a system is behaving. Calibrators set the system’s measurement scale. Using the same material interchangeably for both purposes can hide errors instead of independently detecting them.",
+    "optionExplanations": [
+      "Resemblance to patient samples is a desirable control property.",
+      "Assigned analyte concentrations define assayed controls.",
+      "Interchanging controls and calibrators is the incorrect statement and therefore the answer.",
+      "Including normal and abnormal levels helps check performance across important ranges."
+    ],
+    "memory": "Calibrators set; controls check.",
+    "quickCheck": {
+      "question": "Why keep control and calibration roles separate?",
+      "answer": "A check should independently detect an incorrect measurement scale."
+    }
+  },
+  "book-399-38": {
+    "questionInPlainEnglish": "Which quality measure tracks how long results take to reach clinicians?",
+    "explanation": "Turnaround time is the interval between defined workflow points, such as collection and result reporting. When urgent results arrive too slowly, tracking this time helps locate delays.",
+    "optionExplanations": [
+      "Separation and aliquoting are steps that can cause delay, not the overall time measure.",
+      "Test utilization asks whether tests are being ordered appropriately.",
+      "Analytical methodology concerns how the test is performed.",
+      "Turnaround time directly measures speed of result delivery."
+    ],
+    "memory": "Turnaround time follows the clock.",
+    "quickCheck": {
+      "question": "What does stat mean in a laboratory request?",
+      "answer": "Urgent, requiring prompt attention."
+    }
+  },
+  "book-399-39": {
+    "questionInPlainEnglish": "Which organization offers the external proficiency survey named here?",
+    "explanation": "The College of American Pathologists, or CAP, provides proficiency-testing surveys. Laboratories test unknown samples and compare performance with assigned targets or peer groups, creating an outside check on internal control.",
+    "optionExplanations": [
+      "CLSI develops laboratory standards and guidance, rather than being the survey answer here.",
+      "ASCLS is a professional organization, not the named survey program.",
+      "ASCP is a professional and certification organization, not the selected provider.",
+      "CAP is a major proficiency-testing survey provider."
+    ],
+    "memory": "CAP surveys compare performance beyond one lab.",
+    "quickCheck": {
+      "question": "Why add external proficiency testing to internal controls?",
+      "answer": "It provides an independent check of performance."
+    }
+  },
+  "book-399-41": {
+    "questionInPlainEnglish": "What should be done when the morning control is beyond three SD?",
+    "explanation": "Hold the affected patient results and investigate equipment, reagents, and the process. After correcting the cause, repeat the affected testing as required and verify acceptable controls before releasing reliable results.",
+    "optionExplanations": [
+      "Releasing immediately ignores a significant control failure.",
+      "Repeating only until a control happens to pass can conceal a real error.",
+      "Investigating, correcting, and repeating affected work with acceptable controls is the proper course.",
+      "Calling repeated failure random error does not justify releasing results."
+    ],
+    "memory": "Do not repeat until lucky; find the cause.",
+    "quickCheck": {
+      "question": "When may affected patient results be released?",
+      "answer": "After the problem is resolved and required checks show acceptable performance."
+    },
+    "sourceNote": "Exact repeat scope and release criteria follow the validated out-of-control procedure; a result inside ±2 SD alone does not always establish full acceptability."
+  },
+  "book-399-42": {
+    "questionInPlainEnglish": "What pattern triggers the Westgard 2₂s rule?",
+    "explanation": "Two consecutive control results beyond the same two-SD boundary suggest a consistent shift. Both must be above +2 SD or both below −2 SD. Opposite sides indicate a different pattern.",
+    "optionExplanations": [
+      "Results inside ±2 SD do not meet this rule.",
+      "One beyond +2 and one beyond −2 is not same-side 2₂s.",
+      "Two consecutive points outside the same +2 or −2 boundary give the full rule.",
+      "Two above +2 SD are one valid example, but this wording omits the equally valid low-side case."
+    ],
+    "memory": "Two-two-s: two results, two SD, same side.",
+    "quickCheck": {
+      "question": "Do one high and one low result meet 2₂s?",
+      "answer": "No; they must cross the same side’s limit."
+    },
+    "sourceNote": "The final option is a true subset of the full rule; the book selects the complete two-sided definition."
+  },
+  "book-399-44": {
+    "questionInPlainEnglish": "What should be checked after a patient’s bilirubin jumps from 2.0 to 6.2 mg/dL despite acceptable controls?",
+    "explanation": "A delta check compares the current result with the same patient’s earlier result. The rise is 6.2 − 2.0 = 4.2 mg/dL. Good controls do not rule out a mislabeled sample or other patient-specific problem, so investigate if the change exceeds the laboratory’s limits.",
+    "optionExplanations": [
+      "Calling immediately without checking the surprising change may transmit an unverified result.",
+      "Sending straight to the chart skips the needed patient-specific check.",
+      "Repeating every patient’s run is not justified just by one unusual change.",
+      "A delta check and targeted investigation address the specific discrepancy."
+    ],
+    "memory": "Good QC checks the system; a delta check checks the patient’s change.",
+    "quickCheck": {
+      "question": "Can good controls prove a sample belongs to the right patient?",
+      "answer": "No."
+    }
+  },
+  "book-399-45": {
+    "questionInPlainEnglish": "What is an error that consistently pushes measurements in one direction called?",
+    "explanation": "Systematic error causes a repeated bias, such as results tending too high. It may be a fixed offset or grow with concentration. The question does not give enough detail to choose either subtype.",
+    "optionExplanations": [
+      "Systematic error is the general term for a consistent directional bias.",
+      "Random error produces unpredictable scatter rather than one-direction bias.",
+      "Constant systematic error is specifically a fixed-size offset; that detail is not given.",
+      "Proportional systematic error grows with concentration; that detail is not given."
+    ],
+    "memory": "Systematic error shifts the target.",
+    "quickCheck": {
+      "question": "What extra clue would identify proportional bias?",
+      "answer": "The size of the error increases with concentration."
+    }
+  },
+  "book-399-46": {
+    "questionInPlainEnglish": "How many reference individuals are preferred for establishing a new reference interval by the usual nonparametric method?",
+    "explanation": "A reference interval describes the expected spread in a defined reference population. At least 120 suitable individuals per group allows the usual nonparametric approach to estimate the central 95% without assuming a perfect bell curve.",
+    "optionExplanations": [
+      "30 is too few for the usual 120-person nonparametric establishment approach.",
+      "50 is also below the preferred count.",
+      "75 is below the usual minimum for this approach.",
+      "120 is the preferred minimum listed."
+    ],
+    "memory": "Establish with 120; verify can use fewer.",
+    "quickCheck": {
+      "question": "Does a reference interval describe every healthy person with certainty?",
+      "answer": "No; a typical central 95% interval leaves some healthy results outside."
+    }
+  },
+  "book-399-47": {
+    "questionInPlainEnglish": "What does the book recommend after 4 of 20 results fall outside a proposed reference interval?",
+    "explanation": "A small study may verify an existing reference interval rather than create a new one. Four outside is too many for immediate acceptance. The book recommends a fresh group of 20; accept if no more than two of that group are outside.",
+    "optionExplanations": [
+      "Deleting results because they disagree would bias the study.",
+      "Using all 20 to create a simple ±2 SD interval does not follow the stated verification procedure.",
+      "Replacing only the four outside results selects a favorable answer rather than a fair new sample.",
+      "A new set of 20 provides the book’s independent second verification step."
+    ],
+    "memory": "Do not erase disagreements; verify with a new group.",
+    "quickCheck": {
+      "question": "Why is deleting the four results inappropriate?",
+      "answer": "It forces the data to match the desired interval."
+    },
+    "sourceNote": "This describes verification of a transferred interval, not full establishment; use current reference-interval guidance and assess participant suitability and outliers."
+  },
+  "book-399-48": {
+    "questionInPlainEnglish": "Which item is NOT needed to calculate positive predictive value from test characteristics?",
+    "explanation": "Positive predictive value is the chance a positive result represents true disease. It depends on sensitivity, specificity, and how common the disease is in the tested population. Precision is repeatability and is not a separate term in this calculation.",
+    "optionExplanations": [
+      "Sensitivity affects the number of true positives.",
+      "Specificity affects the number of false positives.",
+      "Disease prevalence changes the balance of true and false positives.",
+      "Precision is the exception; it is not needed separately in the predictive-value formula."
+    ],
+    "memory": "A positive’s meaning depends on how common the disease is.",
+    "quickCheck": {
+      "question": "Can the same test have a lower PPV in a low-prevalence population?",
+      "answer": "Yes."
+    }
+  },
+  "book-399-49": {
+    "questionInPlainEnglish": "Which counts are needed to calculate test sensitivity?",
+    "explanation": "Sensitivity asks how many truly diseased people test positive. Add true positives and false negatives to count all diseased people. Sensitivity = TP/(TP + FN), usually multiplied by 100%.",
+    "optionExplanations": [
+      "True positives and false negatives give the required numerator and diseased denominator.",
+      "True negatives and false positives are used for specificity.",
+      "True positives and false positives are used for positive predictive value.",
+      "True negatives and false negatives are used for negative predictive value."
+    ],
+    "memory": "Sensitivity starts with everyone who really has disease.",
+    "quickCheck": {
+      "question": "If 90 diseased people test positive and 10 test negative, what is sensitivity?",
+      "answer": "90/(90 + 10) × 100 = 90%."
+    }
+  },
+  "book-399-50": {
+    "questionInPlainEnglish": "Calculate specificity when 45 of 50 people without malignancy test negative.",
+    "explanation": "Specificity is the fraction of non-diseased people correctly testing negative. Here true negatives = 45 and total non-diseased = 50. Specificity = 45/50 × 100 = 90%. The other five are false positives.",
+    "optionExplanations": [
+      "10% is the false-positive fraction, 5/50, rather than specificity.",
+      "11% does not match the correctly negative fraction of 45 out of 50 people, which is 90%.",
+      "90% is the correctly negative fraction.",
+      "100% would require all 50 to test negative."
+    ],
+    "memory": "Specificity = correct negatives ÷ all non-diseased.",
+    "quickCheck": {
+      "question": "How many false positives occurred?",
+      "answer": "5."
+    }
+  },
+  "book-399-51": {
+    "questionInPlainEnglish": "Which counts calculate the chance that a negative result truly means no disease?",
+    "explanation": "Negative predictive value starts with everyone who tested negative. Some are true negatives and some are false negatives. NPV = TN/(TN + FN), expressed as a percentage.",
+    "optionExplanations": [
+      "True negatives and false negatives provide the needed counts.",
+      "True positives and false positives calculate positive predictive value.",
+      "True positives and false negatives calculate sensitivity.",
+      "True negatives and false positives calculate specificity."
+    ],
+    "memory": "NPV asks: among negative tests, who is truly well?",
+    "quickCheck": {
+      "question": "Does NPV’s denominator include positive test results?",
+      "answer": "No; it includes all negative test results."
+    }
+  },
+  "book-399-52": {
+    "questionInPlainEnglish": "Which statement about proficiency testing is FALSE?",
+    "explanation": "Proficiency-test samples are intentionally unknown so a lab’s routine performance can be assessed independently. Labs do not receive target acceptance ranges with the samples to decide whether to keep retesting for a passing result.",
+    "optionExplanations": [
+      "Required proficiency testing is part of CLIA regulation for covered testing; this is broadly true.",
+      "CAP and the American Association of Bioanalysts are recognized providers; this is true.",
+      "Providers periodically send unknown samples; this is true.",
+      "Supplying acceptance ranges up front is the false statement and therefore the answer."
+    ],
+    "memory": "Proficiency testing is an unknown challenge.",
+    "quickCheck": {
+      "question": "Why are the sample target values withheld?",
+      "answer": "To evaluate ordinary performance without adjusting results toward the answer."
+    },
+    "sourceNote": "Requirements depend on test category and applicable regulations; the trailing “Laboratory Safety” is section-heading OCR text."
+  },
+  "book-399-53": {
+    "questionInPlainEnglish": "Which chemical can become sensitive to a knock or shock after long storage?",
+    "explanation": "Picric acid can become dangerously explosive when it dries or forms certain metal salts. The question points to this storage-related shock hazard. A suspect container requires the laboratory’s specialist hazardous-material procedure.",
+    "optionExplanations": [
+      "Xylene is a flammable solvent, not the classic shock-sensitive solid described.",
+      "Picric acid can become shock-sensitive, especially when dry.",
+      "Chloroform has serious toxic hazards, but is not this classic shock-sensitive storage example.",
+      "Phenol is toxic and corrosive, rather than the specific answer here."
+    ],
+    "memory": "Picric acid must not dry out.",
+    "quickCheck": {
+      "question": "What storage change makes picric acid especially concerning?",
+      "answer": "Drying out or formation of sensitive metal salts."
+    }
+  },
+  "book-399-54": {
+    "questionInPlainEnglish": "Which extinguisher classification is appropriate for energized electrical equipment?",
+    "explanation": "In the US fire-class system, Class C means suitable for fires involving energized electrical equipment. The extinguishing agent must avoid conducting electricity back to the user.",
+    "optionExplanations": [
+      "Class A covers ordinary solid combustibles such as paper and wood.",
+      "Class B covers flammable liquids.",
+      "Class C identifies suitability for energized electrical fires.",
+      "Class D is for combustible metals."
+    ],
+    "memory": "C is for current in the US system.",
+    "quickCheck": {
+      "question": "Why is electrical suitability important?",
+      "answer": "A conducting extinguishing agent could cause electric shock."
+    },
+    "sourceNote": "Fire-class lettering differs internationally; this question uses the US/NFPA classification."
+  },
+  "book-399-55": {
+    "questionInPlainEnglish": "What hazard does the blue part of the NFPA diamond represent?",
+    "explanation": "The NFPA hazard diamond uses colors to separate hazard types. Blue identifies health danger: how seriously exposure can harm a person. The number indicates severity within that system.",
+    "optionExplanations": [
+      "Flammability is shown in the red section.",
+      "Health hazard is shown in blue.",
+      "Instability or reactivity is shown in yellow.",
+      "Contact is not the category assigned to blue."
+    ],
+    "memory": "Blue = body/health; red = fire; yellow = instability.",
+    "quickCheck": {
+      "question": "Which NFPA color marks flammability?",
+      "answer": "Red."
+    }
+  },
+  "book-399-56": {
+    "questionInPlainEnglish": "What hazard do xylene, ethanol, methanol, and acetone share?",
+    "explanation": "These organic solvents can give off vapors that ignite. Their shared category in this question is flammable. Individual chemicals can have additional hazards too, such as toxicity.",
+    "optionExplanations": [
+      "Corrosive means able to chemically damage tissue or materials; it is not the shared listed category.",
+      "Flammable fits their ability to form ignitable vapors.",
+      "Oxidizers promote combustion by supplying oxidizing power; these solvents are fuel instead.",
+      "Carcinogen is not the shared defining classification for all four."
+    ],
+    "memory": "Solvent vapor can feed a flame.",
+    "quickCheck": {
+      "question": "Why can a solvent be a fire hazard before the liquid itself is hot?",
+      "answer": "Its vapor can form an ignitable mixture with air."
+    }
+  },
+  "book-399-57": {
+    "questionInPlainEnglish": "Which word means a substance can cause cancer?",
+    "explanation": "A carcinogen can increase the risk of cancer. Cancer involves cells growing out of control. Other hazard terms describe different effects, though one chemical may have more than one type of hazard.",
+    "optionExplanations": [
+      "A mutagen can change genetic material, which is not identical to proven cancer causation.",
+      "A teratogen can harm development before birth.",
+      "A carcinogen is a cancer-causing agent.",
+      "Reactive describes chemical instability or readiness to react, not specifically cancer."
+    ],
+    "memory": "Carcinogen → cancer.",
+    "quickCheck": {
+      "question": "What does teratogen refer to?",
+      "answer": "An agent that can harm embryonic or fetal development."
+    }
+  },
+  "book-399-58": {
+    "questionInPlainEnglish": "Which description best matches organisms handled at Biosafety Level 2 in this book?",
+    "explanation": "BSL-2 is used for many agents that can cause human disease but present a moderate hazard when appropriate practices and equipment are used. The chosen description contrasts them with agents requiring higher containment for severe airborne or hard-to-treat disease.",
+    "optionExplanations": [
+      "Agents not known to cause disease in healthy adults generally fit BSL-1.",
+      "Serious or lethal disease with available interventions more closely describes a higher-containment risk group.",
+      "Serious or lethal disease without available interventions points toward the highest containment risk group.",
+      "Human-disease agents with commonly available preventive or treatment measures best match the book’s BSL-2 description."
+    ],
+    "memory": "BSL-2: moderate disease hazard, controlled work practices.",
+    "quickCheck": {
+      "question": "Does BSL-2 mean organisms are harmless?",
+      "answer": "No; they can cause human disease."
+    },
+    "sourceNote": "The book’s “rarely serious” wording is simplified. Biosafety level is selected by agent- and procedure-specific risk assessment, not disease severity alone."
+  },
+  "book-399-59": {
+    "questionInPlainEnglish": "What does a liquid’s flash point mean?",
+    "explanation": "Flash point is the lowest temperature at which a liquid releases enough vapor to ignite briefly when an ignition source is applied under specified test conditions. It does not require the liquid to keep burning on its own.",
+    "optionExplanations": [
+      "Self-sustained burning describes a different threshold, commonly the fire point, rather than flash point.",
+      "A maximum vapor pressure for spontaneous ignition is not the definition.",
+      "Enough vapor to form an ignitable mixture at the surface is the correct idea.",
+      "Flash point has no universal fixed relationship of 10°C above boiling point."
+    ],
+    "memory": "Flash point: enough vapor for a flash.",
+    "quickCheck": {
+      "question": "Does flash point require a spark or flame in the test?",
+      "answer": "Yes; it concerns ignition by an applied source."
+    }
+  },
+  "book-399-61": {
+    "questionInPlainEnglish": "Which US agency enforces workplace safety and health laws?",
+    "explanation": "The Occupational Safety and Health Administration, OSHA, sets and enforces workplace safety requirements. In laboratories these include rules addressing hazards such as chemicals and bloodborne pathogens.",
+    "optionExplanations": [
+      "CAP accredits laboratories but is not the federal workplace-safety enforcement agency.",
+      "IATA develops air-transport rules, rather than enforcing US workplace safety law.",
+      "The Joint Commission accredits health-care organizations, not federal workplace legislation.",
+      "OSHA is the federal workplace safety and health agency."
+    ],
+    "memory": "OSHA oversees occupational safety.",
+    "quickCheck": {
+      "question": "What does occupational mean?",
+      "answer": "Related to work or employment."
+    }
+  },
+  "book-399-62": {
+    "questionInPlainEnglish": "Which term does the book use for an eight-hour chemical exposure limit?",
+    "explanation": "A threshold limit value, or TLV, is an occupational exposure guideline. The time-weighted average version describes average exposure over a conventional eight-hour workday. It is not simply a highest allowed concentration at any instant.",
+    "optionExplanations": [
+      "Flash point describes ignition conditions, not worker exposure.",
+      "HEPA describes particle filtration, not a chemical exposure concentration.",
+      "Threshold limit value is the intended exposure-guideline term.",
+      "A United Nations limit is not the occupational term selected here."
+    ],
+    "memory": "Eight-hour average exposure: TLV–TWA.",
+    "quickCheck": {
+      "question": "Is an eight-hour average the same as an instantaneous ceiling?",
+      "answer": "No."
+    },
+    "sourceNote": "TLVs are ACGIH guidelines, not automatically legal maximums. OSHA permissible exposure limits are regulatory limits; short-term and ceiling limits also matter."
+  },
+  "book-399-63": {
+    "questionInPlainEnglish": "Where does air from a conventional chemical fume hood go?",
+    "explanation": "A conventional ducted chemical fume hood pulls hazardous vapors away from the worker and exhausts them outside through an appropriate building system. HEPA filters trap particles, but do not reliably remove chemical gases and vapors.",
+    "optionExplanations": [
+      "Recirculating through HEPA alone does not remove many chemical vapors.",
+      "Exhaust outside the building is the conventional chemical-hood arrangement.",
+      "HEPA filtration is not the defining requirement for ordinary chemical-vapor exhaust.",
+      "A 30/70 recirculation split describes some biological-cabinet designs, not this chemical hood."
+    ],
+    "memory": "Fume hood sends fumes out.",
+    "quickCheck": {
+      "question": "Why is HEPA alone inadequate for many chemical fumes?",
+      "answer": "HEPA traps particles, while gases and vapors can pass through."
+    },
+    "sourceNote": "This refers to conventional ducted fume hoods. Specialized filtered ductless hoods exist only for assessed, compatible applications."
+  },
+  "book-399-64": {
+    "questionInPlainEnglish": "Which airflow direction helps keep microbiology-room hazards away from offices?",
+    "explanation": "Negative pressure means air flows into the laboratory from adjacent cleaner areas when a doorway is opened. This helps keep contaminated laboratory air from escaping into administrative spaces.",
+    "optionExplanations": [
+      "Negative pressure directs air toward the laboratory, containing potential contamination.",
+      "Positive pressure pushes air out toward neighboring areas, the opposite containment direction.",
+      "Ignoring airflow removes an important containment consideration.",
+      "A HEPA filter alone does not define the necessary pressure direction."
+    ],
+    "memory": "Negative pressure pulls air inward.",
+    "quickCheck": {
+      "question": "In a negative-pressure room, which way does air move at the door?",
+      "answer": "From the corridor into the room."
+    },
+    "sourceNote": "Pressure and filtration requirements depend on biosafety level, activities, and facility risk assessment; not every routine microbiology space has identical specifications."
+  },
+  "book-399-65": {
+    "questionInPlainEnglish": "Which broad chemical hazard best fits the book’s extensive containment and decontamination precautions?",
+    "explanation": "The book associates this set of precautions with carcinogens, substances that can cause cancer. A fume hood limits breathing exposure, suitable gloves reduce skin contact, and validated cleanup prevents carryover. The exact controls must match the chemical.",
+    "optionExplanations": [
+      "Corrosives need protection too, but this is not the book’s intended overall hazard group.",
+      "Carcinogens are the intended category for this exposure-minimizing procedure.",
+      "Azides have particular toxic and explosive-salt hazards, not this general set’s selected answer.",
+      "Acids are corrosives, but are not the broader category selected here."
+    ],
+    "memory": "Carcinogen controls minimize routes of exposure.",
+    "quickCheck": {
+      "question": "Why must glove material match the chemical?",
+      "answer": "Some chemicals pass through or damage unsuitable gloves."
+    },
+    "sourceNote": "These precautions are not unique to carcinogens. Respirators and strong-acid/solvent decontamination are not universally required or appropriate; use the chemical-specific validated procedure."
+  },
+  "book-399-66": {
+    "questionInPlainEnglish": "What should a laboratorian remove before going to lunch?",
+    "explanation": "A lab coat can carry contamination from the work area. Remove it before entering eating areas and wash hands, so laboratory material is not carried to food or clean surfaces.",
+    "optionExplanations": [
+      "Safety goggles are not the needed step for leaving to eat.",
+      "Removing the lab coat prevents carrying contamination into the lunch area.",
+      "Water alone is not an appropriate universal bench decontaminant.",
+      "Used gloves should be discarded appropriately, not saved in a coat pocket."
+    ],
+    "memory": "Lab coat stays with lab work.",
+    "quickCheck": {
+      "question": "Should used disposable gloves be kept for reuse at lunch?",
+      "answer": "No."
+    }
+  },
+  "book-399-67": {
+    "questionInPlainEnglish": "Which listed action creates a biological hazard?",
+    "explanation": "A used blood-collection needle can puncture a waste bag and injure anyone handling it. Sharps belong immediately in the designated puncture-resistant sharps container, not an ordinary wastebasket.",
+    "optionExplanations": [
+      "Using standard precautions is protective practice, with added precautions when indicated.",
+      "Waiting for the centrifuge to stop before opening is protective.",
+      "Placing broken glass and other sharps in a suitable container prevents puncture injuries.",
+      "Discarding used needles in a patient’s wastebasket creates a needlestick hazard."
+    ],
+    "memory": "Sharps go straight into sharps containers.",
+    "quickCheck": {
+      "question": "Who can be injured by a needle in ordinary trash?",
+      "answer": "Anyone handling the trash, including cleaning and waste staff."
+    }
+  },
+  "book-399-68": {
+    "questionInPlainEnglish": "Which listed chemical-storage practice is the acceptable one?",
+    "explanation": "If flammable solvents require cooling, use equipment specifically designed for that hazard, in limited quantities and with compatible storage. Ordinary refrigerators can contain ignition sources that ignite accumulated vapor.",
+    "optionExplanations": [
+      "Alphabetical storage alone can put incompatible chemicals beside each other.",
+      "A working fume hood is not a general storage cabinet for flammables.",
+      "Heavy liquid bottles on top shelves increase spill and injury risks.",
+      "A suitable explosion-protected refrigerator is the intended safe cold-storage choice."
+    ],
+    "memory": "Cold flammables need a refrigerator designed for flammables.",
+    "quickCheck": {
+      "question": "Why is an ordinary household refrigerator unsuitable?",
+      "answer": "Its electrical components may ignite solvent vapor."
+    },
+    "sourceNote": "Modern labels distinguish flammable-material storage refrigerators from explosion-proof models; choose equipment based on internal and surrounding hazards. Segregate chemicals by compatibility."
+  },
+  "book-399-69": {
+    "questionInPlainEnglish": "What is the immediate response when concentrated acid covers someone’s lower body?",
+    "explanation": "Get the person under the safety shower immediately and start abundant water flushing. Remove contaminated clothing while flushing as trained. Fast rinsing removes acid and limits continued tissue damage; arrange emergency help at the same time.",
+    "optionExplanations": [
+      "Calling security alone delays the essential flushing.",
+      "The safety shower gives immediate large-volume rinsing and is the best first action.",
+      "Transporting first lets acid keep burning during the trip.",
+      "Adding concentrated base can produce heat and worsen the injury."
+    ],
+    "memory": "Chemical on body: shower and flush immediately.",
+    "quickCheck": {
+      "question": "Why not neutralize acid on skin with concentrated base?",
+      "answer": "The reaction can release heat and cause additional chemical injury."
+    }
+  },
+  "book-399-70": {
+    "questionInPlainEnglish": "How should a bottle of corrosive reagent be carried to the hood?",
+    "explanation": "Use a compatible bottle carrier with handles and secondary containment. If the primary bottle slips or breaks, the carrier helps contain the spill and protect the person carrying it.",
+    "optionExplanations": [
+      "A suitable rubber carrier provides protection and secondary containment.",
+      "Pouring at the storage site may expose people outside the proper controlled work area.",
+      "Carrying an open, filled pipette risks a spill or exposure.",
+      "Supporting a bottle by hand gives less protection than a proper carrier if it breaks."
+    ],
+    "memory": "Carry corrosives inside a carrier.",
+    "quickCheck": {
+      "question": "What does secondary containment do?",
+      "answer": "It catches liquid if the main container leaks or breaks."
+    }
+  },
+  "book-399-72": {
+    "questionInPlainEnglish": "Which occupational infection is the major hazard emphasized by this textbook?",
+    "explanation": "The book emphasizes hepatitis, especially bloodborne hepatitis viruses, because clinical laboratories frequently handle human blood. Vaccination against hepatitis B and bloodborne-pathogen precautions greatly reduce risk.",
+    "optionExplanations": [
+      "Tularemia can be a laboratory hazard but is not the broad blood-exposure answer here.",
+      "Salmonella can infect laboratory workers, but is not the book’s main answer.",
+      "Tuberculosis is an important airborne hazard, but the selected broad historical answer is hepatitis.",
+      "Hepatitis is the textbook’s major job-related disease hazard."
+    ],
+    "memory": "Blood exposure brings hepatitis risk.",
+    "quickCheck": {
+      "question": "Which hepatitis infection has a routine protective vaccine?",
+      "answer": "Hepatitis B."
+    },
+    "sourceNote": "The claim that hepatitis is the single major occupational disease hazard is historical and varies by laboratory activities, vaccination, and current epidemiology."
+  },
+  "book-399-73": {
+    "questionInPlainEnglish": "Which role does the book assign to running and maintaining the laboratory safety program?",
+    "explanation": "The laboratory safety officer coordinates the safety program, including procedures, training, and monitoring. Management still has overall responsibility for providing a safe workplace, and all workers must follow the program.",
+    "optionExplanations": [
+      "A state public health laboratory does not run every clinical lab’s internal safety program.",
+      "A chemical hygiene officer focuses specifically on the chemical hygiene program.",
+      "The laboratory safety officer is the broad coordinating role selected.",
+      "The chief pathologist has leadership responsibilities, but is not the named operational role selected here."
+    ],
+    "memory": "Safety officer coordinates the safety system.",
+    "quickCheck": {
+      "question": "Does a safety officer remove workers’ own safety responsibilities?",
+      "answer": "No; safety responsibilities are shared."
+    }
+  },
+  "book-399-74": {
+    "questionInPlainEnglish": "What hazard can develop when azides build up as salts?",
+    "explanation": "Azides can react with metals such as lead or copper in plumbing to form shock-sensitive metal azides. Accumulation can create an explosion hazard, so disposal must follow the laboratory’s approved chemical procedure.",
+    "optionExplanations": [
+      "Explosive salt buildup is the specific concern.",
+      "Simple pipe corrosion is not the main azide-salt danger described.",
+      "Extreme volatility is not the main reason for monitoring salt accumulation.",
+      "Ordinary flammability near a flame is not this distinctive hazard."
+    ],
+    "memory": "Azides plus plumbing metals can make explosive salts.",
+    "quickCheck": {
+      "question": "Why is drain disposal of azide-containing material concerning?",
+      "answer": "It can form dangerous metal azides in plumbing."
+    }
+  },
+  "book-399-75": {
+    "questionInPlainEnglish": "Which biological safety cabinet uses filtered downward airflow in the work area?",
+    "explanation": "A Class II cabinet combines inward airflow at the front opening with HEPA-filtered downward airflow over the work area. It protects the worker, the environment, and the sample when used correctly.",
+    "optionExplanations": [
+      "Class I protects personnel and environment but does not provide the same clean downflow product protection.",
+      "Class II uses the described filtered downflow.",
+      "Class III is a sealed glove-box style cabinet.",
+      "Class IV is not a standard biological safety cabinet class in this scheme."
+    ],
+    "memory": "Class II: inward front air plus clean downflow.",
+    "quickCheck": {
+      "question": "What does HEPA filtration remove?",
+      "answer": "Airborne particles, including particle-associated microbes."
+    }
+  },
+  "book-399-76": {
+    "questionInPlainEnglish": "What do Standard Precautions assume about human blood and potentially infectious material?",
+    "explanation": "Treat human blood and other potentially infectious material as possible sources of infection regardless of a person’s apparent health or perceived risk. Infection is not always visible or already diagnosed.",
+    "optionExplanations": [
+      "Assuming potential infectivity for every relevant specimen is the correct approach.",
+      "Waiting for proof of infection leaves unknown cases unprotected.",
+      "A respirator is not required for every blood specimen; PPE depends on exposure routes and tasks.",
+      "Intact skin does not remove risks to eyes, mouth, or from sharps."
+    ],
+    "memory": "Precautions follow the exposure, not a guess about the person.",
+    "quickCheck": {
+      "question": "Can healthy-looking patients carry bloodborne infections?",
+      "answer": "Yes."
+    },
+    "sourceNote": "Standard Precautions are broader than this bloodborne summary and include exposure-based practices for other body fluids, mucous membranes, and nonintact skin."
+  },
+  "book-399-77": {
+    "questionInPlainEnglish": "What exhaust difference does the book emphasize between Class II A and B cabinets?",
+    "explanation": "Many Class II Type A cabinets can return HEPA-filtered exhaust to the room, while Type B cabinets are ducted to exhaust outside. HEPA removes particles but not most chemical vapors, so cabinet subtype matters for chemical use.",
+    "optionExplanations": [
+      "Type A may return HEPA-filtered exhaust to the room; this is the intended distinction.",
+      "Type B exhaust is directed outdoors, not simply returned to the room.",
+      "Size is not the defining distinction.",
+      "A gas jet is not a defining Type A feature and open flames can disrupt safe cabinet airflow."
+    ],
+    "memory": "A may return air; B sends exhaust beyond the room.",
+    "quickCheck": {
+      "question": "Why does HEPA-filtered air not guarantee removal of toxic vapor?",
+      "answer": "HEPA filters particles, not most gases or vapors."
+    },
+    "sourceNote": "Use current Class II A1/A2/B1/B2 specifications. Some Type A cabinets are canopy-connected to outdoor exhaust; configuration and permitted chemicals must be verified."
+  },
+  "book-399-78": {
+    "questionInPlainEnglish": "What bleach dilution does this textbook recommend for blood-spill cleanup?",
+    "explanation": "The book selects a 1:10 final dilution: one part household bleach plus nine parts water. That makes the stock one tenth as concentrated. For 100 mL total, use 10 mL bleach and 90 mL water, subject to the product’s validated instructions.",
+    "optionExplanations": [
+      "1:1 is undiluted stock in this final-volume notation and is stronger than the stated dilution.",
+      "1:10 is the book’s intended blood-spill dilution.",
+      "1:20 is half as strong as the stated 1:10 preparation.",
+      "1:100 is ten times more dilute than the stated preparation."
+    ],
+    "memory": "One in ten total means one bleach plus nine water.",
+    "quickCheck": {
+      "question": "How much water joins 10 mL bleach for a 1:10 final dilution?",
+      "answer": "90 mL."
+    },
+    "sourceNote": "This is older generalized guidance. Required available chlorine, spill size, precleaning, contact time, and product instructions determine the current procedure; household bleach strengths vary."
+  },
+  "book-399-79": {
+    "questionInPlainEnglish": "What should you do before using an unfamiliar disinfectant?",
+    "explanation": "Read the manufacturer’s instructions and the approved laboratory procedure. The right concentration, surface contact time, and compatibility are essential; stronger is not automatically more effective or safer.",
+    "optionExplanations": [
+      "Full strength may be inappropriate and could damage surfaces or increase exposure.",
+      "Reading and following the instructions gives the intended preparation and use conditions.",
+      "Increasing concentration by 10% is an unvalidated change.",
+      "Storing it under the sink does not establish correct use or safe compatible storage."
+    ],
+    "memory": "Disinfection needs the right strength and the right time.",
+    "quickCheck": {
+      "question": "Why can a correctly diluted disinfectant still fail?",
+      "answer": "The surface may not remain wet for the required contact time."
+    }
+  },
+  "book-399-80": {
+    "questionInPlainEnglish": "Which written plan addresses exposure to bloodborne pathogens?",
+    "explanation": "An exposure control plan describes how the workplace prevents and responds to bloodborne-pathogen exposure. It includes measures such as safe sharps handling, protective equipment, training, and post-exposure response.",
+    "optionExplanations": [
+      "A chemical hygiene plan focuses on hazardous chemicals.",
+      "An exposure control plan is the specific bloodborne-pathogen plan.",
+      "Safety data sheets describe chemical hazards, not the full bloodborne control program.",
+      "An infection control plan is broader and is not the specific required plan name asked here."
+    ],
+    "memory": "Bloodborne exposure → exposure control plan.",
+    "quickCheck": {
+      "question": "Which plan covers laboratory chemical hazards?",
+      "answer": "The chemical hygiene plan."
+    },
+    "sourceNote": "“Material safety data sheets” is older terminology; current documents are called safety data sheets, or SDS."
+  },
+  "book-399-82": {
+    "questionInPlainEnglish": "Which listed respiratory protection is appropriate for an assessed tuberculosis aerosol risk?",
+    "explanation": "Tuberculosis can spread through tiny airborne particles. A properly selected and fit-tested N95 or higher-level particulate respirator filters inhaled particles. A loose surgical mask does not provide the same wearer protection.",
+    "optionExplanations": [
+      "A carbon cartridge targets certain gases or vapors unless combined with a suitable particle filter; it is not the listed TB choice.",
+      "A loose mask is not equivalent to a fit-tested respirator.",
+      "Gloves protect hands but do not filter inhaled particles.",
+      "A fit-tested N95 particulate respirator is the intended answer."
+    ],
+    "memory": "TB travels in air; protect breathing with a fitted respirator.",
+    "quickCheck": {
+      "question": "Why does respirator fit matter?",
+      "answer": "Air can otherwise leak around the edges instead of passing through the filter."
+    },
+    "sourceNote": "The option conflates N95 and HEPA, which are different filter classifications. Respirator type and laboratory entry controls follow the assessed task, containment, and respiratory-protection program."
+  },
+  "book-399-83": {
+    "questionInPlainEnglish": "What should determine which gloves are used with a chemical?",
+    "explanation": "Choose gloves based on the chemical and the task, using compatibility and breakthrough-time information. A glove that stops one solvent may let another pass through even when it still looks intact.",
+    "optionExplanations": [
+      "Chemical hazard and task determine suitable material, thickness, and duration of protection.",
+      "Transport distance alone does not tell whether a glove resists the chemical.",
+      "A fume hood reduces inhalation exposure but does not decide glove compatibility.",
+      "Availability alone is not a safe selection rule."
+    ],
+    "memory": "Gloves need chemical compatibility, not just a good fit.",
+    "quickCheck": {
+      "question": "Can a glove look intact while a chemical passes through it?",
+      "answer": "Yes; permeation can occur without visible damage."
+    }
+  },
+  "book-399-84": {
+    "questionInPlainEnglish": "What maximum capacity defines the safety can asked about in this US laboratory question?",
+    "explanation": "The book’s safety-can definition sets a maximum capacity of 5 US gallons, about 19 L. Such cans have features such as a self-closing lid and pressure relief appropriate to their approval; an ordinary large drum is not the same item.",
+    "optionExplanations": [
+      "1 gallon is within the limit, but is not the maximum.",
+      "5 gallons is the maximum capacity in this definition.",
+      "20 gallons exceeds the safety-can limit described.",
+      "55 gallons is a drum-sized capacity, far above this limit."
+    ],
+    "memory": "Safety can: up to five gallons.",
+    "quickCheck": {
+      "question": "Is a 55-gallon drum the same as this defined safety can?",
+      "answer": "No."
+    },
+    "sourceNote": "Capacity and construction requirements depend on the applicable jurisdiction and approval standard; this item uses the US definition of a safety can."
+  }
+}

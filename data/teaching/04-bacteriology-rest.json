@@ -1,0 +1,686 @@
+{
+  "book-203-151": {
+    "questionInPlainEnglish": "Which bacterial family did the book place Plesiomonas in after its reclassification?",
+    "explanation": "A family is a group on the bacterial family tree. Comparing genetic information showed that Plesiomonas belonged with Enterobacteriaceae rather than its former family, Vibrionaceae. Scientists can change a family label when better evidence arrives.",
+    "optionExplanations": [
+      "The family associated with Brucella, not the placement named here.",
+      "The family selected after genetic and antigen comparisons in the book.",
+      "The family containing Legionella, a different group.",
+      "Its former placement, so this would answer the old rather than the revised classification."
+    ],
+    "memory": "Family trees can change when DNA supplies better clues.",
+    "quickCheck": {
+      "question": "Does a new family name mean the bacterium has suddenly changed into a different organism?",
+      "answer": "No. Scientists have changed its classification, not transformed the bacterium."
+    },
+    "sourceNote": "“Recently” refers to the textbook’s publication time; classification names and ranks can change again."
+  },
+  "book-203-152": {
+    "questionInPlainEnglish": "Which bacterium is the classic contamination concern in these recalled disinfectant products?",
+    "explanation": "Pseudomonas aeruginosa is common in moist environments and can survive in places where we would not expect bacteria. A product labelled disinfectant can still be contaminated if manufacturing or storage fails. The question tests an association, not a guarantee about every recalled product.",
+    "optionExplanations": [
+      "More associated with animal respiratory infection than the classic contaminated-disinfectant clue.",
+      "An important cause of pneumonia and other infections, but not the best match to this clue.",
+      "The textbook’s classic example of a moist-environment opportunist contaminating such products.",
+      "Can also contaminate healthcare products; the stem alone does not exclude it completely."
+    ],
+    "memory": "A disinfectant label is not proof that a bottle is sterile.",
+    "quickCheck": {
+      "question": "What does opportunistic mean?",
+      "answer": "It takes advantage of a chance to cause infection, especially when normal defenses are weakened."
+    },
+    "sourceNote": "Several organisms, including Serratia, have contaminated products. The book selects Pseudomonas as the intended association."
+  },
+  "book-203-153": {
+    "questionInPlainEnglish": "Which food points to the usual food-related route of brucellosis?",
+    "explanation": "Brucellosis can pass from infected animals through unpasteurized dairy foods. Pasteurization is a controlled heat treatment that reduces harmful microbes. The important clue is raw dairy, not whether the cheese came from another country.",
+    "optionExplanations": [
+      "More associated with other foodborne infections than the classic dairy route.",
+      "The intended answer when the cheese is made from contaminated unpasteurized milk.",
+      "A common food-poisoning setting, but not the characteristic Brucella exposure.",
+      "A familiar risk for several intestinal infections, not the classic dairy clue."
+    ],
+    "memory": "Brucella and raw dairy belong in the same memory box.",
+    "quickCheck": {
+      "question": "Is imported cheese automatically unsafe?",
+      "answer": "No. Pasteurization, handling and contamination matter more than the word imported."
+    },
+    "sourceNote": "The option’s wording is overly broad: domestic unpasteurized dairy can also transmit brucellosis."
+  },
+  "book-203-154": {
+    "questionInPlainEnglish": "Which enzyme is NOT one of the characteristic outside-the-cell enzymes listed for Serratia?",
+    "explanation": "Enzymes are tiny chemical tools. Serratia can release tools that break down DNA, gelatin and fats. The question asks for the exception: NADase is not the characteristic tool in this list.",
+    "optionExplanations": [
+      "A DNA-cutting enzyme that belongs to the listed Serratia abilities.",
+      "A gelatin-breaking enzyme that belongs to the listed abilities.",
+      "A fat-breaking enzyme, so it is not the exception.",
+      "An enzyme acting on NAD; it is the exception selected by the book."
+    ],
+    "memory": "DNA, gelatin, lipid: three things the listed Serratia tools can split.",
+    "quickCheck": {
+      "question": "Why should you circle NOT in this question?",
+      "answer": "Because you must choose the missing ability rather than a typical one."
+    }
+  },
+  "book-203-155": {
+    "questionInPlainEnglish": "Which disease is linked to Haemophilus ducreyi?",
+    "explanation": "H. ducreyi is associated with chancroid, an infection that can cause painful genital sores and swollen nearby lymph nodes. The other choices are different diseases with different usual causes. Similar-looking symptoms still need proper clinical testing.",
+    "optionExplanations": [
+      "The disease caused by H. ducreyi; painful ulcers are a classic association.",
+      "An infection caused by particular Chlamydia trachomatis strains, not H. ducreyi.",
+      "A Chlamydia-associated eye disease that can scar the eye.",
+      "The respiratory illness caused by Bordetella pertussis."
+    ],
+    "memory": "Ducreyi → chancroid, the painful-ulcer association.",
+    "quickCheck": {
+      "question": "Does one symptom prove which bacterium caused an infection?",
+      "answer": "No. Similar symptoms can have several causes; laboratory and clinical assessment matter."
+    }
+  },
+  "book-203-156": {
+    "questionInPlainEnglish": "Which body site in the options best matches testing for whooping cough?",
+    "explanation": "Whooping cough affects the respiratory tract. The nasopharynx is the space behind the nose, so a nasopharyngeal specimen matches the area where the organism is sought. This is about the correct site, not instructions for collecting the specimen.",
+    "optionExplanations": [
+      "The front of the nose is not the same site as the nasopharynx.",
+      "Blood is not the routine specimen indicated for this respiratory question.",
+      "Coughed-up material does not represent the recommended nasopharyngeal specimen.",
+      "The specimen from the back-of-the-nose region selected in the book."
+    ],
+    "memory": "Naso = nose; pharynx = throat region.",
+    "quickCheck": {
+      "question": "What is the difference between anterior nares and nasopharynx?",
+      "answer": "The nares are near the front openings; the nasopharynx is farther back."
+    },
+    "sourceNote": "Collection and testing must follow trained personnel’s validated clinical procedures."
+  },
+  "book-203-158": {
+    "questionInPlainEnglish": "Which listed infection is the book particularly associating with bloodstream testing?",
+    "explanation": "Brucella can cause a whole-body illness rather than staying at one surface site. The book therefore highlights a blood-based diagnostic investigation for B. canis. Actual test selection belongs to trained clinical laboratories; the question is an association exercise.",
+    "optionExplanations": [
+      "Can also cause bloodstream infection, so the broad wording does not uniquely exclude it.",
+      "The dog-associated Brucella named as the intended systemic-infection answer.",
+      "Usually investigated with site-appropriate molecular testing rather than routine blood culture.",
+      "Usually associated with intestinal disease, although bloodstream infection can occur."
+    ],
+    "memory": "Systemic means spread through the body, not confined to one local spot.",
+    "quickCheck": {
+      "question": "Can only one bacterium on this list ever enter the bloodstream?",
+      "answer": "No. The stem is broad; the book is highlighting Brucella, not ruling out every other possibility."
+    },
+    "sourceNote": "Acinetobacter and Yersinia can also cause bacteremia. The question is not a uniquely exclusive rule."
+  },
+  "book-203-159": {
+    "questionInPlainEnglish": "Which illness pattern is classically associated with Yersinia pseudotuberculosis?",
+    "explanation": "Mesenteric lymphadenitis means swollen lymph nodes in the tissue supporting the intestines. It can cause lower abdominal pain that resembles appendicitis. Break the long name into pieces: lymph means the lymph system and -itis means inflammation.",
+    "optionExplanations": [
+      "Inflammation near the airway opening, not the characteristic abdominal-node problem.",
+      "Liver inflammation; this is not the best association here.",
+      "Inflammation of abdominal lymph nodes, the intended match.",
+      "A bowel condition classically associated with C. difficile rather than this organism."
+    ],
+    "memory": "Yersinia can imitate appendicitis by inflaming nearby nodes.",
+    "quickCheck": {
+      "question": "Does abdominal pain always mean the appendix is infected?",
+      "answer": "No. Inflamed nearby lymph nodes can produce a similar picture."
+    }
+  },
+  "book-203-160": {
+    "questionInPlainEnglish": "Which bacterium is associated with the laboratory medium abbreviated CIN in this book?",
+    "explanation": "A selective medium is like a food mixture with rules that favor some organisms over others. The textbook associates CIN with Yersinia enterocolitica. Remember the organism-medium pair as an exam clue, not a recipe for growing bacteria.",
+    "optionExplanations": [
+      "A Brucella species, not the organism selected for this medium association.",
+      "A bacterium linked to certain heart infections, not this named association.",
+      "An organism sometimes linked to animal exposure, not the selected match.",
+      "The intestinal Yersinia associated with CIN in this exercise."
+    ],
+    "memory": "CIN is the Yersinia enterocolitica name-pair in this question.",
+    "quickCheck": {
+      "question": "Does growth on a named medium, by itself, prove an organism’s identity?",
+      "answer": "No. Laboratories combine several validated findings."
+    }
+  },
+  "book-203-161": {
+    "questionInPlainEnglish": "Why can finding Gardnerella in a culture fail to prove bacterial vaginosis?",
+    "explanation": "Some people carry Gardnerella without having the disease. Finding a microbe is therefore not always the same as finding the cause of symptoms. Clinicians look for the broader pattern of a disturbed vaginal microbial community.",
+    "optionExplanations": [
+      "The key problem is diagnostic meaning, not simply waiting a long time.",
+      "Correct: carriage can occur without disease, so detection alone is insufficient.",
+      "The textbook’s reason is not a special ban on growing it.",
+      "It can be detected in laboratory systems; lack of any artificial medium is not the explanation."
+    ],
+    "memory": "Present does not always mean causing disease.",
+    "quickCheck": {
+      "question": "What is colonization?",
+      "answer": "A microbe is present on or in the body without necessarily causing illness."
+    }
+  },
+  "book-203-162": {
+    "questionInPlainEnglish": "Which organism is classically paired with BCYE in the textbook?",
+    "explanation": "Legionella has particular nutritional needs. BCYE is the name of a specialized laboratory medium associated with its investigation. Think of a picky eater needing a special menu, while remembering that the name alone is only one identification clue.",
+    "optionExplanations": [
+      "An intestinal-family organism, not the characteristic BCYE association.",
+      "The organism classically associated with the specialized medium named here.",
+      "A cause of meningitis with different laboratory associations.",
+      "An intestinal pathogen with different characteristic medium associations."
+    ],
+    "memory": "Legionella → BCYE, the special-menu pair.",
+    "quickCheck": {
+      "question": "What does fastidious mean for a bacterium?",
+      "answer": "It has demanding nutritional or environmental requirements; it is not simply any organism that grows slowly."
+    }
+  },
+  "book-203-163": {
+    "questionInPlainEnglish": "Which bacterium is a familiar cause of swimmer’s ear?",
+    "explanation": "External otitis means inflammation or infection of the outer ear canal. Pseudomonas aeruginosa is a classic cause because a moist ear environment can favor this opportunist. This is an organism-disease association, not a diagnosis for every sore ear.",
+    "optionExplanations": [
+      "An important opportunist, but not the classic swimmer’s-ear association.",
+      "More associated with animal respiratory infection.",
+      "More associated with respiratory and certain invasive infections.",
+      "The classic moist-environment organism selected for external otitis."
+    ],
+    "memory": "Swimmer’s ear: outer canal, moisture, Pseudomonas.",
+    "quickCheck": {
+      "question": "Does otitis externa mean an infection deep inside the brain?",
+      "answer": "No. Externa refers to the outer ear canal."
+    }
+  },
+  "book-203-164": {
+    "questionInPlainEnglish": "Which listed organism is a classic cause of traveler’s diarrhea?",
+    "explanation": "Certain E. coli strains make toxins or otherwise disturb the intestine and cause watery diarrhea. Most E. coli are not identical in their disease-causing abilities. The question asks for the familiar travel-related association among these choices.",
+    "optionExplanations": [
+      "Can cause diarrhea, but it is not the classic intended answer here.",
+      "Certain strains are a major familiar cause of traveler’s diarrhea.",
+      "More classically associated with urinary infections than this travel syndrome.",
+      "Often linked to seafood-associated diarrhea rather than the broad travel clue."
+    ],
+    "memory": "Same species name, different strains, different illnesses.",
+    "quickCheck": {
+      "question": "Does every E. coli strain cause the same disease?",
+      "answer": "No. Different strains have different abilities; many live harmlessly in the gut."
+    }
+  },
+  "book-203-165": {
+    "questionInPlainEnglish": "Which bacterium can look like a pair of curved seagull wings?",
+    "explanation": "Campylobacter cells are curved rods. Two curved cells beside each other can resemble a bird’s outstretched wings. The shape is a clue that helps you recognize the name, not a complete identification by itself.",
+    "optionExplanations": [
+      "The curved rod associated with the gull-wing comparison.",
+      "Usually paired rounded cells, often compared with kidney beans instead.",
+      "A rod that does not have the classic gull-wing association.",
+      "A short rod, not the classic paired curved-wing picture."
+    ],
+    "memory": "Campy curves into a gull-wing shape.",
+    "quickCheck": {
+      "question": "Why is a shape only a clue?",
+      "answer": "Different organisms can resemble one another, so laboratories use additional evidence."
+    }
+  },
+  "book-203-166": {
+    "questionInPlainEnglish": "Which paired bacteria are compared with kidney beans because their touching sides look flattened?",
+    "explanation": "Neisseria gonorrhoeae is a diplococcus: diplo means paired and coccus means rounded. The touching sides can look indented, like two kidney beans. Morphology is helpful, but molecular or other validated testing is needed for a diagnosis.",
+    "optionExplanations": [
+      "A rod-shaped bacterium rather than the classic bean-shaped diplococcus.",
+      "A curved rod associated with gull wings rather than kidney beans.",
+      "The paired coccus associated with the flattened, bean-like appearance.",
+      "A small rod or coccobacillus, not the classic Neisseria pair."
+    ],
+    "memory": "Diplo = two; cocci = rounded cells.",
+    "quickCheck": {
+      "question": "Can a smear’s appearance always distinguish every Neisseria species?",
+      "answer": "No. Appearance alone is not enough, especially when other normal microbes can look similar."
+    }
+  },
+  "book-203-167": {
+    "questionInPlainEnglish": "Which organism is the EXCEPTION because it usually does not have urease activity?",
+    "explanation": "Urease is an enzyme that breaks down urea. The textbook contrasts urease-negative Salmonella with three urease-positive choices. Because the stem says NOT, select the one missing the enzyme activity.",
+    "optionExplanations": [
+      "The urease-negative exception in this comparison.",
+      "Characteristically has urease activity, so it is not the exception.",
+      "Strong urease activity is a familiar feature of this urinary pathogen.",
+      "Urease activity is a characteristic identification clue for this species."
+    ],
+    "memory": "Urea has a breaker called urease; Salmonella is the negative here.",
+    "quickCheck": {
+      "question": "What does an enzyme-negative result tell you?",
+      "answer": "That the tested activity was not detected under the validated test conditions."
+    }
+  },
+  "book-203-168": {
+    "questionInPlainEnglish": "Which Neisseria has the classic glucose-only acid-production pattern?",
+    "explanation": "The book uses sugar-use patterns to compare otherwise similar-looking Neisseria. Gonococcus is associated with glucose but not the other three sugars in this list. Think of different organisms choosing different items from a menu.",
+    "optionExplanations": [
+      "The glucose-only pattern intended by the question.",
+      "Also uses lactose and maltose in the classic comparison.",
+      "Uses glucose and maltose, so it is not glucose-only.",
+      "Has a broader sugar-use pattern, including sucrose in the classic scheme."
+    ],
+    "memory": "Gonococcus: G for glucose in this classic comparison.",
+    "quickCheck": {
+      "question": "Why are biochemical differences useful when organisms look alike?",
+      "answer": "They provide another kind of evidence beyond appearance."
+    },
+    "sourceNote": "These are classic acid-production patterns; modern molecular testing is widely used and a diagnosis is not restricted to culture."
+  },
+  "book-203-169": {
+    "questionInPlainEnglish": "Which Neisseria has the classic glucose-plus-maltose pattern?",
+    "explanation": "Meningococcus is associated with using glucose and maltose but not lactose or sucrose in the textbook scheme. Adding one extra sugar clue separates it from the glucose-only gonococcus.",
+    "optionExplanations": [
+      "The classic glucose-only choice, so maltose does not fit.",
+      "Its lactose use gives it a broader pattern than the one asked for.",
+      "The glucose-and-maltose combination selected by the book.",
+      "Its broader pattern includes sucrose in the classic scheme."
+    ],
+    "memory": "Meningococcus adds M for maltose.",
+    "quickCheck": {
+      "question": "What one sugar helps separate the two classic pathogenic Neisseria patterns here?",
+      "answer": "Maltose: the textbook associates its use with meningococcus."
+    }
+  },
+  "book-203-170": {
+    "questionInPlainEnglish": "Which organism causes Oroya fever, an illness that can destroy red blood cells?",
+    "explanation": "Bartonella bacilliformis can infect red blood cells and cause severe anemia in the acute illness called Oroya fever. Hemolytic means red cells are being broken apart. The name of the disease-organism pair is the key lesson here.",
+    "optionExplanations": [
+      "The Bartonella species associated with Oroya fever.",
+      "Associated with glanders, not the Oroya-fever association.",
+      "Associated with eye infection, not the classic red-cell illness here.",
+      "The cause of plague, a different disease."
+    ],
+    "memory": "Bacilliformis breaks into the Oroya-fever memory pair.",
+    "quickCheck": {
+      "question": "What does hemolysis mean?",
+      "answer": "Breakdown of red blood cells, which can lower the blood’s oxygen-carrying capacity."
+    }
+  },
+  "book-203-172": {
+    "questionInPlainEnglish": "Which organism is associated with the ability to remove an amino group from phenylalanine?",
+    "explanation": "Phenylalanine is an amino acid, a building block of proteins. Deamination means removing its amino group. Proteus vulgaris has the characteristic activity named in this question; the test is a clue to identity, not a measure of how dangerous an infection is.",
+    "optionExplanations": [
+      "Not the characteristic positive organism in this comparison.",
+      "A respiratory-associated bacterium, not this amino-acid-reaction clue.",
+      "The organism associated with this deaminase activity.",
+      "A Salmonella serovar, not the characteristic positive choice."
+    ],
+    "memory": "De-amination = taking the amino group away.",
+    "quickCheck": {
+      "question": "Does deaminase activity measure antibiotic susceptibility?",
+      "answer": "No. It is a metabolic identification characteristic, not a treatment result."
+    }
+  },
+  "book-203-173": {
+    "questionInPlainEnglish": "Which bacterial genus characteristically does not move by itself?",
+    "explanation": "Motility means the ability of a cell to move using its own structures, such as flagella. Klebsiella is characteristically nonmotile in this comparison. Not moving does not mean the organism is harmless.",
+    "optionExplanations": [
+      "Usually associated with motility in the classic comparison.",
+      "The nonmotile genus selected here.",
+      "Usually motile, with some species or strains as exceptions.",
+      "Usually associated with motility rather than this nonmotile clue."
+    ],
+    "memory": "Klebsiella keeps still.",
+    "quickCheck": {
+      "question": "Does a nonmotile bacterium still spread between people or places?",
+      "answer": "Yes. Transport can occur without the cell swimming by itself."
+    }
+  },
+  "book-203-174": {
+    "questionInPlainEnglish": "Which organism’s name is linked to a violet pigment?",
+    "explanation": "Chromobacterium violaceum can make a violet-colored pigment. Pigment means a substance that gives color, like ink. The species name violaceum gives you a useful language clue to the book’s answer.",
+    "optionExplanations": [
+      "The violet-pigment association named in the question.",
+      "An older name for Elizabethkingia meningoseptica, not the violet clue.",
+      "Often linked to blue-green pigment, a different color association.",
+      "Some strains produce a red pigment rather than violet."
+    ],
+    "memory": "Violaceum sounds like violet.",
+    "quickCheck": {
+      "question": "Is color alone enough for a complete bacterial identification?",
+      "answer": "No. Color is one clue and may vary; other evidence is needed."
+    }
+  },
+  "book-203-175": {
+    "questionInPlainEnglish": "Which statement about Pasteurella multocida is FALSE?",
+    "explanation": "P. multocida is a familiar inhabitant of many animals’ mouths. Bites or scratches can introduce it into human tissues. The false choice wrongly treats humans as its usual normal-flora home.",
+    "optionExplanations": [
+      "Soft-tissue, bone and joint infection can follow an animal bite.",
+      "The intended false statement: the classic reservoir is animal mouths, not ordinary human flora.",
+      "A broad textbook comparison, not a reliable universal ranking of every strain’s virulence.",
+      "Compatible with the book’s laboratory description; it is not the intended false choice."
+    ],
+    "memory": "Pasteurella: pet mouth to bite wound.",
+    "quickCheck": {
+      "question": "Why can an animal’s normal mouth microbe cause trouble in a person’s wound?",
+      "answer": "A microbe in its normal home can cause disease when introduced into a different site."
+    },
+    "sourceNote": "Rare human carriage can occur; the book’s normal-flora contrast is a classic generalization, not an absolute impossibility."
+  },
+  "book-203-176": {
+    "questionInPlainEnglish": "Which organism best matches a pus-forming infection with a soluble green pigment?",
+    "explanation": "Pseudomonas aeruginosa is associated with blue-green pigments and can cause serious infections in people with weakened defenses. Empyema means pus collected in a body space, commonly around the lung. The pigment is the exam clue, not a stand-alone diagnosis.",
+    "optionExplanations": [
+      "Associated with violet pigment, not the classic blue-green clue.",
+      "A cause of pneumonia, but not the characteristic green-pigment association.",
+      "The classic organism-pigment match selected here.",
+      "Associated with red pigment in some strains, not green."
+    ],
+    "memory": "Aeruginosa recalls a blue-green color.",
+    "quickCheck": {
+      "question": "What is an empyema?",
+      "answer": "A collection of pus in an existing body cavity or space."
+    }
+  },
+  "book-203-178": {
+    "questionInPlainEnglish": "Which description is the WRONG one for Aeromonas hydrophila?",
+    "explanation": "ONPG is a laboratory indicator of an enzyme involved in breaking down a sugar-related substrate. Aeromonas is characteristically ONPG positive in this textbook comparison. Therefore saying negative is the exception.",
+    "optionExplanations": [
+      "Complete red-cell breakdown can be part of its classic description.",
+      "Catalase activity is compatible with the organism.",
+      "The false description: the expected textbook reaction is positive.",
+      "Oxidase positivity is compatible with the organism."
+    ],
+    "memory": "Aero’s ONPG is ON in this comparison.",
+    "quickCheck": {
+      "question": "Why should a negative-word question make you slow down?",
+      "answer": "You are looking for the false description, not collecting true features."
+    }
+  },
+  "book-203-179": {
+    "questionInPlainEnglish": "Which organism can Edwardsiella tarda resemble in a biochemical identification pattern?",
+    "explanation": "Edwardsiella tarda and Salmonella can share several screening features. Similar features can point laboratories toward the wrong name unless additional evidence is checked. Think of two classmates with similar uniforms: the uniform alone is not an identity card.",
+    "optionExplanations": [
+      "The intended look-alike in this metabolic comparison.",
+      "Some strains cause serious diarrhea, but not the classic look-alike named here.",
+      "Has a different characteristic metabolic profile.",
+      "Also an intestinal pathogen, but not the selected biochemical resemblance."
+    ],
+    "memory": "Similar test patterns need another identity clue.",
+    "quickCheck": {
+      "question": "Does resemblance in a few tests make two organisms the same species?",
+      "answer": "No. Shared features do not erase their other differences."
+    }
+  },
+  "book-203-180": {
+    "questionInPlainEnglish": "Which required growth factor is investigated by the porphyrin test?",
+    "explanation": "Porphyrins are building blocks used in making heme-related compounds. The test asks whether an organism can make these compounds itself. If it can, it does not need supplied hemin, also called X factor. A positive test therefore means less dependence, not more.",
+    "optionExplanations": [
+      "An amino acid, not the heme-related factor this test concerns.",
+      "Hemin, or X factor, is the requirement being investigated.",
+      "NAD is V factor, a different requirement.",
+      "A sulfur-containing chemical group rather than the specific X factor."
+    ],
+    "memory": "Porphyrin production means the cell can supply its own heme pathway needs.",
+    "quickCheck": {
+      "question": "Does a positive porphyrin test mean X factor must be supplied?",
+      "answer": "No. It indicates the organism can make the relevant compounds itself."
+    }
+  },
+  "book-203-181": {
+    "questionInPlainEnglish": "Which organism combines a respiratory association with rapid urease activity in this comparison?",
+    "explanation": "Bordetella bronchiseptica is known for animal respiratory disease and can occasionally infect people. Urease is one of its metabolic identification clues. The question combines an illness location with an enzyme activity rather than asking about one clue alone.",
+    "optionExplanations": [
+      "The Bordetella species fitting both clues in this question.",
+      "Can cause systemic disease, but not the intended occasional respiratory-organism comparison.",
+      "Associated with other infection patterns rather than the keyed combination.",
+      "A common intestinal and urinary organism, not the intended respiratory association."
+    ],
+    "memory": "Bronchiseptica hints at bronchi, the lung’s airways.",
+    "quickCheck": {
+      "question": "Why can two clues identify better than one?",
+      "answer": "An organism must fit their combination, not merely share a single feature."
+    }
+  },
+  "book-203-182": {
+    "questionInPlainEnglish": "Which organism is a very common cause of an uncomplicated bladder infection caught outside hospital?",
+    "explanation": "Cystitis means inflammation of the bladder. E. coli from the intestinal flora is a common cause of community-acquired bacterial bladder infection. Community-acquired means it began outside the healthcare setting; it does not mean the illness is unimportant.",
+    "optionExplanations": [
+      "Can cause urinary infection, but is not the most common usual answer here.",
+      "The classic leading cause of uncomplicated community-acquired bacterial cystitis.",
+      "Can cause urinary infection, but is less common in this particular comparison.",
+      "Can cause urinary infection, but does not outrank E. coli as the general answer."
+    ],
+    "memory": "E. coli can move from the gut neighborhood to the urinary tract.",
+    "quickCheck": {
+      "question": "Does cystitis mean every part of the kidney is infected?",
+      "answer": "No. The word points to the bladder; kidney infection is a different location."
+    }
+  },
+  "book-203-183": {
+    "questionInPlainEnglish": "Which organism is known for the satellite-growth appearance described in the textbook?",
+    "explanation": "A satellite is something small near something larger. Haemophilus influenzae depends on NAD, also called V factor, a molecule needed in the cell’s energy-related chemistry. In the classic observation a neighboring organism supplies that missing factor. It is a guest benefiting from a neighbor’s supplies, not a procedure to copy.",
+    "optionExplanations": [
+      "B. pseudomallei causes melioidosis; it is not the classic Haemophilus dependency on a nearby supplier of V factor.",
+      "Known for curved cells, not this classic growth association.",
+      "H. influenzae needs supplied NAD, or V factor, which explains the textbook’s satellite-growth association.",
+      "Y. pestis causes plague, not the classic Haemophilus helper-factor association described here."
+    ],
+    "memory": "Satellites point to a nearby helper supplying something missing.",
+    "quickCheck": {
+      "question": "Why might an organism appear near a helper but not elsewhere?",
+      "answer": "The helper supplies NAD, called V factor, which Haemophilus needs for metabolism."
+    }
+  },
+  "book-203-1": {
+    "questionInPlainEnglish": "Which genus is classically associated with a bile-esculin-positive identification clue?",
+    "explanation": "Esculin is a chemical that some bacteria can split. The resulting product can produce a dark reaction in the test system. Enterococcus is the intended genus; remember that a screening reaction is a clue, not proof by itself.",
+    "optionExplanations": [
+      "A nutritionally demanding genus, not the classic keyed association.",
+      "A different group of rods, not the intended screening genus.",
+      "The classic positive genus named in this question.",
+      "Some species have different test reactions, but this is not the keyed screening association."
+    ],
+    "memory": "Enterococcus is the bile-esculin name-pair.",
+    "quickCheck": {
+      "question": "Does one positive reaction identify every organism without further checking?",
+      "answer": "No. Identification depends on a combination of validated observations."
+    }
+  },
+  "book-203-5": {
+    "questionInPlainEnglish": "Which illness results from the skin-loosening toxin of Staphylococcus aureus?",
+    "explanation": "Exfoliate means peel away. The toxin disrupts attachments between some outer skin cells, so skin can blister and peel. This explains the name scalded skin syndrome, even though no actual hot-water burn caused the damage.",
+    "optionExplanations": [
+      "An intestinal illness associated with enterotoxin, not the skin-peeling toxin.",
+      "A whole-body toxin syndrome caused by different toxin effects.",
+      "The skin-peeling illness matched to exfoliative toxin.",
+      "A lung infection, not the characteristic peeling-skin syndrome."
+    ],
+    "memory": "Exfoliative toxin makes skin cells lose their grip.",
+    "quickCheck": {
+      "question": "Why does scalded skin syndrome look like a burn without heat?",
+      "answer": "Skin-cell attachments are damaged by toxin rather than hot water."
+    }
+  },
+  "book-203-11": {
+    "questionInPlainEnglish": "Which infection is particularly associated with Staphylococcus saprophyticus?",
+    "explanation": "S. saprophyticus is a recognized cause of urinary tract infection, especially in young women. It is different from S. aureus, which is more often associated with many skin and invasive infections. The surname helps keep two staphylococci from being mixed up.",
+    "optionExplanations": [
+      "Boils are more classically linked to S. aureus.",
+      "A superficial skin infection often linked to other staphylococcal or streptococcal organisms.",
+      "A middle-ear illness, not the characteristic association here.",
+      "The urinary-tract association selected by the textbook."
+    ],
+    "memory": "Saprophyticus: remember the urinary tract, not a skin boil.",
+    "quickCheck": {
+      "question": "Does belonging to the same genus mean two species cause identical illnesses?",
+      "answer": "No. Species within a genus can have different common disease associations."
+    }
+  },
+  "book-203-23": {
+    "questionInPlainEnglish": "Which streptolysin is mainly responsible for the surface hemolysis described here?",
+    "explanation": "Streptolysins are substances that can damage red blood cells. Streptolysin S remains active in the presence of oxygen, whereas streptolysin O is oxygen-sensitive. That contrast explains why the book selects S for the exposed surface observation.",
+    "optionExplanations": [
+      "Not the named streptolysin pair used in this classic comparison.",
+      "M is better known in this organism as a surface-protein name, not the intended hemolysin.",
+      "The oxygen-sensitive streptolysin, so it does not best explain the exposed surface clue.",
+      "The oxygen-stable streptolysin selected by the book."
+    ],
+    "memory": "S stays stable; O is oxygen-sensitive.",
+    "quickCheck": {
+      "question": "Does hemolysis refer to breaking down bacteria or red cells?",
+      "answer": "Red cells: hemo points to blood."
+    }
+  },
+  "book-203-30": {
+    "questionInPlainEnglish": "Which feature fits Enterococcus faecium rather than contradicting its usual textbook profile?",
+    "explanation": "Enterococci can tolerate conditions that many related bacteria do not. The book highlights salt tolerance as one identification characteristic. A tolerance trait helps distinguish organisms; it does not tell us which medicine will work.",
+    "optionExplanations": [
+      "Bile tolerance, rather than the proposed inhibition, is the classic comparison.",
+      "Salt tolerance is the characteristic selected by the book.",
+      "Enterococci are usually PYR positive, so negative is not the expected feature.",
+      "Beta hemolysis is not the usual defining E. faecium feature in this comparison."
+    ],
+    "memory": "Enterococci endure salt in the textbook comparison.",
+    "quickCheck": {
+      "question": "Does salt tolerance prove an antibiotic will fail?",
+      "answer": "No. Environmental tolerance and antibiotic susceptibility are different questions."
+    }
+  },
+  "book-203-51": {
+    "questionInPlainEnglish": "Which organism can Listeria colonies resemble enough to confuse a visual first impression?",
+    "explanation": "Listeria can make small colonies with a zone of red-cell breakdown, resembling group B streptococci. But Listeria cells are rods while streptococci are cocci. A similar colony appearance is therefore not the same as an identical organism.",
+    "optionExplanations": [
+      "A different rod, not the classic streptococcal look-alike here.",
+      "Group B Streptococcus is the colony look-alike named in the book.",
+      "Not the beta-hemolytic look-alike selected here.",
+      "Not the intended small-colony streptococcal comparison."
+    ],
+    "memory": "Listeria can look like strep from far away, but the cells tell another story.",
+    "quickCheck": {
+      "question": "What shape difference helps separate Listeria from streptococci?",
+      "answer": "Listeria are rods; streptococci are rounded cocci."
+    }
+  },
+  "book-203-60": {
+    "questionInPlainEnglish": "Which organism is a leading usual cause of bacterial joint infection in adults?",
+    "explanation": "Bacterial arthritis means bacteria have infected a joint. Staphylococcus aureus is a common important cause in adults, sometimes reaching the joint through the blood. The question asks for the commonest general association among these choices, not the only possible cause.",
+    "optionExplanations": [
+      "Can cause certain serious infections, but is not the leading joint-infection choice.",
+      "Not the commonest general adult bacterial arthritis answer.",
+      "The important common adult joint pathogen selected by the book.",
+      "Can cause joint infection, but is not the leading general answer here."
+    ],
+    "memory": "Aureus is an important adult-joint-infection name.",
+    "quickCheck": {
+      "question": "Can a joint infection begin from bacteria elsewhere in the body?",
+      "answer": "Yes. Bacteria can reach the joint through the bloodstream."
+    },
+    "sourceNote": "Common causes vary with age, risk factors and setting; the book’s childhood comparison is not a universal current ranking."
+  },
+  "book-203-61": {
+    "questionInPlainEnglish": "Which organism is associated with infections linked to deli foods and unpasteurized dairy?",
+    "explanation": "Listeria monocytogenes is a foodborne organism that can cause serious illness in some groups, including pregnant people and newborns. The food association is the clue. This does not mean every product in that food category is contaminated.",
+    "optionExplanations": [
+      "A common environmental bacterium, not the classic association in this stem.",
+      "The foodborne organism selected for the deli/dairy association.",
+      "Used in some food fermentations, but not the intended invasive foodborne illness.",
+      "Important in newborn infection, but not the food-exposure match named here."
+    ],
+    "memory": "Listeria: think about the food clue and vulnerable groups.",
+    "quickCheck": {
+      "question": "Does foodborne mean infection is caused by food allergy?",
+      "answer": "No. It means an infectious agent or its products are transmitted through food."
+    }
+  },
+  "book-203-79": {
+    "questionInPlainEnglish": "Which organism fits BOTH oxidase positivity and lack of glucose fermentation?",
+    "explanation": "Oxidase is an enzyme-related identification reaction. Fermentation is a particular way of using sugars. Pseudomonas can use glucose through a different pathway without being a glucose fermenter, so nonfermenter does not mean it cannot use glucose at all.",
+    "optionExplanations": [
+      "Often oxidase positive, but it is a glucose fermenter, so only one clue fits.",
+      "A glucose fermenter that is usually oxidase negative.",
+      "A glucose fermenter that is usually oxidase negative.",
+      "The classic oxidase-positive nonfermenter fitting both clues."
+    ],
+    "memory": "Nonfermenting is not the same as not using sugar.",
+    "quickCheck": {
+      "question": "Why is Aeromonas not the best answer even though oxidase can be positive?",
+      "answer": "It fails the second clue: it ferments glucose."
+    }
+  },
+  "book-203-101": {
+    "questionInPlainEnglish": "Which infection can be followed by red-cell damage and kidney injury called HUS?",
+    "explanation": "Hemolytic uremic syndrome combines destruction of red cells, low platelets and kidney injury. Shiga-toxin-producing E. coli, including O157:H7, is a classic infection associated with this complication. The kidney’s tiny vessels can be injured; the syndrome is not just ordinary diarrhea.",
+    "optionExplanations": [
+      "The classic Shiga-toxin-producing E. coli association in this question.",
+      "The cause of typhoid fever rather than the characteristic HUS association.",
+      "Classically causes severe watery diarrhea, not the same usual toxin-associated HUS pattern.",
+      "An intestinal pathogen, but not the classic answer among these options."
+    ],
+    "memory": "HUS: hurt red cells, used-up platelets, struggling kidneys.",
+    "quickCheck": {
+      "question": "Which organ problem makes HUS more than a bowel infection?",
+      "answer": "Kidney injury is a major part of the syndrome."
+    }
+  },
+  "book-203-102": {
+    "questionInPlainEnglish": "Which water-associated genus can affect aquatic animals and humans?",
+    "explanation": "Aeromonas is associated with water environments and can cause disease in fish, reptiles and people. The name gives a useful memory link to an aquatic setting, but exposure alone cannot prove which organism caused an illness.",
+    "optionExplanations": [
+      "The water-associated, fermentative genus matching the full clue.",
+      "A water/soil organism too, but not the classic animal-disease association intended here.",
+      "An environmental group, but not the selected fermentative aquatic-animal match.",
+      "A common intestinal-associated genus, not the specific aquatic-animal clue."
+    ],
+    "memory": "Aeromonas links water, aquatic animals and possible human infection.",
+    "quickCheck": {
+      "question": "Can an organism affect more than one kind of host?",
+      "answer": "Yes. Some organisms can cause disease in several animal groups, including humans."
+    }
+  },
+  "book-203-111": {
+    "questionInPlainEnglish": "Which statement is FALSE about Acinetobacter?",
+    "explanation": "Acinetobacter can be difficult to treat because resistance to several antibiotics is common in important clinical strains. The false choice says the opposite: that most antibiotics usually work. A resistance pattern must be measured, not guessed from a single feature.",
+    "optionExplanations": [
+      "The intended false statement: broad susceptibility cannot be assumed.",
+      "Short, plump rods or coccobacilli fit the usual description.",
+      "Oxidase negativity is a familiar identifying characteristic.",
+      "Device-associated healthcare infections are a recognized association."
+    ],
+    "memory": "Acinetobacter: do not assume antibiotic susceptibility.",
+    "quickCheck": {
+      "question": "Does resistance to some medicines mean every strain resists every medicine?",
+      "answer": "No. The actual susceptibility profile depends on the strain and testing."
+    }
+  },
+  "book-203-117": {
+    "questionInPlainEnglish": "Which description does NOT fit disease-causing Vibrio cholerae strains?",
+    "explanation": "Motility means moving under the cell’s own power. V. cholerae is motile, so the option calling it nonmotile is the false statement. The other choices concern attachment, mucus-related activity and toxin production associated with disease.",
+    "optionExplanations": [
+      "Attachment to intestinal lining cells is part of the disease story.",
+      "A mucus-related enzyme activity is compatible with the textbook description.",
+      "The false statement: the organism is characteristically motile.",
+      "Toxin production is important to the classic severe watery-diarrhea illness."
+    ],
+    "memory": "Vibrio can move; NOT motile is the trap.",
+    "quickCheck": {
+      "question": "What is an enterocyte?",
+      "answer": "A cell in the lining of the intestine."
+    }
+  },
+  "book-203-126": {
+    "questionInPlainEnglish": "Which organism is characteristically unable to use citrate as the only carbon source in this comparison?",
+    "explanation": "Carbon is a basic ingredient cells need to build and power themselves. The citrate reaction asks whether citrate can fill that role on its own in the test system. Shigella boydii is the classic negative choice here.",
+    "optionExplanations": [
+      "Usually citrate positive, so it does not fit the negative result.",
+      "Usually citrate positive in the classic scheme; its modern name is Klebsiella aerogenes.",
+      "Usually citrate positive rather than the expected negative choice.",
+      "The citrate-negative organism selected by the book."
+    ],
+    "memory": "A negative citrate result means citrate alone is not enough.",
+    "quickCheck": {
+      "question": "Does citrate negative mean a bacterium needs no carbon?",
+      "answer": "No. It means it cannot use citrate as the sole carbon source in that test."
+    }
+  },
+  "book-203-127": {
+    "questionInPlainEnglish": "Which statement fits the careful laboratory handling requirements of gonococcus in this textbook?",
+    "explanation": "Gonococcus is fastidious and delicate: it has particular requirements and may not survive unsuitable transport conditions. The intended option names its association with increased carbon dioxide. This is a conceptual test of the organism’s needs, not a culture protocol.",
+    "optionExplanations": [
+      "Cold enrichment is not the appropriate association for this delicate organism.",
+      "The textbook’s intended carbon-dioxide association; “Co,” in the OCR means CO2.",
+      "CIN is associated with other intestinal organisms, not the gonococcus-specific choice.",
+      "Refrigeration can impair recovery, so claiming no effect is unreliable."
+    ],
+    "memory": "Delicate organisms need validated transport, not guessed handling.",
+    "quickCheck": {
+      "question": "What does fastidious mean?",
+      "answer": "Having demanding requirements that must be met by a validated laboratory system."
+    },
+    "sourceNote": "The question concerns source interpretation. Actual specimen handling and testing must follow current trained-laboratory procedures."
+  }
+}

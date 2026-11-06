@@ -1,0 +1,440 @@
+{
+  "book-1-3": {
+    "questionInPlainEnglish": "Which statement is NOT characteristic of blood-forming stem cells?",
+    "explanation": "A hematopoietic stem cell can renew itself and ultimately supply every blood-cell family. It cannot be reliably recognized just by its appearance. CD34 is a commonly used stem/progenitor marker; CD13 mainly identifies myeloid differentiation.",
+    "optionExplanations": [
+      "Self-renewal keeps the stem-cell pool supplied, so this is characteristic.",
+      "Stem cells ultimately produce lineage-committed progenitors, so this is characteristic.",
+      "CD13 is a myeloid marker rather than the intended stem-cell marker, making this the exception.",
+      "These cells cannot be reliably distinguished by routine morphology, so this is characteristic."
+    ],
+    "memory": "Stem-cell identification: CD34, not the myeloid marker CD13.",
+    "quickCheck": {
+      "question": "What does stem-cell self-renewal mean?",
+      "answer": "Making more stem cells while preserving the stem-cell pool."
+    },
+    "sourceNote": "No single marker identifies every functional hematopoietic stem cell; CD34 is the book’s conventional stem/progenitor marker."
+  },
+  "book-1-31": {
+    "questionInPlainEnglish": "What are the coarse red-cell dots seen in lead poisoning made of, and what are they called?",
+    "explanation": "Lead impairs normal breakdown of ribosomal RNA. Leftover ribosomes collect into blue-staining dots called basophilic stippling. These dots are different from iron granules or leftover nuclear DNA.",
+    "optionExplanations": [
+      "Precipitated hemoglobin forms Heinz bodies, not Pappenheimer bodies.",
+      "Aggregated ribosomes form basophilic stippling, so both parts fit.",
+      "Nuclear fragments are Howell-Jolly bodies, not Pappenheimer bodies.",
+      "Iron deposits are Pappenheimer bodies, not basophilic stippling."
+    ],
+    "memory": "Stippling is scattered ribosomal RNA; Prussian-blue-positive granules are iron.",
+    "quickCheck": {
+      "question": "What cellular material produces basophilic stippling?",
+      "answer": "Aggregated ribosomal RNA."
+    }
+  },
+  "book-1-34": {
+    "questionInPlainEnglish": "Which statement about absorbing iron from food is true?",
+    "explanation": "When marrow works harder to make red cells, it needs more iron. Signals reduce hepcidin and promote iron absorption. Absorption occurs chiefly in the duodenum and nearby upper small bowel, and an acidic environment helps nonheme iron become available.",
+    "optionExplanations": [
+      "The ileum is not the main iron-absorption site; the duodenum is.",
+      "Absorption control is not perfect, so excessive iron can still enter.",
+      "Greater red-cell production generally increases iron absorption, making this correct.",
+      "An acidic rather than alkaline environment favors nonheme iron absorption."
+    ],
+    "memory": "More erythropoiesis asks the gut for more iron.",
+    "quickCheck": {
+      "question": "Where is most dietary iron absorbed?",
+      "answer": "The duodenum and proximal small intestine."
+    }
+  },
+  "book-1-41": {
+    "questionInPlainEnglish": "What does finding fragmented red cells usually indicate?",
+    "explanation": "Schistocytes are broken pieces of red cells. They form when physical forces or severe membrane injury tear cells apart, so they suggest increased destruction rather than simply too little production.",
+    "optionExplanations": [
+      "Iron mobilization means moving stored iron and does not explain cell fragments.",
+      "Increased red-cell destruction fits the fragmented-cell appearance.",
+      "Reduced EPO can lower production but does not normally tear cells into pieces.",
+      "Reduced proliferation makes too few cells, not characteristic fragments."
+    ],
+    "memory": "Schistocytes are shards: think red-cell damage.",
+    "quickCheck": {
+      "question": "Are schistocytes whole healthy cells or red-cell fragments?",
+      "answer": "Red-cell fragments."
+    }
+  },
+  "book-1-50": {
+    "questionInPlainEnglish": "What is the main form used to store iron in the body?",
+    "explanation": "Ferritin holds iron inside a protein shell, keeping it safely available for future use. Hemosiderin is another, less soluble storage form that becomes more prominent with larger deposits.",
+    "optionExplanations": [
+      "Ferritin is the main readily available iron-storage form.",
+      "Transferrin carries iron through plasma rather than storing most reserves.",
+      "Hemosiderin stores iron too, but is not the main soluble storage form asked for.",
+      "Hemachromatin is not the standard major iron-storage protein."
+    ],
+    "memory": "Ferritin stores; transferrin transports.",
+    "quickCheck": {
+      "question": "Which iron protein carries iron in plasma?",
+      "answer": "Transferrin."
+    }
+  },
+  "book-1-61": {
+    "questionInPlainEnglish": "Which anemia is caused by faulty DNA synthesis?",
+    "explanation": "Megaloblastic anemia develops when nuclei cannot make DNA and divide normally. B12 or folate deficiency commonly causes it. Cytoplasm keeps growing while nuclear development lags, producing unusually large precursors and often large circulating cells.",
+    "optionExplanations": [
+      "Hb C disease changes globin structure rather than primarily impairing DNA metabolism.",
+      "Iron deficiency limits hemoglobin production rather than DNA synthesis.",
+      "Sideroblastic anemia impairs heme production and traps iron in precursor mitochondria.",
+      "Megaloblastic anemia is defined by the abnormal maturation caused by impaired DNA synthesis."
+    ],
+    "memory": "Megaloblasts grow while their DNA divisions lag.",
+    "quickCheck": {
+      "question": "Name two vitamin deficiencies that cause megaloblastic anemia.",
+      "answer": "Vitamin B12 and folate deficiency."
+    }
+  },
+  "book-1-63": {
+    "questionInPlainEnglish": "Which statement reverses the amino-acid change in hemoglobin E and is therefore FALSE?",
+    "explanation": "The notation means two normal alpha chains and two beta chains in which lysine replaces glutamic acid at position 26. Read the arrow as old amino acid to new amino acid: Glu to Lys.",
+    "optionExplanations": [
+      "Two normal alpha chains fit the alpha2 part of the notation.",
+      "Saying glutamic acid replaces lysine reverses the actual change and is false.",
+      "Hb E is a very common global variant, especially in Southeast Asia; this fits the book’s description.",
+      "Glutamic acid is normally at beta position 26, so this is true."
+    ],
+    "memory": "E is beta-26: glutamate exits, lysine enters.",
+    "quickCheck": {
+      "question": "Which amino acid replaces glutamic acid in Hb E?",
+      "answer": "Lysine."
+    },
+    "sourceNote": "The hemoglobin formula in the stem is OCR-damaged; the intended notation is alpha2 beta2 26 Glu→Lys."
+  },
+  "book-1-100": {
+    "questionInPlainEnglish": "What does mild microcytosis with an Hb A2 level of 5% suggest?",
+    "explanation": "Beta-thalassemia trait reduces beta-chain production. More alpha chains pair with delta chains, increasing Hb A2. Mild small-cell anemia plus a clearly raised Hb A2 therefore favors beta-thalassemia trait over alpha-thalassemia trait or uncomplicated iron deficiency.",
+    "optionExplanations": [
+      "Iron deficiency causes microcytosis but does not usually raise Hb A2 to 5%.",
+      "Alpha-thalassemia trait often has normal Hb A2 rather than this increase.",
+      "Heterozygous beta-thalassemia fits the mild anemia, microcytosis, target cells, and raised Hb A2.",
+      "Hb S/beta-thalassemia requires evidence of Hb S, which this stem does not supply."
+    ],
+    "memory": "Small cells plus high A2 points to beta-thalassemia trait.",
+    "quickCheck": {
+      "question": "Which adult minor hemoglobin fraction often rises in beta-thalassemia trait?",
+      "answer": "Hb A2."
+    },
+    "sourceNote": "The source overstates that stippling occurs only in thalassemia; it has several causes. Hb S/beta-thalassemia severity also varies with genotype."
+  },
+  "book-1-110": {
+    "questionInPlainEnglish": "Which statement about hereditary elliptocytosis is true?",
+    "explanation": "Hereditary elliptocytosis usually affects the red-cell membrane skeleton, including spectrin or protein 4.1. As cells deform in circulation, they cannot fully recover their usual shape and remain oval or elliptical.",
+    "optionExplanations": [
+      "The characteristic oval shape develops in circulating mature red cells, making this true.",
+      "Rh-null associations are more relevant to certain stomatocytic membrane disorders, not the defining HE pattern.",
+      "Altered lipid composition is more characteristic of acanthocytosis than the usual HE skeleton defect.",
+      "Abnormal calcium permeability is not the defining common HE mechanism."
+    ],
+    "memory": "Elliptocytosis: the skeleton fails to spring back to a disc.",
+    "quickCheck": {
+      "question": "Name a membrane-skeleton protein that can be defective in hereditary elliptocytosis.",
+      "answer": "Spectrin or protein 4.1."
+    }
+  },
+  "book-1-138": {
+    "questionInPlainEnglish": "Which disorder does NOT commonly enlarge the spleen?",
+    "explanation": "Chronic hemolytic disorders make the spleen work harder removing damaged red cells, and some also restart blood production there. Folate deficiency primarily causes ineffective maturation within marrow, so obvious splenic enlargement is less characteristic.",
+    "optionExplanations": [
+      "Beta-thalassemia major can enlarge the spleen through destruction and extramedullary blood production.",
+      "Hereditary spherocytosis commonly causes splenic trapping and enlargement.",
+      "Hb SC disease can cause chronic hemolysis with a persistently enlarged spleen.",
+      "Folate deficiency is the least typical cause of splenomegaly among these choices."
+    ],
+    "memory": "A busy red-cell filter often grows; folate failure mainly occurs in marrow.",
+    "quickCheck": {
+      "question": "Why can beta-thalassemia major enlarge the spleen?",
+      "answer": "Increased red-cell removal and extramedullary hematopoiesis."
+    },
+    "sourceNote": "Megaloblastic anemia can occasionally cause splenomegaly; this is a relative association. “Leukocytes” appended to the option is a section heading, not part of the answer."
+  },
+  "book-1-152": {
+    "questionInPlainEnglish": "What major problem is associated with a low absolute neutrophil count?",
+    "explanation": "Neutrophils provide rapid defense against bacteria and fungi. A low absolute count weakens that defense. Risk depends on how low the count is, how long it remains low, and the patient’s other conditions.",
+    "optionExplanations": [
+      "Shortness of breath more directly suggests anemia or heart/lung disease, not the key isolated neutropenia effect.",
+      "Bleeding is more directly linked to platelet or clotting problems.",
+      "Infection risk is the main consequence of reduced neutrophil defense.",
+      "A patient may feel well initially, but “no clinical symptoms” misses the associated infection risk."
+    ],
+    "memory": "Low neutrophils leave fewer first responders against infection.",
+    "quickCheck": {
+      "question": "What happens to infection risk as severe neutropenia lasts longer?",
+      "answer": "It generally increases."
+    }
+  },
+  "book-1-170": {
+    "questionInPlainEnglish": "Which item is NOT newly made as a chemical product of the neutrophil respiratory burst?",
+    "explanation": "The respiratory burst generates reactive oxygen chemicals that help kill ingested microbes. Myeloperoxidase is different: it is an enzyme already stored in primary granules and uses burst products to make additional antimicrobial chemicals.",
+    "optionExplanations": [
+      "Hydroxyl radicals are reactive oxygen species that can arise during oxidative killing.",
+      "Hydrogen peroxide is produced through the respiratory-burst pathway.",
+      "Superoxide is an early reactive oxygen product made by NADPH oxidase.",
+      "Myeloperoxidase is a preformed granule enzyme, not a newly generated burst metabolite."
+    ],
+    "memory": "Burst makes oxygen chemicals; granules already contain myeloperoxidase.",
+    "quickCheck": {
+      "question": "Which enzyme starts the respiratory burst by generating superoxide?",
+      "answer": "NADPH oxidase."
+    },
+    "sourceNote": "The radical formulas are OCR-damaged. “Leukocyte Disorders” after the last option is a section heading, not part of myeloperoxidase’s name."
+  },
+  "book-1-180": {
+    "questionInPlainEnglish": "Which marrow disorder best explains teardrop cells, immature red and white cells, and a huge spleen?",
+    "explanation": "Primary myelofibrosis disrupts marrow with fibrosis. Abnormally shaped cells and immature precursors enter blood, while the spleen enlarges as blood production shifts outside marrow. Teardrops and a leukoerythroblastic smear are major clues.",
+    "optionExplanations": [
+      "CML usually has a low historical LAP score and a prominent granulocytic expansion rather than this classic fibrotic pattern.",
+      "Idiopathic, now called primary, myelofibrosis fits teardrops, leukoerythroblastosis, and massive splenomegaly.",
+      "Primary polycythemia would chiefly suggest increased red-cell mass rather than mild anemia with a fibrotic smear.",
+      "Primary thrombocythemia chiefly features sustained high platelets, not this defining combination."
+    ],
+    "memory": "Fibrotic marrow squeezes out teardrops and shifts production to the spleen.",
+    "quickCheck": {
+      "question": "What does leukoerythroblastosis mean?",
+      "answer": "Immature myeloid cells and nucleated red cells together in peripheral blood."
+    },
+    "sourceNote": "LAP is a historical aid. Modern diagnosis uses marrow morphology, molecular testing, and exclusion of BCR::ABL1-positive CML."
+  },
+  "book-1-224": {
+    "questionInPlainEnglish": "Which listed hemoglobin group travels slowest on alkaline electrophoresis?",
+    "explanation": "At alkaline pH, these hemoglobins move toward the positive anode at different speeds. The A2/C/E/O group remains closest to the origin and is the slowest group listed; Hb A travels farther.",
+    "optionExplanations": [
+      "Hb A moves faster than the other listed common groups.",
+      "A2, C, E, and O migrate in the slow group and are the correct choice.",
+      "Hb F moves farther than the slow A2/C/E/O group.",
+      "S, D, and G occupy an intermediate group rather than the slowest one."
+    ],
+    "memory": "From faster to slower common bands: A, F, S-group, C/A2-group.",
+    "quickCheck": {
+      "question": "Do Hb C and Hb E separate well from Hb A2 on alkaline cellulose acetate?",
+      "answer": "No; they can migrate together."
+    },
+    "sourceNote": "Co-migration depends on the electrophoretic method and variant; confirmation uses additional methods. Small normal Hb F may be below visible detection in adults."
+  },
+  "book-1-234": {
+    "questionInPlainEnglish": "Using a 6% reticulocyte rate and RBC count of 3.00 × 10^12/L, calculate the absolute count in SI units.",
+    "explanation": "Convert 6% to 0.06 and multiply by the red-cell count: 0.06 × 3.00 × 10^12 = 0.18 × 10^12/L. Writing the same value with a 10^9 multiplier gives 180 × 10^9/L.",
+    "optionExplanations": [
+      "1.8 × 10^9/L is one hundred times too low.",
+      "18 × 10^9/L is ten times too low.",
+      "180 × 10^9/L is the correct SI expression.",
+      "180 × 10^3/µL is numerically equivalent but not the requested SI form."
+    ],
+    "memory": "Absolute reticulocytes = reticulocyte fraction × RBC count.",
+    "quickCheck": {
+      "question": "What decimal fraction corresponds to 6%?",
+      "answer": "0.06."
+    },
+    "sourceNote": "The stem depends on question 233; the recovered rationale supplies its reticulocyte percentage as 6.0%."
+  },
+  "book-1-241": {
+    "questionInPlainEnglish": "Which count set fails the textbook’s approximate consistency check for normal-sized, normally colored red cells?",
+    "explanation": "For normocytic, normochromic cells, hematocrit is roughly three times hemoglobin. The second set gives MCHC = 9.5 ÷ 24.8 × 100 = 38.3 g/dL, an unusually high value that flags possible interference or measurement error.",
+    "optionExplanations": [
+      "Hemoglobin 7.6 with hematocrit 22.9 gives MCHC about 33.2 g/dL and is internally plausible.",
+      "Hemoglobin 9.5 with hematocrit 24.8 gives MCHC about 38.3 g/dL and is the flagged set.",
+      "Hemoglobin 10.0 with hematocrit 31.0 gives MCHC about 32.3 g/dL and is plausible.",
+      "Hemoglobin 11.1 with hematocrit 34.0 gives MCHC about 32.6 g/dL and is plausible."
+    ],
+    "memory": "MCHC = hemoglobin ÷ hematocrit fraction; an implausibly high result asks for a check.",
+    "quickCheck": {
+      "question": "What is the approximate expected hematocrit for hemoglobin 10 g/dL in a normocytic, normochromic sample?",
+      "answer": "About 30%."
+    },
+    "sourceNote": "As the supplied context states, the rule of three is approximate and applies to normocytic, normochromic cells. High MCHC can occasionally be biological, so the discrepancy prompts investigation rather than proving error."
+  },
+  "book-1-288": {
+    "questionInPlainEnglish": "Which cell lineage is suggested by CD2, CD5, and CD7 together?",
+    "explanation": "CD markers are identifying proteins used in flow cytometry. CD2, CD5, and CD7 are commonly associated with T lymphocytes. A panel of markers is more reliable than any single marker.",
+    "optionExplanations": [
+      "B cells usually show markers such as CD19 or CD20 rather than this combined T-associated pattern.",
+      "T lymphocytes commonly express CD2, CD5, and CD7 and are the best match.",
+      "Myeloid lineage is more associated with markers such as CD13, CD33, and myeloperoxidase.",
+      "Monocytic cells more often show markers such as CD14 or CD64."
+    ],
+    "memory": "2, 5, and 7 travel together on the T-cell team.",
+    "quickCheck": {
+      "question": "Which lineage-specific surface or cytoplasmic marker is especially important for confirming T lineage?",
+      "answer": "CD3."
+    },
+    "sourceNote": "CD5 and CD7 can appear aberrantly outside T cells, and CD10 absence alone does not establish T lineage; interpret a full panel."
+  },
+  "book-1-292": {
+    "questionInPlainEnglish": "Which listed condition is NOT a usual recognized predisposition to acute leukemia?",
+    "explanation": "Some inherited syndromes, preexisting clonal marrow disorders, and particular oncogenic viruses are linked to blood cancers. Ordinary bacterial infections are not a standard underlying cause of acute leukemia; they are often a consequence of impaired immunity instead.",
+    "optionExplanations": [
+      "Specific viruses can be linked to certain hematologic malignancies, fitting the book’s broad category.",
+      "Bacterial infection is the intended exception rather than a standard acute-leukemia predisposition.",
+      "Chronic clonal marrow dysfunction, especially MDS, can progress to acute leukemia.",
+      "Certain congenital chromosome abnormalities, such as trisomy 21, increase acute-leukemia risk."
+    ],
+    "memory": "MDS and some inherited syndromes raise leukemia risk; ordinary bacterial infection is not the classic cause.",
+    "quickCheck": {
+      "question": "Which chronic marrow neoplasm can evolve into acute myeloid leukemia?",
+      "answer": "Myelodysplastic neoplasia, or MDS."
+    },
+    "sourceNote": "The original rationale overgeneralizes several associations: EBV-linked Burkitt lymphoma is not acute leukemia, and not every listed disease is a stem-cell disorder with the same transformation risk."
+  },
+  "book-1-296": {
+    "questionInPlainEnglish": "Which survival statement about MDS does the book identify as FALSE?",
+    "explanation": "MDS is a group of marrow cancers with ineffective blood production and variable risk of progression to AML. Survival differs greatly by genetics, blood counts, blasts, and treatment, so one five-year median cannot describe every subtype.",
+    "optionExplanations": [
+      "MDS can progress to AML, but risk varies greatly and progression is not inevitable.",
+      "The claim that treatment is only supportive is outdated; disease-directed treatment and potentially curative transplantation exist.",
+      "One five-year median for all MDS types is the book’s chosen false statement.",
+      "Lower blasts generally suggest better prognosis, although other risk factors also matter."
+    ],
+    "memory": "MDS prognosis is a risk spectrum, not a single survival number.",
+    "quickCheck": {
+      "question": "Which treatment can potentially cure selected patients with MDS?",
+      "answer": "Allogeneic hematopoietic stem-cell transplantation."
+    },
+    "sourceNote": "The book’s answer is C, but option B is also false in modern practice and conflicts with the source’s own transplant discussion. Its survival figures, age cutoff, and RAEB-t terminology are outdated; this item is not a reliable contemporary single-answer question."
+  },
+  "book-86-7": {
+    "questionInPlainEnglish": "Which aggregation agent produces the pictured delay followed by one main aggregation wave?",
+    "explanation": "Collagen has a characteristic lag while platelets bind and become activated. Platelet signaling and release then trigger a strong aggregation wave. The delayed start distinguishes it from the more immediate responses of several other agonists.",
+    "optionExplanations": [
+      "ADP typically gives a prompt response and may show two waves at suitable doses.",
+      "Collagen characteristically produces a lag followed by one major wave and is the intended answer.",
+      "Ristocetin tests vWF-dependent agglutination rather than this classic collagen lag pattern.",
+      "Thrombin usually activates platelets rapidly rather than producing the pictured collagen-type lag."
+    ],
+    "memory": "Collagen takes a pause before the platelet wave.",
+    "quickCheck": {
+      "question": "What feature at the start of a platelet aggregation curve suggests collagen?",
+      "answer": "A lag phase before aggregation begins."
+    },
+    "sourceNote": "The diagram is required for independent interpretation. The original rationale describes a lag followed by a single wave; graph text was accidentally appended to the thrombin option."
+  },
+  "book-86-8": {
+    "questionInPlainEnglish": "How does a light-transmission platelet aggregometer detect aggregation?",
+    "explanation": "Platelet-rich plasma starts cloudy because many separate platelets scatter light. When they gather into clumps, the spaces between clumps become clearer and transmit more light. Optical density falls as light transmission rises.",
+    "optionExplanations": [
+      "Glass-bead retention measures adhesion/retention rather than the optical aggregation method described.",
+      "Decreased optical density as platelet-rich plasma clears correctly describes light-transmission aggregometry.",
+      "Impedance aggregometry exists, but it measures platelet accumulation on electrodes, not aggregates passing through an aperture as stated.",
+      "Electronic pulse editing is not the operating principle of a light-transmission aggregometer."
+    ],
+    "memory": "Aggregation clears the cloud: less optical density, more transmitted light.",
+    "quickCheck": {
+      "question": "Does light transmission rise or fall as platelets aggregate in PRP?",
+      "answer": "It rises."
+    },
+    "sourceNote": "The stem uses “aggregometer” broadly; this answer specifically describes light-transmission aggregometry. Whole-blood impedance aggregometers use a different principle."
+  },
+  "book-86-21": {
+    "questionInPlainEnglish": "What does thrombin do when it binds endothelial thrombomodulin?",
+    "explanation": "Thrombomodulin changes thrombin’s preferred job. Instead of promoting clot formation, the complex activates protein C. Activated protein C, with protein S, turns off factors Va and VIIIa to limit further clotting.",
+    "optionExplanations": [
+      "Activation of the protein C pathway is the anticoagulant role of the thrombin–thrombomodulin complex.",
+      "Activating V and VIII is a procoagulant action of free thrombin rather than the favored bound function.",
+      "Making fibrin is a classic free-thrombin action, reduced when thrombomodulin changes its specificity.",
+      "Stimulating platelets is another free-thrombin action, not the key thrombomodulin-bound function."
+    ],
+    "memory": "Thrombomodulin switches thrombin from clot builder to protein C activator.",
+    "quickCheck": {
+      "question": "Which two activated cofactors are inactivated by activated protein C?",
+      "answer": "Va and VIIIa."
+    }
+  },
+  "book-86-28": {
+    "questionInPlainEnglish": "What is von Willebrand factor, and what attachment does it help create?",
+    "explanation": "vWF is a large adhesive protein that links exposed vessel collagen to platelet GP Ib. This helps platelets catch onto an injured vessel wall. It also carries and protects factor VIII in plasma.",
+    "optionExplanations": [
+      "PF3-like phospholipid is a membrane surface, whereas vWF is a protein.",
+      "A plasma protein bridging platelets to exposed collagen correctly describes vWF.",
+      "Factor VIII provides intrinsic-pathway cofactor activity; vWF mainly carries VIII rather than replacing that activity.",
+      "GP Ib is the platelet membrane receptor; vWF is its adhesive binding partner."
+    ],
+    "memory": "vWF bridges vessel collagen to platelet Ib.",
+    "quickCheck": {
+      "question": "Which platelet receptor binds vWF during initial adhesion?",
+      "answer": "GP Ib in the GP Ib-IX-V complex."
+    }
+  },
+  "book-86-30": {
+    "questionInPlainEnglish": "Which listed factor is NOT a fibrinolysis activator in the book’s contact-system model?",
+    "explanation": "Fibrinolysis dissolves fibrin using plasmin. In the book’s traditional model, XIIa and kallikrein can support contact-related plasminogen activation, while tPA is a direct major activator. XIa is mainly a coagulation enzyme that activates IX.",
+    "optionExplanations": [
+      "XIIa can support contact-linked fibrinolytic activation in the book’s model.",
+      "XIa chiefly promotes coagulation through factor IX and is the intended exception.",
+      "Kallikrein can support contact-system links to plasminogen activation.",
+      "tPA directly activates plasminogen and is a major physiologic fibrinolytic activator."
+    ],
+    "memory": "XIa advances clotting to IX; tPA turns plasminogen into plasmin.",
+    "quickCheck": {
+      "question": "Which inactive protein does tPA activate?",
+      "answer": "Plasminogen."
+    },
+    "sourceNote": "The contact-system contribution to fibrinolysis is more complex than this older intrinsic/extrinsic model; tPA and urokinase are the principal direct plasminogen activators."
+  },
+  "book-86-41": {
+    "questionInPlainEnglish": "Which assay method detects enzyme activity by releasing color from a synthetic substrate?",
+    "explanation": "A chromogenic assay gives an enzyme a specially designed substrate. When the enzyme cuts it, a colored product is released. The color change lets the laboratory estimate activity through a controlled reaction.",
+    "optionExplanations": [
+      "Chromogenic means color-generating, exactly matching cleavage of a color-producing substrate.",
+      "Photo-optical clot detection can observe clot turbidity but does not specifically require a cleavable synthetic substrate.",
+      "Mechanical assays detect physical clot formation rather than a released colored product.",
+      "Immunodiffusion detects antigen–antibody precipitation, not enzyme cleavage."
+    ],
+    "memory": "Chromogenic: the enzyme cuts, and color comes out.",
+    "quickCheck": {
+      "question": "What signal is measured in a chromogenic enzyme assay?",
+      "answer": "The color produced when a synthetic substrate is cleaved."
+    },
+    "sourceNote": "The original rationale incorrectly calls antithrombin an activated serine protease. Antithrombin is a protease inhibitor; its activity is commonly measured indirectly from residual thrombin or Xa activity."
+  },
+  "book-86-55": {
+    "questionInPlainEnglish": "What happens to PT and aPTT when a citrate tube is only half filled?",
+    "explanation": "The tube contains a fixed amount of citrate meant for a full blood draw. With too little blood, excess citrate remains relative to plasma and binds too much calcium added during testing. Both clotting times can become falsely long.",
+    "optionExplanations": [
+      "Falsely short times are the opposite of the usual excess-citrate effect.",
+      "Both falsely prolonged is the expected underfill artifact.",
+      "The ratio matters, so a major underfill does affect the tests.",
+      "aPTT is not expected to shorten; both tests can be prolonged."
+    ],
+    "memory": "Underfill means excess citrate, less free calcium, longer times.",
+    "quickCheck": {
+      "question": "What is the standard blood-to-citrate ratio?",
+      "answer": "9:1."
+    }
+  },
+  "book-86-68": {
+    "questionInPlainEnglish": "Which outpatient anticoagulant effect best explains an INR of 5.5 when the target is 2–3?",
+    "explanation": "Coumarin drugs such as warfarin lower functional vitamin K-dependent factors. An INR of 5.5 is above the stated target, showing excessive anticoagulant effect. Warfarin can prolong aPTT as well as PT because several affected factors are shared.",
+    "optionExplanations": [
+      "Unfractionated heparin is usually monitored with aPTT or anti-Xa, not this characteristic high-INR outpatient pattern.",
+      "An excessive, nontherapeutic coumarin effect best fits the markedly high INR.",
+      "Both drugs are not needed to explain the results; warfarin alone can prolong both tests.",
+      "A fibrinolytic drug is not the usual outpatient maintenance treatment or explanation for this INR pattern."
+    ],
+    "memory": "INR above target means too much vitamin K antagonist effect.",
+    "quickCheck": {
+      "question": "Is an INR of 5.5 above or below a target range of 2.0–3.0?",
+      "answer": "Above the target range."
+    },
+    "sourceNote": "Dose, interactions, illness, diet, and adherence can all alter INR; the test shows excessive effect rather than proving a prescribed-dose error. The source’s blanket claim that unfractionated heparin is only intravenous is inaccurate."
+  },
+  "book-86-71": {
+    "questionInPlainEnglish": "Which deficiency fits a long aPTT that corrects with mixing in someone who does not bleed?",
+    "explanation": "Factor XII is needed for contact activation in the laboratory aPTT but is not essential for normal wound hemostasis. Its deficiency can therefore greatly prolong aPTT while PT and bleeding history remain normal. Normal plasma supplies XII, correcting the mixing study.",
+    "optionExplanations": [
+      "Heparin acts as an inhibitor and usually prevents straightforward full mixing correction.",
+      "Factor VIII deficiency generally causes a bleeding tendency, unlike the stated history.",
+      "Factor XII deficiency fits a correcting long aPTT without clinical bleeding.",
+      "Factor XIII deficiency can cause delayed bleeding but usually leaves both PT and aPTT normal."
+    ],
+    "memory": "XII can lengthen the lab clock without lengthening wound bleeding.",
+    "quickCheck": {
+      "question": "Why can factor XII deficiency cause a very long aPTT without abnormal bleeding?",
+      "answer": "The laboratory contact pathway depends on XII, while normal in-body clotting can begin through tissue factor."
+    },
+    "sourceNote": "The source overstates factor XII deficiency as a proven cause of thrombosis; family DVT history does not establish that link. Modern evidence does not support automatically classifying XII deficiency as thrombophilia."
+  }
+}

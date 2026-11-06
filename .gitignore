@@ -1,0 +1,9 @@
+android/build/
+releases/*.apk
+releases/*.idsig
+releases/*.sha256
+__pycache__/
+*.keystore
+*.p12
+
+scratch/

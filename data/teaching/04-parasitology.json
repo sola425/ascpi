@@ -1,0 +1,926 @@
+{
+  "book-302-3": {
+    "questionInPlainEnglish": "Which statement about a stool sample best matches what parasites need to remain recognizable?",
+    "explanation": "A trophozoite is the active, growing form of a single-celled parasite. Loose, watery stool is more likely to contain these forms than firm stool. Damage from contamination or poor preservation can make parasite shapes harder to recognize.",
+    "optionExplanations": [
+      "Urine is an unwanted contaminant and can damage the appearance of parasites.",
+      "Freezing can change parasite structures, so the claim that it never affects them is wrong.",
+      "Liquid stool is more likely to contain active ameba and flagellate trophozoites; this is the correct association.",
+      "Unpreserved stool changes over time; the stated long room-temperature delay would not preserve reliable features."
+    ],
+    "memory": "Loose stool: look for the active form.",
+    "quickCheck": {
+      "question": "What is a trophozoite?",
+      "answer": "The active, growing form of a protozoan parasite."
+    }
+  },
+  "book-302-4": {
+    "questionInPlainEnglish": "Which flagellate can infect someone through its protective cyst form?",
+    "explanation": "A cyst is a protected form that helps some intestinal parasites survive outside the body. Giardia lamblia, also called Giardia duodenalis, has an infective cyst stage. A flagellate belongs to a group associated with whip-like movement structures called flagella.",
+    "optionExplanations": [
+      "Balantidium coli has cysts, but it is a ciliate, with tiny hair-like structures, rather than a flagellate.",
+      "Dientamoeba fragilis is related to flagellates, but it is not the textbook cyst-forming example sought here.",
+      "Entamoeba coli has cysts, but it is an ameba, not a flagellate.",
+      "Giardia is the intestinal flagellate with the familiar infective cyst stage, so it fits."
+    ],
+    "memory": "Giardia travels protected in a cyst.",
+    "quickCheck": {
+      "question": "Why is Balantidium not the answer even though it has cysts?",
+      "answer": "It is a ciliate, not a flagellate."
+    },
+    "sourceNote": "The original book says Dientamoeba fragilis has no cyst stage. Rare cyst forms have since been described. Giardia remains the intended answer to this classic question; the original answer is preserved."
+  },
+  "book-302-5": {
+    "questionInPlainEnglish": "Which worm infection is usually not diagnosed by finding eggs or young worms in stool?",
+    "explanation": "Helminth means parasitic worm, and larvae are young worms. Trichinella spiralis larvae enter muscle, so the important disease stage is in tissue rather than routinely appearing in stool. This differs from several intestinal worms whose eggs or larvae are usually found in stool.",
+    "optionExplanations": [
+      "Trichinella larvae settle in muscle, making routine stool examination a poor match; this is the answer.",
+      "Strongyloides stercoralis commonly releases larvae in stool, so stool findings can support its diagnosis.",
+      "Necator americanus is a hookworm whose eggs are commonly found in stool.",
+      "Ascaris lumbricoides is a large roundworm whose eggs can be found in stool."
+    ],
+    "memory": "Trichinella hides in muscle.",
+    "quickCheck": {
+      "question": "Where do Trichinella larvae settle?",
+      "answer": "In skeletal muscle, the muscles used to move the body."
+    }
+  },
+  "book-302-6": {
+    "questionInPlainEnglish": "What do we call the host where a parasite reproduces sexually?",
+    "explanation": "A host is a living thing that a parasite lives in or on. The definitive host is defined by the sexual reproductive stage of the parasite. It is not necessarily the host that becomes the most ill.",
+    "optionExplanations": [
+      "A commensal benefits from a host without usually harming it; this describes a relationship, not a reproductive-stage host.",
+      "The definitive host contains the sexual reproductive stage, so this is correct.",
+      "An intermediate host carries larval or other developmental stages, rather than the defining sexual stage.",
+      "A vector carries an infection between hosts, such as a mosquito; that role alone does not define sexual reproduction."
+    ],
+    "memory": "Definitive = sexual stage.",
+    "quickCheck": {
+      "question": "Can the sickest host automatically be called the definitive host?",
+      "answer": "No. The parasite reproductive stage determines that name."
+    }
+  },
+  "book-302-7": {
+    "questionInPlainEnglish": "Which young ameba cyst can contain a large food-storage mass?",
+    "explanation": "Glycogen is a stored form of sugar that cells can use for energy. A young Entamoeba coli cyst may contain a large glycogen mass that pushes its nuclei toward the edge. A nucleus is the part of a cell containing its genetic instructions.",
+    "optionExplanations": [
+      "Dientamoeba fragilis is not the classic young ameba cyst described by this clue.",
+      "Endolimax nana is a small ameba whose cyst identification relies on other nuclear features.",
+      "A large glycogen mass in an immature Entamoeba coli cyst matches this description.",
+      "Entamoeba histolytica can have glycogen in young cysts, but the large mass described here is the textbook Entamoeba coli clue."
+    ],
+    "memory": "Young Entamoeba coli: a big sugar store.",
+    "quickCheck": {
+      "question": "What does glycogen store?",
+      "answer": "Energy in the form of linked sugar units."
+    },
+    "sourceNote": "The supplied book rationale ends mid-sentence. This teaching explanation uses the question and its intact Entamoeba coli description without reconstructing the missing text."
+  },
+  "book-302-8": {
+    "questionInPlainEnglish": "What feature is especially typical of an Iodamoeba butschlii cyst?",
+    "explanation": "Iodamoeba butschlii is an intestinal ameba usually considered harmless. Its cyst commonly contains a large, compact glycogen store. This stored sugar is a more useful clue here than the other features listed.",
+    "optionExplanations": [
+      "A glycogen mass is the characteristic clue and fits this cyst.",
+      "Blunt chromatoidal bars are rod-like cell inclusions associated with certain Entamoeba cysts, not this typical description.",
+      "Four nuclei do not fit the usually single-nucleus Iodamoeba cyst; a karyosome is a dense spot inside a nucleus.",
+      "Swallowed bacteria can occur in feeding amebae, but they are not the defining cyst feature here."
+    ],
+    "memory": "Iodamoeba: a noticeable glycogen pocket.",
+    "quickCheck": {
+      "question": "How many nuclei does a typical Iodamoeba cyst have?",
+      "answer": "One."
+    }
+  },
+  "book-302-9": {
+    "questionInPlainEnglish": "How can two look-alike Entamoeba species be told apart?",
+    "explanation": "Entamoeba histolytica can invade tissues and cause disease, whereas Entamoeba dispar usually does not. Their cysts look alike under an ordinary microscope. An antigen test recognizes molecular markers, rather like reading a species-specific name tag.",
+    "optionExplanations": [
+      "Both species can have mature cysts with four nuclei, so counting nuclei does not separate them.",
+      "Their cyst sizes overlap, so size is not a reliable separator.",
+      "Both have similar karyosomes, the dense spots within nuclei, so this does not reliably distinguish them.",
+      "Tests for species-specific antigens can distinguish the look-alikes, so this is the best listed answer."
+    ],
+    "memory": "Same look; different molecular name tags.",
+    "quickCheck": {
+      "question": "Can an ordinary cyst image reliably separate E. histolytica from E. dispar?",
+      "answer": "No; species-specific antigen or genetic testing is needed."
+    }
+  },
+  "book-302-10": {
+    "questionInPlainEnglish": "Which blood-cell change often occurs when worms invade tissues?",
+    "explanation": "Eosinophils are white blood cells involved in responses to some worms and allergies. Eosinophilia means an increased number of these cells. It can support a suspicion of tissue-invading worms, but it cannot identify the cause by itself.",
+    "optionExplanations": [
+      "Eosinophilia means increased eosinophils and is the classic association with tissue-invading helminths.",
+      "Leukopenia means too few white blood cells overall; it is not the specific association asked for.",
+      "Lymphocytosis means increased lymphocytes, a different white-cell group.",
+      "Neutropenia means too few neutrophils, another white-cell group; it is not the expected clue."
+    ],
+    "memory": "Eosinophils: think worms or allergy.",
+    "quickCheck": {
+      "question": "Does eosinophilia prove a worm infection?",
+      "answer": "No. Allergies and other conditions can also cause it."
+    }
+  },
+  "book-302-14": {
+    "questionInPlainEnglish": "Which malaria parasite can Babesia resemble in red blood cells?",
+    "explanation": "Babesia and Plasmodium falciparum can both look like tiny rings inside red blood cells. Similar appearance does not mean they have the same cause or route of spread. A four-part Maltese-cross shape can support Babesia identification, although it is not always present.",
+    "optionExplanations": [
+      "Leishmania donovani is usually seen in certain tissue immune cells rather than as red-cell rings.",
+      "Plasmodium falciparum has small red-cell rings that can resemble Babesia, so this fits.",
+      "Toxoplasma gondii has tissue stages rather than the characteristic red-cell ring appearance.",
+      "Trypanosoma cruzi bloodstream forms lie outside red cells and have a different shape."
+    ],
+    "memory": "Babesia rings can imitate falciparum rings.",
+    "quickCheck": {
+      "question": "What cell contains both of these ring-like parasites?",
+      "answer": "A red blood cell."
+    }
+  },
+  "book-302-15": {
+    "questionInPlainEnglish": "Which listed stool preservative name is associated with an older mercury-containing formulation?",
+    "explanation": "A fixative helps keep cell structures recognizable. Older stool preservative mixtures called PVA fixatives included mercury-containing ingredients. PVA means polyvinyl alcohol; the polymer itself does not mean mercury is always present.",
+    "optionExplanations": [
+      "Formalin is a different preservative and is not the mercury-containing PVA mixture sought here.",
+      "Sodium acetate can be part of other preservative mixtures, but it is not the named mercury-associated choice.",
+      "Buffered glycerol is a different sample transport material, not the mercury-associated fixative here.",
+      "Polyvinyl alcohol is the textbook name linked to traditional mercury-containing PVA fixatives, so this is the intended answer."
+    ],
+    "memory": "Traditional PVA mixture: remember the mercury association.",
+    "quickCheck": {
+      "question": "Does every product called PVA necessarily contain mercury?",
+      "answer": "No. Formulations differ, and mercury-free versions exist."
+    },
+    "sourceNote": "The mercury association applies to traditional mercury-containing PVA fixative mixtures. Polyvinyl alcohol itself is not mercury, and mercury-free PVA formulations exist."
+  },
+  "book-302-16": {
+    "questionInPlainEnglish": "Which intestinal parasite has round oocysts about 8–10 micrometers across?",
+    "explanation": "An oocyst is a protected stage made by some parasites. A micrometer is one-thousandth of a millimeter, so these structures are tiny. The combination of round shape, this size, and acid-fast staining points to Cyclospora.",
+    "optionExplanations": [
+      "Cryptosporidium oocysts are typically smaller, about 4–6 micrometers.",
+      "Cyclospora oocysts are about 8–10 micrometers and fit the description.",
+      "Isospora, now usually called Cystoisospora, has much larger, oval oocysts.",
+      "Microsporidia have very small spores, usually about 1–3 micrometers, rather than these larger round oocysts."
+    ],
+    "memory": "Crypto smaller; Cyclospora around 8–10.",
+    "quickCheck": {
+      "question": "Why is size helpful in this question?",
+      "answer": "Several parasites can share a staining reaction but differ in size."
+    }
+  },
+  "book-302-17": {
+    "questionInPlainEnglish": "Which parasite fits fever, sore muscles, puffy eyelids, and increased eosinophils?",
+    "explanation": "Periorbital edema means swelling around the eyes. Trichinella larvae can invade muscle and cause muscle pain, fever, and this eye-area swelling. Increased eosinophils, white cells associated with some worm infections, support that pattern.",
+    "optionExplanations": [
+      "Ascaris is an intestinal roundworm, but this combination of muscle pain and puffy eyelids is less characteristic.",
+      "Taenia solium is a pork tapeworm; its intestinal and tissue infections have a different typical pattern.",
+      "Trichinella spiralis fits the combination of muscle involvement, eye-area swelling, and eosinophilia.",
+      "Trypanosoma cruzi can cause localized swelling near an entry site, but it does not fit the whole muscle-invading worm pattern."
+    ],
+    "memory": "Trichinella: muscles ache and eyelids swell.",
+    "quickCheck": {
+      "question": "What does periorbital edema mean?",
+      "answer": "Swelling around the eyes."
+    }
+  },
+  "book-302-18": {
+    "questionInPlainEnglish": "Which schistosome egg has a large spine at its end?",
+    "explanation": "Schistosoma species are blood flukes, a type of parasitic flatworm. Their eggs have different spine shapes and positions that help tell species apart. Terminal means at the end, while lateral means on the side.",
+    "optionExplanations": [
+      "Schistosoma haematobium has a prominent terminal spine, so it fits.",
+      "Schistosoma japonicum has a much smaller, less obvious side projection.",
+      "Schistosoma mansoni has a prominent lateral spine, on the side rather than at the end.",
+      "Schistosoma mekongi has a small projection, not the large terminal spine described."
+    ],
+    "memory": "Haematobium: spine at the end.",
+    "quickCheck": {
+      "question": "What is the difference between terminal and lateral?",
+      "answer": "Terminal means at an end; lateral means on a side."
+    }
+  },
+  "book-302-19": {
+    "questionInPlainEnglish": "Which group of worms can cause severe long-term swelling called elephantiasis?",
+    "explanation": "Lymph vessels drain extra fluid from tissues. Some filarial worms damage these drainage vessels, allowing swelling to build up over time. Elephantiasis describes severe chronic swelling and skin thickening, often affecting a leg.",
+    "optionExplanations": [
+      "Cysticercosis means larval Taenia solium cysts in tissues; it is not the classic lymph-drainage disease.",
+      "Guinea worm causes skin disease, not the typical blocked lymph drainage behind elephantiasis.",
+      "Hydatid cyst disease involves Echinococcus larval cysts in organs rather than this lymph-vessel injury.",
+      "Certain filariae damage lymph vessels and can cause elephantiasis, so this fits."
+    ],
+    "memory": "Filarial lymph damage → poor drainage → swelling.",
+    "quickCheck": {
+      "question": "What normally drains extra tissue fluid?",
+      "answer": "The lymph vessels."
+    }
+  },
+  "book-302-20": {
+    "questionInPlainEnglish": "Which parasite fits very small round acid-fast oocysts and diarrhea in someone with weakened immunity?",
+    "explanation": "HIV can weaken the immune system, making some intestinal infections harder to control. Cryptosporidium causes watery diarrhea and has round oocysts about 4–6 micrometers across. Both the size and staining clue matter.",
+    "optionExplanations": [
+      "Blastocystis has a different appearance and is not the classic small acid-fast oocyst.",
+      "Cryptosporidium matches the small round acid-fast oocysts and the diarrheal illness.",
+      "Isospora, now Cystoisospora, has much larger oval oocysts.",
+      "Microsporidia have smaller spores and are not the best match for the stated oocyst pattern."
+    ],
+    "memory": "Tiny acid-fast spheres around 4–6: Cryptosporidium.",
+    "quickCheck": {
+      "question": "Why is weakened immunity relevant?",
+      "answer": "It can make cryptosporidial diarrhea more severe or persistent."
+    },
+    "sourceNote": "The original statement linking Blastocystis disease simply to high numbers is too definite. Its role in symptoms can be uncertain; the Cryptosporidium answer follows the size and staining clues."
+  },
+  "book-302-21": {
+    "questionInPlainEnglish": "Which parasite disease fits repeated fevers and fewer red blood cells after travel?",
+    "explanation": "Malaria parasites infect red blood cells. When infected cells break down, fever can occur and the red-cell count may fall, causing anemia. Repeating fever and travel in a malaria-risk area make malaria the best listed answer, although real malaria fevers are not always regularly timed.",
+    "optionExplanations": [
+      "Cutaneous larva migrans causes winding itchy skin tracks, not this typical fever-and-anemia pattern.",
+      "Filariasis involves filarial worms and often lymphatic or skin disease rather than repeated destruction of red cells.",
+      "Malaria fits fever episodes, anemia, and the travel history.",
+      "Trichinella mainly causes muscle-related disease and does not explain the classic red-cell pattern."
+    ],
+    "memory": "Malaria attacks red cells: fever plus anemia.",
+    "quickCheck": {
+      "question": "What does anemia mean?",
+      "answer": "Too little hemoglobin or too few healthy red blood cells to carry oxygen well."
+    }
+  },
+  "book-302-22": {
+    "questionInPlainEnglish": "Which disease is most commonly linked to Acanthamoeba?",
+    "explanation": "Acanthamoeba is an ameba that can live freely in the environment. Keratitis means inflammation or infection of the cornea, the clear front window of the eye. Acanthamoeba keratitis is particularly associated with contact-lens use.",
+    "optionExplanations": [
+      "Diarrhea is not the main disease associated with Acanthamoeba.",
+      "Keratitis is the classic and most common listed presentation, so this fits.",
+      "A liver abscess, a pocket of infection in the liver, is more classically associated with Entamoeba histolytica.",
+      "Meningoencephalitis means inflammation of the brain and its coverings; Acanthamoeba can cause it, but it is less common than keratitis."
+    ],
+    "memory": "Acanthamoeba: think cornea and contact lenses.",
+    "quickCheck": {
+      "question": "Which part of the eye is affected by keratitis?",
+      "answer": "The cornea, the clear front surface."
+    }
+  },
+  "book-302-23": {
+    "questionInPlainEnglish": "What do microsporidia spores look like with the stain named in the question?",
+    "explanation": "Microsporidia are tiny fungus-related parasites that make spores, protected structures involved in their life cycle. Their small size makes them easy to overlook. In the described modified trichrome stain, they appear as pinkish ovals about 1–3 micrometers long.",
+    "optionExplanations": [
+      "Purple circles this large do not match the very small pink oval spores described.",
+      "Pink ovals measuring 1–3 micrometers are the expected appearance, so this fits.",
+      "Blue ovals measuring 4–6 micrometers have the wrong color and are too large for the typical description.",
+      "Fluorescent circles describe a different viewing reaction and are too large here."
+    ],
+    "memory": "Microsporidia: micro-sized pink ovals.",
+    "quickCheck": {
+      "question": "What does the prefix micro suggest?",
+      "answer": "Very small."
+    }
+  },
+  "book-302-24": {
+    "questionInPlainEnglish": "Which dog-tapeworm stage can lead to hydatid cysts in humans?",
+    "explanation": "Echinococcus eggs come from the adult tapeworm stage in dogs and related animals. If a human accidentally swallows an infective egg, the developing larva can form a hydatid cyst in tissue. Embryonated means that an egg already contains a developing embryo.",
+    "optionExplanations": [
+      "A cercaria is a larval stage of flukes, not the dog-tapeworm egg involved here.",
+      "Cercocystis is not the infective Echinococcus stage described in this life cycle.",
+      "A cysticercus is a different kind of tapeworm larva; it is not the stage humans swallow to develop hydatid disease.",
+      "An embryonated egg is the stage from canines that can start hydatid disease in humans."
+    ],
+    "memory": "Hydatid disease begins with an Echinococcus egg.",
+    "quickCheck": {
+      "question": "What does embryonated egg mean?",
+      "answer": "An egg containing a developing embryo."
+    }
+  },
+  "book-302-25": {
+    "questionInPlainEnglish": "Where are Toxoplasma oocysts shed?",
+    "explanation": "Cats are the definitive hosts of Toxoplasma gondii, meaning the parasite undergoes sexual reproduction in them. Cats can shed oocysts in feces. Meat can also carry Toxoplasma, but in tissue cysts rather than oocysts.",
+    "optionExplanations": [
+      "Cat feces can contain Toxoplasma oocysts, so this is the correct location.",
+      "Humans do not normally shed Toxoplasma oocysts in feces.",
+      "Undercooked pork may contain tissue cysts, a different form from the oocysts asked about.",
+      "Undercooked beef is not the correct oocyst source; meat-associated transmission concerns tissue stages."
+    ],
+    "memory": "Cats shed oocysts; meat contains tissue cysts.",
+    "quickCheck": {
+      "question": "Are oocysts and tissue cysts the same stage?",
+      "answer": "No. They are different protected forms in the parasite life cycle."
+    },
+    "sourceNote": "Cat-shed oocysts become infectious after development in the environment. Not every freshly shed oocyst is immediately infective; the question concerns the source of the oocyst stage."
+  },
+  "book-302-26": {
+    "questionInPlainEnglish": "Which pear-shaped intestinal parasite has a falling-leaf style of movement?",
+    "explanation": "Giardia trophozoites are active forms with a pear-like outline and two nuclei. Their movement is often compared with a leaf drifting down through water. Giardia can interfere with nutrient absorption and cause diarrhea.",
+    "optionExplanations": [
+      "Balantidium coli is a much larger ciliate, not the small flagellate described.",
+      "Chilomastix mesnili can be pear-shaped, but its movement is more stiffly rotating than leaf-like.",
+      "Giardia lamblia matches the size, pear shape, and falling-leaf movement.",
+      "Trichomonas hominis is an intestinal flagellate, but its more jerky movement does not match this classic clue."
+    ],
+    "memory": "Giardia drifts like a falling leaf.",
+    "quickCheck": {
+      "question": "What does malabsorption mean?",
+      "answer": "The intestine is not taking in nutrients normally."
+    }
+  },
+  "book-302-27": {
+    "questionInPlainEnglish": "Which tapeworm can contribute to vitamin B12 deficiency?",
+    "explanation": "Vitamin B12 helps the body make healthy blood cells and maintain nerves. The broad fish tapeworm, traditionally called Diphyllobothrium latum, can take up enough B12 to contribute to deficiency. Someone who already has trouble absorbing B12 may be affected more severely.",
+    "optionExplanations": [
+      "Diphyllobothrium latum is the classic tapeworm linked to B12 deficiency, so it fits.",
+      "Echinococcus granulosus forms tissue cysts in humans rather than living as this nutrient-competing intestinal adult.",
+      "Hymenolepis diminuta is an intestinal tapeworm, but B12 deficiency is not its classic association.",
+      "Taenia saginata is the beef tapeworm and is not the classic B12-deficiency cause."
+    ],
+    "memory": "Broad fish tapeworm can borrow B12.",
+    "quickCheck": {
+      "question": "Why can losing B12 cause anemia?",
+      "answer": "B12 is needed for normal production of red blood cells."
+    }
+  },
+  "book-302-28": {
+    "questionInPlainEnglish": "Which parasite group can be more common in circulating blood at night?",
+    "explanation": "Microfilariae are the tiny young forms of filarial worms. In some species and locations, their numbers in circulating blood rise and fall with the time of day. Nocturnal periodicity means this repeating pattern peaks at night.",
+    "optionExplanations": [
+      "Babesia infects red cells but does not have the classic nighttime microfilarial pattern.",
+      "Plasmodium can produce fever cycles, but those are different from nocturnal microfilarial circulation.",
+      "Microfilariae show the nighttime periodicity described in certain filarial infections.",
+      "Trypanosoma bloodstream parasites do not have this classic diagnostic nighttime pattern."
+    ],
+    "memory": "Nocturnal means night; periodic means repeating.",
+    "quickCheck": {
+      "question": "Does every filarial species follow the same daily pattern?",
+      "answer": "No. The pattern varies by species and location."
+    }
+  },
+  "book-302-29": {
+    "questionInPlainEnglish": "Which disease most often spreads through close intimate contact with an infected person?",
+    "explanation": "Trichomoniasis is caused by Trichomonas vaginalis and usually spreads through sexual contact. The other listed infections usually involve water, food, or animal-associated stages. Understanding the route of spread helps distinguish diseases even when all are caused by parasites.",
+    "optionExplanations": [
+      "Schistosomiasis usually starts with exposure to parasite-containing freshwater, not ordinary person-to-person contact.",
+      "Toxoplasmosis is usually linked to tissue cysts in food or environmental oocysts, rather than close contact between people.",
+      "Trichinosis follows ingestion of infected meat, not close contact with an infected person.",
+      "Trichomoniasis usually spreads through sexual contact, making it the correct answer."
+    ],
+    "memory": "Trichomoniasis: intimate contact.",
+    "quickCheck": {
+      "question": "Which parasite causes trichomoniasis?",
+      "answer": "Trichomonas vaginalis."
+    },
+    "sourceNote": "Sexual contact is the established main route. The original book also mentions toilet articles and seats, but these are not an important established route for routine teaching."
+  },
+  "book-302-30": {
+    "questionInPlainEnglish": "Which worm has barrel-shaped eggs with a plug at each end?",
+    "explanation": "Trichuris trichiura is the whipworm. Its eggs have a barrel or football shape with a pale plug at both ends. Polar means at a pole or end, so polar plugs are plugs at the two ends.",
+    "optionExplanations": [
+      "Ascaris eggs have a different, often thick and bumpy outer appearance rather than paired end plugs.",
+      "Hymenolepis nana eggs have an inner embryo and characteristic internal threads, not this barrel shape.",
+      "Necator americanus is a hookworm with thin-shelled oval eggs rather than plugged barrels.",
+      "Trichuris trichiura has the characteristic barrel-shaped eggs with two polar plugs."
+    ],
+    "memory": "Whipworm egg: a barrel with two stoppers.",
+    "quickCheck": {
+      "question": "What does polar mean in polar plugs?",
+      "answer": "At the ends of the egg."
+    },
+    "sourceNote": "The source gives inconsistent egg widths between its question and rationale. The paired polar plugs, rather than the conflicting width figures, establish the intended Trichuris answer."
+  },
+  "book-302-31": {
+    "questionInPlainEnglish": "Which malaria species has crescent-shaped sexual precursor cells?",
+    "explanation": "Gametocytes are parasite forms that continue the sexual part of the malaria life cycle after a mosquito takes them up. Plasmodium falciparum gametocytes commonly look like crescents or bananas. This shape is a strong identification clue.",
+    "optionExplanations": [
+      "Plasmodium falciparum has characteristic crescent-shaped gametocytes, so it fits.",
+      "Plasmodium malariae gametocytes are more rounded, not typically crescent-shaped.",
+      "Plasmodium ovale gametocytes are more rounded, despite the species name.",
+      "Plasmodium vivax gametocytes are rounded rather than banana-shaped."
+    ],
+    "memory": "Falciparum gametocytes: crescent or banana.",
+    "quickCheck": {
+      "question": "Which life-cycle role do gametocytes have?",
+      "answer": "They are precursors for the sexual stages that develop in the mosquito."
+    }
+  },
+  "book-302-32": {
+    "questionInPlainEnglish": "Which statement correctly describes Giardia cysts?",
+    "explanation": "Giardia has an active trophozoite form and a protected cyst form. A mature cyst typically contains four nuclei and does not swim. Keeping the two forms separate helps avoid mixing up their features.",
+    "optionExplanations": [
+      "A mature Giardia cyst contains four nuclei, so this is correct.",
+      "Flagellar swimming belongs to active trophozoites; intact cysts do not move that way.",
+      "An undulating membrane is a wave-like cell structure found in some other flagellates, not Giardia cysts.",
+      "Giardia cysts are commonly passed in stool, so saying they are rarely found is incorrect."
+    ],
+    "memory": "Giardia: trophozoite two nuclei; mature cyst four.",
+    "quickCheck": {
+      "question": "Does a Giardia cyst actively swim?",
+      "answer": "No."
+    }
+  },
+  "book-302-33": {
+    "questionInPlainEnglish": "Which listed worm can cause skin tracks as its larvae migrate?",
+    "explanation": "Larva migrans means a larva moving through tissue. Strongyloides stercoralis can cause itchy migrating skin changes, including a rapidly moving rash called larva currens. The question asks for the best listed worm associated with this movement.",
+    "optionExplanations": [
+      "Strongyloides stercoralis can produce migrating larval skin changes, making it the intended choice.",
+      "Dracunculus medinensis, the Guinea worm, more typically causes a painful skin blister involving an adult worm.",
+      "Onchocerca volvulus causes skin and eye disease, but not this classic migrating Strongyloides rash.",
+      "Loa loa adults can migrate and cause temporary swellings, but this is not the larval rash association sought here."
+    ],
+    "memory": "Strongyloides can make a moving skin rash.",
+    "quickCheck": {
+      "question": "What does larva migrans literally describe?",
+      "answer": "A young worm migrating through tissue."
+    },
+    "sourceNote": "The source uses larva migrans broadly. Strongyloides is especially associated with larva currens; classic cutaneous larva migrans is more often caused by animal hookworms, which are not listed."
+  },
+  "book-302-34": {
+    "questionInPlainEnglish": "Which free-living ameba causes primary amebic meningoencephalitis?",
+    "explanation": "Naegleria fowleri is an environmental ameba associated with a rare, rapidly progressing brain infection. Meningoencephalitis means inflammation of both the brain and its surrounding coverings. Its characteristic disease is called primary amebic meningoencephalitis, or PAM.",
+    "optionExplanations": [
+      "Dientamoeba fragilis is an intestinal parasite, not the free-living ameba that causes PAM.",
+      "Entamoeba coli is generally a harmless intestinal ameba and does not cause PAM.",
+      "Entamoeba histolytica primarily causes intestinal disease and sometimes liver abscesses, rather than classic PAM.",
+      "Naegleria fowleri is the free-living ameba linked to PAM, so it fits."
+    ],
+    "memory": "Naegleria: PAM.",
+    "quickCheck": {
+      "question": "Which two areas are inflamed in meningoencephalitis?",
+      "answer": "The brain and its surrounding membranes."
+    },
+    "sourceNote": "The source suggests essentially all cases are fatal. PAM has a very high fatality rate, but survival has occurred. The organism answer remains Naegleria fowleri."
+  },
+  "book-302-35": {
+    "questionInPlainEnglish": "Which disease is least reduced by preventing contamination of drinking water and produce?",
+    "explanation": "Several intestinal parasites spread when people swallow cysts or eggs from fecal contamination. Safer water and produce help interrupt those routes. Filariasis usually depends on biting insect vectors, so those food-and-water precautions do not directly block its main route.",
+    "optionExplanations": [
+      "Amebiasis can spread through swallowed cysts in contaminated food or water, so these precautions help.",
+      "Ascariasis can spread through swallowed Ascaris eggs from fecal contamination, so these precautions help.",
+      "Filariasis is transmitted by biting insect vectors, making it least affected by these particular precautions.",
+      "Giardiasis can spread through contaminated water or food containing cysts, so these precautions help."
+    ],
+    "memory": "Food and water precautions block swallowed stages, not insect bites.",
+    "quickCheck": {
+      "question": "What is a vector?",
+      "answer": "An organism, often an insect, that carries an infection between hosts."
+    }
+  },
+  "book-302-36": {
+    "questionInPlainEnglish": "Which beef-tapeworm stage usually infects humans?",
+    "explanation": "Taenia saginata is the beef tapeworm. Humans usually acquire its intestinal adult infection after swallowing larval cysts called cysticerci in infected beef. Cattle instead acquire the parasite by swallowing eggs, so the infective stage depends on the host.",
+    "optionExplanations": [
+      "The cysticercus larva is the stage in beef that infects humans, so this is correct.",
+      "Embryonated eggs are involved in infection of cattle rather than the usual human Taenia saginata infection.",
+      "A filariform larva is an infective form of certain roundworms, not this tapeworm.",
+      "A rhabditiform larva is another roundworm larval form, not the beef-tapeworm stage."
+    ],
+    "memory": "Saginata: cattle swallow eggs; humans swallow cysticerci.",
+    "quickCheck": {
+      "question": "What is a cysticercus?",
+      "answer": "A larval tapeworm enclosed in a small fluid-filled cyst."
+    }
+  },
+  "book-302-37": {
+    "questionInPlainEnglish": "Which very small ameba cyst resembles an Entamoeba histolytica cyst?",
+    "explanation": "Entamoeba hartmanni cysts resemble Entamoeba histolytica cysts but are smaller. A mature cyst may have four nuclei. Chromatin and the karyosome are parts of the nucleus whose arrangement helps identify amebae.",
+    "optionExplanations": [
+      "Endolimax nana is also small, but its nuclear details differ from the fine peripheral chromatin described.",
+      "Entamoeba coli cysts are generally larger and can contain up to eight nuclei when mature.",
+      "Entamoeba hartmanni fits the small size and histolytica-like nuclear pattern.",
+      "Entamoeba histolytica shares many of these features, but its typical cysts are larger than the stated 6–8 micrometers."
+    ],
+    "memory": "Hartmanni: the smaller histolytica look-alike.",
+    "quickCheck": {
+      "question": "What is the main distinguishing clue in this question?",
+      "answer": "The very small cyst size."
+    }
+  },
+  "book-302-38": {
+    "questionInPlainEnglish": "Which whipworm stage can infect a human?",
+    "explanation": "Trichuris trichiura is the whipworm. Its eggs must develop an embryo before they become infective. A person acquires the infection by swallowing an embryonated egg, rather than a free-swimming or skin-penetrating larva.",
+    "optionExplanations": [
+      "A proglottid is a tapeworm segment; whipworms do not have these segments.",
+      "A filariform larva is the infective stage of some other roundworms, not the swallowed whipworm stage.",
+      "A rhabditiform larva is a different larval form and is not the infective whipworm stage.",
+      "An embryonated ovum, meaning an egg containing a developed embryo, is the correct stage."
+    ],
+    "memory": "Whipworm infection starts with a developed egg.",
+    "quickCheck": {
+      "question": "What does ovum mean?",
+      "answer": "Egg."
+    }
+  },
+  "book-302-39": {
+    "questionInPlainEnglish": "Which organism often looks like a large central body with a thin ring of cell material around it?",
+    "explanation": "The classic vacuolar form of Blastocystis contains a large central compartment. It leaves only a thin rim of cytoplasm, the material inside the cell, with nuclei pushed toward the edge. That overall arrangement is the strongest clue.",
+    "optionExplanations": [
+      "Blastocystis matches the large central body and thin outer rim containing nuclei.",
+      "Endolimax nana is a small ameba and does not have this classic large central-body pattern.",
+      "Entamoeba dispar cysts have a different internal arrangement rather than a dominant central body.",
+      "Iodamoeba butschlii has a glycogen mass, but not this classic many-nuclei-at-the-rim Blastocystis appearance."
+    ],
+    "memory": "Blastocystis: big center, thin rim.",
+    "quickCheck": {
+      "question": "Where are the nuclei in this classic form?",
+      "answer": "Near the outer edge of the cell."
+    }
+  },
+  "book-302-40": {
+    "questionInPlainEnglish": "Which infection is least affected by better disposal of human feces?",
+    "explanation": "Human feces release eggs needed for the spread of many intestinal worms. Trichinella is different: its important transmission stage is a larva inside animal muscle. Eating infected meat can pass it on without a human-feces stage in that transmission cycle.",
+    "optionExplanations": [
+      "Ascariasis depends on eggs from feces reaching another host, so sanitation helps reduce it.",
+      "Taeniasis involves a cycle in which human tapeworm eggs reach animal hosts, so sanitation helps interrupt it.",
+      "Trichinosis spreads through larvae in infected meat, making it the intended answer.",
+      "Hookworm eggs leave humans in stool, so safe feces disposal helps reduce their environmental spread."
+    ],
+    "memory": "Trichinella passes in muscle, not human fecal eggs.",
+    "quickCheck": {
+      "question": "Why does sanitation interrupt hookworm spread?",
+      "answer": "It prevents eggs in human feces from contaminating the environment."
+    }
+  },
+  "book-302-41": {
+    "questionInPlainEnglish": "Which listed malaria species causes fine dots in infected red blood cells?",
+    "explanation": "Erythrocytes are red blood cells. Schuffner dots are fine reddish speckles associated especially with Plasmodium vivax and Plasmodium ovale infection. Since vivax is not among these options, ovale is the best answer.",
+    "optionExplanations": [
+      "Plasmodium falciparum does not typically produce the classic Schuffner-dot pattern.",
+      "Plasmodium knowlesi is not the classic species associated with Schuffner dots.",
+      "Plasmodium malariae is associated with compact and band forms rather than Schuffner dots.",
+      "Plasmodium ovale can produce Schuffner dots and is the correct listed choice."
+    ],
+    "memory": "Schuffner dots: vivax and ovale.",
+    "quickCheck": {
+      "question": "Does the name erythrocyte refer to a red cell or a white cell?",
+      "answer": "A red blood cell."
+    },
+    "sourceNote": "Schuffner dots occur with both P. vivax and P. ovale. Oval shape and ragged edges are particularly associated with P. ovale; the supplied rationale blurs this distinction."
+  },
+  "book-302-42": {
+    "questionInPlainEnglish": "Which listed single-celled intestinal parasite is the largest?",
+    "explanation": "Protozoa is a traditional name for several groups of single-celled organisms. Balantidium coli is unusually large among the intestinal protozoa that infect humans. It also has cilia, tiny hair-like structures that help it move.",
+    "optionExplanations": [
+      "Balantidium coli is the largest listed intestinal protozoan and fits the question.",
+      "Dientamoeba fragilis is much smaller than Balantidium.",
+      "Entamoeba histolytica is an ameba and is typically smaller than Balantidium.",
+      "Giardia lamblia is a small intestinal flagellate, not the largest organism here."
+    ],
+    "memory": "Balantidium is big and covered in cilia.",
+    "quickCheck": {
+      "question": "What are cilia?",
+      "answer": "Tiny hair-like structures that can help a cell move."
+    }
+  },
+  "book-302-43": {
+    "questionInPlainEnglish": "What is the main diagnostic role of Strongyloides rhabditiform larvae?",
+    "explanation": "Strongyloides has different young-worm stages with different roles. Rhabditiform larvae are the form typically found in stool. Filariform larvae are the infective form, so recognizing the stage name helps avoid confusing diagnosis with transmission.",
+    "optionExplanations": [
+      "Larvae are immature worms; mating and egg production belong to adult stages.",
+      "The infective form is the filariform larva, not the rhabditiform larva.",
+      "Rhabditiform larvae are the diagnostic form typically found in feces, so this is correct.",
+      "Blood is not the usual diagnostic location for rhabditiform Strongyloides larvae."
+    ],
+    "memory": "Rhabditiform: recognized in stool. Filariform: infective form.",
+    "quickCheck": {
+      "question": "Which Strongyloides stage is usually found in stool?",
+      "answer": "The rhabditiform larva."
+    }
+  },
+  "book-302-44": {
+    "questionInPlainEnglish": "Which listed malaria species is the textbook example of relapse from a dormant liver stage?",
+    "explanation": "Exoerythrocytic means outside red blood cells. Some malaria parasites leave dormant forms called hypnozoites in the liver; these can restart infection later. Plasmodium ovale is the traditional human-malaria answer among these choices.",
+    "optionExplanations": [
+      "Plasmodium falciparum does not form dormant liver hypnozoites; returning infection has another explanation.",
+      "Plasmodium ovale can form dormant liver stages that later cause relapse, so it is the intended book answer.",
+      "Plasmodium malariae can persist in blood for a long time, but that differs from relapse from dormant liver stages.",
+      "Plasmodium cynomolgi is mainly a monkey malaria parasite and can also have hypnozoites; this makes the wording broader than the older intended answer."
+    ],
+    "memory": "Vivax and ovale: dormant liver stages can wake up.",
+    "quickCheck": {
+      "question": "What is a hypnozoite?",
+      "answer": "A dormant malaria stage in the liver that can later restart infection."
+    },
+    "sourceNote": "The original book answer is P. ovale. P. cynomolgi also forms hypnozoites and is now recognized as a rare cause of human malaria, making the broad wording scientifically ambiguous. The original answer is preserved rather than silently changed."
+  },
+  "book-302-46": {
+    "questionInPlainEnglish": "Which roundworm can be acquired from infected undercooked pork?",
+    "explanation": "Nematodes are roundworms, while cestodes are tapeworms. Trichinella spiralis is a roundworm whose larvae can occur in animal muscle. The question requires both the pork association and the correct worm group.",
+    "optionExplanations": [
+      "Strongyloides stercoralis is a roundworm, but its usual transmission route is not infected pork.",
+      "Taenia saginata is a tapeworm associated with beef, so both its group and food association differ.",
+      "Taenia solium is associated with pork, but it is a tapeworm rather than a nematode.",
+      "Trichinella spiralis is a roundworm whose larvae can be acquired from infected pork, so it fits both clues."
+    ],
+    "memory": "Pork plus nematode: Trichinella.",
+    "quickCheck": {
+      "question": "Why is Taenia solium not the answer despite its pork association?",
+      "answer": "It is a tapeworm, not a roundworm."
+    }
+  },
+  "book-302-47": {
+    "questionInPlainEnglish": "Which pair of worm species has eggs that look too similar for reliable separation?",
+    "explanation": "Necator americanus and Ancylostoma duodenale are both human hookworms. Their eggs look so similar that appearance alone usually supports a hookworm identification rather than a reliable species name. Looking alike at one stage does not mean the adult worms are identical.",
+    "optionExplanations": [
+      "Ascaris and Necator eggs have different shells and overall appearances, so they are more readily separated.",
+      "Hymenolepis nana and H. diminuta eggs differ in features such as internal polar threads.",
+      "Necator americanus and Ancylostoma duodenale eggs are too similar for dependable species identification by appearance alone.",
+      "Diphyllobothrium and Fasciola eggs both have a lid-like structure, but their size and other features differ."
+    ],
+    "memory": "Two human hookworms: same-looking eggs.",
+    "quickCheck": {
+      "question": "What cautious identification fits these similar eggs?",
+      "answer": "Hookworm eggs, without assigning the species from egg appearance alone."
+    }
+  },
+  "book-302-48": {
+    "questionInPlainEnglish": "Which Toxoplasma stage develops in infected humans?",
+    "explanation": "Toxoplasma has different forms in different hosts. Humans can carry fast-growing tachyzoites and slower-growing bradyzoites in tissue cysts. Its sexual reproductive stages and oocyst production belong to cats and related feline hosts.",
+    "optionExplanations": [
+      "Bradyzoites are slow-growing forms within tissue cysts in humans, so this is correct.",
+      "Macrogametes are female sexual cells involved in the feline part of the life cycle, not the human tissue stage.",
+      "Sporoblasts are developmental forms associated with oocysts rather than the usual human tissue stages.",
+      "Oocysts are produced by feline hosts, not by infected humans."
+    ],
+    "memory": "Humans: tachyzoites and bradyzoites. Cats: oocysts.",
+    "quickCheck": {
+      "question": "Which is slower-growing, a tachyzoite or a bradyzoite?",
+      "answer": "A bradyzoite."
+    }
+  },
+  "book-302-49": {
+    "questionInPlainEnglish": "Which parasite is especially associated with blood in urine?",
+    "explanation": "Hematuria means red blood cells in urine. Schistosoma haematobium eggs injure tissues around the urinary tract, particularly the bladder, and can cause bleeding. Its urinary association distinguishes it from the other parasites listed.",
+    "optionExplanations": [
+      "Trypanosoma cruzi is associated especially with heart and digestive disease rather than this classic urinary bleeding pattern.",
+      "Trichinella spiralis mainly involves muscle and is not the classic cause of hematuria here.",
+      "Trichomonas vaginalis can cause genital or urinary irritation, but it is not the characteristic association sought.",
+      "Schistosoma haematobium damages the urinary tract and is strongly associated with hematuria."
+    ],
+    "memory": "Haematobium: think urinary blood.",
+    "quickCheck": {
+      "question": "What does hematuria mean?",
+      "answer": "Red blood cells in the urine."
+    },
+    "sourceNote": "The book also mentions blackwater fever. That involves hemoglobinuria, hemoglobin pigment in urine from red-cell breakdown, which differs from hematuria, intact red blood cells in urine."
+  },
+  "book-302-50": {
+    "questionInPlainEnglish": "Which biting arthropod usually transmits Babesia?",
+    "explanation": "A vector is an organism that carries an infection between hosts. Babesia is a red-cell parasite commonly transmitted by certain ticks, including Ixodes ticks. This route differs from the mosquito transmission associated with malaria.",
+    "optionExplanations": [
+      "Fleas can transmit some infections, but they are not the usual Babesia vector.",
+      "Lice transmit certain other infections, not the usual Babesia infection.",
+      "Ticks are the usual Babesia vectors, so this is correct.",
+      "Mosquitoes transmit malaria parasites, but they are not the usual Babesia vectors."
+    ],
+    "memory": "Babesia: ticks. Malaria: mosquitoes.",
+    "quickCheck": {
+      "question": "What does vector mean in infectious disease?",
+      "answer": "A living carrier that transfers an infectious agent between hosts."
+    },
+    "sourceNote": "The source says antimalarial drugs are ineffective in babesiosis, which is too broad because some medicines used against malaria also have roles in babesiosis treatment. This item asks only about the vector."
+  },
+  "book-302-52": {
+    "questionInPlainEnglish": "Which listed additive is preferred when anticoagulated blood is used to examine malaria parasites?",
+    "explanation": "An anticoagulant prevents blood from clotting. For the textbook choice here, EDTA is preferred because recognizable blood-cell and parasite shapes are important. The question is about preserving appearance for diagnosis, not treating malaria.",
+    "optionExplanations": [
+      "EDTA is the preferred listed anticoagulant for this purpose, so it is correct.",
+      "Heparin prevents clotting but can interfere with parasite appearance, making it less suitable here.",
+      "Sodium citrate is used for some other blood tests but is not the preferred choice for this question.",
+      "Sodium fluoride mainly helps preserve glucose in certain blood samples and is not the preferred malaria-smear additive."
+    ],
+    "memory": "Malaria appearance question: remember EDTA.",
+    "quickCheck": {
+      "question": "What does anticoagulant mean?",
+      "answer": "A substance that helps prevent blood from clotting."
+    }
+  },
+  "book-302-53": {
+    "questionInPlainEnglish": "Which organism matches the book image of a very large intestinal single-celled parasite?",
+    "explanation": "The book identifies the pictured organism as Balantidium coli. Its active form is unusually large and is covered in cilia, tiny movement hairs. A size around 65 by 45 micrometers is compatible with it, but an image is needed to assess the actual identifying features.",
+    "optionExplanations": [
+      "Balantidium coli is a large ciliate and matches the book identification.",
+      "Diphyllobothrium latum is a tapeworm; its egg is not a large ciliated single cell.",
+      "Giardia lamblia trophozoites are much smaller and have two prominent nuclei rather than this large ciliate appearance.",
+      "Schistosoma japonicum is a blood fluke; its eggs have a shell and different identifying features."
+    ],
+    "memory": "Large intestinal ciliate: Balantidium.",
+    "quickCheck": {
+      "question": "What movement structures does Balantidium have?",
+      "answer": "Cilia, which are tiny hair-like structures."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image."
+  },
+  "book-302-54": {
+    "questionInPlainEnglish": "Which worm egg does the book identify in the image?",
+    "explanation": "The book identifies this as a fertilized Ascaris lumbricoides egg. Fertilized means the egg has received the genetic contribution needed for development. Ascaris eggs can have a thick shell and a bumpy outer coating, but size alone cannot establish the image identity.",
+    "optionExplanations": [
+      "Hookworm eggs usually have a thin shell and a different internal appearance.",
+      "Enterobius eggs characteristically have one flattened side, unlike a typical fertilized Ascaris egg.",
+      "Trichuris eggs are barrel-shaped with plugs at both ends.",
+      "Ascaris lumbricoides is the book identification and is compatible with the stated size."
+    ],
+    "memory": "Ascaris: thick egg shell, often a bumpy coat.",
+    "quickCheck": {
+      "question": "Which listed egg has plugs at both ends?",
+      "answer": "Trichuris trichiura."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image."
+  },
+  "book-302-55": {
+    "questionInPlainEnglish": "Which active intestinal flagellate does the book identify in the image?",
+    "explanation": "The book identifies a Giardia lamblia trophozoite. A trophozoite is the active feeding and growing form. Giardia is often pear-shaped with two prominent nuclei, a combination sometimes compared to a little face.",
+    "optionExplanations": [
+      "Chilomastix mesnili trophozoites have one nucleus rather than the paired nuclei described for this image.",
+      "Giardia lamblia has the characteristic pear-shaped body and two prominent nuclei described by the book.",
+      "Trichomonas hominis, now commonly called Pentatrichomonas hominis, has a different single-nucleus and membrane pattern.",
+      "Trichomonas tenax is chiefly associated with the mouth and does not fit the described Giardia-like features."
+    ],
+    "memory": "Giardia trophozoite: a pear with two eyes.",
+    "quickCheck": {
+      "question": "How many prominent nuclei does a typical Giardia trophozoite have?",
+      "answer": "Two."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image."
+  },
+  "book-302-56": {
+    "questionInPlainEnglish": "Which intestinal organism does the book identify as the small, usually two-nucleus trophozoite?",
+    "explanation": "The book identifies Dientamoeba fragilis. Although it resembles an ameba and has no obvious external flagella, its relationships place it with the trichomonads. Many trophozoites have two nuclei, which helps explain its distinctive appearance.",
+    "optionExplanations": [
+      "Entamoeba histolytica trophozoites usually have one nucleus rather than the characteristic pair described.",
+      "Entamoeba hartmanni is a small ameba, but its trophozoite generally has one nucleus.",
+      "Dientamoeba fragilis often has two nuclei and matches the book identification.",
+      "Entamoeba coli trophozoites typically have one nucleus and different nuclear details."
+    ],
+    "memory": "Dientamoeba trophozoite: often two nuclei.",
+    "quickCheck": {
+      "question": "Does an ameba-like shape prove that Dientamoeba is a true ameba?",
+      "answer": "No. Classification also uses its internal structure and genetic relationships."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image. The original rationale states that Dientamoeba fragilis has no cyst stage. Rare cyst forms have since been reported. This image question concerns its trophozoite, so the original answer is unaffected."
+  },
+  "book-302-57": {
+    "questionInPlainEnglish": "Which ameba form can have more than four nuclei inside one cyst?",
+    "explanation": "The book identifies an Entamoeba coli cyst and describes six visible nuclei. Mature cysts of this species can contain up to eight nuclei. This is the ameba Entamoeba coli, not the bacterium Escherichia coli, which shares the abbreviation E. coli.",
+    "optionExplanations": [
+      "Entamoeba histolytica cysts usually have at most four nuclei, so six would not fit.",
+      "Entamoeba histolytica trophozoites usually have one nucleus and are not cysts.",
+      "Entamoeba coli cysts can have up to eight nuclei, matching the book description.",
+      "Entamoeba coli trophozoites have one nucleus, unlike the many-nucleus cyst described."
+    ],
+    "memory": "Entamoeba coli cyst: up to eight nuclei.",
+    "quickCheck": {
+      "question": "Are Entamoeba coli and Escherichia coli the same organism?",
+      "answer": "No. One is an ameba and the other is a bacterium."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image."
+  },
+  "book-302-58": {
+    "questionInPlainEnglish": "Which worm egg does the book identify as thin-shelled and fairly symmetrical?",
+    "explanation": "The book identifies a hookworm egg. Hookworm eggs are typically oval, fairly symmetrical, and thin-shelled. The size supports the identification, but shell and internal features matter too.",
+    "optionExplanations": [
+      "Hookworm matches the thin shell and symmetrical oval described by the book.",
+      "Ascaris eggs generally have a much thicker shell, often with a bumpy outer coat.",
+      "Diphyllobothrium latum eggs have a lid-like opening called an operculum, unlike hookworm eggs.",
+      "Taenia solium eggs are more rounded and have a thick, radially striped outer structure."
+    ],
+    "memory": "Hookworm egg: thin oval shell.",
+    "quickCheck": {
+      "question": "What is an operculum on an egg?",
+      "answer": "A small lid-like structure."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image."
+  },
+  "book-302-59": {
+    "questionInPlainEnglish": "Which organism does the book identify by a large central compartment and nuclei at the edge?",
+    "explanation": "The book identifies the classic vacuolar form of Blastocystis. Its large central compartment leaves a thin rim of cell material containing nuclei. This pattern is a better identification clue than size alone.",
+    "optionExplanations": [
+      "Entamoeba hartmanni is a small ameba without the characteristic dominant central compartment.",
+      "Dientamoeba fragilis often has two nuclei but does not show this classic vacuolar arrangement.",
+      "Iodamoeba butschlii can have a prominent glycogen mass, but its typical cyst has one nucleus rather than this Blastocystis pattern.",
+      "Blastocystis hominis is the older name used for the book organism and matches the described central-body form."
+    ],
+    "memory": "Blastocystis: large central space, nuclei around the rim.",
+    "quickCheck": {
+      "question": "Which feature makes the nuclei appear pushed outward?",
+      "answer": "The large central compartment."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image. Blastocystis is classified among stramenopiles, a group including water molds and some algae; it is not currently classified as a true ameba. Blastocystis species is often preferred to the older broad name B. hominis."
+  },
+  "book-302-60": {
+    "questionInPlainEnglish": "Which malaria parasite does the book identify by a band-shaped growing form?",
+    "explanation": "The book identifies Plasmodium malariae. Its trophozoite can stretch across a red blood cell like a band, and the infected cell usually stays near normal size. A band form is a useful clue, although the actual image would be needed for independent identification.",
+    "optionExplanations": [
+      "Babesia can form rings and sometimes four-part crosses, but it is not the book identification for this band-form image.",
+      "Plasmodium malariae is classically associated with band-shaped trophozoites and is the book answer.",
+      "Plasmodium falciparum is more associated with delicate rings and crescent-shaped gametocytes.",
+      "Trypanosoma cruzi bloodstream forms are outside red blood cells and have a different shape."
+    ],
+    "memory": "Malariae can make a band across the red cell.",
+    "quickCheck": {
+      "question": "What does the band in a malariae band form stretch across?",
+      "answer": "The infected red blood cell."
+    },
+    "sourceNote": "The referenced color plate was not supplied in this question file. The explanation follows the book identification and written features; it does not independently verify the image. The original rationale incorrectly lists lack of malarial pigment as a P. malariae feature; P. malariae can contain malarial pigment. Babesia can also have forms beyond simple rings, including tetrads. The book identification is preserved."
+  },
+  "book-302-1": {
+    "questionInPlainEnglish": "Where are pinworm eggs usually found when diagnosing infection?",
+    "explanation": "Enterobius vermicularis is the pinworm. Female worms lay eggs on the skin around the anus, called the perianal area. That is why looking for eggs there is more useful than looking in stool.",
+    "optionExplanations": [
+      "Eggs around the anus fit the pinworm life cycle and are the usual diagnostic finding.",
+      "Larvae are young worms; the expected finding around the anus is eggs, not larvae.",
+      "Larvae in stool are more characteristic of Strongyloides than pinworm.",
+      "Some eggs may reach stool, but stool is not the usual place used to detect pinworm."
+    ],
+    "memory": "Pinworm: eggs beside the anus.",
+    "quickCheck": {
+      "question": "What does perianal mean?",
+      "answer": "Around the anus."
+    }
+  },
+  "book-302-2": {
+    "questionInPlainEnglish": "What form of the dog tapeworm is found in an infected human?",
+    "explanation": "Echinococcus granulosus is a tiny tapeworm whose adults live in dogs. Humans can accidentally become intermediate hosts, meaning they carry its developing larval stage. In humans that stage forms fluid-filled hydatid cysts, often in the liver or lungs.",
+    "optionExplanations": [
+      "Adult intestinal worms belong to the dog part of this life cycle, not the human part.",
+      "Human tissues contain larval cysts, not adult worms.",
+      "Eggs are passed by infected dogs; humans with hydatid disease do not usually pass these eggs.",
+      "Hydatid cysts are the larval structures found in human tissues, so this fits."
+    ],
+    "memory": "Dog: adult worm. Human: hydatid cyst.",
+    "quickCheck": {
+      "question": "Why are humans called intermediate hosts here?",
+      "answer": "They carry the larval cyst stage rather than the adult tapeworm."
+    }
+  },
+  "book-302-11": {
+    "questionInPlainEnglish": "Which parasite best explains an African trip, fever, swollen lymph nodes, and flagellates outside blood cells?",
+    "explanation": "Trypanosoma brucei causes African sleeping sickness. A flagellate has a whip-like structure, and extracellular means outside cells. The African travel history and parasites moving outside blood cells point toward this species.",
+    "optionExplanations": [
+      "Leishmania donovani usually appears in human tissue cells as small amastigotes, not as the described bloodstream flagellate.",
+      "Trypanosoma brucei is the African bloodstream flagellate that fits this travel history and illness.",
+      "Trypanosoma cruzi causes Chagas disease, associated mainly with the Americas rather than this African exposure.",
+      "Toxoplasma gondii is mainly a tissue parasite and does not fit a large extracellular flagellate in blood."
+    ],
+    "memory": "African trypanosomiasis: T. brucei.",
+    "quickCheck": {
+      "question": "What does extracellular mean?",
+      "answer": "Outside a cell."
+    },
+    "sourceNote": "The source rationale mentions posterior-neck lymph nodes (Winterbottom sign), while the case describes anterior-neck nodes. African travel plus bloodstream trypanosomes is the stronger clue. The original answer is preserved."
+  },
+  "book-302-12": {
+    "questionInPlainEnglish": "Which malaria species makes irregular growing forms and fine red dots in infected red cells?",
+    "explanation": "A trophozoite is a growing parasite stage. Ameboid means irregular in outline, like an ameba extending parts of its body. Plasmodium vivax often has ameboid trophozoites and Schuffner dots, small changes in the infected red cell.",
+    "optionExplanations": [
+      "Plasmodium knowlesi can resemble other malaria species, but it is not the classic match for these combined clues.",
+      "Plasmodium falciparum is more associated with delicate rings and crescent-shaped gametocytes.",
+      "Plasmodium malariae is more associated with compact or band-shaped trophozoites.",
+      "Plasmodium vivax is the classic match for ameboid trophozoites with Schuffner dots."
+    ],
+    "memory": "Vivax: varied shape plus fine dots.",
+    "quickCheck": {
+      "question": "What does ameboid describe?",
+      "answer": "An irregular, ameba-like shape."
+    },
+    "sourceNote": "Schuffner dots are changes in the infected red cell, not clumps of malarial pigment as the original rationale states. Plasmodium knowlesi is also an established cause of human malaria. The book answer remains Plasmodium vivax."
+  },
+  "book-302-13": {
+    "questionInPlainEnglish": "Which listed microscopic approach best reveals fine details of intestinal amebae?",
+    "explanation": "Small details inside amebae, especially their nuclei, help distinguish their types. A permanently stained smear makes these details easier to compare and provides a lasting record. Some look-alike species still need antigen or genetic tests for reliable separation.",
+    "optionExplanations": [
+      "A saline wet mount can show movement but is less dependable for fine nuclear details.",
+      "An iodine wet mount can show cyst structures, but it is not the best listed approach for detailed species identification.",
+      "A permanently stained smear reveals fine cell and nuclear features, making it the textbook answer.",
+      "Sedimentation brings parasite material together, but concentration alone does not reveal the fine identifying details."
+    ],
+    "memory": "Fine ameba details: a permanent stained view.",
+    "quickCheck": {
+      "question": "Why are nuclear details helpful?",
+      "answer": "Different amebae have different patterns inside and around their nuclei."
+    },
+    "sourceNote": "This is the best listed method for detailed microscopic identification. It does not override the need for antigen or genetic testing to distinguish morphologically identical E. histolytica and E. dispar."
+  },
+  "book-302-45": {
+    "questionInPlainEnglish": "Which malaria species often shows many delicate ring forms with two small nuclear dots?",
+    "explanation": "Chromatin is genetic material inside the parasite, visible as small dots in a stained image. Plasmodium falciparum rings often have two chromatin dots. Older growing stages tend to remain in small blood vessels, so circulating blood may mainly show rings and gametocytes.",
+    "optionExplanations": [
+      "Plasmodium falciparum fits many rings, frequent double dots, and few older circulating stages.",
+      "Plasmodium vivax more often shows enlarged red cells and varied growing stages, so it is less fitting.",
+      "Plasmodium malariae often has compact or band-shaped growing forms rather than this dominant ring pattern.",
+      "Plasmodium ovale is more associated with enlarged, sometimes ragged-edged red cells and fine dots."
+    ],
+    "memory": "Falciparum: many fine rings, often double dots.",
+    "quickCheck": {
+      "question": "Why can older falciparum stages be scarce in circulating blood?",
+      "answer": "Many infected cells containing older stages are retained in small blood vessels."
+    }
+  },
+  "book-302-51": {
+    "questionInPlainEnglish": "Which parasite causes Chagas disease?",
+    "explanation": "Chagas disease is also called American trypanosomiasis. Its cause is Trypanosoma cruzi, and long-term infection can damage the heart or parts of the digestive system. The species name matters because another Trypanosoma causes African sleeping sickness.",
+    "optionExplanations": [
+      "Trypanosoma brucei causes African sleeping sickness, not Chagas disease.",
+      "Trypanosoma cruzi causes Chagas disease, so this is correct.",
+      "Leishmania braziliensis causes forms of leishmaniasis involving skin and sometimes mucous membranes.",
+      "Dracunculus medinensis is the Guinea worm, not the cause of Chagas disease."
+    ],
+    "memory": "Cruzi causes Chagas.",
+    "quickCheck": {
+      "question": "What is another name for Chagas disease?",
+      "answer": "American trypanosomiasis."
+    }
+  }
+}

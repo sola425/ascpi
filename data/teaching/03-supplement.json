@@ -1,0 +1,780 @@
+{
+  "book-135-52": {
+    "questionInPlainEnglish": "What transfusion-storage shelf life does the book assign to EDTA?",
+    "explanation": "EDTA stops clotting by binding calcium, which makes it useful for laboratory blood counts. It is not an approved preservative solution for storing blood intended for transfusion, so no listed storage duration applies.",
+    "optionExplanations": [
+      "Twenty-one days applies to preservative systems such as CPD, not EDTA.",
+      "Thirty-five days is associated with CPDA-1 rather than EDTA.",
+      "Forty-two days applies to certain red-cell additive solutions.",
+      "EDTA is not approved for storing transfusion blood; this is the correct category."
+    ],
+    "memory": "A lab-tube anticoagulant is not automatically a transfusion preservative.",
+    "quickCheck": {
+      "question": "Why does preventing clotting alone not establish a transfusion shelf life?",
+      "answer": "Cells also need an approved system that preserves their viability during storage."
+    }
+  },
+  "book-135-53": {
+    "questionInPlainEnglish": "Does the book accept a healthy man who is almost 66 years old?",
+    "explanation": "The book does not impose an automatic upper age cutoff. A healthy older adult may donate after the required assessment; the birthday itself does not establish a problem.",
+    "optionExplanations": [
+      "His age alone is not a temporary reason to defer.",
+      "A one-year delay has no basis in this age-only scenario.",
+      "The book does not indefinitely exclude people at 66.",
+      "Acceptance is the book’s answer if the examination and other criteria are satisfactory."
+    ],
+    "memory": "Fitness matters more than this birthday.",
+    "quickCheck": {
+      "question": "Does the book set age 66 as an automatic donor exclusion?",
+      "answer": "No."
+    },
+    "sourceNote": "Historical donor-eligibility exercise; actual age limits and assessment requirements depend on current jurisdiction and collection service."
+  },
+  "book-135-54": {
+    "questionInPlainEnglish": "Can this woman donate whole blood only 54 days after her previous donation?",
+    "explanation": "The book requires 56 days between ordinary whole-blood donations. Fifty-four days is two days short, so the appropriate decision is a brief temporary deferral to protect recovery.",
+    "optionExplanations": [
+      "A temporary wait until the required interval is reached fits.",
+      "Twelve months is much longer than the stated recovery interval.",
+      "Nothing here justifies permanent exclusion.",
+      "Acceptance today would be earlier than the book’s 56-day minimum."
+    ],
+    "memory": "Eight weeks is 56 days, not 54.",
+    "quickCheck": {
+      "question": "How many more days complete a 56-day interval after day 54?",
+      "answer": "Two days."
+    },
+    "sourceNote": "Donation intervals depend on component type and current local policy; this is the book’s whole-blood rule."
+  },
+  "book-135-55": {
+    "questionInPlainEnglish": "What decision did this older book assign to a man reporting male-to-male sex in 1980?",
+    "explanation": "The book used a broad historical HIV-risk rule covering male-to-male sex after 1977 and keyed indefinite deferral. That rule reflects its publication era and must not be mistaken for a current individual-risk assessment.",
+    "optionExplanations": [
+      "A short temporary delay is not the historical category keyed here.",
+      "The older book did not use a 12-month interval for this example.",
+      "Indefinite deferral is the historical book answer.",
+      "Acceptance conflicts with the book’s old rule, though present policies have changed substantially."
+    ],
+    "memory": "Separate the historical answer from today’s eligibility process.",
+    "quickCheck": {
+      "question": "Should a historical lifetime deferral be assumed to be current policy?",
+      "answer": "No; current donor eligibility must be assessed under current rules."
+    },
+    "sourceNote": "Outdated policy: modern donor screening in several jurisdictions, including the United States, uses individual risk assessment rather than this blanket indefinite exclusion."
+  },
+  "book-135-56": {
+    "questionInPlainEnglish": "Does jaundice only in the first days after birth require deferral now?",
+    "explanation": "Newborn jaundice can result from normal newborn bilirubin handling or red-cell breakdown. It is not the same history as later infectious hepatitis. The book therefore accepts an otherwise eligible adult with this history alone.",
+    "optionExplanations": [
+      "There is no current illness described requiring a temporary wait.",
+      "A year’s deferral is not justified by neonatal jaundice alone.",
+      "Neonatal jaundice alone does not imply a lifelong infection risk.",
+      "Acceptance is the keyed choice when the remaining evaluation is satisfactory."
+    ],
+    "memory": "A yellow newborn history is not automatically hepatitis.",
+    "quickCheck": {
+      "question": "Does jaundice always mean viral hepatitis?",
+      "answer": "No; bilirubin can rise for many reasons."
+    },
+    "sourceNote": "The rationale overstates neonatal jaundice as necessarily hemolytic disease; many newborn cases have other causes. Current donor review considers the actual diagnosis."
+  },
+  "book-135-57": {
+    "questionInPlainEnglish": "Does poison ivy on the hands and face automatically prevent donation in the book?",
+    "explanation": "A localized noninfectious rash away from the needle site does not necessarily make blood unsafe. The arm must still be safely cleaned and the donor well enough to donate. The book assumes the puncture area is unaffected.",
+    "optionExplanations": [
+      "A temporary deferral is not required solely for these distant rash locations under the stated assumptions.",
+      "A 12-month delay has no connection to poison ivy.",
+      "Poison ivy does not create an indefinite blood-borne infection risk.",
+      "Acceptance fits a mild rash away from the venipuncture site."
+    ],
+    "memory": "Check the needle site, not just the existence of a rash.",
+    "quickCheck": {
+      "question": "Why would a rash at the venipuncture site matter?",
+      "answer": "It could interfere with safe skin preparation or damage the skin barrier."
+    },
+    "sourceNote": "Historical suitability exercise; current acceptance depends on symptoms, medication, skin condition, and collection policy."
+  },
+  "book-135-58": {
+    "questionInPlainEnglish": "Is two months after childbirth beyond the book’s postpartum waiting period?",
+    "explanation": "The book uses a six-week postpartum deferral. Two months is longer than six weeks, so an otherwise eligible woman can be accepted under that rule; recovery and hemoglobin still need assessment.",
+    "optionExplanations": [
+      "The stated postpartum waiting interval has already passed.",
+      "The book does not require a full year after an uncomplicated pregnancy.",
+      "Childbirth does not itself cause indefinite deferral.",
+      "Acceptance matches the book’s six-week rule at two months postpartum."
+    ],
+    "memory": "Two months exceeds the book’s six-week wait.",
+    "quickCheck": {
+      "question": "What recovery factor still matters after the minimum postpartum interval?",
+      "answer": "The donor’s health and adequate hemoglobin or iron status."
+    },
+    "sourceNote": "Postpartum and breastfeeding eligibility rules vary; apply current local policy rather than assuming this historical interval is universal."
+  },
+  "book-135-59": {
+    "questionInPlainEnglish": "Can a healthy runner with a regular pulse of 46 be accepted in the book?",
+    "explanation": "Training can make the heart pump more blood per beat, producing a slow resting pulse without illness. The book allows assessment of a healthy athlete below the usual pulse range if the rhythm is regular.",
+    "optionExplanations": [
+      "A slow athletic pulse does not automatically require a temporary delay.",
+      "There is no reason here for a one-year exclusion.",
+      "A trained athlete’s low resting pulse is not an indefinite exclusion by itself.",
+      "Acceptance is the book’s choice for a healthy runner with regular beats."
+    ],
+    "memory": "A trained heart may beat fewer times at rest.",
+    "quickCheck": {
+      "question": "Why can endurance athletes have a low resting heart rate?",
+      "answer": "Their heart can pump an adequate volume with each stronger beat."
+    },
+    "sourceNote": "Current collection policies define pulse limits and exceptions; symptoms or an irregular rhythm need assessment."
+  },
+  "book-135-60": {
+    "questionInPlainEnglish": "Which listed component is needed for the book’s stable methyldopa-associated anemia scenario?",
+    "explanation": "Stopping the offending drug can allow immune hemolysis to settle. With the book’s stated stable condition and hemoglobin level, it selects no transfusion rather than automatically giving blood. Clinical symptoms and trajectory matter more than a single number.",
+    "optionExplanations": [
+      "Platelets do not treat red-cell anemia.",
+      "Red cells may be needed in severe symptomatic anemia, but are not indicated in the book’s stable example.",
+      "Leukocyte reduction does not correct the underlying drug-triggered immune process.",
+      "No transfusion is the keyed choice for this scenario while the cause is addressed."
+    ],
+    "memory": "Treat the trigger; do not transfuse a number alone.",
+    "quickCheck": {
+      "question": "Does hemoglobin alone determine every transfusion decision?",
+      "answer": "No; symptoms, ongoing loss, comorbidities, and clinical stability matter."
+    },
+    "sourceNote": "The 8.5 g/dL cutoff is historical teaching, not a universal current threshold; urgent clinically necessary transfusion must not be withheld."
+  },
+  "book-135-61": {
+    "questionInPlainEnglish": "Which red-cell product lowers transfusion-associated CMV risk?",
+    "explanation": "CMV can persist inside white blood cells. Leukocyte reduction removes most of those cells while retaining red cells for oxygen delivery, reducing the chance of transmitting cell-associated CMV.",
+    "optionExplanations": [
+      "Platelets do not meet the stated need for red-cell replacement.",
+      "Unmodified red cells do not add the requested CMV risk-reduction step.",
+      "Leukocyte-reduced red cells address both oxygen delivery and the white-cell-associated risk.",
+      "The question states a red-cell need, so simply avoiding transfusion is not the selected component."
+    ],
+    "memory": "Remove white cells to reduce cell-associated CMV.",
+    "quickCheck": {
+      "question": "Which cells are removed by leukocyte reduction?",
+      "answer": "White blood cells, or leukocytes."
+    },
+    "sourceNote": "Leukocyte reduction lowers but does not make infection risk zero; special CMV component requirements follow current institutional policy."
+  },
+  "book-135-62": {
+    "questionInPlainEnglish": "Which component best treats anemia without a low circulating fluid volume?",
+    "explanation": "Normovolemic means the blood volume is normal. The missing ingredient is red-cell oxygen capacity, so concentrated red cells replace hemoglobin while adding less unnecessary volume than whole blood.",
+    "optionExplanations": [
+      "Platelets help clotting rather than correcting anemia.",
+      "Red cells replace the missing oxygen-carrying cells and are the best basic match.",
+      "Leukocyte-reduced red cells can also be appropriate, but no special leukocyte indication is specified in this matching item.",
+      "Anemia may require treatment; the question asks which component matches a demonstrated transfusion need."
+    ],
+    "memory": "Normal volume, low red cells: replace cells, not extra plasma.",
+    "quickCheck": {
+      "question": "What does normovolemic mean?",
+      "answer": "Having a normal circulating blood volume."
+    },
+    "sourceNote": "A transfusion decision still depends on clinical severity; many services routinely use leukocyte-reduced red cells."
+  },
+  "book-135-63": {
+    "questionInPlainEnglish": "Which component addresses low platelets after leukemia treatment?",
+    "explanation": "Chemotherapy can suppress marrow production of platelets. A platelet concentrate supplies the cell fragments needed to form the first plug at an injured blood vessel.",
+    "optionExplanations": [
+      "Platelet concentrate replaces the deficient clot-forming fragments.",
+      "Red cells improve oxygen transport but not platelet count.",
+      "Leukocyte-reduced red cells still do not supply a therapeutic platelet dose.",
+      "Whether a transfusion is needed depends on count and bleeding, but platelets are the matching component when support is indicated."
+    ],
+    "memory": "Low platelets need platelets, not hemoglobin.",
+    "quickCheck": {
+      "question": "What does thrombocytopenia mean?",
+      "answer": "An abnormally low platelet count."
+    }
+  },
+  "book-135-91": {
+    "questionInPlainEnglish": "What should be selected when historical anti-E is no longer detectable?",
+    "explanation": "Immune memory can survive after antibody levels fall. An E-positive transfusion could rapidly boost anti-E and cause delayed hemolysis. Find E-negative donor units and perform appropriate compatibility testing.",
+    "optionExplanations": [
+      "Typing the patient does not ensure the chosen donor cells lack E.",
+      "E-negative donor units honor the historical antibody and are the correct choice.",
+      "A negative crossmatch alone may miss the faded antibody.",
+      "Enzymes can enhance Rh reactions but cannot reliably erase the need to honor a known anti-E history."
+    ],
+    "memory": "An old antibody remains part of today’s blood selection.",
+    "quickCheck": {
+      "question": "Can a clinically significant antibody be forgotten after its screen becomes negative?",
+      "answer": "No; the historical antibody must still guide donor selection."
+    }
+  },
+  "book-135-93": {
+    "questionInPlainEnglish": "Which listed antibody clearly causes both transfusion reactions and newborn hemolytic disease?",
+    "explanation": "Anti-K is usually IgG and can cross the placenta. It can destroy K-positive donor cells and can also suppress fetal red-cell production, causing serious fetal anemia.",
+    "optionExplanations": [
+      "Anti-I is usually IgM and does not cross the placenta.",
+      "Anti-K is clinically significant in both transfusion and pregnancy.",
+      "Anti-Lea is usually IgM and rarely causes these problems.",
+      "Anti-N is usually a cold IgM antibody and is not the classic answer."
+    ],
+    "memory": "Kell anti-K can harm both circulating cells and fetal production.",
+    "quickCheck": {
+      "question": "Why can anti-K cause fetal anemia beyond simply breaking mature cells?",
+      "answer": "It can suppress fetal red-cell precursor production."
+    },
+    "sourceNote": "Trailing characters in the final option are OCR noise."
+  },
+  "book-135-110": {
+    "questionInPlainEnglish": "Which blood-group system excludes the alleged father in this family?",
+    "explanation": "Both A parents could pass O alleles to make an O child, and the Rh inheritance can fit. The child’s HLA-B15 must come from one parent, but neither listed parent has it, so the alleged father is excluded by HLA. HLA markers are inherited cell-surface identity tags. Under this simplified family exercise, the baby’s B15 tag must be explained by a parent’s inherited tags. Paternal means coming from the father; the alleged father’s shown HLA tags do not supply the required paternal tag.",
+    "optionExplanations": [
+      "Two AO parents can have an OO child, so ABO does not exclude him.",
+      "The described Rh combinations allow the child’s inheritance.",
+      "The required paternal HLA-B15 is absent, giving the keyed exclusion.",
+      "Compatible ABO and Rh do not override the HLA exclusion."
+    ],
+    "memory": "Find the child’s antigen that cannot come from either listed parent.",
+    "quickCheck": {
+      "question": "How can two group A parents have a group O child?",
+      "answer": "Both can be AO and each pass an O allele."
+    },
+    "sourceNote": "This historical serologic paternity exercise assumes accurate typing and standard inheritance. Modern paternity analysis uses DNA; the original table is clearer than the OCR layout."
+  },
+  "book-135-111": {
+    "questionInPlainEnglish": "Which ABO pattern fits acquired B in a group A patient?",
+    "explanation": "Bacteria can chemically alter A structures so some anti-B reagents bind them. The cells then look AB, but the patient’s plasma still behaves like group A: it reacts with B cells and not A1 or O cells.",
+    "optionExplanations": [
+      "Broad reverse reactions including O suggest nonspecific or non-ABO interference, not isolated acquired B.",
+      "This A-cell pattern with extra anti-A1 activity fits an A2 person with anti-A1.",
+      "Apparent AB forward typing with group-A reverse typing is the acquired-B pattern.",
+      "A B-cell type with absent reverse antibodies fits a different problem, such as newborn testing."
+    ],
+    "memory": "Acquired B changes the cell test, not the person’s expected anti-B.",
+    "quickCheck": {
+      "question": "Why does acquired B cause a forward/reverse discrepancy?",
+      "answer": "Altered A cells react with some anti-B reagents while plasma still contains anti-B."
+    }
+  },
+  "book-135-112": {
+    "questionInPlainEnglish": "Which ABO pattern could excess protein in multiple myeloma imitate?",
+    "explanation": "High abnormal immunoglobulin levels can make cells stack like coins, called rouleaux. This can resemble agglutination across several tubes, including group O reverse cells that have no A or B antigen.",
+    "optionExplanations": [
+      "Apparent broad clumping in forward and reverse testing fits protein-related interference.",
+      "A limited A1 reverse reaction better fits an A-subgroup issue.",
+      "An apparent AB forward type with normal A reverse pattern suggests acquired-B or reagent interference.",
+      "Missing reverse reactions suggest insufficient antibody, not protein-driven stacking."
+    ],
+    "memory": "Rouleaux can stack cells without an antigen-antibody match.",
+    "quickCheck": {
+      "question": "What is rouleaux?",
+      "answer": "Coinlike red-cell stacking caused by plasma protein effects."
+    },
+    "sourceNote": "Resolve using validated washed-cell and saline-replacement techniques rather than assigning an ABO type from the raw discrepant pattern."
+  },
+  "book-135-113": {
+    "questionInPlainEnglish": "Which pattern is expected when a newborn has not developed its own ABO antibodies?",
+    "explanation": "A newborn’s red-cell antigens can type normally, but its plasma may lack the expected anti-A or anti-B. The B-typed cells with no reverse reactions are the matching example.",
+    "optionExplanations": [
+      "Broad positive reverse reactions are not the expected absence of infant antibodies.",
+      "Extra reactivity with A1 cells is not the simple newborn pattern.",
+      "Group-A-like anti-B is present here, unlike the expected missing reverse antibodies.",
+      "B cells with no A1, B, or O reverse reactions fit absent newborn ABO antibodies."
+    ],
+    "memory": "Newborn cells can show a type before plasma shows expected antibodies.",
+    "quickCheck": {
+      "question": "Why is newborn reverse ABO grouping unreliable?",
+      "answer": "Expected ABO antibodies have not yet developed reliably."
+    }
+  },
+  "book-135-114": {
+    "questionInPlainEnglish": "Which pattern fits an A2 person who has made anti-A1?",
+    "explanation": "A2 cells react with anti-A but not anti-B. Their plasma contains expected anti-B and may also contain anti-A1, making both A1 and B reverse cells react while O cells remain negative.",
+    "optionExplanations": [
+      "O-cell reactivity suggests additional interference beyond anti-A1.",
+      "A forward type with A1 and B reverse reactions, but not O, matches this scenario.",
+      "Apparent AB forward typing is not an ordinary A2 phenotype.",
+      "A B forward type with no reverse antibodies does not fit A2 with anti-A1."
+    ],
+    "memory": "A2 can recognize A1 as different.",
+    "quickCheck": {
+      "question": "What unexpected reverse-grouping reaction can anti-A1 produce?",
+      "answer": "A reaction with A1 reagent cells."
+    }
+  },
+  "book-135-115": {
+    "questionInPlainEnglish": "Which ABO discrepancy can an antibody to anti-B reagent dye produce?",
+    "explanation": "If the patient’s plasma remains around the red cells, an antibody to acriflavin dye in an older anti-B reagent can cause a false anti-B reaction. A true group A sample can therefore look AB forward but A in reverse.",
+    "optionExplanations": [
+      "Broad O-cell reactivity is not the specific dye-related forward artifact.",
+      "This pattern suggests anti-A1 rather than a false anti-B reagent reaction.",
+      "The false B forward reaction with preserved group-A reverse typing matches the dye effect.",
+      "Absent reverse antibodies do not explain a dye-specific anti-B tube reaction."
+    ],
+    "memory": "A reagent ingredient can imitate an antigen reaction.",
+    "quickCheck": {
+      "question": "Why can washing the patient’s cells remove this dye-related artifact?",
+      "answer": "It removes plasma containing the antibody to the reagent dye."
+    },
+    "sourceNote": "This is a historical reagent example; effects depend on actual reagent formulation. It shares a pattern with acquired B but has a different mechanism."
+  },
+  "book-135-116": {
+    "questionInPlainEnglish": "Which pattern fits a patient making too little immunoglobulin?",
+    "explanation": "An immunodeficient patient may have weak or absent ABO antibodies even though red-cell antigens are present. The example with B-positive cells and no reverse reactions illustrates this missing-antibody discrepancy.",
+    "optionExplanations": [
+      "Extra broad reactions are the opposite of too little antibody.",
+      "Extra anti-A1 reactivity does not fit a general antibody deficiency.",
+      "A strong expected anti-B reaction is not the clearest absent-antibody example.",
+      "A B forward type without expected anti-A illustrates immunoglobulin deficiency."
+    ],
+    "memory": "Low immunoglobulin can leave the reverse test silent.",
+    "quickCheck": {
+      "question": "Which part of ABO grouping may weaken in hypogammaglobulinemia?",
+      "answer": "The reverse, or serum/plasma, grouping."
+    }
+  },
+  "book-135-117": {
+    "questionInPlainEnglish": "Which pattern can an unexpected cold IgM antibody create?",
+    "explanation": "Reverse reagent cells carry many antigens besides A and B. IgM against one of those targets can react with A1, B, and even O cells, adding confusing reactions unrelated to the ABO type.",
+    "optionExplanations": [
+      "Broad reverse reactions including O support an additional non-ABO antibody.",
+      "This restricted A1/B pattern fits anti-A1 better than broad interference.",
+      "A false anti-B forward reaction alone does not illustrate broad reverse IgM interference.",
+      "Absent reverse reactions suggest deficient antibodies rather than an extra IgM."
+    ],
+    "memory": "O reverse cells can reveal non-ABO interference.",
+    "quickCheck": {
+      "question": "Why can group O reagent cells react with an unexpected IgM antibody?",
+      "answer": "They still carry many non-ABO red-cell antigens."
+    }
+  },
+  "book-135-118": {
+    "questionInPlainEnglish": "Which pattern could a strong cold autoantibody cause in ABO testing?",
+    "explanation": "A cold autoantibody can clump the patient’s cells and many reagent cells at room temperature. Both forward and reverse typing can therefore appear broadly positive, even though the reactions do not establish an AB type.",
+    "optionExplanations": [
+      "Broad forward and reverse clumping, including O cells, fits cold autoagglutination.",
+      "This limited discrepancy does not show the full broad self-reactive pattern.",
+      "An acquired-B-like result does not explain all the nonspecific reactions.",
+      "A silent reverse group is not the typical effect of a potent cold agglutinin."
+    ],
+    "memory": "Cold self-clumping can confuse both halves of ABO typing.",
+    "quickCheck": {
+      "question": "Why may warm handling help investigate a cold-autoantibody discrepancy?",
+      "answer": "It can reduce reactions that occur only at cooler temperatures."
+    },
+    "sourceNote": "Use validated methods that do not conceal clinically significant warm antibodies; do not resolve the discrepancy from temperature alone."
+  },
+  "book-135-119": {
+    "questionInPlainEnglish": "Which listed blood-group antigen does the older book associate mainly with white populations?",
+    "explanation": "Kpa is a low-frequency Kell antigen whose reported frequency differs across studied populations. The book chooses it in this historical matching question. Individual typing, not appearance or ancestry labels, determines antigen status.",
+    "optionExplanations": [
+      "McLeod describes Kx deficiency with weak Kell expression, not this low-frequency antigen association.",
+      "Mg is a rare MNS-related antigen, not the keyed population association.",
+      "Kpa is the book’s low-frequency Kell antigen answer.",
+      "Ss refers to linked MNS antigens, not the intended rare Kell antigen."
+    ],
+    "memory": "Kpa is a low-frequency Kell target.",
+    "quickCheck": {
+      "question": "Can population frequency replace typing an individual donor for Kpa?",
+      "answer": "No."
+    },
+    "sourceNote": "The source’s absolute statement that Kpa does not occur in Black people is outdated and should not be used as a biological rule."
+  },
+  "book-135-120": {
+    "questionInPlainEnglish": "Which phenotype causes weak expression of Kell-system antigens?",
+    "explanation": "McLeod phenotype results from loss of the Kx protein encoded by XK. Kx normally associates with Kell in the membrane; without it, Kell antigen expression is weakened.",
+    "optionExplanations": [
+      "McLeod is the phenotype with absent Kx and weak Kell expression.",
+      "Mg is an MNS variant, not generalized Kell weakening.",
+      "Kpa is one Kell antigen, not a phenotype weakening the system.",
+      "Ss belongs to MNS, not the Kx/Kell association."
+    ],
+    "memory": "No Kx weakens Kell: McLeod.",
+    "quickCheck": {
+      "question": "Which membrane protein is absent in McLeod phenotype?",
+      "answer": "Kx."
+    }
+  },
+  "book-135-121": {
+    "questionInPlainEnglish": "Which phenotype may occur together with certain forms of chronic granulomatous disease?",
+    "explanation": "The XK gene is near CYBB on the X chromosome. A deletion spanning both can cause McLeod red-cell changes and X-linked chronic granulomatous disease. The association does not mean every patient with either condition has both.",
+    "optionExplanations": [
+      "McLeod is the linked phenotype in this genetic-deletion association.",
+      "Mg is unrelated to this X-linked gene-neighborhood association.",
+      "Kpa does not explain the combined disorder.",
+      "Ss antigens are not the genetic link to chronic granulomatous disease."
+    ],
+    "memory": "Neighboring X-chromosome genes can be lost together.",
+    "quickCheck": {
+      "question": "Why can McLeod phenotype and X-linked chronic granulomatous disease coexist?",
+      "answer": "A deletion can affect both neighboring XK and CYBB genes."
+    },
+    "sourceNote": "The book says the association is unclear; contiguous-gene deletions explain some combined cases."
+  },
+  "book-289-1": {
+    "questionInPlainEnglish": "Which fungus best fits lung illness after dusty construction in California’s San Joaquin Valley?",
+    "explanation": "Coccidioides lives in dry endemic soils. Disturbing that soil can release infectious particles that are inhaled and cause valley fever. The location and dust exposure strongly support the book’s identification.",
+    "optionExplanations": [
+      "Aspergillus is widespread but does not explain the classic valley-fever geography as specifically.",
+      "Blastomyces is associated more with moist environments and other endemic regions.",
+      "Coccidioides fits the San Joaquin Valley and disturbed-soil exposure.",
+      "Histoplasma is more classically linked to bird/bat-enriched soil and river-valley regions."
+    ],
+    "memory": "San Joaquin dust points to valley fever.",
+    "quickCheck": {
+      "question": "What is another name for coccidioidomycosis?",
+      "answer": "Valley fever."
+    },
+    "sourceNote": "The referenced culture image is not included in the text. Modern identification may distinguish C. immitis from C. posadasii; handle suspected isolates under appropriate laboratory biosafety protocols."
+  },
+  "book-289-2": {
+    "questionInPlainEnglish": "Which fungus best fits a mild respiratory illness after cleaning bird debris in Ohio?",
+    "explanation": "Histoplasma grows in soil enriched with bird or bat droppings. Disturbing accumulated debris can aerosolize spores, which enter the lungs. Ohio River Valley exposure is a classic epidemiologic clue.",
+    "optionExplanations": [
+      "Aspergillus exposure is common but the bird-debris and Ohio clues favor Histoplasma.",
+      "Coccidioides is classically associated with arid southwestern soils.",
+      "Candida usually comes from a person’s own flora rather than this dust exposure.",
+      "Histoplasma matches both the environmental and geographic clues."
+    ],
+    "memory": "Ohio plus bird-enriched dust suggests Histoplasma.",
+    "quickCheck": {
+      "question": "How is histoplasmosis usually acquired?",
+      "answer": "By inhaling fungal particles from the environment."
+    }
+  },
+  "book-289-4": {
+    "questionInPlainEnglish": "Which yeast fits no hyphae, urease positivity, inositol use, and growth at 37°C?",
+    "explanation": "Cryptococcus neoformans usually remains a budding yeast on morphology agar. The combined metabolic clues and ability to grow at body temperature distinguish it from several look-alikes.",
+    "optionExplanations": [
+      "Candida krusei can form elongated cells and pseudohyphae and does not fit this complete profile.",
+      "The environmental C. terreus does not fit the body-temperature growth clue in this textbook scheme.",
+      "C. neoformans matches the no-hyphae, urease, inositol, and temperature pattern.",
+      "Trichosporon typically produces hyphae and arthroconidia, unlike the described isolate."
+    ],
+    "memory": "Use the whole yeast profile, not one positive test.",
+    "quickCheck": {
+      "question": "What enzyme reaction is classically positive in Cryptococcus neoformans?",
+      "answer": "Urease."
+    }
+  },
+  "book-289-7": {
+    "questionInPlainEnglish": "Which Candida infection is commonly acquired from another person rather than overgrowth of existing flora?",
+    "explanation": "A newborn can acquire Candida from the mother during birth and develop oral thrush. That is exogenous acquisition: the organism comes from outside the baby rather than simply overgrowing an established personal reservoir.",
+    "optionExplanations": [
+      "Diaper candidiasis often follows local overgrowth under moist conditions.",
+      "Neonatal thrush can follow acquisition from the maternal birth canal and is the keyed choice.",
+      "Perianal candidiasis commonly involves the person’s own colonizing organisms.",
+      "Candidal urinary infection often relates to colonization, devices, and host factors rather than this classic birth-transmission example."
+    ],
+    "memory": "Exogenous means arriving from outside.",
+    "quickCheck": {
+      "question": "What does exogenous acquisition mean?",
+      "answer": "Acquiring an organism from an outside source."
+    },
+    "sourceNote": "The supplied book rationale is truncated after “Diaper rash due to”; the keyed neonatal-thrush explanation is intact."
+  },
+  "book-289-11": {
+    "questionInPlainEnglish": "Which statement correctly describes the clinical potential of the formerly called zygomycetes?",
+    "explanation": "Mucorales are common environmental moulds but can invade blood vessels and tissue rapidly in susceptible patients. Mucormycosis can be life-threatening, particularly with uncontrolled diabetes, ketoacidosis, or severe immune suppression.",
+    "optionExplanations": [
+      "They are environmental organisms rather than usual human resident flora.",
+      "Some isolates are contaminants, but dismissing every isolate would miss dangerous disease.",
+      "They are not classically identified by a yeast-versus-mould dimorphic tissue switch.",
+      "They can cause rapidly progressive, fatal infection and are not harmless by definition."
+    ],
+    "memory": "Environmental mould can become a rapid invader.",
+    "quickCheck": {
+      "question": "Which disease is caused by invasive Mucorales?",
+      "answer": "Mucormycosis."
+    },
+    "sourceNote": "“Zygomycetes” and “zygomycosis” are older broad terms; Mucorales and mucormycosis are more precise for this context."
+  },
+  "book-289-31": {
+    "questionInPlainEnglish": "Which environment is classically associated with blastomycosis in this matching exercise?",
+    "explanation": "Blastomyces is associated with moist soil and decaying organic matter, including areas near waterways. The Mississippi and Ohio River basins are classic endemic regions in the book.",
+    "optionExplanations": [
+      "The Lower Sonoran desert association fits Coccidioides better.",
+      "The Mississippi and Ohio River basins are the intended blastomycosis geography.",
+      "Pigeon-roost debris is a classic Cryptococcus association.",
+      "Bat-associated soil more strongly points to Histoplasma."
+    ],
+    "memory": "Blastomyces likes the moist river-region clue.",
+    "quickCheck": {
+      "question": "Which geographic clue in this set favors blastomycosis?",
+      "answer": "The Mississippi and Ohio River basins."
+    },
+    "sourceNote": "Endemic areas are broader and changing; geography supports but does not establish diagnosis."
+  },
+  "book-289-32": {
+    "questionInPlainEnglish": "Which environment is classically associated with coccidioidomycosis?",
+    "explanation": "Coccidioides is associated with dry soils in arid and semiarid regions of the southwestern United States and nearby areas. The Lower Sonoran Life Zone is the book’s desert-climate match.",
+    "optionExplanations": [
+      "The Lower Sonoran zone provides the characteristic arid-region clue.",
+      "The Mississippi and Ohio basins are more associated with other endemic mycoses.",
+      "Pigeon roosts suggest cryptococcosis.",
+      "Bat-roost soil suggests histoplasmosis."
+    ],
+    "memory": "Coccidioides: dry desert soil and airborne dust.",
+    "quickCheck": {
+      "question": "Which broad climate favors the classic Coccidioides association?",
+      "answer": "Arid or semiarid desert climates."
+    }
+  },
+  "book-289-34": {
+    "questionInPlainEnglish": "Which environmental association best matches histoplasmosis?",
+    "explanation": "Large bird roosts can enrich soil with nutrients that support Histoplasma. Disturbing contaminated material can create inhalable fungal dust. The bird itself is not the usual direct source of infection to a person.",
+    "optionExplanations": [
+      "Sphagnum moss is a classic Sporothrix exposure.",
+      "Starling-roost debris is the Histoplasma association in this set.",
+      "Stagnant water is not the characteristic exposure here.",
+      "The Colorado River desert-region clue is less consistent than bird-roost material."
+    ],
+    "memory": "Histoplasma can thrive in bird-enriched soil.",
+    "quickCheck": {
+      "question": "Is histoplasmosis usually caught directly from an infected bird?",
+      "answer": "No; it is usually inhaled from an environmental source."
+    }
+  },
+  "book-289-35": {
+    "questionInPlainEnglish": "Which environmental material is classically linked to sporotrichosis?",
+    "explanation": "Sporothrix can enter through small skin injuries involving plant material, including sphagnum moss. That explains the risk to gardeners and nursery workers and the usual start at an inoculation site.",
+    "optionExplanations": [
+      "Sphagnum moss is a classic implantation exposure.",
+      "Starling roosts point more strongly toward Histoplasma.",
+      "Stagnant freshwater is not the typical source in this exercise.",
+      "A desert-valley association does not explain the classic skin-inoculation route."
+    ],
+    "memory": "Sporothrix: a splinter, thorn, or moss-related skin entry.",
+    "quickCheck": {
+      "question": "How does classic cutaneous sporotrichosis usually begin?",
+      "answer": "Fungal material is implanted through a small skin injury."
+    }
+  },
+  "book-289-36": {
+    "questionInPlainEnglish": "Which fungus causes white piedra?",
+    "explanation": "Trichosporon species can form soft pale nodules attached to hair shafts. The nodules contain hyphae and arthroconidia, with budding cells sometimes present. This differs from the hard dark nodules of black piedra.",
+    "optionExplanations": [
+      "Hortaea causes tinea nigra on skin.",
+      "Trichosporon causes white piedra.",
+      "Piedraia hortae causes black piedra.",
+      "Fonsecaea is associated with chromoblastomycosis."
+    ],
+    "memory": "Trichosporon ties pale nodules to hair.",
+    "quickCheck": {
+      "question": "Are white-piedra nodules typically soft and pale or hard and black?",
+      "answer": "Soft and pale."
+    }
+  },
+  "book-289-37": {
+    "questionInPlainEnglish": "Which fungus causes black piedra?",
+    "explanation": "Piedraia hortae forms hard brown-to-black nodules on hair, most often scalp hair. Its dark fungal structures explain the name black piedra.",
+    "optionExplanations": [
+      "Hortaea causes superficial dark skin patches, not classic black hair nodules.",
+      "Trichosporon is associated with white piedra.",
+      "Piedraia hortae is the cause of black piedra.",
+      "Fonsecaea causes a different chronic implantation infection."
+    ],
+    "memory": "Piedraia makes black piedra.",
+    "quickCheck": {
+      "question": "Where are the nodules of black piedra found?",
+      "answer": "On hair shafts."
+    }
+  },
+  "book-289-39": {
+    "questionInPlainEnglish": "Which fungus causes tinea, or pityriasis, versicolor?",
+    "explanation": "Malassezia can overgrow on the skin and produce lighter or darker patches. Despite the word tinea, this is a yeast-associated superficial infection rather than an ordinary dermatophyte ringworm.",
+    "optionExplanations": [
+      "Aspergillus niger is more associated with environmental mould exposure and some ear infections.",
+      "Malassezia furfur is the book’s cause of versicolor.",
+      "Microsporum gypseum is a soil-associated dermatophyte, not the classic versicolor agent.",
+      "Geotrichum does not cause the characteristic versicolor syndrome."
+    ],
+    "memory": "Versicolor changes skin color; Malassezia is the yeast.",
+    "quickCheck": {
+      "question": "Is pityriasis versicolor caused by a dermatophyte?",
+      "answer": "No; it is associated with Malassezia yeasts."
+    },
+    "sourceNote": "Several Malassezia species can cause this condition; M. furfur is the traditional book answer."
+  },
+  "book-289-41": {
+    "questionInPlainEnglish": "Which listed fungus is a classic cause of fungal ear-canal infection?",
+    "explanation": "Otomycosis means a fungal infection of the ear, usually the external ear canal. Aspergillus niger is a common cause and can produce conspicuous dark fungal material.",
+    "optionExplanations": [
+      "Aspergillus niger is a classic otomycosis agent.",
+      "Malassezia is more classically linked to versicolor in this set.",
+      "Microsporum gypseum is a dermatophyte rather than the intended ear mould.",
+      "Geotrichum is not the common otomycosis answer here."
+    ],
+    "memory": "Oto means ear; niger can make dark canal debris.",
+    "quickCheck": {
+      "question": "What does otomycosis mean?",
+      "answer": "A fungal infection of the ear, usually the external canal."
+    },
+    "sourceNote": "The rationale’s approximately 90% estimate is not universal; species distribution varies by population and setting."
+  },
+  "book-289-42": {
+    "questionInPlainEnglish": "Which fungus shows true hyphae that break into arthroconidia without budding cells?",
+    "explanation": "Geotrichum hyphae fragment into chains of arthroconidia. Unlike Trichosporon, it does not characteristically add true budding blastoconidia, making that distinction useful on morphology agar.",
+    "optionExplanations": [
+      "Candida albicans is known for budding cells and pseudohyphae, not arthroconidia alone.",
+      "Geotrichum fits hyphae plus arthroconidia without true blastoconidia.",
+      "Trichosporon can also produce budding blastoconidia.",
+      "Aspergillus makes conidiophores and conidial heads rather than this pattern."
+    ],
+    "memory": "Geotrichum fragments; Trichosporon can also bud.",
+    "quickCheck": {
+      "question": "What feature helps distinguish Trichosporon from Geotrichum?",
+      "answer": "The presence of true blastoconidia in Trichosporon."
+    }
+  },
+  "book-289-43": {
+    "questionInPlainEnglish": "Which fungus makes both arthroconidia and budding blastoconidia?",
+    "explanation": "Trichosporon can form hyphae, fragment those hyphae into arthroconidia, and also produce budding cells. The combination helps distinguish it from Geotrichum.",
+    "optionExplanations": [
+      "Candida albicans does not characteristically show this arthroconidial combination.",
+      "Geotrichum produces hyphae and arthroconidia but not typical true buds.",
+      "Trichosporon produces the described combination.",
+      "Aspergillus has a different conidial-head morphology."
+    ],
+    "memory": "Trichosporon can break and bud.",
+    "quickCheck": {
+      "question": "What are blastoconidia?",
+      "answer": "Fungal cells formed by budding."
+    }
+  },
+  "book-289-45": {
+    "questionInPlainEnglish": "Which yeast best fits pseudohyphae and budding cells without chlamydospores in this set?",
+    "explanation": "Candida tropicalis commonly makes branching chains of elongated cells and buds. Unlike the typical C. albicans morphology, it does not make the characteristic chlamydospores in this comparison.",
+    "optionExplanations": [
+      "Mucor is a broad-hyphal mould, not this budding yeast pattern.",
+      "Candida tropicalis fits pseudohyphae plus buds without chlamydospores.",
+      "Cryptococcus usually remains budding yeast without pseudohyphae.",
+      "Candida albicans can additionally make chlamydospores, so tropicalis is the intended match."
+    ],
+    "memory": "Tropicalis chains and buds; no classic chlamydospore clue.",
+    "quickCheck": {
+      "question": "What is a pseudohypha?",
+      "answer": "A chain of elongated budding yeast cells with constrictions between cells."
+    },
+    "sourceNote": "This is a classic presumptive matching pattern; definitive yeast identification may use biochemical or molecular methods."
+  },
+  "book-289-47": {
+    "questionInPlainEnglish": "Which listed specimen is especially associated with diagnosing cryptococcal meningitis?",
+    "explanation": "Cryptococcus can spread to the brain’s surrounding membranes. Cerebrospinal fluid, which bathes the brain and spinal cord, is therefore a key specimen for detecting cryptococcal antigen or organisms in meningitis.",
+    "optionExplanations": [
+      "Bone marrow is not the most characteristic source in this matching item.",
+      "CSF is the classic specimen for cryptococcal meningitis.",
+      "A draining foot sinus suggests mycetoma rather than the classic cryptococcal site.",
+      "Interdigital skin lesions suggest dermatophyte infection."
+    ],
+    "memory": "Cryptococcus can reach the central nervous system: think CSF.",
+    "quickCheck": {
+      "question": "What does CSF stand for?",
+      "answer": "Cerebrospinal fluid."
+    }
+  },
+  "book-289-48": {
+    "questionInPlainEnglish": "Which specimen best fits disseminated Histoplasma among these choices?",
+    "explanation": "Histoplasma often survives inside macrophages of the reticuloendothelial system. Bone marrow can therefore contain small intracellular yeasts in disseminated infection.",
+    "optionExplanations": [
+      "Bone marrow is the characteristic specimen in this set.",
+      "CSF is more classically paired with cryptococcal meningitis here.",
+      "A draining foot sinus suggests localized mycetoma.",
+      "An interdigital lesion suggests superficial dermatophyte infection."
+    ],
+    "memory": "Histo hides in marrow macrophages.",
+    "quickCheck": {
+      "question": "Where are Histoplasma yeasts often located microscopically?",
+      "answer": "Inside macrophages."
+    },
+    "sourceNote": "Histoplasma can involve many organs; this is a characteristic matching association, not an exclusive specimen source."
+  },
+  "book-289-49": {
+    "questionInPlainEnglish": "Which specimen matches the book’s Pseudallescheria boydii association?",
+    "explanation": "This fungus is associated with eumycetoma: a slowly growing localized infection that can swell the foot and form draining sinus tracts. Material from a chronic draining foot lesion is the matching source.",
+    "optionExplanations": [
+      "Bone marrow is not the classic localized mycetoma source.",
+      "CSF can be involved in some invasive mould infections, but is not the intended association.",
+      "A chronic draining foot sinus fits eumycetoma.",
+      "Interdigital peeling is more characteristic of athlete’s foot."
+    ],
+    "memory": "Mycetoma: swelling, grains, and draining tracks.",
+    "quickCheck": {
+      "question": "What is a sinus tract in this context?",
+      "answer": "An abnormal channel draining infected material from deeper tissue to the skin."
+    },
+    "sourceNote": "Pseudallescheria/Scedosporium naming has changed and involves species complexes; this preserves the historical book association."
+  },
+  "book-318-1": {
+    "questionInPlainEnglish": "Which virus family contains HIV?",
+    "explanation": "HIV belongs to Retroviridae. Retroviruses carry RNA but use reverse transcriptase to make DNA, which can become integrated into host-cell DNA.",
+    "optionExplanations": [
+      "Orthomyxoviridae contains influenza viruses.",
+      "Paramyxoviridae contains different respiratory and systemic viruses.",
+      "Retroviridae is the HIV family.",
+      "Flaviviridae includes HCV and several arthropod-borne viruses, not HIV."
+    ],
+    "memory": "Retroviruses reverse RNA into DNA.",
+    "quickCheck": {
+      "question": "What enzyme is characteristic of HIV replication?",
+      "answer": "Reverse transcriptase."
+    }
+  },
+  "book-318-21": {
+    "questionInPlainEnglish": "Which glands are classically swollen in mumps?",
+    "explanation": "The parotid glands make saliva and sit near the jaw in front of the ears. Mumps commonly inflames them, causing the characteristic puffy jaw or cheek appearance.",
+    "optionExplanations": [
+      "Mumps can affect the nervous system, but this is not the signature location.",
+      "Parotid glands are the characteristic swollen glands.",
+      "Pancreatitis can occur, but it is not the usual defining site.",
+      "The thymus is not the classic target causing mumps swelling."
+    ],
+    "memory": "Mumps makes the parotid area puffy.",
+    "quickCheck": {
+      "question": "What do parotid glands produce?",
+      "answer": "Saliva."
+    },
+    "sourceNote": "Parotid swelling has other causes and does not by itself prove mumps; laboratory confirmation is often needed."
+  },
+  "book-318-22": {
+    "questionInPlainEnglish": "Which listed hepatitis virus usually spreads through the fecal-oral route?",
+    "explanation": "HAV can pass from stool contamination to another person’s mouth through hands, food, or water. That transmission route differs from the blood-exposure route emphasized for HBV and HCV.",
+    "optionExplanations": [
+      "HAV is the fecal-oral virus among these choices.",
+      "HBV mainly spreads through blood, sexual exposure, and perinatal transmission.",
+      "HCV mainly spreads through infected blood.",
+      "The virus historically called HGV is associated with blood exposure rather than the classic fecal-oral pattern."
+    ],
+    "memory": "Hepatitis A can arrive by contaminated food or hands.",
+    "quickCheck": {
+      "question": "Which other familiar hepatitis virus also commonly has fecal-oral transmission?",
+      "answer": "Hepatitis E virus."
+    }
+  },
+  "book-318-23": {
+    "questionInPlainEnglish": "When enteroviruses cause illness, what common pattern does the book describe?",
+    "explanation": "Many enterovirus infections cause no symptoms. When illness occurs, an acute nonspecific fever syndrome is common, although some types can cause meningitis, myocarditis, or other distinctive disease. Acute means sudden or short-term, febrile means involving fever, and nonspecific means there is no distinctive pattern pointing to just one disease. So the keyed phrase means a sudden fever illness without a distinctive pattern.",
+    "optionExplanations": [
+      "An acute nonspecific febrile syndrome is the textbook’s most typical symptomatic category.",
+      "Bronchitis and pneumonia are not the best broad enterovirus association here.",
+      "Lower-respiratory illness is not the intended general pattern.",
+      "Some enteroviruses cause respiratory disease, but upper-airway infection is not the best broad answer in this item."
+    ],
+    "memory": "Entero describes the group, not a promise of diarrhea.",
+    "quickCheck": {
+      "question": "Are most enterovirus infections necessarily severe?",
+      "answer": "No; many are asymptomatic or mild."
+    },
+    "sourceNote": "Enteroviruses include diverse agents, and some, such as EV-D68, are strongly associated with respiratory disease."
+  },
+  "book-318-49": {
+    "questionInPlainEnglish": "Which method does NOT grow or detect viruses successfully on its own?",
+    "explanation": "Viruses need living cells to produce new virus particles. Ordinary selective agar provides nutrients for organisms such as bacteria but no living host-cell machinery, so viruses cannot grow there.",
+    "optionExplanations": [
+      "Virus-induced cell damage can reveal growth in living culture cells.",
+      "ELISA can detect viral antigens or antibodies, depending on the assay.",
+      "Selective cell-free agar cannot support viral replication; this is the exception.",
+      "Immunofluorescence can detect viral antigens in infected cells or specimens."
+    ],
+    "memory": "Agar feeds cells; viruses need a cell factory.",
+    "quickCheck": {
+      "question": "Why do viruses fail to grow on ordinary cell-free agar?",
+      "answer": "They require living host cells for replication."
+    }
+  }
+}

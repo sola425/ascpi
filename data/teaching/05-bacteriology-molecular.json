@@ -1,0 +1,3171 @@
+{
+  "book-203-184": {
+    "questionInPlainEnglish": "Which bacterium makes shiny colonies like tiny mercury beads?",
+    "explanation": "Bordetella pertussis causes whooping cough. Its small, smooth, glistening colonies on special media look like metal droplets; colony appearance is a clue, not complete identification.",
+    "optionExplanations": [
+      "B. pertussis has the classic mercury-drop appearance.",
+      "B. cepacia is an environmental opportunist, not this colony clue.",
+      "C. jejuni causes intestinal disease and needs reduced oxygen.",
+      "Y. pestis causes plague and has different colony descriptions."
+    ],
+    "memory": "Pertussis: pearly mercury drops.",
+    "quickCheck": {
+      "question": "Which disease goes with these mercury-drop colonies?",
+      "answer": "Whooping cough, caused by Bordetella pertussis."
+    }
+  },
+  "book-203-185": {
+    "questionInPlainEnglish": "Where should a swab collect organisms when looking for meningococcal or pertussis carriers?",
+    "explanation": "A carrier holds an organism without necessarily feeling sick. The book groups these organisms under a nasopharyngeal collection answer: the space behind the nose is especially important for pertussis. Meningococcal carriage sampling may instead target the oropharynx, behind the mouth, under current survey protocols.",
+    "optionExplanations": [
+      "The front of the nose misses the deeper target site.",
+      "The inside of the cheek is not the preferred sampling site.",
+      "The nasopharynx is the space behind the nose and is the intended site.",
+      "A throat swab is not the book’s combined answer, although oropharyngeal sampling is used in meningococcal carriage surveys."
+    ],
+    "memory": "Naso = nose; pharynx = throat: reach behind the nose.",
+    "quickCheck": {
+      "question": "Why does the collection site matter?",
+      "answer": "Organisms are easier to recover where they live in greatest numbers."
+    },
+    "sourceNote": "“Earners” is an OCR error for carriers. Use current organism-specific collection instructions; meningococcal carriage surveys may use oropharyngeal sampling."
+  },
+  "book-203-186": {
+    "questionInPlainEnglish": "Which infection can be spread for years by people who remain carriers?",
+    "explanation": "Salmonella Typhi can remain in the gallbladder, a pouch that stores bile. A person may feel well yet shed bacteria in stool and contaminate food or water.",
+    "optionExplanations": [
+      "Pertussis is a respiratory infection, not the classic lifelong gallbladder carrier.",
+      "C. jejuni causes diarrhea but is not the classic chronic typhoid carrier.",
+      "S. Typhi can persist in the gallbladder and spread from carriers.",
+      "Y. pestis usually spreads through animal reservoirs and fleas."
+    ],
+    "memory": "Typhi can tuck away in the gallbladder.",
+    "quickCheck": {
+      "question": "How can a healthy-looking typhoid carrier spread infection?",
+      "answer": "By shedding Salmonella Typhi in stool that contaminates food or water."
+    }
+  },
+  "book-203-187": {
+    "questionInPlainEnglish": "Which cattle-associated disease can people acquire from unpasteurized milk?",
+    "explanation": "Brucella bacteria infect livestock and can enter milk. Pasteurization heats milk to kill pathogens; skipping that step can allow brucellosis to pass from an animal to a person.",
+    "optionExplanations": [
+      "Brucellosis is a classic infection from contaminated raw dairy.",
+      "Glanders is linked mainly to infected horses and B. mallei.",
+      "Melioidosis comes mainly from contaminated soil or water, not milk.",
+      "Pontiac fever follows Legionella exposure, often through water aerosols."
+    ],
+    "memory": "Brucella: beware raw bovine dairy.",
+    "quickCheck": {
+      "question": "What milk treatment reduces Brucella transmission?",
+      "answer": "Pasteurization."
+    },
+    "sourceNote": "The rationale names Legionella pneumoniae; the usual name is Legionella pneumophila."
+  },
+  "book-203-190": {
+    "questionInPlainEnglish": "Which ingredient makes Hektoen agar block unwanted bacteria?",
+    "explanation": "Selective means favoring some organisms while holding others back. Bile salts suppress many unwanted bacteria, helping Salmonella and Shigella grow out of a mixed stool sample. Color indicators instead show chemical changes.",
+    "optionExplanations": [
+      "Bile salts provide the selective inhibition.",
+      "This garbled name likely refers to a sulfur-related ingredient, not the selective agent.",
+      "Bromthymol blue is a color indicator, not the main inhibitor.",
+      "NaCl helps balance salts; it is not the selective ingredient here."
+    ],
+    "memory": "HE: bile blocks, indicators tell.",
+    "quickCheck": {
+      "question": "What is the difference between selective and differential media?",
+      "answer": "Selective media inhibit some organisms; differential media reveal differences among those growing."
+    },
+    "sourceNote": "Option 2 is corrupted by OCR; it may refer to sodium thiosulfate."
+  },
+  "book-203-191": {
+    "questionInPlainEnglish": "Which special agar is used to isolate Vibrio?",
+    "explanation": "TCBS agar combines an alkaline environment and selective ingredients that favor Vibrio. Its sucrose sugar also helps distinguish species by the color produced when they ferment it.",
+    "optionExplanations": [
+      "TCBS is the standard selective Vibrio medium.",
+      "Charcoal yeast extract supports Legionella.",
+      "Mannitol salt agar favors salt-tolerant staphylococci.",
+      "Tinsdale agar helps identify certain Corynebacterium species."
+    ],
+    "memory": "Vibrio rides on TCBS.",
+    "quickCheck": {
+      "question": "Which sugar in TCBS helps differentiate Vibrio colonies?",
+      "answer": "Sucrose."
+    }
+  },
+  "book-203-192": {
+    "questionInPlainEnglish": "Which statement gives an inappropriate oxidase-testing practice?",
+    "explanation": "The oxidase test detects part of a bacterial oxygen-use system with a reagent that turns purple. ONPG belongs to a different test for a lactose-related enzyme. The book keys ONPG, but the wire-loop option also poses a problem.",
+    "optionExplanations": [
+      "ONPG tests beta-galactosidase, so this is the keyed inappropriate reagent.",
+      "Nichrome can produce false reactions and should also be avoided.",
+      "Sheep blood agar colonies are generally suitable when the protocol allows.",
+      "Rapid dark-purple color is consistent with a positive oxidase reaction."
+    ],
+    "memory": "Oxidase goes purple; ONPG goes with lactose enzymes.",
+    "quickCheck": {
+      "question": "Why can ONPG not replace oxidase reagent?",
+      "answer": "It detects a different enzyme, beta-galactosidase."
+    },
+    "sourceNote": "Ambiguous: both the ONPG choice and nichrome-loop choice are inappropriate. Keep the book answer, but use a recommended wooden/plastic applicator or suitable platinum loop."
+  },
+  "book-203-193": {
+    "questionInPlainEnglish": "For which bacterial genus is the porphyrin test especially helpful?",
+    "explanation": "Porphyrins are building blocks used to make heme, the X growth factor. This test shows whether a Haemophilus isolate can make its own heme, helping distinguish species with different X-factor needs.",
+    "optionExplanations": [
+      "Campylobacter is not identified primarily with this X-factor test.",
+      "Haemophilus species differ in their need for supplied heme.",
+      "Moraxella is commonly assessed with other biochemical tests.",
+      "Neisseria identification does not primarily depend on porphyrin production."
+    ],
+    "memory": "Porphyrin asks: can Haemophilus build heme?",
+    "quickCheck": {
+      "question": "What does a positive porphyrin test suggest about X-factor need?",
+      "answer": "The organism can make heme and does not require supplied X factor."
+    }
+  },
+  "book-203-194": {
+    "questionInPlainEnglish": "Which pertussis diagnosis statement is false?",
+    "explanation": "DFA means direct fluorescent antibody: glowing antibodies mark a suspected organism. A signal can be missed or misleading, so DFA alone is not definitive. Culture and nucleic acid tests provide stronger evidence.",
+    "optionExplanations": [
+      "Regan-Lowe is a recognized pertussis culture medium.",
+      "DFA alone is not definitive, so this is the false statement.",
+      "Appropriate synthetic swabs are used, although swab compatibility depends on the assay.",
+      "The back of the nose is the preferred collection site."
+    ],
+    "memory": "A fluorescent clue still needs reliable confirmation.",
+    "quickCheck": {
+      "question": "Why is a pertussis DFA result insufficient by itself?",
+      "answer": "Its sensitivity and specificity are inadequate for definitive diagnosis."
+    },
+    "sourceNote": "Swab recommendations are historical: calcium alginate may inhibit PCR. Follow current culture/PCR collection instructions."
+  },
+  "book-203-195": {
+    "questionInPlainEnglish": "Which bacteria can pet reptiles transmit to people?",
+    "explanation": "Reptiles may carry Salmonella in their intestines while appearing healthy. Their droppings can contaminate hands, cages, and surfaces, allowing bacteria to reach a person’s mouth.",
+    "optionExplanations": [
+      "Campylobacter is often linked to poultry rather than this classic reptile association.",
+      "Helicobacter pylori is chiefly associated with human stomach infection.",
+      "Salmonella is the classic reptile-associated intestinal pathogen.",
+      "Vibrio is mainly associated with aquatic and seafood exposures."
+    ],
+    "memory": "Reptile tanks can carry Salmonella.",
+    "quickCheck": {
+      "question": "Must a reptile look sick to shed Salmonella?",
+      "answer": "No; healthy-looking reptiles can carry and shed it."
+    }
+  },
+  "book-203-196": {
+    "questionInPlainEnglish": "Which bacterium commonly infects the cornea after contaminated contact-lens solution exposure?",
+    "explanation": "Keratitis means inflammation or infection of the clear front surface of the eye. Pseudomonas grows well in wet environments and can rapidly damage the cornea when contaminated lenses place it directly on the eye.",
+    "optionExplanations": [
+      "This organism is better known for other opportunistic infections.",
+      "P. aeruginosa thrives in moisture and is a major contact-lens keratitis cause.",
+      "F. tularensis is linked to animal and tick exposure.",
+      "E. coli is mainly an intestinal and urinary pathogen, not this classic lens association."
+    ],
+    "memory": "Wet lenses: watch for Pseudomonas.",
+    "quickCheck": {
+      "question": "What does keratitis affect?",
+      "answer": "The cornea, the clear front surface of the eye."
+    },
+    "sourceNote": "Chryseobacterium meningosepticum is now Elizabethkingia meningoseptica."
+  },
+  "book-203-197": {
+    "questionInPlainEnglish": "Which organism is strongly linked to stomach inflammation and peptic ulcers?",
+    "explanation": "H. pylori lives in the stomach mucus. Its urease enzyme helps it cope with acid, and the infection can damage the stomach lining, causing gastritis and contributing to ulcers.",
+    "optionExplanations": [
+      "C. jejuni mainly causes intestinal diarrhea.",
+      "H. pylori colonizes the stomach and is linked to gastritis and ulcers.",
+      "S. Typhimurium usually causes gastroenteritis.",
+      "Y. enterocolitica commonly affects the intestine and nearby lymph nodes."
+    ],
+    "memory": "H. pylori hides in stomach mucus.",
+    "quickCheck": {
+      "question": "Which H. pylori enzyme helps it survive stomach acid?",
+      "answer": "Urease."
+    }
+  },
+  "book-203-199": {
+    "questionInPlainEnglish": "Besides Pseudomonas, which organism is a major lung pathogen in cystic fibrosis?",
+    "explanation": "Cystic fibrosis makes airway mucus thick, making it harder to clear bacteria. Burkholderia cepacia complex can persist in these airways and may cause severe infection.",
+    "optionExplanations": [
+      "A. actinomycetemcomitans is chiefly linked to oral disease and endocarditis.",
+      "B. cepacia complex is an important cystic fibrosis airway pathogen.",
+      "Elizabethkingia is not the main additional CF association here.",
+      "Serratia can infect lungs, but it is less characteristic of this question."
+    ],
+    "memory": "CF thick mucus can shelter cepacia.",
+    "quickCheck": {
+      "question": "Why does cystic fibrosis favor chronic airway infection?",
+      "answer": "Thick mucus reduces the normal clearing of microbes."
+    },
+    "sourceNote": "The option misspells Burkholderia; modern usage is Burkholderia cepacia complex. Chryseobacterium meningosepticum is an older name for Elizabethkingia meningoseptica; Actinobacillus actinomycetemcomitans is now Aggregatibacter actinomycetemcomitans."
+  },
+  "book-203-200": {
+    "questionInPlainEnglish": "Which infection is Eikenella corrodens especially associated with?",
+    "explanation": "Eikenella normally lives in the mouth. If mouth bacteria enter damaged tissue, including bite wounds, it can help form an abscess, a pocket of pus. Its usual home explains the best answer.",
+    "optionExplanations": [
+      "Oral abscesses match its normal mouth habitat.",
+      "Pneumonia can occur, but is not its strongest association here.",
+      "Surgical wounds are not the characteristic setting offered.",
+      "Urinary infection is not its usual clinical association."
+    ],
+    "memory": "Eikenella: think teeth and bites.",
+    "quickCheck": {
+      "question": "Why can a human bite introduce Eikenella?",
+      "answer": "Because Eikenella is part of the mouth flora."
+    }
+  },
+  "book-203-201": {
+    "questionInPlainEnglish": "Which cell-wall component is unusually abundant in mycobacteria?",
+    "explanation": "Mycobacteria have a waxy, lipid-rich outer layer, including mycolic acids. Like wax resisting water, this layer affects staining, drug entry, and survival. Other bacteria have lipids too, but not this distinctive abundance and type.",
+    "optionExplanations": [
+      "Lipids, especially mycolic acids, explain the waxy wall.",
+      "Murein is peptidoglycan and is common in bacterial walls.",
+      "Sterols are especially relevant to Mycoplasma membranes.",
+      "Teichoic acids are characteristic of many ordinary gram-positive walls."
+    ],
+    "memory": "Myco walls are waxy with mycolic acids.",
+    "quickCheck": {
+      "question": "How does a lipid-rich wall influence mycobacterial staining?",
+      "answer": "It helps retain acid-fast dyes after acid-alcohol treatment."
+    }
+  },
+  "book-203-202": {
+    "questionInPlainEnglish": "Which mycobacterium is classically found in institutional hot-water systems?",
+    "explanation": "M. xenopi tolerates relatively warm conditions and can colonize hot-water systems. Recovering it from a specimen may reflect environmental contamination, so culture results need clinical context.",
+    "optionExplanations": [
+      "M. haemophilum has special iron requirements and favors cooler sites.",
+      "M. marinum is associated with aquatic skin infections.",
+      "M. ulcerans causes skin ulcers and prefers cooler growth temperatures.",
+      "M. xenopi is the classic hospital hot-water organism."
+    ],
+    "memory": "Xenopi enjoys hot pipes.",
+    "quickCheck": {
+      "question": "Does finding an environmental mycobacterium always prove disease?",
+      "answer": "No; contamination or colonization must be considered."
+    }
+  },
+  "book-203-203": {
+    "questionInPlainEnglish": "Which other mycobacterium can grow rapidly on MacConkey agar?",
+    "explanation": "Rapidly growing mycobacteria can produce visible colonies within about seven days. M. chelonae belongs to this group, unlike the slow-growing tuberculosis organisms.",
+    "optionExplanations": [
+      "M. bovis is a slow-growing tuberculosis-complex organism, so growth within five days does not fit.",
+      "M. chelonae is a rapid grower, matching the five-day clue.",
+      "M. kansasii grows slowly and may produce pigment after light exposure.",
+      "M. tuberculosis takes much longer than five days for typical visible growth."
+    ],
+    "memory": "Fortuitum and chelonae are fast mycobacteria.",
+    "quickCheck": {
+      "question": "What does rapid growth mean for mycobacterial classification?",
+      "answer": "Visible growth within about seven days under appropriate conditions."
+    },
+    "sourceNote": "M. chelonei is an older spelling of M. chelonae; MacConkey testing uses an appropriate formulation, commonly without crystal violet."
+  },
+  "book-203-204": {
+    "questionInPlainEnglish": "Which slow-growing orange mycobacterium best fits a child’s swollen neck node?",
+    "explanation": "Cervical adenitis means inflamed lymph nodes in the neck. M. scrofulaceum is a classic cause in children and makes pigment even without light, combining the clinical and colony clues.",
+    "optionExplanations": [
+      "MAC can cause neck-node infection but does not match the orange-pigment clue as well.",
+      "M. chelonae grows rapidly, unlike this isolate.",
+      "M. fortuitum is also a rapid grower.",
+      "M. scrofulaceum fits slow growth, orange pigment, and childhood adenitis."
+    ],
+    "memory": "Scrofulaceum: slow, colored, swollen neck nodes.",
+    "quickCheck": {
+      "question": "Which two clues separate this isolate from rapid growers?",
+      "answer": "Slow colony growth and the characteristic orange pigment."
+    }
+  },
+  "book-203-205": {
+    "questionInPlainEnglish": "Which preparation is generally used to liquefy and decontaminate sputum for TB culture?",
+    "explanation": "Sputum is sticky and contains other microbes. NALC loosens mucus, while controlled NaOH exposure reduces competing organisms. Too much chemical exposure can also kill mycobacteria.",
+    "optionExplanations": [
+      "Six-percent NaOH is too harsh for the usual recommended approach.",
+      "Hydrochloric acid is not the routine combined sputum method here.",
+      "NALC-NaOH combines mucus digestion with decontamination.",
+      "Trisodium phosphate has been used, but is not the preferred method listed."
+    ],
+    "memory": "NALC loosens; NaOH cleans.",
+    "quickCheck": {
+      "question": "Why must decontamination time be controlled?",
+      "answer": "The chemicals can damage the mycobacteria being sought."
+    }
+  },
+  "book-203-206": {
+    "questionInPlainEnglish": "Which bacterium causes Hansen disease?",
+    "explanation": "Hansen disease is another name for leprosy. M. leprae mainly affects skin and peripheral nerves, which carry messages to and from the limbs. Nerve injury can cause loss of sensation.",
+    "optionExplanations": [
+      "M. bovis causes an animal-associated form of tuberculosis.",
+      "M. fortuitum is a rapid-growing opportunistic mycobacterium.",
+      "M. leprae causes Hansen disease.",
+      "M. tuberculosis causes tuberculosis, not Hansen disease."
+    ],
+    "memory": "Leprae causes leprosy.",
+    "quickCheck": {
+      "question": "Which tissues are especially affected in Hansen disease?",
+      "answer": "Skin and peripheral nerves."
+    }
+  },
+  "book-203-207": {
+    "questionInPlainEnglish": "How should about five to six acid-fast bacilli per oil-immersion field be graded?",
+    "explanation": "An acid-fast smear grade estimates how many bacteria are seen, not the species or whether they are alive. In the grading scheme used here, one to nine bacilli per field corresponds to 3+.",
+    "optionExplanations": [
+      "1+ represents a lower organism count in this scheme.",
+      "2+ is below the stated five-to-six-per-field density.",
+      "3+ matches one to nine bacilli per field.",
+      "4+ represents a heavier burden than the count described."
+    ],
+    "memory": "Several bacilli in each field: 3+ in this scale.",
+    "quickCheck": {
+      "question": "Does an acid-fast smear identify M. tuberculosis specifically?",
+      "answer": "No; other mycobacteria can also be acid-fast."
+    },
+    "sourceNote": "Smear grading depends on stain, magnification, and reporting standard; use the specified laboratory scale."
+  },
+  "book-203-209": {
+    "questionInPlainEnglish": "Which statement does NOT describe M. kansasii?",
+    "explanation": "M. kansasii is a photochromogen: it makes yellow pigment after light exposure. Calling it nonchromogenic means it makes no pigment, which conflicts with this defining feature.",
+    "optionExplanations": [
+      "It grows slowly, so this is true.",
+      "It requires oxygen, so this is true.",
+      "Nonchromogenic is false because light stimulates pigment production.",
+      "Respiratory acquisition is consistent with its pulmonary disease pattern."
+    ],
+    "memory": "Kansas sees light and turns yellow.",
+    "quickCheck": {
+      "question": "What is a photochromogen?",
+      "answer": "An organism that produces pigment after exposure to light."
+    }
+  },
+  "book-203-210": {
+    "questionInPlainEnglish": "Which mycobacterium prefers a relatively cool 30–32°C?",
+    "explanation": "M. ulcerans causes Buruli ulcer, a destructive skin infection. Its preference for cooler incubation fits its association with superficial body tissues rather than the warm core.",
+    "optionExplanations": [
+      "MAC is usually cultured near body temperature.",
+      "M. bovis is usually cultured near body temperature.",
+      "M. ulcerans prefers about 30–32°C.",
+      "M. xenopi is associated with warmer growth and hot-water systems."
+    ],
+    "memory": "Ulcerans: cool skin, cool culture.",
+    "quickCheck": {
+      "question": "Why might skin mycobacterial cultures need cooler incubation?",
+      "answer": "Some skin pathogens grow best below normal core body temperature."
+    }
+  },
+  "book-203-211": {
+    "questionInPlainEnglish": "Which listed drug is NOT a traditional first-line TB drug?",
+    "explanation": "Isoniazid, rifampin, and pyrazinamide are familiar components of initial treatment for drug-susceptible TB. Kanamycin is an older injectable drug used in selected resistant cases, rather than a standard first-line choice.",
+    "optionExplanations": [
+      "Isoniazid is a traditional first-line TB drug.",
+      "Kanamycin is the non-first-line choice listed.",
+      "Rifampin is a core first-line TB drug.",
+      "Pyrazinamide is used in the initial phase of standard therapy."
+    ],
+    "memory": "First-line TB: remember H, R, Z, and E; not kanamycin.",
+    "quickCheck": {
+      "question": "Why are multiple drugs used to treat TB?",
+      "answer": "To treat effectively and reduce the selection of resistant bacteria."
+    },
+    "sourceNote": "Current resistant-TB regimens generally favor recommended all-oral drugs over kanamycin."
+  },
+  "book-203-212": {
+    "questionInPlainEnglish": "What does NALC do during sputum preparation?",
+    "explanation": "NALC is N-acetyl-L-cysteine. It breaks up the sticky structure of mucus, making sputum more liquid so bacteria can be concentrated and processed. The NaOH in the mixture does most of the decontaminating.",
+    "optionExplanations": [
+      "Killing normal flora is chiefly the NaOH role.",
+      "Liquefying mucus is the NALC role.",
+      "NALC is not added to stimulate growth.",
+      "A separate neutralization step controls the alkaline pH."
+    ],
+    "memory": "NALC makes mucus less sticky.",
+    "quickCheck": {
+      "question": "Which partner in NALC-NaOH mainly suppresses contaminating flora?",
+      "answer": "NaOH."
+    }
+  },
+  "book-203-213": {
+    "questionInPlainEnglish": "Which listed test is relevant to evaluating mycobacterial infection?",
+    "explanation": "PPD is a mixture of mycobacterial proteins used in the TB skin test. A delayed skin reaction shows immune recognition; it does not by itself prove active TB disease.",
+    "optionExplanations": [
+      "Elek detects diphtheria toxin production.",
+      "CAMP helps identify organisms such as group B streptococci.",
+      "Nagler detects lecithinase associated with C. perfringens.",
+      "PPD tests delayed immune sensitivity to mycobacterial antigens."
+    ],
+    "memory": "PPD: prior immune recognition, not proof of active disease.",
+    "quickCheck": {
+      "question": "Can a positive TB skin test alone diagnose active TB?",
+      "answer": "No; clinical evaluation and other tests are needed."
+    }
+  },
+  "book-203-214": {
+    "questionInPlainEnglish": "Which mycobacterium can pass from livestock to humans?",
+    "explanation": "A zoonosis is an infection passed from animals to people. M. bovis infects cattle and historically spread through unpasteurized milk; occupational animal exposure is another route.",
+    "optionExplanations": [
+      "M. bovis is the cattle-associated tuberculosis organism.",
+      "M. fortuitum is mainly an environmental opportunist.",
+      "M. gordonae is often recovered from water.",
+      "M. xenopi is especially associated with water systems."
+    ],
+    "memory": "Bovis means cattle.",
+    "quickCheck": {
+      "question": "What does zoonosis mean?",
+      "answer": "An infection naturally transmitted between animals and humans."
+    }
+  },
+  "book-203-215": {
+    "questionInPlainEnglish": "Which mycobacterial group is especially associated with advanced AIDS?",
+    "explanation": "AIDS can severely weaken T-cell defenses. MAC organisms from the environment may then spread throughout the body, causing disseminated infection rather than remaining confined to one site.",
+    "optionExplanations": [
+      "MAC is the classic disseminated mycobacterial infection in advanced AIDS.",
+      "M. marinum usually causes localized aquatic skin infection.",
+      "M. kansasii can affect immunocompromised people, but MAC is the strongest association.",
+      "M. bovis is primarily associated with animal-source tuberculosis."
+    ],
+    "memory": "Advanced AIDS opens the door to MAC.",
+    "quickCheck": {
+      "question": "What does disseminated infection mean?",
+      "answer": "Infection that has spread to multiple parts of the body."
+    },
+    "sourceNote": "The option’s species spelling is corrupted; the intended name is Mycobacterium avium complex (MAC)."
+  },
+  "book-203-216": {
+    "questionInPlainEnglish": "Which orange-pigmented mycobacterium is commonly found in water?",
+    "explanation": "M. gordonae is often nicknamed the tap-water bacillus. It forms pigment even in the dark and is often a contaminant, though true infection is possible.",
+    "optionExplanations": [
+      "M. intracellulare is generally nonpigmented.",
+      "M. gordonae fits orange pigment and the water association.",
+      "M. asiaticum is a photochromogen and is not the classic tap-water species.",
+      "M. kansasii is a photochromogen, not this classic water contaminant."
+    ],
+    "memory": "Gordonae comes from the garden tap.",
+    "quickCheck": {
+      "question": "Does M. gordonae pigment require light?",
+      "answer": "No; it is a scotochromogen."
+    }
+  },
+  "book-203-217": {
+    "questionInPlainEnglish": "Which mycobacterium has buff colonies and a positive niacin test?",
+    "explanation": "M. tuberculosis is classically described as rough, buff, and tough. Niacin accumulation is a traditional identification clue; the colonies do not become brightly pigmented after light exposure.",
+    "optionExplanations": [
+      "M. bovis is typically niacin negative.",
+      "M. scrofulaceum produces conspicuous pigment and is not this niacin-positive species.",
+      "M. tuberculosis fits buff colonies and niacin accumulation.",
+      "M. ulcerans is a skin-ulcer pathogen and not the classic niacin-positive answer."
+    ],
+    "memory": "TB: rough, buff, tough; niacin positive.",
+    "quickCheck": {
+      "question": "What does buff describe in a colony?",
+      "answer": "A pale tan color."
+    }
+  },
+  "book-203-218": {
+    "questionInPlainEnglish": "Which mycobacterium causes swimming-pool or fish-tank granuloma?",
+    "explanation": "M. marinum enters small skin injuries exposed to contaminated water. It can cause slow-developing nodules or granulomas, which are organized collections of immune cells.",
+    "optionExplanations": [
+      "M. fortuitum causes other environmental wound infections.",
+      "M. kansasii is more associated with lung disease.",
+      "M. marinum is the classic aquatic skin-infection organism.",
+      "M. xenopi is associated with hot-water systems and pulmonary isolates."
+    ],
+    "memory": "Marinum means marine: think fish tanks.",
+    "quickCheck": {
+      "question": "What exposure commonly precedes M. marinum skin infection?",
+      "answer": "An injured skin surface contacting contaminated water or fish."
+    }
+  },
+  "book-203-219": {
+    "questionInPlainEnglish": "Which mycobacterium is characteristically inhibited by T2H?",
+    "explanation": "T2H is a chemical used in traditional identification testing. M. bovis is susceptible, meaning its growth is inhibited, helping separate it from typical M. tuberculosis isolates.",
+    "optionExplanations": [
+      "MAC does not have the classic T2H-susceptible identification pattern.",
+      "M. bovis is characteristically susceptible to T2H.",
+      "M. kansasii is not the intended T2H-susceptible species.",
+      "M. tuberculosis is generally resistant at the discriminatory test concentration."
+    ],
+    "memory": "T2H halts bovis.",
+    "quickCheck": {
+      "question": "What does susceptible mean in a growth-inhibition test?",
+      "answer": "The organism’s growth is inhibited by the tested substance."
+    }
+  },
+  "book-203-220": {
+    "questionInPlainEnglish": "Which stain makes mycobacteria fluorescent?",
+    "explanation": "Auramine-based dyes bind acid-fast organisms so they glow under a fluorescence microscope. This allows screening larger areas more quickly than ordinary bright-field acid-fast staining.",
+    "optionExplanations": [
+      "Auramine-rhodamine is an acid-fast fluorescent stain.",
+      "Calcofluor white mainly highlights fungal cell-wall material.",
+      "FITC is a fluorescent label, not the routine acid-fast dye combination.",
+      "Ziehl-Neelsen is an acid-fast stain viewed by bright-field microscopy."
+    ],
+    "memory": "Auramine makes acid-fast organisms glow.",
+    "quickCheck": {
+      "question": "Why can fluorescent acid-fast screening be faster?",
+      "answer": "Larger areas can be scanned at lower magnification."
+    }
+  },
+  "book-203-222": {
+    "questionInPlainEnglish": "At what cooler temperature should skin cultures for mycobacteria be incubated?",
+    "explanation": "Some skin-associated mycobacteria, such as M. marinum, prefer temperatures around 30°C. Incubating only at core body temperature can miss these cooler-growing organisms.",
+    "optionExplanations": [
+      "22°C is below the usual cooler incubation target.",
+      "30°C supports important cutaneous mycobacteria.",
+      "35°C suits many other mycobacteria but may miss cooler-growing skin species.",
+      "42°C favors certain warm-tolerant organisms, not routine skin recovery."
+    ],
+    "memory": "Skin mycobacteria: add a 30°C culture.",
+    "quickCheck": {
+      "question": "Why should the suspected body site affect culture temperature?",
+      "answer": "Different species prefer the temperatures of their usual tissues or environments."
+    },
+    "sourceNote": "Laboratories may incubate parallel cultures at cooler and standard temperatures rather than only at 30°C."
+  },
+  "book-203-223": {
+    "questionInPlainEnglish": "Which medium is NOT routinely used for mycobacterial culture?",
+    "explanation": "Mycobacteria need special culture conditions and may take weeks to grow. Lowenstein-Jensen and Middlebrook media are designed for them; routine chocolate agar is intended for other fastidious bacteria.",
+    "optionExplanations": [
+      "Lowenstein-Jensen-Gruft is a mycobacterial medium formulation.",
+      "Lowenstein-Jensen is a standard egg-based mycobacterial medium.",
+      "Middlebrook 7H11 is a recognized mycobacterial agar.",
+      "Chocolate agar is not routine mycobacterial culture medium."
+    ],
+    "memory": "TB cultures use LJ or Middlebrook.",
+    "quickCheck": {
+      "question": "Why is an ordinary short-incubation culture inadequate for TB?",
+      "answer": "M. tuberculosis grows slowly and needs suitable media and prolonged incubation."
+    },
+    "sourceNote": "“MiddlebrookVHll” is OCR for Middlebrook 7H11."
+  },
+  "book-203-224": {
+    "questionInPlainEnglish": "Which specimen usually needs decontamination before mycobacterial culture?",
+    "explanation": "Sputum travels through the mouth and carries many normal bacteria. These can overgrow a slow mycobacterial culture. Normally sterile body fluids and properly collected tissue generally should not receive harsh routine decontamination.",
+    "optionExplanations": [
+      "Sputum contains mouth flora and routinely needs decontamination.",
+      "Pleural fluid is normally sterile, so routine harsh treatment is unnecessary.",
+      "Properly collected lung tissue is not routinely treated like contaminated sputum.",
+      "CSF is normally sterile and should be handled to preserve organisms."
+    ],
+    "memory": "Sputum brings mouth microbes along.",
+    "quickCheck": {
+      "question": "Why decontaminate sputum but usually not CSF?",
+      "answer": "Sputum contains normal flora; CSF normally does not."
+    }
+  },
+  "book-203-225": {
+    "questionInPlainEnglish": "Which statement about M. leprae is false?",
+    "explanation": "M. leprae causes Hansen disease and prefers cooler body areas. Transmission usually requires prolonged close exposure; it is not easily passed by casual contact. It cannot be grown on ordinary artificial laboratory media.",
+    "optionExplanations": [
+      "Causing Hansen disease is correct.",
+      "It cannot be cultivated on routine artificial media; this is broadly true.",
+      "Easy person-to-person spread is the false statement.",
+      "Cooler peripheral tissues are favored, making this generally true."
+    ],
+    "memory": "Leprosy: cooler nerves, prolonged exposure.",
+    "quickCheck": {
+      "question": "Why are hands and feet common sites of leprosy injury?",
+      "answer": "The organism favors cooler tissues and damages peripheral nerves."
+    }
+  },
+  "book-203-226": {
+    "questionInPlainEnglish": "Which bacterium can cause lethal toxin poisoning from improperly canned food?",
+    "explanation": "Botulinum toxin can form in food where spores survive and oxygen is limited. Eating the already-made toxin causes foodborne botulism, which weakens muscles and can stop breathing.",
+    "optionExplanations": [
+      "B. fragilis mainly causes infections after escaping the intestine.",
+      "C. botulinum produces the powerful toxin associated with unsafe canning.",
+      "C. perfringens causes a different food-poisoning syndrome.",
+      "C. septicum is more associated with invasive infection and malignancy."
+    ],
+    "memory": "Bad canning can trap botulinum toxin.",
+    "quickCheck": {
+      "question": "Does classic foodborne botulism require bacteria to grow inside the patient?",
+      "answer": "No; the person ingests preformed toxin."
+    }
+  },
+  "book-203-228": {
+    "questionInPlainEnglish": "Which anaerobe makes a double zone of red-cell destruction on blood agar?",
+    "explanation": "Hemolysis means red-cell breakdown. C. perfringens produces toxins with different effects, creating an inner clear zone and a wider zone of partial hemolysis.",
+    "optionExplanations": [
+      "C. perfringens has the classic double-zone pattern.",
+      "C. tetani is recognized more by terminal spores and neurotoxin.",
+      "F. nucleatum is a gram-negative anaerobe without this classic double zone.",
+      "P. melaninogenica is known for dark pigment, not this double-zone pattern."
+    ],
+    "memory": "Perfringens punches two rings.",
+    "quickCheck": {
+      "question": "What does a double hemolysis zone describe?",
+      "answer": "An inner complete and outer incomplete zone of red-cell breakdown."
+    }
+  },
+  "book-203-229": {
+    "questionInPlainEnglish": "Which black-pigmented anaerobic rod fits bile inhibition and sugar fermentation?",
+    "explanation": "Prevotella melaninogenica is an anaerobe associated with mucosal flora. Black pigment plus bile sensitivity and fermentation fits it better than Porphyromonas, which generally does not ferment sugars.",
+    "optionExplanations": [
+      "B. fragilis tolerates bile and does not fit the black-pigment pattern.",
+      "B. ureolyticus is not the black-pigmented fermenter described.",
+      "P. gingivalis is pigmented but is generally nonfermentative and indole positive.",
+      "P. melaninogenica fits pigment, bile sensitivity, and fermentation."
+    ],
+    "memory": "Melanino means dark; Prevotella can ferment.",
+    "quickCheck": {
+      "question": "Which clue separates this Prevotella from Porphyromonas?",
+      "answer": "Its ability to ferment the listed sugars."
+    }
+  },
+  "book-203-230": {
+    "questionInPlainEnglish": "Which statement does NOT describe tetanus?",
+    "explanation": "Tetanus is mainly a toxin-mediated nerve disease. Tetanospasmin interferes with signals that normally relax muscles, leading to spasms. Rapid tissue destruction is more characteristic of other clostridial infections.",
+    "optionExplanations": [
+      "Rapid tissue necrosis is not the defining action of C. tetani.",
+      "It is a gram-positive spore-forming rod, so this is true.",
+      "Soil spores can enter puncture wounds, so this is true.",
+      "Its toxin acts on the nervous system, so this is true."
+    ],
+    "memory": "Tetani tightens muscles; perfringens destroys tissue.",
+    "quickCheck": {
+      "question": "Why does tetanus cause muscle spasms?",
+      "answer": "Its toxin blocks inhibitory nerve signaling."
+    }
+  },
+  "book-203-231": {
+    "questionInPlainEnglish": "What familiar shape describes Actinomyces israelii colonies?",
+    "explanation": "Mature A. israelii colonies can have raised, irregular surfaces that look like a molar tooth. This is a colony clue for a branching anaerobic bacterium, not a description of individual cells.",
+    "optionExplanations": [
+      "Medusa-head colonies are classically associated with Bacillus anthracis.",
+      "Molar tooth is the classic Actinomyces israelii description.",
+      "Fried egg is associated especially with Mycoplasma colonies.",
+      "Ground glass is a different colony descriptor, not the classic one here."
+    ],
+    "memory": "Actinomyces grows a molar tooth.",
+    "quickCheck": {
+      "question": "Does molar tooth describe cells or colonies?",
+      "answer": "Colonies."
+    }
+  },
+  "book-203-232": {
+    "questionInPlainEnglish": "Which broad bacterial group is traditionally considered predominant in the colon?",
+    "explanation": "The colon contains very little oxygen, so obligate anaerobes thrive there. Among these choices, non-spore-forming gram-negative anaerobes best match the traditional clinical microbiology description.",
+    "optionExplanations": [
+      "This includes abundant intestinal Bacteroides and is the intended category.",
+      "Gram-positive anaerobes are also abundant, but this is not the book’s selected category.",
+      "Aerobes are outnumbered by anaerobes in the colon.",
+      "Aerobic spore-formers are not the main colonic population."
+    ],
+    "memory": "Colon: crowded and low in oxygen.",
+    "quickCheck": {
+      "question": "Why do anaerobes thrive in the colon?",
+      "answer": "The environment has very little oxygen."
+    },
+    "sourceNote": "Modern microbiome studies show many abundant gram-positive anaerobic groups too; exact predominance depends on methods and individuals."
+  },
+  "book-203-233": {
+    "questionInPlainEnglish": "Which bile-tolerant, penicillin-resistant anaerobic rod fits an abdominal wound?",
+    "explanation": "B. fragilis normally lives in the colon. If it escapes into an abdominal wound, it can cause abscesses. Bile tolerance and frequent beta-lactamase production support this identification.",
+    "optionExplanations": [
+      "B. fragilis fits intestinal origin, bile tolerance, and common penicillin resistance.",
+      "C. septicum is gram positive and spore forming, unlike the isolate.",
+      "E. lentum is gram positive, unlike the described rod.",
+      "F. nucleatum is generally inhibited by bile."
+    ],
+    "memory": "Fragilis survives bile and can resist penicillin.",
+    "quickCheck": {
+      "question": "Why is B. fragilis plausible in abdominal infection?",
+      "answer": "It is part of intestinal flora and can infect tissues after escaping the bowel."
+    }
+  },
+  "book-203-234": {
+    "questionInPlainEnglish": "Which genus consists of anaerobic gram-positive cocci?",
+    "explanation": "Cocci are round bacterial cells. Peptostreptococcus is the traditional group matching round shape, purple Gram staining, and growth without oxygen. Each other choice misses either shape or Gram reaction.",
+    "optionExplanations": [
+      "Capnocytophaga are gram-negative rods.",
+      "Peptostreptococcus are anaerobic gram-positive cocci.",
+      "Propionibacterium are gram-positive rods rather than cocci.",
+      "Veillonella are anaerobic cocci but are gram negative."
+    ],
+    "memory": "Peptostreptococcus: positive, round, anaerobic.",
+    "quickCheck": {
+      "question": "What feature excludes Veillonella here?",
+      "answer": "It is gram negative rather than gram positive."
+    }
+  },
+  "book-203-235": {
+    "questionInPlainEnglish": "Which organism fits branching gram-positive rods that grow anaerobically and are not acid-fast?",
+    "explanation": "Actinomyces forms branching filaments, like tiny tangled threads. Its anaerobic growth and lack of acid-fast staining help separate it from Nocardia, another branching organism that grows aerobically and is partially acid-fast.",
+    "optionExplanations": [
+      "A. israelii fits all three clues.",
+      "B. fragilis is a gram-negative rod, not a branching gram-positive organism.",
+      "C. septicum forms spores and is not the typical branching filamentous isolate.",
+      "C. acnes is a small pleomorphic rod rather than a classic branching filament."
+    ],
+    "memory": "Actinomyces: anaerobic, acid-fast absent.",
+    "quickCheck": {
+      "question": "What two clues distinguish Actinomyces from Nocardia?",
+      "answer": "Anaerobic growth and a negative acid-fast stain."
+    },
+    "sourceNote": "Color Plate 29 is referenced, but the written morphology and growth clues are sufficient."
+  },
+  "book-203-236": {
+    "questionInPlainEnglish": "Which organism is favored by anaerobic kanamycin-vancomycin laked blood agar?",
+    "explanation": "The antibiotics suppress many competing organisms, while laked blood supports recovery of selected anaerobes. This medium is used especially for anaerobic gram-negative rods such as Bacteroides and Prevotella.",
+    "optionExplanations": [
+      "B. fragilis is an anaerobic gram-negative rod compatible with this selective medium.",
+      "Bifidobacterium is gram positive and is not the main target.",
+      "C. perfringens is gram positive and not the primary target.",
+      "P. anaerobius is a gram-positive coccus, not the main target."
+    ],
+    "memory": "KVLB selects many anaerobic gram-negative rods.",
+    "quickCheck": {
+      "question": "What makes KVLB a selective medium?",
+      "answer": "Its antibiotics inhibit competing organisms."
+    }
+  },
+  "book-203-238": {
+    "questionInPlainEnglish": "Which curved motile anaerobic rods are associated with bacterial vaginosis?",
+    "explanation": "Mobiluncus is associated with the altered vaginal bacterial community in bacterial vaginosis. Its curved shape and movement provide clues; despite often staining gram variable, it is traditionally described as a curved anaerobic rod.",
+    "optionExplanations": [
+      "Actinomyces forms branching rods, not the characteristic curved motile BV rods.",
+      "Bifidobacterium has branching or bifid shapes rather than this pattern.",
+      "Lactobacillus usually helps maintain a protective acidic vagina.",
+      "Mobiluncus fits curved, motile rods associated with BV."
+    ],
+    "memory": "Mobiluncus: mobile curved cells in BV.",
+    "quickCheck": {
+      "question": "Which normal vaginal bacteria usually protect against BV?",
+      "answer": "Lactobacillus species."
+    },
+    "sourceNote": "Mobiluncus often stains gram variable and has gram-positive-type cell-wall features; “gram-negative” is a traditional staining description."
+  },
+  "book-203-239": {
+    "questionInPlainEnglish": "How do infants usually acquire intestinal botulism?",
+    "explanation": "An infant can swallow C. botulinum spores, the bacterium’s durable resting form. Spores germinate in the immature intestine, and growing bacteria make toxin there. This differs from eating toxin already formed in food.",
+    "optionExplanations": [
+      "A cat scratch suggests other infections, not the usual infant botulism route.",
+      "Swallowed spores germinating in the intestine cause infant botulism.",
+      "A puncture wound would suggest wound botulism, not the usual infant form.",
+      "Preformed food toxin causes classic foodborne botulism rather than intestinal infant botulism."
+    ],
+    "memory": "Infants swallow spores; foodborne adults swallow toxin.",
+    "quickCheck": {
+      "question": "Where is toxin made in infant botulism?",
+      "answer": "Inside the infant’s intestine."
+    }
+  },
+  "book-203-240": {
+    "questionInPlainEnglish": "Which gram-positive non-spore-forming anaerobic rod is commonly recovered from clinical specimens?",
+    "explanation": "Cutibacterium acnes lives on skin and can enter specimens during collection. It also causes real infections, particularly around implanted devices, so the site and repeated recovery matter.",
+    "optionExplanations": [
+      "B. dentium is an oral anaerobe but is not the most common choice here.",
+      "Capnocytophaga is gram negative and does not fit the category.",
+      "E. limosum is an anaerobic rod but is less commonly recovered.",
+      "P. acnes, now C. acnes, is a common skin-associated isolate."
+    ],
+    "memory": "Acnes accompanies skin and implants.",
+    "quickCheck": {
+      "question": "Why might C. acnes in one culture be hard to interpret?",
+      "answer": "It can represent either skin contamination or a true infection."
+    },
+    "sourceNote": "Propionibacterium acnes is now Cutibacterium acnes; frequency depends on specimen population."
+  },
+  "book-203-241": {
+    "questionInPlainEnglish": "Which clostridium has a swollen terminal spore?",
+    "explanation": "Terminal means at the end. In C. tetani, the round end spore bulges beyond the thin rod, producing the classic drumstick or tennis-racket appearance.",
+    "optionExplanations": [
+      "C. botulinum typically has subterminal spores.",
+      "C. difficile generally has oval subterminal spores.",
+      "C. perfringens spores are uncommon in routine smears and not classically swollen terminal ones.",
+      "C. tetani has the characteristic swollen terminal spore."
+    ],
+    "memory": "Tetani carries a tennis ball at its tip.",
+    "quickCheck": {
+      "question": "What does terminal mean when describing a spore?",
+      "answer": "Located at the end of the bacterial cell."
+    }
+  },
+  "book-203-242": {
+    "questionInPlainEnglish": "Which anaerobic gram-negative rod is associated with brain and lung abscesses?",
+    "explanation": "Fusobacterium nucleatum is found in the mouth. Oral bacteria can enter deeper tissues or be aspirated into the lungs, causing abscesses, which are localized pockets of pus.",
+    "optionExplanations": [
+      "B. ureolyticus is not the classic organism emphasized by these sites.",
+      "E. lentum is gram positive, unlike the organism described.",
+      "F. nucleatum matches the gram-negative anaerobic rod and abscess association.",
+      "P. anaerobius is a gram-positive coccus, not a rod."
+    ],
+    "memory": "Fusobacterium can travel from mouth to abscess.",
+    "quickCheck": {
+      "question": "What is an abscess?",
+      "answer": "A localized pocket of pus caused by infection."
+    }
+  },
+  "book-203-243": {
+    "questionInPlainEnglish": "Which genus is a gram-positive anaerobic rod without spores?",
+    "explanation": "Propionibacterium includes anaerobic or aerotolerant gram-positive rods that do not form spores. The other options fail the spore, Gram-stain, or shape requirement.",
+    "optionExplanations": [
+      "Clostridium forms endospores, so it fails the non-spore requirement.",
+      "Fusobacterium is gram negative.",
+      "Propionibacterium fits gram positive, rod shaped, and non-spore forming.",
+      "Veillonella is gram-negative and round, not a gram-positive rod."
+    ],
+    "memory": "Propionibacterium: positive rods, no spores.",
+    "quickCheck": {
+      "question": "Which clue excludes Clostridium?",
+      "answer": "Its ability to form endospores."
+    }
+  },
+  "book-203-244": {
+    "questionInPlainEnglish": "Which statement about C. botulinum is false?",
+    "explanation": "C. botulinum makes a neurotoxin, meaning a toxin that acts on nerves. Its spores are typically subterminal, near the end rather than at the very tip. Terminal spores are the classic C. tetani clue.",
+    "optionExplanations": [
+      "Infant botulism is common among reported U.S. forms; this is the book’s accepted statement.",
+      "Potent neurotoxin explains its disease, so this is true.",
+      "Terminal spores are the false defining feature; they are usually subterminal.",
+      "Types A, B, E, and occasionally F cause human botulism."
+    ],
+    "memory": "Botulinum: subterminal; tetani: terminal.",
+    "quickCheck": {
+      "question": "How do terminal and subterminal spores differ?",
+      "answer": "Terminal spores sit at the tip; subterminal spores sit near the tip."
+    },
+    "sourceNote": "The relative frequency of infant versus foodborne botulism varies by region and surveillance period."
+  },
+  "book-203-245": {
+    "questionInPlainEnglish": "What does pink resazurin in an anaerobic medium indicate?",
+    "explanation": "Resazurin is an oxygen-sensitive indicator. Pink color signals an oxidized environment, warning that oxygen may be present and conditions may not be suitable for strict anaerobes.",
+    "optionExplanations": [
+      "Pink resazurin is not primarily an acid indicator.",
+      "It is not being used here to measure alkaline pH.",
+      "Movement is assessed by growth spreading, not this dye color.",
+      "Oxygen causes the oxidized pink indicator state."
+    ],
+    "memory": "Pink means pause: oxygen may be present.",
+    "quickCheck": {
+      "question": "Why is pink resazurin a warning in anaerobic culture?",
+      "answer": "Strict anaerobes may be harmed by oxygen."
+    }
+  },
+  "book-203-246": {
+    "questionInPlainEnglish": "Which Fusobacterium species is most often recovered from clinical infections in the book’s framework?",
+    "explanation": "F. nucleatum is a common member of oral flora and a frequent clinical Fusobacterium isolate. Its connection to dental and deep-tissue infections explains its prominence.",
+    "optionExplanations": [
+      "F. varium causes infections but is less frequently isolated here.",
+      "F. nucleatum is the common clinical species emphasized.",
+      "F. mortiferum is less commonly recovered than F. nucleatum.",
+      "F. necrophorum is important in Lemierre syndrome but is not the most frequent overall choice."
+    ],
+    "memory": "Nucleatum: numerous oral and clinical isolates.",
+    "quickCheck": {
+      "question": "Which Fusobacterium species is especially linked to Lemierre syndrome?",
+      "answer": "Fusobacterium necrophorum."
+    }
+  },
+  "book-203-247": {
+    "questionInPlainEnglish": "Which bloodstream anaerobe should raise concern for an underlying malignancy?",
+    "explanation": "C. septicum bacteremia has a strong association with colon cancer and some blood cancers. Damaged intestinal tissue can give bacteria a route into blood; the culture clue can point beyond the infection itself.",
+    "optionExplanations": [
+      "B. dentium is mainly an oral anaerobe without this hallmark association.",
+      "C. septicum bloodstream infection is strongly associated with malignancy.",
+      "E. lentum is not the classic cancer-warning isolate here.",
+      "L. catenaforme is not the classic malignancy-associated bloodstream organism."
+    ],
+    "memory": "Septicum sepsis: search for colon disease.",
+    "quickCheck": {
+      "question": "What hidden condition is especially associated with C. septicum bacteremia?",
+      "answer": "Colorectal malignancy, among other malignancies."
+    }
+  },
+  "book-203-248": {
+    "questionInPlainEnglish": "Which listed bacterial toxin is exceptionally potent?",
+    "explanation": "Botulinum toxin blocks release of acetylcholine, the signal that tells muscles to contract. Very small amounts can cause flaccid paralysis, meaning limp muscle weakness, including failure of breathing muscles.",
+    "optionExplanations": [
+      "Botulinum toxin is the exceptionally potent neurotoxin.",
+      "Erythrogenic toxin causes effects such as the scarlet-fever rash.",
+      "C. difficile toxin B damages intestinal cells but is not the most potent listed.",
+      "C. perfringens alpha toxin damages membranes and tissue, not the strongest toxin here."
+    ],
+    "memory": "Botulinum blocks the muscle message.",
+    "quickCheck": {
+      "question": "Why can botulism interfere with breathing?",
+      "answer": "Its toxin can paralyze the muscles needed to breathe."
+    }
+  },
+  "book-203-249": {
+    "questionInPlainEnglish": "Which clostridium most commonly causes gas gangrene?",
+    "explanation": "Gas gangrene is rapid destruction of muscle with gas formation. C. perfringens produces tissue-damaging toxins and grows rapidly in poorly oxygenated injured tissue.",
+    "optionExplanations": [
+      "C. bifermentans is a less common cause.",
+      "C. perfringens is the most common clostridial gas-gangrene agent.",
+      "C. sordellii can cause severe toxic illness but is less common here.",
+      "C. difficile chiefly causes antibiotic-associated colitis."
+    ],
+    "memory": "Perfringens perforates tissue and produces gas.",
+    "quickCheck": {
+      "question": "What tissue is chiefly destroyed in clostridial myonecrosis?",
+      "answer": "Muscle."
+    }
+  },
+  "book-203-250": {
+    "questionInPlainEnglish": "Which organism is NOT gram positive?",
+    "explanation": "The question asks for the exception. The first three are traditional gram-positive anaerobic rods. The last option is intended to represent a gram-negative anaerobic organism, although its genus name appears erroneous.",
+    "optionExplanations": [
+      "E. lentum is a gram-positive anaerobic rod.",
+      "B. dentium is a gram-positive branching anaerobic rod.",
+      "P. acnes is a gram-positive anaerobic rod.",
+      "The intended wadsworthensis organism is gram negative, making it the exception."
+    ],
+    "memory": "Exception hunt: three positive rods, one negative rod.",
+    "quickCheck": {
+      "question": "What does the Gram reaction describe?",
+      "answer": "How the bacterial cell envelope behaves during Gram staining."
+    },
+    "sourceNote": "“Suttonella wadsworthensis” appears erroneous; the likely intended organism is Sutterella wadsworthensis, a gram-negative anaerobic rod. Eubacterium lentum is now Eggerthella lenta."
+  },
+  "book-203-252": {
+    "questionInPlainEnglish": "Which spore-forming gram-positive rod fits growth failure in air and added CO2?",
+    "explanation": "Clostridia generally require anaerobic conditions. Added CO2 is not the same as removing oxygen, so a clostridial isolate may fail on both plates described.",
+    "optionExplanations": [
+      "Bacillus usually grows aerobically and would be less consistent with no growth.",
+      "Clostridium fits spores plus an anaerobic growth requirement.",
+      "Lactobacillus does not form endospores.",
+      "Prevotella is gram negative and does not form spores."
+    ],
+    "memory": "CO2-rich does not mean oxygen-free.",
+    "quickCheck": {
+      "question": "Why might added CO2 fail to support a strict anaerobe?",
+      "answer": "Oxygen may still be present."
+    }
+  },
+  "book-203-253": {
+    "questionInPlainEnglish": "Which normal vaginal bacterium can make small alpha-hemolytic colonies?",
+    "explanation": "Lactobacilli are common vaginal residents. Some produce a greenish partial hemolysis called alpha hemolysis. Their presence often reflects normal protective flora rather than an invasive pathogen.",
+    "optionExplanations": [
+      "Bacteroides is an anaerobic gram-negative group, not the best normal vaginal match.",
+      "Clostridium is a spore-forming anaerobic group, not the expected small vaginal colonies.",
+      "Lactobacillus matches normal vaginal flora and possible alpha hemolysis.",
+      "Porphyromonas is a pigmented anaerobic group and fits less well."
+    ],
+    "memory": "Vaginal lactobacilli can leave a little green.",
+    "quickCheck": {
+      "question": "What does alpha hemolysis look like on blood agar?",
+      "answer": "A greenish zone of partial red-cell change."
+    }
+  },
+  "book-203-255": {
+    "questionInPlainEnglish": "Which listed feature correctly describes C. tetani?",
+    "explanation": "C. tetani’s most recognizable structural clue is a spore at the end of the cell. This terminal spore may swell the rod into a drumstick shape.",
+    "optionExplanations": [
+      "Proteolytic activity can be described in C. tetani, so this distractor is potentially problematic.",
+      "C. tetani is not classically lecithinase positive.",
+      "It is motile, so characteristically nonmotile is false.",
+      "Terminal spores are the classic correct identification feature."
+    ],
+    "memory": "Tetani: terminal tip spore.",
+    "quickCheck": {
+      "question": "Which clostridium classically resembles a drumstick?",
+      "answer": "Clostridium tetani."
+    },
+    "sourceNote": "Potential ambiguity: C. tetani can be proteolytic. The book keys terminal spores, the clearest defining feature."
+  },
+  "book-203-256": {
+    "questionInPlainEnglish": "Which tapered anaerobic rod is inhibited by bile and a kanamycin disk?",
+    "explanation": "F. nucleatum has slender cells with pointed ends, like tiny spindles. Bile inhibition and its characteristic special-potency disk pattern support a presumptive identification, which still needs confirmation.",
+    "optionExplanations": [
+      "B. fragilis is bile tolerant, contradicting the clue.",
+      "E. lentum is gram positive and lacks the characteristic tapered gram-negative morphology.",
+      "F. nucleatum fits pointed rods, bile inhibition, and kanamycin susceptibility.",
+      "P. gingivalis is a different pigmented organism without the classic spindle shape."
+    ],
+    "memory": "Fuso = spindle: pointed at both ends.",
+    "quickCheck": {
+      "question": "What does presumptive identification mean?",
+      "answer": "An initial likely identification that may need confirmatory testing."
+    },
+    "sourceNote": "The kanamycin amount appears corrupted by OCR; anaerobe identification uses specified special-potency disks, not routine susceptibility disks."
+  },
+  "book-203-258": {
+    "questionInPlainEnglish": "Which listed test is most appropriate for detecting toxigenic C. difficile?",
+    "explanation": "C. difficile causes disease through toxins that injure intestinal cells. A cytotoxin assay detects this cell-damaging activity, connecting the result to the disease mechanism. Modern laboratories often use toxin and molecular testing algorithms.",
+    "optionExplanations": [
+      "SPS susceptibility helps identify P. anaerobius, not C. difficile toxin.",
+      "Nagler testing is associated with C. perfringens lecithinase.",
+      "A cytotoxin assay detects relevant toxin activity.",
+      "Fluorescence alone is not the specific diagnostic test sought."
+    ],
+    "memory": "Difficile disease depends on toxin.",
+    "quickCheck": {
+      "question": "Why can detecting toxin matter more than simply growing C. difficile?",
+      "answer": "Some strains do not produce the toxins responsible for disease."
+    },
+    "sourceNote": "Clostridium difficile is now Clostridioides difficile; current diagnostic algorithms differ from older identification methods."
+  },
+  "book-203-259": {
+    "questionInPlainEnglish": "Which listed test helps presumptively identify C. perfringens?",
+    "explanation": "The reverse CAMP reaction detects enhanced hemolysis caused by interacting bacterial products. C. perfringens gives a characteristic reaction, providing a useful early identification clue.",
+    "optionExplanations": [
+      "SPS susceptibility is associated with P. anaerobius.",
+      "Reverse CAMP is a classic C. perfringens identification test.",
+      "Cytotoxin testing is mainly linked to C. difficile diagnosis.",
+      "Esculin hydrolysis is not the best specific choice here."
+    ],
+    "memory": "Perfringens takes CAMP in reverse.",
+    "quickCheck": {
+      "question": "What visible effect is read in a reverse CAMP test?",
+      "answer": "Enhanced hemolysis where the organisms’ products interact."
+    }
+  },
+  "book-203-260": {
+    "questionInPlainEnglish": "Which disk helps presumptively identify Peptostreptococcus anaerobius?",
+    "explanation": "P. anaerobius is inhibited by sodium polyanethol sulfonate, abbreviated SPS. A zone of inhibition around an SPS disk is a traditional identification clue, rather than a routine treatment recommendation.",
+    "optionExplanations": [
+      "An SPS disk provides the characteristic identification reaction.",
+      "Colistin is not the characteristic distinguishing disk for this organism.",
+      "Kanamycin is not the specific test requested.",
+      "Vancomycin is not the characteristic discriminator here."
+    ],
+    "memory": "P. anaerobius pauses near SPS.",
+    "quickCheck": {
+      "question": "Does an SPS identification disk directly choose an antibiotic treatment?",
+      "answer": "No; it is used for identification."
+    }
+  },
+  "book-203-261": {
+    "questionInPlainEnglish": "Which listed anaerobe can show curved gram-negative rods?",
+    "explanation": "F. nucleatum can appear as slender, sometimes curved rods with tapered ends. The shape supports its recognition, though it should be combined with culture and other identification evidence.",
+    "optionExplanations": [
+      "A. israelii forms branching gram-positive filaments.",
+      "C. septicum is a spore-forming gram-positive rod.",
+      "F. nucleatum can be slender, curved, and pointed at the ends.",
+      "P. acnes is gram positive and pleomorphic, not the characteristic answer."
+    ],
+    "memory": "Fusobacterium: slender spindle forms.",
+    "quickCheck": {
+      "question": "Which end shape is especially characteristic of F. nucleatum?",
+      "answer": "Tapered or pointed ends."
+    }
+  },
+  "book-203-262": {
+    "questionInPlainEnglish": "Which pair fits anaerobic gram-positive cocci and pointed gram-negative rods in a brain abscess?",
+    "explanation": "This is a mixed infection: two distinct cell types appear in the smear. Peptostreptococcus supplies the gram-positive cocci; Fusobacterium supplies the pointed gram-negative rods.",
+    "optionExplanations": [
+      "Veillonella is gram negative and Clostridium is a gram-positive rod, reversing the required pattern.",
+      "Eubacterium is a gram-positive rod and Veillonella a gram-negative coccus.",
+      "Peptostreptococcus fits the cocci, but Nocardia is branching, gram positive, and aerobic.",
+      "Fusobacterium plus Peptostreptococcus matches both observed cell types."
+    ],
+    "memory": "Pointed rods plus positive rounds: Fuso plus Pepto.",
+    "quickCheck": {
+      "question": "Why does the smear suggest more than one organism?",
+      "answer": "It shows two different combinations of cell shape and Gram reaction."
+    }
+  },
+  "book-203-263": {
+    "questionInPlainEnglish": "Which B. fragilis structure is especially important in causing disease?",
+    "explanation": "A polysaccharide capsule is a sugary outer coat. In B. fragilis it helps the organism resist host defenses and promotes abscess formation after bacteria escape from the intestine.",
+    "optionExplanations": [
+      "Its endotoxin is not the major virulence feature emphasized here.",
+      "Some strains produce enterotoxin, but that is not the general abscess-related answer.",
+      "The polysaccharide capsule is a key abscess-promoting virulence factor.",
+      "Protease is not the main distinguishing virulence feature listed."
+    ],
+    "memory": "Fragilis wraps itself in an abscess-promoting sugar coat.",
+    "quickCheck": {
+      "question": "What is a capsule made of in B. fragilis?",
+      "answer": "Polysaccharides, or complex sugars."
+    }
+  },
+  "book-203-264": {
+    "questionInPlainEnglish": "Which statement about B. fragilis is false?",
+    "explanation": "B. fragilis is an important abdominal anaerobe and commonly produces beta-lactamase. It is among the more drug-resistant anaerobes, so calling it especially antimicrobial-sensitive is misleading.",
+    "optionExplanations": [
+      "Negative lipase and lecithinase reactions are compatible with B. fragilis.",
+      "It is an anaerobic gram-negative rod, so this is true.",
+      "It commonly causes intra-abdominal infection after bowel flora escape.",
+      "Being among the most sensitive anaerobes is false."
+    ],
+    "memory": "Fragilis is fragile in name, resistant in practice.",
+    "quickCheck": {
+      "question": "Which enzyme commonly contributes to B. fragilis penicillin resistance?",
+      "answer": "Beta-lactamase."
+    }
+  },
+  "book-203-265": {
+    "questionInPlainEnglish": "Which organism is least likely to cause aspiration pneumonia?",
+    "explanation": "Aspiration can carry oral bacteria into the lungs. Prevotella, Porphyromonas, and related oral anaerobes can then cause infection. Mobiluncus belongs chiefly to the vaginal bacterial community, so it is the exception.",
+    "optionExplanations": [
+      "B. gracilis is associated with oral flora and can fit aspiration infection.",
+      "Mobiluncus is associated with bacterial vaginosis, making it the least likely.",
+      "Porphyromonas is an oral anaerobe that can be aspirated.",
+      "P. melaninogenica is an oral anaerobe associated with aspiration infection."
+    ],
+    "memory": "Aspiration samples the mouth; Mobiluncus suggests vagina.",
+    "quickCheck": {
+      "question": "Why are oral anaerobes plausible causes of aspiration pneumonia?",
+      "answer": "They can enter the lungs with aspirated mouth secretions."
+    },
+    "sourceNote": "Bacteroides gracilis is now Campylobacter gracilis."
+  },
+  "book-203-266": {
+    "questionInPlainEnglish": "Which dye helps show that oxygen has been removed from an anaerobic jar?",
+    "explanation": "Methylene blue is a redox indicator: its color changes with oxidation state. It is colorless when adequately reduced and blue when oxidized, helping reveal oxygen exposure.",
+    "optionExplanations": [
+      "Bromcresol purple mainly indicates pH.",
+      "Methylene blue can indicate anaerobic conditions through its redox color change.",
+      "Methyl red measures acid production in a biochemical test.",
+      "Phenol red is primarily a pH indicator."
+    ],
+    "memory": "Blue means oxygen broke through.",
+    "quickCheck": {
+      "question": "What color should reduced methylene blue be in an anaerobic indicator?",
+      "answer": "Colorless."
+    }
+  },
+  "book-203-267": {
+    "questionInPlainEnglish": "What enzyme causes an opaque precipitate around a colony on egg-yolk agar?",
+    "explanation": "Lecithinase breaks down lecithin, a fat-containing component of egg yolk. Insoluble products form a cloudy precipitate in the agar, distinguishing it from the shiny surface effect of lipase.",
+    "optionExplanations": [
+      "Lecithinase produces the characteristic opaque precipitate.",
+      "Lipase more typically gives a pearly or iridescent surface sheen.",
+      "Protease breaks down proteins and does not explain this lecithin precipitate.",
+      "Starch hydrolysis is tested with starch medium and iodine."
+    ],
+    "memory": "Lecithinase leaves a cloudy halo.",
+    "quickCheck": {
+      "question": "How does a positive lipase reaction differ visually?",
+      "answer": "It often produces a pearly or iridescent sheen on the surface."
+    }
+  },
+  "book-203-268": {
+    "questionInPlainEnglish": "Which anaerobic gram-positive coccus makes olive-green to black colonies?",
+    "explanation": "Peptococcus niger is named for its dark pigment; niger means black. Combining the colony color with round gram-positive cells points toward this organism.",
+    "optionExplanations": [
+      "Finegoldia magna is a gram-positive anaerobic coccus but not the classic black-pigment species.",
+      "Peptococcus niger matches the dark colony clue.",
+      "P. anaerobius is not characteristically black pigmented.",
+      "Veillonella is gram negative and therefore fails the stain clue."
+    ],
+    "memory": "Niger means black.",
+    "quickCheck": {
+      "question": "Which clue distinguishes P. niger from other anaerobic gram-positive cocci?",
+      "answer": "Its dark colony pigmentation."
+    }
+  },
+  "book-203-269": {
+    "questionInPlainEnglish": "Which listed anaerobe is an important food-poisoning cause?",
+    "explanation": "C. perfringens can multiply when cooked food cools too slowly or is kept warm inadequately. After the food is eaten, toxin production in the intestine commonly causes cramps and diarrhea.",
+    "optionExplanations": [
+      "B. fragilis is mainly associated with infections from displaced intestinal flora.",
+      "B. ureolyticus is not a classic food-poisoning agent.",
+      "C. perfringens is a major cause of food-associated diarrhea.",
+      "C. histolyticum is linked more to tissue breakdown than classic food poisoning."
+    ],
+    "memory": "Perfringens profits from poorly cooled food.",
+    "quickCheck": {
+      "question": "Where is enterotoxin typically produced in C. perfringens food poisoning?",
+      "answer": "In the intestine after contaminated food is eaten."
+    }
+  },
+  "book-203-270": {
+    "questionInPlainEnglish": "Which normal vaginal bacteria help protect against bacterial vaginosis?",
+    "explanation": "Lactobacilli make lactic acid, helping keep vaginal pH low. That acidic environment makes it harder for many competing bacteria to overgrow, like keeping a garden’s conditions favorable to its usual plants.",
+    "optionExplanations": [
+      "Peptostreptococcus is not the main acid-producing protective group.",
+      "Peptococcus is not the main protective vaginal group.",
+      "Lactobacillus maintains an acidic environment that helps resist BV.",
+      "Mobiluncus is associated with BV rather than its prevention."
+    ],
+    "memory": "Lacto makes lactic acid: low pH protection.",
+    "quickCheck": {
+      "question": "How do lactobacilli help protect the vagina?",
+      "answer": "They produce acid that helps limit overgrowth of other bacteria."
+    }
+  },
+  "book-203-272": {
+    "questionInPlainEnglish": "Which organism cannot grow without living host cells?",
+    "explanation": "Chlamydia trachomatis must reproduce inside living cells. Ordinary nutrient agar supplies food but cannot replace the living-cell environment it requires. Mycoplasmas and Ureaplasma need special nutrients but can grow in cell-free media.",
+    "optionExplanations": [
+      "C. trachomatis is obligately intracellular and is the exception.",
+      "M. hominis can grow on enriched cell-free media.",
+      "M. pneumoniae can grow on specialized cell-free media.",
+      "U. urealyticum grows on suitable urea-containing cell-free media."
+    ],
+    "memory": "Chlamydia needs a living cellular home.",
+    "quickCheck": {
+      "question": "How is cell culture different from ordinary agar culture?",
+      "answer": "Cell culture supplies living host cells."
+    }
+  },
+  "book-203-273": {
+    "questionInPlainEnglish": "Which organism is the classic cause of primary atypical pneumonia?",
+    "explanation": "M. pneumoniae can cause a persistent cough and pneumonia with less impressive chest examination findings than expected from the X-ray. Atypical describes this clinical pattern and associated organisms, not an absence of serious illness.",
+    "optionExplanations": [
+      "C. trachomatis can cause infant pneumonia but is not the classic answer.",
+      "C. psittaci causes bird-associated psittacosis.",
+      "M. pneumoniae is the classic primary atypical pneumonia agent.",
+      "U. urealyticum is chiefly associated with the genital tract."
+    ],
+    "memory": "Walking pneumonia: Mycoplasma pneumoniae.",
+    "quickCheck": {
+      "question": "Why is penicillin ineffective against M. pneumoniae?",
+      "answer": "It lacks the cell wall that penicillin targets."
+    }
+  },
+  "book-203-274": {
+    "questionInPlainEnglish": "Which medium supports recovery of M. pneumoniae?",
+    "explanation": "Mycoplasmas lack a rigid cell wall and need rich media, including sterols for their membranes. SP4 provides the special nutrients needed for growth, which is slow compared with many routine bacteria.",
+    "optionExplanations": [
+      "Charcoal yeast extract is chiefly used for Legionella.",
+      "Fletcher medium is used for Leptospira.",
+      "Middlebrook media are used for mycobacteria.",
+      "SP4 is a specialized Mycoplasma medium."
+    ],
+    "memory": "SP4 supplies special food for Mycoplasma.",
+    "quickCheck": {
+      "question": "Why can routine nutrient agar fail to grow Mycoplasma?",
+      "answer": "It lacks necessary enrichment, including appropriate membrane-supporting sterols."
+    }
+  },
+  "book-203-275": {
+    "questionInPlainEnglish": "Which animal group most often transmits C. psittaci to humans?",
+    "explanation": "Avians are birds. People can inhale dried material from infected bird droppings or respiratory secretions, leading to psittacosis, which may include pneumonia.",
+    "optionExplanations": [
+      "Amphibians such as frogs are not the classic source.",
+      "Arthropods such as ticks are not the usual source.",
+      "Avians means birds, the characteristic source.",
+      "Mammals are not the principal animal group intended here."
+    ],
+    "memory": "Psittaci: parrots and other birds.",
+    "quickCheck": {
+      "question": "How can someone acquire psittacosis without a bird bite?",
+      "answer": "By inhaling contaminated material from birds or their droppings."
+    }
+  },
+  "book-203-276": {
+    "questionInPlainEnglish": "Which statement does NOT fit Q fever caused by Coxiella?",
+    "explanation": "Q fever commonly follows inhalation of contaminated animal material, especially around livestock births. Unlike many spotted-fever infections, it usually lacks a rash. A spreading extremity-to-trunk rash is therefore the false clue.",
+    "optionExplanations": [
+      "Intracellular growth is its classic biological description.",
+      "Animal-to-human inhalation is a major transmission route.",
+      "This rash pattern is not characteristic of Q fever.",
+      "Coxiella causes both acute and persistent Q fever syndromes."
+    ],
+    "memory": "Q fever: livestock aerosols, usually no rash.",
+    "quickCheck": {
+      "question": "What animal material can be especially infectious for Q fever?",
+      "answer": "Birth products such as placenta and associated fluids."
+    },
+    "sourceNote": "Specialized research media can support cell-free Coxiella growth; the traditional “obligate intracellular” description reflects its natural biology."
+  },
+  "book-203-277": {
+    "questionInPlainEnglish": "Which statement about mycoplasmas is correct?",
+    "explanation": "Penicillin attacks construction of a peptidoglycan cell wall. Mycoplasmas have no such wall, so the drug has no target—like trying to break a fence that was never built.",
+    "optionExplanations": [
+      "Penicillin resistance follows from the absence of a cell wall.",
+      "They can survive outside cells, so this is false.",
+      "They stain poorly with Gram stain because they lack the usual wall.",
+      "They require enriched specialized media rather than routine nonselective agar."
+    ],
+    "memory": "No wall, no penicillin target.",
+    "quickCheck": {
+      "question": "Which structure is missing from Mycoplasma?",
+      "answer": "A peptidoglycan cell wall."
+    }
+  },
+  "book-203-278": {
+    "questionInPlainEnglish": "Which organism can be detected in eye scrapings using fluorescent antibodies to inclusions?",
+    "explanation": "C. trachomatis multiplies inside cells and forms inclusions, clusters of organisms within the host cell. Eye infection can cause conjunctivitis and, in trachoma, scarring that threatens vision.",
+    "optionExplanations": [
+      "C. trachomatis fits ocular infection and intracellular inclusions.",
+      "E. chaffeensis chiefly infects white blood cells, not this ocular setting.",
+      "M. hominis is chiefly a genital-associated organism and lacks chlamydial inclusions.",
+      "R. prowazekii causes epidemic typhus, not this eye inclusion disease."
+    ],
+    "memory": "Trachomatis threatens the eye through trachoma.",
+    "quickCheck": {
+      "question": "What is an inclusion in chlamydial infection?",
+      "answer": "A collection of organisms growing within a host-cell compartment."
+    },
+    "sourceNote": "This is a historical ocular diagnostic description; modern specimen type and assay choice follow current ophthalmic/laboratory guidance."
+  },
+  "book-203-279": {
+    "questionInPlainEnglish": "Which mycoplasma is NOT primarily associated with human genital infection?",
+    "explanation": "M. pneumoniae is primarily a respiratory pathogen spread between people. The other listed organisms can inhabit the genital tract, although detecting them does not always mean they are causing disease.",
+    "optionExplanations": [
+      "M. genitalium is a recognized sexually transmitted pathogen.",
+      "M. hominis can inhabit the genital tract and be linked to disease.",
+      "M. pneumoniae is the respiratory organism and the exception.",
+      "U. urealyticum is associated with the genital tract."
+    ],
+    "memory": "Pneumoniae points to lungs.",
+    "quickCheck": {
+      "question": "Does finding a genital organism always prove it caused symptoms?",
+      "answer": "No; some organisms can colonize without causing disease."
+    }
+  },
+  "book-203-280": {
+    "questionInPlainEnglish": "Which statement about C. pneumoniae is false?",
+    "explanation": "C. pneumoniae spreads mainly from person to person through respiratory secretions. Animal-source infection instead suggests C. psittaci. Keeping these similar names tied to their transmission routes prevents confusion.",
+    "optionExplanations": [
+      "It is a recognized lower respiratory pathogen.",
+      "Animal reservoirs are not the usual source, so this is false.",
+      "These antibiotic classes can act against it.",
+      "Associations with atherosclerosis have been investigated, although causation is unproven."
+    ],
+    "memory": "Pneumoniae: people; psittaci: parrots.",
+    "quickCheck": {
+      "question": "Which related chlamydial species is linked to birds?",
+      "answer": "Chlamydia psittaci."
+    },
+    "sourceNote": "An epidemiologic association with atherosclerosis does not establish a causal role or justify antibiotic treatment for atherosclerosis."
+  },
+  "book-203-281": {
+    "questionInPlainEnglish": "Which method is preferred for sensitive detection of genital C. trachomatis?",
+    "explanation": "Nucleic acid amplification tests make many copies of a specific genetic target, allowing tiny amounts to be detected. They generally outperform older culture and antigen tests for routine genital chlamydia diagnosis.",
+    "optionExplanations": [
+      "Cell culture is technically demanding and less sensitive for routine screening.",
+      "Antigen EIAs are generally less sensitive than amplification assays.",
+      "DNA amplification is the intended sensitive diagnostic method.",
+      "Modified Thayer-Martin grows pathogenic Neisseria, not Chlamydia."
+    ],
+    "memory": "Chlamydia detection: amplify the genetic clue.",
+    "quickCheck": {
+      "question": "Why does amplification improve detection?",
+      "answer": "It copies a small target signal until it is measurable."
+    },
+    "sourceNote": "The term “reference method” and the rationale’s blanket culture-confirmation advice are historical; current routine diagnosis generally uses validated NAATs."
+  },
+  "book-203-282": {
+    "questionInPlainEnglish": "Which listed organism most classically makes fried-egg colonies?",
+    "explanation": "M. hominis colonies grow partly down into agar. The dense central portion and lighter outer edge resemble a fried egg, so the visual description refers to the whole colony.",
+    "optionExplanations": [
+      "Ehrlichia requires host cells and does not make these agar colonies.",
+      "M. genitalium is very difficult and slow to culture; it is not the classic answer.",
+      "M. hominis is the classic conspicuous fried-egg colony example.",
+      "Ureaplasma makes much tinier colonies and is not the best example."
+    ],
+    "memory": "Hominis has a dense fried-egg center.",
+    "quickCheck": {
+      "question": "Why is the center of a fried-egg Mycoplasma colony darker?",
+      "answer": "It grows into the agar and is denser."
+    }
+  },
+  "book-203-283": {
+    "questionInPlainEnglish": "How do humans usually acquire Q fever?",
+    "explanation": "Coxiella survives in contaminated dust and animal birth materials. Breathing in these particles is a major route; unlike many related infections, human Q fever does not usually require an arthropod bite.",
+    "optionExplanations": [
+      "Inhaling infectious animal material is the main route listed.",
+      "A chigger bite suggests scrub typhus.",
+      "Body lice are associated with epidemic typhus.",
+      "Phlebotomus sand flies transmit other pathogens, not typical Q fever."
+    ],
+    "memory": "Q fever travels in livestock dust.",
+    "quickCheck": {
+      "question": "Does human Q fever usually need a tick bite?",
+      "answer": "No; inhalation of contaminated material is the usual route."
+    }
+  },
+  "book-203-284": {
+    "questionInPlainEnglish": "Which nonspecific stain is classically used to show Rickettsia?",
+    "explanation": "The Gimenez stain colors these small organisms red against a contrasting green background. Nonspecific means the dye does not identify a particular species merely by binding to it.",
+    "optionExplanations": [
+      "Gimenez is the classic stain requested.",
+      "Gomori silver stains are commonly associated with fungi and other applications.",
+      "Gram staining is relatively poor for visualizing these small intracellular organisms.",
+      "Kinyoun is an acid-fast staining method."
+    ],
+    "memory": "Gimenez: red rickettsiae, green background.",
+    "quickCheck": {
+      "question": "Does a nonspecific stain identify a Rickettsia species by itself?",
+      "answer": "No; further specific testing is needed."
+    }
+  },
+  "book-203-285": {
+    "questionInPlainEnglish": "Which Rickettsia species causes Rocky Mountain spotted fever?",
+    "explanation": "R. rickettsii is transmitted by infected ticks and injures small blood vessels. The species name is the central recall point; other rickettsiae cause different fever-and-rash diseases.",
+    "optionExplanations": [
+      "R. akari causes rickettsialpox.",
+      "R. conorii causes Mediterranean spotted fever.",
+      "R. prowazekii causes epidemic typhus.",
+      "R. rickettsii causes Rocky Mountain spotted fever."
+    ],
+    "memory": "Rocky Mountain: rickettsii.",
+    "quickCheck": {
+      "question": "What vector transmits Rocky Mountain spotted fever?",
+      "answer": "An infected tick."
+    }
+  },
+  "book-203-286": {
+    "questionInPlainEnglish": "Which animal is linked to wild-cycle epidemic typhus in the United States?",
+    "explanation": "Sylvatic means occurring in a wild-animal cycle. Flying squirrels can harbor R. prowazekii, creating an unusual animal-associated source distinct from the familiar human body-louse epidemic cycle.",
+    "optionExplanations": [
+      "Bats are not the classic reservoir in this question.",
+      "Rabbits are more strongly associated with tularemia.",
+      "Raccoons are not the characteristic reservoir here.",
+      "Flying squirrels are linked to sylvatic R. prowazekii infection."
+    ],
+    "memory": "Sylvatic typhus can shelter with squirrels.",
+    "quickCheck": {
+      "question": "What does sylvatic mean?",
+      "answer": "Associated with a wild-animal transmission cycle."
+    }
+  },
+  "book-203-287": {
+    "questionInPlainEnglish": "What is a late recurrence of epidemic typhus called?",
+    "explanation": "R. prowazekii can remain in the body after an earlier infection. Years later it may reactivate, causing a usually milder recurrence called Brill-Zinsser disease. Recrudescence means return of an old infection.",
+    "optionExplanations": [
+      "Brill-Zinsser disease is recrudescent epidemic typhus.",
+      "Q fever is caused by Coxiella, not reactivated typhus.",
+      "Sao Paulo typhus is a spotted-fever term, not this recurrence.",
+      "Tsutsugamushi disease is scrub typhus."
+    ],
+    "memory": "Brill-Zinsser brings typhus back.",
+    "quickCheck": {
+      "question": "Does recrudescence require a new exposure?",
+      "answer": "No; it can arise from organisms persisting after the original infection."
+    }
+  },
+  "book-203-288": {
+    "questionInPlainEnglish": "Which organism causes murine or endemic typhus?",
+    "explanation": "R. typhi circulates in flea-associated animal cycles and can infect people. Murine means mouse- or rat-associated; this helps distinguish it from louse-associated epidemic typhus.",
+    "optionExplanations": [
+      "R. akari causes rickettsialpox.",
+      "R. conorii causes a spotted fever.",
+      "R. prowazekii causes epidemic typhus.",
+      "R. typhi causes murine typhus."
+    ],
+    "memory": "Typhi: typhus with fleas.",
+    "quickCheck": {
+      "question": "How does the usual vector of murine typhus differ from epidemic typhus?",
+      "answer": "Murine typhus is flea associated; classic epidemic typhus is body-louse associated."
+    }
+  },
+  "book-203-289": {
+    "questionInPlainEnglish": "Which reaction can help screen cultured M. pneumoniae isolates?",
+    "explanation": "M. pneumoniae makes hydrogen peroxide that can damage red blood cells. In a suitable overlay test, hemolysis around growth provides a screening clue. It is not the same as a blood antibody test for the patient.",
+    "optionExplanations": [
+      "M. pneumoniae is not acid-fast.",
+      "A Gram stain is poor because it lacks a conventional wall.",
+      "Red-cell lysis is the screening reaction described.",
+      "Catalase activity is not the characteristic screening test here."
+    ],
+    "memory": "Pneumoniae peroxide pops red cells.",
+    "quickCheck": {
+      "question": "What chemical helps M. pneumoniae lyse red cells?",
+      "answer": "Hydrogen peroxide."
+    }
+  },
+  "book-203-290": {
+    "questionInPlainEnglish": "What organism best explains alkaline 10B broth without visible cloudiness?",
+    "explanation": "Ureaplasma uses urease to split urea and release alkaline products such as ammonia. Its tiny cells may change the pH before growth looks cloudy, so clear broth does not necessarily mean no growth.",
+    "optionExplanations": [
+      "Specimen-related pH effects are possible, but this pattern in urea medium suggests the organism.",
+      "M. genitalium is not the classic urease-positive 10B isolate.",
+      "M. hominis uses arginine rather than this characteristic urea reaction.",
+      "U. urealyticum hydrolyzes urea and can alkalinize broth without obvious turbidity."
+    ],
+    "memory": "Urea + Ureaplasma = alkaline.",
+    "quickCheck": {
+      "question": "Why can a broth culture change pH without becoming visibly cloudy?",
+      "answer": "A small population can produce enough metabolic products to change the indicator."
+    }
+  },
+  "book-203-291": {
+    "questionInPlainEnglish": "For which disease is anti-cardiolipin antibody testing used?",
+    "explanation": "RPR and VDRL detect antibodies that react with a lipid mixture containing cardiolipin. These are nontreponemal syphilis tests: useful for screening and follow-up, but not specific proof of syphilis by themselves.",
+    "optionExplanations": [
+      "Leptospirosis uses organism-specific detection or antibody tests.",
+      "Lyme testing targets Borrelia-related evidence, not cardiolipin.",
+      "Relapsing fever is not diagnosed with routine cardiolipin tests.",
+      "Syphilis is screened and monitored using tests such as RPR and VDRL."
+    ],
+    "memory": "Cardiolipin: the RPR/VDRL clue.",
+    "quickCheck": {
+      "question": "Why should a reactive nontreponemal screen be interpreted with other tests?",
+      "answer": "Other conditions can also produce reactive results."
+    }
+  },
+  "book-203-292": {
+    "questionInPlainEnglish": "Which listed method best detects Leptospira during the first week?",
+    "explanation": "Early in leptospirosis, organisms circulate in blood. Later they may be shed in urine. Blood culture therefore matches the early timing better than urine culture, although modern PCR often gives faster evidence.",
+    "optionExplanations": [
+      "Blood culture targets the early bloodstream phase.",
+      "Urine culture is more useful after organisms begin urinary shedding.",
+      "Direct blood microscopy is unreliable when organism numbers are low.",
+      "Direct CSF examination is not the most reliable method listed."
+    ],
+    "memory": "Leptospira: blood early, urine later.",
+    "quickCheck": {
+      "question": "Why does the best specimen change with illness stage?",
+      "answer": "The organisms move from the bloodstream to other sites and later appear in urine."
+    },
+    "sourceNote": "Culture is slow and insensitive; current early diagnostic workflows often include PCR. The answer is retained within the options given."
+  },
+  "book-203-293": {
+    "questionInPlainEnglish": "Which spirochete is especially associated with severe congenital infection?",
+    "explanation": "Congenital means present from before birth. T. pallidum subsp. pallidum can cross the placenta during pregnancy and cause congenital syphilis, affecting fetal development and newborn health.",
+    "optionExplanations": [
+      "B. burgdorferi causes Lyme disease, not classic congenital syphilis.",
+      "B. recurrentis causes relapsing fever.",
+      "T. pallidum subsp. pallidum causes syphilis and can cross the placenta.",
+      "T. pallidum subsp. pertenue causes yaws rather than classic congenital syphilis."
+    ],
+    "memory": "Pallidum can pass the placenta.",
+    "quickCheck": {
+      "question": "What does congenital infection mean?",
+      "answer": "An infection acquired before birth."
+    }
+  },
+  "book-203-294": {
+    "questionInPlainEnglish": "Which thin spiral organism has hooked ends?",
+    "explanation": "Leptospira are extremely thin spirochetes with tight coils and hooked ends. The hooks resemble the ends of a question mark, providing a useful shape clue among spiral bacteria.",
+    "optionExplanations": [
+      "Borrelia are generally wider and more loosely coiled.",
+      "Leptonema is not the characteristic pathogenic hooked spirochete intended.",
+      "Leptospira matches the fine coils and hooked ends.",
+      "Treponema has regular coils but not the classic hooked tips."
+    ],
+    "memory": "Leptospira hooks like little question marks.",
+    "quickCheck": {
+      "question": "Which two shape features suggest Leptospira?",
+      "answer": "Very thin tight coils and hooked ends."
+    }
+  },
+  "book-203-295": {
+    "questionInPlainEnglish": "Which vector transmits epidemic relapsing fever due to B. recurrentis?",
+    "explanation": "The human body louse carries B. recurrentis. Infection often follows crushing an infected louse and introducing its contents into broken skin; tick-borne relapsing fever involves other Borrelia species.",
+    "optionExplanations": [
+      "Fleas are not the classic B. recurrentis vector.",
+      "Lice transmit epidemic relapsing fever.",
+      "Mosquitoes are not the vector for this disease.",
+      "Ticks transmit other forms of relapsing fever, not the classic epidemic form."
+    ],
+    "memory": "Recurrentis rides with body lice.",
+    "quickCheck": {
+      "question": "How does epidemic relapsing fever differ from tick-borne relapsing fever?",
+      "answer": "It is associated with body lice and B. recurrentis."
+    }
+  },
+  "book-203-296": {
+    "questionInPlainEnglish": "Which statement about VDRL is false?",
+    "explanation": "VDRL detects antibodies to cardiolipin-containing particles, not antibodies binding whole killed T. pallidum organisms. Because that lipid reaction is nonspecific, other illnesses can produce a positive result.",
+    "optionExplanations": [
+      "False positives are more common than with specific treponemal testing.",
+      "Titers usually decline after successful treatment, though patterns vary.",
+      "Killed T. pallidum is not the VDRL antigen; this statement is false.",
+      "VDRL is usually reactive in secondary syphilis."
+    ],
+    "memory": "VDRL uses lipid, not whole treponemes.",
+    "quickCheck": {
+      "question": "What antigen mixture is central to VDRL?",
+      "answer": "Cardiolipin with other lipid components."
+    }
+  },
+  "book-203-297": {
+    "questionInPlainEnglish": "Which disease is caused by tick-transmitted B. burgdorferi?",
+    "explanation": "B. burgdorferi causes Lyme disease. An expanding skin lesion may be followed by joint, heart, or nerve involvement. Matching the organism with its tick vector helps distinguish it from other spirochetal diseases.",
+    "optionExplanations": [
+      "Lyme disease is the correct organism-disease pairing.",
+      "Rat-bite fever is caused by other organisms, including Streptobacillus.",
+      "Relapsing fever involves different Borrelia species.",
+      "Q fever is caused by Coxiella burnetii."
+    ],
+    "memory": "Burgdorferi brings Lyme.",
+    "quickCheck": {
+      "question": "What kind of vector usually transmits Lyme disease?",
+      "answer": "An Ixodes tick."
+    },
+    "sourceNote": "Ixodes dammini is an older name now generally included within Ixodes scapularis in the northeastern United States."
+  },
+  "book-203-298": {
+    "questionInPlainEnglish": "Which familiar bacterial structure resembles spirochete axial fibrils?",
+    "explanation": "Axial fibrils are internal flagella lying between the cell’s layers. Their rotation twists the whole spirochete, giving corkscrew-like movement through fluid and tissue.",
+    "optionExplanations": [
+      "The cytoplasmic membrane is a boundary, not the motor filament.",
+      "Flagella are the closest equivalent: both are movement structures.",
+      "Pili mainly aid attachment or genetic exchange, rather than this corkscrew motion.",
+      "A sporangium is associated with spore formation."
+    ],
+    "memory": "Axial fibrils are flagella tucked inside.",
+    "quickCheck": {
+      "question": "How do axial fibrils help a spirochete move?",
+      "answer": "They rotate and twist the cell into corkscrew motion."
+    }
+  },
+  "book-203-299": {
+    "questionInPlainEnglish": "Which statement about spirochetes is incorrect?",
+    "explanation": "Spirochetes have a gram-negative-type cell envelope, but many are too thin to show well in a routine Gram stain. Dark-field or phase microscopy increases contrast so their delicate coils can be seen.",
+    "optionExplanations": [
+      "Axial filaments provide movement, so this is correct.",
+      "Calling them gram positive is incorrect.",
+      "Dark-field or phase optics help visualize them, so this is correct.",
+      "The dimensions given broadly fit medically important spirochetes."
+    ],
+    "memory": "Thin coils need contrast; they are not gram-positive rods.",
+    "quickCheck": {
+      "question": "Why might Gram staining fail to show a spirochete clearly?",
+      "answer": "Many are too thin for reliable routine visualization."
+    }
+  },
+  "book-203-300": {
+    "questionInPlainEnglish": "What should follow a positive VDRL in someone with another possible cause of a false positive?",
+    "explanation": "A screening result is a clue rather than a verdict. Hepatitis can produce a biologic false-positive VDRL, but syphilis cannot be dismissed without a specific treponemal test such as FTA-ABS.",
+    "optionExplanations": [
+      "Immediate treatment based solely on this screen skips confirmation in this scenario.",
+      "Contact investigation before establishing the diagnosis is premature here.",
+      "A specific treponemal assay helps confirm or refute the screening result.",
+      "Reassurance alone assumes a false positive without checking."
+    ],
+    "memory": "Reactive screen: check a treponemal target.",
+    "quickCheck": {
+      "question": "Why does a positive VDRL need further assessment?",
+      "answer": "It detects nonspecific antibodies that other illnesses can also produce."
+    },
+    "sourceNote": "FTA-ABS is the historical confirmatory option; current algorithms may use other validated treponemal assays."
+  },
+  "book-203-301": {
+    "questionInPlainEnglish": "Which turbidity standard is used for the starting suspension in routine susceptibility tests?",
+    "explanation": "A 0.5 McFarland standard makes the bacterial suspension reproducibly cloudy. It approximates 1.5 × 10^8 bacteria/mL for many organisms; broth dilution then requires further dilution to its prescribed final inoculum.",
+    "optionExplanations": [
+      "0.5 is the standard initial turbidity for many routine methods.",
+      "1.0 is too dense for the usual starting suspension.",
+      "2.0 is substantially denser than the routine target.",
+      "3.0 is much too dense for the usual target."
+    ],
+    "memory": "Half a McFarland starts the standardized suspension.",
+    "quickCheck": {
+      "question": "Why standardize inoculum density?",
+      "answer": "Too many or too few bacteria can distort susceptibility results."
+    }
+  },
+  "book-203-302": {
+    "questionInPlainEnglish": "Which agar supports standardized H. influenzae disk-diffusion testing?",
+    "explanation": "H. influenzae needs hemin, called X factor, and NAD, called V factor. Haemophilus test medium adds these nutrients to a standardized Mueller-Hinton base so growth and drug-zone measurements can be interpreted.",
+    "optionExplanations": [
+      "Chocolate agar supports growth but is not the standardized choice listed.",
+      "Charcoal yeast extract is used chiefly for Legionella.",
+      "Sheep blood alone does not provide the required standardized Haemophilus formulation.",
+      "Hematin, NAD, and yeast extract make the appropriate Haemophilus test medium."
+    ],
+    "memory": "Haemophilus needs X and V even during susceptibility testing.",
+    "quickCheck": {
+      "question": "What are the X and V growth factors?",
+      "answer": "X is hemin; V is NAD."
+    },
+    "sourceNote": "Use current organism-specific CLSI/EUCAST medium recommendations; alternative validated formulations may be specified."
+  },
+  "book-203-303": {
+    "questionInPlainEnglish": "Which antibiotic class imitates PABA and blocks folate production?",
+    "explanation": "Bacteria use PABA as a building block for folate, needed for making cell components. Sulfonamides resemble PABA and compete for the enzyme, like a wrong key occupying a lock.",
+    "optionExplanations": [
+      "Aminoglycosides act on bacterial ribosomes.",
+      "Penicillins inhibit cell-wall construction.",
+      "Macrolides interfere with protein synthesis.",
+      "Sulfonamides compete with PABA in folate synthesis."
+    ],
+    "memory": "Sulfa substitutes for PABA.",
+    "quickCheck": {
+      "question": "Why can PABA-like drugs interfere with bacterial growth?",
+      "answer": "They block a step in bacterial folate synthesis."
+    }
+  },
+  "book-203-304": {
+    "questionInPlainEnglish": "Which organism generally does not need routine penicillin susceptibility testing?",
+    "explanation": "Group A Streptococcus remains predictably susceptible to penicillin, so testing every isolate for that particular drug is not routinely needed. This does not mean it is predictably susceptible to every other antibiotic.",
+    "optionExplanations": [
+      "E. coli often has acquired resistance and commonly needs testing.",
+      "P. mirabilis can vary in susceptibility and commonly needs testing.",
+      "S. aureus has important resistance patterns that require assessment.",
+      "S. pyogenes has predictable penicillin susceptibility and is the intended exception."
+    ],
+    "memory": "Group A strep: penicillin remains predictable.",
+    "quickCheck": {
+      "question": "Does predictable penicillin susceptibility guarantee macrolide susceptibility?",
+      "answer": "No; resistance to other drug classes can occur."
+    },
+    "sourceNote": "The rationale overgeneralizes to other organisms and agents. Alternative-drug testing may be needed, and current guidance must be followed."
+  },
+  "book-203-305": {
+    "questionInPlainEnglish": "Which bacterial process does penicillin block?",
+    "explanation": "Peptidoglycan is the mesh that strengthens a bacterial cell wall. Penicillin prevents proper cross-linking of that mesh, making growing bacteria vulnerable to bursting under water pressure.",
+    "optionExplanations": [
+      "30S protein inhibition is associated with aminoglycosides and tetracyclines.",
+      "Dihydrofolate-related inhibition belongs to antifolate drugs.",
+      "Inhibition of peptidoglycan construction is penicillin’s action.",
+      "Nucleic acid function is targeted by other drug classes."
+    ],
+    "memory": "Penicillin prevents wall cross-links.",
+    "quickCheck": {
+      "question": "Why does weakening peptidoglycan harm bacteria?",
+      "answer": "The wall can no longer resist internal osmotic pressure."
+    }
+  },
+  "book-203-306": {
+    "questionInPlainEnglish": "What percentage of the starting bacteria must an MBC kill?",
+    "explanation": "MBC means minimum bactericidal concentration: the lowest drug level that kills at least 99.9% of the original population under defined conditions. That is a thousandfold reduction, different from merely stopping visible growth.",
+    "optionExplanations": [
+      "95.5% is below the required killing level.",
+      "97% is also below the required level.",
+      "99.9% is the standard bactericidal endpoint.",
+      "100% is stricter than the definition requires."
+    ],
+    "memory": "MBC: three nines, 99.9%.",
+    "quickCheck": {
+      "question": "How does MBC differ from MIC?",
+      "answer": "MBC measures killing; MIC measures inhibition of visible growth."
+    }
+  },
+  "book-203-307": {
+    "questionInPlainEnglish": "Which drug can reveal inducible clindamycin resistance in a D test?",
+    "explanation": "Erythromycin can switch on a resistance mechanism that also affects clindamycin. When disks are placed nearby, flattening of the clindamycin zone toward erythromycin creates a D shape.",
+    "optionExplanations": [
+      "Ampicillin is not the inducer used for this resistance test.",
+      "Erythromycin induces the shared resistance mechanism.",
+      "Gentamicin is not the relevant inducer.",
+      "Penicillin is not used to reveal this mechanism."
+    ],
+    "memory": "Erythromycin makes the D in the clindamycin zone.",
+    "quickCheck": {
+      "question": "What does a positive D-zone test warn about?",
+      "answer": "Inducible clindamycin resistance that may cause treatment failure."
+    }
+  },
+  "book-203-308": {
+    "questionInPlainEnglish": "What term means two antibiotics work better together than expected from their separate effects?",
+    "explanation": "Synergy means the combined effect exceeds the expected combined activity. One drug may help another reach its target, making the pair more effective than simply adding two independent effects.",
+    "optionExplanations": [
+      "Additivism means the expected summed effect, not an extra boost.",
+      "Antagonism means one drug reduces the other’s effect.",
+      "Sensitivity describes susceptibility, not the interaction of a pair.",
+      "Synergism is the greater-than-expected combined effect."
+    ],
+    "memory": "Synergy: the pair gives an extra push.",
+    "quickCheck": {
+      "question": "What is antagonism between antibiotics?",
+      "answer": "One drug reduces the activity of the other."
+    },
+    "sourceNote": "Formal synergy definitions depend on the assay; do not generalize the rationale’s single tenfold-killing statement to all methods."
+  },
+  "book-203-309": {
+    "questionInPlainEnglish": "Which listed drug is undermined by H. influenzae beta-lactamase?",
+    "explanation": "Beta-lactamase is an enzyme that breaks a beta-lactam antibiotic’s key chemical ring. This can inactivate penicillin-class drugs such as ampicillin; the other listed drug classes do not have that same target ring.",
+    "optionExplanations": [
+      "Chloramphenicol is not inactivated simply by beta-lactamase.",
+      "Erythromycin is a macrolide, not a beta-lactam.",
+      "Penicillin is the beta-lactam drug listed.",
+      "Trimethoprim-sulfamethoxazole acts on folate pathways, not through a beta-lactam ring."
+    ],
+    "memory": "Beta-lactamase breaks beta-lactams.",
+    "quickCheck": {
+      "question": "Why does beta-lactamase make ampicillin ineffective?",
+      "answer": "It breaks the drug’s beta-lactam ring."
+    }
+  },
+  "book-203-310": {
+    "questionInPlainEnglish": "Which agar is standard for routine disk susceptibility testing of nonfastidious bacteria?",
+    "explanation": "Mueller-Hinton agar has controlled properties that allow drug diffusion and bacterial growth to be compared with established standards. Nonfastidious means not needing special nutrient supplements.",
+    "optionExplanations": [
+      "MacConkey agar is selective/differential for many gram-negative bacteria.",
+      "Middlebrook agar is for mycobacteria.",
+      "Mueller-Hinton is the routine standardized susceptibility agar.",
+      "Trypticase soy agar supports growth but is not the standard disk-test medium."
+    ],
+    "memory": "Mueller-Hinton measures drug zones.",
+    "quickCheck": {
+      "question": "Why use a standardized agar for susceptibility testing?",
+      "answer": "Medium composition changes growth and antibiotic diffusion."
+    }
+  },
+  "book-203-311": {
+    "questionInPlainEnglish": "What pH should routine Kirby-Bauer agar have?",
+    "explanation": "The standard range is about pH 7.2–7.4 at room temperature. pH changes can alter bacterial growth and drug activity, so an otherwise identical test may give misleading zones if the agar is too acidic or alkaline.",
+    "optionExplanations": [
+      "7.0–7.2 falls below much of the required range.",
+      "7.2–7.4 is the correct standardized range.",
+      "7.4–7.6 extends above the accepted range.",
+      "A pH of 7.6–7.8 is too alkaline for standardized Kirby-Bauer agar and can distort drug-zone results."
+    ],
+    "memory": "Kirby-Bauer: seven-point-two to seven-point-four.",
+    "quickCheck": {
+      "question": "Why can incorrect agar pH distort a disk test?",
+      "answer": "It can change antibiotic activity and bacterial growth."
+    },
+    "sourceNote": "The rationale’s “1.2–1.4” is an OCR/printing error; the intended pH is 7.2–7.4."
+  },
+  "book-203-312": {
+    "questionInPlainEnglish": "Which antiparasitic drug is also useful against many anaerobic bacteria?",
+    "explanation": "Metronidazole becomes activated in susceptible low-oxygen organisms. The activated products damage DNA. This explains why it can act against both certain parasites and many anaerobic bacteria.",
+    "optionExplanations": [
+      "Isoniazid is a tuberculosis drug.",
+      "Metronidazole treats certain protozoal and anaerobic bacterial infections.",
+      "Rifampin inhibits bacterial RNA synthesis and is not the intended drug.",
+      "Trimethoprim blocks folate metabolism."
+    ],
+    "memory": "Metronidazole works where oxygen is scarce.",
+    "quickCheck": {
+      "question": "What important bacterial molecule is damaged by activated metronidazole?",
+      "answer": "DNA."
+    },
+    "sourceNote": "The rationale’s universal activity and “only consistently bactericidal” wording is too broad; resistance and exceptions exist."
+  },
+  "book-203-313": {
+    "questionInPlainEnglish": "Which listed antibiotic is generally bactericidal?",
+    "explanation": "Bactericidal means killing bacteria rather than only slowing their multiplication. Tobramycin is an aminoglycoside that causes faulty protein production and is generally bactericidal against susceptible organisms.",
+    "optionExplanations": [
+      "Chloramphenicol is generally bacteriostatic in this comparison.",
+      "Erythromycin is generally bacteriostatic.",
+      "Tetracycline is generally bacteriostatic.",
+      "Tobramycin is generally bactericidal."
+    ],
+    "memory": "Aminoglycosides can kill despite targeting protein synthesis.",
+    "quickCheck": {
+      "question": "How does bacteriostatic activity differ from bactericidal activity?",
+      "answer": "Bacteriostatic drugs inhibit growth; bactericidal drugs kill bacteria."
+    }
+  },
+  "book-203-314": {
+    "questionInPlainEnglish": "Which drug best demonstrates the expanded resistance spectrum of ESBLs?",
+    "explanation": "ESBL means extended-spectrum beta-lactamase. These enzymes can inactivate extended-spectrum cephalosporins such as ceftriaxone, extending beyond the older penicillin resistance pattern.",
+    "optionExplanations": [
+      "Amoxicillin can also be hydrolyzed, but does not demonstrate the extended cephalosporin spectrum.",
+      "Ceftriaxone is the intended extended-spectrum cephalosporin example.",
+      "Erythromycin lacks a beta-lactam ring.",
+      "Rifampin lacks a beta-lactam ring and targets RNA synthesis."
+    ],
+    "memory": "ESBL extends to ceftriaxone.",
+    "quickCheck": {
+      "question": "Why is ceftriaxone a more distinctive ESBL clue than amoxicillin?",
+      "answer": "It demonstrates activity against extended-spectrum cephalosporins."
+    },
+    "sourceNote": "Amoxicillin is also affected, so the stem is imprecise if interpreted as asking for every drug to which resistance can occur."
+  },
+  "book-203-316": {
+    "questionInPlainEnglish": "Which organism is classically checked rapidly for beta-lactamase production?",
+    "explanation": "A rapid beta-lactamase test on H. influenzae can detect an enzyme that inactivates ampicillin. This gives useful early resistance information, although a negative result does not rule out all other resistance mechanisms.",
+    "optionExplanations": [
+      "Serratia has more complex resistance assessment and is not the target of this classic rapid recommendation.",
+      "H. influenzae is the intended rapid beta-lactamase testing organism.",
+      "S. epidermidis needs broader staphylococcal resistance assessment.",
+      "S. pyogenes does not produce this classic penicillin-resistance enzyme."
+    ],
+    "memory": "Haemophilus: check the beta-lactam ring breaker.",
+    "quickCheck": {
+      "question": "Can a negative beta-lactamase test guarantee ampicillin susceptibility?",
+      "answer": "No; other resistance mechanisms can exist."
+    }
+  },
+  "book-203-317": {
+    "questionInPlainEnglish": "What is it called when a drug stops growth but fails to kill bacteria as expected?",
+    "explanation": "Tolerance means bacteria survive exposure to a drug that normally kills, even though visible growth is inhibited. It can show as a low MIC but a much higher MBC: stopping growth and causing death are different endpoints.",
+    "optionExplanations": [
+      "High-level resistance usually means growth persists at high drug concentrations.",
+      "Intrinsic resistance is a built-in species trait, not this survival pattern.",
+      "Inducible resistance is switched on by exposure, not the definition here.",
+      "Tolerance describes inhibition without the expected killing."
+    ],
+    "memory": "Tolerance: halted, yet alive.",
+    "quickCheck": {
+      "question": "Which two measurements can differ greatly in tolerant bacteria?",
+      "answer": "MIC and MBC."
+    }
+  },
+  "book-203-318": {
+    "questionInPlainEnglish": "Which listed method is appropriate for mycobacterial drug susceptibility testing?",
+    "explanation": "TB bacteria grow slowly and need specialized culture systems. BACTEC mycobacterial systems detect growth with and without drugs, rather than applying ordinary rapid bacterial disk testing.",
+    "optionExplanations": [
+      "Routine Mueller-Hinton broth microdilution is not the standard approach described for TB.",
+      "Routine Kirby-Bauer disks are unsuitable for M. tuberculosis.",
+      "A validated mycobacterial BACTEC method is appropriate.",
+      "The Schlichter test measures serum bactericidal activity, not standard TB susceptibility."
+    ],
+    "memory": "TB testing needs a TB-specific growth system.",
+    "quickCheck": {
+      "question": "Why can routine overnight disk testing not be used for M. tuberculosis?",
+      "answer": "Its slow growth and special culture needs require validated mycobacterial methods."
+    },
+    "sourceNote": "The rationale’s radiometric BACTEC 460 system is obsolete; modern liquid systems and molecular resistance tests are used."
+  },
+  "book-203-319": {
+    "questionInPlainEnglish": "What is clavulanic acid’s main therapeutic role?",
+    "explanation": "Clavulanic acid inhibits certain beta-lactamase enzymes, protecting a partner antibiotic such as amoxicillin. Think of it as shielding the antibiotic from an enzyme that would otherwise break it.",
+    "optionExplanations": [
+      "It has a beta-lactam structure, but this is not the best functional classification.",
+      "Beta-lactamase inhibitor is its principal therapeutic classification.",
+      "It is not a macrolide protein-synthesis inhibitor.",
+      "Aminoglycosides inhibit bacterial protein synthesis; clavulanate instead protects a partner drug from certain beta-lactamases."
+    ],
+    "memory": "Clavulanate guards amoxicillin.",
+    "quickCheck": {
+      "question": "Does clavulanate inhibit every beta-lactamase?",
+      "answer": "No; protection depends on the particular enzyme."
+    },
+    "sourceNote": "The choices overlap chemically: clavulanate has a beta-lactam ring, but the intended answer is its functional class."
+  },
+  "book-203-320": {
+    "questionInPlainEnglish": "Which listed drug inhibits bacterial cell-wall synthesis?",
+    "explanation": "Vancomycin binds building blocks needed to assemble peptidoglycan, the strong mesh of the bacterial wall. The other choices interfere with proteins or DNA rather than wall assembly.",
+    "optionExplanations": [
+      "Clindamycin targets the 50S ribosomal subunit.",
+      "Gentamicin targets the 30S ribosomal subunit.",
+      "Nalidixic acid affects bacterial DNA enzymes.",
+      "Vancomycin blocks peptidoglycan assembly."
+    ],
+    "memory": "Vancomycin blocks wall building blocks.",
+    "quickCheck": {
+      "question": "What is peptidoglycan?",
+      "answer": "The mesh-like material that strengthens bacterial cell walls."
+    }
+  },
+  "book-203-321": {
+    "questionInPlainEnglish": "Which broad bacterial group is most often targeted by metronidazole?",
+    "explanation": "Susceptible anaerobes activate metronidazole into DNA-damaging compounds. Obligate anaerobes grow without oxygen and are the best broad category here, although individual species can be resistant.",
+    "optionExplanations": [
+      "Aerobes generally do not activate the drug effectively.",
+      "Microaerophiles need reduced oxygen but are not the broad intended category.",
+      "Obligate anaerobes are the principal bacterial targets listed.",
+      "Intracellular location alone does not predict metronidazole activity."
+    ],
+    "memory": "Metro targets many microbes without oxygen.",
+    "quickCheck": {
+      "question": "Why is metronidazole selective for many anaerobes?",
+      "answer": "Their metabolism activates it into damaging products."
+    }
+  },
+  "book-203-322": {
+    "questionInPlainEnglish": "Which listed antibiotic inhibits protein synthesis?",
+    "explanation": "Gentamicin binds the bacterial 30S ribosomal subunit, part of the cell’s protein-making machinery. It disrupts accurate reading of genetic instructions and can lead to bacterial death.",
+    "optionExplanations": [
+      "Gentamicin is an aminoglycoside acting on protein synthesis.",
+      "Methicillin inhibits cell-wall synthesis.",
+      "Rifampin inhibits RNA polymerase.",
+      "Ampicillin inhibits cell-wall synthesis."
+    ],
+    "memory": "Gentamicin jams the 30S reader.",
+    "quickCheck": {
+      "question": "What is the function of a ribosome?",
+      "answer": "Making proteins from RNA instructions."
+    }
+  },
+  "book-203-323": {
+    "questionInPlainEnglish": "Which serious toxicity limits chloramphenicol use?",
+    "explanation": "Bone marrow makes blood cells. Chloramphenicol can suppress this production and, rarely, cause aplastic anemia, a severe failure of blood-cell production. This toxicity explains why its use is limited despite useful antimicrobial activity.",
+    "optionExplanations": [
+      "Allergy can occur with drugs, but is not the distinctive major concern here.",
+      "Bone marrow suppression and aplastic anemia are the characteristic serious toxicities.",
+      "Digestive symptoms do not explain the major limitation emphasized.",
+      "Photosensitivity is more characteristic of some other antibiotic classes."
+    ],
+    "memory": "Chloramphenicol can chill blood-cell production.",
+    "quickCheck": {
+      "question": "Why can marrow suppression lower several blood-cell types?",
+      "answer": "The marrow produces red cells, white cells, and platelets."
+    }
+  },
+  "book-203-324": {
+    "questionInPlainEnglish": "Which listed strain is NOT the standard control organism intended for disk testing?",
+    "explanation": "Quality-control strains have stable, known susceptibility ranges. The standard staphylococcal disk-control strain is S. aureus ATCC 25923, so the S. epidermidis entry is the intended mismatch.",
+    "optionExplanations": [
+      "This S. epidermidis strain is not the standard staphylococcal disk-control choice.",
+      "P. aeruginosa ATCC 27853 is a standard susceptibility control.",
+      "E. coli ATCC 25922 is a standard susceptibility control.",
+      "E. faecalis ATCC 29212 has specific susceptibility-control uses, though not every disk method."
+    ],
+    "memory": "Staph disk QC: aureus 25923.",
+    "quickCheck": {
+      "question": "Why use designated reference strains for quality control?",
+      "answer": "Their expected results help detect problems in media, disks, or technique."
+    },
+    "sourceNote": "Control-strain roles vary by method; E. faecalis ATCC 29212 is primarily a dilution QC strain and has specific disk-related uses. The book’s broad weekly-disk list is dated."
+  },
+  "book-203-325": {
+    "questionInPlainEnglish": "What color indicates a positive nitrocefin beta-lactamase test?",
+    "explanation": "Nitrocefin is a colored cephalosporin. When beta-lactamase opens its beta-lactam ring, the compound changes from yellow to red, directly revealing enzyme activity.",
+    "optionExplanations": [
+      "Yellow is the unhydrolyzed negative color.",
+      "Green is not the standard positive endpoint.",
+      "Red indicates beta-lactam ring hydrolysis.",
+      "Blue is not the usual nitrocefin endpoint."
+    ],
+    "memory": "Nitrocefin: yellow to red means ring broken.",
+    "quickCheck": {
+      "question": "What chemical event causes the red color?",
+      "answer": "Beta-lactamase hydrolyzes the nitrocefin beta-lactam ring."
+    }
+  },
+  "book-203-326": {
+    "questionInPlainEnglish": "Which site normally has far fewer bacteria than the others?",
+    "explanation": "The lungs have clearance defenses that limit bacterial accumulation. Modern studies detect a low-biomass lung microbiome, but healthy lungs still contain far fewer organisms than the densely colonized colon, skin, or vagina.",
+    "optionExplanations": [
+      "The colon carries an enormous bacterial population.",
+      "Skin normally supports resident bacteria.",
+      "Lungs are the least densely colonized site listed.",
+      "The vagina normally supports a substantial bacterial community."
+    ],
+    "memory": "Healthy lungs: low biomass, active clearance.",
+    "quickCheck": {
+      "question": "Why can a sputum culture contain bacteria that are not infecting the lungs?",
+      "answer": "The specimen can pick up normal mouth and throat flora."
+    },
+    "sourceNote": "The rationale’s suggestion of sterile lungs is outdated; healthy lungs have a low-biomass microbiome."
+  },
+  "book-203-327": {
+    "questionInPlainEnglish": "Which bacteria commonly dominate vaginal flora during reproductive years?",
+    "explanation": "Estrogen supports glycogen in vaginal cells. Lactobacilli use available nutrients and produce lactic acid, helping maintain the acidic environment typical during reproductive years.",
+    "optionExplanations": [
+      "Enterococcus may be present but is not the classic dominant group.",
+      "Lactobacillus is the traditional predominant protective group.",
+      "Propionibacterium is more associated with skin.",
+      "Coagulase-negative staphylococci may occur but are not the classic dominant group."
+    ],
+    "memory": "Reproductive years: Lactobacillus and lactic acid.",
+    "quickCheck": {
+      "question": "What environmental effect do vaginal lactobacilli produce?",
+      "answer": "They help maintain an acidic pH."
+    },
+    "sourceNote": "Healthy vaginal communities vary; Lactobacillus dominance is common but not universal."
+  },
+  "book-203-328": {
+    "questionInPlainEnglish": "What biological feature does the MIDI identification system analyze?",
+    "explanation": "Different bacteria have characteristic mixtures of cellular fatty acids. MIDI compares that chemical pattern with a database, like identifying a song from its distinctive sound pattern. Growth conditions must be standardized because they can change the profile.",
+    "optionExplanations": [
+      "An antibiogram measures drug susceptibility, not the MIDI basis.",
+      "Colony pigment is not the system’s main measurement.",
+      "Fatty-acid profiling is the identification basis.",
+      "Multiple biochemical reactions describe other identification systems."
+    ],
+    "memory": "MIDI matches microbial fatty-acid fingerprints.",
+    "quickCheck": {
+      "question": "Why must growth conditions be standardized before fatty-acid analysis?",
+      "answer": "Conditions can change the fatty-acid profile."
+    }
+  },
+  "book-203-329": {
+    "questionInPlainEnglish": "Which statement about collecting blood cultures is incorrect?",
+    "explanation": "Blood must mix promptly with the bottle’s anticoagulant-containing medium. A clot can trap organisms and allow host cells to keep destroying them, reducing recovery. Adequate blood volume is especially important because bloodstream organisms may be scarce.",
+    "optionExplanations": [
+      "This is a historical adult volume recommendation; adequate volume matters.",
+      "Multiple culture sets improve recovery and interpretation.",
+      "Volume is generally more important than timing around fever.",
+      "Allowing blood to clot is incorrect."
+    ],
+    "memory": "Culture blood before it clots.",
+    "quickCheck": {
+      "question": "Why does collecting enough blood improve culture sensitivity?",
+      "answer": "It increases the chance of sampling the small number of organisms present."
+    },
+    "sourceNote": "Current adult set volumes commonly total 20–30 mL depending on bottle system; follow local guidance."
+  },
+  "book-203-330": {
+    "questionInPlainEnglish": "What CO2 concentration is commonly used for capnophilic bacteria?",
+    "explanation": "Capnophilic means growing better with extra carbon dioxide. Many clinical bacteria are incubated at about 5–10% CO2; this enriches CO2 but does not remove all oxygen.",
+    "optionExplanations": [
+      "1–5% is below the full range requested.",
+      "5–10% is the conventional range listed.",
+      "10–15% is higher than the usual target.",
+      "15–20% is well above the usual target."
+    ],
+    "memory": "Capno culture: five to ten percent CO2.",
+    "quickCheck": {
+      "question": "Does a CO2 incubator automatically provide anaerobic conditions?",
+      "answer": "No; oxygen is still present."
+    }
+  },
+  "book-203-331": {
+    "questionInPlainEnglish": "Which anticoagulant does the book recommend for potentially clotting microbiology fluids?",
+    "explanation": "SPS helps prevent clotting and can reduce some host antibacterial effects. Preventing clots keeps organisms accessible for culture instead of trapping them inside a solid mass. The proper collection container remains specimen- and method-specific.",
+    "optionExplanations": [
+      "Heparin may be used for selected specimen types but is not the book’s chosen agent.",
+      "SPS is the intended microbiology anticoagulant.",
+      "EDTA can interfere with recovery of some organisms and is not the general choice here.",
+      "Citrate is not the preferred option in this question."
+    ],
+    "memory": "SPS stops clots in the culture setting.",
+    "quickCheck": {
+      "question": "Why can clotting reduce microbial recovery?",
+      "answer": "Organisms may become trapped and exposed to continuing host-cell killing."
+    },
+    "sourceNote": "SPS means sodium polyanethol sulfonate; the option spells it incorrectly. Container choice varies, and SPS can inhibit some organisms."
+  },
+  "book-203-332": {
+    "questionInPlainEnglish": "Which pair provides a positive and negative control for Simmons citrate agar?",
+    "explanation": "A useful control pair tests both possible outcomes. Klebsiella pneumoniae uses citrate and can turn the medium blue; E. coli usually cannot, so the medium remains green without growth.",
+    "optionExplanations": [
+      "Both organisms are usually citrate negative and do not supply the intended positive control.",
+      "K. pneumoniae is positive and E. coli negative, giving both controls.",
+      "E. coli and E. tarda are generally negative, so this pair lacks a positive.",
+      "These are not the standard positive-and-negative pair offered."
+    ],
+    "memory": "Klebsiella turns citrate blue; E. coli keeps it green.",
+    "quickCheck": {
+      "question": "Why are both positive and negative controls needed?",
+      "answer": "They verify that the test can show each expected result correctly."
+    }
+  },
+  "book-203-333": {
+    "questionInPlainEnglish": "Which exposure route is a major cause of laboratory-acquired infection?",
+    "explanation": "Aerosols are tiny suspended droplets that may contain microbes. Pipetting, centrifugation, and opening containers can generate them, allowing organisms to be inhaled without an obvious splash or injury.",
+    "optionExplanations": [
+      "Infectious aerosols are the major route emphasized.",
+      "Damaged skin is a possible route, but not the principal one asked.",
+      "Needlesticks are important but are not the selected majority route.",
+      "Person-to-person spread is not the main occupational laboratory route here."
+    ],
+    "memory": "Invisible droplets can carry visible consequences.",
+    "quickCheck": {
+      "question": "What is an infectious aerosol?",
+      "answer": "A tiny airborne droplet or particle containing an infectious organism."
+    }
+  },
+  "book-203-334": {
+    "questionInPlainEnglish": "Which reagent reveals phenylalanine deaminase activity with a green color?",
+    "explanation": "The enzyme removes an amino group from phenylalanine, making phenylpyruvic acid. Ferric chloride reacts with that product to produce green color, revealing what the bacterium made.",
+    "optionExplanations": [
+      "Ferric chloride detects phenylpyruvic acid as a green complex.",
+      "Sulfanilamide is associated with other chemical detection systems.",
+      "Sodium carbonate does not provide this characteristic green reaction.",
+      "Alpha-naphthol is used in VP testing, not this deaminase endpoint."
+    ],
+    "memory": "Phenylpyruvate plus ferric iron flashes green.",
+    "quickCheck": {
+      "question": "What product is detected in a positive phenylalanine deaminase test?",
+      "answer": "Phenylpyruvic acid."
+    },
+    "sourceNote": "“Feme chloride” is OCR for ferric chloride."
+  },
+  "book-203-335": {
+    "questionInPlainEnglish": "Which medium both selects organisms and distinguishes a metabolic trait?",
+    "explanation": "Mannitol salt agar uses high salt to inhibit many bacteria while allowing staphylococci. It also contains mannitol and a pH indicator; acid from fermentation turns the medium yellow. One medium therefore performs two jobs.",
+    "optionExplanations": [
+      "Ordinary sheep blood agar is differential for hemolysis but not strongly selective.",
+      "Ordinary chocolate agar is enriched, not inherently selective and differential.",
+      "Mannitol salt agar selects with salt and differentiates mannitol fermentation.",
+      "Mueller-Hinton is standardized for susceptibility testing, not this dual role."
+    ],
+    "memory": "Salt selects; mannitol yellow differentiates.",
+    "quickCheck": {
+      "question": "What does yellow color on mannitol salt agar indicate?",
+      "answer": "Acid production from mannitol fermentation."
+    }
+  },
+  "book-203-336": {
+    "questionInPlainEnglish": "What chemical on a paper strip detects hydrogen sulfide?",
+    "explanation": "Lead acetate reacts with hydrogen sulfide gas to form black lead sulfide. The strip is a detector: it reveals gas released from the inoculated medium.",
+    "optionExplanations": [
+      "Sodium deoxycholate is a bile salt, not this gas detector.",
+      "Lead acetate forms the black sulfide reaction.",
+      "Potassium tellurite is used in other selective/differential media.",
+      "Sodium thiosulfate can supply sulfur but is not the strip’s detecting reagent."
+    ],
+    "memory": "Lead catches sulfide and turns black.",
+    "quickCheck": {
+      "question": "What black compound forms on a positive lead-acetate strip?",
+      "answer": "Lead sulfide."
+    }
+  },
+  "book-203-337": {
+    "questionInPlainEnglish": "Which reagents produce red color when nitrite is present after nitrate testing?",
+    "explanation": "Bacteria may reduce nitrate to nitrite. Sulfanilic acid and alpha-naphthylamine react to reveal nitrite with red color. No red color initially is not automatically negative, because reduction may have gone beyond nitrite.",
+    "optionExplanations": [
+      "Alpha-naphthol and KOH are VP reagents.",
+      "Dimethylaminobenzaldehyde in an alcohol mixture is associated with indole detection.",
+      "Ninhydrin detects amino-related compounds, not this nitrate endpoint.",
+      "Alpha-naphthylamine and sulfanilic acid detect nitrite."
+    ],
+    "memory": "Nitrate test: nitrite turns the reagent pair red.",
+    "quickCheck": {
+      "question": "Why is no initial red color not necessarily a negative nitrate test?",
+      "answer": "Nitrite may have been reduced further, so additional interpretation is needed."
+    }
+  },
+  "book-203-338": {
+    "questionInPlainEnglish": "What color-producing pH change shows a positive decarboxylase reaction?",
+    "explanation": "The organism first makes acid from glucose. If it then decarboxylates the amino acid, it produces alkaline amines, raising pH and returning the indicator toward purple. The later alkaline shift is the positive signal.",
+    "optionExplanations": [
+      "An alkaline shift from amine production is the positive endpoint.",
+      "Gluconate oxidation is not the reaction being tested.",
+      "An acidic stage helps activate the enzyme but is not the positive endpoint.",
+      "Tryptophan deamination is a different test."
+    ],
+    "memory": "Decarboxylase: yellow first, purple positive.",
+    "quickCheck": {
+      "question": "What products raise the pH in a positive decarboxylase test?",
+      "answer": "Alkaline amines."
+    }
+  },
+  "book-203-339": {
+    "questionInPlainEnglish": "Which medium distinguishes oxidative from fermentative carbohydrate use?",
+    "explanation": "OF medium is used in an open tube and an oil-covered tube. Acid only in the oxygen-exposed tube suggests oxidation; acid in both supports fermentation, which does not require oxygen.",
+    "optionExplanations": [
+      "CTA is used for carbohydrate reactions but is not the specific paired OF method.",
+      "OF medium is designed for oxidative-versus-fermentative metabolism.",
+      "HE agar selects and differentiates intestinal pathogens.",
+      "XLD agar selects and differentiates intestinal pathogens."
+    ],
+    "memory": "Open-only acid: oxidative; both acid: fermentative.",
+    "quickCheck": {
+      "question": "Why cover one OF tube with oil?",
+      "answer": "To limit oxygen and test whether acid production can occur without it."
+    }
+  },
+  "book-203-340": {
+    "questionInPlainEnglish": "Which reagents detect a positive Voges-Proskauer reaction?",
+    "explanation": "The VP test detects acetoin, a product of glucose metabolism. Alpha-naphthol and KOH help generate the red reaction that reveals acetoin-related chemistry after incubation.",
+    "optionExplanations": [
+      "Creatine and HCl are not the standard VP reagent pair.",
+      "Ferric chloride belongs to phenylalanine deaminase detection, not this pair.",
+      "Kovac reagent tests indole; zinc helps interpret nitrate tests.",
+      "Alpha-naphthol and 40% KOH are the VP reagents."
+    ],
+    "memory": "VP: naphthol plus KOH, red for acetoin.",
+    "quickCheck": {
+      "question": "What metabolic product does VP testing detect?",
+      "answer": "Acetoin."
+    }
+  },
+  "book-203-341": {
+    "questionInPlainEnglish": "Which blood-culture statement is incorrect for routine adult collection?",
+    "explanation": "Bloodstream bacteria may be present in very low numbers. Five milliliters is generally too little for an optimal adult culture set; sufficient volume improves the chance of catching organisms. Pediatric amounts depend on patient size.",
+    "optionExplanations": [
+      "Two or three sets commonly suffice, although this is not an absolute daily rule.",
+      "The book accepts pre-fever timing, but modern practice does not wait for a fever spike.",
+      "Aerobic and anaerobic bottles are commonly included.",
+      "Five milliliters is generally inadequate for optimal routine adult collection."
+    ],
+    "memory": "Blood culture yield follows blood volume.",
+    "quickCheck": {
+      "question": "Why can a small blood sample miss bacteremia?",
+      "answer": "It may contain none of the few organisms circulating in the blood."
+    },
+    "sourceNote": "Timing and maximum-count advice are dated. Current practice prioritizes adequate volume and collection before antibiotics when feasible; routine automated incubation is often about five days."
+  },
+  "book-203-342": {
+    "questionInPlainEnglish": "What term describes blood-culture detection by pressure changes?",
+    "explanation": "A manometer measures pressure. As microbes use nutrients, they can produce or consume gases, changing pressure in the sealed bottle headspace. Manometric systems monitor that change as evidence of growth.",
+    "optionExplanations": [
+      "Fluorescence methods measure light emission.",
+      "Carbon-14 methods measure radioactive metabolic products.",
+      "Colorimetry measures color change.",
+      "Manometric methods measure pressure change."
+    ],
+    "memory": "Manometer measures pressure.",
+    "quickCheck": {
+      "question": "What is the headspace of a culture bottle?",
+      "answer": "The gas-filled space above the liquid medium."
+    }
+  },
+  "book-203-343": {
+    "questionInPlainEnglish": "Which statement does NOT apply to acridine orange staining?",
+    "explanation": "Acridine orange is a fluorescent dye that binds nucleic acids, including bacterial DNA and RNA. Its sensitivity can help reveal small numbers of organisms in fluids. Teichoic acid in the wall is not its main target.",
+    "optionExplanations": [
+      "Binding teichoic acid is the false description; it stains nucleic acids.",
+      "A fluorescence microscope is needed to see its signal.",
+      "It can be more sensitive than Gram staining for low organism counts.",
+      "Low-bacterial-count fluids are a recognized application."
+    ],
+    "memory": "Acridine orange lights up nucleic acids.",
+    "quickCheck": {
+      "question": "What cellular material does acridine orange principally stain?",
+      "answer": "Nucleic acids, including DNA and RNA."
+    }
+  },
+  "book-203-344": {
+    "questionInPlainEnglish": "What gas creates bubbles in a positive catalase test?",
+    "explanation": "Catalase breaks hydrogen peroxide into water and oxygen: 2 H2O2 → 2 H2O + O2. The released oxygen forms visible bubbles, so bubbling is evidence that the enzyme is active.",
+    "optionExplanations": [
+      "Oxygen is the gas released in a positive reaction.",
+      "Hydrogen gas is not the catalase product.",
+      "Water is formed, not broken down to make these bubbles.",
+      "The key is peroxide decomposition; the named visible product is oxygen."
+    ],
+    "memory": "Catalase clears peroxide and creates oxygen bubbles.",
+    "quickCheck": {
+      "question": "Which reagent is added in a catalase test?",
+      "answer": "Hydrogen peroxide."
+    }
+  },
+  "book-203-345": {
+    "questionInPlainEnglish": "Which listed organism should NOT be used as a PYR-positive control?",
+    "explanation": "The source answer is inconsistent with established PYR reactions. S. lugdunensis is usually PYR positive, whereas S. aureus is generally negative. S. pyogenes and E. faecalis are well-known positive organisms. Learn the actual reactions rather than the reversed rationale.",
+    "optionExplanations": [
+      "S. aureus is generally PYR negative and is the scientifically appropriate exception.",
+      "S. lugdunensis is generally PYR positive, contrary to the book’s keyed exception.",
+      "S. pyogenes is PYR positive and can provide a positive control.",
+      "E. faecalis is PYR positive and is commonly used as a positive control."
+    ],
+    "memory": "PYR-positive: pyogenes, enterococci, lugdunensis.",
+    "quickCheck": {
+      "question": "Which of S. aureus and S. lugdunensis is generally PYR positive?",
+      "answer": "S. lugdunensis."
+    },
+    "sourceNote": "Book answer appears wrong: it keys S. lugdunensis and reverses its PYR result with S. aureus. The book key is retained separately; scientifically the exception is S. aureus."
+  },
+  "book-203-346": {
+    "questionInPlainEnglish": "Which selective agar fits gram-negative diplococci in an adult with septic arthritis?",
+    "explanation": "Gonorrhea can spread from a mucosal infection to a joint. Neisseria gonorrhoeae appears as gram-negative paired cocci, sometimes inside neutrophils. Modified Thayer-Martin supports pathogenic Neisseria while suppressing competing flora.",
+    "optionExplanations": [
+      "Mannitol salt agar selects mainly staphylococci.",
+      "Tellurite media are associated with Corynebacterium identification.",
+      "Modified Thayer-Martin is the selective Neisseria medium.",
+      "CIN agar is used chiefly for Yersinia enterocolitica."
+    ],
+    "memory": "Gonococcal joints: paired negative cocci, Thayer-Martin.",
+    "quickCheck": {
+      "question": "How can gonorrhea cause a joint infection?",
+      "answer": "The organism can disseminate through the bloodstream."
+    },
+    "sourceNote": "For normally sterile joint fluid, nonselective enriched culture is important because selective antibiotics may inhibit some strains; the stem specifically asks for a selective medium."
+  },
+  "book-203-347": {
+    "questionInPlainEnglish": "Which bacterium most likely causes this first uncomplicated UTI with a lactose-fermenting rod?",
+    "explanation": "E. coli is the commonest cause of uncomplicated community-acquired urinary infection. It can move from intestinal/perineal flora into the urinary tract, matching the symptoms and lactose-fermenting culture.",
+    "optionExplanations": [
+      "E. coli best fits both frequency and the laboratory description.",
+      "Klebsiella also ferments lactose but is less likely than E. coli in this setting.",
+      "Morganella is generally a non-lactose fermenter.",
+      "Proteus is generally a non-lactose fermenter."
+    ],
+    "memory": "First uncomplicated UTI: E. coli leads.",
+    "quickCheck": {
+      "question": "Why is an intestinal organism a common urinary pathogen?",
+      "answer": "It can move from nearby perineal flora into the urethra and bladder."
+    }
+  },
+  "book-203-348": {
+    "questionInPlainEnglish": "Which culture is most important early in suspected typhoid fever?",
+    "explanation": "Salmonella Typhi invades beyond the intestine and enters blood. Early in disease, blood cultures can detect that bacteremic phase before stool cultures reliably recover the organism.",
+    "optionExplanations": [
+      "Blood cultures target the early invasive phase.",
+      "Sputum is not the main site for typhoid detection.",
+      "Stool cultures may help later but are less reliable early.",
+      "Urine cultures are not the critical early diagnostic choice."
+    ],
+    "memory": "Typhoid travels through blood early.",
+    "quickCheck": {
+      "question": "Why can stool culture be negative early in typhoid fever?",
+      "answer": "Bloodstream invasion can precede reliable fecal shedding."
+    },
+    "sourceNote": "A negative blood culture alone does not completely exclude typhoid; sensitivity depends on volume, timing, and prior antibiotics."
+  },
+  "book-203-349": {
+    "questionInPlainEnglish": "Which organism fits raw oysters, liver disease, severe sepsis, and hemorrhagic bullae?",
+    "explanation": "Vibrio vulnificus can enter after eating contaminated raw shellfish. People with liver disease are especially vulnerable to invasive infection. Hemorrhagic bullae are blood-filled skin blisters and are a strong supporting clue.",
+    "optionExplanations": [
+      "Aeromonas is associated more with fresh or brackish water and does not fit as strongly.",
+      "Plesiomonas usually causes watery diarrhea rather than this classic oyster-associated sepsis.",
+      "V. vulnificus matches oysters, liver disease, and bullous septicemia.",
+      "Yersinia does not fit the marine shellfish exposure."
+    ],
+    "memory": "Vulnificus: oysters, vulnerable liver, violent sepsis.",
+    "quickCheck": {
+      "question": "Which underlying condition especially increases invasive V. vulnificus risk?",
+      "answer": "Chronic liver disease."
+    }
+  },
+  "book-203-350": {
+    "questionInPlainEnglish": "Which organism fits meningitis with intracellular gram-negative diplococci?",
+    "explanation": "Meningitis is infection of the coverings of the brain and spinal cord. N. meningitidis has the paired gram-negative appearance described. High CSF neutrophils and protein with low glucose support bacterial meningitis.",
+    "optionExplanations": [
+      "H. influenzae is a small gram-negative rod, not a diplococcus.",
+      "Listeria is a gram-positive rod.",
+      "Moraxella can be gram-negative diplococci but is not the classic invasive meningitis agent here.",
+      "N. meningitidis matches the morphology and disease."
+    ],
+    "memory": "Meningitidis: meningitis plus negative pairs.",
+    "quickCheck": {
+      "question": "What CSF glucose pattern commonly supports bacterial meningitis?",
+      "answer": "Low glucose, interpreted with the clinical findings and serum glucose."
+    }
+  },
+  "book-203-351": {
+    "questionInPlainEnglish": "Which catalase-negative, CAMP-positive gram-positive rod fits dairy-farm exposure?",
+    "explanation": "Trueperella pyogenes is an animal-associated organism that can rarely infect people. The rod shape excludes group B streptococci, and the negative catalase reaction separates it from Listeria.",
+    "optionExplanations": [
+      "Listeria is usually catalase positive, conflicting with the result.",
+      "S. agalactiae can be CAMP positive but is a coccus, not a rod.",
+      "A. pyogenes, now T. pyogenes, fits livestock exposure and the reactions.",
+      "S. moniliformis is a gram-negative rat-associated rod."
+    ],
+    "memory": "Farm rod, catalase negative: pyogenes.",
+    "quickCheck": {
+      "question": "Which finding argues against Listeria here?",
+      "answer": "A negative catalase reaction."
+    },
+    "sourceNote": "Arcanobacterium pyogenes is now Trueperella pyogenes."
+  },
+  "book-203-352": {
+    "questionInPlainEnglish": "Which syndrome fits sudden fever, vomiting, diarrhea, rash, and vaginal S. aureus?",
+    "explanation": "Toxic shock syndrome results from toxin-driven overactivation of the immune system. Toxin-producing S. aureus can grow locally while causing widespread fever, rash, and circulatory illness. Coagulase positivity supports S. aureus identification.",
+    "optionExplanations": [
+      "Kawasaki disease is an inflammatory syndrome, not the best toxin-and-culture match.",
+      "Pelvic inflammatory disease does not explain this classic sudden systemic toxin syndrome.",
+      "Scalded skin syndrome is caused by exfoliative toxins and prominent skin peeling.",
+      "Toxic shock syndrome fits the systemic symptoms and S. aureus finding."
+    ],
+    "memory": "Toxic shock: local staph, systemic toxin effects.",
+    "quickCheck": {
+      "question": "Does staphylococcal toxic shock require bacteria throughout the bloodstream?",
+      "answer": "No; toxin from a localized site can cause systemic illness."
+    }
+  },
+  "book-203-353": {
+    "questionInPlainEnglish": "Which intestinal organism fits appendicitis-like pain and a positive urease test?",
+    "explanation": "Y. enterocolitica can inflame intestinal lymph nodes and mimic appendicitis, called pseudoappendicitis. Urease positivity is a key lab clue separating it from Salmonella and Shigella.",
+    "optionExplanations": [
+      "S. Paratyphi is generally urease negative.",
+      "S. dysenteriae is urease negative and does not fit the full pattern.",
+      "V. parahaemolyticus is oxidase positive, unlike this isolate.",
+      "Y. enterocolitica matches pseudoappendicitis and urease positivity."
+    ],
+    "memory": "Yersinia: yes urease, yes pseudoappendicitis.",
+    "quickCheck": {
+      "question": "What does pseudoappendicitis mean?",
+      "answer": "Illness that resembles appendicitis but has another cause."
+    }
+  },
+  "book-203-354": {
+    "questionInPlainEnglish": "Which disease fits summer in New England, rash, and skin spirochetes?",
+    "explanation": "Lyme disease is caused by Borrelia burgdorferi and spread by Ixodes ticks. The geographic, seasonal, skin, and spiral-bacterium clues converge, although routine diagnosis does not depend on seeing organisms in a biopsy.",
+    "optionExplanations": [
+      "Lyme disease fits the tick-exposure setting and spirochete.",
+      "Plague is caused by Yersinia pestis, a rod.",
+      "Rabbit fever is tularemia, caused by Francisella.",
+      "Relapsing fever is spirochetal but is characterized more by recurring fever and a different exposure pattern."
+    ],
+    "memory": "New England summer rash: consider Lyme.",
+    "quickCheck": {
+      "question": "Which organism causes Lyme disease?",
+      "answer": "Borrelia burgdorferi."
+    },
+    "sourceNote": "Silver-stain biopsy is not a routine preferred Lyme diagnostic method; contemporary testing follows clinical stage and validated algorithms."
+  },
+  "book-203-355": {
+    "questionInPlainEnglish": "Which organism fits fever after swimming through animal-urine-contaminated tropical water?",
+    "explanation": "Leptospira can enter through damaged skin or mucous membranes during water exposure. Animal urine contaminates rivers and flooded soil. Eye redness and flu-like illness can be clues, with severe cases affecting kidneys and liver.",
+    "optionExplanations": [
+      "B. recurrentis is transmitted by body lice.",
+      "B. canis is linked to dogs rather than this characteristic floodwater exposure.",
+      "F. tularensis has other animal/vector routes and is a poorer fit.",
+      "L. interrogans is the classic urine-contaminated-water pathogen."
+    ],
+    "memory": "Leptospira lurks in urine-laced water.",
+    "quickCheck": {
+      "question": "How can Leptospira enter without contaminated water being swallowed?",
+      "answer": "Through broken skin or mucous membranes."
+    }
+  },
+  "book-203-356": {
+    "questionInPlainEnglish": "Which bacterium can multiply in refrigerated red-cell units and cause transfusion sepsis?",
+    "explanation": "Y. enterocolitica can grow at refrigerator temperature. If introduced into stored blood, it can multiply and accumulate endotoxin, producing abrupt fever and shock during transfusion.",
+    "optionExplanations": [
+      "C. fetus is not the classic refrigerated-red-cell contaminant.",
+      "N. meningitidis does not fit prolonged cold growth.",
+      "Pseudomonas can contaminate products but is not the strongest classic clue here.",
+      "Y. enterocolitica is notable for growth in refrigerated red cells."
+    ],
+    "memory": "Yersinia can grow in yesterday’s cold blood.",
+    "quickCheck": {
+      "question": "What bacterial feature can trigger endotoxic shock?",
+      "answer": "Lipopolysaccharide endotoxin from gram-negative bacteria."
+    }
+  },
+  "book-203-357": {
+    "questionInPlainEnglish": "Which organism fits slowly healing granulomatous skin lesions after a water-related injury?",
+    "explanation": "M. marinum enters cuts exposed to aquatic environments. It grows slowly and causes persistent nodules or granulomas, unlike the rapidly destructive infections caused by some other water-associated bacteria.",
+    "optionExplanations": [
+      "M. marinum fits water trauma followed by chronic granulomatous lesions.",
+      "Nocardia is more associated with soil and branching aerobic organisms.",
+      "P. aeruginosa more often causes acute wound or moist-site infections.",
+      "V. vulnificus typically causes a more rapid, severe wound infection."
+    ],
+    "memory": "Water wound plus weeks of nodules: marinum.",
+    "quickCheck": {
+      "question": "What is a granuloma?",
+      "answer": "An organized collection of immune cells around a persistent stimulus."
+    }
+  },
+  "book-203-358": {
+    "questionInPlainEnglish": "Which listed organism fits a febrile illness after eating unpasteurized cheese?",
+    "explanation": "Listeria can contaminate raw dairy and can even grow during refrigeration. Exposure may cause a febrile illness; pregnant people, newborns, older adults, and immunocompromised people face greater invasive-disease risk.",
+    "optionExplanations": [
+      "B. pertussis is a respiratory pathogen.",
+      "L. monocytogenes is associated with contaminated dairy and febrile illness.",
+      "S. aureus food toxin usually causes rapid vomiting rather than this pattern.",
+      "Yersinia can be foodborne but is less characteristic than Listeria in this dairy scenario."
+    ],
+    "memory": "Listeria lives in chilled dairy too.",
+    "quickCheck": {
+      "question": "Does refrigeration reliably stop Listeria multiplication?",
+      "answer": "No; it can grow at refrigerator temperatures."
+    },
+    "sourceNote": "Unpasteurized dairy with fever also strongly suggests brucellosis, but Brucella is absent from the choices."
+  },
+  "book-203-359": {
+    "questionInPlainEnglish": "Which organism fits petting-zoo exposure, bloody diarrhea, and hemolytic uremic syndrome?",
+    "explanation": "Shiga toxin-producing E. coli can spread from cattle feces. Its toxin damages small blood vessels, causing HUS: red-cell destruction, low platelets, and kidney injury after diarrheal illness.",
+    "optionExplanations": [
+      "E. coli O157:H7 is the classic cattle-associated HUS organism.",
+      "S. dysenteriae can also cause HUS, but cattle/petting-zoo exposure favors E. coli.",
+      "V. cholerae O1 usually causes profuse watery diarrhea, not this classic HUS pattern.",
+      "Non-O1 cholerae is not the classic cattle-associated HUS cause."
+    ],
+    "memory": "Petting-zoo cattle plus HUS: Shiga-toxin E. coli.",
+    "quickCheck": {
+      "question": "Which organ is especially injured in HUS?",
+      "answer": "The kidneys."
+    },
+    "sourceNote": "The serotype uses the letter O: O157:H7, not zero 157."
+  },
+  "book-203-360": {
+    "questionInPlainEnglish": "Which organism fits mist exposure, immunosuppression, pneumonia, diarrhea, and few visible bacteria?",
+    "explanation": "Legionella can multiply in water systems and spread through inhaled mist. It stains poorly with routine Gram stain. Transplant-related immunosuppression and the water-aerosol history strengthen the identification.",
+    "optionExplanations": [
+      "B. pertussis causes whooping cough rather than this water-linked pneumonia.",
+      "Klebsiella usually appears as visible gram-negative rods and lacks the aerosol-water association.",
+      "L. pneumophila matches mist exposure, poor staining, and atypical pneumonia.",
+      "Moraxella is a respiratory organism but does not fit the water-system clue."
+    ],
+    "memory": "Legionella leaves water in little airborne droplets.",
+    "quickCheck": {
+      "question": "What culture medium is used for Legionella?",
+      "answer": "Buffered charcoal yeast extract agar with appropriate supplements."
+    }
+  },
+  "book-331-2": {
+    "questionInPlainEnglish": "Which ingredient is NOT needed for ordinary PCR?",
+    "explanation": "PCR copies a chosen DNA region using primers, DNA polymerase, and nucleotide building blocks. Ligase joins separate DNA pieces together, a different job that ordinary PCR does not require.",
+    "optionExplanations": [
+      "Primers mark where copying starts and are required.",
+      "DNA polymerase builds new strands and is required.",
+      "DNA ligase joins fragments and is not required for ordinary PCR.",
+      "Deoxynucleotides are the required building blocks."
+    ],
+    "memory": "PCR polymerase builds; ligase links.",
+    "quickCheck": {
+      "question": "What do PCR primers do?",
+      "answer": "They define the target boundaries and provide starting points for DNA synthesis."
+    }
+  },
+  "book-331-3": {
+    "questionInPlainEnglish": "What does the first letter of a restriction-enzyme name identify?",
+    "explanation": "Restriction enzymes are named after their source bacterium. In EcoRI, E comes from Escherichia, the genus, and co from coli, the species; later characters distinguish strain or enzyme order.",
+    "optionExplanations": [
+      "The bacterial genus supplies the first letter.",
+      "The species usually supplies following letters, not the first.",
+      "The discoverer is not the standard naming source.",
+      "Geographic location is not the standard naming source."
+    ],
+    "memory": "EcoRI: E for Escherichia.",
+    "quickCheck": {
+      "question": "What source does the name EcoRI refer to?",
+      "answer": "A restriction enzyme originating from Escherichia coli."
+    }
+  },
+  "book-331-4": {
+    "questionInPlainEnglish": "Where would the complementary DNA strand be cut to match the indicated restriction cut?",
+    "explanation": "DNA strands run in opposite directions and pair A with T and C with G. For the six-base sequence CTATAG used in the rationale, the paired strand is GATATC. Matching the symmetric cut gives GATA and TC on the complementary strand.",
+    "optionExplanations": [
+      "G and ATATC place the cut too far to one end.",
+      "GA and TATC do not match the cut position described in the rationale.",
+      "GATA and TC are the book’s intended complementary fragments.",
+      "GATAT and C place the cut too far toward the other end."
+    ],
+    "memory": "Pair bases, reverse direction, then place the cut.",
+    "quickCheck": {
+      "question": "Which base pairs with adenine in DNA?",
+      "answer": "Thymine."
+    },
+    "sourceNote": "The stem shows seven bases CTAATAG, but the rationale uses six-base CTATAG; the cut marker is missing in extracted text. The keyed fragments depend on the original diagram and corrected sequence. Not all restriction enzymes require palindromic sites."
+  },
+  "book-331-5": {
+    "questionInPlainEnglish": "What is the original double-stranded DNA concentration after correcting for dilution?",
+    "explanation": "An A260 of 1 corresponds to about 50 µg/mL dsDNA. Multiply 0.062 × 50 to get 3.1 µg/mL in the diluted tube, then multiply by 100 for the original sample: 310 µg/mL.",
+    "optionExplanations": [
+      "3.1 is the diluted concentration before the dilution correction.",
+      "6.2 omits the correct dsDNA conversion factor.",
+      "310 includes both the 50 conversion factor and 100-fold dilution.",
+      "5000 ignores the measured absorbance."
+    ],
+    "memory": "A260 × 50 × dilution for dsDNA.",
+    "quickCheck": {
+      "question": "Why must the dilution factor be included?",
+      "answer": "The instrument measured a diluted sample, so the original was more concentrated."
+    }
+  },
+  "book-331-6": {
+    "questionInPlainEnglish": "Why is DEPC used when preparing for RNA work?",
+    "explanation": "RNases are enzymes that destroy RNA and can contaminate water or equipment. DEPC treatment inactivates many RNases, helping protect RNA. It must be removed or decomposed appropriately before sensitive downstream reactions.",
+    "optionExplanations": [
+      "Inhibiting RNase is the intended purpose.",
+      "Cell lysis is not its principal role here.",
+      "It is not used as a DNA precipitation reagent.",
+      "It does not primarily remove buffer salts."
+    ],
+    "memory": "DEPC defends RNA from RNase.",
+    "quickCheck": {
+      "question": "Why are RNases a special concern during RNA isolation?",
+      "answer": "They can quickly degrade the RNA being measured."
+    }
+  },
+  "book-331-7": {
+    "questionInPlainEnglish": "Which DNA property is exploited by ion-exchange purification resins?",
+    "explanation": "DNA’s phosphate backbone carries negative charges. A positively charged resin can attract DNA, like opposite magnetic poles, allowing it to be retained and later released under controlled salt conditions.",
+    "optionExplanations": [
+      "Double-stranded structure is not the main ionic binding feature.",
+      "Negative charge allows electrostatic interaction with suitable resins.",
+      "DNA is not universally more abundant than RNA.",
+      "Size differences alone do not explain ion-exchange binding."
+    ],
+    "memory": "Phosphate gives DNA its negative charge.",
+    "quickCheck": {
+      "question": "Why does salt help release DNA from an ion-exchange resin?",
+      "answer": "Salt ions compete with and weaken the electrostatic interactions."
+    },
+    "sourceNote": "Different purification chemistries use different binding mechanisms; this explanation concerns ion-exchange resins."
+  },
+  "book-331-9": {
+    "questionInPlainEnglish": "Which listed molecule is commonly used as a molecular-test label?",
+    "explanation": "Biotin can be attached to a probe as a tag. Streptavidin binds the tag very strongly and can carry a detectable enzyme or fluorescent marker, turning binding into a visible signal.",
+    "optionExplanations": [
+      "Biotin is a widely used indirect detection tag.",
+      "DNase destroys DNA rather than serving as the usual label.",
+      "RNase destroys RNA rather than acting as the usual tag.",
+      "Iodine-125 is a radioisotope, but not the common nucleic-acid label intended here."
+    ],
+    "memory": "Biotin tags; streptavidin grabs.",
+    "quickCheck": {
+      "question": "Why can biotin help make a probe detectable?",
+      "answer": "A labeled streptavidin reagent can bind the biotin tag."
+    }
+  },
+  "book-331-10": {
+    "questionInPlainEnglish": "Which method amplifies the signal rather than making more target nucleic acid?",
+    "explanation": "Branched DNA assays build a many-branched detection structure on captured target. Many labels attach to that structure, making the signal stronger while the original target molecule is not copied.",
+    "optionExplanations": [
+      "RT-PCR makes DNA copies from RNA and then amplifies them.",
+      "TMA produces many nucleic-acid copies of the target.",
+      "bDNA increases detection signal rather than target copy number.",
+      "PCR directly amplifies target DNA."
+    ],
+    "memory": "Branched DNA grows branches of signal.",
+    "quickCheck": {
+      "question": "How does signal amplification differ from target amplification?",
+      "answer": "Signal amplification adds detectable labels; target amplification makes more copies of the target."
+    }
+  },
+  "book-331-11": {
+    "questionInPlainEnglish": "Why can DNA fingerprinting distinguish individuals so well?",
+    "explanation": "Polymorphic loci are DNA locations with multiple common versions in a population. Testing several highly variable sites produces a pattern unlikely to be shared by unrelated people, like combining several independent identifying features.",
+    "optionExplanations": [
+      "Highly conserved sequences are similar between people and distinguish poorly.",
+      "Small sample requirements help practicality, not the fundamental individuality.",
+      "Polymorphic loci provide the variation needed to distinguish people.",
+      "DNA stability helps sample handling but does not create individual differences."
+    ],
+    "memory": "Fingerprinting depends on differences at many loci.",
+    "quickCheck": {
+      "question": "What does polymorphic mean for a DNA locus?",
+      "answer": "It has multiple common sequence or length variants in a population."
+    }
+  },
+  "book-331-12": {
+    "questionInPlainEnglish": "What process makes DNA from an RNA template?",
+    "explanation": "Reverse transcriptase reads RNA and builds complementary DNA, called cDNA. It reverses the usual DNA-to-RNA direction, allowing RNA targets to be studied with DNA-based methods.",
+    "optionExplanations": [
+      "Strand displacement amplification copies nucleic acid using a different mechanism.",
+      "Ordinary PCR copies DNA and does not itself convert RNA to DNA.",
+      "Ligase chain reaction joins matching probes rather than making cDNA.",
+      "Reverse transcription converts RNA information into DNA."
+    ],
+    "memory": "Reverse transcription reverses RNA back to DNA.",
+    "quickCheck": {
+      "question": "What is cDNA?",
+      "answer": "DNA copied from an RNA template."
+    }
+  },
+  "book-331-13": {
+    "questionInPlainEnglish": "Which gel lane matches the fragments from cutting this circular plasmid at three sites?",
+    "explanation": "A circle cut at three distinct sites gives three fragments. Their lengths are 1652−36 = 1616, 2702−1652 = 1050, and 5850−2702+36 = 3184 bp. The last piece wraps across the numbered origin.",
+    "optionExplanations": [
+      "Lane A is not the book’s lane matching the three calculated sizes.",
+      "Lane B is not the keyed pattern for 3184, 1616, and 1050 bp.",
+      "Lane C is the keyed lane matching the calculated fragment sizes.",
+      "Lane D is not the keyed match for these three fragments."
+    ],
+    "memory": "Circular fragment sizes must wrap around and sum to the total.",
+    "quickCheck": {
+      "question": "What should all restriction-fragment lengths add up to?",
+      "answer": "The original DNA molecule’s total length, here 5850 bp."
+    },
+    "sourceNote": "Lane comparison requires Color Plate 56B. Sizes are independently calculable, but the letter is taken from the book key rather than inferred from absent lane images."
+  },
+  "book-331-14": {
+    "questionInPlainEnglish": "What is a defining advantage of a conventional DNA microarray?",
+    "explanation": "A microarray has thousands of known probes fixed at known positions. Labeled sample sequences bind matching probes, allowing many targets to be checked at once. In the conventional format described, the sample—not the fixed probes—carries the fluorescent label.",
+    "optionExplanations": [
+      "Simultaneous detection of many sequences is the correct feature.",
+      "The fixed probes are not ordinarily the labeled component in this format.",
+      "The sample targets are typically labeled, so this reverses the conventional arrangement.",
+      "All above is wrong because two descriptions reverse the labeling scheme."
+    ],
+    "memory": "Microarray: many fixed addresses, labeled visitors.",
+    "quickCheck": {
+      "question": "How does the instrument know which sequence produced a signal?",
+      "answer": "The signal’s position corresponds to a known probe on the array."
+    }
+  },
+  "book-331-15": {
+    "questionInPlainEnglish": "What makes streptavidin and biotin useful as a detection pair?",
+    "explanation": "These molecules bind each other exceptionally tightly. A probe tagged with biotin can therefore be captured or detected using streptavidin linked to another marker, much like a reliable two-part clasp.",
+    "optionExplanations": [
+      "They do not bind all nucleic acids specifically by themselves.",
+      "Their usefulness is not restricted to neutral pH only.",
+      "Their very high affinity for each other is the key feature.",
+      "They do not inherently recognize DNA attached to nitrocellulose."
+    ],
+    "memory": "Biotin and streptavidin form a very strong clasp.",
+    "quickCheck": {
+      "question": "What can be attached to streptavidin to make biotin-tagged material visible?",
+      "answer": "A fluorescent marker or a signal-producing enzyme."
+    }
+  },
+  "book-331-16": {
+    "questionInPlainEnglish": "Ideally, how many copies come from one DNA target after 15 PCR cycles?",
+    "explanation": "Ideal PCR doubles the number of target molecules each cycle. Starting with one, the count is 2^15 = 32,768 after 15 cycles. Real reactions may be less efficient, especially as reagents become limiting.",
+    "optionExplanations": [
+      "30 treats doubling as simple addition rather than repeated multiplication.",
+      "2^10 describes ten cycles, not fifteen.",
+      "2^15 = 32,768 is the ideal fifteen-cycle result.",
+      "2^20 means 1,048,576 copies after twenty ideal doubling cycles, exceeding the fifteen cycles asked about."
+    ],
+    "memory": "PCR doubles: count with powers of two.",
+    "quickCheck": {
+      "question": "What happens to the ideal copy number with one additional PCR cycle?",
+      "answer": "It doubles."
+    },
+    "sourceNote": "Superscripts are lost in the extracted options: 210, 215, and 220 mean 2^10, 2^15, and 2^20."
+  },
+  "book-331-17": {
+    "questionInPlainEnglish": "What does restriction-enzyme star activity mean?",
+    "explanation": "Under unsuitable reaction conditions, an enzyme may become less selective and cut sequences resembling its usual recognition site. This unexpected cutting is star activity, not improved precision.",
+    "optionExplanations": [
+      "Cutting alternative sequences is the correct definition.",
+      "Methylation sensitivity is a separate enzyme property.",
+      "Optimal conditions describe normal performance, not star activity.",
+      "Star activity reduces specificity rather than increasing accuracy."
+    ],
+    "memory": "Star activity strays from the usual site.",
+    "quickCheck": {
+      "question": "Why can star activity distort a restriction digest?",
+      "answer": "It creates extra cuts and unexpected fragments."
+    }
+  },
+  "book-331-18": {
+    "questionInPlainEnglish": "Which enzyme cuts the overlapping probe structure in an Invader-type assay?",
+    "explanation": "Cleavase recognizes a particular overlapping DNA shape created when probes bind the target. Cutting releases a signal-related fragment. It recognizes structure rather than acting like ligase, which joins DNA ends.",
+    "optionExplanations": [
+      "Restriction enzymes recognize particular DNA sequences rather than this specific overlap structure.",
+      "DNA ligase joins adjacent DNA pieces instead of cutting them.",
+      "Cleavase cuts the overlapping probe structure.",
+      "RNase H cuts RNA within RNA-DNA hybrids."
+    ],
+    "memory": "Cleavase cleaves the overlap.",
+    "quickCheck": {
+      "question": "What does RNase H act on?",
+      "answer": "The RNA strand of an RNA-DNA hybrid."
+    }
+  },
+  "book-331-19": {
+    "questionInPlainEnglish": "What happens if a labeled probe is added before blocking a blotting membrane?",
+    "explanation": "Bare membrane areas can bind probe nonspecifically. Blocking fills those unused sticky sites first, so later signal is more likely to reflect matching target rather than probe stuck to the background.",
+    "optionExplanations": [
+      "Correct complementary target binding is specific, not nonspecific.",
+      "Unblocked membrane spaces can capture probe and create background.",
+      "Target DNA is not automatically made unable to bind probe.",
+      "Nonspecifically bound probe is not guaranteed to wash away completely."
+    ],
+    "memory": "Block the bare membrane before the probe.",
+    "quickCheck": {
+      "question": "Why does blocking improve a blot’s readability?",
+      "answer": "It reduces nonspecific probe binding and background signal."
+    }
+  },
+  "book-331-20": {
+    "questionInPlainEnglish": "Which ingredient does NOT belong in random-primer probe synthesis?",
+    "explanation": "Random short primers allow DNA polymerase to copy template DNA while incorporating a labeled deoxynucleotide. Dideoxynucleotides lack the chemical group needed to extend a chain, so they stop synthesis instead of building a useful probe.",
+    "optionExplanations": [
+      "Template DNA supplies the sequence to copy.",
+      "Three unlabeled dNTPs can accompany one labeled dNTP.",
+      "Labeled dideoxynucleotides are chain terminators and are the incorrect ingredient.",
+      "DNA polymerase builds the labeled DNA."
+    ],
+    "memory": "dNTP builds; ddNTP stops.",
+    "quickCheck": {
+      "question": "Why does a dideoxynucleotide terminate DNA synthesis?",
+      "answer": "It lacks the 3′ hydroxyl needed to attach the next nucleotide."
+    }
+  },
+  "book-331-21": {
+    "questionInPlainEnglish": "Which wash condition increases DNA-probe stringency?",
+    "explanation": "High stringency means only closely matched probe-target pairs remain together. Raising wash temperature destabilizes weak, mismatched pairing, like shaking loose a poorly fitting clasp.",
+    "optionExplanations": [
+      "Strongly acidic pH is not the standard way to set probe stringency.",
+      "High salt stabilizes pairing and generally lowers stringency.",
+      "Changing the radioactive label does not determine matching stringency.",
+      "Higher wash temperature increases stringency."
+    ],
+    "memory": "Hotter washes demand a better match.",
+    "quickCheck": {
+      "question": "What happens to mismatched probe-target pairs under high stringency?",
+      "answer": "They are more likely to separate and wash away."
+    }
+  },
+  "book-331-22": {
+    "questionInPlainEnglish": "How does PCR compare with Southern blotting when DNA is partly degraded?",
+    "explanation": "PCR can amplify a short surviving region, whereas a Southern blot often needs larger intact fragments and more DNA. PCR may therefore work with more degraded material, provided the primer-binding sites and the intervening target remain intact.",
+    "optionExplanations": [
+      "PCR is often less affected by degradation when the target is short.",
+      "Membrane transfer is a Southern-blot step, not ordinary PCR.",
+      "PCR usually requires specialized thermal cycling and detection equipment.",
+      "PCR is generally less labor intensive than traditional Southern blotting."
+    ],
+    "memory": "Short PCR targets can survive fragmented DNA.",
+    "quickCheck": {
+      "question": "When would degraded DNA still fail PCR?",
+      "answer": "If the target region or necessary primer-binding sites are broken or damaged."
+    }
+  },
+  "book-331-23": {
+    "questionInPlainEnglish": "Which specimen is least routinely used for human genetic testing?",
+    "explanation": "Genetic testing needs human cells containing the relevant DNA. Blood white cells, cheek cells, and amniotic cells are established sources. Rectal swabs are more commonly collected for microbial testing.",
+    "optionExplanations": [
+      "Whole blood provides leukocyte DNA.",
+      "Buccal scrapings provide cheek epithelial cells.",
+      "Amniocytes provide fetal DNA for prenatal testing.",
+      "Rectal swabs are not a routine source for inherited human genetic testing."
+    ],
+    "memory": "Human genetics: blood cells, cheek cells, fetal cells.",
+    "quickCheck": {
+      "question": "Which cells in blood are the main source of nuclear DNA?",
+      "answer": "White blood cells."
+    }
+  },
+  "book-331-24": {
+    "questionInPlainEnglish": "What reagent precipitates DNA when salt is present?",
+    "explanation": "Salt helps shield DNA’s negative charges. Adding ethanol or isopropanol makes DNA less soluble, allowing it to collect as a pellet or visible strands while some other substances remain in solution.",
+    "optionExplanations": [
+      "Tris-EDTA is commonly a storage buffer, not a precipitation reagent.",
+      "SDS is a detergent used for lysis.",
+      "Alkaline buffers can denature DNA but are not the intended precipitation step.",
+      "Ethanol or isopropanol precipitates DNA in suitable salt conditions."
+    ],
+    "memory": "Salt plus alcohol pulls DNA out.",
+    "quickCheck": {
+      "question": "What does a DNA pellet represent after alcohol precipitation?",
+      "answer": "DNA that has come out of solution and been collected by centrifugation."
+    }
+  },
+  "book-331-25": {
+    "questionInPlainEnglish": "When does a TaqMan probe release its fluorescent signal?",
+    "explanation": "The probe carries a reporter and a nearby quencher that suppresses light. During extension, Taq polymerase cleaves the bound probe, separating reporter from quencher so fluorescence rises with product formation.",
+    "optionExplanations": [
+      "Denaturation alone is not the TaqMan signal-generating step.",
+      "Binding alone does not separate the reporter from the quencher.",
+      "Polymerase 5′ nuclease cleavage during extension produces signal.",
+      "A separate restriction enzyme is not used for this cleavage."
+    ],
+    "memory": "Taq chews the probe; the reporter shines.",
+    "quickCheck": {
+      "question": "What does the quencher do before probe cleavage?",
+      "answer": "It suppresses the reporter’s fluorescence."
+    }
+  },
+  "book-331-26": {
+    "questionInPlainEnglish": "Which whole-blood component supplies most DNA for inherited-disease testing?",
+    "explanation": "Leukocytes are white blood cells and contain nuclei with chromosomes. Mature human red cells lack nuclei, and platelets are cell fragments, so neither is the main source of nuclear genomic DNA.",
+    "optionExplanations": [
+      "Leukocytes contain nuclei and are the standard source.",
+      "Plasma can contain cell-free DNA, but is not the routine cellular source here.",
+      "Platelets lack nuclei and are not the main source of nuclear DNA.",
+      "Mature human red cells lack nuclei, so they are not the usual source of chromosomal DNA for inherited-disease testing."
+    ],
+    "memory": "White cells carry the chromosomes.",
+    "quickCheck": {
+      "question": "Why are mature human red cells poor sources of nuclear DNA?",
+      "answer": "They have expelled their nuclei."
+    }
+  },
+  "book-331-27": {
+    "questionInPlainEnglish": "Which statement correctly explains a common source of RNase contamination?",
+    "explanation": "RNases are widespread, including on hands and skin, and some remain active after harsh treatment. Gloves and RNA-compatible clean technique help protect samples from these RNA-destroying enzymes.",
+    "optionExplanations": [
+      "RNases can degrade multiple RNA types, not only mRNA.",
+      "Hands are a common contamination source, making this the correct statement.",
+      "Routine autoclaving does not reliably eliminate every RNase problem.",
+      "Their activity is not confined to this narrow temperature range."
+    ],
+    "memory": "Hands carry RNases: protect the RNA.",
+    "quickCheck": {
+      "question": "Why are ordinary clean-looking surfaces not necessarily safe for RNA work?",
+      "answer": "They may still carry active RNases."
+    }
+  },
+  "book-331-28": {
+    "questionInPlainEnglish": "Which listed substance is least problematic for PCR in routine blood collection?",
+    "explanation": "EDTA is commonly compatible with PCR workflows after appropriate DNA extraction and dilution. But excess EDTA can bind magnesium, which polymerase needs, and inhibit PCR. The question asks for least likely, not impossible.",
+    "optionExplanations": [
+      "Heme is a recognized PCR inhibitor.",
+      "Heparin can strongly inhibit PCR.",
+      "Residual DEPC can interfere with PCR.",
+      "EDTA is often acceptable at controlled carryover levels and is the intended answer."
+    ],
+    "memory": "EDTA tubes often work; too much EDTA steals magnesium.",
+    "quickCheck": {
+      "question": "Why can excessive EDTA inhibit PCR?",
+      "answer": "It chelates magnesium needed by DNA polymerase."
+    }
+  },
+  "book-331-29": {
+    "questionInPlainEnglish": "Which combined wash conditions remove mismatched probes most strongly?",
+    "explanation": "Higher temperature weakens base pairing, and lower salt reduces the shielding that stabilizes paired strands. Detergent also reduces nonspecific sticking. Together, high heat, low salt, and detergent favor retention of the best matches.",
+    "optionExplanations": [
+      "High salt stabilizes pairing and weakens the intended stringency.",
+      "High temperature, low salt, and detergent give the intended stringent wash.",
+      "High salt and low detergent do not provide the strongest combination.",
+      "Low temperature and high salt stabilize weak matches."
+    ],
+    "memory": "Stringent wash: hotter, less salty.",
+    "quickCheck": {
+      "question": "Why does lowering salt increase hybridization stringency?",
+      "answer": "It reduces stabilization of the negatively charged paired nucleic-acid strands."
+    }
+  },
+  "book-331-30": {
+    "questionInPlainEnglish": "Which RNA base takes the place of thymine?",
+    "explanation": "RNA uses uracil where DNA generally uses thymine. Both pair with adenine, so DNA A-T pairing corresponds to RNA A-U pairing in the relevant strand.",
+    "optionExplanations": [
+      "Adenine occurs in both DNA and RNA.",
+      "Cytosine occurs in both DNA and RNA.",
+      "Guanine occurs in both DNA and RNA.",
+      "Uracil is the RNA base that replaces thymine."
+    ],
+    "memory": "RNA uses U instead of T.",
+    "quickCheck": {
+      "question": "Which base pairs with uracil?",
+      "answer": "Adenine."
+    }
+  },
+  "book-331-31": {
+    "questionInPlainEnglish": "Which sugar and phosphate count are present in a dNTP?",
+    "explanation": "dNTP means deoxyribonucleoside triphosphate. It contains a base, deoxyribose sugar, and three phosphates. DNA polymerase uses these molecules as building blocks and releases two phosphates during incorporation.",
+    "optionExplanations": [
+      "Ribose and one phosphate describe neither the DNA sugar nor triphosphate count.",
+      "Deoxyribose and three phosphates correctly decode dNTP.",
+      "Ribose and two phosphates give both the wrong sugar and number.",
+      "Deoxyribose is right, but two phosphates would be a diphosphate."
+    ],
+    "memory": "d = deoxy; TP = three phosphates.",
+    "quickCheck": {
+      "question": "What does the T in dNTP stand for?",
+      "answer": "Tri-, meaning three phosphates."
+    }
+  },
+  "book-331-34": {
+    "questionInPlainEnglish": "Which amplification method is NOT isothermal?",
+    "explanation": "Isothermal means staying at one temperature. Ordinary PCR cycles through temperatures for separating strands, binding primers, and extending DNA. The other listed methods use enzymes that allow amplification at a largely constant reaction temperature.",
+    "optionExplanations": [
+      "NASBA is an isothermal amplification method.",
+      "PCR requires repeated temperature cycling and is the exception.",
+      "SDA amplifies DNA at a largely constant temperature, so it does employ the isothermal conditions the question asks you to exclude.",
+      "TMA amplifies nucleic acid without repeated temperature cycling, so it is isothermal and is not the requested exception."
+    ],
+    "memory": "PCR cycles; isothermal methods stay.",
+    "quickCheck": {
+      "question": "What are the three basic PCR temperature stages?",
+      "answer": "Denaturation, primer annealing, and extension."
+    }
+  },
+  "book-331-35": {
+    "questionInPlainEnglish": "Which gene region remains in mature RNA and can contain coding sequence?",
+    "explanation": "Exons are retained when an RNA transcript is spliced; introns are removed. Coding portions of exons specify protein, although some exon sequences are untranslated, so exon does not always mean entirely protein coding.",
+    "optionExplanations": [
+      "Exon is the intended retained gene region containing coding sequence.",
+      "Introns are normally removed from the precursor RNA.",
+      "An SNP is a single-nucleotide variation, not a gene-region category.",
+      "A VNTR is a variable repeat region, not the general coding region."
+    ],
+    "memory": "Exons exit splicing intact.",
+    "quickCheck": {
+      "question": "Are all parts of every exon translated into protein?",
+      "answer": "No; exons can include untranslated regions."
+    },
+    "sourceNote": "The stem simplifies exon biology: exons include both coding and untranslated sequence."
+  },
+  "book-331-36": {
+    "questionInPlainEnglish": "What are DNA-to-RNA and RNA-to-protein called, in that order?",
+    "explanation": "Transcription copies a gene’s information into RNA. Translation uses the RNA message to assemble amino acids into a protein, like copying a recipe and then cooking from it.",
+    "optionExplanations": [
+      "Replication copies DNA; it is not the DNA-to-RNA step.",
+      "Synthesis is too general, and encryption is not the biological process.",
+      "Transcription followed by translation is the correct order.",
+      "Initiation and elongation are stages within processes, not these two overall steps."
+    ],
+    "memory": "Transcribe the message; translate the protein.",
+    "quickCheck": {
+      "question": "Which process uses a ribosome?",
+      "answer": "Translation."
+    }
+  },
+  "book-331-37": {
+    "questionInPlainEnglish": "How many chromosomes are normally in a human body cell?",
+    "explanation": "Most human somatic cells have two sets of chromosomes: 23 from each parent, totaling 46. Gametes have one set of 23; mature red cells are a special case without a nucleus.",
+    "optionExplanations": [
+      "22 is the number of autosome types, not the total chromosomes.",
+      "23 is the haploid number in a normal gamete.",
+      "44 counts the autosomes but omits the two sex chromosomes.",
+      "46 is the usual diploid somatic-cell total."
+    ],
+    "memory": "23 pairs make 46.",
+    "quickCheck": {
+      "question": "How many chromosomes are normally in a human sperm or egg?",
+      "answer": "23."
+    }
+  },
+  "book-331-38": {
+    "questionInPlainEnglish": "What is the correct cell-cycle order starting at G1?",
+    "explanation": "The cell grows in G1, copies its DNA during S phase, prepares further in G2, and divides its chromosomes in M phase. Copying must happen before division so both daughter cells receive a full set.",
+    "optionExplanations": [
+      "G2 cannot normally precede S in the standard sequence.",
+      "G1, S, G2, M is the correct order.",
+      "M before S would divide before copying the DNA.",
+      "G2 belongs between DNA synthesis and mitosis."
+    ],
+    "memory": "Grow, synthesize, get ready, mitosis.",
+    "quickCheck": {
+      "question": "During which phase is DNA replicated?",
+      "answer": "S phase."
+    }
+  },
+  "book-331-39": {
+    "questionInPlainEnglish": "Which listed storage condition best preserves purified DNA long term?",
+    "explanation": "Small aliquots at −70°C are the best option listed. Aliquots are separate small portions, so using one does not repeatedly thaw the whole supply. Cold slows degradation, but no storage condition guarantees literal indefinite stability.",
+    "optionExplanations": [
+      "4°C can work short term but is not the best long-term option.",
+      "25°C generally gives poorer long-term protection.",
+      "Small portions at −70°C limit degradation and repeated freeze-thaw exposure.",
+      "−20°C may be suitable, but a large repeatedly thawed aliquot is less desirable."
+    ],
+    "memory": "Freeze small portions; thaw only what you need.",
+    "quickCheck": {
+      "question": "Why divide DNA into aliquots before storage?",
+      "answer": "To avoid repeatedly thawing the entire sample."
+    },
+    "sourceNote": "“Indefinitely” is too absolute; stability depends on DNA quality, buffer, contamination, and handling."
+  },
+  "book-331-40": {
+    "questionInPlainEnglish": "Which lane shows the enlarged FMR1 repeat associated with fragile X syndrome?",
+    "explanation": "A larger CGG repeat makes a larger DNA fragment. Large fragments move less far through agarose, so the disease-associated signal appears closer to the starting well. The book identifies lane 4 as the expanded sample.",
+    "optionExplanations": [
+      "Lane 2 is not the book’s affected sample; its fragment is not the keyed largest expansion.",
+      "Lane 3 is not the book’s affected sample.",
+      "Lane 4 is keyed as the sample with the large expansion.",
+      "With the plate and assay context, the expanded fragment can be identified."
+    ],
+    "memory": "More repeats, bigger fragment, shorter gel journey.",
+    "quickCheck": {
+      "question": "Do larger DNA fragments travel farther or less far in agarose?",
+      "answer": "Less far under the same conditions."
+    },
+    "sourceNote": "Requires Color Plate 57B for independent lane reading. The book uses outdated disability terminology and older repeat ranges; current FMR1 categories commonly use normal <45, intermediate 45–54, premutation 55–200, full mutation >200 repeats."
+  },
+  "book-331-41": {
+    "questionInPlainEnglish": "Which listed feature is an advantage of amplification testing?",
+    "explanation": "Amplification workflows can be organized into automated instruments that handle extraction, copying, and detection. Automation can improve throughput and consistency, but it does not remove contamination risks or make all reagents inexpensive.",
+    "optionExplanations": [
+      "Reagents are not necessarily inexpensive.",
+      "Suitability for automation is a practical advantage.",
+      "Needing target-specific primers is a design requirement, not the principal advantage.",
+      "Contamination remains an important concern."
+    ],
+    "memory": "Amplification can be automated, but carryover still matters.",
+    "quickCheck": {
+      "question": "Why can amplified-product contamination cause trouble?",
+      "answer": "A tiny contaminating amount may be copied and cause a false-positive result."
+    }
+  },
+  "book-331-42": {
+    "questionInPlainEnglish": "Which assay best shows that a gene is being expressed?",
+    "explanation": "Gene expression produces RNA. RT-PCR first converts that RNA into cDNA and then amplifies it, so it can detect a transcript rather than just the gene’s presence in DNA. Controls are needed to exclude contaminating genomic DNA.",
+    "optionExplanations": [
+      "RT-PCR directly targets RNA through a reverse-transcription step.",
+      "TMA can also detect RNA, but RT-PCR is the conventional expression assay intended.",
+      "Multiplex PCR detects several targets and does not inherently establish expression.",
+      "Ribotyping classifies organisms using ribosomal-related patterns, not general gene expression."
+    ],
+    "memory": "Expression makes RNA; RT-PCR reads RNA.",
+    "quickCheck": {
+      "question": "Why is detecting a gene’s DNA different from detecting its mRNA?",
+      "answer": "DNA shows the gene exists; mRNA supports that it is being transcribed."
+    },
+    "sourceNote": "TMA can also amplify RNA, so the stem is broad; RT-PCR is the standard gene-expression answer among these choices."
+  },
+  "book-331-43": {
+    "questionInPlainEnglish": "Which test cannot be done using ordinary Taq DNA polymerase alone?",
+    "explanation": "Hepatitis C virus has an RNA genome. Ordinary Taq copies DNA, so HCV testing needs a reverse-transcription step to make DNA first. The other listed targets can be studied as DNA.",
+    "optionExplanations": [
+      "Chlamydia and gonococcal DNA can be amplified with suitable primers and Taq.",
+      "DNA mutations can be assessed by appropriate PCR-based methods.",
+      "HLA DNA genotypes can be tested using appropriate PCR assays.",
+      "HCV RNA requires reverse transcriptase in addition to ordinary Taq."
+    ],
+    "memory": "RNA virus: reverse transcription before PCR.",
+    "quickCheck": {
+      "question": "Why can ordinary Taq not directly amplify HCV genomic RNA?",
+      "answer": "It normally needs a DNA template."
+    },
+    "sourceNote": "“Tag polymerase” is OCR for Taq polymerase."
+  },
+  "book-331-48": {
+    "questionInPlainEnglish": "Which patient has both normal and factor V Leiden restriction patterns?",
+    "explanation": "Heterozygous means carrying one normal and one variant allele. The normal product gives 104, 82, and 37 bp fragments; loss of a cut site gives 141 and 82 bp. A heterozygote shows both patterns: 141, 104, 82, and 37.",
+    "optionExplanations": [
+      "Patient 1 is described as having only the normal pattern.",
+      "Patient 2 is described as having the variant-only pattern.",
+      "Patient 3 has both patterns and is heterozygous.",
+      "Patient 4 is described as having only the normal pattern."
+    ],
+    "memory": "Heterozygote combines both fragment patterns.",
+    "quickCheck": {
+      "question": "Why is a 141-bp band present after the cut site is lost?",
+      "answer": "The normal 104- and 37-bp pieces remain joined as one 141-bp fragment."
+    },
+    "sourceNote": "Requires Color Plate 59B for independent lane reading. Factor V Leiden is conventionally F5 G1691A, causing Arg506Gln (legacy numbering), not an A506G nucleotide change. MnlI and other text are OCR-corrupted; the stem reverses the usual substitution wording."
+  },
+  "book-331-49": {
+    "questionInPlainEnglish": "Which listed combination can detect the Philadelphia chromosome rearrangement?",
+    "explanation": "The Philadelphia chromosome joins BCR and ABL1 through a chromosome 9;22 translocation. Chromosome analysis sees the rearrangement, Southern blotting detects altered DNA fragments, and RT-PCR detects the fusion RNA after conversion to DNA.",
+    "optionExplanations": [
+      "Southern blotting is one method, but “only” excludes other valid approaches.",
+      "Karyotyping can show it, but is not the only method.",
+      "Ordinary DNA PCR is not the broad routine approach intended for widely scattered breakpoints.",
+      "RT-PCR, Southern blotting, and cytogenetic analysis are the intended valid combination."
+    ],
+    "memory": "Philadelphia fuses BCR with ABL1.",
+    "quickCheck": {
+      "question": "What molecule does RT-PCR usually detect for BCR::ABL1?",
+      "answer": "The fusion RNA transcript, after conversion to cDNA."
+    },
+    "sourceNote": "The rationale overstates that PCR cannot detect this rearrangement; genomic PCR can be designed for suitable breakpoints. Philadelphia positivity is not exclusive to CML and can occur in ALL; FISH and modern molecular methods are widely used."
+  },
+  "book-331-50": {
+    "questionInPlainEnglish": "Which sample starts with the most CMV target in the real-time PCR graph?",
+    "explanation": "More starting target reaches the fluorescence threshold in fewer cycles. The rationale gives sample 5 a Ct of 21, sample 4 a Ct of 25, and sample 11 a Ct of 38. Sample 5 therefore has the most starting CMV.",
+    "optionExplanations": [
+      "Sample 4 crosses later than sample 5, so it has less starting target.",
+      "Sample 5 has the lowest stated Ct and the largest starting amount.",
+      "Sample 11 has a much later Ct and less target.",
+      "Validated real-time PCR can quantify target using appropriate calibration."
+    ],
+    "memory": "Low Ct, lots of starting target.",
+    "quickCheck": {
+      "question": "Which has more starting target under the same assay conditions: Ct 21 or Ct 30?",
+      "answer": "Ct 21."
+    },
+    "sourceNote": "Color Plate 60 is required for independent curve reading; Ct values here come from the rationale. Fluorescence rises with accumulated product; it is Ct, not fluorescence itself, that is inversely related to starting quantity. A blanket negativity cutoff at 30 is not generally valid."
+  }
+}

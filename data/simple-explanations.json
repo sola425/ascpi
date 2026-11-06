@@ -1,0 +1,218 @@
+{
+  "book-1-1": {
+    "simple": "A growing baby needs oxygen, just like you do. Red blood cells, called erythrocytes, carry that oxygen. That is why they are the first blood cells the embryo makes. Early production starts in the yolk sac, before the bone marrow takes over later.",
+    "memory": "First delivery job: carry oxygen."
+  },
+  "book-1-2": {
+    "simple": "Bone marrow is like a factory with working space and storage space. In a typical adult, about half the marrow space is blood-making tissue and half is fat. Half means 50%. This balance changes with age and health.",
+    "memory": "Adult marrow: about half factory, half fat."
+  },
+  "book-1-4": {
+    "simple": "The book's answer names the back edge of the hip bone (posterior iliac crest) and the breastbone (sternum). Both can contain active marrow in an adult. The back of the hip is the usual choice for marrow sampling. The breastbone has important safety limits and is not used for a core biopsy.",
+    "memory": "Posterior iliac crest: the usual marrow sampling site."
+  },
+  "book-1-5": {
+    "simple": "Imagine four developing white blood cells for every one developing red blood cell. That is a 4-to-1 ratio. Granulocytes do not last as long as red cells, so the marrow needs to keep making lots of replacements. The usual ratio is roughly 3:1 to 4:1.",
+    "memory": "M:E counts developing cells in marrow, not cells in blood."
+  },
+  "book-1-6": {
+    "simple": "Growth factors are messages telling cells to grow, change, or stop. Many messages can affect several kinds of blood cells. So the statement that most work on only one cell family is the one that does NOT fit. Some factors, such as erythropoietin, are more specific.",
+    "memory": "Many growth messages reach more than one cell family."
+  },
+  "book-1-7": {
+    "simple": "Before birth, blood-making moves between different places. It starts in the yolk sac, then the liver does most of the work, and later the bone marrow becomes the main factory. In the third month of pregnancy, the liver is the main site.",
+    "memory": "Yolk sac → liver → bone marrow."
+  },
+  "book-1-8": {
+    "simple": "The kidneys act like oxygen monitors. When they sense too little oxygen, they release more of a message called erythropoietin, or EPO. EPO tells the bone marrow to make more red blood cells to carry oxygen.",
+    "memory": "Kidneys sense low oxygen; EPO calls for more red cells."
+  },
+  "book-1-9": {
+    "simple": "Young immune cells need training before they meet a germ. T cells develop in the thymus, and B cells develop in the bone marrow. These are primary lymphoid organs. Lymph nodes and the spleen are places where trained cells respond to targets later.",
+    "memory": "T cells: thymus. B cells: bone marrow."
+  },
+  "book-1-10": {
+    "simple": "Apoptosis is a cell's planned, controlled way of shutting down when it is no longer needed. Think of carefully taking apart an old building. Necrosis is more like sudden damage after an accident. They are different kinds of cell death.",
+    "memory": "Apoptosis = planned cell retirement."
+  },
+  "book-1-11": {
+    "simple": "Inside marrow, developing blood cells grow in groups called cords. Think of these as the factory's work areas. Nearby blood channels are called sinusoids. Mature blood cells enter those channels when they are ready to circulate.",
+    "memory": "Cords make cells; sinusoids carry them away."
+  },
+  "book-1-12": {
+    "simple": "Cellularity asks how much marrow space is occupied by blood-making tissue compared with fat. It is like asking how much of a factory is busy working space. It does not compare red cells with white cells; that is a different measurement.",
+    "memory": "Cellularity = blood-making tissue versus fat."
+  },
+  "book-1-13": {
+    "simple": "Cells need messages to coordinate blood production. Monocytes and T lymphocytes can make some of those messages, called cytokines. Interleukins and colony-stimulating factors are examples. They help other cells know when to grow and develop.",
+    "memory": "Cytokines are messages between cells."
+  },
+  "book-86-1": {
+    "simple": "Vitamin C helps your body build collagen, a strong support material in blood vessel walls. Without enough vitamin C, tiny vessels become fragile and can bleed easily. Scurvy is caused by vitamin C deficiency.",
+    "memory": "Vitamin C supports collagen, which supports vessels."
+  },
+  "book-86-2": {
+    "simple": "A megakaryocyte is a giant cell in bone marrow. It releases thousands of tiny pieces of its outer cell material. Those pieces become platelets. The book gives about 2,000 to 4,000 platelets from one megakaryocyte.",
+    "memory": "One giant cell makes thousands of tiny platelets."
+  },
+  "book-86-3": {
+    "simple": "Thrombocytopenia means too few platelets. Thrombopoietin is a message that encourages the marrow to make platelets. Increasing that message usually pushes production up, so it is not the expected cause of a low platelet count in this question.",
+    "memory": "Thrombopoietin tells the platelet factory to work."
+  },
+  "book-86-4": {
+    "simple": "Aggregation means platelets sticking to other platelets, like children joining hands in a group. Adhesion means a platelet sticking to a different surface, such as a damaged vessel wall. The question asks about platelet-to-platelet attachment.",
+    "memory": "Aggregation = platelets grouping together."
+  },
+  "book-110-2": {
+    "simple": "A hapten is a small target that usually cannot start an immune response by itself. Attach it to a larger carrier, and the immune system can notice the combination and respond. Think of a tiny tag becoming noticeable when attached to a big parcel.",
+    "memory": "Hapten + carrier can get the immune system's attention."
+  },
+  "book-110-3": {
+    "simple": "B cells carry antibody molecules on their surface. These act like specially shaped detectors that recognize matching targets, called antigens. Surface immunoglobulin is another name for those antibody detectors.",
+    "memory": "B cells wear antibody detectors."
+  },
+  "book-110-4": {
+    "simple": "A lymphokine is a chemical message made by a lymphocyte, a kind of white blood cell. It travels to other cells and helps direct an immune response. It is a message, not a whole cell or an antibody.",
+    "memory": "Lymphokine = a lymphocyte's message."
+  },
+  "book-110-5": {
+    "simple": "An antibody has a target-grabbing end and a tail called the Fc region. A macrophage can grab that tail using an Fc receptor. It is like spotting the handle on a tagged parcel so the cell can take the parcel inside.",
+    "memory": "Antibody tips grab the target; Fc helps cleanup cells grab the antibody."
+  },
+  "book-135-3": {
+    "simple": "The book is testing a historical donor-safety rule. Receiving blood can expose a person to infections, and some infections may not show up immediately in tests. That hidden interval is a window period. Actual donor deferral periods depend on current local guidance, so do not use the book's 12-month rule as today's policy.",
+    "memory": "Window period: infected, but not yet detected."
+  },
+  "book-135-4": {
+    "simple": "Autologous donation means storing your own blood for your later use. Bacteremia means bacteria are in the bloodstream. Those bacteria could grow in the stored blood and cause harm when it is given back. Being your own donor does not make contaminated blood safe.",
+    "memory": "Your own blood still needs safe collection and storage."
+  },
+  "book-135-5": {
+    "simple": "This older question refers to growth hormone once taken from human pituitary tissue, which could carry the agent causing Creutzfeldt–Jakob disease. That is different from modern recombinant hormone made using biotechnology. Donor rules change; check current local criteria instead of applying every old deferral listed here.",
+    "memory": "Human tissue-derived hormone and recombinant hormone are different."
+  },
+  "book-135-6": {
+    "simple": "CMV can travel inside white blood cells. Removing white blood cells from a blood component helps lower the risk of transmitting it. Some vulnerable patients need specific CMV risk-reduction measures. The book's wording is about transfusion transmission; CMV is not limited to only white blood cells throughout the body.",
+    "memory": "White-cell reduction helps reduce transfusion-associated CMV risk."
+  },
+  "book-203-2": {
+    "simple": "Corynebacterium diphtheriae can cause diphtheria. Some strains make a powerful toxin, a harmful chemical. It can form a thick coating in the throat and damage organs such as the heart. The toxin is the important clue in this question.",
+    "memory": "Diphtheria: throat coating plus a dangerous toxin."
+  },
+  "book-203-3": {
+    "simple": "Some Staphylococcus aureus bacteria make enterotoxin, a toxin that affects the gut. Food can already contain the toxin before someone eats it. This is why the book links it with enterocolitis, or inflammation affecting the intestines.",
+    "memory": "Entero- points to the intestines."
+  },
+  "book-203-4": {
+    "simple": "Some bacteria are picky eaters. These bacteria need pyridoxal, a form of vitamin B6, to grow well. If the laboratory's food mixture does not supply enough, they may fail to grow even when they are present.",
+    "memory": "Picky bacteria may need extra B6."
+  },
+  "book-289-3": {
+    "simple": "A rose thorn can push a fungus called Sporothrix into the skin. It can cause sores and spread along nearby lymph channels. The infection is called sporotrichosis. This fungus can grow as yeast at body temperature and as mould at cooler temperatures.",
+    "memory": "Rose-thorn injury → think Sporothrix."
+  },
+  "book-289-5": {
+    "simple": "The book names Penicillium marneffei, now called Talaromyces marneffei. It is associated with parts of Southeast Asia. A mould culture that releases red pigment is an important clue. It can cause serious infection, especially in people with weakened immune defenses.",
+    "memory": "Talaromyces marneffei: Southeast Asia and red culture pigment."
+  },
+  "book-289-6": {
+    "simple": "Histoplasma capsulatum can grow as a mould that produces large spores with bumpy projections. Tuberculate means covered with small bumps. The question asks you to recognize those mould-phase spores; check the linked color plates too.",
+    "memory": "Tuberculate = bumpy. Histoplasma mould makes bumpy macroconidia."
+  },
+  "book-289-8": {
+    "simple": "KOH helps clear away keratin, the tough material in nails, so fungal structures are easier to see. Arthroconidia are spores formed when fungal threads break into segments. These can be seen in infected nail material.",
+    "memory": "KOH clears the nail material; arthroconidia are segmented fungal pieces."
+  },
+  "book-302-3": {
+    "simple": "Trophozoites are the active, moving forms of some parasites. Fresh watery stool is useful for spotting them moving under a microscope. Waiting too long, freezing the sample, or mixing it with urine can damage what you need to see.",
+    "memory": "Moving forms need fresh samples."
+  },
+  "book-302-4": {
+    "simple": "Giardia has a tough cyst form that can survive outside the body and spread infection when swallowed. Inside a suitable host, it can develop into its active form. The cyst is like a protective travel capsule.",
+    "memory": "Giardia travels in a cyst."
+  },
+  "book-302-5": {
+    "simple": "Trichinella larvae travel into muscles, so a routine stool search for eggs is not the usual way to diagnose this infection. Think about where the parasite lives at the stage you are trying to find. Different parasites need different specimen types.",
+    "memory": "Trichinella larvae hide in muscle, not routine stool egg checks."
+  },
+  "book-302-6": {
+    "simple": "The definitive host is the host where a parasite has its sexual reproductive stage. An intermediate host supports another developmental stage. The word definitive is about the life-cycle stage, not which host is biggest or sickest.",
+    "memory": "Definitive host = sexual stage."
+  },
+  "book-318-2": {
+    "simple": "Koplik spots are tiny spots inside the cheeks associated with measles. They can appear before the widespread skin rash. Think of them as an early clue inside the mouth, alongside the other signs of infection.",
+    "memory": "Koplik spots → measles."
+  },
+  "book-318-3": {
+    "simple": "Hepatitis B virus, or HBV, uses DNA as its genetic instructions. It can spread through infected blood and some other body fluids, and infection can become long-lasting. The DNA clue helps separate it from the other main hepatitis viruses, which use RNA.",
+    "memory": "Hepatitis B is the DNA hepatitis virus."
+  },
+  "book-318-4": {
+    "simple": "Smallpox is the disease that worldwide vaccination successfully eradicated from natural circulation. Eradicated means natural spread has been stopped everywhere. WHO officially declared eradication in 1980; the older book's rationale gives a different year.",
+    "memory": "Smallpox: global eradication declared in 1980."
+  },
+  "book-318-5": {
+    "simple": "Rotavirus can cause inflammation of the stomach and intestines in young children, with vomiting and watery diarrhea. Dehydration is an important danger. Vaccination has reduced the burden in many places, so older statements about the most common cause depend on place and time.",
+    "memory": "Rotavirus can cause severe watery diarrhea in young children."
+  },
+  "book-331-2": {
+    "simple": "PCR is like a photocopier for a chosen stretch of DNA. It needs a template, primers, DNA building blocks, and a heat-tolerant DNA polymerase. DNA ligase joins DNA ends, but it is not needed for a standard PCR copying reaction.",
+    "memory": "Polymerase copies; ligase joins."
+  },
+  "book-331-3": {
+    "simple": "Restriction enzymes are like molecular scissors. Their names often tell you which bacterium they came from. The first letter comes from the genus, the first part of the bacterium's scientific name.",
+    "memory": "First enzyme-name letter → bacterial genus."
+  },
+  "book-331-5": {
+    "simple": "First undo the 100-fold dilution: the original sample is 100 times more concentrated. For double-stranded DNA, one absorbance unit at 260 nm corresponds to about 50 micrograms per milliliter. Multiply 0.062 × 100 × 50 = 310 micrograms per milliliter.",
+    "memory": "DNA concentration = absorbance × dilution factor × 50."
+  },
+  "book-351-2": {
+    "simple": "Urochrome is the pigment that gives normal urine its yellow color. Think of adding the same amount of yellow paint to different amounts of water. More water makes a paler color; less water makes a darker color.",
+    "memory": "Urochrome colors urine yellow."
+  },
+  "book-351-3": {
+    "simple": "Melanin is a pigment that also helps color skin and hair. In some advanced melanomas, a related substance can enter urine and darken after exposure to air. This is one possible explanation for dark urine, not a diagnosis based on color alone.",
+    "memory": "Melanin is a dark pigment."
+  },
+  "book-351-4": {
+    "simple": "pH tells you how acidic or alkaline something is. Fresh urine often falls between pH 4.5 and 8.0. The kidneys adjust what they remove to help balance acids and bases in the body, so urine does not always have one fixed pH.",
+    "memory": "Fresh urine: roughly pH 4.5–8.0."
+  },
+  "book-351-5": {
+    "simple": "When urine sits too long, some bacteria can break down urea and release ammonia. Ammonia makes the sample more alkaline, raising its pH. That means an old sample may no longer show what the urine was like when collected.",
+    "memory": "Urea → ammonia → rising pH."
+  },
+  "book-373-2": {
+    "simple": "First change deciliters to liters: 10 mg/dL becomes 100 mg/L. Calcium has about 40 mg in each millimole. Divide 100 by 40 to get 2.5 mmol/L. Keep the units beside the numbers so you know what cancels.",
+    "memory": "Calcium: mg/dL × 0.25 ≈ mmol/L."
+  },
+  "book-373-3": {
+    "simple": "One liter needs 135 milliequivalents, so 100 mL, which is one-tenth of a liter, needs 13.5 milliequivalents. Sodium has a charge of +1, so this means 13.5 millimoles of NaCl. Multiply by 58.44 mg per millimole: about 789 mg, or 0.79 g.",
+    "memory": "Convert the volume first; then convert the amount to grams."
+  },
+  "book-373-4": {
+    "simple": "The final mixture needs 5 × 0.70 = 3.5 liters' worth of pure alcohol. The starting alcohol is 95%, so divide 3.5 by 0.95. You need about 3.68 L, rounded to 3.7 L, and enough water to make the final volume 5 L.",
+    "memory": "C1 × V1 = C2 × V2; make up to the final volume."
+  },
+  "book-373-5": {
+    "simple": "At the endpoint, acid and base have reacted in equal equivalent amounts. Multiply the acid concentration by its volume: 0.100 × 11.25. Divide by the 10.0 mL of base. The base is 0.1125 N, matching the rounded answer of about 0.112 N.",
+    "memory": "At the endpoint: Nacid × Vacid = Nbase × Vbase."
+  },
+  "book-399-1": {
+    "simple": "Corex is a strong aluminosilicate glass. The book compares it with ordinary laboratory borosilicate glass and asks which type resists scratching and alkaline attack. Different glass types are chosen for different laboratory jobs.",
+    "memory": "Corex is the strong glass named in this question."
+  },
+  "book-399-2": {
+    "simple": "When a laboratory needs to measure a very accurate volume, it needs glassware with a known level of accuracy. Class A marks glassware made to tighter volume tolerances. It is like using a carefully checked measuring jug instead of guessing by eye.",
+    "memory": "Class A = a tighter accuracy standard for volume."
+  },
+  "book-399-3": {
+    "simple": "A desiccant is a material that takes up moisture, like the little drying packets found in some packages. Hygroscopic means able to attract water. Among the options in this book question, magnesium perchlorate is the strongest drying agent.",
+    "memory": "Desiccant = moisture remover."
+  },
+  "book-399-4": {
+    "simple": "EDTA binds calcium, a mineral needed for the clotting process. By tying up calcium in the tube, it helps keep the blood from clotting so the cells can be counted. Lavender-top tubes commonly contain EDTA for complete blood counts.",
+    "memory": "Lavender → EDTA → calcium tied up → no clot."
+  }
+}

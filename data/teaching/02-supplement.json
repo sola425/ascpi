@@ -1,0 +1,557 @@
+{
+  "book-110-1": {
+    "questionInPlainEnglish": "What antibody part does the source illustration circle?",
+    "explanation": "The source marks an antigen-binding arm, called Fab. It contains parts of one heavy and one light chain; their variable regions form the surface that recognizes a target.",
+    "optionExplanations": [
+      "Fab is the antigen-binding fragment and matches the source's indicated arm.",
+      "Fc is the constant stem, not the target-binding arm.",
+      "A heavy chain extends through both arm and stem and is not the name of the whole circled fragment.",
+      "The hinge is the flexible joint where arms meet the stem."
+    ],
+    "memory": "Fab means fragment antigen binding.",
+    "quickCheck": {
+      "question": "Which antibody fragment directly binds an epitope?",
+      "answer": "Fab."
+    },
+    "sourceNote": "Illustration-dependent: Color Plate 21 identifies Fab. The textual key and rationale agree; the arm cannot be located from the stem without the plate."
+  },
+  "book-110-11": {
+    "questionInPlainEnglish": "Whose antibodies make up most serum antibody in a full-term newborn?",
+    "explanation": "Maternal IgG crosses the placenta, especially late in pregnancy. It supplies temporary protection while the infant's own antibody production develops.",
+    "optionExplanations": [
+      "Infant IgA is not the predominant serum antibody at birth.",
+      "The infant makes relatively little IgG before birth.",
+      "Infant IgM can be made, but normally is not the dominant neonatal serum antibody.",
+      "Maternal IgG is actively transferred across the placenta and predominates."
+    ],
+    "memory": "A full-term newborn borrows mother's IgG.",
+    "quickCheck": {
+      "question": "Which antibody class crosses the placenta efficiently?",
+      "answer": "IgG."
+    }
+  },
+  "book-110-30": {
+    "questionInPlainEnglish": "What immunoglobulin pattern is expected in Bruton disease?",
+    "explanation": "Bruton disease blocks normal B-cell maturation. With very few functioning mature B cells, all antibody classes are profoundly reduced; small residual amounts, especially IgG, can remain.",
+    "optionExplanations": [
+      "Elevated IgE contradicts the broad failure of antibody production.",
+      "Elevated IgG contradicts the expected low antibody levels.",
+      "Isolated low IgA describes a different deficiency pattern.",
+      "Absence of all immunoglobulins is the book's simplified description of profound panhypogammaglobulinemia."
+    ],
+    "memory": "Bruton blocks B-cell maturation and broadly lowers antibodies.",
+    "quickCheck": {
+      "question": "Are T-cell numbers usually preserved in Bruton disease?",
+      "answer": "Yes."
+    },
+    "sourceNote": "All immunoglobulins absent is a simplified exam description. Bruton agammaglobulinemia usually produces profoundly reduced levels, and some residual immunoglobulin may be measurable."
+  },
+  "book-110-56": {
+    "questionInPlainEnglish": "Which statement about antibody light chains is true?",
+    "explanation": "Light chains come in two types, kappa and lambda. Each antibody monomer carries two light chains of the same type, and both help build its antigen-binding arms.",
+    "optionExplanations": [
+      "A monomer has two light chains, not one.",
+      "Kappa and lambda are the two light-chain types.",
+      "Each light chain has variable and constant regions, not only constant regions.",
+      "Light chains belong to Fab; Fc is formed from heavy-chain portions."
+    ],
+    "memory": "Two light chains, one type per antibody.",
+    "quickCheck": {
+      "question": "Can one ordinary antibody monomer have one kappa and one lambda light chain?",
+      "answer": "No; its two light chains are the same type."
+    }
+  },
+  "book-110-58": {
+    "questionInPlainEnglish": "Which cells are used in the classic production of monoclonal antibody reagents?",
+    "explanation": "A hybridoma combines an antibody-making B/plasma cell with a continuously growing myeloma cell. This lets one selected clone produce the same antibody repeatedly.",
+    "optionExplanations": [
+      "T cells do not normally secrete immunoglobulin.",
+      "Human plasma cells make antibodies, but this alone does not describe the classic immortal reagent-producing cell line.",
+      "Mouse plasma cells can supply specificity, but alone do not grow indefinitely.",
+      "Hybridomas unite specific antibody production with sustained cell growth."
+    ],
+    "memory": "Hybridoma combines an antibody factory with a lasting growth engine.",
+    "quickCheck": {
+      "question": "What two capabilities are combined in a hybridoma?",
+      "answer": "Specific antibody secretion and continuous growth."
+    },
+    "sourceNote": "The stem is imprecise: a single normal plasma-cell clone also produces monoclonal antibody. Hybridoma is the intended classic laboratory-production answer; modern recombinant methods also exist."
+  },
+  "book-110-70": {
+    "questionInPlainEnglish": "Which feature characterizes contact hypersensitivity?",
+    "explanation": "Many contact allergens are small haptens. After binding skin proteins, they create targets recognized by sensitized T cells, causing a delayed rash.",
+    "optionExplanations": [
+      "Preformed IgE causes immediate allergy, not classic delayed contact dermatitis.",
+      "Neutrophil influx is not its defining antigen-specific mechanism.",
+      "The primary reaction occurs at skin contact sites rather than chiefly in airways.",
+      "A hapten binding a carrier protein is the common initiating pattern."
+    ],
+    "memory": "A small contact chemical becomes visible to immunity when attached to protein.",
+    "quickCheck": {
+      "question": "Which cells drive classic allergic contact dermatitis?",
+      "answer": "Sensitized T lymphocytes."
+    }
+  },
+  "book-110-71": {
+    "questionInPlainEnglish": "What does a raised CRP generally indicate?",
+    "explanation": "CRP is an acute-phase protein made mainly by the liver during inflammation. It indicates an inflammatory response but does not identify the cause by itself.",
+    "optionExplanations": [
+      "CRP is not a direct measurement of neutrophil swallowing ability.",
+      "Ongoing inflammation is the correct general interpretation.",
+      "Many conditions raise CRP, so it is not diagnostic of rheumatic fever.",
+      "CRP can rise in inflammatory cardiovascular conditions; a universal decrease is incorrect."
+    ],
+    "memory": "CRP is an inflammation alarm, not a disease name tag.",
+    "quickCheck": {
+      "question": "Does high CRP identify one specific disease?",
+      "answer": "No."
+    }
+  },
+  "book-110-78": {
+    "questionInPlainEnglish": "What does a positive HBsAg usually indicate?",
+    "explanation": "HBsAg is hepatitis B surface antigen. Its presence generally means current HBV infection, either acute or chronic; other markers and duration establish the stage.",
+    "optionExplanations": [
+      "Resolved past infection usually has no detectable HBsAg and often has anti-HBs.",
+      "Current acute or chronic HBV infection is the intended interpretation.",
+      "Vaccination aims to produce anti-HBs antibody, not ongoing antigenemia.",
+      "A person with current HBsAg may be infectious, so this claim is incorrect."
+    ],
+    "memory": "Antigen means viral material; anti-HBs means an antibody response.",
+    "quickCheck": {
+      "question": "Does HBsAg positivity alone prove chronic HBV?",
+      "answer": "No."
+    },
+    "sourceNote": "HBsAg generally indicates current HBV infection, but transient antigen detection can occasionally follow recent vaccination. The source's absolute denial of any post-vaccine HBsAg is too strong. HBsAg alone does not quantify replication."
+  },
+  "book-110-80": {
+    "questionInPlainEnglish": "What determines an antibody's isotype?",
+    "explanation": "The heavy-chain constant region determines the class or isotype, such as IgG or IgM. Variable-region differences determine binding specificity rather than class.",
+    "optionExplanations": [
+      "Heavy-chain type defines immunoglobulin class and is correct.",
+      "Inherited allelic differences within a class are allotypes.",
+      "One person can make several isotypes, so isotype is not constant across all their antibodies.",
+      "Variable-region antigenic features concern idiotype rather than isotype."
+    ],
+    "memory": "Heavy chains name the class.",
+    "quickCheck": {
+      "question": "Which heavy chain identifies IgG?",
+      "answer": "Gamma."
+    }
+  },
+  "book-135-1": {
+    "questionInPlainEnglish": "Which finding excludes this donor under the book's screening rules?",
+    "explanation": "Donation removes red cells and reduces oxygen-carrying capacity. Her hematocrit of 35% is below the book's minimum, while her stated weight, pulse, and pressure meet its listed expectations.",
+    "optionExplanations": [
+      "A pulse of 73 beats per minute is not too high.",
+      "110 pounds meets the conventional minimum weight used in this example.",
+      "A 35% hematocrit is below the source's stated minimum of 38%.",
+      "125/75 mm Hg is not a low blood pressure in this example."
+    ],
+    "memory": "Donor red-cell screening protects the donor's oxygen supply.",
+    "quickCheck": {
+      "question": "What does hematocrit measure?",
+      "answer": "The fraction of blood volume occupied by red cells."
+    },
+    "sourceNote": "Historical screening criteria are preserved for this exercise. Current donor hemoglobin/hematocrit requirements can depend on sex, donation type, jurisdiction, and permitted exceptions; 38% is not a universal present-day minimum."
+  },
+  "book-135-2": {
+    "questionInPlainEnglish": "What volume results from the book's 10.5 mL/kg rule for a 95-pound donor?",
+    "explanation": "Convert pounds to kilograms: 95/2.2 = 43.2 kg. Multiplying by 10.5 gives approximately 454 mL, including samples. This is the textbook calculation, not automatic donor eligibility.",
+    "optionExplanations": [
+      "367 mL does not result from the given weight-based formula.",
+      "378 mL is below the calculated 454 mL.",
+      "454 mL correctly rounds 43.2 × 10.5.",
+      "473 mL exceeds the amount calculated from the stated rule."
+    ],
+    "memory": "Convert weight first, then multiply by the allowed volume per kilogram.",
+    "quickCheck": {
+      "question": "About how many kilograms is 95 pounds?",
+      "answer": "43.2 kg."
+    },
+    "sourceNote": "This is only the textbook's 10.5 mL/kg calculation. A 95-pound person is below the usual standard whole-blood donor minimum weight; special eligibility, collection volume, and collection-system requirements govern whether donation is permitted."
+  },
+  "book-135-11": {
+    "questionInPlainEnglish": "Which protein is NOT a characteristic concentrated cryoprecipitate constituent?",
+    "explanation": "Cryoprecipitate contains proteins that precipitate from cold plasma, notably fibrinogen, factor VIII, von Willebrand factor, factor XIII, and fibronectin. Antithrombin is not one of its characteristic enriched components.",
+    "optionExplanations": [
+      "Fibronectin is a recognized cryoprecipitate component.",
+      "Factor XIII is retained in cryoprecipitate.",
+      "The OCR term refers to von Willebrand-related factor VIII material, which is present.",
+      "Antithrombin III is the exception among these characteristic concentrated proteins."
+    ],
+    "memory": "Cryo keeps fibrinogen, VIII, vWF, XIII, and fibronectin.",
+    "quickCheck": {
+      "question": "Which abundant clot-forming protein is concentrated in cryoprecipitate?",
+      "answer": "Fibrinogen."
+    },
+    "sourceNote": "Factor VIILvW is OCR-corrupted older factor VIII/von Willebrand terminology. Not found means not a characteristic concentrated cryoprecipitate component, rather than proving absolute absence of every trace of antithrombin. The stem's hemophilia treatment framing is historical."
+  },
+  "book-135-16": {
+    "questionInPlainEnglish": "What fraction of the starting factor VIII was recovered in the cryoprecipitate?",
+    "explanation": "Starting activity is 1 IU/mL × 250 mL = 250 IU. Final activity is 9 IU/mL × 10 mL = 90 IU. Recovery is 90/250 × 100 = 36%.",
+    "optionExplanations": [
+      "11% does not account correctly for both concentration and volume.",
+      "25% is below the calculated recovery.",
+      "36% correctly compares total final activity with total starting activity.",
+      "80% confuses a possible quality threshold with percent recovery."
+    ],
+    "memory": "Yield compares total units, not concentrations alone.",
+    "quickCheck": {
+      "question": "How many factor VIII units are in 10 mL at 9 IU/mL?",
+      "answer": "90 IU."
+    },
+    "sourceNote": "Shared data verified in PDF page 137: 250 mL at 1 IU/mL becomes 10 mL at 9 IU/mL. The recovered 36% pairing is consistent."
+  },
+  "book-135-17": {
+    "questionInPlainEnglish": "Does the cryoprecipitate meet the factor VIII criterion quoted by the book?",
+    "explanation": "The final bag contains 9 × 10 = 90 IU of factor VIII. That exceeds the book's 80-IU-per-container requirement, so it passes this specific criterion even though recovery is 36%.",
+    "optionExplanations": [
+      "Yes: 90 IU exceeds the cited 80-IU threshold.",
+      "The source does not set a minimum percentage recovery for this assessment.",
+      "The final amount is 90 IU, which exceeds rather than falls below its threshold.",
+      "The shared case supplies concentration and volume, enough to calculate total activity."
+    ],
+    "memory": "A 36% recovery can still leave enough total factor VIII.",
+    "quickCheck": {
+      "question": "What quantity decides this book's factor VIII check?",
+      "answer": "Total IU per container."
+    },
+    "sourceNote": "The recovered yes answer agrees with the shared case and source's 80-IU factor VIII criterion. Passing this one criterion does not establish compliance with every current product specification."
+  },
+  "book-135-18": {
+    "questionInPlainEnglish": "What percentage of whole-blood platelets reached the platelet-rich plasma?",
+    "explanation": "Whole blood contains 200,000 × 1,000 × 450 = 9 × 10¹⁰ platelets. PRP contains 300,000 × 1,000 × 250 = 7.5 × 10¹⁰. Recovery is 7.5/9 × 100, about 83%. There are 1,000 microliters in 1 milliliter. Multiply the count per microliter by 1,000 and then by the volume in milliliters to get a total platelet count; the same conversion cancels when comparing the two totals.",
+    "optionExplanations": [
+      "33% does not match the total-platelet calculation.",
+      "45% is lower than the calculated 83%; total PRP platelets must be divided by total starting whole-blood platelets, not inferred from a concentration or volume alone.",
+      "66% underestimates the calculated PRP recovery.",
+      "83% correctly compares PRP total with whole-blood total."
+    ],
+    "memory": "Count per volume times volume gives the total cargo.",
+    "quickCheck": {
+      "question": "Why can't the PRP count alone determine platelet yield?",
+      "answer": "Yield also depends on component volume."
+    },
+    "sourceNote": "Shared data verified in PDF page 138: whole blood 450 mL at 200,000/µL; PRP 250 mL at 300,000/µL; concentrate 50 mL at 900,000/µL. Recovered 83% pairing is consistent."
+  },
+  "book-135-19": {
+    "questionInPlainEnglish": "What percentage of PRP platelets reached the final concentrate?",
+    "explanation": "The concentrate has 900,000 × 1,000 × 50 = 4.5 × 10¹⁰ platelets. PRP began with 7.5 × 10¹⁰, so the second-stage recovery is 4.5/7.5 × 100 = 60%.",
+    "optionExplanations": [
+      "30% is half the correct second-stage recovery.",
+      "45% confuses the numeric total of 4.5 with a percentage.",
+      "50% would result from comparison with whole blood, not PRP.",
+      "60% correctly compares final platelets with their PRP starting pool."
+    ],
+    "memory": "The denominator must match the stage being tested.",
+    "quickCheck": {
+      "question": "What is the denominator when calculating recovery from PRP?",
+      "answer": "The total platelet number in the starting PRP."
+    },
+    "sourceNote": "The denominator is starting PRP, not starting whole blood. Source data give 60% from PRP and 50% from whole blood; the recovered key is consistent."
+  },
+  "book-135-20": {
+    "questionInPlainEnglish": "Does the final platelet concentrate pass the book's stated content requirement?",
+    "explanation": "The final bag has 4.5 × 10¹⁰ platelets. This is below the cited 5.5 × 10¹⁰ minimum for the specified quality criterion; adequate first-stage recovery does not rescue low final content.",
+    "optionExplanations": [
+      "Yes is incorrect because final content is below the quoted minimum.",
+      "The final platelet number is too low, so this is the correct reason.",
+      "The book's issue is final content, not the 83% PRP recovery.",
+      "The case supplies enough count and volume data to calculate content."
+    ],
+    "memory": "A good first recovery can still finish with too few platelets.",
+    "quickCheck": {
+      "question": "What is the final platelet content in this example?",
+      "answer": "4.5 × 10¹⁰ platelets."
+    },
+    "sourceNote": "Historical component-QC criterion: the source cites 5.5 × 10¹⁰ platelets per whole-blood-derived concentrate. Current requirements depend on component type and jurisdiction; this does not describe an apheresis-unit target."
+  },
+  "book-135-21": {
+    "questionInPlainEnglish": "Which spin should be strengthened to recover more platelets from PRP?",
+    "explanation": "The first spin separates PRP from red cells. The second spin pellets platelets from PRP; in this exercise, increasing that second spin's time or force can improve recovery into the final concentrate.",
+    "optionExplanations": [
+      "A stronger first spin can trap platelets with red cells and does not address the stated PRP pelleting step.",
+      "Increasing the second spin targets the low final recovery and is the keyed adjustment.",
+      "Weakening the first spin changes initial separation rather than correcting final PRP recovery.",
+      "Weakening the second spin leaves more platelets suspended and can lower recovery."
+    ],
+    "memory": "First make PRP; second collect its platelets.",
+    "quickCheck": {
+      "question": "Which spin pellets platelets from platelet-rich plasma?",
+      "answer": "The second spin."
+    },
+    "sourceNote": "This is a conceptual historical centrifugation exercise, not a validated operating instruction. Actual platelet production requires the approved process and force-time settings; rpm alone does not specify centrifugal force."
+  },
+  "book-135-24": {
+    "questionInPlainEnglish": "For whom is preoperative self-donation NOT advisable in this example?",
+    "explanation": "Autologous donation means storing one's own blood. Someone already unable to compensate for anemia has too little oxygen-carrying reserve to safely lose more red cells, making that the exception.",
+    "optionExplanations": [
+      "Rare-antigen antibodies can make compatible donor blood hard to find, supporting consideration of self-donation.",
+      "Uncompensated anemia makes additional red-cell loss unsafe and is the intended exclusion.",
+      "A surgery type alone does not exclude self-donation under the book's approach.",
+      "Multiple antibodies can make matched donor units difficult to obtain and may favor considering autologous options."
+    ],
+    "memory": "Self-donation still removes the patient's oxygen carriers.",
+    "quickCheck": {
+      "question": "What does autologous donation mean?",
+      "answer": "Donating blood for one's own later use."
+    },
+    "sourceNote": "The source reflects older preoperative autologous-donation practice. Present selection and thresholds are individualized under applicable standards; no treatment or donation recommendation follows from this exam key."
+  },
+  "book-135-31": {
+    "questionInPlainEnglish": "What expiration does the book assign to refrigerated RBCs after the closed seal is broken?",
+    "explanation": "Opening the system increases contamination risk. The book shortens refrigerated red-cell storage to 24 hours from opening rather than allowing the original sealed-system expiration.",
+    "optionExplanations": [
+      "Automatic immediate discard is not the book's rule when all other conditions are satisfactory.",
+      "The original CPD 21-day shelf life no longer applies after opening.",
+      "A 24-hour expiration is the keyed open-system rule.",
+      "A six-day closed-system freezing window does not apply to this opened unit."
+    ],
+    "memory": "A broken seal starts a shorter contamination clock.",
+    "quickCheck": {
+      "question": "Why does opening a blood system shorten expiry?",
+      "answer": "It increases the risk of bacterial contamination."
+    },
+    "sourceNote": "The book's open-system 24-hour rule assumes refrigerated RBC storage and the described break in system integrity. Validated sterile connection systems and specific approved processing can have different implications."
+  },
+  "book-135-34": {
+    "questionInPlainEnglish": "Which weak-D donor units are labeled Rh positive?",
+    "explanation": "A donor unit with detectable D antigen can stimulate anti-D in a D-negative recipient, even if expression is weak. Thus all listed weak-D donor mechanisms are handled as D positive for donor labeling.",
+    "optionExplanations": [
+      "Inherited weak-D expression still means D antigen is present.",
+      "A position effect can weaken D expression but does not remove the donor-labeling concern.",
+      "Partial D can lack some epitopes while retaining others, so the donor unit is still D positive.",
+      "All listed donor weak-D categories are labeled D positive in the book's scheme."
+    ],
+    "memory": "For donors, detectable D means a D-positive unit.",
+    "quickCheck": {
+      "question": "Why label a weak-D donor unit D positive?",
+      "answer": "To avoid exposing a D-negative recipient to D antigen."
+    },
+    "sourceNote": "Donor labeling is distinct from patient management. Some weak-D genotypes can be managed as D positive as recipients, while others require different interpretation; all weak-D donor categories here remain D-positive-labeled."
+  },
+  "book-135-38": {
+    "questionInPlainEnglish": "What identification checks does the book require when receiving externally collected RBC units?",
+    "explanation": "An independent ABO check helps prevent incompatible transfusion. The source also requires checking the D type of units labeled D negative, where a mistaken negative label could expose a recipient to D antigen.",
+    "optionExplanations": [
+      "ABO on every relevant unit plus D confirmation on D-negative-labeled units is the intended requirement.",
+      "Repeating D on all units is broader than the book's stated requirement.",
+      "Repeating weak-D testing is not the required confirmation described.",
+      "Donor antibody screening is not the identification retest asked here."
+    ],
+    "memory": "Confirm ABO; recheck the negative D claim.",
+    "quickCheck": {
+      "question": "Why is an incorrect D-negative label important?",
+      "answer": "It could lead to D-antigen exposure in a D-negative recipient."
+    },
+    "sourceNote": "The book's wording means ABO confirmation for all applicable received RBC units plus D confirmation for those labeled D negative. It does not mean ABO confirmation only on D-negative units. Current standards and validated facility policy determine exact checks."
+  },
+  "book-135-39": {
+    "questionInPlainEnglish": "What storage temperature does the book assign to liquid RBCs?",
+    "explanation": "Refrigeration slows red-cell metabolism and limits deterioration while keeping the cells unfrozen. The book's standard liquid-RBC range is 1–6°C.",
+    "optionExplanations": [
+      "1–6°C is the correct refrigerated liquid-RBC range.",
+      "20–24°C is the traditional platelet range, not routine liquid RBC storage.",
+      "−18°C is frozen-component storage, not liquid RBC storage.",
+      "−65°C is associated with specially prepared frozen RBCs."
+    ],
+    "memory": "Liquid reds rest in the refrigerator.",
+    "quickCheck": {
+      "question": "Why refrigerate liquid red cells?",
+      "answer": "To slow metabolism and preserve viability."
+    },
+    "sourceNote": "Product-specific textbook storage category; actual storage and expiration follow the component label and current validated standards."
+  },
+  "book-135-40": {
+    "questionInPlainEnglish": "What temperature does the book specify for frozen RBCs?",
+    "explanation": "Glycerol protects red cells during the specified freezing process. The high-glycerol frozen product in this question is stored at −65°C or colder, distinct from ordinary frozen plasma.",
+    "optionExplanations": [
+      "1–6°C stores unfrozen rather than frozen red cells.",
+      "20–24°C is far too warm for frozen storage.",
+      "−18°C is not sufficiently cold for the specified frozen-RBC method.",
+      "−65°C or colder is the book's frozen-RBC condition."
+    ],
+    "memory": "Frozen reds need colder storage than routine frozen plasma.",
+    "quickCheck": {
+      "question": "What protective substance is commonly used when freezing RBCs?",
+      "answer": "Glycerol."
+    },
+    "sourceNote": "This refers to the high-glycerol frozen-RBC method. Other validated freezing methods can use different temperatures; the recovered −65°C-or-colder key matches the grouped rationale."
+  },
+  "book-135-41": {
+    "questionInPlainEnglish": "What temperature does the book assign to fresh-frozen plasma?",
+    "explanation": "Freezing preserves plasma clotting proteins, including labile factors. The book gives −18°C or colder as the standard frozen-storage category; colder conditions can support different approved shelf lives.",
+    "optionExplanations": [
+      "1–6°C describes refrigerated thawed plasma rather than FFP kept frozen.",
+      "20–24°C is not frozen plasma storage.",
+      "−18°C or colder is the book's intended category.",
+      "−65°C is sufficiently cold but is a more stringent condition than the standard category asked."
+    ],
+    "memory": "FFP stays frozen to preserve clotting-factor activity.",
+    "quickCheck": {
+      "question": "Why is frozen plasma kept frozen?",
+      "answer": "To preserve its protein and clotting-factor activity."
+    },
+    "sourceNote": "−65°C also satisfies −18°C or colder, so the literal choices overlap. The key selects the least stringent routine category assigned by the book, not the only temperature that preserves FFP."
+  },
+  "book-135-42": {
+    "questionInPlainEnglish": "What temperature does the book assign to unthawed cryoprecipitate?",
+    "explanation": "Cryoprecipitate is a concentrated cold-precipitable plasma component kept frozen until needed. The book places its routine frozen storage at −18°C or colder.",
+    "optionExplanations": [
+      "1–6°C does not keep cryoprecipitate frozen.",
+      "20–24°C is not its long-term frozen-storage condition.",
+      "−18°C or colder is the keyed frozen storage category.",
+      "−65°C is colder than required for the standard category, though it satisfies or-colder wording."
+    ],
+    "memory": "Cryo's long storage is frozen storage.",
+    "quickCheck": {
+      "question": "Is the frozen cryoprecipitate shelf life applicable after thawing?",
+      "answer": "No."
+    },
+    "sourceNote": "−65°C also satisfies −18°C or colder. The intended matching answer is the book's routine −18°C category; the options are not mutually exclusive if read literally."
+  },
+  "book-135-43": {
+    "questionInPlainEnglish": "What temperature does the book assign to its conventional platelet concentrate?",
+    "explanation": "Traditional platelets are stored at 20–24°C with gentle agitation. The warmer environment supports platelet metabolism, while the bag permits gas exchange; this storage also makes bacterial risk important.",
+    "optionExplanations": [
+      "1–6°C is the conventional RBC range, not the product described.",
+      "20–24°C is the textbook conventional platelet range.",
+      "−18°C is for certain frozen plasma components, not ordinary platelets.",
+      "−65°C is not routine storage for this platelet concentrate."
+    ],
+    "memory": "Conventional platelets stay warm and gently moving.",
+    "quickCheck": {
+      "question": "Why is agitation used for conventional platelet storage?",
+      "answer": "To support gas exchange and maintain the platelet suspension."
+    },
+    "sourceNote": "Conventional room-temperature platelets are intended. Approved cold-stored platelet products exist under different labeling and indications, so the keyed range is not universal for every modern platelet product."
+  },
+  "book-135-44": {
+    "questionInPlainEnglish": "How long does the book allow sealed CPDA-1 red cells to be stored?",
+    "explanation": "CPDA-1 contains adenine, supporting red-cell ATP regeneration during refrigerated storage. The stated closed-system product has a 35-day shelf life.",
+    "optionExplanations": [
+      "24 hours corresponds to certain opened-system products, not this intact CPDA-1 unit.",
+      "Five days is the book's conventional platelet duration.",
+      "35 days is the keyed CPDA-1 shelf life.",
+      "One year belongs to specified frozen components, not liquid CPDA-1 RBCs."
+    ],
+    "memory": "CPDA's adenine extends 21 to 35 days.",
+    "quickCheck": {
+      "question": "What energy molecule does adenine help red cells regenerate?",
+      "answer": "ATP."
+    },
+    "sourceNote": "Assumes an intact, properly stored approved CPDA-1 system. Opening, processing, and product-specific requirements can shorten the interval."
+  },
+  "book-135-45": {
+    "questionInPlainEnglish": "How long does the book allow FFP to remain stored frozen at its stated routine temperature?",
+    "explanation": "For its −18°C-or-colder FFP category, the source gives one year from collection. This frozen interval differs from the much shorter expiration after thawing.",
+    "optionExplanations": [
+      "24 hours is the book's thawed-FFP interval, not frozen FFP shelf life.",
+      "Five days is the source's conventional platelet storage interval, not the shelf life of this frozen-plasma product.",
+      "35 days belongs to CPDA-1 red cells.",
+      "One year is the source's routine frozen-FFP interval."
+    ],
+    "memory": "Frozen FFP: a year in this book; thawed FFP: a different clock.",
+    "quickCheck": {
+      "question": "Does thawing preserve the original frozen expiry clock?",
+      "answer": "No."
+    },
+    "sourceNote": "One year is the source's routine frozen storage rule. Actual approved expiry depends on temperature and product labeling; it is not the expiry after thawing."
+  },
+  "book-135-46": {
+    "questionInPlainEnglish": "How long does the book allow frozen cryoprecipitate to be stored?",
+    "explanation": "The book assigns one year to frozen cryoprecipitate at −18°C or colder. Once thawed, its much shorter usable interval depends on processing and product rules.",
+    "optionExplanations": [
+      "24 hours is not the stated frozen-cryoprecipitate interval.",
+      "Five days is the conventional platelet interval in this exercise.",
+      "35 days is the CPDA-1 red-cell interval.",
+      "One year is the keyed frozen-cryoprecipitate shelf life."
+    ],
+    "memory": "Cryo's one-year answer assumes it is still frozen.",
+    "quickCheck": {
+      "question": "What major change makes the one-year cryoprecipitate answer inapplicable?",
+      "answer": "Thawing the product."
+    },
+    "sourceNote": "One year refers to the intact frozen product in this textbook. Thawing, pooling, and current product specifications impose different limits."
+  },
+  "book-135-47": {
+    "questionInPlainEnglish": "What expiration does the book assign to FFP after thawing?",
+    "explanation": "The source gives 24 hours when thawed FFP is kept refrigerated. Some products may be relabeled and handled under separate thawed-plasma rules, which are not the same labeled category.",
+    "optionExplanations": [
+      "24 hours is the book's thawed-FFP limit.",
+      "Five days can apply to some separately defined thawed-plasma products, but not this question's keyed FFP category.",
+      "35 days is a red-cell preservative interval.",
+      "One year applies to the source's frozen rather than thawed plasma."
+    ],
+    "memory": "The label matters: thawed FFP and relabeled thawed plasma differ.",
+    "quickCheck": {
+      "question": "At what temperature does the book keep thawed FFP?",
+      "answer": "1–6°C."
+    },
+    "sourceNote": "The 24-hour answer refers to the labeled thawed FFP category used by the source. Some eligible plasma may be relabeled Thawed Plasma with a longer approved refrigerated interval; do not conflate those categories."
+  },
+  "book-135-48": {
+    "questionInPlainEnglish": "What shelf life does the book give platelets in an agitated PL-732 bag?",
+    "explanation": "The specified gas-permeable bag supports conventional platelet storage at 20–24°C. The source assigns five days; current approved durations also depend on bacterial-risk controls and exact product labeling.",
+    "optionExplanations": [
+      "24 hours is shorter than the stated intact-system product interval.",
+      "Five days is the keyed duration for this bag and method.",
+      "35 days belongs to CPDA-1 RBCs and is far too long here.",
+      "One year is a frozen-component interval, not conventional platelet storage."
+    ],
+    "memory": "This platelet example pairs a suitable bag with five days.",
+    "quickCheck": {
+      "question": "Why can platelet bag material affect storage performance?",
+      "answer": "Its gas permeability affects platelet metabolism."
+    },
+    "sourceNote": "Historical named-bag example. Current platelet shelf life depends on the approved bag, product, testing/pathogen-reduction strategy, and jurisdiction; five days is not universal."
+  },
+  "book-135-49": {
+    "questionInPlainEnglish": "What refrigerated shelf life does the book assign to CPD blood?",
+    "explanation": "CPD supplies citrate, phosphate, and dextrose but lacks the added adenine of CPDA-1. In the specified closed storage system, the source gives 21 days.",
+    "optionExplanations": [
+      "21 days is the correct CPD interval.",
+      "35 days belongs to CPDA-1 with adenine.",
+      "42 days applies to certain approved additive-solution RBC systems.",
+      "CPD is an approved blood-collection anticoagulant-preservative, so this is false."
+    ],
+    "memory": "CPD: 21; add adenine: 35.",
+    "quickCheck": {
+      "question": "Which extra ingredient distinguishes CPDA-1 from CPD?",
+      "answer": "Adenine."
+    },
+    "sourceNote": "The keyed 21-day rule assumes the specified approved closed CPD collection/storage system and correct refrigeration."
+  },
+  "book-135-50": {
+    "questionInPlainEnglish": "What refrigerated shelf life does the book assign to CPDA-1 blood?",
+    "explanation": "Adenine helps maintain ATP and red-cell viability beyond the CPD interval. The specified intact CPDA-1 system therefore has a 35-day shelf life in this exercise.",
+    "optionExplanations": [
+      "21 days is the shorter CPD interval.",
+      "35 days is the keyed CPDA-1 interval.",
+      "42 days belongs to certain RBC additive-solution systems.",
+      "CPDA-1 is an approved anticoagulant-preservative, not an unapproved one."
+    ],
+    "memory": "Adenine extends this storage example to 35 days.",
+    "quickCheck": {
+      "question": "Why does adenine improve red-cell storage survival?",
+      "answer": "It supports ATP regeneration."
+    },
+    "sourceNote": "The keyed 35-day rule assumes the specified approved closed CPDA-1 system and correct refrigeration."
+  },
+  "book-135-51": {
+    "questionInPlainEnglish": "What shelf life does the book assign to RBCs in AS-1?",
+    "explanation": "AS-1, also called Adsol, is an additive solution used with prepared red cells. Its nutrients and protective ingredients support the specified refrigerated RBC product for 42 days.",
+    "optionExplanations": [
+      "21 days is the CPD example, not AS-1 RBCs.",
+      "35 days is the CPDA-1 example.",
+      "42 days is the keyed AS-1 red-cell shelf life.",
+      "AS-1 is an approved additive solution; it is not itself an unapproved storage choice."
+    ],
+    "memory": "AS-1 adds support for 42-day RBC storage.",
+    "quickCheck": {
+      "question": "Is AS-1 primarily the collection anticoagulant or a red-cell additive solution?",
+      "answer": "A red-cell additive solution."
+    },
+    "sourceNote": "AS-1 is an additive solution, rather than a collection anticoagulant by itself. The keyed 42 days describes RBCs prepared and stored in an approved AS-1 system."
+  }
+}
