@@ -2,12 +2,12 @@
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const {chromium, appURL, artifactDir, action, nav, stored, currentQuestion, importBank, mathFixtures} = require('./game-browser.cjs');
+const {chromium, appURL, appVersion, artifactDir, action, nav, stored, currentQuestion, importBank, mathFixtures} = require('./game-browser.cjs');
 const sizes = [{width: 320, height: 568}, {width: 390, height: 844}, {width: 568, height: 320}, {width: 768, height: 1024}, {width: 820, height: 1180}, {width: 1024, height: 768}];
 
 (async () => {
   fs.mkdirSync(artifactDir, {recursive: true});
-  const report = {startedAt: new Date().toISOString(), environment: 'Headless Chromium with simulated touch/CSS viewports; not a physical Android device or WebView.', viewports: sizes, checks: [], issues: [], screenshots: [], errors: []};
+  const report = {version: appVersion, startedAt: new Date().toISOString(), environment: 'Headless Chromium with simulated touch/CSS viewports; not a physical Android device or WebView.', viewports: sizes, checks: [], issues: [], screenshots: [], errors: []};
   const browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', args: ['--no-sandbox']});
   const fixture = await mathFixtures();
   try {
@@ -56,6 +56,7 @@ const sizes = [{width: 320, height: 568}, {width: 390, height: 844}, {width: 568
       try {
         await page.goto(appURL);
         await page.getByRole('heading', {name: 'Make room for a little discovery.', exact: true}).waitFor();
+        if (await page.locator('[data-action="tour-skip"]').isVisible()) await page.locator('[data-action="tour-skip"]').click();
         assert.equal(await page.locator('.sidebar nav button:visible').count(), size.width < 720 ? 5 : 7);
         assert.equal(await page.getByRole('button', {name: 'Play learning games', exact: true}).count(), 1);
         await reachable('.play-header', 'header-play-access');

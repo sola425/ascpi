@@ -1,4 +1,6 @@
 import {validateGame} from './game.js';
+import {validateFrenzy} from './frenzy.js';
+import {validateSyncDocument} from './sync-model.js';
 import {hasCompleteTeaching} from './teaching.js';
 export const MINUTE=60000, DAY=86400000;
 const dayFormat=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Lagos',year:'numeric',month:'2-digit',day:'2-digit'});
@@ -29,16 +31,40 @@ export function streak(log,now=Date.now()){
  if(!days.has(dayKey(cursor)))cursor-=DAY;
  while(days.has(dayKey(cursor))){n++;cursor-=DAY}return n;
 }
-export function validateBackup(data){
- if(![1,2,3].includes(data?.version)||!data.records||typeof data.records!=='object'||Array.isArray(data.records)||!Array.isArray(data.saved)||!Array.isArray(data.log))throw Error('This is not a Labwise progress backup.');
+function backupField(data,name){
+ const property=Object.getOwnPropertyDescriptor(data,name);
+ if(property&&!Object.hasOwn(property,'value'))throw Error('Backup contains invalid optional data.');
+ return property?.value;
+}
+function validEventId(value){
+ return typeof value==='string'&&value.length>0&&value.length<=1024&&!['__proto__','prototype','constructor'].includes(value)&&!/[\u0000-\u001f\u007f]/.test(value);
+}
+export function validateBackup(data,bank){
+ if(![1,2,3,4].includes(data?.version)||!data.records||typeof data.records!=='object'||Array.isArray(data.records)||!Array.isArray(data.saved)||!Array.isArray(data.log))throw Error('This is not a Labwise progress backup.');
  const records=Object.create(null);
  for(const[id,r]of Object.entries(data.records)){
   if(!r||typeof r!=='object'||!Number.isFinite(r.due)||r.due<0||!Number.isInteger(r.stage)||r.stage<0||r.stage>4||!Number.isFinite(r.reviews)||r.reviews<0||!(r.correct===undefined||typeof r.correct==='boolean'))throw Error('Backup contains invalid review data.');
   records[id]={...(typeof r.lastGameCorrect==='boolean'?{lastGameCorrect:r.lastGameCorrect}:{}),...(Number.isFinite(r.lastGameAt)&&r.lastGameAt>=0?{lastGameAt:r.lastGameAt}:{}),due:r.due,stage:r.stage,reviews:r.reviews,...(r.correct===undefined?{}:{correct:r.correct}),at:Number.isFinite(r.at)?r.at:0,reviewedAt:Number.isFinite(r.reviewedAt)?r.reviewedAt:0,...(['again','hard','good','easy'].includes(r.lastRecallRating)?{lastRecallRating:r.lastRecallRating}:{}),...(Number.isFinite(r.lastRecallAt)&&r.lastRecallAt>=0?{lastRecallAt:r.lastRecallAt}:{})};
  }
  if(data.saved.some(id=>typeof id!=='string')||data.log.some(e=>!e||typeof e.id!=='string'||!Number.isFinite(e.at)||!['answer','review','game'].includes(e.kind)||typeof e.correct!=='boolean'))throw Error('Backup contains invalid study history.');
+ const log=[],eventIds=new Map();
+ for(const e of data.log){
+  const eventId=backupField(e,'eventId');
+  if(eventId!==undefined&&!validEventId(eventId))throw Error('Backup contains an invalid study event ID.');
+  const entry={id:e.id,at:e.at,correct:e.correct,kind:e.kind,...(eventId===undefined?{}:{eventId})};
+  if(eventId!==undefined){
+   const previous=eventIds.get(eventId);
+   if(previous){
+    if(previous.id!==entry.id||previous.at!==entry.at||previous.correct!==entry.correct||previous.kind!==entry.kind)throw Error('Backup contains conflicting data for one study event ID.');
+    continue;
+   }
+   eventIds.set(eventId,entry);
+  }
+  log.push(entry);
+ }
  const reading=Object.create(null);
  if(data.reading&&typeof data.reading==='object'&&!Array.isArray(data.reading))for(const[id,page]of Object.entries(data.reading)){if(Number.isSafeInteger(page)&&page>0)reading[id]=page;}
  const prefs={sessionSize:Number.isInteger(data.prefs?.sessionSize)&&data.prefs.sessionSize>=1&&data.prefs.sessionSize<=200?data.prefs.sessionSize:10,fontScale:Number.isFinite(data.prefs?.fontScale)&&data.prefs.fontScale>=0.8&&data.prefs.fontScale<=2?data.prefs.fontScale:1};
- return {...(data.game===undefined?{}:{game:validateGame(data.game)}),records,reading,prefs,saved:[...new Set(data.saved)],log:data.log.map(e=>({id:e.id,at:e.at,correct:e.correct,kind:e.kind})),goal:[5,10,20,30].includes(data.goal)?data.goal:10};
+ const cloud=backupField(data,'cloud'),frenzy=backupField(data,'frenzy');
+ return {...(data.game===undefined?{}:{game:validateGame(data.game,bank)}),...(cloud===undefined?{}:{cloud:validateSyncDocument(cloud)}),...(frenzy===undefined?{}:{frenzy:validateFrenzy(frenzy,bank)}),records,reading,prefs,saved:[...new Set(data.saved)],log,goal:[5,10,20,30].includes(data.goal)?data.goal:10};
 }

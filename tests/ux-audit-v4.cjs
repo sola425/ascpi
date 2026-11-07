@@ -1,11 +1,12 @@
 // Independent UX audit: APP_URL=http://127.0.0.1:3000 node tests/ux-audit-v4.cjs
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const path=require('node:path');
+const appVersion=require('../package.json').version;
 let chromium;try{({chromium}=require('playwright'))}catch{({chromium}=require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'))}
 const appURL=process.env.APP_URL||'http://127.0.0.1:3000';assert.equal(new URL(appURL).origin,'http://127.0.0.1:3000','UX audit must use the loopback test server.');
 const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'utf8'));
-assert.equal(catalog.version,'5.0.0');assert.equal(catalog.availableQuestions,3760);assert.equal(catalog.excludedQuestions,193);assert.equal(catalog.missingSourceQuestions,93);
-const report={version:'5.0.0',startedAt:new Date().toISOString(),environment:'Headless desktop Chromium with simulated CSS viewports and touch input; not a physical Android device or Android WebView.',catalog:{availableQuestions:catalog.availableQuestions,excludedQuestions:catalog.excludedQuestions,missingSourceQuestions:catalog.missingSourceQuestions,books:catalog.books.map(({id,questions})=>({id,questions}))},checks:[],issues:[],screenshots:[],errors:[]},dir='/tmp/labwise-ux-audit-v5';fs.mkdirSync(dir,{recursive:true});
+assert.equal(catalog.version,appVersion);assert.equal(catalog.availableQuestions,3760);assert.equal(catalog.excludedQuestions,193);assert.equal(catalog.missingSourceQuestions,93);
+const report={version:appVersion,startedAt:new Date().toISOString(),environment:'Headless desktop Chromium with simulated CSS viewports and touch input; not a physical Android device or Android WebView.',catalog:{availableQuestions:catalog.availableQuestions,excludedQuestions:catalog.excludedQuestions,missingSourceQuestions:catalog.missingSourceQuestions,books:catalog.books.map(({id,questions})=>({id,questions}))},checks:[],issues:[],screenshots:[],errors:[]},dir=`/tmp/labwise-ux-audit-v${appVersion.split('.')[0]}`;fs.mkdirSync(dir,{recursive:true});
 let auditBrowser;
 const sizes=[{width:320,height:568},{width:390,height:844},{width:568,height:320},{width:768,height:1024},{width:820,height:1180},{width:1024,height:768}];
 (async()=>{const browser=auditBrowser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
@@ -17,6 +18,7 @@ const reachable=async(selector,tag)=>{const value=await page.locator(selector).e
 const verified=(tag,details={})=>report.checks.push({size,tag,...details});
 try{
 await page.goto(appURL);await page.getByRole('heading',{name:'Make room for a little discovery.'}).waitFor();
+if(await page.locator('[data-action="tour-skip"]').isVisible())await page.locator('[data-action="tour-skip"]').click();
 assert.equal(await page.locator('.sidebar nav button:visible').count(),size.width<720?5:7);assert.equal(await page.locator('.sidebar [data-view="play"]:visible').count(),size.width<720?0:1);assert.equal(await page.locator('.play-header:visible').count(),1);await reachable('.play-header','play-header');assert.equal((await page.locator('.stat').first().locator('small').innerText()).trim(),`/ ${catalog.availableQuestions.toLocaleString('en-US')}`);await overflow('home');await shot('home-light-standard');
 const media=await page.evaluate(()=>[...document.styleSheets].flatMap(s=>[...s.cssRules]).filter(r=>r.type===CSSRule.MEDIA_RULE).map(r=>({condition:r.conditionText,matches:matchMedia(r.conditionText).matches})));verified('parsed-media-queries',{rules:media});if(media.some(r=>r.condition==='not all'))report.issues.push({size,tag:'parsed-media-queries',type:'invalid-media-query',rules:media});
 await act('settings');await page.locator('#font-size').selectOption('1.3');await act('theme');assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');await shot('settings-dark-largest');await overflow('settings');await page.locator('#modal .dialog-footer button').last().scrollIntoViewIfNeeded();await reachable('#modal .dialog-footer button:last-child','settings-done');await act('close-dialog');

@@ -2,13 +2,14 @@
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
+const appVersion = require('../package.json').version;
 let chromium;
 try { ({chromium} = require('playwright')); }
 catch { ({chromium} = require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')); }
 
 const appURL = process.env.APP_URL || 'http://127.0.0.1:3000';
 assert.equal(new URL(appURL).origin, 'http://127.0.0.1:3000', 'Use the authorized loopback test server.');
-const artifactDir = '/tmp/labwise-game-v5';
+const artifactDir = `/tmp/labwise-game-v${appVersion.split('.')[0]}`;
 const rawBank = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/study-bank.json'), 'utf8'));
 const teaching = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/teaching.json'), 'utf8'));
 const bundled = rawBank.map(q => ({...q, ...(teaching[q.id] ? {teaching: teaching[q.id]} : {})}));
@@ -82,7 +83,7 @@ async function mathFixtures() {
 
 async function run() {
   fs.mkdirSync(artifactDir, {recursive: true});
-  const report = {startedAt: new Date().toISOString(), environment: 'Headless Chromium; native speech bridge mocked; no audio captured.', scenarios: [], checks: [], screenshots: [], errors: []};
+  const report = {version: appVersion, startedAt: new Date().toISOString(), environment: 'Headless Chromium; native speech bridge mocked; no audio captured.', scenarios: [], checks: [], screenshots: [], errors: []};
   const browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', args: ['--no-sandbox']});
   const fixture = await mathFixtures();
   assert.equal(fixture.length, 5);
@@ -102,6 +103,7 @@ async function run() {
       if (options.clock) await page.clock.install();
       await page.goto(appURL);
       await page.getByRole('heading', {name: 'Make room for a little discovery.', exact: true}).waitFor();
+      if (await page.locator('[data-action="tour-skip"]').isVisible()) await page.locator('[data-action="tour-skip"]').click();
       await fn(page, context);
       assert.deepEqual(pageErrors, [], 'No uncaught application errors.');
       report.scenarios.push({name, status: 'passed'});
@@ -248,7 +250,7 @@ async function run() {
       const backupPath = path.join(artifactDir, 'active-round-backup.json');
       await download.saveAs(backupPath);
       const backup = JSON.parse(fs.readFileSync(backupPath, 'utf8'));
-      assert.equal(backup.version, 3);
+      assert.equal(backup.version, 4);
       assert.deepEqual(backup.game, before.game);
       assert.deepEqual(backup.records, before.records);
       const empty = {version: 3, records: {}, saved: [], log: [], goal: 20};
@@ -428,5 +430,5 @@ async function run() {
   if (report.errors.length) process.exitCode = 1;
 }
 
-module.exports = {chromium, appURL, artifactDir, bundled, byId, action, nav, stored, currentQuestion, importBank, mathFixtures};
+module.exports = {chromium, appURL, appVersion, artifactDir, bundled, byId, action, nav, stored, currentQuestion, importBank, mathFixtures};
 if (require.main === module) run().catch(error => {console.error(error); process.exitCode = 1;});

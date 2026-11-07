@@ -5,6 +5,7 @@ const RATINGS = new Set(['again', 'hard', 'good', 'easy']);
 const COUNTERS = ['attempted', 'correct', 'recoveryAttempts', 'recoveryCorrect', 'completedRuns', 'memoryChecks'];
 const LEVEL_XP = 250;
 const MAX_TIME = 253402297199999;
+const SYNC_RUN_ID = /^g-[a-f0-9]{32}$/;
 const dayFormat = new Intl.DateTimeFormat('en-CA', {timeZone: 'Africa/Lagos', year: 'numeric', month: '2-digit', day: '2-digit'});
 const own = (object, key) => Object.hasOwn(object, key);
 const dictionary = () => Object.create(null);
@@ -89,6 +90,7 @@ export function blankGame() {
 
 function readActive(value, bank) {
   if (!object(value) || !key(value.id) || typeof value.topic !== 'string' || value.topic && !key(value.topic)
+    || value.syncId !== undefined && (typeof value.syncId !== 'string' || !SYNC_RUN_ID.test(value.syncId))
     || !validDay(value.day) || !timestamp(value.startedAt) || dayKey(value.startedAt) !== value.day
     || !['question', 'feedback', 'complete'].includes(value.phase) || !integer(value.index)
     || !integer(value.elapsedMs) || !integer(value.runXP) || ![0, 10].includes(value.completionXP)
@@ -138,7 +140,7 @@ function readActive(value, bank) {
     recalled.add(recall.id);
     return {id: recall.id, rating: recall.rating, at: recall.at};
   });
-  return {id: value.id, topic: value.topic, day: value.day, phase: value.phase, queue, index: value.index, answers,
+  return {id: value.id, ...(value.syncId === undefined ? {} : {syncId: value.syncId}), topic: value.topic, day: value.day, phase: value.phase, queue, index: value.index, answers,
     elapsedMs: value.elapsedMs, runXP: value.runXP, completionXP: value.completionXP, startedAt: value.startedAt, completedAt: value.completedAt, recalls};
 }
 
@@ -198,11 +200,15 @@ export function validateGame(value, bank) {
   if (value.active !== null && value.active !== undefined) {
     try {
       const active = readActive(value.active, bank);
-      if (active.id !== `${active.day}:${result.sequence}` || active.runXP > result.xp
+      const localSequence = Number(active.id.slice(active.day.length + 1));
+      if (active.id !== `${active.day}:${localSequence}` || !Number.isSafeInteger(localSequence) || localSequence < 1 || localSequence > result.sequence) fail('invalid session sequence.');
+      // The shared history can select another branch of a copied synced run.
+      // Its internally validated, device-local round must still be resumable.
+      if (!active.syncId && (active.runXP > result.xp
         || active.answers.some(answer => !result.days[dayKey(answer.at)]?.attempted.includes(answer.id)
           || answer.correct && !result.days[dayKey(answer.at)]?.correct.includes(answer.id))
         || active.recalls.some(recall => !result.days[dayKey(recall.at)]?.recall.includes(recall.id))
-        || active.phase === 'complete' && !result.days[dayKey(active.completedAt)]?.completedRuns) fail('session is not recorded.');
+        || active.phase === 'complete' && !result.days[dayKey(active.completedAt)]?.completedRuns)) fail('session is not recorded.');
       result.active = active;
     } catch { result.active = null; }
   }

@@ -10,6 +10,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.security.keystore.KeyGenParameterSpec;
+import android.security.keystore.KeyProperties;
 import android.speech.RecognizerIntent;
 import android.webkit.JavascriptInterface;
 import android.webkit.ValueCallback;
@@ -22,18 +24,37 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URI;
+import java.nio.ByteBuffer;
+import java.nio.charset.CodingErrorAction;
 import java.nio.charset.StandardCharsets;
+import java.security.GeneralSecurityException;
+import java.security.KeyStore;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Locale;
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.GCMParameterSpec;
 
-/** Offline asset host. Optional speech is delegated to the device's external speech provider. */
+/** Bundled study host with opt-in account APIs. Speech uses the external device provider. */
 public final class MainActivity extends Activity {
   private static final String HOST="appassets.androidplatform.net";
+  private static final int MAX_SYNC_CONFIG_BYTES=16*1024;
+  private static final String SYNC_AUTH_STORAGE_KEY="labwise-sync-auth-v1";
+  private static final String SYNC_SESSION_PREFERENCES="sync-session";
+  private static final String SYNC_KEY_ALIAS="LabwiseSyncSessionKeyV1";
   private static final int PICK_JSON=101, SAVE_JSON=102;
   private static int nextVoiceRequest=2000;
+  private volatile SyncPolicy syncPolicy=SyncPolicy.disabled();
+  private final Object secureSessionLock=new Object();
   private WebView web;
   private ValueCallback<Uri[]> chooser;
   private String pendingExport;
@@ -45,6 +66,7 @@ public final class MainActivity extends Activity {
 
   @Override public void onCreate(Bundle state) {
     super.onCreate(state);
+    syncPolicy=readSyncPolicy();
     if(state!=null){pendingExport=state.getString("export");pendingName=state.getString("exportName");}
     getWindow().setStatusBarColor(Color.rgb(35,75,62));
     getWindow().setNavigationBarColor(Color.rgb(35,75,62));
@@ -77,7 +99,12 @@ public final class MainActivity extends Activity {
       @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap icon){cancelNativeVoice(false);}
       @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
         Uri uri=request.getUrl();
-        if(!"https".equals(uri.getScheme())||!HOST.equals(uri.getHost()))return error(403,"Network unavailable in offline app");
+        if(!isAssetOrigin(uri)){
+          // Only this immutable, bundled configuration can authorize network access.
+          // Returning null keeps normal WebView TLS validation and CORS in force.
+          if(syncPolicy.allows(uri.toString(),request.getMethod(),request.isForMainFrame()))return null;
+          return error(403,"This connection is not enabled in Labwise.");
+        }
         String path=uri.getPath();
         if(path==null||!path.startsWith("/assets/")||path.contains("..")||path.contains("\\"))return error(403,"Invalid asset path");
         path=path.substring(8);
@@ -86,7 +113,7 @@ public final class MainActivity extends Activity {
           InputStream data=getAssets().open(path);
           Map<String,String> headers=new HashMap<>();
           headers.put("X-Content-Type-Options","nosniff");
-          headers.put("Content-Security-Policy","default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'");
+          headers.put("Content-Security-Policy",syncPolicy.contentSecurityPolicy());
           String mime=mime(path);
           return new WebResourceResponse(mime,mime.startsWith("text/")||mime.contains("json")?"UTF-8":null,200,"OK",headers,data);
         }catch(Exception ex){return error(404,"Asset not found");}
@@ -94,7 +121,8 @@ public final class MainActivity extends Activity {
       @Override public boolean shouldOverrideUrlLoading(WebView view,WebResourceRequest request){return openLink(request.getUrl());}
       @Override public boolean shouldOverrideUrlLoading(WebView view,String url){return openLink(Uri.parse(url));}
       @Override public void onPageFinished(WebView view,String url){
-        if(url.startsWith("https://"+HOST+"/assets/"))view.evaluateJavascript("document.documentElement.classList.add('android-app')",null);
+        Uri uri=Uri.parse(url);
+        if(isAssetOrigin(uri)&&uri.getPath()!=null&&uri.getPath().startsWith("/assets/"))view.evaluateJavascript("document.documentElement.classList.add('android-app')",null);
       }
     });
     web.setWebChromeClient(new WebChromeClient(){
@@ -119,17 +147,18 @@ public final class MainActivity extends Activity {
   }
 
   private boolean openLink(Uri uri){
-    if("https".equals(uri.getScheme())&&HOST.equals(uri.getHost())){
+    if(isAssetOrigin(uri)){
       String documentId=documentId(uri);
       if(documentId!=null){openPdf(documentId,linkPage(uri));return true;}
       return uri.getPath()==null||!uri.getPath().startsWith("/assets/");
     }
     // App content cannot navigate to arbitrary schemes or expose its native bridge remotely.
-    toast("This study app works offline. External links are not opened here.");
+    toast("External links are not opened here. Use the Updates button to check for an app update.");
     return true;
   }
+  private static boolean isAssetOrigin(Uri uri){return "https".equals(uri.getScheme())&&HOST.equals(uri.getHost())&&uri.getUserInfo()==null&&(uri.getPort()==-1||uri.getPort()==443);}
   private static String documentId(Uri uri){
-    if(!"https".equals(uri.getScheme())||!HOST.equals(uri.getHost()))return null;
+    if(!isAssetOrigin(uri))return null;
     String path=uri.getPath();
     if("/assets/docs/textbook.pdf".equals(path))return "textbook";
     if("/assets/docs/boc-1.pdf".equals(path))return "boc1";
@@ -157,6 +186,142 @@ public final class MainActivity extends Activity {
   }
   private static WebResourceResponse error(int status,String message){return new WebResourceResponse("text/plain","UTF-8",status,status==404?"Not Found":"Forbidden",new HashMap<>(),new ByteArrayInputStream(message.getBytes(StandardCharsets.UTF_8)));}
   private void toast(String text){runOnUiThread(()->Toast.makeText(this,text,Toast.LENGTH_LONG).show());}
+
+  private SyncPolicy readSyncPolicy(){
+    try(InputStream input=getAssets().open("sync-config.json");ByteArrayOutputStream output=new ByteArrayOutputStream()){
+      byte[] buffer=new byte[1024];int count;
+      while((count=input.read(buffer))!=-1){
+        if(output.size()+count>MAX_SYNC_CONFIG_BYTES)return SyncPolicy.disabled();
+        output.write(buffer,0,count);
+      }
+      org.json.JSONObject config=new org.json.JSONObject(new String(output.toByteArray(),StandardCharsets.UTF_8));
+      return SyncPolicy.configured(Boolean.TRUE.equals(config.opt("enabled")),config.optString("url",null));
+    }catch(Exception ignored){return SyncPolicy.disabled();}
+  }
+
+  /** Pure URL policy, shared by the asset CSP and the request interceptor. */
+  static final class SyncPolicy {
+    final String origin;
+    private SyncPolicy(String value){origin=value;}
+    static SyncPolicy disabled(){return new SyncPolicy(null);}
+    static SyncPolicy configured(boolean enabled,String value){
+      if(!enabled||value==null||value.length()>256)return disabled();
+      try{
+        URI uri=new URI(value);String host=uri.getHost();
+        if(!"https".equals(uri.getScheme())||host==null||!host.matches("[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.supabase\\.co")||!validAuthority(uri)||uri.getRawQuery()!=null||uri.getRawFragment()!=null||!"".equals(uri.getRawPath()))return disabled();
+        return new SyncPolicy("https://"+host);
+      }catch(Exception ignored){return disabled();}
+    }
+    private static boolean validAuthority(URI uri){
+      int port=uri.getPort();
+      return uri.getRawUserInfo()==null&&(port==-1||port==443)&&(uri.getHost()+(port==443?":443":"")).equals(uri.getRawAuthority());
+    }
+    boolean allows(String value,String method,boolean mainFrame){
+      if(origin==null||mainFrame||value==null||value.length()>8192)return false;
+      try{
+        URI uri=new URI(value);
+        if(!"https".equals(uri.getScheme())||!validAuthority(uri)||!origin.equals("https://"+uri.getHost())||uri.getRawFragment()!=null)return false;
+        String path=uri.getRawPath();
+        boolean user="/auth/v1/user".equals(path);
+        boolean auth=user||"/auth/v1/token".equals(path)||"/auth/v1/signup".equals(path)||"/auth/v1/recover".equals(path)||"/auth/v1/logout".equals(path);
+        boolean rpc="/rest/v1/rpc/labwise_read_progress".equals(path)||"/rest/v1/rpc/labwise_write_progress".equals(path)||"/rest/v1/rpc/labwise_create_challenge".equals(path)||"/rest/v1/rpc/labwise_join_challenge".equals(path)||"/rest/v1/rpc/labwise_get_challenge".equals(path)||"/rest/v1/rpc/labwise_get_turn".equals(path)||"/rest/v1/rpc/labwise_submit_answer".equals(path)||"/rest/v1/rpc/labwise_next_turn".equals(path)||"/rest/v1/rpc/labwise_list_challenges".equals(path);
+        if(!auth&&!rpc)return false;
+        if(rpc&&uri.getRawQuery()!=null)return false;
+        if("OPTIONS".equals(method))return true;
+        return user?("GET".equals(method)||"PUT".equals(method)):"POST".equals(method);
+      }catch(Exception ignored){return false;}
+    }
+    String contentSecurityPolicy(){
+      return "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'"+(origin==null?"":" "+origin)+"; object-src 'none'; base-uri 'none'; form-action 'none'";
+    }
+  }
+
+  /** AES/GCM envelopes contain only ciphertext; AndroidKeyStore supplies the nonexportable key. */
+  static final class SecureSyncCodec {
+    static final int MAX_BYTES=64*1024;
+    private static final byte[] AAD=(SYNC_AUTH_STORAGE_KEY+"|v1").getBytes(StandardCharsets.UTF_8);
+    static String encrypt(String json,SecretKey key)throws GeneralSecurityException{
+      if(json==null||json.length()>MAX_BYTES)throw new IllegalArgumentException("Invalid session size");
+      byte[] plain=json.getBytes(StandardCharsets.UTF_8);
+      if(plain.length>MAX_BYTES)throw new IllegalArgumentException("Invalid session size");
+      Cipher cipher=Cipher.getInstance("AES/GCM/NoPadding");
+      // The provider generates a new random IV for every write.
+      cipher.init(Cipher.ENCRYPT_MODE,key);cipher.updateAAD(AAD);
+      byte[] iv=cipher.getIV();
+      if(iv==null||iv.length!=12)throw new GeneralSecurityException("Invalid session IV");
+      return "v1."+Base64.getEncoder().encodeToString(iv)+"."+Base64.getEncoder().encodeToString(cipher.doFinal(plain));
+    }
+    static String decrypt(String encoded,SecretKey key)throws GeneralSecurityException{
+      if(encoded==null||encoded.length()>MAX_BYTES*2)throw new IllegalArgumentException("Invalid session size");
+      String[] parts=encoded.split("\\.",-1);
+      if(parts.length!=3||!"v1".equals(parts[0]))throw new IllegalArgumentException("Invalid session envelope");
+      byte[] iv=Base64.getDecoder().decode(parts[1]),ciphertext=Base64.getDecoder().decode(parts[2]);
+      if(iv.length!=12||ciphertext.length<16||ciphertext.length>MAX_BYTES+16)throw new IllegalArgumentException("Invalid session size");
+      Cipher cipher=Cipher.getInstance("AES/GCM/NoPadding");
+      cipher.init(Cipher.DECRYPT_MODE,key,new GCMParameterSpec(128,iv));cipher.updateAAD(AAD);
+      byte[] plain=cipher.doFinal(ciphertext);
+      try{return StandardCharsets.UTF_8.newDecoder().onMalformedInput(CodingErrorAction.REPORT).onUnmappableCharacter(CodingErrorAction.REPORT).decode(ByteBuffer.wrap(plain)).toString();}
+      catch(java.nio.charset.CharacterCodingException ex){throw new GeneralSecurityException("Invalid session encoding");}
+    }
+  }
+  private SecretKey secureSyncKey(boolean create)throws Exception{
+    KeyStore store=KeyStore.getInstance("AndroidKeyStore");store.load(null);
+    java.security.Key existing=store.getKey(SYNC_KEY_ALIAS,null);
+    if(existing!=null){if(!(existing instanceof SecretKey))throw new GeneralSecurityException("Invalid session key");return (SecretKey)existing;}
+    if(!create)return null;
+    KeyGenerator generator=KeyGenerator.getInstance(KeyProperties.KEY_ALGORITHM_AES,"AndroidKeyStore");
+    generator.init(new KeyGenParameterSpec.Builder(SYNC_KEY_ALIAS,KeyProperties.PURPOSE_ENCRYPT|KeyProperties.PURPOSE_DECRYPT).setBlockModes(KeyProperties.BLOCK_MODE_GCM).setEncryptionPaddings(KeyProperties.ENCRYPTION_PADDING_NONE).setKeySize(256).setRandomizedEncryptionRequired(true).build());
+    return generator.generateKey();
+  }
+  private static boolean validSecureSyncJson(String json){
+    if(json==null||json.length()>SecureSyncCodec.MAX_BYTES||json.getBytes(StandardCharsets.UTF_8).length>SecureSyncCodec.MAX_BYTES)return false;
+    try{
+      org.json.JSONTokener parser=new org.json.JSONTokener(json);Object value=parser.nextValue();
+      return value instanceof org.json.JSONObject&&parser.nextClean()==0&&validSecureSyncValue(value,0);
+    }catch(org.json.JSONException|StackOverflowError ignored){return false;}
+  }
+  private static boolean validSecureSyncValue(Object value,int depth)throws org.json.JSONException{
+    if(depth>32)return false;
+    if(value instanceof org.json.JSONObject){
+      org.json.JSONObject object=(org.json.JSONObject)value;Iterator<String> keys=object.keys();
+      while(keys.hasNext()){
+        String key=keys.next(),name=key.toLowerCase(Locale.ROOT);
+        if(name.contains("password")||"passphrase".equals(name)||"secret".equals(name)||!validSecureSyncValue(object.get(key),depth+1))return false;
+      }
+    }else if(value instanceof org.json.JSONArray){
+      org.json.JSONArray array=(org.json.JSONArray)value;
+      for(int i=0;i<array.length();i++)if(!validSecureSyncValue(array.get(i),depth+1))return false;
+    }
+    return true;
+  }
+  private String readSecureSession(String key){
+    if(!SYNC_AUTH_STORAGE_KEY.equals(key))return null;
+    synchronized(secureSessionLock){
+      try{
+        String encrypted=getSharedPreferences(SYNC_SESSION_PREFERENCES,MODE_PRIVATE).getString(key,null);
+        if(encrypted==null)return null;
+        SecretKey secret=secureSyncKey(false);if(secret==null)return null;
+        String json=SecureSyncCodec.decrypt(encrypted,secret);
+        return validSecureSyncJson(json)?json:null;
+      }catch(Exception ignored){return null;}
+    }
+  }
+  private boolean writeSecureSession(String key,String json){
+    if(!SYNC_AUTH_STORAGE_KEY.equals(key)||!validSecureSyncJson(json))return false;
+    synchronized(secureSessionLock){
+      try{
+        String encrypted=SecureSyncCodec.encrypt(json,secureSyncKey(true));
+        return getSharedPreferences(SYNC_SESSION_PREFERENCES,MODE_PRIVATE).edit().putString(key,encrypted).commit();
+      }catch(Exception ignored){return false;}
+    }
+  }
+  private boolean clearSecureSession(String key){
+    if(!SYNC_AUTH_STORAGE_KEY.equals(key))return false;
+    synchronized(secureSessionLock){
+      try{return getSharedPreferences(SYNC_SESSION_PREFERENCES,MODE_PRIVATE).edit().remove(key).commit();}
+      catch(Exception ignored){return false;}
+    }
+  }
 
   private static boolean validVoiceToken(String token){return token!=null&&token.length()<=96&&token.matches("lwvoice_[a-z0-9]+_[a-z0-9]+_[a-z0-9]+");}
   private static String voiceLanguage(String language){return language!=null&&language.length()<=63&&language.matches("[a-zA-Z]{2,8}(-[a-zA-Z0-9]{1,8}){0,6}")?language:"en-US";}
@@ -216,7 +381,10 @@ public final class MainActivity extends Activity {
   }
 
   private final class NativeBridge {
-    @JavascriptInterface public String version(){return "5.0.0";}
+    @JavascriptInterface public String version(){return "6.0.0";}
+    @JavascriptInterface public String readSecureSyncSession(String key){return readSecureSession(key);}
+    @JavascriptInterface public boolean writeSecureSyncSession(String key,String json){return writeSecureSession(key,json);}
+    @JavascriptInterface public boolean clearSecureSyncSession(String key){return clearSecureSession(key);}
     @JavascriptInterface public void startVoiceInput(String token,String language){if(validVoiceToken(token))runOnUiThread(()->startNativeVoice(token,language));}
     @JavascriptInterface public void cancelVoiceInput(String token){if(validVoiceToken(token))runOnUiThread(()->{if(token.equals(voiceToken))cancelNativeVoice(true);});}
     @JavascriptInterface public void openTextbook(int page){openDocument("textbook",page);}

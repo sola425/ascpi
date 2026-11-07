@@ -3,12 +3,13 @@ const assert=require('node:assert/strict');
 let chromium;try{({chromium}=require('playwright'))}catch{({chromium}=require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'))}
 const fs=require('node:fs');
 const path=require('node:path');
+const appVersion=require('../package.json').version;
 const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'utf8'));
 const bundled=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/study-bank.json'),'utf8'));
 const appURL=process.env.APP_URL||'http://127.0.0.1:3000';
 assert.equal(new URL(appURL).origin,'http://127.0.0.1:3000','Browser checks must use the loopback test server.');
-const artifactDir='/tmp/labwise-browser-v5';fs.mkdirSync(artifactDir,{recursive:true});
-const report={version:'5.0.0',catalog:{availableQuestions:catalog.availableQuestions,books:catalog.books.map(({id,questions})=>({id,questions}))},checks:[],screenshots:[],errors:[]};
+const artifactDir=`/tmp/labwise-browser-v${appVersion.split('.')[0]}`;fs.mkdirSync(artifactDir,{recursive:true});
+const report={version:appVersion,catalog:{availableQuestions:catalog.availableQuestions,books:catalog.books.map(({id,questions})=>({id,questions}))},checks:[],screenshots:[],errors:[]};
 let testBrowser;
 (async()=>{
  const browser=testBrowser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
@@ -20,7 +21,8 @@ let testBrowser;
  const action=async a=>page.locator(`[data-action="${a}"]:visible`).first().click();
  const start=async(kind,opts={})=>{await action(`setup-${kind}`);if(opts.book)await page.locator('#setup-book').selectOption(opts.book);if(opts.mode)await page.locator('#setup-mode').selectOption(opts.mode);await page.locator('#setup-size').selectOption(String(opts.size||5));await page.locator('#setup-shuffle').uncheck();await action('confirm-session');if(await page.locator('[data-action="start-new"]').isVisible())await action('start-new');};
  await page.goto(appURL);await page.getByRole('heading',{name:'Make room for a little discovery.'}).waitFor();
- assert.equal(catalog.version,'5.0.0');assert.equal(catalog.availableQuestions,3760);assert.equal(catalog.excludedQuestions,193);assert.equal(catalog.missingSourceQuestions,93);assert.equal(bundled.reduce((n,q)=>n+q.options.length,0),15046);assert.deepEqual(catalog.documents.map(d=>d.id),['textbook','boc1','boc2']);
+ if(await page.locator('[data-action="tour-skip"]').isVisible())await page.locator('[data-action="tour-skip"]').click();
+ assert.equal(catalog.version,appVersion);assert.equal(catalog.availableQuestions,3760);assert.equal(catalog.excludedQuestions,193);assert.equal(catalog.missingSourceQuestions,93);assert.equal(bundled.reduce((n,q)=>n+q.options.length,0),15046);assert.deepEqual(catalog.documents.map(d=>d.id),['textbook','boc1','boc2']);
  assert.equal(bundled.length,catalog.availableQuestions);assert.equal(await page.locator('.topic').count(),new Set(bundled.map(q=>q.topic)).size);
  assert.equal((await page.locator('.stat').first().locator('small').innerText()).trim(),`/ ${catalog.availableQuestions.toLocaleString('en-US')}`);
  checked('active bank and subject totals match catalog',{questions:bundled.length});await shot('desktop-light-standard');
@@ -71,5 +73,5 @@ let testBrowser;
   await page.setViewportSize(size);assert.equal(await page.locator('.sidebar nav button:visible').count(),size.width<720?5:7);assert.equal(await page.locator('.sidebar [data-view="play"]:visible').count(),size.width<720?0:1);assert.equal(await page.locator('.play-header:visible').count(),1);for(const v of ['home','play','practice','cards','library','progress','saved']){if(v==='saved')await page.getByRole('button',{name:'Saved questions',exact:true}).click();else await nav(v);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,`${size.width}px overflow in ${v}`);checked('responsive destination',{size,view:v});}
   await nav('home');await shot(`${size.width}x${size.height}-dark-largest`);
  }
- assert.deepEqual(errors,[]);report.errors=errors;fs.writeFileSync(path.join(artifactDir,'report.json'),JSON.stringify(report,null,2));console.log(`PASS: ${report.checks.length} checks; v5.0.0, ${catalog.availableQuestions} active questions; bounded sessions, every-choice/source tabs, resume/reload, source scopes/search, deferred exams, stable new-card queue, separate recall ratings, three readers and saved pages, v1/v2/v3 restore preview/undo, import preview/IndexedDB persistence/safe text, dark large type, six viewports and seven destinations including Play. Report: ${artifactDir}/report.json`);await browser.close();
+ assert.deepEqual(errors,[]);report.errors=errors;fs.writeFileSync(path.join(artifactDir,'report.json'),JSON.stringify(report,null,2));console.log(`PASS: ${report.checks.length} checks; v${appVersion}, ${catalog.availableQuestions} active questions; bounded sessions, every-choice/source tabs, resume/reload, source scopes/search, deferred exams, stable new-card queue, separate recall ratings, three readers and saved pages, v1/v2/v3 restore preview/undo, import preview/IndexedDB persistence/safe text, dark large type, six viewports and seven destinations including Play. Report: ${artifactDir}/report.json`);await browser.close();
 })().catch(async e=>{report.errors.push({fatal:e.stack});fs.writeFileSync(path.join(artifactDir,'report.json'),JSON.stringify(report,null,2));await testBrowser?.close();console.error(e);process.exitCode=1});

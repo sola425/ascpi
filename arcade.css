@@ -1,0 +1,297 @@
+/* Scoped presentation for the solo Frenzy and private friend Duel screens. */
+.arcade {
+  --arcade-accent: var(--green, #234b3e);
+  --arcade-heart: #a65545;
+  --arcade-missed-bg: #fbf0e9;
+  --arcade-clock-bg: #234b3e;
+  --arcade-clock-ink: #fff;
+  color: var(--ink, #243d32);
+  width: 100%;
+  max-width: 960px;
+  min-width: 0;
+  margin: 0 auto;
+  overflow-wrap: anywhere;
+}
+.arcade *, .arcade *::before, .arcade *::after { box-sizing: border-box; }
+.arcade .arcade-btn { min-width: 44px; min-height: 44px; white-space: normal; }
+.arcade :where(button, input, select, summary):focus-visible { outline: 3px solid #8b9f61; outline-offset: 3px; }
+.arcade .arcade-button-row { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 10px; }
+.arcade-header { padding: 30px 0 21px; }
+.arcade-header .eyebrow { margin: 0 0 10px; font-size: 10px; line-height: 1.6; }
+.arcade-topline { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
+.arcade-topline h1 { flex: 1; min-width: 0; margin: 0; font-size: clamp(28px, 3.7vw, 39px); line-height: 1.2; letter-spacing: -.8px; }
+.arcade-topline > .arcade-btn, .arcade-topline > .arcade-button-row { flex-shrink: 0; }
+.arcade-duel .arcade-header [data-action="arcade-hub"] svg { transform: rotate(180deg); }
+.arcade-subtitle { margin: 12px 0 0; max-width: 720px; font-size: 13px; line-height: 1.7; }
+.arcade-score-strip { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 108px; gap: 12px; }
+.arcade-stat { min-width: 0; padding: 15px 20px; background: var(--surface, #fff); border: 1px solid var(--line, #dfe5d8); border-radius: 12px; }
+.arcade-stat-label { display: block; margin-bottom: 10px; color: var(--muted, #687568); font-size: 11px; font-weight: 650; }
+.arcade-stat > strong { display: block; color: var(--arcade-accent); font-size: 29px; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.arcade-stat > strong small { font-size: 11px; font-weight: 500; color: var(--muted, #687568); }
+.arcade-hearts { display: inline-flex; flex-wrap: nowrap; align-items: center; gap: 5px; color: var(--arcade-heart); vertical-align: middle; }
+.arcade-heart { display: block; flex: 0 0 auto; }
+.arcade-heart svg { width: 22px; height: 22px; }
+.arcade-heart.is-used { color: var(--muted, #687568); opacity: .55; }
+.arcade-heart.is-used svg { fill: none; }
+.arcade-heart-count { margin-left: 4px; color: var(--ink, #243d32); font-size: 16px; line-height: 1; font-weight: 700; font-variant-numeric: tabular-nums; }
+.arcade-heart-count small { color: var(--muted, #687568); font-size: 11px; font-weight: 500; }
+.arcade-clock-box { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 94px; padding: 12px; border: 1px solid var(--arcade-clock-bg); border-radius: 12px; background: var(--arcade-clock-bg); color: var(--arcade-clock-ink); }
+.arcade-clock { font-size: 35px; font-weight: 750; line-height: 1.15; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.arcade-clock small { margin-left: 2px; font-size: 15px; font-weight: 500; }
+.arcade-clock-label { color: #e1ebde; font-size: 10px; }
+.arcade-timer-track { height: 8px; margin: 12px 0 22px; overflow: hidden; border-radius: 10px; background: var(--soft, #edf2e4); }
+.arcade-timer-bar { display: block; height: 100%; max-width: 100%; background: var(--arcade-accent); }
+.arcade-timer-track.is-urgent .arcade-timer-bar { background: var(--arcade-heart); }
+.arcade-paused { display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 3px; padding: 10px; border: 1px solid var(--line, #dfe5d8); border-radius: 12px; background: var(--soft, #edf2e4); text-align: center; }
+.arcade-paused svg { width: 19px; height: 19px; margin-bottom: 3px; color: var(--arcade-accent); }
+.arcade-paused strong { font-size: 12px; line-height: 1.4; }
+.arcade-paused > span:last-child { color: var(--muted, #687568); font-size: 10px; }
+.arcade-question { min-width: 0; padding: 27px; border: 1px solid var(--line, #dfe5d8); border-radius: 15px; background: var(--surface, #fff); }
+.arcade-question-meta { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 15px; margin-bottom: 17px; }
+.arcade-question-meta .badge { max-width: 100%; }
+.arcade-source { max-width: 100%; color: var(--muted, #687568); font-size: 11px; }
+.arcade .question-text { margin: 0; font-size: calc(25px * var(--font-scale, 1)); line-height: 1.45; letter-spacing: -.2px; }
+.arcade-options { display: grid; gap: 11px; margin-top: 24px; }
+.arcade-option { display: grid; grid-template-columns: 31px minmax(0, 1fr); align-items: start; gap: 13px; width: 100%; min-height: 58px; padding: 14px 16px; border: 1px solid var(--line, #dfe5d8); border-radius: 10px; background: var(--paper, #f7f8f2); color: var(--ink, #243d32); text-align: left; font: inherit; font-size: calc(15px * var(--font-scale, 1)); line-height: 1.6; }
+.arcade-option > b { display: grid; place-items: center; width: 28px; height: 28px; border: 1px solid var(--line, #dfe5d8); border-radius: 8px; background: var(--surface, #fff); color: var(--arcade-accent); font-size: 12px; }
+.arcade-option > span { padding-top: 1px; }
+.arcade-option:hover:not(:disabled) { border-color: var(--arcade-accent); background: var(--soft, #edf2e4); }
+.arcade-option:disabled { cursor: default; }
+.arcade-option-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.arcade-round-note { margin: 15px 0 5px; color: var(--ink, #243d32); font-size: 12px; font-weight: 600; }
+.arcade-small-note { margin: 10px 0 0; color: var(--muted, #687568); font-size: 12px; line-height: 1.7; }
+.arcade-feedback { display: grid; grid-template-columns: 25px minmax(0, 1fr) auto; align-items: start; gap: 14px; margin-top: 20px; padding: 22px; border: 1px solid var(--arcade-accent); border-radius: 13px; background: var(--soft, #edf2e4); }
+.arcade-feedback.is-missed { background: var(--arcade-missed-bg); border-color: var(--arcade-heart); }
+.arcade-feedback-icon { padding-top: 1px; color: var(--arcade-accent); }
+.arcade-feedback.is-missed .arcade-feedback-icon { color: var(--arcade-heart); }
+.arcade-feedback strong { display: block; font-size: 16px; line-height: 1.5; }
+.arcade-feedback p { margin: 7px 0 0; color: var(--ink, #243d32); font-size: 14px; line-height: 1.65; }
+.arcade-feedback small { display: block; margin-top: 8px; color: var(--muted, #687568); font-size: 12px; line-height: 1.6; }
+.arcade-response-score { color: var(--arcade-accent); font-size: 20px; font-weight: 700; line-height: 1.3; text-align: right; }
+.arcade-response-score small { margin-top: 2px; font-size: 10px; font-weight: 500; }
+.arcade-question-again { margin: 16px 0; padding: 0 18px; border: 1px solid var(--line, #dfe5d8); border-radius: 11px; background: var(--surface, #fff); }
+.arcade-question-again summary { min-height: 48px; padding: 12px 0; font-size: 13px; font-weight: 650; cursor: pointer; }
+.arcade-question-again p { margin: 0 0 15px; color: var(--ink, #243d32); font-size: calc(14px * var(--font-scale, 1)); line-height: 1.75; }
+.arcade-question-again .arcade-choice-reason { color: var(--muted, #687568); }
+.arcade-teaching { min-width: 0; margin-top: 17px; }
+.arcade-teaching .lesson { max-width: 100%; min-width: 0; margin: 0; border-radius: 13px; }
+.arcade-rationale { padding: 25px; border: 1px solid var(--line, #dfe5d8); border-radius: 13px; background: var(--surface, #fff); }
+.arcade-rationale h2 { font-size: 25px; }
+.arcade-rationale p { margin-bottom: 0; color: var(--ink, #243d32); line-height: 1.8; }
+/* Actions stay in the document so explanations and recall controls remain clear. */
+.arcade-actions { position: static; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 13px; margin: 19px 0 12px; padding: 17px 20px; border: 1px solid var(--line, #dfe5d8); border-radius: 12px; background: var(--surface, #fff); }
+.arcade-actions > p { flex: 1; min-width: 150px; margin: 0; font-size: 12px; line-height: 1.65; }
+.arcade-actions > .arcade-btn { flex-shrink: 0; }
+.arcade-results { padding: 32px 27px; border: 1px solid var(--line, #dfe5d8); border-radius: 16px; background: var(--surface, #fff); text-align: center; }
+.arcade-result-icon, .arcade-empty-icon { display: grid; place-items: center; width: 60px; height: 60px; margin: 0 auto 19px; border-radius: 19px; background: var(--soft, #edf2e4); color: var(--arcade-accent); }
+.arcade-result-icon svg { width: 30px; height: 30px; }
+.arcade-results > .eyebrow { font-size: 10px; }
+.arcade-results > h2 { margin: 0 0 23px; color: var(--arcade-accent); font-size: 44px; line-height: 1.2; }
+.arcade-results > h2 small { font: 500 16px/1.3 system-ui, sans-serif; }
+.arcade-result-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; max-width: 650px; margin: 24px auto; }
+.arcade-result-stats > div { min-width: 0; }
+.arcade-result-stats strong { display: block; color: var(--arcade-accent); font-size: 29px; line-height: 1.2; }
+.arcade-result-stats strong small { color: var(--muted, #687568); font-size: 14px; font-weight: 500; }
+.arcade-result-stats > div > span:last-child { display: block; margin-top: 9px; color: var(--muted, #687568); font-size: 12px; line-height: 1.5; }
+.arcade-result-stats .arcade-hearts { min-height: 35px; justify-content: center; }
+.arcade-result-stats .arcade-heart svg { width: 18px; height: 18px; }
+.arcade-result-stats .arcade-heart-count { font-size: 15px; }
+.arcade-results > p { max-width: 620px; margin: 17px auto 0; font-size: 13px; }
+.arcade-results .arcade-button-row { margin-top: 22px; }
+.arcade-result-actions { justify-content: center; }
+.arcade-section-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin: 28px 0 16px; }
+.arcade-section-heading h2 { margin: 0; font-size: 25px; }
+.arcade-section-heading > span { max-width: 100%; color: var(--muted, #687568); font-size: 12px; }
+.arcade-panel { min-width: 0; padding: 24px; border: 1px solid var(--line, #dfe5d8); border-radius: 14px; background: var(--surface, #fff); }
+.arcade-panel h2 { margin: 16px 0 12px; font-size: 26px; }
+.arcade-panel > p { font-size: 13px; line-height: 1.75; }
+.arcade-panel > .arcade-btn { margin-top: 8px; }
+.arcade-panel-icon { display: grid; place-items: center; width: 43px; height: 43px; border-radius: 13px; background: var(--soft, #edf2e4); color: var(--arcade-accent); }
+.arcade-duel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.arcade-access-note { margin-bottom: 18px; background: var(--soft, #edf2e4); }
+.arcade-access-note h2 { margin-top: 0; }
+.arcade-error { margin-bottom: 18px; padding: 15px 18px; border: 1px solid var(--arcade-heart); border-radius: 11px; background: var(--arcade-missed-bg); color: var(--ink, #243d32); font-size: 13px; }
+.arcade-loading { margin: 0 0 15px; font-size: 13px; }
+.arcade-input-label { display: block; margin: 16px 0 8px; color: var(--ink, #243d32); font-size: 13px; font-weight: 650; }
+.arcade-join-form { display: flex; align-items: stretch; gap: 9px; }
+.arcade-join-form input { flex: 1; width: 100%; min-width: 0; min-height: 48px; padding: 10px 12px; border: 1px solid var(--line, #dfe5d8); border-radius: 8px; background: var(--paper, #f7f8f2); color: var(--ink, #243d32); font: 600 18px/1.4 ui-monospace, monospace; letter-spacing: 2px; text-transform: uppercase; }
+.arcade-join-form input::placeholder { color: var(--muted, #687568); opacity: .7; }
+.arcade-join-form .arcade-btn { flex-shrink: 0; }
+.arcade-challenge-list { display: grid; gap: 12px; }
+.arcade-challenge { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 21px; border: 1px solid var(--line, #dfe5d8); border-radius: 13px; background: var(--surface, #fff); }
+.arcade-challenge > div { flex: 1; min-width: 0; }
+.arcade-challenge h3 { margin: 7px 0; font-size: 17px; }
+.arcade-challenge p { margin: 0 0 10px; font-size: 12px; }
+.arcade-challenge > .arcade-btn { min-width: 130px; flex-shrink: 0; }
+.arcade-challenge-scores { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--muted, #687568); font-size: 12px; }
+.arcade-challenge-scores strong { color: var(--ink, #243d32); font-weight: 650; }
+.arcade-invite-code { display: block; color: var(--arcade-accent); font: 700 18px/1.45 ui-monospace, monospace; letter-spacing: 2px; }
+.arcade-invite-strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 18px; border: 1px solid var(--line, #dfe5d8); border-radius: 12px; background: var(--soft, #edf2e4); }
+.arcade-invite-strip > div > span { color: var(--muted, #687568); font-size: 11px; }
+.arcade-duel-players { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin: 16px 0 22px; }
+.arcade-player { min-width: 0; padding: 20px; border: 1px solid var(--line, #dfe5d8); border-radius: 13px; background: var(--surface, #fff); }
+.arcade-player.is-you { border-color: var(--arcade-accent); }
+.arcade-player-label { display: block; color: var(--muted, #687568); font-size: 12px; font-weight: 650; }
+.arcade-player-score { display: block; margin: 8px 0 12px; color: var(--arcade-accent); font-size: 32px; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.arcade-player-score small { color: var(--muted, #687568); font-size: 12px; font-weight: 500; }
+.arcade-player p { margin: 10px 0 0; color: var(--muted, #687568); font-size: 11px; line-height: 1.6; }
+.arcade-player.is-waiting { display: flex; flex-direction: column; align-items: center; justify-content: center; border-style: dashed; text-align: center; }
+.arcade-waiting-icon { margin: 11px 0; color: var(--arcade-accent); }
+.arcade-player.is-waiting > strong { font-size: 14px; }
+.arcade-duel-question-strip { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+.arcade-duel-question-strip .badge { min-width: 0; }
+.arcade-duel-question-strip .arcade-clock-box { min-height: 64px; min-width: 100px; flex-direction: row; gap: 10px; padding: 11px 15px; }
+.arcade-duel-question-strip .arcade-clock { font-size: 29px; }
+.arcade-duel-question-strip .arcade-clock-label { max-width: 46px; line-height: 1.45; }
+.arcade-feedback-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+.arcade-pause-label { display: inline-flex; align-items: center; gap: 8px; color: var(--muted, #687568); font-size: 12px; }
+.arcade-pause-label svg { width: 18px; height: 18px; }
+.arcade-final-score { display: block; margin: 15px 0; color: var(--arcade-accent); font-size: 43px; line-height: 1.25; }
+.arcade-final-score small { font-size: 15px; font-weight: 500; }
+.arcade-empty { padding: 32px 26px; border: 1px dashed var(--line, #dfe5d8); border-radius: 14px; background: var(--surface, #fff); text-align: center; }
+.arcade-empty h2 { margin-bottom: 13px; font-size: 29px; }
+.arcade-empty p { max-width: 650px; margin: 0 auto 20px; font-size: 13px; line-height: 1.75; }
+.arcade-empty-small { padding: 25px; }
+.arcade-empty-small h3 { margin-bottom: 10px; font-size: 17px; }
+.arcade-empty-small p { margin-bottom: 0; }
+.arcade-setup { max-width: none; }
+.arcade-setup-intro { margin: 5px 0 20px; font-size: 14px; line-height: 1.75; }
+.arcade-mode-rules { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 15px 10px; margin-bottom: 24px; border: 1px solid var(--line, #dfe5d8); border-radius: 12px; background: var(--soft, #edf2e4); text-align: center; }
+.arcade-mode-rules strong { display: flex; align-items: center; justify-content: center; gap: 4px; color: var(--arcade-accent); font-size: 25px; line-height: 1.2; }
+.arcade-mode-rules strong small { align-self: flex-end; font-size: 13px; line-height: 1.6; }
+.arcade-mode-rules strong svg { width: 19px; height: 19px; color: var(--arcade-heart); }
+.arcade-mode-rules > div > span { display: block; margin-top: 7px; color: var(--muted, #687568); font-size: 11px; line-height: 1.5; }
+.arcade-topic-picker { min-width: 0; margin: 0; padding: 0; border: 0; }
+.arcade-topic-picker legend { padding: 0; color: var(--ink, #243d32); font-size: 14px; font-weight: 700; }
+.arcade-topic-controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 11px 0 13px; }
+.arcade-topic-controls .arcade-btn { padding: 10px 15px; font-size: 12px; }
+.arcade-topic-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+.arcade-topic { display: grid; grid-template-columns: 21px minmax(0, 1fr) auto; align-items: center; gap: 11px; min-height: 61px; padding: 12px 13px; border: 1px solid var(--line, #dfe5d8); border-radius: 10px; background: var(--surface, #fff); cursor: pointer; }
+.arcade-topic:hover { border-color: var(--arcade-accent); }
+.arcade-topic:has(input:checked) { border-color: var(--arcade-accent); background: var(--soft, #edf2e4); }
+.arcade-topic input { width: 20px; height: 20px; margin: 0; accent-color: var(--arcade-accent); }
+.arcade-topic > span { min-width: 0; font-size: 12px; font-weight: 600; line-height: 1.55; }
+.arcade-topic > small { color: var(--muted, #687568); font-size: 11px; font-variant-numeric: tabular-nums; }
+.arcade-topic.is-empty { opacity: .65; cursor: default; }
+.arcade-limit-field { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 22px; }
+.arcade-limit-field label { color: var(--ink, #243d32); font-size: 13px; font-weight: 650; }
+.arcade-limit-field select { min-width: 0; max-width: 190px; min-height: 46px; margin: 0; padding: 10px 12px; border: 1px solid var(--line, #dfe5d8); border-radius: 8px; background: var(--surface, #fff); color: var(--ink, #243d32); font-size: 16px; }
+.arcade-count { margin: 16px 0 0; padding: 13px 15px; border-radius: 9px; background: var(--soft, #edf2e4); color: var(--ink, #243d32); font-size: 12px; line-height: 1.7; }
+.arcade-dialog-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10px; max-width: none; }
+:root[data-theme=dark] .arcade { --arcade-heart: #e5a38f; --arcade-missed-bg: #392d27; --arcade-clock-bg: #354e3c; }
+
+@media (max-width: 900px) {
+  .arcade-duel-grid { grid-template-columns: 1fr; }
+  .arcade-join-form input { max-width: 280px; }
+}
+@media (max-width: 600px) {
+  .arcade-header { padding: 23px 0 18px; }
+  .arcade-topline h1 { flex-basis: 100%; font-size: 29px; }
+  .arcade-topline > .arcade-button-row { justify-content: flex-start; }
+  .arcade-subtitle { margin-top: 12px; font-size: 12px; }
+  .arcade-score-strip { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 78px; gap: 7px; }
+  .arcade-stat { padding: 12px 10px; }
+  .arcade-stat-label { margin-bottom: 10px; font-size: 10px; }
+  .arcade-stat > strong { font-size: 24px; }
+  .arcade-stat > strong small { display: block; margin-top: 4px; font-size: 10px; }
+  .arcade-hearts { gap: 3px; }
+  .arcade-heart svg { width: 18px; height: 18px; }
+  .arcade-heart-count { margin-left: 2px; font-size: 14px; }
+  .arcade-clock-box { min-height: 87px; padding: 8px; }
+  .arcade-clock { font-size: 31px; }
+  .arcade-clock-label { font-size: 9px; }
+  .arcade-question { padding: 20px 17px; }
+  .arcade .question-text { font-size: calc(22px * var(--font-scale, 1)); }
+  .arcade-source { font-size: 10px; }
+  .arcade-option { grid-template-columns: 28px minmax(0, 1fr); gap: 10px; padding: 13px 11px; font-size: calc(14px * var(--font-scale, 1)); }
+  .arcade-feedback { grid-template-columns: 22px minmax(0, 1fr); gap: 11px; padding: 18px 16px; }
+  .arcade-feedback strong { font-size: 15px; }
+  .arcade-feedback p { font-size: 13px; }
+  .arcade-response-score { grid-column: 2; text-align: left; font-size: 17px; }
+  .arcade-response-score small { display: inline; margin-left: 5px; }
+  .arcade-question-again { padding: 0 15px; }
+  .arcade-rationale { padding: 21px 18px; }
+  .arcade-actions { align-items: stretch; gap: 12px; padding: 16px; }
+  .arcade-actions > p { flex-basis: 100%; }
+  .arcade-actions > .arcade-btn { flex: 1; }
+  .arcade-results { padding: 25px 17px; }
+  .arcade-results > h2 { font-size: 35px; }
+  .arcade-result-stats { gap: 10px; }
+  .arcade-result-stats strong { font-size: 25px; }
+  .arcade-result-stats > div > span:last-child { font-size: 10px; }
+  .arcade-result-stats .arcade-hearts { flex-wrap: wrap; gap: 2px; }
+  .arcade-result-stats .arcade-heart svg { width: 15px; height: 15px; }
+  .arcade-result-stats .arcade-heart-count { flex-basis: 100%; padding-top: 4px; font-size: 12px; }
+  .arcade-section-heading { margin-top: 24px; }
+  .arcade-section-heading h2 { font-size: 24px; }
+  .arcade-panel { padding: 22px 19px; }
+  .arcade-panel h2 { font-size: 25px; }
+  .arcade-challenge { flex-direction: column; align-items: stretch; padding: 19px; }
+  .arcade-challenge > .arcade-btn { width: 100%; }
+  .arcade-duel-players { gap: 9px; }
+  .arcade-player { padding: 15px 12px; }
+  .arcade-player-score { font-size: 29px; }
+  .arcade-player-score small { display: block; margin-top: 3px; font-size: 11px; }
+  .arcade-player .arcade-heart svg { width: 17px; height: 17px; }
+  .arcade-player .arcade-heart-count { font-size: 13px; }
+  .arcade-player p { font-size: 10px; }
+  .arcade-player.is-waiting > strong { font-size: 13px; }
+  .arcade-duel.is-answering .arcade-header .arcade-topline { flex-wrap: nowrap; align-items: center; }
+  .arcade-duel.is-answering .arcade-header h1 { flex-basis: auto; font-size: 23px; }
+  .arcade-duel.is-answering .arcade-header .arcade-subtitle { display: none; }
+  .arcade-duel.is-answering .arcade-header .arcade-btn, .arcade-duel.is-answering .arcade-invite-strip .arcade-btn { width: 44px; padding: 10px; }
+  .arcade-duel.is-answering .arcade-header .arcade-btn > span, .arcade-duel.is-answering .arcade-invite-strip .arcade-btn > span { display: none; }
+  .arcade-duel.is-answering .arcade-player { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px; min-height: 83px; }
+  .arcade-duel.is-answering .arcade-player-score { margin: 0; font-size: 24px; }
+  .arcade-duel.is-answering .arcade-player-score small, .arcade-duel.is-answering .arcade-player p { display: none; }
+  .arcade-duel.is-answering .arcade-player .arcade-hearts { grid-column: 1 / -1; }
+  .arcade-duel.is-answering .arcade-player .arcade-heart-count { display: none; }
+  .arcade-duel.is-answering .arcade-player.is-waiting { display: flex; gap: 6px; }
+  .arcade-duel.is-answering .arcade-waiting-icon { display: none; }
+  .arcade-duel.is-answering .arcade-duel-question-strip .arcade-clock-box { min-height: 44px; }
+  .arcade-duel.is-answering .arcade-duel-question-strip .arcade-clock { font-size: 25px; }
+  .arcade-invite-strip { padding: 13px 15px; }
+  .arcade-invite-strip .arcade-btn { padding: 10px 12px; font-size: 11px; }
+  .arcade-topic-list { grid-template-columns: 1fr; }
+  .arcade-topic { min-height: 58px; }
+  .arcade-limit-field { flex-wrap: wrap; }
+  .arcade-limit-field select { flex: 1; max-width: 100%; min-width: 150px; }
+  .arcade-mode-rules { gap: 8px; }
+  .arcade-mode-rules strong { font-size: 23px; }
+  .arcade-mode-rules > div > span { font-size: 10px; }
+  .arcade-setup-intro { font-size: 13px; }
+  .arcade-dialog-actions > .arcade-btn { flex: 1; }
+}
+@media (max-width: 359px) {
+  .arcade-score-strip { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 67px; gap: 6px; }
+  .arcade-stat { padding: 11px 8px; }
+  .arcade-stat .arcade-heart svg { width: 16px; height: 16px; }
+  .arcade-stat .arcade-heart-count { display: none; }
+  .arcade-heart-count small { font-size: 10px; }
+  .arcade-join-form { flex-wrap: wrap; }
+  .arcade-join-form input { max-width: 100%; flex-basis: 100%; }
+  .arcade-join-form .arcade-btn { width: 100%; }
+  .arcade-duel-question-strip .arcade-clock-box { min-width: 90px; padding: 10px; }
+  .arcade-player .arcade-heart-count { margin-left: 0; }
+  .arcade-player .arcade-heart svg { width: 15px; height: 15px; }
+  .arcade-result-actions > .arcade-btn { flex-basis: 100%; }
+}
+@media (max-height: 400px) and (max-width: 900px) {
+  .arcade-header { padding-top: 16px; }
+  .arcade-topline h1 { font-size: 26px; }
+  .arcade-topline { gap: 10px; }
+  .arcade-score-strip { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 90px; }
+  .arcade-stat { padding: 10px 14px; }
+  .arcade-clock-box { min-height: 78px; }
+  .arcade-duel-players { margin-bottom: 17px; }
+  .arcade-player { padding-top: 13px; padding-bottom: 13px; }
+  .arcade-question { padding: 19px; }
+  .arcade-actions { position: static; }
+  .arcade-duel.is-answering .arcade-header > .eyebrow { display: none; }
+  .arcade-duel.is-answering .arcade-player { grid-template-columns: minmax(0, 1fr) auto auto; min-height: 58px; gap: 7px; padding: 10px 12px; }
+  .arcade-duel.is-answering .arcade-player .arcade-hearts { grid-column: auto; }
+  .arcade-duel.is-answering .arcade-invite-strip { padding-top: 7px; padding-bottom: 7px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arcade *, .arcade *::before, .arcade *::after { animation: none; transition: none; }
+}

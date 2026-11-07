@@ -1,4 +1,4 @@
-"""Build and sign the offline Android APK using verified Android SDK tools.
+"""Build and sign the Android APK with bundled assets using verified SDK tools.
 Signing secrets are generated outside the repository and never printed.
 """
 import argparse,hashlib,json,os,secrets,shutil,subprocess,zipfile
@@ -8,20 +8,38 @@ TOOLS=Path(os.environ.get('LABWISE_ANDROID_TOOLS','/workspace/android-tools'))
 BUILD=ROOT/'android/build'
 SIGNING=Path(os.environ.get('LABWISE_SIGNING_DIR','/workspace/.labwise-signing'))
 OUT=ROOT/'releases'
+WEB_ASSETS=[
+ 'index.html','app.js','learning.js','questions.js','teaching.js','storage.js','sources.js','icons.js',
+ 'style.css','game.css','game.js','game-ui.js','voice.js','icon.svg','icon-192.png','icon-512.png','manifest.webmanifest',
+ 'sync-config.json','sync-config.js','sync-model.js','sync.js','supabase-client.js','duel-client.js',
+ 'game-sync.js','frenzy.js','arcade-ui.js','arcade.css','onboarding.js','onboarding.css','account-ui.js','account.css',
+ 'auth-callback.html','auth-callback.js','auth-callback.css',
+]
+DATA_ASSETS=['catalog.json','study-bank.json','study-pages.json','teaching.json','teaching-coverage.json','glossary.json','boc-inventory.json','quiz-meta.json']
 def run(*args):
  print('Running '+str(args[0]).rsplit('/',1)[-1],flush=True)
  subprocess.run([str(a) for a in args],check=True)
+def check_quiz_registry(bank_path,meta_path):
+ instructions=('Regenerate with node scripts/prepare_quiz_registry.mjs, then '
+  'node supabase/build-setup.mjs supabase/quiz-seed.sql. Before releasing changed '
+  'content, the project owner must apply the updated registry seed/setup to Supabase.')
+ try:meta=json.loads(meta_path.read_text())
+ except (OSError,ValueError):raise SystemExit('Quiz registry metadata is missing or invalid. '+instructions)
+ if not isinstance(meta,dict) or meta.get('contentDigest')!=hashlib.sha256(bank_path.read_bytes()).hexdigest():
+  raise SystemExit('Quiz registry contentDigest does not match the exact data/study-bank.json bytes. '+instructions)
+ return meta
 def main():
  bt=TOOLS/'build-tools/android-15';platform=TOOLS/'platform/android-35/android.jar'
  if not platform.is_file() or not (bt/'aapt2').is_file():raise SystemExit('Install verified tools with scripts/install_android_tools.py first.')
  run('python3',ROOT/'scripts/assemble_sources.py')
  run('python3',ROOT/'scripts/assemble_teaching.py')
+ quiz_meta=check_quiz_registry(ROOT/'data/study-bank.json',ROOT/'data/quiz-meta.json')
  BUILD.mkdir(parents=True,exist_ok=True);OUT.mkdir(exist_ok=True)
  assets=BUILD/'assets';shutil.rmtree(assets,ignore_errors=True);assets.mkdir()
- for name in ['index.html','app.js','learning.js','questions.js','teaching.js','storage.js','sources.js','icons.js','style.css','game.css','game.js','game-ui.js','voice.js','icon.svg','icon-192.png','icon-512.png','manifest.webmanifest']:
+ for name in WEB_ASSETS:
   shutil.copy2(ROOT/name,assets/name)
  (assets/'data').mkdir()
- for name in ['catalog.json','study-bank.json','study-pages.json','teaching.json','teaching-coverage.json','glossary.json','boc-inventory.json']:
+ for name in DATA_ASSETS:
   shutil.copy2(ROOT/'data'/name,assets/'data'/name)
  (assets/'docs').mkdir()
  catalog=json.loads((ROOT/'data/catalog.json').read_text())
@@ -47,18 +65,21 @@ def main():
   run('keytool','-genkeypair','-keystore',key,'-storetype','PKCS12','-storepass:file',password,'-keypass:file',password,'-alias','labwise-release','-keyalg','RSA','-keysize','3072','-validity','10000','-dname','CN=Labwise Local Release','-noprompt')
   key.chmod(0o600)
  if not password.exists():raise SystemExit('Retained signing password file is missing.')
- apk=OUT/'Labwise-5.0.0.apk'
+ apk=OUT/'Labwise-6.0.0.apk'
  run('java','-jar',bt/'lib/apksigner.jar','sign','--ks',key,'--ks-key-alias','labwise-release','--ks-pass','file:'+str(password),'--v1-signing-enabled','false','--v2-signing-enabled','true','--v3-signing-enabled','true','--out',apk,BUILD/'aligned.apk')
  run('java','-jar',bt/'lib/apksigner.jar','verify','--verbose','--print-certs',apk)
  run(bt/'zipalign','-c','-P','16','4',apk)
  run(bt/'aapt','dump','badging',apk)
  checksum=hashlib.sha256(apk.read_bytes()).hexdigest()
- (OUT/'Labwise-5.0.0.apk.sha256').write_text(checksum+'  '+apk.name+'\n')
+ (OUT/'Labwise-6.0.0.apk.sha256').write_text(checksum+'  '+apk.name+'\n')
  with zipfile.ZipFile(apk) as z:
   assert z.testzip() is None
+  for name in WEB_ASSETS:assert z.read('assets/'+name)==(ROOT/name).read_bytes()
+  for name in DATA_ASSETS:assert z.read('assets/data/'+name)==(ROOT/'data'/name).read_bytes()
   for doc in catalog['documents']:assert z.read('assets/'+doc['path'])==(ROOT/doc['path']).read_bytes()
   assert len(json.loads(z.read('assets/data/study-pages.json')))==sum(d['pages']for d in catalog['documents'])
   assert len(json.loads(z.read('assets/data/study-bank.json')))==catalog['availableQuestions']
+  assert hashlib.sha256(z.read('assets/data/study-bank.json')).hexdigest()==quiz_meta['contentDigest']
   coverage=json.loads(z.read('assets/data/teaching-coverage.json'));assert coverage['complete'] and coverage['completeTeachingNotes']==catalog['availableQuestions']
   assert len(json.loads(z.read('assets/data/teaching.json')))==catalog['availableQuestions']
  shutil.copy2(apk,OUT/'Labwise-latest.apk')

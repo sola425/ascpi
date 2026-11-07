@@ -1,6 +1,6 @@
 {
   "name": "labwise-study",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,6 +15,10 @@
     "test:ux": "node tests/ux-audit-v4.cjs",
     "test:apk-assets": "node tests/apk-assets.cjs",
     "test:game": "node tests/game-browser.cjs",
+    "test:arcade": "node tests/arcade-browser.cjs",
+    "test:account": "node tests/account-duel-browser.cjs",
+    "test:callback": "node tests/auth-callback.cjs",
+    "test:db": "node supabase/tests/run-postgres.mjs",
     "test:voice": "node --test tests/voice.test.js",
     "test:game-ux": "node tests/ux-game-v5.cjs"
   }

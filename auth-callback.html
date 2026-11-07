@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' https://ncfovahpjofwrygxnbst.supabase.co; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'">
+  <meta name="theme-color" content="#234b3e">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Labwise · Account email link</title>
+  <!-- A blocking, local script removes credentials before loading other code. -->
+  <script src="./auth-callback.js"></script>
+  <link rel="stylesheet" href="./auth-callback.css">
+</head>
+<body>
+  <main class="account-card">
+    <a class="brand" href="./index.html" referrerpolicy="no-referrer" aria-label="Return to Labwise">labwise<span>.</span></a>
+    <p class="eyebrow">YOUR ACCOUNT</p>
+    <h1 id="account-title">Checking your account link…</h1>
+    <p id="account-status" role="status" aria-live="polite">One moment while Labwise verifies this link.</p>
+    <p id="account-notice" class="notice" role="alert" hidden></p>
+    <form id="password-form" method="post" autocomplete="off" novalidate hidden>
+      <fieldset id="password-fields">
+        <legend class="visually-hidden">Choose a new password</legend>
+        <label for="new-password">New password</label>
+        <input id="new-password" type="password" autocomplete="new-password" minlength="12" maxlength="256" required aria-describedby="password-hint">
+        <p id="password-hint" class="hint">Use at least 12 characters. A few unrelated words can make a memorable password.</p>
+        <label for="confirm-password">Confirm new password</label>
+        <input id="confirm-password" type="password" autocomplete="new-password" minlength="12" maxlength="256" required>
+        <button id="update-password" type="submit">Save new password</button>
+      </fieldset>
+    </form>
+    <a class="return-link" href="./index.html" referrerpolicy="no-referrer">Return to Labwise</a>
+    <p class="footer-note">Sign in from Account in Labwise. This page does not sign the app in or change your study progress.</p>
+    <noscript><p class="notice">This email link needs JavaScript to verify your account. Open it in a browser with JavaScript enabled, or request another link from Labwise.</p></noscript>
+  </main>
+</body>
+</html>

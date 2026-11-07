@@ -1,0 +1,220 @@
+/* Scope dialog layout changes to this tour; other app dialogs keep their styles. */
+dialog:has(.onboarding) {
+  width: min(560px, calc(100vw - 24px));
+  max-height: 85dvh;
+  padding: 23px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-padding-block: 12px;
+}
+
+dialog:has(.onboarding) .dialog-heading {
+  align-items: flex-start;
+  gap: 12px;
+}
+
+dialog:has(.onboarding) .dialog-heading h2 {
+  font-size: clamp(24px, 4.8vw, 29px);
+  overflow-wrap: anywhere;
+}
+
+dialog:has(.onboarding) .dialog-heading .icon-btn {
+  width: 44px;
+  height: 44px;
+}
+
+.onboarding {
+  min-width: 0;
+  color: var(--ink);
+  animation: onboarding-arrive 140ms ease-out both;
+}
+
+.onboarding-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.onboarding-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  background: var(--soft);
+  color: var(--green);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.onboarding-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.onboarding .onboarding-kicker {
+  margin: 0 0 3px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.onboarding .onboarding-count {
+  margin: 0;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.onboarding-track {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 5px;
+  margin: 13px 0 17px;
+}
+
+.onboarding-track span {
+  height: 4px;
+  border-radius: 4px;
+  background: var(--line);
+}
+
+.onboarding-track .is-reached {
+  background: var(--green);
+}
+
+.onboarding .onboarding-summary {
+  margin: 0 0 15px;
+  color: var(--ink);
+  font-size: calc(14px * var(--font-scale, 1));
+  line-height: 1.65;
+}
+
+.onboarding-path {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 7px;
+  margin: 18px 0;
+}
+
+.onboarding-path > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  padding: 15px 5px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--green);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.onboarding-path strong {
+  font-size: calc(11px * var(--font-scale, 1));
+}
+
+.onboarding-list {
+  display: grid;
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.onboarding-list li {
+  display: grid;
+  gap: 4px;
+  padding-left: 13px;
+  border-left: 3px solid var(--line);
+  overflow-wrap: anywhere;
+}
+
+.onboarding-list strong {
+  font-size: calc(13px * var(--font-scale, 1));
+  line-height: 1.45;
+  color: var(--green);
+}
+
+.onboarding-list span {
+  font-size: calc(12px * var(--font-scale, 1));
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.onboarding .onboarding-note {
+  margin: 16px 0 0;
+  padding: 11px 13px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--soft);
+  color: var(--green);
+  font-size: calc(12px * var(--font-scale, 1));
+  line-height: 1.65;
+}
+
+.onboarding .onboarding-hint {
+  margin: 13px 0 0;
+  font-size: calc(11px * var(--font-scale, 1));
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+dialog:has(.onboarding) .dialog-footer {
+  position: sticky;
+  bottom: -23px;
+  margin-top: 16px;
+  padding: 12px 0 0;
+  background: var(--surface);
+}
+
+.onboarding-controls {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr);
+  align-items: stretch;
+  gap: 8px;
+  width: 100%;
+}
+
+.onboarding-controls .btn {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px 12px;
+  font-size: calc(12px * var(--font-scale, 1));
+  overflow-wrap: anywhere;
+}
+
+.onboarding-controls .onboarding-skip {
+  border-color: transparent;
+  background: transparent;
+}
+
+.onboarding-controls .onboarding-primary {
+  justify-self: end;
+}
+
+.onboarding-controls .btn:focus-visible,
+dialog:has(.onboarding) .icon-btn:focus-visible,
+.onboarding:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+
+@keyframes onboarding-arrive {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 420px), (max-height: 400px) {
+  dialog:has(.onboarding) { padding: 16px; }
+  dialog:has(.onboarding) .dialog-footer { bottom: -16px; }
+  .onboarding-list { gap: 11px; }
+  .onboarding-path > span { padding: 12px 4px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .onboarding { animation: none; }
+}

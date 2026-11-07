@@ -1,3 +1,44 @@
+# Labwise 6.0.0 — Frenzy, private Duels and optional account sync
+
+[Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 6.0.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-6.0.0.apk)
+
+- **Three ways to Play:** choose one or several subjects for a five-question **Lab Sprint**, **Solo Frenzy**, or a private **Friend Duel**. Source scopes and question-availability counts apply to each setup. Sprint feedback, recovery questions, XP, cosmetic upgrades and daily quests remain available.
+- **Solo Frenzy:** up to 10 or 20 questions, **30 seconds each**, **three hearts** and 100 points per correct answer. Wrong answers and timeouts cost a heart. Explanations are untimed; the question deadline continues when leaving the app, and the last explanation remains available at the end.
+- **Private Friend Duels:** two signed-in accounts share an invitation and the **same ordered 10- or 20-question set**. The server selects questions and grades answers. Players proceed independently, with persistent thirty-second question deadlines, three hearts, untimed feedback and explicit Next. Reopening does not reset the clock. Only the two members see their scores; equal final scores are a draw.
+- **Optional account sync:** merge saved questions, review counts/history, preferences, reading pages, XP and content-free completed-game summaries across devices. Offline changes wait for a connection. Active local sessions and solo rounds stay on their current device during sync. Signing out keeps a local progress copy.
+- **Version 4 backups:** exports retain study and local game state, including active solo rounds; restores accept versions **1–4**. Signed-out restore previews a local replacement with Undo. Signed-in restore previews a merge into the account, which syncs without replacement Undo. Auth sessions and private Duel data never enter progress backups.
+- **Getting started at your pace:** a six-step tour with Back, Next and Skip, available again from Study settings. Subtle 140 ms arrival effects respect reduced-motion preferences.
+
+## Closed-pilot account status
+
+The bundle's public Supabase configuration is enabled for confirmed pilot accounts. The owner reports successful SQL setup and a confirmed account. Its email redirect remains empty, so public signup and password-reset controls are hidden. The callback files are prepared but **not deployed or verified**. Hosted email flows must be configured and accepted before general use; see [Supabase setup and owner acceptance](../docs/SUPABASE-SETUP.md).
+
+Live sign-in, email delivery, two-device sync and a live two-account Duel have not been verified here. Local account/callback tests use mocked service responses, and database tests use disposable local PostgreSQL.
+
+## Unchanged study coverage
+
+**3,760 active questions and teaching notes; 15,046 individually explained choices.** Success contributes 1,484 questions / 5,942 options; BOC 7e contributes 2,276 / 9,104. All three original PDFs remain bundled unchanged: **434 + 333 + 333 = 1,100 pages**, with document-aware question/rationale links, searchable page text and per-document reading positions. Version 6.0.0 changes no question content or source PDFs.
+
+The inventory preserves 3,953 extracted questions; 193 BOC questions remain excluded at the user's request. The supplied BOC Part 1 lacks printed pages 225–240, so chapter 3 questions 154–246 (93 stems) remain absent. See [content coverage](../docs/CONTENT-COVERAGE.md). Duels use the matching metadata registry for **2,993 eligible short questions**; the full active collection remains available in Practice. The APK build rejects a registry digest that differs from the exact assembled bank bytes. Content releases require regenerated metadata and an owner-applied matching server seed.
+
+## Install, network access and privacy
+
+Requires Android 8.0+ and an up-to-date Android System WebView. Package `com.labwise.study`, version code **60000**, target API **35**, using the same retained signing identity as earlier releases. **Export progress first, then install over the existing app without uninstalling.** The stable latest-APK link is unchanged. See [installation and build instructions](../docs/ANDROID.md).
+
+Study, solo Play, PDFs and local progress work offline. Version 6 adds Android **Internet permission** for the configured Supabase project and allowlisted Auth/progress/challenge routes. External scripts and arbitrary WebView network requests remain blocked. Android account sessions use Keystore-backed encryption in private storage, separate from study progress and exports. Cloud progress excludes question text, choices, explanations, PDFs, imported banks, audio and transcripts.
+
+Optional speech continues to use the external Android provider or supported browser recognition. Labwise requests **no microphone permission**, records no audio, sends no question text to the provider and requires explicit answer confirmation. The provider may need a connection or an offline language pack. Update downloads open the separate system browser.
+
+## Validation
+
+During integration, **19 unit-test files**, **seven existing browser/bridge checks**, and **three arcade scenarios with 19 checks** passed. [Version 6 validation evidence](../docs/VALIDATION-V6.md) records final release checks and limits. Native installation, upgrades, speech-provider behavior and Android device/emulator interaction remain unverified because usable hardware virtualization is unavailable here. Live owner acceptance remains separate from mocked account tests and local database checks.
+
+Design references: [game-design sources](../docs/GAME-INSPIRATION.md) and [onboarding inspiration](../docs/ONBOARDING-INSPIRATION.md).
+
+---
+
+The following notes describe the previous release; its permission and backup behavior are historical.
+
 # Labwise 5.0.0 — Lab Sprints and optional voice
 
 [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 5.0.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-5.0.0.apk) · [SHA-256](Labwise-5.0.0.apk.sha256)
