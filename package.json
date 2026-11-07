@@ -1,6 +1,6 @@
 {
   "name": "labwise-study",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,10 @@
     "test:browser": "node tests/browser.cjs",
     "build:apk": "python3 scripts/build_apk.py",
     "test:android-bridge": "node tests/android-bridge.cjs",
-    "check:content": "python3 scripts/assemble_teaching.py",
-    "test:teaching-ui": "node tests/teaching-browser.cjs"
+    "check:content": "python3 scripts/assemble_sources.py && python3 scripts/assemble_teaching.py",
+    "test:teaching-ui": "node tests/teaching-browser.cjs",
+    "test:offline": "node tests/offline-v4.cjs",
+    "test:ux": "node tests/ux-audit-v4.cjs",
+    "test:apk-assets": "node tests/apk-assets.cjs"
   }
 }

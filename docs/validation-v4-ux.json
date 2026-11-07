@@ -1,0 +1,3645 @@
+{
+  "startedAt": "2026-11-07T02:57:23.400Z",
+  "environment": "Headless desktop Chromium with simulated CSS viewports and touch input; not a physical Android device or Android WebView.",
+  "catalog": {
+    "availableQuestions": 3760,
+    "excludedQuestions": 193,
+    "missingSourceQuestions": 93,
+    "books": [
+      {
+        "id": "success4",
+        "questions": 1484
+      },
+      {
+        "id": "boc7",
+        "questions": 2276
+      }
+    ]
+  },
+  "checks": [
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "parsed-media-queries",
+      "rules": [
+        {
+          "condition": "(min-width: 1180px)",
+          "matches": false
+        },
+        {
+          "condition": "(min-width: 900px) and (max-width: 1179px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 1179px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-height: 560px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(prefers-reduced-motion: reduce)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px) and (max-height: 400px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "settings",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 206.203125,
+        "y": 457.578125,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 501.578125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"close-dialog\">Done</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "setup",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "setup-confirm",
+      "rect": {
+        "x": 145.578125,
+        "y": 457.96875,
+        "width": 127.921875,
+        "height": 44,
+        "bottom": 501.96875
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-session\">Start session \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "practice-next-top",
+      "rect": {
+        "x": 164.28125,
+        "y": 431.25,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 475.25
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "practice-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "practice-next-middle",
+      "rect": {
+        "x": 164.28125,
+        "y": 431.25,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 475.25
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "practice-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "practice-next-bottom",
+      "rect": {
+        "x": 164.28125,
+        "y": 431.25,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 475.25
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "practice-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "choice-explanations",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "book-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=1",
+      "page": "1",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=36",
+      "page": "36",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "practice-next-after-tabs",
+      "rect": {
+        "x": 164.28125,
+        "y": 431.25,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 475.25
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "teaching-tabs-keyboard-recall-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "navigation-saved",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "saved-question-open"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-again-top",
+      "rect": {
+        "x": 26,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-hard-top",
+      "rect": {
+        "x": 94.5,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-good-top",
+      "rect": {
+        "x": 163,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-easy-top",
+      "rect": {
+        "x": 231.5,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-again-bottom",
+      "rect": {
+        "x": 26,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-hard-bottom",
+      "rect": {
+        "x": 94.5,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-good-bottom",
+      "rect": {
+        "x": 163,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-easy-bottom",
+      "rect": {
+        "x": 231.5,
+        "y": 407.6875,
+        "width": 62.5,
+        "height": 70.3125,
+        "bottom": 478
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "card-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "flashcard-rating-stable-queue-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "navigation-home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "navigation-practice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "navigation-cards",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "navigation-library",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "navigation-progress",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "reader",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "reader-document-and-page-persist-after-reload"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "source-coverage-disclosure",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "restore-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "restore-confirm",
+      "rect": {
+        "x": 136.40625,
+        "y": 382.03125,
+        "width": 137.09375,
+        "height": 44,
+        "bottom": 426.03125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-restore\">Restore progress</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "restore-preview-cancel-preserves-state"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "import-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "import-confirm",
+      "rect": {
+        "x": 156.234375,
+        "y": 392.75,
+        "width": 117.265625,
+        "height": 44,
+        "bottom": 436.75
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-import\">Use this bank</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "import-preview-controls"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "parsed-media-queries",
+      "rules": [
+        {
+          "condition": "(min-width: 1180px)",
+          "matches": false
+        },
+        {
+          "condition": "(min-width: 900px) and (max-width: 1179px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 1179px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-height: 560px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(prefers-reduced-motion: reduce)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px) and (max-height: 400px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "settings",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 276.203125,
+        "y": 732.171875,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 776.171875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"close-dialog\">Done</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "setup",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "setup-confirm",
+      "rect": {
+        "x": 215.578125,
+        "y": 647.25,
+        "width": 127.921875,
+        "height": 44,
+        "bottom": 691.25
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-session\">Start session \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "practice-next-top",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "practice-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "practice-next-middle",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "practice-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "practice-next-bottom",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "practice-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "choice-explanations",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "book-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=1",
+      "page": "1",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=36",
+      "page": "36",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "practice-next-after-tabs",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "teaching-tabs-keyboard-recall-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "navigation-saved",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "saved-question-open"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-again-top",
+      "rect": {
+        "x": 26,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-hard-top",
+      "rect": {
+        "x": 112,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-good-top",
+      "rect": {
+        "x": 198,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-easy-top",
+      "rect": {
+        "x": 284,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-again-bottom",
+      "rect": {
+        "x": 26,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-hard-bottom",
+      "rect": {
+        "x": 112,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-good-bottom",
+      "rect": {
+        "x": 198,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-easy-bottom",
+      "rect": {
+        "x": 284,
+        "y": 683.6875,
+        "width": 80,
+        "height": 70.3125,
+        "bottom": 754
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "card-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "flashcard-rating-stable-queue-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "navigation-home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "navigation-practice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "navigation-cards",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "navigation-library",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "navigation-progress",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "reader",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "reader-document-and-page-persist-after-reload"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "source-coverage-disclosure",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "restore-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "restore-confirm",
+      "rect": {
+        "x": 206.40625,
+        "y": 510.3125,
+        "width": 137.09375,
+        "height": 44,
+        "bottom": 554.3125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-restore\">Restore progress</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "restore-preview-cancel-preserves-state"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "import-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "import-confirm",
+      "rect": {
+        "x": 226.234375,
+        "y": 510.3125,
+        "width": 117.265625,
+        "height": 44,
+        "bottom": 554.3125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-import\">Use this bank</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "import-preview-controls"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "parsed-media-queries",
+      "rules": [
+        {
+          "condition": "(min-width: 1180px)",
+          "matches": false
+        },
+        {
+          "condition": "(min-width: 900px) and (max-width: 1179px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 1179px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-height: 560px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(prefers-reduced-motion: reduce)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px) and (max-height: 400px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "settings",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 454.203125,
+        "y": 228.125,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 272.125
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"close-dialog\">Done</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "setup",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "setup-confirm",
+      "rect": {
+        "x": 393.578125,
+        "y": 230.21875,
+        "width": 127.921875,
+        "height": 44,
+        "bottom": 274.21875
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-session\">Start session \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "landscape-reading-window",
+      "top": 52,
+      "bottom": 196,
+      "height": 144
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "practice-next-top",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "practice-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "practice-next-middle",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "practice-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "practice-next-bottom",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "practice-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "choice-explanations",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "book-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=1",
+      "page": "1",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=36",
+      "page": "36",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "practice-next-after-tabs",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "teaching-tabs-keyboard-recall-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "navigation-saved",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "saved-question-open"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-again-top",
+      "rect": {
+        "x": 25,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-hard-top",
+      "rect": {
+        "x": 156,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-good-top",
+      "rect": {
+        "x": 287,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-easy-top",
+      "rect": {
+        "x": 418,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-again-bottom",
+      "rect": {
+        "x": 25,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-hard-bottom",
+      "rect": {
+        "x": 156,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-good-bottom",
+      "rect": {
+        "x": 287,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-easy-bottom",
+      "rect": {
+        "x": 418,
+        "y": 184.6875,
+        "width": 125,
+        "height": 62.3125,
+        "bottom": 247
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "card-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "flashcard-rating-stable-queue-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "navigation-home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "navigation-practice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "navigation-cards",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "navigation-library",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "navigation-progress",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "reader",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "reader-document-and-page-persist-after-reload"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "source-coverage-disclosure",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "restore-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "restore-confirm",
+      "rect": {
+        "x": 384.40625,
+        "y": 226.875,
+        "width": 137.09375,
+        "height": 44,
+        "bottom": 270.875
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-restore\">Restore progress</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "restore-preview-cancel-preserves-state"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "import-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "import-confirm",
+      "rect": {
+        "x": 404.234375,
+        "y": 216.15625,
+        "width": 117.265625,
+        "height": 44,
+        "bottom": 260.15625
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-import\">Use this bank</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "import-preview-controls"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "parsed-media-queries",
+      "rules": [
+        {
+          "condition": "(min-width: 1180px)",
+          "matches": false
+        },
+        {
+          "condition": "(min-width: 900px) and (max-width: 1179px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 1179px) and (min-width: 720px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-height: 560px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(prefers-reduced-motion: reduce)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px) and (max-height: 400px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "settings",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 557.703125,
+        "y": 772.71875,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 816.71875
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"close-dialog\">Done</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "setup",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "setup-confirm",
+      "rect": {
+        "x": 497.078125,
+        "y": 726.390625,
+        "width": 127.921875,
+        "height": 44,
+        "bottom": 770.390625
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-session\">Start session \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "practice-next-top",
+      "rect": {
+        "x": 584.28125,
+        "y": 953,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 997
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "practice-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "practice-next-middle",
+      "rect": {
+        "x": 584.28125,
+        "y": 868.390625,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 912.390625
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "practice-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "practice-next-bottom",
+      "rect": {
+        "x": 584.28125,
+        "y": 868.390625,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 912.390625
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "practice-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "choice-explanations",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "book-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=1",
+      "page": "1",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=36",
+      "page": "36",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "practice-next-after-tabs",
+      "rect": {
+        "x": 584.28125,
+        "y": 909.484375,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 953.484375
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "teaching-tabs-keyboard-recall-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "navigation-saved",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "saved-question-open"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-again-top",
+      "rect": {
+        "x": 139,
+        "y": 921.03125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 997
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-hard-top",
+      "rect": {
+        "x": 286.5,
+        "y": 921.03125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 997
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-good-top",
+      "rect": {
+        "x": 434,
+        "y": 921.03125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 997
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-easy-top",
+      "rect": {
+        "x": 581.5,
+        "y": 921.03125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 997
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-again-bottom",
+      "rect": {
+        "x": 139,
+        "y": 836.125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 912.09375
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-hard-bottom",
+      "rect": {
+        "x": 286.5,
+        "y": 836.125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 912.09375
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-good-bottom",
+      "rect": {
+        "x": 434,
+        "y": 836.125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 912.09375
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-easy-bottom",
+      "rect": {
+        "x": 581.5,
+        "y": 836.125,
+        "width": 138.5,
+        "height": 75.96875,
+        "bottom": 912.09375
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "card-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "flashcard-rating-stable-queue-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "navigation-home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "navigation-practice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "navigation-cards",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "navigation-library",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "navigation-progress",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "reader",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "reader-document-and-page-persist-after-reload"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "source-coverage-disclosure",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "restore-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "restore-confirm",
+      "rect": {
+        "x": 487.90625,
+        "y": 578.875,
+        "width": 137.09375,
+        "height": 44,
+        "bottom": 622.875
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-restore\">Restore progress</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "restore-preview-cancel-preserves-state"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "import-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "import-confirm",
+      "rect": {
+        "x": 507.734375,
+        "y": 568.15625,
+        "width": 117.265625,
+        "height": 44,
+        "bottom": 612.15625
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-import\">Use this bank</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "import-preview-controls"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "parsed-media-queries",
+      "rules": [
+        {
+          "condition": "(min-width: 1180px)",
+          "matches": false
+        },
+        {
+          "condition": "(min-width: 900px) and (max-width: 1179px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 1179px) and (min-width: 720px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-height: 560px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(prefers-reduced-motion: reduce)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px) and (max-height: 400px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "settings",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 583.703125,
+        "y": 850.71875,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 894.71875
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"close-dialog\">Done</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "setup",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "setup-confirm",
+      "rect": {
+        "x": 523.078125,
+        "y": 804.390625,
+        "width": 127.921875,
+        "height": 44,
+        "bottom": 848.390625
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-session\">Start session \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "practice-next-top",
+      "rect": {
+        "x": 636.28125,
+        "y": 1109,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1153
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "practice-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "practice-next-middle",
+      "rect": {
+        "x": 636.28125,
+        "y": 1024.390625,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1068.390625
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "practice-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "practice-next-bottom",
+      "rect": {
+        "x": 636.28125,
+        "y": 1024.390625,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1068.390625
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "practice-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "choice-explanations",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "book-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=1",
+      "page": "1",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=36",
+      "page": "36",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "practice-next-after-tabs",
+      "rect": {
+        "x": 636.28125,
+        "y": 1109,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1153
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "teaching-tabs-keyboard-recall-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "navigation-saved",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "saved-question-open"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-again-top",
+      "rect": {
+        "x": 139,
+        "y": 1077.03125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1153
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-hard-top",
+      "rect": {
+        "x": 299.5,
+        "y": 1077.03125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1153
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-good-top",
+      "rect": {
+        "x": 460,
+        "y": 1077.03125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1153
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-easy-top",
+      "rect": {
+        "x": 620.5,
+        "y": 1077.03125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1153
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-again-bottom",
+      "rect": {
+        "x": 139,
+        "y": 992.125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1068.09375
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-hard-bottom",
+      "rect": {
+        "x": 299.5,
+        "y": 992.125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1068.09375
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-good-bottom",
+      "rect": {
+        "x": 460,
+        "y": 992.125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1068.09375
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-easy-bottom",
+      "rect": {
+        "x": 620.5,
+        "y": 992.125,
+        "width": 151.5,
+        "height": 75.96875,
+        "bottom": 1068.09375
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "card-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "flashcard-rating-stable-queue-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "navigation-home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "navigation-practice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "navigation-cards",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "navigation-library",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "navigation-progress",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "reader",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "reader-document-and-page-persist-after-reload"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "source-coverage-disclosure",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "restore-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "restore-confirm",
+      "rect": {
+        "x": 513.90625,
+        "y": 656.875,
+        "width": 137.09375,
+        "height": 44,
+        "bottom": 700.875
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-restore\">Restore progress</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "restore-preview-cancel-preserves-state"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "import-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "import-confirm",
+      "rect": {
+        "x": 533.734375,
+        "y": 646.15625,
+        "width": 117.265625,
+        "height": 44,
+        "bottom": 690.15625
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-import\">Use this bank</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "import-preview-controls"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "parsed-media-queries",
+      "rules": [
+        {
+          "condition": "(min-width: 1180px)",
+          "matches": false
+        },
+        {
+          "condition": "(min-width: 900px) and (max-width: 1179px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-width: 1179px) and (min-width: 720px)",
+          "matches": true
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-height: 560px) and (min-width: 720px)",
+          "matches": false
+        },
+        {
+          "condition": "(prefers-reduced-motion: reduce)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px) and (max-height: 400px)",
+          "matches": false
+        },
+        {
+          "condition": "(max-width: 719px)",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "settings",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 685.703125,
+        "y": 644.71875,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 688.71875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"close-dialog\">Done</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "setup",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "setup-confirm",
+      "rect": {
+        "x": 625.078125,
+        "y": 598.390625,
+        "width": 127.921875,
+        "height": 44,
+        "bottom": 642.390625
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-session\">Start session \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "practice-next-top",
+      "rect": {
+        "x": 840.28125,
+        "y": 697,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 741
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "practice-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "practice-next-middle",
+      "rect": {
+        "x": 840.28125,
+        "y": 612.203125,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 656.203125
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "practice-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "practice-next-bottom",
+      "rect": {
+        "x": 840.28125,
+        "y": 612.203125,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 656.203125
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "practice-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "choice-explanations",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "book-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=1",
+      "page": "1",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "source-file",
+      "href": "http://127.0.0.1:3000/docs/textbook.pdf#page=36",
+      "page": "36",
+      "doc": "textbook",
+      "status": 200
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "practice-next-after-tabs",
+      "rect": {
+        "x": 840.28125,
+        "y": 697,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 741
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"next\">Next question \u2192</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "teaching-tabs-keyboard-recall-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "navigation-saved",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "saved-question-open"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-again-top",
+      "rect": {
+        "x": 139,
+        "y": 665.03125,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 741
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-hard-top",
+      "rect": {
+        "x": 350.5,
+        "y": 665.03125,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 741
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-good-top",
+      "rect": {
+        "x": 562,
+        "y": 665.03125,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 741
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-easy-top",
+      "rect": {
+        "x": 773.5,
+        "y": 665.03125,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 741
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-again-bottom",
+      "rect": {
+        "x": 139,
+        "y": 580.75,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 656.71875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"again\"><strong>Again</strong><small>10 min</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-hard-bottom",
+      "rect": {
+        "x": 350.5,
+        "y": 580.75,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 656.71875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"hard\"><strong>Hard</strong><small>1 day</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-good-bottom",
+      "rect": {
+        "x": 562,
+        "y": 580.75,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 656.71875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"good\"><strong>Good</strong><small>3 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-easy-bottom",
+      "rect": {
+        "x": 773.5,
+        "y": 580.75,
+        "width": 202.5,
+        "height": 75.96875,
+        "bottom": 656.71875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button data-rating=\"easy\"><strong>Easy</strong><small>7 days</small></button>",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "card-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "flashcard-rating-stable-queue-and-persisted-session"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "navigation-home",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "navigation-practice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "navigation-cards",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "navigation-library",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "navigation-progress",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "reader",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "reader-document-and-page-persist-after-reload"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "source-coverage-disclosure",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "restore-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "restore-confirm",
+      "rect": {
+        "x": 615.90625,
+        "y": 450.875,
+        "width": 137.09375,
+        "height": 44,
+        "bottom": 494.875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-restore\">Restore progress</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "restore-preview-cancel-preserves-state"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "import-preview",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "import-confirm",
+      "rect": {
+        "x": 635.734375,
+        "y": 440.15625,
+        "width": 117.265625,
+        "height": 44,
+        "bottom": 484.15625
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "centerHit": true,
+      "hit": "<button class=\"btn primary\" data-action=\"confirm-import\">Use this bank</button>",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "import-preview-controls"
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "finishedAt": "2026-11-07T02:57:49.811Z",
+  "screenshotCount": 90,
+  "exampleScreenshots": [
+    "screenshots/v4-phone-teaching.png",
+    "screenshots/v4-tablet-library.png"
+  ]
+}

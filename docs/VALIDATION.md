@@ -1,66 +1,38 @@
-# Validation evidence
+# Labwise 4.0.0 validation
 
-Current-instance checks performed on 6 November 2026. Runtime: Node 24, Python 3, system Chromium driven by Playwright.
+Checks performed on 7 November 2026 using local Node, Python, Chromium/Playwright and the verified Android SDK. Browser contexts are isolated; the server binds only to `127.0.0.1:3000`.
 
-## Automated data and behavior checks
+## Content and source integrity
 
-`npm test` passes 17 tests. It exercises the example-bank schema, rejected malformed data, explicit textbook answer indices, unique IDs, page metadata, subject coverage, all 434 page records, all 1,484 numbered question IDs, 5,942 option explanations, separate-source preservation, simple-note references, deterministic review intervals, due/mistake/new/simple queues, Lagos day boundaries and streaks, and progress backup validation. Reserved object-property IDs are rejected.
+`npm run check:content` passes: **3,760 active questions/teaching notes**, **15,046 option explanations**, no missing teaching. `npm test` passes seven test files covering schema rejection, scheduling, stable queues, session validation, legacy progress, storage failures, source identities/page bounds, exclusions, every active note and source-repair application.
 
-`npm run test:browser`, against the running local app, checks:
+The [independent content review](CONTENT-REVIEW-V4.md) checked 67 full teaching samples across 14 non-micro source/topic groups and directly inspected 63 PDF pages. All 72 recorded repair entries are applied: garbled choices/tables/formulas, heading artifacts, figure flags, stale notes and answer-revealing simplified prompts. Keys and choice order remain unchanged. [Coverage](CONTENT-COVERAGE.md) distinguishes the complete active teaching layer from 193 excluded questions and 93 stems absent from the supplied source.
 
-- Twelve subject cards and real dataset counts.
-- Practice feedback, saving questions, session pause/resume and recovery after reload.
-- Search, topic filters, question and rationale source links.
-- Flashcard ratings and schedule persistence.
-- A complete 20-question exam with feedback withheld until completion.
-- Activity cells and subject progress.
-- Full-text page search, PDF page selection, and last-page navigation.
-- Rejected malformed imports, successful custom-bank imports, and HTML-like text rendered as text.
-- Progress restoration and returning to the textbook bank.
-- Explicit caching of the full PDF, offline application reload, and a cached PDF byte-range request returning `%PDF-` with HTTP 206.
-- Dark theme persistence and no horizontal overflow in all six views at a 390-pixel viewport.
-- No uncaught browser page errors during these journeys.
+## Browser workflows and screens
 
-Desktop, mobile and dark screenshots were inspected/saved under `/tmp/labwise-v2-*.png`. Browser tests use isolated contexts and do not overwrite the user's browser data.
+| Command | Result and scope |
+| --- | --- |
+| `npm run test:browser` | 44 recorded checks: bounded sessions, feedback/source tabs, save/resume/reload, source/search filters, deferred exams, stable cards, separate recall ratings, three readers, restore preview/undo, import preview/IndexedDB, safe text, six destinations at six widths |
+| `npm run test:ux` | 271 recorded checks, 90 screenshots, zero recorded issues/errors; touch-emulated 320×568, 390×844, 568×320, 768×1024, 820×1180, 1024×768; dark/larger text, control hit-testing, dialogs, Next/ratings at several scroll positions, keyboard tabs, source files, persistence and CSS media validity |
+| `npm run test:teaching-ui` | Five-choice matching retains shared context, all ordered option explanations, simplified question, separate rationale, memory/recall and mobile large-text/dark layout |
+| `npm run test:offline` | Actual service-worker offline reload, all active data, three cached PDFs with HTTP 206 byte ranges, invalid-range HTTP 416, offline practice and persistent export prompts after storage quota failures |
 
-## Iteration
+Reports: [browser](validation-v4-browser.json), [UX](validation-v4-ux.json). Examples: [phone teaching](screenshots/v4-phone-teaching.png), [tablet library](screenshots/v4-tablet-library.png). The audit reproduces all screenshots under `/tmp/labwise-ux-audit-v4/`.
 
-- Conservatively excluded ambiguous or duplicate OCR numbering rather than assigning guessed answers.
-- Added source links and explicit labels to separate original rationales from simple explanations.
-- Corrected the browser test to open the import panel before selecting a hidden control.
-- Deferred loading the 26 MB PDF until the reader is opened.
-- Reused a date formatter and counted activity days once to avoid repeated calculations across the 84-cell grid.
-- Fixed hero-button contrast after inspecting dark-mode screenshots.
-- Added standard PNG install icons and cached-PDF range support.
+Testing exposed invalid combined media queries. Fixing their whitespace removed tablet overflow and increased the measured 568×320 reading window from 105 to 144 pixels. Cover labels were adjusted to remain inside their decorative covers.
 
-## Limits of evidence
+## Android package and bridge
 
-No full medical/editorial audit, physical mobile-device test, public deployment, or fresh-cloud-instance restoration test has been performed. The Android APK was compiled and verified; device launch was blocked by unavailable hardware virtualization. Automated source pairing checks do not establish that OCR preserved every symbol or that every older textbook recommendation remains current. Offline storage is browser-managed and can be evicted.
+The build passes Java compilation/D8, ZIP integrity, `zipalign -c -P 16 4`, and `apksigner verify` schemes v2/v3. `aapt` confirms `com.labwise.study`, version 4.0.0/code 40000, minimum API 26, target API 35, and no Internet/shared-storage permissions. The certificate matches 3.1.0: `bca20db3b7816e0155660db761c4dbd1dd74e57e3f2ab6b6dbc1ace6027c4158`.
 
+All three PDF byte streams, 1,100 page records and active question/teaching counts are verified. Versioned/latest APK files are identical; checksums are in `releases/`.
 
-## Android package checks
+`npm run test:apk-assets` boots files extracted from the actual signed APK under the Android origin/CSP. All modules/data/PDFs are local and present; teaching, cross-half source/rationale links, v2 export and explicit updates work without external requests or page errors.
 
-- Official Android platform 35, build tools 35.0.0 and platform tools were downloaded with TLS verification and checked against checksums in Google’s SDK repository metadata.
-- Java sources compiled to DEX with Android’s D8 compiler.
-- `apksigner verify --verbose --print-certs` passed APK signature schemes v2 and v3. The app is a release-signed package, not an unsigned ZIP or a debug APK.
-- `zipalign -c -P 16 4` passed. The package has no native `.so` libraries.
-- `aapt dump badging` confirmed `com.labwise.study`, version 3.1.0, minimum API 26 and target API 35. The manifest requests no Internet/shared-storage permissions.
-- APK ZIP integrity passed; bundled PDF bytes match the uploaded PDF exactly; all 434 page records and 1,484 question records are present.
-- `node tests/android-bridge.cjs` passed native-export call routing, native PDF opening and page jumps, search-to-native-reader routing, Android back navigation, and no service-worker dependency. This browser bridge harness does not execute the Java Activity code on Android.
-- The installed Android emulator’s `-accel-check` returned `KVM requires a CPU that supports vmx or svm`. Its documented `-help-accel` says hardware acceleration is required and software emulation is unsupported. No emulator installation/launch or physical-device run is claimed.
+`npm run test:android-bridge` simulates legacy v1 progress retention, v2 backups, source boundaries, cross-half links, reading positions, updates, back handling and no service worker. Native successful renders now record the actual page reached; the interface consumes each new reader-position event once, preserving it in progress backups without reapplying stale events after restore.
 
+## Evidence limits
 
-## Complete teaching release (3.1.0)
+Bridge and packaged-asset tests do **not** execute Java Activities on Android. This host lacks usable KVM virtualization and its emulator requires acceleration. Physical installation, native gestures, document pickers, real-device performance and an actual in-place upgrade remain unverified. Matching package/certificate and a higher code establish update packaging, not device execution.
 
-`npm run check:content` passed: 1,484/1,484 questions and 5,942/5,942 options have complete separate teaching. The check fails on missing/duplicate IDs, absent fields, wrong option counts, empty quick checks, or empty-like explanations; the APK build runs it before compiling. Tests verify every section has an uninterrupted numbered inventory.
-
-`node tests/teaching-browser.cjs` passed plain-question display, separate book rationale, all option notes, memory hooks, recall disclosure, five-choice matching, restored case context, glossary rendering and mobile/dark layouts. Existing full browser and Android-bridge suites also passed with the expanded bank.
-
-Independent content agents reviewed 80 deterministic samples across subjects. Fifteen reported conceptual/wording/context findings were addressed; review records are in `docs/content-audits.json`. These are content-review checks, not medical certification. Additional checks look for repetitive filler and letter-only recall answers.
-
-The final APK is signed with the retained certificate from3.0.0, with version code30100. Its package assets are checked against current source and full coverage counts.
-
-
-## Final package-asset check
-
-`node tests/apk-assets.cjs` passed against files extracted from the actual signed3.1.0 APK. It booted those assets under the Android HTTPS asset origin and matching content-security policy, checked all module/data requests were local and present, and exercised teaching, source rationale, native-PDF routing and backup routing. This checks packaged frontend assets and bridge calls, not execution of Java Activities on an Android device. A full1484-question JSON export/import also passed in Chromium (about2.9MB before duplicated legacy summary fields).
+OCR, structural checks and sampled review do not certify every medical statement. Images remain in the original PDFs. Browser storage may be evicted and does not synchronize across devices. No perfect-app or full medical-certification claim is made.

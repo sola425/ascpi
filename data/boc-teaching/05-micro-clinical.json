@@ -1,0 +1,1916 @@
+{
+  "boc-6-66": {
+    "questionInPlainEnglish": "Which bacterium matches an oxygen-free abdominal abscess, rods with spores near one end, and a spreading appearance?",
+    "explanation": "Clostridium septicum is a rod-shaped bacterium that can cause deep infections without oxygen. Its spores are tough resting structures; their position and the spreading appearance support the book’s identification.",
+    "optionExplanations": [
+      "Bacillus cereus forms spores, but does not match the anaerobic description.",
+      "Clostridium septicum matches the spores, anaerobic infection, and spreading appearance.",
+      "Eggerthella lenta is an anaerobic rod, but does not make spores.",
+      "Bifidobacterium dentium is an anaerobic rod, but does not make spores."
+    ],
+    "memory": "Septicum: an anaerobic rod that forms spores.",
+    "quickCheck": {
+      "question": "What rules out Eggerthella here?",
+      "answer": "It does not form spores."
+    },
+    "sourceNote": "The option Eggerthella /enta contains an OCR error; the name is Eggerthella lenta."
+  },
+  "boc-6-76": {
+    "questionInPlainEnglish": "Which listed trait fits Moraxella catarrhalis, a bacterium linked to respiratory infections?",
+    "explanation": "Moraxella catarrhalis is a pair-forming, round bacterium. Butyrate esterase is one of its enzymes. Most strains also make beta-lactamase, an enzyme that can break down some antibiotics.",
+    "optionExplanations": [
+      "Beta-lactamase-negative means lacking that enzyme; most M. catarrhalis strains make it.",
+      "Butyrate esterase-positive means having this enzyme, a characteristic that fits.",
+      "Gram-negative bacilli means pink-staining rods; Moraxella catarrhalis is typically paired cocci.",
+      "Oxidase-negative means lacking the reaction; M. catarrhalis is oxidase-positive."
+    ],
+    "memory": "Moraxella catarrhalis: paired cocci and butyrate esterase.",
+    "quickCheck": {
+      "question": "Are M. catarrhalis cells usually rods or cocci?",
+      "answer": "Cocci, commonly seen in pairs."
+    }
+  },
+  "boc-6-80": {
+    "questionInPlainEnglish": "Contact with which animal group is linked to psittacosis in people?",
+    "explanation": "Psittacosis is an infection caused by Chlamydia psittaci. Birds can carry it, and people may develop a flu-like illness or pneumonia after exposure.",
+    "optionExplanations": [
+      "Insects transmit many infections, but are not the usual source of psittacosis.",
+      "Birds are the animal source associated with Chlamydia psittaci infection.",
+      "Cattle are linked to other animal-associated infections, rather than the classic psittacosis source.",
+      "Dogs can carry several pathogens, but birds are the source asked about here."
+    ],
+    "memory": "Psittacosis is also called parrot fever.",
+    "quickCheck": {
+      "question": "Which bacterium causes psittacosis?",
+      "answer": "Chlamydia psittaci."
+    },
+    "sourceNote": "Chlamydophila psittaci is an older name for Chlamydia psittaci."
+  },
+  "boc-6-81": {
+    "questionInPlainEnglish": "Which two illnesses can develop after infection with the bacterium pictured?",
+    "explanation": "The book identifies the organism as Streptococcus pyogenes. After the original infection, an immune reaction can inflame kidney filters or cause rheumatic fever, which can injure the heart. These are complications, rather than continued bacterial invasion of those sites.",
+    "optionExplanations": [
+      "Rheumatic fever fits, but undulant fever is brucellosis, a different infection.",
+      "Glomerulonephritis affects kidney filters, and rheumatic fever is another recognized post-strep complication.",
+      "Rheumatic fever fits, but tularemia is a separate bacterial infection.",
+      "Glomerulonephritis fits, but undulant fever is another name for brucellosis."
+    ],
+    "memory": "Group A strep can be followed by kidney or heart inflammation.",
+    "quickCheck": {
+      "question": "What does glomerulonephritis inflame?",
+      "answer": "The tiny filtering units of the kidneys."
+    },
+    "sourceNote": "The extracted image is not interpretable here; the explanation identifies Streptococcus pyogenes."
+  },
+  "boc-6-82": {
+    "questionInPlainEnglish": "Which bacterium commonly causes a sudden sore throat with pus-like patches?",
+    "explanation": "Streptococcus pyogenes causes strep throat. Exudate means material such as white patches produced during inflammation. This infection is particularly common among school-age children.",
+    "optionExplanations": [
+      "Staphylococcus aureus can cause many infections, but is not the usual cause of strep throat.",
+      "Streptococcus pneumoniae is associated with pneumonia and ear infections, rather than classic strep throat.",
+      "Streptococcus agalactiae is group B strep, better known for newborn infections.",
+      "Streptococcus pyogenes is group A strep, the classic cause of streptococcal pharyngitis."
+    ],
+    "memory": "Pyogenes is the group A strep of strep throat.",
+    "quickCheck": {
+      "question": "What does pharyngitis mean?",
+      "answer": "Inflammation of the throat."
+    }
+  },
+  "boc-6-89": {
+    "questionInPlainEnglish": "What evidence shows whether Corynebacterium diphtheriae can make diphtheria toxin?",
+    "explanation": "Finding the species does not prove it produces the toxin responsible for classic diphtheria. Evidence of toxin production is the key distinction in this question. Toxigenic means able to make toxin.",
+    "optionExplanations": [
+      "A Gram stain shows cell shape and staining, but cannot establish toxin production.",
+      "Hemolysis describes red cell damage, rather than proving diphtheria toxin production.",
+      "A positive toxigenicity result establishes the toxin-related feature the question asks about.",
+      "Appearance on a named medium may support identity, but cannot establish toxin production."
+    ],
+    "memory": "Species identity and toxin production are different facts.",
+    "quickCheck": {
+      "question": "What does toxigenic mean?",
+      "answer": "Capable of producing a toxin."
+    }
+  },
+  "boc-6-90": {
+    "questionInPlainEnglish": "Which pair of illnesses is associated with Chlamydia trachomatis?",
+    "explanation": "Chlamydia trachomatis can infect the eyes and genital tract. Some types cause lymphogranuloma venereum, abbreviated LGV; other types cause conjunctivitis, meaning inflammation of the eye’s outer lining.",
+    "optionExplanations": [
+      "LGV is a sexually transmitted illness, and conjunctivitis is an eye infection; both fit.",
+      "Urethritis fits, but gastroenteritis is not a typical C. trachomatis illness.",
+      "Newborn pneumonia fits, but gastroenteritis is not a typical association.",
+      "Conjunctivitis fits, but newborn meningitis is not a typical C. trachomatis association."
+    ],
+    "memory": "Chlamydia trachomatis links the eyes and genital tract.",
+    "quickCheck": {
+      "question": "What does conjunctivitis affect?",
+      "answer": "The thin lining over the white of the eye and inside the eyelids."
+    }
+  },
+  "boc-6-95": {
+    "questionInPlainEnglish": "Which bacterium can cause childhood diarrhea, traveler’s diarrhea, or watery diarrhea through gut toxins?",
+    "explanation": "Some types of Escherichia coli make enterotoxins. Entero means intestine, so these are toxins that upset the gut’s normal water balance. Different E. coli types cause different illnesses; many E. coli normally live harmlessly in the intestine.",
+    "optionExplanations": [
+      "Yersinia enterocolitica can cause intestinal illness, but is not the classic toxin-mediated traveler’s diarrhea answer.",
+      "Escherichia coli includes enterotoxin-producing types that cause the illnesses described.",
+      "Salmonella Typhi causes typhoid fever, a systemic illness rather than this classic toxin-diarrhea pattern.",
+      "Shigella dysenteriae commonly causes inflammatory or bloody diarrhea, rather than the pattern asked about."
+    ],
+    "memory": "ETEC means enterotoxigenic E. coli: a traveler’s diarrhea cause.",
+    "quickCheck": {
+      "question": "Does every E. coli cause diarrhea?",
+      "answer": "No. Disease depends on the particular type and its traits."
+    }
+  },
+  "boc-6-96": {
+    "questionInPlainEnglish": "Which listed characteristic usually describes Shigella?",
+    "explanation": "Shigella is nonmotile, meaning it does not move itself using structures such as flagella. The other listed traits generally do not fit this genus.",
+    "optionExplanations": [
+      "Urease-positive means making an enzyme that breaks down urea; Shigella generally lacks it.",
+      "Nonmotile means unable to propel itself, which is characteristic of Shigella.",
+      "Oxidase-positive describes an enzyme reaction; Shigella is oxidase-negative.",
+      "Lactose fermenters use lactose in a particular way; Shigella generally does not do so promptly."
+    ],
+    "memory": "Shigella does not self-propel.",
+    "quickCheck": {
+      "question": "What does nonmotile mean?",
+      "answer": "Not able to move itself."
+    },
+    "sourceNote": "Shigella sonnei can show delayed lactose fermentation; the book gives the usual initial identification pattern."
+  },
+  "boc-6-109": {
+    "questionInPlainEnglish": "Which bacterium is associated with food poisoning involving bacteria or toxin already in food?",
+    "explanation": "Bacillus cereus can cause two food-poisoning syndromes: vomiting or diarrhea. The vomiting form involves toxin already present in the food; the diarrheal form involves toxin made in the intestine.",
+    "optionExplanations": [
+      "Salmonella Enteritidis causes foodborne infection, but is not the classic preformed-toxin answer here.",
+      "Shigella sonnei causes intestinal infection, rather than the two B. cereus toxin syndromes.",
+      "Bacillus cereus is linked to both vomiting-type and diarrheal-type food poisoning.",
+      "Aeromonas hydrophila can cause diarrhea, but does not best match this classic toxin-food-poisoning description."
+    ],
+    "memory": "Bacillus cereus has a vomiting form and a diarrhea form.",
+    "quickCheck": {
+      "question": "Is all B. cereus food poisoning caused by toxin already in food?",
+      "answer": "No. Its diarrheal syndrome involves toxin produced in the intestine."
+    }
+  },
+  "boc-6-111": {
+    "questionInPlainEnglish": "Which listed enzyme is a marker associated with Clostridioides difficile?",
+    "explanation": "Glutamate dehydrogenase, or GDH, is an enzyme associated with C. difficile. Its presence can support detection of the organism, but GDH alone does not establish that a strain produces the toxins responsible for disease.",
+    "optionExplanations": [
+      "Fluorescent staining is a general visualization approach, rather than the listed C. difficile enzyme marker.",
+      "Glutamate dehydrogenase is the enzyme marker associated with C. difficile.",
+      "LKV is a named medium, rather than the enzyme marker used in this question.",
+      "High-pressure liquid chromatography separates chemicals, but is not the intended C. difficile marker."
+    ],
+    "memory": "GDH points toward the organism; toxin evidence answers a different question.",
+    "quickCheck": {
+      "question": "Does GDH alone prove toxin-producing C. difficile disease?",
+      "answer": "No. It does not distinguish toxin-producing from nontoxin-producing strains."
+    }
+  },
+  "boc-6-113": {
+    "questionInPlainEnglish": "What illness is caused by the enterotoxin of some Staphylococcus aureus strains?",
+    "explanation": "Staphylococcal food poisoning can start quickly because toxin is already present in the food. Enterotoxin means a toxin affecting the intestine. Sudden nausea and vomiting are typical.",
+    "optionExplanations": [
+      "Endocarditis is infection of the heart lining; enterotoxin is not its primary cause.",
+      "A biofilm is a community attached to a surface; it is not what enterotoxin means.",
+      "Rapid food poisoning fits illness caused by preformed staphylococcal enterotoxin.",
+      "Low virulence means little ability to cause harm; this toxin can cause marked illness."
+    ],
+    "memory": "Preformed staph toxin means a short wait before vomiting.",
+    "quickCheck": {
+      "question": "Why can staphylococcal food poisoning start quickly?",
+      "answer": "The illness-causing toxin is already present when the food is eaten."
+    }
+  },
+  "boc-6-130": {
+    "questionInPlainEnglish": "Which bacterium matches large rectangular anaerobic rods from a foot wound?",
+    "explanation": "Clostridium perfringens is an anaerobic, spore-forming bacterium. Its broad rectangular rods are often described as boxcars. It can cause serious soft-tissue infections.",
+    "optionExplanations": [
+      "Actinomyces israelii has branching rods, rather than the classic boxcar-shaped description.",
+      "Clostridium perfringens fits broad boxcar rods and an anaerobic wound infection.",
+      "Bacillus subtilis forms spores, but does not fit the anaerobic wound description.",
+      "Eggerthella lenta is anaerobic but is not the classic spore-forming boxcar rod."
+    ],
+    "memory": "Perfringens rods are often compared with boxcars.",
+    "quickCheck": {
+      "question": "What does anaerobic mean?",
+      "answer": "Able to live where oxygen is absent."
+    }
+  },
+  "boc-6-131": {
+    "questionInPlainEnglish": "Which listed anaerobic bacterium is most often associated with clinical soft-tissue and bloodstream infections?",
+    "explanation": "Bacteroides fragilis normally belongs to intestinal bacteria. If intestinal barriers are broken, it can take part in abscesses and bloodstream infections. It is a major clinically important anaerobe.",
+    "optionExplanations": [
+      "Bacteroides fragilis is the most commonly recovered clinically important anaerobe among these choices.",
+      "Fusobacterium nucleatum can cause anaerobic infections, but is not the most common answer here.",
+      "Porphyromonas asaccharolytica can cause infection, but is less frequently implicated than B. fragilis.",
+      "Clostridium perfringens causes important infections, but is not the most commonly recovered anaerobe overall."
+    ],
+    "memory": "Fragilis is a major anaerobic infection name.",
+    "quickCheck": {
+      "question": "Can a normal gut bacterium cause infection elsewhere?",
+      "answer": "Yes. Leaving its normal site can let it cause abscesses or bloodstream infection."
+    }
+  },
+  "boc-6-138": {
+    "questionInPlainEnglish": "Which organism is linked to vaginal cells covered with bacteria and a vaginal pH of 5.0?",
+    "explanation": "Bacterial vaginosis is a change in the vaginal bacterial community. Gardnerella vaginalis is associated with it, along with other bacteria. Bacteria covering epithelial cells make their edges look fuzzy; these are called clue cells.",
+    "optionExplanations": [
+      "Escherichia coli commonly causes urinary infection, but is not the classic clue-cell association.",
+      "Arcanobacterium haemolyticum is more associated with throat infection than clue cells.",
+      "Gardnerella vaginalis is associated with clue cells and bacterial vaginosis.",
+      "Lactobacillus species usually help maintain an acidic vaginal environment, rather than this pattern."
+    ],
+    "memory": "Clue cells provide a clue to bacterial vaginosis.",
+    "quickCheck": {
+      "question": "Does Gardnerella act alone in bacterial vaginosis?",
+      "answer": "No. Bacterial vaginosis involves a changed community of organisms."
+    }
+  },
+  "boc-6-140": {
+    "questionInPlainEnglish": "Which very thin bacterium is classically associated with darkfield visualization?",
+    "explanation": "Treponema pallidum is the spiral-shaped bacterium that causes syphilis. Its thin shape is difficult to see with ordinary brightfield microscopy. Darkfield creates contrast around thin structures.",
+    "optionExplanations": [
+      "Borrelia recurrentis is a spirochete too, but is not the classic syphilis-lesion answer.",
+      "Mycoplasma pneumoniae lacks a cell wall and does not have the characteristic syphilis spirochete form.",
+      "Treponema pallidum is the thin syphilis spirochete associated with darkfield examination.",
+      "Legionella pneumophila is a rod-shaped respiratory bacterium, rather than the thin spirochete described."
+    ],
+    "memory": "Treponema pallidum is a thin spiral.",
+    "quickCheck": {
+      "question": "Which disease is caused by T. pallidum?",
+      "answer": "Syphilis."
+    }
+  },
+  "boc-6-145": {
+    "questionInPlainEnglish": "Which kidney condition can develop after a child has a group A streptococcal infection?",
+    "explanation": "An immune response after some Streptococcus pyogenes infections can inflame the kidney filters. This is acute poststreptococcal glomerulonephritis. Acute means it starts over a short time.",
+    "optionExplanations": [
+      "Acute pyelonephritis is a direct kidney infection, rather than the classic immune complication after strep.",
+      "Acute glomerulonephritis is inflammation of kidney filters and fits the post-strep complication.",
+      "Chronic glomerulonephritis is long-lasting filter disease; the classic initial complication is acute.",
+      "Nephrosis refers to a different pattern of kidney damage, rather than the named inflammatory complication."
+    ],
+    "memory": "Post-strep glomerulonephritis: the immune response affects filters.",
+    "quickCheck": {
+      "question": "Is post-strep glomerulonephritis a direct kidney infection?",
+      "answer": "It is mainly an immune-mediated complication."
+    }
+  },
+  "boc-6-147": {
+    "questionInPlainEnglish": "Which listed bacterium most often causes a urinary tract infection?",
+    "explanation": "Escherichia coli is the most common bacterial cause of urinary tract infection. Bacteria from the intestinal area can reach the urinary tract and cause bladder or kidney infection.",
+    "optionExplanations": [
+      "Staphylococcus aureus can appear in urinary infections, but is not the most common cause.",
+      "Escherichia coli is the leading cause of ordinary bacterial urinary tract infections.",
+      "Enterococcus faecalis can cause urinary infections, but less often than E. coli overall.",
+      "Serratia marcescens can cause urinary infections, especially in healthcare settings, but is less common."
+    ],
+    "memory": "E. coli is the usual UTI answer.",
+    "quickCheck": {
+      "question": "What does UTI stand for?",
+      "answer": "Urinary tract infection."
+    }
+  },
+  "boc-6-155": {
+    "questionInPlainEnglish": "Which feature best separates viridans streptococci from Streptococcus pneumoniae?",
+    "explanation": "Both groups can make a greenish change around red blood cells, called alpha hemolysis. Bile solubility distinguishes their usual patterns: pneumococci are bile-soluble, while viridans streptococci are generally not.",
+    "optionExplanations": [
+      "Alpha hemolysis is a greenish red-cell change shared by both groups.",
+      "Colony appearance can vary and overlap, so it is less dependable than the named distinguishing trait.",
+      "Catalase results are generally negative for both, so they do not separate these groups.",
+      "Bile solubility differs: pneumococci are usually soluble and viridans streptococci are not."
+    ],
+    "memory": "Pneumococcus is bile-soluble.",
+    "quickCheck": {
+      "question": "Does alpha hemolysis alone prove pneumococcus?",
+      "answer": "No. Viridans streptococci can also show alpha hemolysis."
+    }
+  },
+  "boc-6-157": {
+    "questionInPlainEnglish": "Which bacterium is classically associated with optochin susceptibility?",
+    "explanation": "Streptococcus pneumoniae is typically susceptible to optochin. This characteristic helps distinguish it from viridans streptococci, which are generally resistant. A susceptibility clue supports identity; it is not a complete diagnosis by itself.",
+    "optionExplanations": [
+      "Haemophilus influenzae is a different respiratory bacterium, not the classic optochin-associated organism.",
+      "Group A streptococci are associated with other distinguishing traits, not the classic optochin pattern.",
+      "Streptococcus pneumoniae is typically susceptible to optochin, matching the question.",
+      "Enterococcus is generally not identified by the pneumococcal optochin pattern."
+    ],
+    "memory": "Optochin points to pneumococcus.",
+    "quickCheck": {
+      "question": "Which related group is generally optochin-resistant?",
+      "answer": "Viridans streptococci."
+    }
+  },
+  "boc-6-162": {
+    "questionInPlainEnglish": "Which streptococcal group matches bacitracin susceptibility and a negative CAMP result?",
+    "explanation": "The book’s pattern points to group A Streptococcus, usually Streptococcus pyogenes. CAMP describes a characteristic enhanced red-cell breakdown associated with group B strep; group A usually lacks that pattern.",
+    "optionExplanations": [
+      "Group B strep usually has a positive CAMP reaction, unlike the negative result here.",
+      "Group A strep matches the classic bacitracin-susceptible, CAMP-negative exam pattern.",
+      "Other beta-hemolytic groups do not match the classic group A pattern as well.",
+      "Group D describes another grouping, rather than the group A pattern supplied."
+    ],
+    "memory": "Group A: classic CAMP-negative pattern.",
+    "quickCheck": {
+      "question": "Which group is classically CAMP-positive?",
+      "answer": "Group B Streptococcus."
+    },
+    "sourceNote": "Bacitracin is a traditional presumptive clue and is not completely specific for group A streptococci."
+  },
+  "boc-6-163": {
+    "questionInPlainEnglish": "Which organism matches a positive CAMP result and bacitracin resistance?",
+    "explanation": "Streptococcus agalactiae is group B strep. Its classic pattern includes a positive CAMP reaction and bacitracin resistance. Group B strep is especially important in infections around birth.",
+    "optionExplanations": [
+      "Staphylococcus saprophyticus is a staphylococcus associated with UTIs, not group B strep.",
+      "Streptococcus agalactiae is group B strep and matches both stated traits.",
+      "Moraxella catarrhalis is a gram-negative diplococcus, not a group B streptococcus.",
+      "Streptococcus pneumoniae has a different characteristic profile and is not group B strep."
+    ],
+    "memory": "Agalactiae is group B.",
+    "quickCheck": {
+      "question": "Why is group B strep important around birth?",
+      "answer": "It can cause serious infections in newborns."
+    },
+    "sourceNote": "The image is not available in the extracted text; the written traits independently support the keyed answer. The Moraxella option misleadingly includes “group B.”"
+  },
+  "boc-6-165": {
+    "questionInPlainEnglish": "Why does it matter to distinguish enterococci from non-enterococcal group D streptococci?",
+    "explanation": "Antibiotics do not affect every bacterium in the same way. Enterococci commonly resist more antibiotics than the non-enterococcal organisms historically called group D streptococci. Correct identity helps guide treatment decisions.",
+    "optionExplanations": [
+      "Confusion with viridans streptococci does not explain the main treatment difference asked about.",
+      "Severe infection can occur, but childbirth-related sepsis is not the main distinction here.",
+      "Group D streptococci can cause disease, so calling them avirulent is incorrect.",
+      "Greater antibiotic resistance in enterococci is the clinically important difference."
+    ],
+    "memory": "Enterococcus identity carries resistance implications.",
+    "quickCheck": {
+      "question": "Are non-enterococcal group D streptococci harmless?",
+      "answer": "No. They can cause serious infections too."
+    },
+    "sourceNote": "The older group D terminology includes organisms now classified in the Streptococcus gallolyticus/bovis group."
+  },
+  "boc-6-166": {
+    "questionInPlainEnglish": "Which listed feature best distinguishes pneumococcus from viridans streptococci?",
+    "explanation": "Streptococcus pneumoniae and viridans streptococci share several visible features. Their usual bile-solubility difference is more useful than cell staining, hemolysis, or variable colony appearance.",
+    "optionExplanations": [
+      "Gram staining shows both as gram-positive cocci, so it does not reliably separate them.",
+      "Both commonly show alpha hemolysis, a greenish change around red cells.",
+      "Colony appearance can overlap and vary, making it a weaker distinguishing clue.",
+      "Bile solubility is the key difference: pneumococcus is usually soluble, viridans streptococci insoluble."
+    ],
+    "memory": "Bile-soluble usually means pneumococcus in this comparison.",
+    "quickCheck": {
+      "question": "Why is Gram staining insufficient here?",
+      "answer": "Both groups are gram-positive cocci."
+    }
+  },
+  "boc-6-167": {
+    "questionInPlainEnglish": "Which statement best describes enterococci?",
+    "explanation": "Enterococci are relatively resistant to penicillin compared with many streptococci. This does not mean every strain is resistant to every drug. Serious enterococcal infections need treatment chosen for the specific organism and clinical situation.",
+    "optionExplanations": [
+      "Inability to tolerate this salt level is incorrect; salt tolerance is a classic enterococcal trait.",
+      "Relative penicillin resistance is the characteristic that fits these choices.",
+      "Hippurate positivity is not the book’s typical enterococcal pattern.",
+      "Bile-esculin negativity is incorrect; enterococci characteristically give a positive result."
+    ],
+    "memory": "Enterococci often resist more antibiotics than many streptococci.",
+    "quickCheck": {
+      "question": "Does relative resistance mean all antibiotics fail?",
+      "answer": "No. Resistance depends on the organism and the particular antibiotic."
+    }
+  },
+  "boc-6-168": {
+    "questionInPlainEnglish": "Which listed biochemical trait separates group B strep from group A strep?",
+    "explanation": "Streptococcus agalactiae is group B strep, while Streptococcus pyogenes is group A. The book distinguishes them by hippurate breakdown: group B is typically positive and group A negative.",
+    "optionExplanations": [
+      "Tolerance of sodium azide does not provide the distinguishing pattern asked for.",
+      "A positive bile-esculin reaction is more associated with enterococci and certain group D organisms.",
+      "Hippurate hydrolysis means breaking down hippurate; it is typically positive in group B, unlike group A.",
+      "Beta hemolysis means clear red-cell breakdown and can occur with both groups."
+    ],
+    "memory": "Group B breaks down hippurate.",
+    "quickCheck": {
+      "question": "Which species is group A strep?",
+      "answer": "Streptococcus pyogenes."
+    }
+  },
+  "boc-6-177": {
+    "questionInPlainEnglish": "Which characteristic is shared by typical members of Enterobacteriaceae in this question?",
+    "explanation": "The book describes the classic enteric-bacterium pattern: gram-negative rods that use glucose and reduce nitrate to nitrite. Not every member uses lactose, so lactose use cannot define the whole group.",
+    "optionExplanations": [
+      "Cytochrome oxidase positivity does not fit the classic oxidase-negative enteric pattern.",
+      "Lactose fermentation varies across the family, so it is not shared by all members.",
+      "Beta hemolysis varies and is not a defining family-wide feature.",
+      "Nitrate reduction to nitrite is the shared classic characteristic among these choices."
+    ],
+    "memory": "Glucose use is broad; lactose use varies.",
+    "quickCheck": {
+      "question": "Can lactose fermentation define every enteric bacterium?",
+      "answer": "No. Some enteric bacteria do not ferment lactose."
+    },
+    "sourceNote": "This question uses the traditional family grouping. Modern Enterobacterales taxonomy and uncommon exceptions require more precise interpretation than a single universal rule."
+  },
+  "boc-6-178": {
+    "questionInPlainEnglish": "Which listed enteric genus shows relatively few positive biochemical reactions?",
+    "explanation": "Shigella has a comparatively quiet biochemical pattern. It generally does not move itself and lacks many reactions used to tell enteric bacteria apart. Least reactive means fewer reactions, not less able to cause illness.",
+    "optionExplanations": [
+      "Proteus commonly shows reactions such as urease production, so it is more reactive than Shigella.",
+      "Pseudomonas is not an Enterobacteriaceae genus and does not fit the requested family comparison.",
+      "Citrobacter commonly has a more varied biochemical pattern than Shigella.",
+      "Shigella has relatively few positive reactions, matching the description."
+    ],
+    "memory": "Few biochemical reactions do not mean little disease.",
+    "quickCheck": {
+      "question": "Does low biochemical reactivity mean Shigella is harmless?",
+      "answer": "No. It can cause serious intestinal infection."
+    }
+  },
+  "boc-6-179": {
+    "questionInPlainEnglish": "Which listed gram-negative rod ferments glucose?",
+    "explanation": "Yersinia enterocolitica belongs to the enteric bacterial group and ferments glucose. The other choices are usually described as nonfermenters, even though some can use sugars through different metabolic routes.",
+    "optionExplanations": [
+      "Alcaligenes faecalis is a nonfermenter, so it does not match glucose fermentation.",
+      "Burkholderia cepacia is a nonfermenter, rather than the fermentative enteric choice.",
+      "Acinetobacter lwoffii is a nonfermenter and does not fit this glucose-fermentation answer.",
+      "Yersinia enterocolitica ferments glucose and is the correct enteric bacterium here."
+    ],
+    "memory": "Yersinia is an enteric glucose fermenter.",
+    "quickCheck": {
+      "question": "Is using a sugar always the same as fermenting it?",
+      "answer": "No. Bacteria can use sugars through different metabolic pathways."
+    }
+  },
+  "boc-6-183": {
+    "questionInPlainEnglish": "What unusual trait separates Plesiomonas shigelloides from many other enteric bacteria?",
+    "explanation": "Plesiomonas shigelloides is oxidase-positive, unlike the usual oxidase-negative enteric pattern. Classification considers broader biological relationships, so one unusual enzyme trait does not by itself determine a bacterium’s family.",
+    "optionExplanations": [
+      "Positive oxidase is the unusual feature that distinguishes Plesiomonas in this comparison.",
+      "Glucose fermentation is shared with many enteric bacteria, so it does not distinguish it.",
+      "Nitrate reduction is common among enteric bacteria and is not the key exception.",
+      "Appearance on MacConkey medium does not provide the particular distinguishing enzyme trait."
+    ],
+    "memory": "Plesiomonas is an oxidase-positive exception.",
+    "quickCheck": {
+      "question": "Why is positive oxidase striking here?",
+      "answer": "Many other enteric bacteria are oxidase-negative."
+    },
+    "sourceNote": "The source uses a traditional Enterobacteriaceae placement. Plesiomonas taxonomy has been revised in modern classifications; learn the oxidase exception without treating the older family label as permanent."
+  },
+  "boc-6-189": {
+    "questionInPlainEnglish": "Which organism is classically associated with the satellite phenomenon?",
+    "explanation": "The satellite phenomenon illustrates nutritional dependence: one organism’s local environment can supply a substance another needs. Haemophilus influenzae is the classic organism associated with this pattern in the book.",
+    "optionExplanations": [
+      "Haemophilus influenzae has particular nutritional needs that explain the classic satellite association.",
+      "Neisseria meningitidis is a different fastidious bacterium, but is not the classic satellite answer.",
+      "Neisseria gonorrhoeae has special nutritional needs too, but does not match this named phenomenon.",
+      "Klebsiella pneumoniae is not associated with this classic nutritional-dependence pattern."
+    ],
+    "memory": "Satellites illustrate one organism depending on nearby resources.",
+    "quickCheck": {
+      "question": "Which organism is the classic satellite example?",
+      "answer": "Haemophilus influenzae."
+    },
+    "sourceNote": "The source’s NAO is an OCR error for NAD. This note explains nutritional dependence without giving cultivation instructions."
+  },
+  "boc-6-190": {
+    "questionInPlainEnglish": "Which stated feature distinguishes Acinetobacter lwoffii from Neisseria gonorrhoeae?",
+    "explanation": "Both bacteria are gram-negative. The book distinguishes them by different nutritional demands: Acinetobacter can occur on the named general enteric media, whereas gonococcus is more demanding.",
+    "optionExplanations": [
+      "Gram-negative staining is shared by both organisms, so it cannot distinguish them.",
+      "The named medium compatibility reflects Acinetobacter’s less demanding nutritional profile in this comparison.",
+      "Oxidase positivity fits Neisseria, whereas Acinetobacter is oxidase-negative.",
+      "Hydrogen sulfide production is not the characteristic distinguishing Acinetobacter here."
+    ],
+    "memory": "Acinetobacter and Neisseria differ despite both being gram-negative.",
+    "quickCheck": {
+      "question": "Which of the two is typically oxidase-negative?",
+      "answer": "Acinetobacter."
+    }
+  },
+  "boc-6-191": {
+    "questionInPlainEnglish": "Which listed characteristic is the book’s strongest distinguishing clue for Pseudomonas aeruginosa?",
+    "explanation": "The book selects temperature tolerance as the best distinction among these choices. Oxidase activity, oxidative metabolism, and fluorescent pigment can be shared with related organisms. A shared trait is less useful than a distinguishing one.",
+    "optionExplanations": [
+      "Oxidase positivity occurs in many pseudomonads, so it is not specific enough.",
+      "Oxidative sugar metabolism is shared by other pseudomonads and does not uniquely identify this species.",
+      "Fluorescent pigment can occur in other pseudomonads, so it is not unique.",
+      "The listed temperature-tolerance trait is the distinguishing feature selected by the book."
+    ],
+    "memory": "A distinguishing trait must separate relatives.",
+    "quickCheck": {
+      "question": "Why is a shared trait a weaker identification clue?",
+      "answer": "Because several related organisms can have the same trait."
+    },
+    "sourceNote": "The book’s temperature statement is a traditional presumptive distinction, not an absolute claim about every Pseudomonas species."
+  },
+  "boc-6-194": {
+    "questionInPlainEnglish": "Which enzyme characteristic best separates Acinetobacter from Moraxella?",
+    "explanation": "Acinetobacter is typically oxidase-negative, while Moraxella is oxidase-positive. Oxidase describes a component of the cell’s energy system. This difference is more useful here than traits the two genera share.",
+    "optionExplanations": [
+      "Oxidase distinguishes them: Acinetobacter is negative and Moraxella positive.",
+      "Compatibility with MacConkey medium can overlap, so it is not the best separating trait.",
+      "Both genera are generally nonmotile, so motility does not separate them.",
+      "Penicillin resistance can occur in both groups, making it a poor distinguishing feature."
+    ],
+    "memory": "Acinetobacter: oxidase-negative; Moraxella: oxidase-positive.",
+    "quickCheck": {
+      "question": "Does nonmotility distinguish these two genera?",
+      "answer": "No. Both are generally nonmotile."
+    }
+  },
+  "boc-6-196": {
+    "questionInPlainEnglish": "Which description best matches Capnocytophaga?",
+    "explanation": "Capnocytophaga are gram-negative rods with a spreading appearance. Their name points to an association with carbon dioxide. They can ferment sugars, so calling them nonfermenters is incorrect.",
+    "optionExplanations": [
+      "Ordinary air alone is not the defining environmental association for Capnocytophaga.",
+      "A spreading colony appearance matches the characteristic described in the book.",
+      "Nonfermenter is incorrect because Capnocytophaga can ferment sugars.",
+      "Gram-positive rods is incorrect because Capnocytophaga are gram-negative rods."
+    ],
+    "memory": "Capnocytophaga: capno refers to carbon dioxide.",
+    "quickCheck": {
+      "question": "Are Capnocytophaga gram-positive or gram-negative?",
+      "answer": "Gram-negative."
+    }
+  },
+  "boc-6-198": {
+    "questionInPlainEnglish": "Which listed feature fits the HACEK group?",
+    "explanation": "HACEK is a group of demanding gram-negative bacteria often associated with endocarditis, an infection of the heart’s inner lining or valves. The book’s correct option reflects their association with a carbon-dioxide-enriched environment.",
+    "optionExplanations": [
+      "Urinary tract infection is not the classic clinical association; endocarditis is more characteristic.",
+      "Gram-positive rods is incorrect because HACEK organisms are gram-negative.",
+      "The carbon dioxide association is the environmental characteristic intended by the book.",
+      "The stated high-temperature requirement is not a defining feature of the HACEK group."
+    ],
+    "memory": "HACEK has a heart-valve association.",
+    "quickCheck": {
+      "question": "What is endocarditis?",
+      "answer": "Infection of the inner lining of the heart, often involving its valves."
+    },
+    "sourceNote": "Some names in the older HACEK expansion have changed; for example, Haemophilus aphrophilus is now Aggregatibacter aphrophilus."
+  },
+  "boc-6-200": {
+    "questionInPlainEnglish": "Which three genera share the enzyme phenylalanine deaminase?",
+    "explanation": "Phenylalanine deaminase, abbreviated PAD, is an enzyme that changes the amino acid phenylalanine. Proteus, Providencia, and Morganella share this characteristic, making them a useful related trio to remember.",
+    "optionExplanations": [
+      "Klebsiella, Serratia, and Enterobacter are not the classic PAD-positive trio.",
+      "Proteus, Providencia, and Morganella are the classic PAD-positive genera.",
+      "Escherichia, Edwardsiella, and Salmonella do not form the classic PAD-positive group.",
+      "Citrobacter, Klebsiella, and Pantoea do not match the PAD-positive trio."
+    ],
+    "memory": "Proteus, Providencia, and Morganella form the PAD-positive trio.",
+    "quickCheck": {
+      "question": "What does PAD stand for?",
+      "answer": "Phenylalanine deaminase."
+    }
+  },
+  "boc-6-202": {
+    "questionInPlainEnglish": "Which listed chemical corresponds to the oxidase reaction associated with Neisseria?",
+    "explanation": "Neisseria species are characteristically oxidase-positive. The long chemical name tetramethyl-phenylenediamine belongs to the indicator associated with that reaction. The main idea is the enzyme-linked reaction, not memorizing a laboratory procedure.",
+    "optionExplanations": [
+      "Naphthylamine is not the oxidase indicator named in this question.",
+      "Dimethylaminobenzaldehyde is associated with other chemical reactions, not the intended oxidase indicator.",
+      "Glucopyranoside refers to a sugar-related compound, not the intended oxidase indicator.",
+      "Tetramethyl-phenylenediamine is the chemical associated with the oxidase reaction."
+    ],
+    "memory": "Neisseria is characteristically oxidase-positive.",
+    "quickCheck": {
+      "question": "What shared enzyme-result pattern does the question emphasize?",
+      "answer": "The oxidase-positive pattern of Neisseria species."
+    }
+  },
+  "boc-6-204": {
+    "questionInPlainEnglish": "Which listed characteristic historically distinguished Neisseria gonorrhoeae?",
+    "explanation": "Different Neisseria species have different carbohydrate-use patterns. The book uses that traditional pattern as its identification answer. Modern clinical identification may instead rely on validated molecular or other methods.",
+    "optionExplanations": [
+      "Amino acid breakdown is not the classic differentiating Neisseria pattern intended here.",
+      "EIA means enzyme immunoassay; the broad label alone does not establish the specific identification in this question.",
+      "Carbohydrate-use patterns are the traditional distinguishing feature selected by the book.",
+      "Drug resistance varies and cannot define a species identity."
+    ],
+    "memory": "Traditional Neisseria identification used carbohydrate patterns.",
+    "quickCheck": {
+      "question": "Can antibiotic resistance alone establish a bacterial species?",
+      "answer": "No. Resistance can vary within a species."
+    },
+    "sourceNote": "“Definitive” reflects the book’s traditional framework; contemporary identification uses validated methods and may not rely on carbohydrate patterns alone."
+  },
+  "boc-6-209": {
+    "questionInPlainEnglish": "Which trait is characteristic of Erysipelothrix rhusiopathiae in this comparison?",
+    "explanation": "Erysipelothrix rhusiopathiae is a non-spore-forming gram-positive rod. Hydrogen sulfide production is its distinguishing biochemical clue among the listed choices. Tumbling motility is instead associated with Listeria.",
+    "optionExplanations": [
+      "Tumbling motility is associated with Listeria, rather than the nonmotile Erysipelothrix.",
+      "Beta hemolysis is not the key distinguishing Erysipelothrix characteristic here.",
+      "A temperature-related motility difference is associated with Listeria, not Erysipelothrix.",
+      "Hydrogen sulfide production is the characteristic that fits Erysipelothrix in this comparison."
+    ],
+    "memory": "Erysipelothrix has the hydrogen sulfide clue.",
+    "quickCheck": {
+      "question": "Which other rod is famous for tumbling motility?",
+      "answer": "Listeria."
+    }
+  },
+  "boc-6-210": {
+    "questionInPlainEnglish": "What shared trait can make Listeria resemble certain streptococci?",
+    "explanation": "Listeria is a rod, but short cells can be mistaken for cocci. It can show beta hemolysis and break down esculin, traits also found among some streptococcal relatives. Other characteristics are needed to distinguish them.",
+    "optionExplanations": [
+      "Nonmotility is incorrect because Listeria is characteristically motile.",
+      "Catalase-negative is incorrect because Listeria is typically catalase-positive.",
+      "Oxidase-positive is not the usual Listeria pattern.",
+      "Esculin positivity is a shared feature that can contribute to confusion with some streptococci."
+    ],
+    "memory": "A shared reaction does not mean a shared identity.",
+    "quickCheck": {
+      "question": "Is Listeria usually catalase-positive?",
+      "answer": "Yes, unlike streptococci."
+    }
+  },
+  "boc-6-214": {
+    "questionInPlainEnglish": "Which pair of anaerobic genera can show brick-red fluorescence?",
+    "explanation": "Certain bacterial products give off visible light of a different color when excited by light. Prevotella melaninogenica and Porphyromonas asaccharolytica are associated with the brick-red fluorescence described in this question.",
+    "optionExplanations": [
+      "Porphyromonas fits, but Clostridium ramosum is not part of the intended fluorescent pair.",
+      "Neither C. difficile nor Fusobacterium forms the classic brick-red pair asked for.",
+      "Prevotella melaninogenica and Porphyromonas asaccharolytica are the matching pair.",
+      "Fusobacterium and Bacteroides fragilis are not the classic brick-red fluorescent pair."
+    ],
+    "memory": "Prevotella and Porphyromonas share the red-glow clue.",
+    "quickCheck": {
+      "question": "What does fluorescence mean?",
+      "answer": "Giving off light after absorbing energy from another light source."
+    }
+  },
+  "boc-6-220": {
+    "questionInPlainEnglish": "Which enzyme can make gonococci resistant to penicillin?",
+    "explanation": "Beta-lactamase can break the beta-lactam ring in penicillin, disabling the drug. Neisseria gonorrhoeae may resist penicillin through this mechanism, though other resistance mechanisms also exist.",
+    "optionExplanations": [
+      "Beta-galactosidase is involved in sugar breakdown, rather than penicillin destruction.",
+      "Beta-lactamase breaks the antibiotic’s beta-lactam ring, explaining this resistance.",
+      "Butyrate esterase breaks down a different kind of chemical and is not the penicillin-resistance enzyme.",
+      "DNase breaks down DNA, rather than the beta-lactam ring in penicillin."
+    ],
+    "memory": "Beta-lactamase breaks beta-lactams.",
+    "quickCheck": {
+      "question": "Does DNase destroy penicillin?",
+      "answer": "No. DNase acts on DNA."
+    }
+  },
+  "boc-6-221": {
+    "questionInPlainEnglish": "Which listed compound is the book’s most sensitive indicator of beta-lactamase activity?",
+    "explanation": "Nitrocefin is a color-linked beta-lactam compound used as an indicator of beta-lactamase activity. The enzyme changes the compound, producing a visible signal. The question compares indicator usefulness, not patient treatment choices.",
+    "optionExplanations": [
+      "Penicillin is a beta-lactam drug, but the book describes less-sensitive enzyme detection with it.",
+      "Ampicillin is a penicillin-related drug, rather than the preferred color-linked indicator here.",
+      "Cefoxitin is an antibiotic used in other resistance assessments, not the indicator selected here.",
+      "Nitrocefin is the color-linked compound associated with sensitive beta-lactamase detection."
+    ],
+    "memory": "Nitrocefin connects an enzyme reaction with a color signal.",
+    "quickCheck": {
+      "question": "Is nitrocefin the treatment recommendation in this question?",
+      "answer": "No. It is an indicator used to recognize enzyme activity."
+    }
+  },
+  "boc-6-229": {
+    "questionInPlainEnglish": "Which antibiotic interferes with building the bacterial cell wall?",
+    "explanation": "Penicillin blocks proteins bacteria need to assemble their peptidoglycan cell wall. The wall helps the cell hold its shape and withstand pressure. The other choices act on different bacterial functions.",
+    "optionExplanations": [
+      "Chloramphenicol interferes with protein production, rather than cell-wall building.",
+      "Colistin damages the cell membrane, rather than blocking cell-wall assembly.",
+      "Penicillin interferes with the proteins responsible for building the cell wall.",
+      "Sulfamethoxazole interferes with folate production, rather than cell-wall assembly."
+    ],
+    "memory": "Penicillin targets the wall-building process.",
+    "quickCheck": {
+      "question": "Which listed drug targets the cell membrane?",
+      "answer": "Colistin."
+    }
+  },
+  "boc-6-232": {
+    "questionInPlainEnglish": "Why might an antibiotic reference result appear more resistant than expected?",
+    "explanation": "A weakened antibiotic disk can produce a smaller clear area than expected. That makes the bacterium appear more resistant even when the organism has not changed. Reference organisms help reveal problems with the test system.",
+    "optionExplanations": [
+      "The stated short preparation delay is not the cause selected by the book.",
+      "The stated temperature matches the book’s expected condition and does not explain the problem.",
+      "An overly light bacterial suspension would tend toward the opposite error: a larger clear area.",
+      "Outdated cefoxitin disks may have reduced activity, giving a smaller clear area and false resistance."
+    ],
+    "memory": "Weak antibiotic activity can imitate bacterial resistance.",
+    "quickCheck": {
+      "question": "Does a small clear area always mean the bacterium became more resistant?",
+      "answer": "No. Reduced activity of the test material can also cause that appearance."
+    }
+  },
+  "boc-6-239": {
+    "questionInPlainEnglish": "Which group of antibiotics is typically affected by carbapenemase in Klebsiella pneumoniae?",
+    "explanation": "Carbapenemase is an enzyme that can disable carbapenems and often other beta-lactam antibiotics. Amoxicillin, cefazolin, and imipenem represent three beta-lactam classes. Actual treatment requires the organism’s full resistance results and the clinical situation.",
+    "optionExplanations": [
+      "Amoxicillin, cefazolin, and imipenem are beta-lactams and match the carbapenemase-related pattern.",
+      "Colistin and rifampin act through different targets; carbapenemase does not directly explain resistance to both.",
+      "These folate-pathway drugs are not directly destroyed by carbapenemase.",
+      "Tetracycline and doxycycline affect protein production, rather than the beta-lactam target."
+    ],
+    "memory": "Carbapenemase threatens the beta-lactam family.",
+    "quickCheck": {
+      "question": "Is tetracycline a beta-lactam?",
+      "answer": "No. It belongs to a different antibiotic class."
+    },
+    "sourceNote": "The book gives a broad resistance association, not a complete susceptibility prediction. Carbapenemase type, additional resistance, and newer drug combinations matter clinically."
+  },
+  "boc-6-240": {
+    "questionInPlainEnglish": "Which option correctly pairs beta-lactam antibiotics with their action?",
+    "explanation": "Ampicillin is a penicillin, cefazolin a cephalosporin, and imipenem a carbapenem. All are beta-lactams, and all interfere with bacterial cell-wall construction.",
+    "optionExplanations": [
+      "These three drugs are beta-lactams, and cell-wall inhibition is their correct shared action.",
+      "The drug examples are correct, but DNA replication is not their main target.",
+      "Ciprofloxacin and levofloxacin are fluoroquinolones, so the drug grouping is incorrect.",
+      "The grouping mixes fluoroquinolones with aztreonam, a beta-lactam, and gives no shared action."
+    ],
+    "memory": "Penicillins, cephalosporins, and carbapenems all target wall building.",
+    "quickCheck": {
+      "question": "Which class includes cefazolin?",
+      "answer": "Cephalosporins."
+    }
+  },
+  "boc-6-241": {
+    "questionInPlainEnglish": "Which product can make Haemophilus influenzae resistant to ampicillin?",
+    "explanation": "Beta-lactamase is an enzyme that can inactivate ampicillin by breaking its beta-lactam ring. Other resistance mechanisms also exist, so an organism’s actual drug response cannot be inferred from the species name alone.",
+    "optionExplanations": [
+      "A polysaccharide capsule helps with other bacterial functions, but does not itself break down ampicillin.",
+      "NAD is a molecule involved in cell metabolism, rather than the ampicillin-destroying enzyme.",
+      "Porphobilinogen is related to heme synthesis, not direct ampicillin destruction.",
+      "Beta-lactamase is the enzyme that can inactivate ampicillin."
+    ],
+    "memory": "Ampicillin can be disabled by beta-lactamase.",
+    "quickCheck": {
+      "question": "Does the capsule itself destroy ampicillin?",
+      "answer": "No. The relevant enzyme is beta-lactamase."
+    }
+  },
+  "boc-6-242": {
+    "questionInPlainEnglish": "Which listed organism is especially associated with penicillin resistance from beta-lactamase?",
+    "explanation": "Neisseria gonorrhoeae is a classic example of an organism that can make penicillin-destroying beta-lactamase. It also has other resistance mechanisms. This is a resistance association, not a recommendation to treat gonorrhea with penicillin.",
+    "optionExplanations": [
+      "Chlamydia trachomatis is not the classic beta-lactamase-mediated penicillin-resistance example.",
+      "Neisseria gonorrhoeae is the characteristic association among these choices.",
+      "Neisseria meningitidis can acquire resistance, but beta-lactamase is much less typical than in gonococcus.",
+      "Treponema pallidum is not the classic beta-lactamase-producing organism in this comparison."
+    ],
+    "memory": "Gonococcus is a classic penicillinase example.",
+    "quickCheck": {
+      "question": "What is another name for a penicillin-breaking beta-lactamase?",
+      "answer": "Penicillinase."
+    },
+    "sourceNote": "The book’s claim that beta-lactamase is the primary gonococcal penicillin-resistance mechanism is too broad; chromosomal mechanisms also matter."
+  },
+  "boc-6-245": {
+    "questionInPlainEnglish": "What kind of hazard is addressed by biosafety level 3?",
+    "explanation": "Biosafety levels match protective practices and facilities to the risks of particular work. Level 3 addresses agents that can cause serious disease and present important inhalation risks. The level belongs to an assessed work setting, not just a short label attached to a species.",
+    "optionExplanations": [
+      "Disease with a lower risk of respiratory transmission more closely reflects the simpler level-2 description.",
+      "Organisms not ordinarily causing disease in healthy adults correspond more closely to level 1.",
+      "The highest-consequence description resembles the book’s level-4 summary, rather than level 3.",
+      "Serious disease with an inhalation hazard captures the key level-3 concept."
+    ],
+    "memory": "Level 3 emphasizes serious disease and inhalation risk.",
+    "quickCheck": {
+      "question": "Are biosafety levels based only on an organism’s name?",
+      "answer": "No. They also depend on the activity and its risk assessment."
+    },
+    "sourceNote": "The book simplifies biosafety levels. Treatment or vaccine availability alone does not define level 4, and work-specific risk assessment is essential."
+  },
+  "boc-6-246": {
+    "questionInPlainEnglish": "Which genus best matches branching, partly acid-fast rods causing lung infection in an immunocompromised patient?",
+    "explanation": "Nocardia can form branching filaments and can be partly acid-fast because of cell-wall components. People with weakened immunity are more vulnerable to nocardial lung infection. The combined pattern is more informative than branching alone.",
+    "optionExplanations": [
+      "Actinomadura can branch, but does not match the characteristic partial acid-fast Nocardia pattern.",
+      "Erysipelothrix is not a branching, partially acid-fast filamentous organism.",
+      "Nocardia matches branching rods, partial acid-fastness, and opportunistic lung infection.",
+      "Streptomyces can branch, but is generally not acid-fast like Nocardia."
+    ],
+    "memory": "Nocardia: branching and partially acid-fast.",
+    "quickCheck": {
+      "question": "Why is branching alone insufficient to identify Nocardia?",
+      "answer": "Other bacteria, such as Streptomyces, can also branch."
+    },
+    "sourceNote": "Nocardia asteroides is an older broad grouping; modern species identification is more precise."
+  },
+  "boc-6-260": {
+    "questionInPlainEnglish": "Which feature explains the ability of tuberculosis bacteria to persist in the body?",
+    "explanation": "Macrophages are immune cells that engulf unwanted material. Tuberculosis bacteria can persist inside these cells instead of being fully destroyed, helping explain long-lasting or latent infection.",
+    "optionExplanations": [
+      "Exotoxin production is not the main explanation for tuberculosis persistence in this question.",
+      "Endotoxin is not the main explanation; mycobacteria do not have the classic gram-negative endotoxin structure.",
+      "Survival within macrophages explains how infection can persist despite immune defenses.",
+      "This names one immune killing system, but misses the broader defining ability to withstand intracellular destruction."
+    ],
+    "memory": "Tuberculosis can persist within the cells meant to destroy it.",
+    "quickCheck": {
+      "question": "What is a macrophage?",
+      "answer": "An immune cell that engulfs microbes and other material."
+    }
+  },
+  "boc-6-261": {
+    "questionInPlainEnglish": "Which mycobacterial species is the source of the BCG vaccine strain?",
+    "explanation": "BCG is an attenuated, or weakened, strain derived from Mycobacterium bovis. It is used in many countries to help protect children against severe forms of tuberculosis.",
+    "optionExplanations": [
+      "Mycobacterium bovis is the species from which the BCG vaccine strain was derived.",
+      "The fortuitum/chelonae group is not the source of BCG.",
+      "Mycobacterium kansasii can cause disease but is not the source of BCG.",
+      "Mycobacterium tuberculosis causes most human tuberculosis, but BCG derives from M. bovis."
+    ],
+    "memory": "BCG comes from bovis.",
+    "quickCheck": {
+      "question": "What does attenuated mean for a vaccine strain?",
+      "answer": "Weakened so it can stimulate protection with reduced disease-causing ability."
+    }
+  },
+  "boc-6-263": {
+    "questionInPlainEnglish": "Which listed medicine is a major first-line tuberculosis drug?",
+    "explanation": "Rifampin is a central drug in many standard tuberculosis treatment regimens. Tuberculosis is usually treated with combinations of medicines, because one drug alone can allow resistance and treatment failure.",
+    "optionExplanations": [
+      "Ethionamide is used in selected resistant-TB regimens, rather than the usual first-line choice here.",
+      "Kanamycin is not a routine first-line choice and has important limitations in modern TB care.",
+      "Rifabutin can substitute for rifampin in certain situations, but is not the standard answer intended here.",
+      "Rifampin is the major first-line tuberculosis drug among these options."
+    ],
+    "memory": "Rifampin is a core TB drug, usually in a combination.",
+    "quickCheck": {
+      "question": "Is active tuberculosis usually treated with rifampin alone?",
+      "answer": "No. Treatment generally uses a planned combination of medicines."
+    },
+    "sourceNote": "The source’s listing of streptomycin as a primary routine drug reflects older practice; current regimens depend on susceptibility and clinical guidelines."
+  },
+  "boc-6-264": {
+    "questionInPlainEnglish": "Which mycobacterium is known for pigment that does not depend on light exposure?",
+    "explanation": "Mycobacterium scrofulaceum belongs to the traditional scotochromogen group. Scotochromogen means pigment can be present even without light. This is a descriptive classification, rather than a complete species identification.",
+    "optionExplanations": [
+      "Mycobacterium tuberculosis is traditionally nonpigmented, unlike the description.",
+      "Mycobacterium kansasii is classically photochromogenic: pigment is associated with light exposure.",
+      "The Mycobacterium fortuitum group is known as a rapid-growing group, not the classic scotochromogen here.",
+      "Mycobacterium scrofulaceum is the scotochromogen that matches pigment independent of light."
+    ],
+    "memory": "Scoto means dark: scotochromogens can have pigment without light.",
+    "quickCheck": {
+      "question": "Which listed species is classically photochromogenic?",
+      "answer": "Mycobacterium kansasii."
+    }
+  },
+  "boc-6-265": {
+    "questionInPlainEnglish": "What is the name for mycobacteria with yellow or orange pigment independent of light?",
+    "explanation": "Scotochromogens are a traditional mycobacterial category with pigment present whether or not light is involved. The word describes pigmentation, while rapid grower describes a different feature.",
+    "optionExplanations": [
+      "Nonchromogens lack the prominent pigment pattern described here.",
+      "Photochromogens have a light-associated pigment pattern, unlike pigment independent of light.",
+      "Rapid growers are grouped by growth rate rather than by this pigment pattern.",
+      "Scotochromogens are the group with pigment independent of light."
+    ],
+    "memory": "Scotochromogen: color can be present in the dark.",
+    "quickCheck": {
+      "question": "Does rapid grower describe color?",
+      "answer": "No. It describes growth rate."
+    }
+  },
+  "boc-6-266": {
+    "questionInPlainEnglish": "What is the name for mycobacteria whose pigment is associated with light exposure?",
+    "explanation": "Photochromogens are the traditional group whose pigment appears in association with light. Photo means light, and chromo refers to color. This name describes a trait rather than a single species.",
+    "optionExplanations": [
+      "Nonchromogens do not show the characteristic light-associated pigment.",
+      "Photochromogens have the light-dependent pigment pattern described.",
+      "Rapid growers are classified by growth rate, rather than this color change.",
+      "Scotochromogens can be pigmented without light, unlike the group asked about."
+    ],
+    "memory": "Photo means light; chromo means color.",
+    "quickCheck": {
+      "question": "Is photochromogen the name of one species?",
+      "answer": "No. It is a descriptive group based on pigmentation."
+    }
+  },
+  "boc-6-267": {
+    "questionInPlainEnglish": "What finding can support a suspected diagnosis of Hansen disease?",
+    "explanation": "Hansen disease, or leprosy, is caused mainly by Mycobacterium leprae and can affect skin and peripheral nerves. Acid-fast organisms in affected tissue can support a clinical diagnosis. The bacterium does not multiply on routine artificial laboratory media.",
+    "optionExplanations": [
+      "Routine isolation on Lowenstein-Jensen medium does not fit M. leprae’s inability to grow on artificial media.",
+      "Acid-fast bacilli in affected tissue can support the clinical diagnosis.",
+      "Routine cell-culture isolation is not the usual diagnostic basis for Hansen disease.",
+      "A niacin result from an ordinary isolate is not appropriate because routine culture does not yield M. leprae."
+    ],
+    "memory": "Hansen disease affects skin and nerves; tissue findings can support diagnosis.",
+    "quickCheck": {
+      "question": "Can M. leprae be routinely grown on artificial media?",
+      "answer": "No. Clinical and tissue findings are important."
+    },
+    "sourceNote": "The option says “weakly acid-fast”; the key idea is detection of acid-fast bacilli in clinically affected tissue."
+  },
+  "boc-6-270": {
+    "questionInPlainEnglish": "What kind of information can distinguish Mycobacterium avium from M. intracellulare?",
+    "explanation": "These two organisms belong to the Mycobacterium avium complex and can have very similar biochemical profiles. Molecular information examines their genetic differences, which can distinguish organisms that look and behave alike.",
+    "optionExplanations": [
+      "Nitrate reduction does not reliably separate these closely related organisms.",
+      "Tween hydrolysis does not provide a reliable distinction between the two.",
+      "The named drug-response characteristic does not reliably distinguish the species pair.",
+      "Molecular information can reveal genetic differences despite their similar biochemical behavior."
+    ],
+    "memory": "Similar chemistry can hide different genetic identities.",
+    "quickCheck": {
+      "question": "What does molecular identification examine?",
+      "answer": "Features of genetic material that distinguish organisms."
+    }
+  },
+  "boc-6-275": {
+    "questionInPlainEnglish": "Which pair belongs to the tuberculosis complex along with M. tuberculosis?",
+    "explanation": "The tuberculosis complex includes closely related mycobacteria such as M. africanum and M. bovis. Related names such as M. avium or M. kansasii belong to other groups.",
+    "optionExplanations": [
+      "M. africanum and M. bovis both belong to the tuberculosis complex.",
+      "M. africanum fits, but M. kansasii is outside the tuberculosis complex.",
+      "M. bovis fits, but M. avium is outside the tuberculosis complex.",
+      "M. avium hominissuis belongs to the M. avium group rather than the tuberculosis complex."
+    ],
+    "memory": "Tuberculosis, africanum, and bovis belong together.",
+    "quickCheck": {
+      "question": "Is M. avium part of the tuberculosis complex?",
+      "answer": "No. It belongs to a different mycobacterial group."
+    }
+  },
+  "boc-6-278": {
+    "questionInPlainEnglish": "Which observation can suggest that a virus has injured infected cells?",
+    "explanation": "Cytopathic effect means visible changes in cells caused by viral infection. Such changes can suggest a viral cause, but usually do not identify a particular virus by themselves.",
+    "optionExplanations": [
+      "Cytopathic effect describes visible cell injury associated with a viral infection.",
+      "Mature human red cells lack nuclei, so intranuclear inclusions in them are not plausible.",
+      "Sheep red-cell breakdown is not the general viral cell-injury clue asked for.",
+      "Mononuclear inflammation can occur for many reasons and does not identify a virus on its own."
+    ],
+    "memory": "Cytopathic effect means a virus changes the cell’s appearance.",
+    "quickCheck": {
+      "question": "Does cytopathic effect always identify the exact virus?",
+      "answer": "No. It is a suggestive pattern that needs other information."
+    }
+  },
+  "boc-6-280": {
+    "questionInPlainEnglish": "Which virus is associated with genital warts and precancerous or cancerous cervical changes?",
+    "explanation": "Human papillomavirus, or HPV, infects epithelial surfaces such as skin and the cervix. Some types cause warts; persistent infection with certain high-risk types can lead to cervical cancer. Warts and cancer risk are linked to different HPV types.",
+    "optionExplanations": [
+      "Herpes simplex causes blistering lesions, rather than the classic genital-wart and cervical-cancer association.",
+      "Human papillomavirus includes wart-causing types and high-risk types associated with cervical cancer.",
+      "Cytomegalovirus can cause congenital and opportunistic disease, but is not the classic wart-cervical-cancer virus.",
+      "Coxsackievirus causes other illnesses, not the characteristic HPV disease pattern."
+    ],
+    "memory": "HPV types differ: some cause warts, some increase cancer risk.",
+    "quickCheck": {
+      "question": "Does a genital wart automatically mean cervical cancer?",
+      "answer": "No. Wart-causing and high-risk cancer-associated HPV types are generally different."
+    }
+  },
+  "boc-6-281": {
+    "questionInPlainEnglish": "Which listed virus is especially associated with sporadic encephalitis?",
+    "explanation": "Encephalitis means inflammation of the brain. Herpes simplex virus, especially HSV-1, is a major cause of severe sporadic encephalitis. Sporadic means individual cases without a large outbreak.",
+    "optionExplanations": [
+      "Epstein-Barr virus can rarely affect the brain, but is less characteristic than HSV in this comparison.",
+      "Herpes simplex virus is the classic major cause of severe sporadic encephalitis among these choices.",
+      "Coxsackie B is more associated with illnesses such as myocarditis and meningitis than this classic HSV pattern.",
+      "Varicella-zoster can cause neurologic disease, but is not the classic leading sporadic-encephalitis answer."
+    ],
+    "memory": "HSV-1 is an important brain-infection association.",
+    "quickCheck": {
+      "question": "What does encephalitis mean?",
+      "answer": "Inflammation of the brain."
+    },
+    "sourceNote": "The rationale specifically concerns fatal sporadic encephalitis in the United States; the broad question wording should not be read as a worldwide ranking of all encephalitis."
+  },
+  "boc-6-282": {
+    "questionInPlainEnglish": "Among these choices, which virus is commonly linked to colds and other respiratory illnesses?",
+    "explanation": "Adenovirus can cause respiratory infections, sore throat, and sometimes conjunctivitis. The answer is relative to these four choices; rhinoviruses, which are not listed, are the most common cause of ordinary colds.",
+    "optionExplanations": [
+      "Epstein-Barr virus is best known for infectious mononucleosis, rather than ordinary acute colds.",
+      "Adenovirus commonly causes respiratory illness and best fits these choices.",
+      "Coxsackie B is more associated with enteroviral illnesses such as myocarditis.",
+      "Reovirus is not the leading respiratory association among the listed options."
+    ],
+    "memory": "Adenovirus can link sore throat, respiratory illness, and red eyes.",
+    "quickCheck": {
+      "question": "Is adenovirus the most common cause of all ordinary colds?",
+      "answer": "No. Rhinoviruses are more common causes of colds overall."
+    },
+    "sourceNote": "The question should be interpreted as asking for the best listed answer, rather than the most common cause among all viruses."
+  },
+  "boc-6-283": {
+    "questionInPlainEnglish": "Which listed cancer is classically associated with Epstein-Barr virus?",
+    "explanation": "Epstein-Barr virus causes infectious mononucleosis and is associated with several cancers. Burkitt lymphoma is a classic association. However, Hodgkin lymphoma can also be EBV-associated, so this question has more than one scientifically valid association.",
+    "optionExplanations": [
+      "Chickenpox is caused by varicella-zoster virus, rather than EBV.",
+      "Hodgkin lymphoma can be EBV-associated, so this distractor makes the question ambiguous.",
+      "Burkitt lymphoma is the classic EBV-associated cancer selected by the book.",
+      "Smallpox is caused by variola virus and has no classic EBV association."
+    ],
+    "memory": "EBV can be associated with both Burkitt and Hodgkin lymphomas.",
+    "quickCheck": {
+      "question": "Is Burkitt lymphoma the only EBV-associated cancer?",
+      "answer": "No. EBV is associated with several malignancies."
+    },
+    "sourceNote": "The key selects Burkitt lymphoma, but Hodgkin lymphoma is also an established EBV association. The question is not uniquely answerable as written."
+  },
+  "boc-6-284": {
+    "questionInPlainEnglish": "Which virus does the book identify as a major cause of gastroenteritis in young children?",
+    "explanation": "Rotavirus is an important cause of vomiting and diarrhea in infants and young children. Vaccination has greatly reduced its burden in many places, so modern rankings vary by location and vaccine coverage.",
+    "optionExplanations": [
+      "Enteric adenovirus types 40 and 41 can cause childhood diarrhea, but are not the book’s leading answer.",
+      "Norwalk virus, now grouped as norovirus, is also a major gastroenteritis cause and may lead in vaccinated populations.",
+      "Coronavirus is not the classic major pediatric-gastroenteritis answer here.",
+      "Rotavirus is the historical leading pediatric viral-gastroenteritis answer selected by the book."
+    ],
+    "memory": "Rotavirus is a major childhood diarrhea virus with an effective vaccine.",
+    "quickCheck": {
+      "question": "Can vaccination change which diarrhea virus is most common?",
+      "answer": "Yes. Reduced rotavirus disease changes the relative importance of other viruses."
+    },
+    "sourceNote": "The claim of more than 600,000 annual deaths is outdated, and rotavirus is not universally the leading cause in settings with strong vaccine uptake."
+  },
+  "boc-6-97": {
+    "questionInPlainEnglish": "Why can a bacterium with a Shigella-like profile fail to react with Shigella antibodies?",
+    "explanation": "An outer covering can hide cell-surface targets that antibodies recognize. The book’s chosen answer is based on uncovering these targets. The scientific lesson is that a negative antibody reaction can reflect a masked target rather than a wrong identity.",
+    "optionExplanations": [
+      "Changing the antibody lot addresses a reagent problem, but does not explain the surface-masking clue.",
+      "Vi antigen is associated with other bacterial identification contexts, not this intended Shigella explanation.",
+      "Repeating the biochemical profile would not resolve a target hidden beneath an outer covering.",
+      "The keyed option reflects removal of a masking surface covering so the antibody target becomes accessible."
+    ],
+    "memory": "Hidden surface targets can produce misleading antibody results.",
+    "quickCheck": {
+      "question": "Does a negative antibody reaction always prove the target is absent?",
+      "answer": "No. The target may be present but inaccessible."
+    },
+    "sourceNote": "The book’s procedural option is retained in the source. This teaching note explains only antigen masking and does not provide processing instructions."
+  },
+  "boc-6-285": {
+    "questionInPlainEnglish": "Which animal is the main reservoir associated with Sin Nombre virus?",
+    "explanation": "The deer mouse is the main reservoir of Sin Nombre virus. A reservoir is an animal population that maintains a pathogen in nature. The illness associated with this virus can severely affect the lungs.",
+    "optionExplanations": [
+      "The deer mouse is the main animal reservoir associated with Sin Nombre virus.",
+      "The Norway rat is associated with other hantaviruses, rather than this classic Sin Nombre reservoir.",
+      "Domestic dogs are not the principal reservoir for Sin Nombre virus.",
+      "Ixodes ticks transmit other infections and are not the Sin Nombre reservoir."
+    ],
+    "memory": "Sin Nombre is linked to the deer mouse.",
+    "quickCheck": {
+      "question": "Is a reservoir necessarily an insect vector?",
+      "answer": "No. A reservoir maintains the pathogen; a vector carries it between hosts."
+    },
+    "sourceNote": "The question calls the animal a vector, but reservoir is more accurate. The Four Corners states are Arizona, New Mexico, Colorado, and Utah; Nevada is incorrectly listed. Hantavirus taxonomy has also changed from the older Bunyavirus label."
+  },
+  "boc-6-286": {
+    "questionInPlainEnglish": "What broad virus group causes severe acute respiratory syndrome, or SARS?",
+    "explanation": "SARS is caused by a coronavirus. Coronaviruses are named for their crown-like surface appearance. The name of this virus family does not imply every member causes the same illness.",
+    "optionExplanations": [
+      "Paramyxoviruses cause other respiratory diseases, but are not the cause of SARS.",
+      "Enteroviruses cause several intestinal and systemic illnesses, rather than SARS.",
+      "Rhinoviruses commonly cause colds, rather than the SARS disease described.",
+      "Coronavirus is the virus group containing the cause of SARS."
+    ],
+    "memory": "Corona means crown.",
+    "quickCheck": {
+      "question": "Do all coronaviruses cause SARS?",
+      "answer": "No. Different coronaviruses cause different illnesses."
+    }
+  },
+  "boc-6-287": {
+    "questionInPlainEnglish": "Which animals maintain West Nile virus in nature?",
+    "explanation": "Birds are the main reservoir hosts for West Nile virus. Mosquitoes carry it between birds and can also transmit it to humans. Reservoir and vector describe different roles.",
+    "optionExplanations": [
+      "Mice are not the main reservoir group in the classic West Nile transmission cycle.",
+      "Rats are not the main reservoir group for West Nile virus.",
+      "Domestic cats are not the principal reservoir hosts in the usual West Nile cycle.",
+      "Birds maintain the virus in the main natural cycle, with mosquitoes serving as vectors."
+    ],
+    "memory": "West Nile: bird reservoir, mosquito vector.",
+    "quickCheck": {
+      "question": "Which carries West Nile virus from host to host?",
+      "answer": "Mosquitoes are the vectors."
+    }
+  },
+  "boc-6-288": {
+    "questionInPlainEnglish": "Which listed virus group is associated with hand, foot, and mouth disease?",
+    "explanation": "Coxsackie A viruses are common causes of hand, foot, and mouth disease. The name describes where sores or a rash often appear. Other enteroviruses can also cause the illness.",
+    "optionExplanations": [
+      "Adenovirus commonly causes respiratory or eye illness, rather than the classic hand-foot-mouth pattern.",
+      "Coxsackie A is the classic association with hand, foot, and mouth disease.",
+      "Coxsackie B is more classically associated with myocarditis and certain other enteroviral illnesses.",
+      "Human herpesvirus 6 causes roseola, rather than the classic hand-foot-mouth disease pattern."
+    ],
+    "memory": "Coxsackie A: hands, feet, and mouth.",
+    "quickCheck": {
+      "question": "Is hand, foot, and mouth disease caused only by coxsackie A?",
+      "answer": "No. Other enteroviruses can cause it too."
+    }
+  },
+  "boc-6-289": {
+    "questionInPlainEnglish": "Which listed virus causes the most common congenital infection in the United States?",
+    "explanation": "Cytomegalovirus, abbreviated CMV, can pass from a pregnant person to a fetus. Congenital means present from before or at birth. Effects range from no obvious symptoms to hearing loss and other serious problems.",
+    "optionExplanations": [
+      "VZV can cause congenital disease, but is much less common than congenital CMV.",
+      "CMV is the most common congenital viral infection among these choices and in the United States overall.",
+      "EBV is not the leading cause of congenital infection.",
+      "Adenovirus is not the leading congenital infection in this comparison."
+    ],
+    "memory": "CMV is a major congenital infection and hearing-loss association.",
+    "quickCheck": {
+      "question": "What does congenital mean?",
+      "answer": "Present from before or at birth."
+    }
+  },
+  "boc-6-290": {
+    "questionInPlainEnglish": "Which illness is caused by reactivation of varicella-zoster virus?",
+    "explanation": "Varicella-zoster virus causes chickenpox during a first infection. It can remain dormant in nerve cells and later reactivate as shingles, a painful localized blistering rash.",
+    "optionExplanations": [
+      "Infectious mononucleosis is most classically associated with Epstein-Barr virus.",
+      "Shingles is the reactivation illness caused by varicella-zoster virus.",
+      "Primary central nervous system lymphoma is associated with EBV in certain settings, rather than VZV.",
+      "Burkitt lymphoma is associated with EBV, rather than varicella-zoster virus."
+    ],
+    "memory": "VZV first causes chickenpox; reactivation causes shingles.",
+    "quickCheck": {
+      "question": "Can shingles occur years after chickenpox?",
+      "answer": "Yes. The virus can remain dormant in nerve cells."
+    }
+  },
+  "boc-6-291": {
+    "questionInPlainEnglish": "Which condition is associated with human herpesvirus 8?",
+    "explanation": "Human herpesvirus 8, also called Kaposi sarcoma-associated herpesvirus, is linked to Kaposi sarcoma. This cancer involves cells associated with blood and lymph vessels and is more likely with weakened immunity.",
+    "optionExplanations": [
+      "Kaposi sarcoma is the classic cancer associated with HHV8.",
+      "Duncan disease is an inherited immune disorder involving abnormal responses to EBV, not the classic HHV8 disease.",
+      "Fifth disease is associated with parvovirus B19, rather than HHV8.",
+      "Exanthem infectiosum is another name for fifth disease, which is caused by parvovirus B19."
+    ],
+    "memory": "HHV8 is also called Kaposi sarcoma-associated herpesvirus.",
+    "quickCheck": {
+      "question": "Are fifth disease and exanthem infectiosum different diseases?",
+      "answer": "No. They are two names for the same parvovirus B19 illness."
+    }
+  },
+  "boc-6-292": {
+    "questionInPlainEnglish": "Which blood marker is expected after successful hepatitis B vaccination?",
+    "explanation": "Hepatitis B vaccination exposes the immune system to surface antigen, so protective antibodies against that surface can develop. These antibodies are called anti-HBs. Vaccination alone does not cause antibodies against the viral core.",
+    "optionExplanations": [
+      "HBsAg is the surface antigen itself; persistent detection suggests infection rather than the usual long-term vaccine response.",
+      "HBeAg is an infection-associated viral marker, not a vaccine antibody.",
+      "Anti-HBs means antibody against the surface antigen and is the expected vaccine-response marker.",
+      "Anti-HBc means antibody against the core and indicates past or current natural infection, not vaccination alone."
+    ],
+    "memory": "Vaccine response: anti-surface, not anti-core.",
+    "quickCheck": {
+      "question": "What does anti-HBs mean?",
+      "answer": "Antibody against hepatitis B surface antigen."
+    },
+    "sourceNote": "The source overstates anti-HBc as an acute marker. Total anti-HBc can persist after past infection; IgM anti-HBc is more associated with recent infection."
+  },
+  "boc-6-293": {
+    "questionInPlainEnglish": "Which marker remaining present is the key evidence of chronic hepatitis B?",
+    "explanation": "Persistent hepatitis B surface antigen, HBsAg, indicates ongoing infection. Presence for at least six months supports chronic infection. A single positive result alone cannot establish how long infection has been present.",
+    "optionExplanations": [
+      "HBeAg can reflect viral replication but is not the defining marker of chronicity.",
+      "HBsAg persisting for at least six months supports chronic hepatitis B infection.",
+      "Anti-HBe is an antibody marker that does not by itself define chronic infection.",
+      "Anti-HBs usually indicates immunity, rather than persistent infection."
+    ],
+    "memory": "Chronic HBV: surface antigen persists.",
+    "quickCheck": {
+      "question": "Can one positive HBsAg result alone establish chronic infection?",
+      "answer": "No. Evidence of persistence over time is needed."
+    },
+    "sourceNote": "The original explanation oversimplifies symptom timing and antibody patterns; the central reliable concept is HBsAg persistence for at least six months."
+  },
+  "boc-6-294": {
+    "questionInPlainEnglish": "Which statement correctly explains influenza antigenic drift or shift?",
+    "explanation": "Drift means small accumulated changes in viral surface proteins from mutations. Shift is a major antigenic change, classically from reassortment of influenza A genome segments. Drift contributes to recurring seasonal outbreaks; shift can contribute to pandemics.",
+    "optionExplanations": [
+      "Small mutations in hemagglutinin and neuraminidase genes explain antigenic drift.",
+      "Pandemics are classically associated with major antigenic shift, not ordinary drift alone.",
+      "Seasonal epidemics are mainly linked to drift, rather than major shift.",
+      "Repeated annual local outbreaks are mainly associated with drift, rather than shift."
+    ],
+    "memory": "Drift is small change; shift is major change.",
+    "quickCheck": {
+      "question": "Which process is linked to ordinary seasonal changes?",
+      "answer": "Antigenic drift."
+    },
+    "sourceNote": "The rationale calls shift recombination; reassortment of genome segments is the more precise classical term."
+  },
+  "boc-6-295": {
+    "questionInPlainEnglish": "Which listed virus is the leading classic cause of bronchiolitis in infants?",
+    "explanation": "Respiratory syncytial virus, or RSV, is a major cause of bronchiolitis, meaning inflammation of the small airways. It can make breathing difficult in babies. Other viruses can also cause bronchiolitis.",
+    "optionExplanations": [
+      "Parainfluenza can cause lower-airway disease but is especially associated with croup.",
+      "Metapneumovirus can cause bronchiolitis too, but RSV is the leading classic answer.",
+      "Coxsackie A is better known for hand, foot, and mouth disease.",
+      "Respiratory syncytial virus is the major infant-bronchiolitis cause among these choices."
+    ],
+    "memory": "RSV is a major small-airway illness in infants.",
+    "quickCheck": {
+      "question": "Does RSV cause every case of bronchiolitis?",
+      "answer": "No. Several other respiratory viruses can cause it."
+    },
+    "sourceNote": "“Nearly all cases” is an overstatement. The rationale’s “most common cause” wording is more accurate."
+  },
+  "boc-6-298": {
+    "questionInPlainEnglish": "Which statement correctly describes hepatitis B virus?",
+    "explanation": "Hepatitis B virus has a DNA genome and an outer envelope. It reaches the liver through routes such as blood exposure, sexual transmission, and transmission around birth. It infects liver cells called hepatocytes.",
+    "optionExplanations": [
+      "CD4 T cells are the characteristic target of HIV, not the main liver-cell target of HBV.",
+      "Shingles results from varicella-zoster virus reactivation, not hepatitis B.",
+      "An enveloped DNA virus transmitted through blood and other body-fluid routes correctly describes HBV.",
+      "An RNA virus spread mainly by the fecal-oral route better describes hepatitis A or E than HBV."
+    ],
+    "memory": "HBV is enveloped DNA and targets the liver.",
+    "quickCheck": {
+      "question": "What are hepatocytes?",
+      "answer": "The main working cells of the liver."
+    }
+  },
+  "boc-6-302": {
+    "questionInPlainEnglish": "Which listed amoeba causes primary amoebic meningoencephalitis?",
+    "explanation": "Naegleria fowleri can cause a rare, rapidly progressive infection of the brain and its surrounding membranes. The other listed organisms are intestinal protozoa, rather than the classic cause of this brain infection.",
+    "optionExplanations": [
+      "Entamoeba coli is a generally nonpathogenic intestinal amoeba, not the cause of this brain infection.",
+      "Dientamoeba fragilis is associated with the intestine, rather than primary amoebic meningoencephalitis.",
+      "Endolimax nana is a generally nonpathogenic intestinal amoeba.",
+      "Naegleria fowleri is the amoeba associated with primary amoebic meningoencephalitis."
+    ],
+    "memory": "Naegleria is the primary amoebic brain-infection association.",
+    "quickCheck": {
+      "question": "What does meningoencephalitis affect?",
+      "answer": "The brain and the membranes surrounding it."
+    }
+  },
+  "boc-6-304": {
+    "questionInPlainEnglish": "Why does a thick blood film improve the chance of finding malaria parasites?",
+    "explanation": "A thick film represents more blood in a smaller viewing area. That improves the chance of noticing parasites when few are present. This is a sensitivity concept: more relevant material can make a scarce target easier to find.",
+    "optionExplanations": [
+      "Improved staining quality is not the main advantage described by the book.",
+      "Improved detection is the key benefit because more blood is represented in the viewed material.",
+      "Removing red-cell artifacts is not the primary reason for improved parasite detection.",
+      "Removing platelets is not the central purpose of a thick malaria film."
+    ],
+    "memory": "More represented blood can reveal scarce parasites.",
+    "quickCheck": {
+      "question": "What does greater detection sensitivity mean?",
+      "answer": "A better chance of finding a target when little is present."
+    }
+  },
+  "boc-6-305": {
+    "questionInPlainEnglish": "Which parasite is linked to cat-associated oocysts and tissue cysts in undercooked meat?",
+    "explanation": "Toxoplasma gondii has different forms during its life cycle. Cats are associated with the oocyst stage, and tissue cysts can occur in meat. Infection is especially important during pregnancy and in people with weakened immunity.",
+    "optionExplanations": [
+      "Cryptosporidium parvum causes intestinal illness but does not match the meat tissue-cyst clue.",
+      "Cyclospora cayetanensis causes diarrhea and does not match this cat-and-meat life cycle.",
+      "Toxoplasma gondii matches both cat-associated oocysts and tissue cysts in meat.",
+      "Trypanosoma cruzi causes Chagas disease and has a different transmission cycle."
+    ],
+    "memory": "Toxoplasma links cats and tissue cysts.",
+    "quickCheck": {
+      "question": "Which parasite is especially important in congenital infection and weakened immunity?",
+      "answer": "Toxoplasma gondii."
+    }
+  },
+  "boc-6-309": {
+    "questionInPlainEnglish": "What would the active form of the pictured Entamoeba coli cyst usually be like?",
+    "explanation": "The rationale identifies the cyst as Entamoeba coli because it has more than four nuclei. Its trophozoite, or active form, usually moves slowly and without a clear direction. It is not the amoeba classically associated with ingested red cells.",
+    "optionExplanations": [
+      "Ingested red cells are more associated with invasive E. histolytica than E. coli.",
+      "Clear, sharply directed pseudopods do not match the usual sluggish E. coli pattern.",
+      "E. coli trophozoites commonly have vacuolated cytoplasm, so few vacuoles is a poor description.",
+      "Slow, poorly directed movement matches the usual Entamoeba coli trophozoite."
+    ],
+    "memory": "Entamoeba coli cysts may have up to eight nuclei.",
+    "quickCheck": {
+      "question": "Is Entamoeba coli the same organism as Escherichia coli?",
+      "answer": "No. One is an amoeba; the other is a bacterium."
+    },
+    "sourceNote": "The source image is not available here; the rationale supplies the identification and nucleus-count clue."
+  },
+  "boc-6-310": {
+    "questionInPlainEnglish": "What is the main meaning of finding the pictured nonpathogenic intestinal amoeba?",
+    "explanation": "The book identifies Entamoeba coli, which usually does not cause illness. Its presence can indicate exposure to fecally contaminated material, so other causes of symptoms still matter. Finding an organism does not automatically mean it caused the patient’s illness.",
+    "optionExplanations": [
+      "An urgent pathogen report would wrongly treat this generally nonpathogenic amoeba as the cause of disease.",
+      "Considering other potentially pathogenic organisms fits the meaning of this exposure marker.",
+      "Looking only for a moving form does not address whether another organism causes the illness.",
+      "The structure is identified as an amoeba cyst, not as proof of excessive pollen contamination."
+    ],
+    "memory": "An organism can mark exposure without causing disease.",
+    "quickCheck": {
+      "question": "Does Entamoeba coli usually explain a patient’s diarrhea?",
+      "answer": "No. Other causes should be considered."
+    },
+    "sourceNote": "The image is not interpretable from the extracted text; the rationale identifies Entamoeba coli."
+  },
+  "boc-6-311": {
+    "questionInPlainEnglish": "Which two amoebae does the book claim are pictured together?",
+    "explanation": "The answer key selects Entamoeba histolytica and E. hartmanni, but the rationale describes E. histolytica and E. coli. Those are different pairs. The extracted image cannot resolve the contradiction, so this item should not be used as a reliable image-identification example.",
+    "optionExplanations": [
+      "E. histolytica with E. hartmanni is the keyed pair, but conflicts with the supplied rationale.",
+      "Dientamoeba with E. histolytica is not supported by either the key or the rationale.",
+      "Giardia with E. coli does not match the pair selected or described in the source.",
+      "E. coli with E. histolytica matches the rationale, even though the key selects another pair."
+    ],
+    "memory": "When key and rationale name different organisms, flag the source conflict.",
+    "quickCheck": {
+      "question": "Which pair does the rationale describe?",
+      "answer": "Entamoeba coli and Entamoeba histolytica."
+    },
+    "sourceNote": "Known source conflict: key index 0 names E. histolytica/E. hartmanni, while rationale describes E. histolytica/E. coli and an eight-nucleus cyst. Preserve the key but do not present it as settled."
+  },
+  "boc-6-312": {
+    "questionInPlainEnglish": "What kind of amoeba stage is the pictured structure on the right?",
+    "explanation": "The rationale identifies the right-hand structure as a cyst of Entamoeba coli. A cyst is a relatively resistant resting form. This amoeba is generally nonpathogenic, meaning it usually does not cause disease.",
+    "optionExplanations": [
+      "A cyst of a nonpathogenic amoeba matches the stated E. coli identification.",
+      "A trophozoite is an active feeding form, unlike the cyst identified here.",
+      "A pathogenic amoeba can cause disease; the named E. coli is generally nonpathogenic.",
+      "This choice incorrectly gives both an active form and a pathogenic organism."
+    ],
+    "memory": "Cyst describes the stage; nonpathogenic describes disease-causing ability.",
+    "quickCheck": {
+      "question": "What is a trophozoite?",
+      "answer": "The active, feeding form of a protozoan."
+    },
+    "sourceNote": "The image is not available in the extracted text. The explanation relies on the rationale’s E. coli cyst identification, and nearby question 311 has a conflicting key."
+  },
+  "boc-6-313": {
+    "questionInPlainEnglish": "What broad parasite group includes the pictured Giardia?",
+    "explanation": "Giardia duodenalis is a flagellated protozoan. Flagella are long, whip-like structures used for movement. Its active form has a distinctive paired-nucleus appearance, but the broad category asked for is flagellate.",
+    "optionExplanations": [
+      "Amoebae move mainly by temporary cell extensions, unlike Giardia’s flagella.",
+      "Flagellate means a protozoan with flagella, matching Giardia.",
+      "Filariae are threadlike parasitic worms, rather than single-celled Giardia.",
+      "Sporozoan is an older category for other protozoa, not the flagellated Giardia."
+    ],
+    "memory": "Giardia is a flagellate.",
+    "quickCheck": {
+      "question": "Are Giardia worms or single-celled protozoa?",
+      "answer": "Single-celled protozoa."
+    },
+    "sourceNote": "The image is not available here; the rationale identifies Giardia duodenalis, also called G. lamblia or G. intestinalis."
+  },
+  "boc-6-314": {
+    "questionInPlainEnglish": "Which illness best fits diarrhea with the pictured Giardia forms after travel?",
+    "explanation": "Giardiasis is intestinal infection caused by Giardia duodenalis. It can reduce normal nutrient absorption and produce greasy, foul-smelling stools. Travel is a clue to possible exposure, but the organism identification is more specific.",
+    "optionExplanations": [
+      "Giardiasis is the disease caused by Giardia and fits the stated image identification.",
+      "Amebiasis usually refers to disease caused by Entamoeba histolytica, a different protozoan.",
+      "Ascariasis is roundworm infection, rather than Giardia infection.",
+      "Balantidiasis is infection by a ciliated protozoan, rather than Giardia."
+    ],
+    "memory": "Giardia can cause greasy stools from poor absorption.",
+    "quickCheck": {
+      "question": "What organism causes giardiasis?",
+      "answer": "Giardia duodenalis."
+    },
+    "sourceNote": "The image is not available in the extracted text; the rationale states that Giardia cysts and trophozoites are shown."
+  },
+  "boc-6-316": {
+    "questionInPlainEnglish": "Which amoeba has small oval cysts with four nuclei, large central dots, and no chromatin rim?",
+    "explanation": "Endolimax nana cysts have up to four nuclei and conspicuous karyosomes, the dot-like material inside each nucleus. Lack of peripheral chromatin, a rim of nuclear material, helps distinguish it from similar small amoebae.",
+    "optionExplanations": [
+      "Endolimax nana matches the four nuclei, large karyosomes, and lack of peripheral chromatin.",
+      "Chilomastix mesnili cysts usually have one nucleus, not the four described.",
+      "Entamoeba histolytica cysts have peripheral chromatin, unlike this description.",
+      "Entamoeba hartmanni can be small, but has peripheral chromatin and does not fit the nucleus detail."
+    ],
+    "memory": "Endolimax nana: large nuclear dots without a chromatin rim.",
+    "quickCheck": {
+      "question": "What is a karyosome in this description?",
+      "answer": "The conspicuous dot-like material inside a nucleus."
+    }
+  },
+  "boc-6-317": {
+    "questionInPlainEnglish": "Which worm infection can renew itself inside the same person?",
+    "explanation": "Strongyloides stercoralis can have an autoinfective cycle. Some larvae become infective before leaving the person, allowing infection to persist for years. Severe widespread disease is especially concerning when immunity is weakened.",
+    "optionExplanations": [
+      "Ascaris lumbricoides does not have the classic internal autoinfection cycle described.",
+      "Necator americanus is a hookworm without this characteristic internal autoinfection cycle.",
+      "Trichuris trichiura is whipworm and does not match this cycle.",
+      "Strongyloides stercoralis can renew infection within the same host, which is internal autoinfection."
+    ],
+    "memory": "Strongyloides can stay through self-reinfection.",
+    "quickCheck": {
+      "question": "Does Strongyloides autoinfection occur only in immunocompromised people?",
+      "answer": "No. It can occur in others too, but weakened immunity increases the risk of severe disease."
+    },
+    "sourceNote": "The source ties the process to immunocompromised patients too narrowly; autoinfection also occurs in immunocompetent hosts."
+  },
+  "boc-6-318": {
+    "questionInPlainEnglish": "Which filarial worm is associated with skin nodules and microfilariae in skin?",
+    "explanation": "Onchocerca volvulus adults live in subcutaneous nodules, and their immature forms, called microfilariae, occur in skin and can affect the eyes. This tissue pattern distinguishes it from filarial worms whose microfilariae are mainly in blood.",
+    "optionExplanations": [
+      "Wuchereria bancrofti mainly affects lymphatic tissues, with microfilariae in blood.",
+      "Brugia malayi is another lymphatic filarial worm with blood microfilariae.",
+      "Onchocerca volvulus fits the skin-nodule and skin-microfilaria pattern.",
+      "Loa loa microfilariae are found mainly in blood, rather than the classic Onchocerca skin pattern."
+    ],
+    "memory": "Onchocerca: skin nodules and eye disease.",
+    "quickCheck": {
+      "question": "Are microfilariae adult worms?",
+      "answer": "No. They are immature larval forms produced by adult filarial worms."
+    }
+  },
+  "boc-6-319": {
+    "questionInPlainEnglish": "Which symptom is most characteristic of pinworm infection in children?",
+    "explanation": "Enterobius vermicularis is the pinworm. Its typical symptom is itching around the anus, often worse at night. This symptom is more characteristic than general abdominal complaints.",
+    "optionExplanations": [
+      "Diarrhea can occur with many intestinal illnesses, but is not the classic pinworm symptom.",
+      "Constipation is not the characteristic symptom linked to pinworm eggs.",
+      "Perianal itching means itching around the anus and is the classic pinworm clue.",
+      "Stomach pain is nonspecific and is less characteristic than perianal itching."
+    ],
+    "memory": "Pinworm is a classic cause of nighttime anal itching.",
+    "quickCheck": {
+      "question": "What does perianal mean?",
+      "answer": "Around the anus."
+    },
+    "sourceNote": "The image is not available here; the section and rationale identify Enterobius vermicularis."
+  },
+  "boc-6-322": {
+    "questionInPlainEnglish": "Which parasite causes cysticercosis, with larval cysts in human tissues?",
+    "explanation": "Taenia solium can cause two different infections. Eating its eggs can lead to tissue cysts called cysticerci. Eating larval cysts in pork instead causes an adult intestinal tapeworm; this distinction is essential.",
+    "optionExplanations": [
+      "Taenia solium eggs can lead to cysticercosis in tissues, including the brain.",
+      "Taenia saginata causes beef tapeworm infection and is not the usual cause of human cysticercosis.",
+      "Ascaris lumbricoides is a roundworm and does not produce Taenia-type tissue cysticerci.",
+      "Trichuris trichiura is whipworm and does not cause cysticercosis."
+    ],
+    "memory": "T. solium eggs cause tissue cysts; pork cysts cause intestinal tapeworm.",
+    "quickCheck": {
+      "question": "Does eating pork cysts directly cause cysticercosis?",
+      "answer": "No. Cysticercosis follows ingestion of T. solium eggs."
+    }
+  },
+  "boc-6-327": {
+    "questionInPlainEnglish": "Which visible feature mainly separates Entamoeba histolytica from E. hartmanni?",
+    "explanation": "These amoebae have similar-looking nuclei, but E. hartmanni is generally smaller. Size therefore helps distinguish them. A nucleus’s appearance alone is not sufficient because their basic nuclear patterns overlap.",
+    "optionExplanations": [
+      "Trophozoite size is the principal distinction; E. histolytica is generally larger.",
+      "The karyosome, or nuclear dot, can look similar in both organisms.",
+      "Their nuclear chromatin patterns are similar, so this is not the best separating feature.",
+      "Mature cysts can have four nuclei in either species, so nucleus count does not separate them."
+    ],
+    "memory": "Hartmanni is the smaller look-alike.",
+    "quickCheck": {
+      "question": "Why is four nuclei not enough to distinguish this pair?",
+      "answer": "Both can have four nuclei in a mature cyst."
+    }
+  },
+  "boc-6-328": {
+    "questionInPlainEnglish": "Which feature is characteristic of an Iodamoeba butschlii cyst?",
+    "explanation": "Iodamoeba butschlii cysts typically have one nucleus and a conspicuous glycogen vacuole. A vacuole is a compartment inside the cell; this one stores carbohydrate. Its prominence is the identifying clue.",
+    "optionExplanations": [
+      "The wording does not state a distinctive nucleus count; the prominent vacuole is the intended clue.",
+      "Small size alone is not specific and can describe other intestinal amoebae.",
+      "A prominent glycogen vacuole is the characteristic cyst feature.",
+      "Up to eight nuclei is associated with Entamoeba coli, rather than Iodamoeba."
+    ],
+    "memory": "Iodamoeba has a conspicuous glycogen compartment.",
+    "quickCheck": {
+      "question": "What does the prominent vacuole contain?",
+      "answer": "Glycogen, a stored carbohydrate."
+    },
+    "sourceNote": "The first option appears incomplete in the extracted source, so its exact intended nucleus count is unavailable."
+  },
+  "boc-6-329": {
+    "questionInPlainEnglish": "Which medically important protozoan is covered in cilia?",
+    "explanation": "Balantidium coli is a ciliated intestinal protozoan associated with pigs. Cilia are short hair-like structures used in movement. Infection can be mild or can cause significant intestinal disease.",
+    "optionExplanations": [
+      "Acanthamoeba is an amoeba, using cell extensions rather than cilia.",
+      "Balantidium coli is the medically important ciliate among these choices.",
+      "Cryptosporidium parvum is an intestinal apicomplexan parasite, not a ciliate.",
+      "Chilomastix mesnili is a flagellate, rather than a ciliate."
+    ],
+    "memory": "Balantidium is the ciliated intestinal protozoan.",
+    "quickCheck": {
+      "question": "How do cilia differ from flagella in this simple comparison?",
+      "answer": "Cilia are numerous short hair-like structures; flagella are longer whip-like structures."
+    },
+    "sourceNote": "Balantioides coli is a newer name used for the organism historically called Balantidium coli."
+  },
+  "boc-6-330": {
+    "questionInPlainEnglish": "Where does the malaria sporozoite stage first multiply in a person?",
+    "explanation": "After transmission by an infected mosquito, malaria sporozoites enter liver cells. Later stages released from the liver infect red blood cells. The question asks about the early liver stage, not the later blood stage.",
+    "optionExplanations": [
+      "Bone marrow is not the usual first multiplication site of malaria sporozoites.",
+      "The liver is the first multiplication site after sporozoites enter the person.",
+      "Red blood cells are infected by later merozoite stages, not the initial sporozoite stage.",
+      "Immature nucleated red-cell precursors are not the usual initial sporozoite target."
+    ],
+    "memory": "Malaria begins with a liver stage before its red-cell stage.",
+    "quickCheck": {
+      "question": "What stage later invades red blood cells?",
+      "answer": "Merozoites."
+    }
+  },
+  "boc-6-331": {
+    "questionInPlainEnglish": "Lacking the Duffy red-cell antigen gives protection mainly against which malaria species?",
+    "explanation": "Plasmodium vivax commonly uses the Duffy surface protein when entering red blood cells. People without this protein have substantial protection, but it is not absolute: P. vivax infections in Duffy-negative people have been documented.",
+    "optionExplanations": [
+      "Plasmodium vivax is the classic species associated with Duffy-dependent red-cell entry.",
+      "Plasmodium falciparum does not have the same classic Duffy dependence.",
+      "Plasmodium malariae is not the classic Duffy-dependent answer.",
+      "Plasmodium ovale is not the classic Duffy-dependent species in this comparison."
+    ],
+    "memory": "Duffy and vivax are the classic pair.",
+    "quickCheck": {
+      "question": "Does Duffy negativity guarantee complete protection from P. vivax?",
+      "answer": "No. It reduces susceptibility, but infections can still occur."
+    },
+    "sourceNote": "The source presents protection too absolutely. Duffy-negative P. vivax infections are recognized."
+  },
+  "boc-6-332": {
+    "questionInPlainEnglish": "Which worm produces barrel-shaped eggs with a plug at each end?",
+    "explanation": "Trichuris trichiura, the whipworm, has eggs with prominent polar plugs. Polar means at the ends. This shape is a more specific clue than simply seeing a worm egg.",
+    "optionExplanations": [
+      "Ascaris eggs have a different wall and shape, rather than the classic two polar plugs.",
+      "Necator americanus produces hookworm-type eggs, not the barrel-shaped plugged eggs.",
+      "Strongyloides stercoralis is usually associated with larvae in stool rather than this plugged-egg pattern.",
+      "Trichuris trichiura produces the classic barrel-shaped eggs with two polar plugs."
+    ],
+    "memory": "Whipworm eggs have two end plugs.",
+    "quickCheck": {
+      "question": "What does polar mean in this egg description?",
+      "answer": "Located at the ends."
+    }
+  },
+  "boc-6-334": {
+    "questionInPlainEnglish": "Which parasite most often causes larvae to wander through internal organs?",
+    "explanation": "Toxocara canis is a dog roundworm that can cause visceral larva migrans in humans. Visceral refers to internal organs. Humans are accidental hosts, and migrating larvae may also affect the eyes.",
+    "optionExplanations": [
+      "Ancylostoma braziliense is associated with cutaneous larva migrans, which affects skin.",
+      "Onchocerca volvulus causes skin and eye disease through a different filarial infection.",
+      "Toxocara canis is the classic major cause of visceral larva migrans.",
+      "Trypanosoma brucei causes African sleeping sickness and is a protozoan, not a migrating roundworm larva."
+    ],
+    "memory": "Toxocara: visceral or ocular larva migrans.",
+    "quickCheck": {
+      "question": "How does cutaneous differ from visceral?",
+      "answer": "Cutaneous refers to skin; visceral refers to internal organs."
+    }
+  },
+  "boc-6-335": {
+    "questionInPlainEnglish": "Among these parasite groups, which has the largest eggs?",
+    "explanation": "Fasciola hepatica, the liver fluke, has very large eggs compared with the other listed organisms. The comparison is about size, rather than whether the eggs have a lid-like opening called an operculum.",
+    "optionExplanations": [
+      "Clonorchis eggs are much smaller than Fasciola eggs.",
+      "Diphyllobothrium eggs are smaller than the very large Fasciola eggs.",
+      "Fasciola has the largest eggs among these four choices.",
+      "Paragonimus eggs are relatively large, but generally smaller than Fasciola eggs."
+    ],
+    "memory": "Fasciola is the large-egg choice here.",
+    "quickCheck": {
+      "question": "What is an operculum on an egg?",
+      "answer": "A lid-like opening."
+    },
+    "sourceNote": "The source’s “largest human parasite eggs known” is broader than this question supports, and its “diameter” wording is imprecise for oval eggs."
+  },
+  "boc-6-336": {
+    "questionInPlainEnglish": "Which schistosome is associated with eggs in urine?",
+    "explanation": "Schistosoma haematobium adults are associated with veins around the bladder. Its eggs may enter urine and cause urinary disease. The other major schistosomes listed are associated mainly with intestinal disease and eggs in stool.",
+    "optionExplanations": [
+      "Schistosoma haematobium is the urinary schistosome and fits eggs in urine.",
+      "Schistosoma japonicum is associated mainly with intestinal disease and eggs in stool.",
+      "Schistosoma mansoni is associated mainly with intestinal disease and eggs in stool.",
+      "Strongyloides stercoralis is a roundworm, not a Schistosoma species."
+    ],
+    "memory": "Haematobium is the bladder-associated schistosome.",
+    "quickCheck": {
+      "question": "Which listed name does not belong to Schistosoma?",
+      "answer": "S. stercoralis refers to Strongyloides stercoralis, a different kind of worm."
+    }
+  },
+  "boc-6-337": {
+    "questionInPlainEnglish": "Which feature distinguishes the beef tapeworm from the pork tapeworm?",
+    "explanation": "Taenia saginata is the beef tapeworm. Its attachment organ lacks the hooks seen in Taenia solium, the pork tapeworm. Unarmed means without hooks. Their eggs look too similar for this species distinction.",
+    "optionExplanations": [
+      "Radially striped egg walls occur in both Taenia species, so this does not distinguish them.",
+      "Pork tapeworm refers to T. solium, not the beef tapeworm T. saginata.",
+      "Fewer uterine branches fits the usual T. solium pattern, rather than T. saginata.",
+      "An unarmed attachment organ means no hooks, matching the beef tapeworm."
+    ],
+    "memory": "Beef tapeworm is unarmed; pork tapeworm has hooks.",
+    "quickCheck": {
+      "question": "Can Taenia eggs reliably separate saginata from solium?",
+      "answer": "No. Their eggs are very similar."
+    }
+  },
+  "boc-6-338": {
+    "questionInPlainEnglish": "Which parasite can compete with a person for vitamin B12?",
+    "explanation": "The broad fish tapeworm historically called Diphyllobothrium latum can contribute to vitamin B12 deficiency. B12 is needed for normal blood-cell production and nerve function. Not every infection causes deficiency.",
+    "optionExplanations": [
+      "Diphyllobothrium latum is the fish tapeworm classically associated with vitamin B12 deficiency.",
+      "Echinococcus granulosus causes hydatid cysts rather than this classic intestinal B12 effect.",
+      "Taenia solium is the pork tapeworm and is not the classic B12-depleting tapeworm.",
+      "Schistosoma mansoni is a blood fluke, not the classic cause of parasite-related B12 deficiency."
+    ],
+    "memory": "Fish tapeworm can take B12.",
+    "quickCheck": {
+      "question": "Does every fish tapeworm infection cause B12 deficiency?",
+      "answer": "No. It is a recognized complication, not an inevitable outcome."
+    },
+    "sourceNote": "Dibothriocephalus latus is the newer name for Diphyllobothrium latum. The book’s ancestry emphasis should not replace the exposure-based understanding."
+  },
+  "boc-6-339": {
+    "questionInPlainEnglish": "Which parasite causes hydatid cysts, often in the liver?",
+    "explanation": "Echinococcus larvae can form fluid-filled hydatid cysts in human organs. Humans are accidental intermediate hosts. The liver is a common site because it filters blood arriving from the intestine.",
+    "optionExplanations": [
+      "Diphyllobothrium is an intestinal fish tapeworm, not the classic hydatid-cyst parasite.",
+      "Echinococcus causes hydatid disease with cysts commonly involving the liver.",
+      "Hymenolepis causes intestinal tapeworm infection rather than classic liver hydatid cysts.",
+      "Trichomonas is a single-celled genital-tract parasite, not a hydatid tapeworm."
+    ],
+    "memory": "Echinococcus is the hydatid-cyst association.",
+    "quickCheck": {
+      "question": "Are humans the usual adult-tapeworm host for Echinococcus?",
+      "answer": "No. Humans are accidental intermediate hosts."
+    }
+  },
+  "boc-6-340": {
+    "questionInPlainEnglish": "How is Trichomonas vaginalis usually transmitted?",
+    "explanation": "Trichomonas vaginalis causes a sexually transmitted genital-tract infection. It has an active trophozoite form but no true cyst stage. Its life cycle differs from many intestinal protozoa transmitted through cysts.",
+    "optionExplanations": [
+      "Ingestion of cysts does not fit because T. vaginalis has no true cyst stage.",
+      "Eating trophozoites is not the usual transmission route for this genital-tract parasite.",
+      "Skin-penetrating larvae belong to worm life cycles, not this protozoan.",
+      "Sexual contact is the usual route of Trichomonas vaginalis transmission."
+    ],
+    "memory": "Trichomonas vaginalis: genital transmission, no true cyst.",
+    "quickCheck": {
+      "question": "Does T. vaginalis have a larval worm stage?",
+      "answer": "No. It is a protozoan, not a worm."
+    }
+  },
+  "boc-6-341": {
+    "questionInPlainEnglish": "Which malaria species has crescent-shaped gametocytes and can infect red cells of any age?",
+    "explanation": "Plasmodium falciparum has banana- or crescent-shaped gametocytes. It can invade red cells across age groups, and multiple ring forms can appear in one cell. “All RBCs” means all ages are eligible, not that every red cell is infected.",
+    "optionExplanations": [
+      "Plasmodium falciparum matches crescent gametocytes, multiple rings, and red cells of any age.",
+      "Plasmodium malariae tends to involve older red cells and lacks the classic crescent gametocytes.",
+      "Plasmodium ovale favors younger red cells and does not have the falciparum crescent pattern.",
+      "Plasmodium vivax favors young red cells and does not make the characteristic crescent gametocytes."
+    ],
+    "memory": "Falciparum has crescent gametocytes.",
+    "quickCheck": {
+      "question": "Does “all RBCs” mean every red cell is infected?",
+      "answer": "No. It means red cells of any age can be infected."
+    },
+    "sourceNote": "The source’s “all RBCs are infected” wording is misleading; it refers to susceptibility across red-cell age groups."
+  },
+  "boc-6-343": {
+    "questionInPlainEnglish": "Which two kinds of appearance are most useful for classifying molds?",
+    "explanation": "Molds are often compared by what is visible to the eye and what is visible under a microscope. Overall appearance and microscopic structures complement each other. A single color or structure rarely tells the whole story.",
+    "optionExplanations": [
+      "Overall appearance plus microscopic structure is the broad combined approach selected by the book.",
+      "Biochemical reactions can help in some contexts, but are not the main routine mold categories here.",
+      "Selective media do not replace the information provided by microscopic structures.",
+      "Sexual structures and phialides are specific features, but this pair is too narrow for the overall classification question."
+    ],
+    "memory": "Mold appearance has a whole-organism view and a microscopic view.",
+    "quickCheck": {
+      "question": "Why use both kinds of appearance?",
+      "answer": "They provide different, complementary clues."
+    }
+  },
+  "boc-6-345": {
+    "questionInPlainEnglish": "Which listed fungal infection is usually acquired by breathing in infectious particles?",
+    "explanation": "Histoplasma infection generally begins after inhalation of environmental fungal particles. The lungs are therefore a common starting site. The other listed fungi are more associated with skin exposure, superficial infection, or normal skin flora.",
+    "optionExplanations": [
+      "Sporothrix schenckii infection is classically associated with entry through injured skin.",
+      "Trichophyton rubrum causes dermatophyte infections of skin and nails, rather than the classic inhaled infection.",
+      "Malassezia furfur is associated with skin conditions, rather than this inhaled systemic infection.",
+      "Histoplasma capsulatum is the classic inhalation-associated fungus among these choices."
+    ],
+    "memory": "Histoplasma commonly starts in the lungs.",
+    "quickCheck": {
+      "question": "Why are lungs a common first site for inhaled fungal infection?",
+      "answer": "They are where inhaled particles enter the body’s tissues."
+    }
+  },
+  "boc-6-346": {
+    "questionInPlainEnglish": "Which stain is associated with brightly fluorescent fungal cell walls?",
+    "explanation": "Calcofluor white binds components such as chitin in fungal walls and makes fungal structures stand out by fluorescence. Septate hyphae are fungal filaments divided by cross-walls. The question asks about recognizing this signal.",
+    "optionExplanations": [
+      "Acridine orange can bind nucleic acids, but is not the classic fungal-wall fluorescence answer.",
+      "Calcofluor white is associated with fluorescence of fungal cell-wall material.",
+      "Gomori methenamine silver highlights fungi in tissue but is not the fluorescent dye described.",
+      "Periodic acid-Schiff highlights carbohydrate-rich structures, but is not the fluorescent dye asked for."
+    ],
+    "memory": "Calcofluor highlights fungal walls.",
+    "quickCheck": {
+      "question": "What does septate mean in a fungal filament?",
+      "answer": "Divided into sections by cross-walls."
+    }
+  },
+  "boc-6-347": {
+    "questionInPlainEnglish": "Which listed yeast is classically associated with germ tubes?",
+    "explanation": "Candida albicans can form germ tubes, smooth initial filament outgrowths without a narrowing where they leave the yeast cell. This is a presumptive clue rather than an absolutely unique species marker.",
+    "optionExplanations": [
+      "Candida tropicalis can form filaments, but does not give the classic true germ-tube pattern.",
+      "Candida parapsilosis is not the classic germ-tube-positive yeast.",
+      "Candida glabrata is not the classic germ-tube-producing Candida species.",
+      "Candida albicans is the classic germ-tube-positive choice."
+    ],
+    "memory": "Albicans has the classic germ-tube clue.",
+    "quickCheck": {
+      "question": "Does a germ-tube result prove C. albicans uniquely?",
+      "answer": "No. Closely related species such as C. dubliniensis can also be positive."
+    },
+    "sourceNote": "Candida dubliniensis can also form germ tubes, so this is presumptive rather than exclusive identification."
+  },
+  "boc-6-350": {
+    "questionInPlainEnglish": "Which listed trait best distinguishes Cryptococcus neoformans in this question?",
+    "explanation": "Phenol oxidase is associated with melanin pigment production by Cryptococcus neoformans. Other yeasts can share a capsule or urease activity, so those traits alone are less specific. Related C. gattii organisms also share the pigment-related enzyme trait.",
+    "optionExplanations": [
+      "Yellow appearance is not a specific defining feature of C. neoformans.",
+      "Urease positivity occurs in other yeasts too, so it is not sufficient by itself.",
+      "A capsule is important, but it is not unique to C. neoformans among all cryptococci.",
+      "Phenol oxidase positivity is the distinguishing trait intended by this set of choices."
+    ],
+    "memory": "Cryptococcus phenol oxidase connects to melanin.",
+    "quickCheck": {
+      "question": "Is urease activity unique to C. neoformans?",
+      "answer": "No. Other fungi also have urease activity."
+    },
+    "sourceNote": "The source’s claim that only C. neoformans is positive is too broad; the C. gattii complex also shows this trait."
+  },
+  "boc-6-355": {
+    "questionInPlainEnglish": "Which yeast best fits an image showing true germ tubes?",
+    "explanation": "The rationale describes smooth tubular outgrowths without a constriction at their origin. Those are germ tubes, classically associated with Candida albicans. The visual distinction is the shape of the outgrowth, not merely the presence of a filament.",
+    "optionExplanations": [
+      "Candida tropicalis can have filamentous forms but is not the classic true germ-tube answer.",
+      "Candida krusei has a different characteristic morphology and is not the true germ-tube answer.",
+      "Candida albicans matches the true germ tubes described in the rationale.",
+      "Candida glabrata is not the classic yeast producing true germ tubes."
+    ],
+    "memory": "A true germ tube lacks a narrowing at its origin.",
+    "quickCheck": {
+      "question": "What shape detail separates a true germ tube from a constricted bud?",
+      "answer": "The tube joins the parent cell without a constriction."
+    },
+    "sourceNote": "The image is not available in extracted text. The rationale supports C. albicans, but C. dubliniensis can also form germ tubes."
+  },
+  "boc-6-360": {
+    "questionInPlainEnglish": "Which visible mold structure is a classic Histoplasma clue?",
+    "explanation": "Histoplasma can have large round spores with knobby projections, called tuberculate macroconidia. This appearance is a presumptive clue rather than a complete identification. Macro means large, and conidia are asexual fungal spores.",
+    "optionExplanations": [
+      "Alternating arthrospores describe a different fungal pattern, rather than the classic Histoplasma clue.",
+      "Small microspores alone are less distinctive than the large knobby macroconidia.",
+      "Tuberculate macroconidia means large spores with knobby surfaces, the intended Histoplasma clue.",
+      "Plain nonseptate macroconidia lack the distinctive knobby surface described."
+    ],
+    "memory": "Histoplasma has a classic knobby macroconidium clue.",
+    "quickCheck": {
+      "question": "What does tuberculate mean?",
+      "answer": "Covered with small knob-like projections."
+    },
+    "sourceNote": "Morphology is presumptive and can overlap with other molds; do not treat a single structure as definitive identification."
+  },
+  "boc-6-362": {
+    "questionInPlainEnglish": "Which listed fungus is classically described as thermally dimorphic?",
+    "explanation": "Blastomyces dermatitidis has a mold form in the environment and a yeast form in infected tissue. Dimorphic means two forms. The exam uses this term for classic thermal dimorphism, rather than every fungus capable of more than one shape.",
+    "optionExplanations": [
+      "Blastomyces dermatitidis is a classic thermally dimorphic fungus.",
+      "Candida albicans can change shape, but is not the classic environmental mold-to-tissue-yeast answer intended here.",
+      "Cryptococcus neoformans is classically described as an encapsulated yeast, not this thermal dimorph.",
+      "Aspergillus fumigatus is a mold in tissue and is not the classic thermally dimorphic choice."
+    ],
+    "memory": "Blastomyces is a classic mold-and-yeast dimorph.",
+    "quickCheck": {
+      "question": "Why can Candida make this wording confusing?",
+      "answer": "It has multiple shapes too, but the question uses the narrower classical thermal-dimorphism meaning."
+    },
+    "sourceNote": "The term dimorphic can be used broadly; the keyed answer depends on the traditional medical-mycology meaning of thermal dimorphism."
+  },
+  "boc-6-365": {
+    "questionInPlainEnglish": "Which small structures are especially useful for distinguishing dermatophytes?",
+    "explanation": "Dermatophytes are fungi that infect keratin-rich tissues such as skin, hair, and nails. The shapes and arrangements of their larger macroconidia and smaller microconidia are important identifying features.",
+    "optionExplanations": [
+      "Septate branching filaments occur in many molds, so they are not specific enough.",
+      "Racquet and comb-like hyphae can offer clues but are not the broad principal pair asked for.",
+      "Chlamydospores are thick-walled structures, but this pair omits the important macroconidia.",
+      "Macroconidia and microconidia provide the main size-and-shape clues for this comparison."
+    ],
+    "memory": "Macro is large; micro is small; both conidia help identify dermatophytes.",
+    "quickCheck": {
+      "question": "What tissues do dermatophytes typically infect?",
+      "answer": "Keratin-rich skin, hair, and nails."
+    }
+  },
+  "boc-6-366": {
+    "questionInPlainEnglish": "Which dermatophyte matches smooth, club-shaped macroconidia?",
+    "explanation": "Epidermophyton floccosum is associated with smooth, club-shaped macroconidia. The rationale supplies that shape because the image is not readable in the extracted text. Shape is the main exam clue here.",
+    "optionExplanations": [
+      "Epidermophyton floccosum matches smooth, club-shaped macroconidia.",
+      "Fonsecaea pedrosoi is a pigmented mold associated with chromoblastomycosis, not this dermatophyte pattern.",
+      "Microsporum canis has characteristic spindle-shaped, rougher macroconidia rather than the smooth club shape.",
+      "Trichophyton tonsurans is associated with variable microconidia rather than this classic club-shaped macroconidium clue."
+    ],
+    "memory": "Epidermophyton has club-shaped macroconidia.",
+    "quickCheck": {
+      "question": "Does macroconidium mean a large or small conidium?",
+      "answer": "A large conidium."
+    },
+    "sourceNote": "The extracted image is not interpretable; the identification follows the book’s explicit morphological description."
+  },
+  "boc-6-369": {
+    "questionInPlainEnglish": "Which structure is absent in the Penicillium-like mold described, unlike Aspergillus?",
+    "explanation": "Aspergillus has a swollen terminal structure called a vesicle at the end of its conidium-bearing stalk. Penicillium-like molds have a different branching arrangement without this terminal vesicle. Both may have phialides that produce conidia.",
+    "optionExplanations": [
+      "Conidia formed on phialides occur in both groups, so this does not separate them.",
+      "Temperature preference is not the structural distinction asked for.",
+      "Rhizoids are root-like fungal structures and are not the defining difference between these two groups.",
+      "Lack of a terminal vesicle distinguishes the Penicillium-like arrangement from Aspergillus."
+    ],
+    "memory": "Aspergillus has a terminal vesicle.",
+    "quickCheck": {
+      "question": "What is a vesicle in this question?",
+      "answer": "The swollen end of an Aspergillus conidium-bearing stalk."
+    },
+    "sourceNote": "Only some former Penicillium species were moved to Talaromyces; “Talaromyces (formerly Penicillium) species” is an oversimplified taxonomic statement."
+  },
+  "boc-6-370": {
+    "questionInPlainEnglish": "Which mold is associated with long, tapering phialides that spread away from the central axis?",
+    "explanation": "The book selects Paecilomyces for this branching pattern. Phialides are cells that produce conidia. Their long tapering shape and outward angle help distinguish the described mold from more compact Penicillium-like forms.",
+    "optionExplanations": [
+      "Exophiala is a darkly pigmented fungus with a different characteristic spore-bearing arrangement.",
+      "Acremonium often has simpler isolated phialides, rather than the spreading branched pattern described.",
+      "Cladosporium has a different pigmented conidial pattern, not these long tapering phialides.",
+      "Paecilomyces is the classic answer for long tapering phialides that diverge outward."
+    ],
+    "memory": "Paecilomyces has the long tapering phialide clue.",
+    "quickCheck": {
+      "question": "What do phialides produce?",
+      "answer": "Conidia, asexual fungal spores."
+    },
+    "sourceNote": "The image is not available here. Some organisms historically called Paecilomyces have been reclassified, including Purpureocillium lilacinum."
+  },
+  "boc-6-376": {
+    "questionInPlainEnglish": "Which mold does the book identify in the images?",
+    "explanation": "The book identifies Aspergillus fumigatus and describes its blue-green overall appearance. Image identification should also use microscopic structures, because color alone varies and can overlap. The extracted images cannot be independently assessed here.",
+    "optionExplanations": [
+      "Aspergillus niger is classically associated with black spore heads rather than the stated fumigatus appearance.",
+      "Gliocladium has a different spore-bearing architecture, rather than the intended Aspergillus identification.",
+      "Aspergillus fumigatus is the organism named by the key and rationale.",
+      "Microsporum canis is a dermatophyte with a different characteristic conidial shape."
+    ],
+    "memory": "Fumigatus is classically associated with blue-green appearance.",
+    "quickCheck": {
+      "question": "Is mold color alone a reliable species identification?",
+      "answer": "No. Other morphology and appropriate identification evidence matter."
+    },
+    "sourceNote": "The images are unavailable in extracted text. The rationale also has errors: Gliocladium is generally hyaline rather than dematiaceous, and its other color descriptions oversimplify species appearances."
+  },
+  "boc-6-377": {
+    "questionInPlainEnglish": "Which dermatophyte has small conidia spaced along filaments like birds on a wire?",
+    "explanation": "Trichophyton rubrum classically has small teardrop- or peg-like microconidia arranged individually along its hyphae. This arrangement produces the birds-on-a-wire comparison. It is a descriptive morphology clue, not a literal structure.",
+    "optionExplanations": [
+      "Microsporum canis is better known for large spindle-shaped macroconidia.",
+      "Trichophyton rubrum has the classic birds-on-a-wire microconidial arrangement.",
+      "Epidermophyton floccosum is known for club-shaped macroconidia and lacks typical microconidia.",
+      "Trichophyton tonsurans has variable microconidial shapes rather than the classic rubrum arrangement."
+    ],
+    "memory": "Rubrum: little conidia like birds along a wire.",
+    "quickCheck": {
+      "question": "What are hyphae?",
+      "answer": "The threadlike filaments that form a mold."
+    }
+  },
+  "boc-6-378": {
+    "questionInPlainEnglish": "Which listed fungus has both urease and phenol oxidase activity?",
+    "explanation": "Cryptococcus neoformans has urease activity and a melanin-associated phenol oxidase. The combination is the key among these choices. One positive enzyme alone would be less specific.",
+    "optionExplanations": [
+      "Cryptococcus neoformans has both activities and matches the question.",
+      "Malassezia furfur does not match the characteristic combined cryptococcal enzyme profile.",
+      "Rhodotorula can be urease-positive but does not have the intended phenol-oxidase pattern.",
+      "Trichophyton mentagrophytes can be urease-positive but does not fit the cryptococcal phenol-oxidase association."
+    ],
+    "memory": "Two clues together: urease plus melanin-associated phenol oxidase.",
+    "quickCheck": {
+      "question": "Why is urease alone insufficient here?",
+      "answer": "Other listed fungi can also have urease activity."
+    },
+    "sourceNote": "The rationale’s claim that Malassezia is urease-negative is inaccurate; Malassezia species are generally urease-positive. The intended distinguishing combination still selects C. neoformans. C. gattii also shares the phenol-oxidase trait."
+  },
+  "boc-6-383": {
+    "questionInPlainEnglish": "Which group of positive microbiology results commonly needs urgent clinical attention?",
+    "explanation": "Microbes in blood or cerebrospinal fluid can indicate a serious invasive infection. Acid-fast findings can also signal an important infection requiring prompt assessment. Laboratories define urgent-result policies for their patient populations and communicate results according to those policies.",
+    "optionExplanations": [
+      "Positive blood, cerebrospinal fluid, and acid-fast findings form the classic urgent group selected by the book.",
+      "Urine and parasite results vary in urgency, so this is not the best general critical-result group.",
+      "Some fungal or parasite findings are urgent, but the broad categories do not all define critical results.",
+      "A positive throat screen or broad respiratory/fungal result is not automatically critical in every case."
+    ],
+    "memory": "The site and clinical risk determine urgency.",
+    "quickCheck": {
+      "question": "Are all positive microbiology results equally urgent?",
+      "answer": "No. Urgency depends on the finding, patient, and local critical-result policy."
+    },
+    "sourceNote": "Exact critical-result criteria are institution-specific; positive findings can also represent contamination or other contexts that need clinical interpretation."
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "boc-6-1": {
+    "questionInPlainEnglish": "Why does dilution matter in a blood culture?",
+    "explanation": "Blood defenses and medicines can interfere with detecting bacteria. The key illustrates reducing these substances' concentration.",
+    "optionExplanations": [
+      "This ratio leaves relatively more blood defenses.",
+      "This ratio also leaves more blood-derived interference.",
+      "The keyed ratio illustrates the intended dilution balance.",
+      "This ratio exceeds the balance intended by the book."
+    ],
+    "memory": "Dilution reduces concentration.",
+    "quickCheck": {
+      "question": "What does dilution reduce?",
+      "answer": "The concentration of substances in a mixture."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-2": {
+    "questionInPlainEnglish": "Which catheter sample best represents bladder urine?",
+    "explanation": "A closed drainage system separates bladder urine from outside contamination. Bag or catheter-surface microbes may not represent infection.",
+    "optionExplanations": [
+      "Catheter tips can carry unrelated surface colonizers.",
+      "Disconnection introduces a contamination concern.",
+      "Bag contents can contain microbes from outside the bladder.",
+      "The key represents the designated sampling-site concept."
+    ],
+    "memory": "The drainage bag is not the bladder.",
+    "quickCheck": {
+      "question": "Why can bag microbes mislead?",
+      "answer": "They may not represent bladder infection."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-3": {
+    "questionInPlainEnglish": "Which sample pair best supports interpreting anaerobic infection?",
+    "explanation": "Normal mouth and surface flora include anaerobes. Finding them in protected internal sites is stronger evidence of infection.",
+    "optionExplanations": [
+      "These surface sites can contain ordinary residents.",
+      "Mouth flora makes this pair difficult to interpret.",
+      "These internal fluids fit the intended protected-site concept.",
+      "These materials may contain misleading surface residents."
+    ],
+    "memory": "Anaerobes can be ordinary body residents.",
+    "quickCheck": {
+      "question": "Why does body site matter?",
+      "answer": "Normal residents differ between sites."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-4": {
+    "questionInPlainEnglish": "Which blood defenses does SPS affect?",
+    "explanation": "Neutrophils are defensive white cells. Complement consists of immune proteins; the key concerns interference with those defenses.",
+    "optionExplanations": [
+      "These antibiotics are not the specific keyed mechanism.",
+      "Red-cell clumping differs from the immune effect asked about.",
+      "Neutrophils and complement are the defenses intended.",
+      "Anaerobic growth is not the specific mechanism asked about."
+    ],
+    "memory": "Complement is part of immune defense.",
+    "quickCheck": {
+      "question": "Is complement a bacterium?",
+      "answer": "No, it is a group of immune proteins."
+    }
+  },
+  "boc-6-5": {
+    "questionInPlainEnglish": "What makes a wound sample representative of deep infection?",
+    "explanation": "Deep material can differ from surface residents. Antibiotic exposure can also change which microbes a test detects.",
+    "optionExplanations": [
+      "Surface swabs may mainly reflect surface residents.",
+      "Surface sampling and treatment effects both complicate interpretation.",
+      "The key combines deeper material with fewer treatment effects.",
+      "Treatment effects still complicate interpretation of deep material."
+    ],
+    "memory": "Surface colonization differs from deep infection.",
+    "quickCheck": {
+      "question": "Why can antibiotics change a result?",
+      "answer": "They change which organisms remain detectable."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-6": {
+    "questionInPlainEnglish": "What most affects detecting sparse bloodstream bacteria?",
+    "explanation": "When bacteria are scarce, limited sampling can miss them. The amount examined affects detection more directly than a fixed calendar schedule.",
+    "optionExplanations": [
+      "An extra processing step cannot fix limited sampling.",
+      "The amount examined affects the chance of finding sparse bacteria.",
+      "A fixed schedule is not the main sampling variable.",
+      "One access event raises additional contamination concerns."
+    ],
+    "memory": "Sparse organisms can escape detection.",
+    "quickCheck": {
+      "question": "Does a negative result always exclude infection?",
+      "answer": "No, sparse organisms can be missed."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-7": {
+    "questionInPlainEnglish": "What interference should viral transport systems limit?",
+    "explanation": "The aim is to preserve a specimen's diagnostic meaning. Unwanted bacteria and fungi can complicate interpretation.",
+    "optionExplanations": [
+      "Transport is not intended to multiply the virus.",
+      "Limiting bacterial and fungal interference matches the purpose.",
+      "Destroying supposedly harmless viruses is not the aim.",
+      "These antibodies are not the interference targeted here."
+    ],
+    "memory": "Preservation differs from multiplication.",
+    "quickCheck": {
+      "question": "Which unwanted groups are targeted?",
+      "answer": "Bacteria and fungi."
+    }
+  },
+  "boc-6-8": {
+    "questionInPlainEnglish": "Which medium name is associated with Legionella?",
+    "explanation": "Legionella can cause pneumonia. BCYE is the historical medium-name association tested here.",
+    "optionExplanations": [
+      "TCBS is associated with Vibrio rather than Legionella.",
+      "An anaerobic category does not fit this association.",
+      "A lower-airway sample is relevant to pneumonia.",
+      "BCYE is the Legionella association intended by the book."
+    ],
+    "memory": "Legionella is linked with pneumonia.",
+    "quickCheck": {
+      "question": "Which organ system is involved?",
+      "answer": "The respiratory system."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-9": {
+    "questionInPlainEnglish": "Which organism association fits diarrhea after flooding?",
+    "explanation": "Floodwater can spread intestinal pathogens. Vibrio is the water-associated group intended by this clue.",
+    "optionExplanations": [
+      "Listeria is not the intended water-associated diarrheal clue.",
+      "This sugar medium is not the Campylobacter association.",
+      "This Enterococcus pairing does not explain the outbreak.",
+      "Vibrio is the water-associated group the question targets."
+    ],
+    "memory": "Exposure history helps interpret infection.",
+    "quickCheck": {
+      "question": "Which exposure is the clue?",
+      "answer": "Contaminated water after flooding."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-10": {
+    "questionInPlainEnglish": "Which pair is historically associated with gonococcal testing?",
+    "explanation": "Neisseria gonorrhoeae can cause urethral discharge. The key combines enrichment with selection for the intended organism.",
+    "optionExplanations": [
+      "This pair lacks the intended gonococcal association.",
+      "An enteric-oriented medium misses the main clinical clue.",
+      "The specific selective partner is absent from this pair.",
+      "This pair matches the book's gonococcal association."
+    ],
+    "memory": "Gonorrhea is caused by Neisseria gonorrhoeae.",
+    "quickCheck": {
+      "question": "What does selective mean?",
+      "answer": "Some groups are favored over competing groups."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-11": {
+    "questionInPlainEnglish": "Which medium selects for gram-positive bacteria?",
+    "explanation": "Selective media restrict some groups. Columbia CNA is the intended gram-positive association, whereas ordinary blood agar is broadly supportive.",
+    "optionExplanations": [
+      "CNA matches the gram-positive selection concept.",
+      "Ordinary blood agar is broadly supportive, not selective.",
+      "EMB is associated with gram-negative intestinal bacteria.",
+      "Thayer-Martin is associated with pathogenic Neisseria."
+    ],
+    "memory": "Selection restricts which groups appear.",
+    "quickCheck": {
+      "question": "Does enriched always mean selective?",
+      "answer": "No, these are different properties."
+    }
+  },
+  "boc-6-12": {
+    "questionInPlainEnglish": "Which description matches Campylobacter's environmental preference?",
+    "explanation": "Microaerophilic means a preference for relatively little oxygen. Campylobacter is the characteristic example here.",
+    "optionExplanations": [
+      "The keyed description includes the distinctive atmospheric preference.",
+      "Storage alone does not describe the defining preference.",
+      "These ordinary categories miss the main atmospheric distinction.",
+      "This preliminary-treatment claim misses the defining clue."
+    ],
+    "memory": "Microaerophilic means relatively little oxygen.",
+    "quickCheck": {
+      "question": "Which organism illustrates this term?",
+      "answer": "Campylobacter jejuni."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-13": {
+    "questionInPlainEnglish": "Which request has a meaningful disease-site connection?",
+    "explanation": "Tuberculosis can affect the urinary tract. The other requests confuse ordinary residents or look-alike microbes with clear disease evidence.",
+    "optionExplanations": [
+      "Stool normally contains anaerobes, limiting specificity.",
+      "Catheter tips can carry colonizers unrelated to infection.",
+      "Rectal look-alike organisms can mislead direct-smear interpretation.",
+      "Urinary tuberculosis explains this disease-site connection."
+    ],
+    "memory": "Tuberculosis can occur outside the lungs.",
+    "quickCheck": {
+      "question": "Which organ system supports the key?",
+      "answer": "The urinary tract."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-14": {
+    "questionInPlainEnglish": "Why does the key favor enrichment for a limited CSF sample?",
+    "explanation": "CSF surrounds the brain and spinal cord. Some meningitis bacteria have demanding nutritional needs, making enrichment an important concept.",
+    "optionExplanations": [
+      "Blood agar lacks the intended degree of enrichment.",
+      "CNA restricts groups relevant to meningitis.",
+      "Chocolate agar represents the enriched category intended.",
+      "Thayer-Martin is selective rather than broadly inclusive."
+    ],
+    "memory": "Fastidious means nutritionally demanding.",
+    "quickCheck": {
+      "question": "What does CSF surround?",
+      "answer": "The brain and spinal cord."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-15": {
+    "questionInPlainEnglish": "How can selection clarify a mixed wound result?",
+    "explanation": "The smear suggests gram-positive cocci and gram-negative rods. Selection can make one group easier to recognize among competing organisms.",
+    "optionExplanations": [
+      "Anaerobic selection does not target the stated group distinction.",
+      "BCYE points toward Legionella rather than these cocci.",
+      "CNA favors the gram-positive group of interest.",
+      "XLD concerns enteric organisms rather than these cocci."
+    ],
+    "memory": "Mixed samples can contain distinct bacterial groups.",
+    "quickCheck": {
+      "question": "Which group does CNA emphasize?",
+      "answer": "Gram-positive organisms."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-16": {
+    "questionInPlainEnglish": "Which specimen-medium pairing fits the intended disease?",
+    "explanation": "A cervical sample can be relevant to gonorrhea. The key combines enrichment and Neisseria-associated selection.",
+    "optionExplanations": [
+      "This restrictive CSF pair can exclude important causes.",
+      "The cervical pairing fits the intended gonococcal target.",
+      "This respiratory pair contains unsuitable restrictive choices.",
+      "This urine pair misses the intended broad clinical targets."
+    ],
+    "memory": "The body site helps define the test target.",
+    "quickCheck": {
+      "question": "Which disease explains the cervical pair?",
+      "answer": "Gonorrhea."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-17": {
+    "questionInPlainEnglish": "Which organism-medium association is correct?",
+    "explanation": "Yersinia enterocolitica causes intestinal illness. CIN is the historical medium-name association intended here.",
+    "optionExplanations": [
+      "Skirrow is associated with Campylobacter, not Vibrio.",
+      "PEA does not fit the intended E. coli association.",
+      "Charcoal yeast extract points toward Legionella.",
+      "CIN matches the Yersinia association in the book."
+    ],
+    "memory": "Yersinia enterocolitica can cause diarrhea.",
+    "quickCheck": {
+      "question": "Which organism is associated with CIN?",
+      "answer": "Yersinia enterocolitica."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-18": {
+    "questionInPlainEnglish": "Which pair distinguishes two Gram-reaction groups?",
+    "explanation": "The wound contains clustered cocci and rods. The intended pair has complementary selection roles for gram-positive and gram-negative organisms.",
+    "optionExplanations": [
+      "This pair lacks the intended broad two-group separation.",
+      "Blood agar is broad rather than selectively separating both groups.",
+      "Chocolate agar is enriched rather than the selective partner needed.",
+      "CNA and MacConkey have complementary group-selection roles."
+    ],
+    "memory": "Gram reactions describe cell-envelope staining behavior.",
+    "quickCheck": {
+      "question": "Why are two roles useful?",
+      "answer": "The specimen contains two bacterial groups."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-19": {
+    "questionInPlainEnglish": "Which organism has a low-oxygen preference?",
+    "explanation": "Microaerophilic refers to relatively little oxygen. Campylobacter is the characteristic example among these organisms.",
+    "optionExplanations": [
+      "Campylobacter is the characteristic microaerophilic example.",
+      "E. coli is not defined by this special preference.",
+      "Pseudomonas is associated with oxygen use instead.",
+      "Proteus is not the characteristic low-oxygen example."
+    ],
+    "memory": "Campylobacter connects diarrhea and microaerophily.",
+    "quickCheck": {
+      "question": "What does microaerophilic describe?",
+      "answer": "A preference for a low-oxygen environment."
+    }
+  },
+  "boc-6-20": {
+    "questionInPlainEnglish": "Which medium name is associated with Vibrio?",
+    "explanation": "Vibrio parahaemolyticus is associated with seafood-related diarrhea. TCBS is the named laboratory association tested.",
+    "optionExplanations": [
+      "EMB is not the specific Vibrio-associated answer.",
+      "HE mainly suggests other intestinal bacterial groups.",
+      "SS points toward Salmonella and Shigella.",
+      "TCBS is the Vibrio-associated name intended."
+    ],
+    "memory": "Vibrio parahaemolyticus connects seafood and diarrhea.",
+    "quickCheck": {
+      "question": "Which exposure supports this association?",
+      "answer": "Seafood exposure."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-21": {
+    "questionInPlainEnglish": "Which words identify the Legionella-associated medium?",
+    "explanation": "BCYE includes the words charcoal and yeast extract. This tests vocabulary rather than a growth method.",
+    "optionExplanations": [
+      "X and V factors suggest Haemophilus terminology.",
+      "Hemin and vitamin K suggest other organism categories.",
+      "Charcoal and yeast extract identify the BCYE name.",
+      "This pair does not identify the BCYE association."
+    ],
+    "memory": "BCYE includes charcoal and yeast extract.",
+    "quickCheck": {
+      "question": "Which organism is associated with BCYE?",
+      "answer": "Legionella."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-22": {
+    "questionInPlainEnglish": "Which medium name is associated with pertussis?",
+    "explanation": "Bordetella pertussis causes whooping cough. Regan-Lowe is the historical laboratory association intended.",
+    "optionExplanations": [
+      "PEA is not the characteristic pertussis association.",
+      "Tellurite media suggest a different bacterial target.",
+      "Regan-Lowe matches the pertussis association.",
+      "Tinsdale is associated with diphtheria-oriented testing."
+    ],
+    "memory": "Pertussis means whooping cough.",
+    "quickCheck": {
+      "question": "Which organism causes pertussis?",
+      "answer": "Bordetella pertussis."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-23": {
+    "questionInPlainEnglish": "Why is a throat swab unsuitable for a general anaerobic request?",
+    "explanation": "The throat normally contains anaerobes. Their presence on a surface swab cannot by itself establish deep infection.",
+    "optionExplanations": [
+      "Faster processing cannot resolve normal-flora ambiguity.",
+      "Rejection reflects the mismatch between sample and question.",
+      "A different medium cannot remove the normal-flora problem.",
+      "Referral alone does not fix the sample's interpretive limits."
+    ],
+    "memory": "A normal resident is not automatically a pathogen.",
+    "quickCheck": {
+      "question": "Why can throat anaerobes mislead?",
+      "answer": "They may be normal residents."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-24": {
+    "questionInPlainEnglish": "Which agent targets unwanted fungi?",
+    "explanation": "Cycloheximide interferes with protein production in many fungi. The exam tests this broad role.",
+    "optionExplanations": [
+      "This mixed-agent answer is not the keyed single agent.",
+      "Chloramphenicol mainly targets bacterial protein production.",
+      "Cycloheximide is the antifungal selection agent intended.",
+      "Streptomycin mainly targets bacterial protein production."
+    ],
+    "memory": "Antifungals and antibacterials target different groups.",
+    "quickCheck": {
+      "question": "Which group is targeted here?",
+      "answer": "Unwanted fungi."
+    }
+  },
+  "boc-6-25": {
+    "questionInPlainEnglish": "What suggests that sputum mainly represents mouth material?",
+    "explanation": "Many squamous epithelial cells suggest saliva rather than a representative lower-airway sample. That is the book's interpretation of its image.",
+    "optionExplanations": [
+      "Changing the atmosphere cannot fix mouth contamination.",
+      "Routine processing does not fix unrepresentative material.",
+      "Contamination alone does not establish a dangerous infection.",
+      "Reassessment of sample quality addresses the actual concern."
+    ],
+    "memory": "Squamous cells can indicate salivary contamination.",
+    "quickCheck": {
+      "question": "What does abundant squamous epithelium suggest?",
+      "answer": "Mouth material in the specimen."
+    },
+    "sourceNote": "The supplied text lacks an interpretable image; this follows the book’s keyed interpretation."
+  },
+  "boc-6-26": {
+    "questionInPlainEnglish": "Which named medium is linked with prenatal group B screening?",
+    "explanation": "Group B Streptococcus may colonize genital and intestinal sites and cause newborn infection. LIM is the enrichment association intended.",
+    "optionExplanations": [
+      "CNA is not the specific enrichment answer asked for.",
+      "LIM is the named screening enrichment association.",
+      "Broad blood agar lacks the specific enrichment role tested.",
+      "Thioglycolate does not identify the intended screening association."
+    ],
+    "memory": "Group B Streptococcus matters in newborn infection.",
+    "quickCheck": {
+      "question": "What is colonization?",
+      "answer": "Presence without necessarily causing disease."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-27": {
+    "questionInPlainEnglish": "What principle preserves a safety cabinet's protection?",
+    "explanation": "A safety cabinet relies on a designed air barrier. Interference with that airflow can weaken containment.",
+    "optionExplanations": [
+      "Repeated movement can disrupt the protective air barrier.",
+      "Ultraviolet light during work does not replace containment.",
+      "Heat sources matter, but this is not the key's main principle.",
+      "Unobstructed airflow expresses the central containment principle."
+    ],
+    "memory": "Containment depends on designed airflow.",
+    "quickCheck": {
+      "question": "Why do airflow obstructions matter?",
+      "answer": "They can weaken the protective barrier."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-28": {
+    "questionInPlainEnglish": "How can selection reveal cocci hidden by a spreading rod?",
+    "explanation": "A competing organism can obscure another member of a mixture. The intended concept favors recognizing the cocci.",
+    "optionExplanations": [
+      "This focuses on the competing rod rather than the cocci.",
+      "This again emphasizes the wrong member of the mixture.",
+      "Broad enrichment alone does not address the competing spreader.",
+      "CNA and PEA represent selection favoring gram-positive cocci."
+    ],
+    "memory": "Selection can reveal a minority organism.",
+    "quickCheck": {
+      "question": "Which group needs clearer recognition?",
+      "answer": "The gram-positive cocci."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-29": {
+    "questionInPlainEnglish": "What is a chromogenic differential medium?",
+    "explanation": "Chromogenic means color-producing. Visible colors reflect biochemical differences that help distinguish organism types.",
+    "optionExplanations": [
+      "BCYE is not defined by chromogenic identification.",
+      "PEA describes selection rather than color differentiation.",
+      "This name does not describe the chromogenic category.",
+      "Chromagar is the color-based category intended."
+    ],
+    "memory": "Chromogenic means producing color.",
+    "quickCheck": {
+      "question": "What does a differential medium reveal?",
+      "answer": "Differences between organism types."
+    }
+  },
+  "boc-6-30": {
+    "questionInPlainEnglish": "Which anticoagulant pair matches the book's compatibility rule?",
+    "explanation": "Anticoagulants prevent clotting, but their effects on diagnostic testing differ. Compatibility matters as well as clot prevention.",
+    "optionExplanations": [
+      "This pair does not match the book's intended compatibility.",
+      "Citrate replaces the SPS member intended in the key.",
+      "SPS and heparin are the compatible pair named by the book.",
+      "EDTA changes the compatibility of this proposed pair."
+    ],
+    "memory": "Clot prevention and test compatibility are separate issues.",
+    "quickCheck": {
+      "question": "What does an anticoagulant prevent?",
+      "answer": "Clot formation."
+    },
+    "sourceNote": "Conceptual exam interpretation only; actual collection, culture, or containment requires validated professional methods."
+  },
+  "boc-6-31": {
+    "questionInPlainEnglish": "What does the tularemia question imply about laboratory recognition?",
+    "explanation": "Tularemia is caused by Francisella tularensis, a high-risk bacterium with demanding nutritional needs. The useful lesson is recognizing a special-risk organism rather than attempting its cultivation.",
+    "optionExplanations": [
+      "The keyed choice reflects a special nutritional requirement.",
+      "CNA describes a different selection role, not the intended clue.",
+      "This general medium does not express the special requirement.",
+      "Regan-Lowe is associated with pertussis instead."
+    ],
+    "memory": "Tularemia is a Francisella disease.",
+    "quickCheck": {
+      "question": "Which organism causes tularemia?",
+      "answer": "Francisella tularensis."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-32": {
+    "questionInPlainEnglish": "What environmental category is associated with gonococci?",
+    "explanation": "Neisseria gonorrhoeae is fastidious, meaning nutritionally demanding. The book also tests its capnophilic association, meaning an affinity for carbon dioxide.",
+    "optionExplanations": [
+      "Anaerobic means without oxygen, a different concept.",
+      "Starch alone does not describe the atmospheric clue.",
+      "Carbon dioxide is the capnophilic association intended.",
+      "Blood agar is a medium category, not the atmospheric distinction."
+    ],
+    "memory": "Capnophilic refers to carbon dioxide.",
+    "quickCheck": {
+      "question": "What does fastidious mean?",
+      "answer": "Nutritionally demanding."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-33": {
+    "questionInPlainEnglish": "Which sample concept best avoids normal anaerobic flora?",
+    "explanation": "Anaerobes normally live in the mouth, intestine, and genital tract. Material representing a protected bladder site is more interpretable for this question.",
+    "optionExplanations": [
+      "Sputum can include ordinary mouth anaerobes.",
+      "Stool naturally contains abundant anaerobic residents.",
+      "This option represents the protected-site concept intended.",
+      "Vaginal material includes ordinary anaerobic residents."
+    ],
+    "memory": "Body-site context determines a result's meaning.",
+    "quickCheck": {
+      "question": "Why is stool unsuitable for this broad question?",
+      "answer": "Anaerobes are normal intestinal residents."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-34": {
+    "questionInPlainEnglish": "How do anaerobic infections commonly differ from aerobic infections?",
+    "explanation": "Anaerobic infections often involve several microbial species together. Polymicrobic means many kinds of microbes participating in one infection.",
+    "optionExplanations": [
+      "Aminoglycosides are not the characteristic treatment clue.",
+      "Many anaerobic infections arise from one's own flora.",
+      "Polymicrobic accurately describes the common mixed pattern.",
+      "A Gram stain can still provide useful diagnostic clues."
+    ],
+    "memory": "Poly means many; polymicrobic means many microbes.",
+    "quickCheck": {
+      "question": "What does polymicrobic mean?",
+      "answer": "Involving multiple microbial species."
+    }
+  },
+  "boc-6-35": {
+    "questionInPlainEnglish": "What does a mixed, squamous-cell-rich sputum sample suggest?",
+    "explanation": "Squamous epithelial cells commonly come from the mouth. A mix of familiar mouth organisms and few inflammatory cells suggests oropharyngeal flora rather than a clear pneumonia agent.",
+    "optionExplanations": [
+      "Pneumonia needs more evidence than this mixed mouth pattern.",
+      "Normal mouth anaerobes do not prove anaerobic infection.",
+      "No specific Haemophilus pattern establishes that diagnosis.",
+      "Oropharyngeal flora explains the mixed organisms and cells."
+    ],
+    "memory": "Oropharyngeal means mouth and throat.",
+    "quickCheck": {
+      "question": "What do many squamous cells suggest?",
+      "answer": "Mouth contamination of the sputum."
+    }
+  },
+  "boc-6-36": {
+    "questionInPlainEnglish": "Why might neutrophil nuclei look unexpectedly dark blue?",
+    "explanation": "A Gram stain uses color retention to distinguish bacterial groups. Human-cell staining can reveal a technical problem; the key interprets excess blue as inadequate color removal.",
+    "optionExplanations": [
+      "Missing iodine would not explain excess retained blue.",
+      "Insufficient color removal explains the retained blue.",
+      "A thin smear does not explain this excess blue retention.",
+      "The book does not consider this the expected nuclear appearance."
+    ],
+    "memory": "Stain quality affects how reliable colors are.",
+    "quickCheck": {
+      "question": "Can human cells help judge stain quality?",
+      "answer": "Yes, their appearance can reveal technical problems."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-37": {
+    "questionInPlainEnglish": "Which organism category does the book identify in the knee-fluid image?",
+    "explanation": "The key describes gram-positive cocci consistent with streptococci. Cocci are round bacteria; their arrangement can help distinguish broad groups.",
+    "optionExplanations": [
+      "Staphylococci are typically associated with clusters.",
+      "Corynebacterium are rods, not the keyed cocci.",
+      "Listeria are rods, not the keyed cocci.",
+      "Streptococci fit the book's round-cell interpretation."
+    ],
+    "memory": "Cocci are round; bacilli are rod-shaped.",
+    "quickCheck": {
+      "question": "What shape does coccus describe?",
+      "answer": "A round bacterial cell."
+    },
+    "sourceNote": "The supplied text does not include an interpretable image; this follows the book’s keyed interpretation."
+  },
+  "boc-6-38": {
+    "questionInPlainEnglish": "What distinguishes the named acid-fast stain methods conceptually?",
+    "explanation": "Acid-fast bacteria retain a special dye because of their lipid-rich envelope. The historical methods differ in how they help dye enter that envelope.",
+    "optionExplanations": [
+      "The principal distinction is not simply different dye names.",
+      "Both concern acid-fast microscopy rather than a different microscope.",
+      "Decolorizer strength is not the central distinction asked about.",
+      "Heat-assisted dye entry is the historical distinction intended."
+    ],
+    "memory": "Acid-fastness relates to a lipid-rich cell envelope.",
+    "quickCheck": {
+      "question": "What does acid-fastness describe?",
+      "answer": "Retention of a special stain despite decolorization."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-39": {
+    "questionInPlainEnglish": "Which bacterium is associated with relapsing fever?",
+    "explanation": "Borrelia recurrentis causes a fever illness with recurring episodes. Changing surface antigens helps explain why immune control can be followed by another episode.",
+    "optionExplanations": [
+      "Borrelia recurrentis is the relapsing-fever association.",
+      "Brucella abortus causes brucellosis rather than relapsing fever.",
+      "Leptospira interrogans causes leptospirosis instead.",
+      "Spirillum minus is associated with rat-bite fever."
+    ],
+    "memory": "Recurrentis hints at recurring fever.",
+    "quickCheck": {
+      "question": "Which organism causes leptospirosis?",
+      "answer": "Leptospira interrogans."
+    }
+  },
+  "boc-6-40": {
+    "questionInPlainEnglish": "What does the book infer from one late-positive blood-culture bottle?",
+    "explanation": "A single positive bottle among several samples can reflect contamination, especially with common skin residents. Timing alone cannot definitively distinguish contamination from infection.",
+    "optionExplanations": [
+      "Low-level bacteremia remains possible but is not established.",
+      "Contamination is the book's intended interpretation.",
+      "A line infection requires additional clinical evidence.",
+      "One positive bottle does not demonstrate defective bottles."
+    ],
+    "memory": "Interpret blood cultures with organism identity and clinical context.",
+    "quickCheck": {
+      "question": "Does one positive bottle prove contamination?",
+      "answer": "No, the full clinical context matters."
+    },
+    "sourceNote": "The supplied text does not include an interpretable image; this follows the book’s keyed interpretation."
+  },
+  "boc-6-41": {
+    "questionInPlainEnglish": "Which organism fits streptococcal appearance with special nutritional needs?",
+    "explanation": "Abiotrophia defectiva belongs to a group historically called nutritionally variant streptococci. Its demanding nutrition explains the mismatch between visible cells and ordinary recovery.",
+    "optionExplanations": [
+      "Staphylococcus saprophyticus usually forms clusters, not chains.",
+      "Aerococcus is not the classic nutritionally variant answer.",
+      "Abiotrophia matches the special-nutrition clue.",
+      "Pneumococcus is not the intended nutritional-variant association."
+    ],
+    "memory": "Abiotrophia connects endocarditis with demanding nutrition.",
+    "quickCheck": {
+      "question": "What does nutritionally variant imply?",
+      "answer": "Unusual nutritional requirements."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-42": {
+    "questionInPlainEnglish": "Which test category fits clustered gram-positive cocci?",
+    "explanation": "Clusters suggest staphylococci. Catalase helps distinguish that group, and Protein A is associated with Staphylococcus aureus.",
+    "optionExplanations": [
+      "Catalase and Protein A fit the staphylococcal clues.",
+      "Bacitracin and grouping suggest streptococcal questions instead.",
+      "This pair is not the intended clustered-coccus pathway.",
+      "These metabolic reactions mainly suggest enteric differentiation."
+    ],
+    "memory": "Protein A is associated with Staphylococcus aureus.",
+    "quickCheck": {
+      "question": "Which arrangement suggests staphylococci?",
+      "answer": "Clusters of cocci."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-43": {
+    "questionInPlainEnglish": "Which test family fits beta-hemolytic cocci in chains?",
+    "explanation": "Chains suggest streptococci, and beta-hemolysis means complete red-cell breakdown around colonies. The key names distinctions used within that broad group.",
+    "optionExplanations": [
+      "These names match classic streptococcal distinctions.",
+      "Protein A points toward staphylococci, which usually cluster.",
+      "Mass spectrometry is broad, but this pair misses the intended clues.",
+      "These enteric metabolic distinctions do not match the group."
+    ],
+    "memory": "Streptococci often form chains.",
+    "quickCheck": {
+      "question": "What does beta-hemolysis mean?",
+      "answer": "Complete red-cell breakdown."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-44": {
+    "questionInPlainEnglish": "Which genera contain nutritionally variant streptococci?",
+    "explanation": "The historical label describes bacteria now classified mainly as Granulicatella and Abiotrophia. Their name history explains why an older streptococcal term remains in exam questions.",
+    "optionExplanations": [
+      "Enterococci are a different group of cocci.",
+      "Group D enterococci do not define nutritional variants.",
+      "Beta-hemolysis does not define nutritional variation.",
+      "Granulicatella and Abiotrophia are the intended modern genera."
+    ],
+    "memory": "An older group name may span newer genera.",
+    "quickCheck": {
+      "question": "Name one nutritionally variant genus.",
+      "answer": "Abiotrophia."
+    },
+    "sourceNote": "Nutritionally variant streptococci is a historical group name; current genera include Granulicatella and Abiotrophia."
+  },
+  "boc-6-45": {
+    "questionInPlainEnglish": "Which organism is linked with early prosthetic-valve infection?",
+    "explanation": "Staphylococcus epidermidis is a skin resident that can attach to implanted material and form biofilms. That association explains the key.",
+    "optionExplanations": [
+      "Pneumococcus is better known for respiratory disease.",
+      "S. pyogenes is not the classic implant-associated choice.",
+      "S. aureus can cause severe infection, but is not the keyed association.",
+      "S. epidermidis is strongly associated with implanted devices."
+    ],
+    "memory": "Biofilms help microbes persist on artificial surfaces.",
+    "quickCheck": {
+      "question": "Why do implants matter for S. epidermidis?",
+      "answer": "They provide surfaces for attachment and biofilms."
+    }
+  },
+  "boc-6-46": {
+    "questionInPlainEnglish": "Which streptococcus fits this reaction pattern?",
+    "explanation": "The negative catalase result argues against staphylococci. Hippurate positivity supports the group B streptococcal association intended by the book.",
+    "optionExplanations": [
+      "S. aureus is typically catalase positive.",
+      "Pneumococcus is associated with optochin susceptibility.",
+      "S. pyogenes does not fit the intended hippurate clue.",
+      "S. agalactiae is group B Streptococcus and fits the pattern."
+    ],
+    "memory": "S. agalactiae is group B Streptococcus.",
+    "quickCheck": {
+      "question": "Which result argues against staphylococci?",
+      "answer": "The negative catalase result."
+    }
+  },
+  "boc-6-47": {
+    "questionInPlainEnglish": "What can explain a sudden rise in skin-flora blood-culture isolates?",
+    "explanation": "Staphylococcus epidermidis normally lives on skin. A rise in its detection can signal contamination during collection rather than a sudden rise in invasive disease.",
+    "optionExplanations": [
+      "Contaminated media are possible, but less directly supported.",
+      "Ventilation is not the most direct source of this skin resident.",
+      "Skin-associated contamination explains the pattern most directly.",
+      "A newly virulent outbreak needs evidence beyond this trend."
+    ],
+    "memory": "Skin residents can enter a sample without infecting blood.",
+    "quickCheck": {
+      "question": "Which organism is the skin-flora clue?",
+      "answer": "Staphylococcus epidermidis."
+    }
+  },
+  "boc-6-48": {
+    "questionInPlainEnglish": "Which organism fits clustered, catalase-positive cocci and wound infection?",
+    "explanation": "Staphylococcus aureus commonly causes wound infection and can also cause pneumonia. Its clustered appearance and catalase activity support the association.",
+    "optionExplanations": [
+      "S. aureus fits the clusters, catalase result, and clinical illness.",
+      "S. pyogenes usually forms chains and is catalase negative.",
+      "S. agalactiae is a catalase-negative streptococcus.",
+      "E. faecium does not fit the catalase-positive clustered pattern."
+    ],
+    "memory": "S. aureus connects wound infection and pneumonia.",
+    "quickCheck": {
+      "question": "Which shape arrangement is the key clue?",
+      "answer": "Cocci in clusters."
+    }
+  },
+  "boc-6-49": {
+    "questionInPlainEnglish": "Which organism links oral flora with subacute endocarditis?",
+    "explanation": "Viridans streptococci normally inhabit the mouth and can be associated with heart-valve infection. A damaged or artificial valve changes the clinical context.",
+    "optionExplanations": [
+      "S. lugdunensis can cause endocarditis but lacks the oral-flora clue.",
+      "S. saprophyticus is more associated with urinary infection.",
+      "Viridans streptococci fit the oral-flora and valve association.",
+      "S. agalactiae is not the classic oral-flora association."
+    ],
+    "memory": "Viridans streptococci connect the mouth with endocarditis.",
+    "quickCheck": {
+      "question": "What is endocarditis?",
+      "answer": "Infection involving the inner heart lining or valves."
+    }
+  },
+  "boc-6-50": {
+    "questionInPlainEnglish": "Which genus fits the listed enteric biochemical fingerprint?",
+    "explanation": "The pattern belongs to the Proteus-Providencia-Morganella group. Citrate positivity with the stated ornithine result favors Providencia in this exam pattern.",
+    "optionExplanations": [
+      "Morganella more often has the contrasting citrate-ornithine pattern.",
+      "Proteus does not best match the full listed fingerprint.",
+      "Providencia best matches the combined reaction pattern.",
+      "Serratia does not fit the phenylalanine-deaminase clue."
+    ],
+    "memory": "A biochemical fingerprint uses several clues together.",
+    "quickCheck": {
+      "question": "Why use the full pattern?",
+      "answer": "One reaction alone may fit several organisms."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-51": {
+    "questionInPlainEnglish": "What does a gull-wing-shaped blood-culture organism suggest?",
+    "explanation": "Curved paired rods resembling gull wings suggest Campylobacter. Its distinctive environmental preference helps explain why ordinary recovery expectations may fail.",
+    "optionExplanations": [
+      "The keyed choice recognizes the Campylobacter association.",
+      "Lack of recovery alone does not establish nonviability.",
+      "Aeromonas is not the characteristic gull-wing association.",
+      "X and V factors suggest Haemophilus instead."
+    ],
+    "memory": "Gull-wing-shaped rods suggest Campylobacter.",
+    "quickCheck": {
+      "question": "Is shape alone a definitive identification?",
+      "answer": "No, it is a clue requiring confirmation."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-52": {
+    "questionInPlainEnglish": "Which body compartment does the book associate with chronic brucellosis detection?",
+    "explanation": "Brucella can cause persistent infection involving cells of the body's immune system. Bone marrow is the compartment associated with the book's chronic-infection question.",
+    "optionExplanations": [
+      "Blood can be relevant, but is not the keyed chronic-infection choice.",
+      "Urine is not the characteristic compartment intended.",
+      "Bone marrow is the chronic-infection association in the book.",
+      "Lymph nodes can be involved, but are not the keyed choice."
+    ],
+    "memory": "Brucellosis can be a persistent systemic infection.",
+    "quickCheck": {
+      "question": "Which organism causes brucellosis?",
+      "answer": "Brucella species."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-53": {
+    "questionInPlainEnglish": "Which bacterium links raw oysters with bloodstream infection?",
+    "explanation": "Vibrio vulnificus is associated with raw shellfish and severe infection. Exposure history helps distinguish it from other gram-negative rods.",
+    "optionExplanations": [
+      "Aeromonas is water-associated but is not the intended oyster clue.",
+      "P. putida lacks the characteristic raw-oyster association.",
+      "Serratia does not match the oxidase and oyster clues.",
+      "V. vulnificus is the characteristic oyster-sepsis association."
+    ],
+    "memory": "Raw oysters are a classic Vibrio vulnificus clue.",
+    "quickCheck": {
+      "question": "What does septicemia refer to here?",
+      "answer": "A serious bloodstream infection."
+    }
+  },
+  "boc-6-54": {
+    "questionInPlainEnglish": "What should prolonged fever in a veterinarian make the laboratory consider?",
+    "explanation": "Animal contact, recurring fever, and small gram-negative coccobacilli suggest Brucella. Recognizing a possible high-risk organism is more important than treating it as a routine unknown.",
+    "optionExplanations": [
+      "Calling it contamination dismisses meaningful exposure clues.",
+      "HACEK organisms do not best explain the animal-exposure pattern.",
+      "Routine automated work is inappropriate without risk assessment.",
+      "The key recognizes possible Brucella and the need for safeguards."
+    ],
+    "memory": "Animal exposure plus persistent fever suggests brucellosis.",
+    "quickCheck": {
+      "question": "Why does the occupation matter?",
+      "answer": "It suggests exposure to animal-associated infection."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-55": {
+    "questionInPlainEnglish": "What is Cutibacterium acnes commonly associated with in blood-culture interpretation?",
+    "explanation": "This skin resident can enter a specimen as contamination. It can also cause genuine device-associated infections, so context remains important.",
+    "optionExplanations": [
+      "Food poisoning is not its characteristic association.",
+      "Post-antibiotic diarrhea more strongly suggests C. difficile.",
+      "Tooth decay is not the characteristic association tested.",
+      "Skin-source blood-culture contamination is the intended answer."
+    ],
+    "memory": "Cutibacterium acnes was formerly Propionibacterium acnes.",
+    "quickCheck": {
+      "question": "Can a skin resident ever cause real infection?",
+      "answer": "Yes, especially around implanted devices."
+    },
+    "sourceNote": "Cutibacterium acnes is the current name for the organism formerly called Propionibacterium acnes."
+  },
+  "boc-6-56": {
+    "questionInPlainEnglish": "Which anaerobe has the SPS association named by the book?",
+    "explanation": "Different organisms respond differently to substances used in diagnostic systems. The question's historical association is Peptostreptococcus anaerobius.",
+    "optionExplanations": [
+      "B. fragilis is not the characteristic SPS-sensitive answer.",
+      "C. acnes is not the specific association intended.",
+      "P. anaerobius is the named susceptibility association.",
+      "V. parvula is not the book's intended association."
+    ],
+    "memory": "Peptostreptococcus is an anaerobic coccus.",
+    "quickCheck": {
+      "question": "Does one additive affect every bacterium equally?",
+      "answer": "No, effects vary by organism."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-57": {
+    "questionInPlainEnglish": "Which test categories support the book's Cutibacterium interpretation?",
+    "explanation": "Pleomorphic means variable in shape. Non-spore-forming gram-positive rods in this context suggest Cutibacterium; the key names catalase and indole categories.",
+    "optionExplanations": [
+      "This pair does not fit the intended anaerobic rod association.",
+      "Catalase and indole match the book's presumptive interpretation.",
+      "Esculin alone does not identify the intended organism.",
+      "Gelatin alone is not the distinguishing pair intended."
+    ],
+    "memory": "Pleomorphic means variable in shape.",
+    "quickCheck": {
+      "question": "Does presumptive mean definitively proved?",
+      "answer": "No, it means provisionally suggested."
+    },
+    "sourceNote": "Conceptual recognition only; laboratory investigation requires validated professional methods and appropriate risk assessment."
+  },
+  "boc-6-58": {
+    "questionInPlainEnglish": "Why can some antibiotic-exposed bacteria resemble Mycoplasma?",
+    "explanation": "Mycoplasma naturally lacks a rigid cell wall. Medicines that disrupt wall synthesis can produce wall-deficient forms of other bacteria that resemble it.",
+    "optionExplanations": [
+      "Flagellar proteins concern movement, not the wall-loss clue.",
+      "Membrane interference differs from the wall-synthesis clue.",
+      "Protein-synthesis inhibition does not explain wall deficiency directly.",
+      "Wall-synthesis interference explains the resemblance intended."
+    ],
+    "memory": "Mycoplasma lacks a rigid bacterial cell wall.",
+    "quickCheck": {
+      "question": "Which structure is missing in Mycoplasma?",
+      "answer": "The rigid cell wall."
+    }
+  },
+  "boc-6-59": {
+    "questionInPlainEnglish": "Which CSF pattern is most consistent with viral meningitis?",
+    "explanation": "Viral meningitis often produces a lymphocyte-predominant immune response. A pattern of several findings is more informative than any one result.",
+    "optionExplanations": [
+      "Low protein is not the characteristic inflammatory clue.",
+      "Increased glucose is not the defining viral pattern.",
+      "High lactate more strongly raises concern for other causes.",
+      "Predominant lymphocytes fit the typical viral pattern."
+    ],
+    "memory": "Lymphocytes often dominate viral CSF inflammation.",
+    "quickCheck": {
+      "question": "Which white-cell group is intended?",
+      "answer": "Lymphocytes."
+    }
+  },
+  "boc-6-60": {
+    "questionInPlainEnglish": "Which organism is a classic cause of neonatal bacterial meningitis?",
+    "explanation": "Group B Streptococcus, also called S. agalactiae, can cause serious newborn infection. Age is the strongest distinguishing clue here.",
+    "optionExplanations": [
+      "Meningococcus is important but is not the classic newborn answer.",
+      "Pneumococcus is important in other age groups and contexts.",
+      "Group B streptococci fit the neonatal association.",
+      "H. influenzae is not the characteristic neonatal choice."
+    ],
+    "memory": "Neonatal means relating to a newborn.",
+    "quickCheck": {
+      "question": "What is the species name for group B Streptococcus?",
+      "answer": "Streptococcus agalactiae."
+    }
+  }
+}

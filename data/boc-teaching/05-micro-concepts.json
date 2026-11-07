@@ -1,0 +1,141 @@
+{
+  "boc-6-65": {
+    "questionInPlainEnglish": "Which infection best explains fever and badly swollen, bleeding lymph nodes in this story?",
+    "explanation": "Think of lymph nodes as checkpoints where the immune system gathers. Very swollen, painful nodes are a famous clue in the classic story of plague. The book therefore selects Yersinia pestis. The travel story supplies context; no single visual description proves a diagnosis.",
+    "optionExplanations": [
+      "Brucella melitensis is associated with brucellosis, a different illness often discussed with animal exposure.",
+      "Streptobacillus moniliformis is one cause of rat-bite fever; its disease association differs from the keyed syndrome.",
+      "Spirillum minus is another rat-bite-fever organism, rather than the classic cause of plague.",
+      "Yersinia pestis is the organism associated with plague and the markedly swollen nodes described here."
+    ],
+    "memory": "Plague can make lymph-node checkpoints painfully swell.",
+    "quickCheck": {
+      "question": "What body structure gives the important clue?",
+      "answer": "The enlarged lymph nodes, together with the whole clinical story."
+    }
+  },
+  "boc-6-75": {
+    "questionInPlainEnglish": "Which name belongs to the disease called melioidosis?",
+    "explanation": "The strongest clue is already a disease name: melioidosis. It is associated with Burkholderia pseudomallei. Learning a disease-name pair is like matching a book title to its author. The other organisms can cause infections too, but they do not own this particular disease name.",
+    "optionExplanations": [
+      "Stenotrophomonas maltophilia can cause opportunistic infections but is not the organism named by melioidosis.",
+      "Burkholderia pseudomallei is the disease-name match for melioidosis, which the question explicitly identifies.",
+      "Pseudomonas aeruginosa causes several kinds of opportunistic infection; melioidosis refers to a different organism.",
+      "Acinetobacter baumannii is associated especially with healthcare infections, rather than the named disease melioidosis."
+    ],
+    "memory": "Melioidosis pairs with B. pseudomallei.",
+    "quickCheck": {
+      "question": "Which clue gives the answer without laboratory details?",
+      "answer": "The disease name melioidosis."
+    }
+  },
+  "boc-6-87": {
+    "questionInPlainEnglish": "Which germ is classically associated with a child who coughs so hard that she vomits?",
+    "explanation": "Whooping cough, also called pertussis, can come in powerful coughing fits. Vomiting after a fit is an important clue in this childhood story. Bordetella pertussis is the classic cause. Vaccination history matters, but symptoms and history need professional assessment rather than a guess from one clue.",
+    "optionExplanations": [
+      "Bordetella parapertussis can cause a pertussis-like illness, but the book keys the classic pertussis organism.",
+      "Yersinia pestis is associated with plague, rather than the classic childhood whooping-cough story.",
+      "Francisella tularensis is associated with tularemia, a different disease from the one described here.",
+      "Bordetella pertussis gives pertussis its name and is the expected cause of this classic whooping-cough story."
+    ],
+    "memory": "Pertussis: powerful coughing fits.",
+    "quickCheck": {
+      "question": "What is another name for pertussis?",
+      "answer": "Whooping cough."
+    }
+  },
+  "boc-6-213": {
+    "questionInPlainEnglish": "Which organism is the book matching to its group of named laboratory findings?",
+    "explanation": "The answer key selects Clostridium perfringens. The broad lesson is that identification combines several pieces of evidence, like checking several clues before naming a character in a mystery. These organisms belong to different groups; one familiar test name should not become a diagnosis on its own.",
+    "optionExplanations": [
+      "Clostridium perfringens is the organism selected by the source for this group of findings.",
+      "Streptococcus agalactiae is a different bacterial group associated with group B streptococcal disease.",
+      "Cutibacterium acnes is a common skin-associated organism and is not the keyed match in this question.",
+      "Bacillus anthracis is associated with anthrax and is a different organism from the keyed answer."
+    ],
+    "memory": "Identification is a team of clues.",
+    "quickCheck": {
+      "question": "Why combine several findings?",
+      "answer": "Several consistent clues are more useful than one isolated clue."
+    }
+  },
+  "boc-6-244": {
+    "questionInPlainEnglish": "Which pair fits the historical public-health Category A grouping used by the book?",
+    "explanation": "This is a classification question about public-health preparedness. In the system the book uses, Francisella tularensis and Yersinia pestis are both Category A examples. A pair only qualifies if both names fit the category. Category labels describe a preparedness framework, not an instruction or prediction about an individual patient.",
+    "optionExplanations": [
+      "Bacillus anthracis fits this historical group, but multidrug-resistant tuberculosis does not complete the book’s Category A pair.",
+      "Francisella tularensis and Yersinia pestis both fit the Category A list used by the source.",
+      "Variola belongs to the historical group, but hantavirus does not make this entire pair correct.",
+      "Vancomycin-resistant enterococci and Bacillus cereus do not form a Category A pair in the source’s framework."
+    ],
+    "memory": "For a pair question, both halves must fit.",
+    "quickCheck": {
+      "question": "Is one matching name enough in a two-name option?",
+      "answer": "No. Both names must satisfy the category."
+    },
+    "sourceNote": "This is the historical US preparedness classification used by the source, rather than a universal description of all public-health hazards."
+  },
+  "boc-6-348": {
+    "questionInPlainEnglish": "Which yeast is classically associated with meningitis when immunity is weakened?",
+    "explanation": "The important story combines weakened immunity, meningitis, and a yeast with a capsule. A capsule is an outer coat around the cell. Cryptococcus neoformans is the classic name-pair for that combination in this question. The other choices are fungi too, but their usual disease associations differ.",
+    "optionExplanations": [
+      "Candida glabrata can cause opportunistic yeast infections, but it is not the classic encapsulated-yeast meningitis answer here.",
+      "Cryptococcus neoformans is the classic encapsulated yeast associated with meningitis, particularly when immunity is weakened.",
+      "Paracoccidioides brasiliensis is associated with a different systemic fungal disease rather than this classic capsule clue.",
+      "Sporothrix schenckii is classically linked with skin and lymphatic infection after traumatic exposure, rather than this meningitis pattern."
+    ],
+    "memory": "Cryptococcus: a coated yeast in a classic meningitis story.",
+    "quickCheck": {
+      "question": "What does a capsule mean here?",
+      "answer": "An outer coat surrounding the microbial cell."
+    },
+    "sourceNote": "The trailing section heading after option D is an extraction artifact, not part of the organism’s name."
+  },
+  "boc-6-358": {
+    "questionInPlainEnglish": "Which listed fungus does the book single out for specialist laboratory precautions?",
+    "explanation": "The source selects Coccidioides immitis because certain forms pose a serious laboratory inhalation hazard. The idea to remember is that a microbe’s risk can depend on its form and setting. Laboratory work requires institution-specific containment and trained staff; the short book wording is not a complete safety plan.",
+    "optionExplanations": [
+      "Streptococcus pyogenes still requires appropriate laboratory precautions, but it is not the particular fungus singled out by this item.",
+      "Staphylococcus aureus also requires suitable precautions; being a wrong answer does not mean it is harmless.",
+      "Candida albicans is a yeast requiring appropriate precautions, but it is not the organism highlighted by the key.",
+      "Coccidioides immitis is the source’s selected fungus with a notable laboratory inhalation hazard."
+    ],
+    "memory": "Wrong option never means harmless.",
+    "quickCheck": {
+      "question": "Does a wrong answer mean the organism needs no precautions?",
+      "answer": "No. Every organism requires the appropriate professional risk assessment."
+    },
+    "sourceNote": "The book’s “safety hood” wording is incomplete. Appropriate containment is determined by the institution and current professional guidance; this is not operational guidance."
+  },
+  "boc-6-359": {
+    "questionInPlainEnglish": "Which structural description does the source associate with this fungus?",
+    "explanation": "The book selects the barrel-shaped description in option A. Fungal names often connect to distinctive shape descriptions, much like recognizing different leaf shapes. This is an association to understand while reading the source, not a guide for examining or handling fungal material.",
+    "optionExplanations": [
+      "The barrel-shaped description is the structure-name association selected by the source.",
+      "The thick-walled, knobby-spore description is associated with a different classic fungal pattern in study questions.",
+      "A sporangium is a sac-like structure containing spores; that is a different structural category from the keyed description.",
+      "Small pear-shaped structures describe a different fungal pattern, rather than the association asked for here."
+    ],
+    "memory": "Barrel means a short cylinder, wider in the middle.",
+    "quickCheck": {
+      "question": "What everyday shape does “barrel-shaped” describe?",
+      "answer": "A short cylinder shaped like a small barrel."
+    }
+  },
+  "boc-6-372": {
+    "questionInPlainEnglish": "Which fungus does the source associate with eumycotic mycetoma in the United States?",
+    "explanation": "Mycetoma is a long-lasting infection involving skin and deeper tissues. “Eumycotic” tells you fungi are the cause, whereas actinomycetoma involves certain bacteria. The source keys Pseudallescheria boydii. The distinction between fungal and bacterial causes helps make the vocabulary meaningful.",
+    "optionExplanations": [
+      "Pseudallescheria boydii is the historical name keyed by the source for the fungal mycetoma association.",
+      "Nocardia brasiliensis is a bacterium associated with actinomycetoma, so it does not match the fungal category in the question.",
+      "Coccidioides immitis is a fungus associated with coccidioidomycosis, rather than the expected mycetoma answer here.",
+      "Aspergillus fumigatus is a fungus associated with several illnesses, but it is not the particular answer selected by this source."
+    ],
+    "memory": "EuMYCotic means the cause is fungal.",
+    "quickCheck": {
+      "question": "How does eumycotic mycetoma differ from actinomycetoma?",
+      "answer": "The first is caused by fungi; the second by certain bacteria."
+    },
+    "sourceNote": "The source uses older fungal naming. Modern classification distinguishes related Scedosporium/Pseudallescheria organisms; the geographic frequency claim depends on the population and period."
+  }
+}

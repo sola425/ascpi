@@ -1,46 +1,50 @@
-# Android build and installation
+# Android installation and build — 4.0.0
 
-## Install the APK
+## Install or update
 
-1. Download `Labwise-3.1.0.apk` to your Android phone.
-2. Open it from your Downloads app. If Android asks, allow that app to install this downloaded APK.
-3. Choose Install, then open Labwise.
+1. If Labwise is already installed, open **Progress → Export progress** and save a backup. Export any custom question bank separately.
+2. [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) on your phone. The fixed release is [Labwise-4.0.0.apk](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-4.0.0.apk), with a [SHA-256 checksum](../releases/Labwise-4.0.0.apk.sha256).
+3. Open the APK from Downloads. If Android asks, allow the browser or file manager to install this downloaded app.
+4. Choose **Install** or **Update**, then open Labwise. **Install over the existing app without uninstalling** to retain its on-device data.
 
-Requires Android 8.0 (API 26) or newer and an up-to-date Android System WebView. The complete textbook and all 1,484 separate teaching notes are bundled; no login, server, Internet connection, or storage permission is required. Open My textbook to use the native PDF reader; it supports page jumps, previous/next, zoom buttons, and pinch zoom. Search for page text in the study interface.
+Requires Android 8.0 (API 26) or newer and an up-to-date Android System WebView. The package is `com.labwise.study`, version name `4.0.0`, version code `40000`, target API `35`. It retains the 3.1.0 signing identity and uses a higher version code for an in-place update.
 
-Progress is private to the app's storage. Use My progress → Export progress before uninstalling or clearing app data. The Android document picker saves and restores JSON files in a location you choose. Export custom question banks separately. A browser version's data is not automatically shared with the Android app; export from the browser, then restore in Android.
+The APK bundles 3,760 active questions with complete teaching and all three original PDFs (434 + 333 + 333 pages). **Library** and source-question/rationale links open the appropriate native PDF reader, with page jumps, previous/next, zoom buttons, and pinch zoom. Selected reading pages are stored per document. No login, network connection, or shared-storage permission is required for study.
+
+**Progress → Export progress / Restore progress** uses Android's document picker. Restores show a preview before replacing progress and provide Undo afterward. Browser and Android data are separate; export from one and restore in the other to move progress. Uninstalling or clearing app data removes local progress. **Settings → Get latest APK** launches the system browser at the stable download URL; Android still asks you to install the downloaded update.
 
 ## Rebuild
 
-The current environment has verified tools installed. To reproduce from scratch:
+With Python 3 and Java 21, including `jdk.compiler`:
 
 ```sh
 python3 scripts/install_android_tools.py
 python3 scripts/build_apk.py
 ```
 
-Java 21 (including the `jdk.compiler` module) and Python 3 are required. The build uses the official Android platform 35 and build tools 35.0.0. The install script records the official metadata source and expected checksums. No Gradle, npm dependencies, remote API keys, or server-side services are required.
+The installer fetches official Android platform 35 and build tools 35.0.0, checking their recorded metadata and checksums. No Gradle, npm dependencies, API keys, or server-side service is required. Existing tools can be selected with `LABWISE_ANDROID_TOOLS` (default `/workspace/android-tools`).
 
-Output: `releases/Labwise-3.1.0.apk` and `releases/Labwise-3.1.0.apk.sha256`. Build intermediates in `android/build/` are ignored. Build verification checks signatures, alignment, application metadata, ZIP integrity, embedded PDF bytes, and dataset counts. The build first requires complete teaching for all 1,484 questions and all 5,942 options.
+The build assembles the source registry, then requires complete teaching for **all 3,760 active questions and 15,046 options**. It verifies signing, alignment, package metadata, ZIP integrity, all three embedded PDF files against their source bytes, and packaged dataset/page counts. Outputs are:
 
-## Signing and updates
+- `releases/Labwise-4.0.0.apk` and `.apk.sha256`.
+- `releases/Labwise-latest.apk` and `.apk.sha256`, copied from the same verified build.
 
-A release key was generated for this project in `/workspace/.labwise-signing`, outside the repository, with owner-only filesystem permissions. Its password is not printed or embedded in code, APKs, documentation, or project archives. Retain that directory securely to sign future updates with the same identity. Do not replace an existing key when rebuilding. `LABWISE_SIGNING_DIR` and `LABWISE_ANDROID_TOOLS` can point to other retained locations.
+Build intermediates in `android/build/` are ignored.
 
-Public signing-certificate SHA-256 fingerprint:
+## Retained signing key
 
-```
+The release key is retained outside the repository in `/workspace/.labwise-signing`, with owner-only permissions. Keep that directory securely for future updates, or set `LABWISE_SIGNING_DIR` to its retained location. **Do not regenerate the key for an update.** The build refuses to generate a replacement when existing release APKs are present. Keys and passwords are excluded from repository downloads.
+
+Public signing-certificate SHA-256 fingerprint, unchanged from 3.1.0:
+
+```text
 bca20db3b7816e0155660db761c4dbd1dd74e57e3f2ab6b6dbc1ace6027c4158
 ```
 
-This is a locally signed release for direct installation. It has not been submitted to Google Play or signed by Google Play App Signing.
+This is a directly installed release, outside Google Play App Signing.
 
-## Architecture
+## Architecture and validation
 
-A native Android Activity hosts the shared interface at an intercepted HTTPS asset origin. Requests are served only from packaged assets; external navigation is blocked and the app has no Internet permission. File URLs and universal file access are disabled. Source links open a native `PdfRenderer` Activity backed by the bundled textbook. The JavaScript interface exposes only version information, opening the bundled PDF, and saving a size-limited JSON export through Android's document picker. It cannot execute commands or open arbitrary filesystem paths.
+A native Activity serves the shared JavaScript interface from packaged assets at an intercepted HTTPS origin. Internet permission, file URLs, and universal file access are disabled. Source links accept only the three bundled document IDs and open a `PdfRenderer` Activity. The native bridge exposes app version, bundled-document opening, the fixed update-download URL, and size-limited JSON exports through the document picker. The update button opens a separate system browser.
 
-## Validation boundary
-
-Compilation, signatures, alignment, asset inclusion, JavaScript study flows, and bridge call routing passed local checks. This cloud machine lacks the hardware virtualization required by the official emulator, so installation and execution on an Android device remain unverified. See `docs/VALIDATION.md` for evidence.
-
-Version 3.1.0 uses the same app ID and signing certificate as 3.0.0, with a higher version code, so it is packaged as an in-place update rather than a separate app. Physical-device upgrade behavior remains unverified.
+[Validation evidence](VALIDATION.md) records compilation, signing, asset, browser, and bridge checks. Installation, upgrade, and native execution on an Android device or emulator remain unverified: this cloud machine has no usable KVM/hardware virtualization for the official emulator.

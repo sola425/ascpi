@@ -1,8 +1,11 @@
 {
-  "questions": 1484,
-  "completeTeachingNotes": 1484,
-  "optionExplanations": 5942,
+  "questions": 3760,
+  "completeTeachingNotes": 3760,
+  "optionExplanations": 15046,
   "missing": [],
   "complete": true,
+  "sourceComplete": false,
+  "excludedQuestions": 193,
+  "missingSourceQuestions": 93,
   "note": "Structural completeness checks do not replace a medical/editorial review."
 }

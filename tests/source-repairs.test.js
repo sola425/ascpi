@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const load=n=>JSON.parse(readFileSync(new URL(`../data/${n}.json`,import.meta.url)));
+const bank=load('study-bank'),byId=new Map(bank.map(q=>[q.id,q])),notes=load('teaching'),repairs=load('v4-source-repairs');
+test('PDF-verified source repairs and teaching repairs reach the runtime without changing keys',()=>{const original=new Map([...load('book-bank'),...load('boc-bank')].map(q=>[q.id,q]));assert.equal(Object.keys(repairs).length,72);for(const[id,patch]of Object.entries(repairs)){const q=byId.get(id);assert.ok(q,id);assert.equal(q.answer,original.get(id).answer,id);assert.equal(q.options.length,original.get(id).options.length,id);for(const field of ['question','context','options','needsSource'])if(field in patch)assert.deepEqual(q[field],patch[field],`${id} ${field}`);for(const[field,value]of Object.entries(patch.teachingPatch||{}))assert.deepEqual(notes[id][field],value,`${id} ${field}`);assert.ok(patch._verification?.documentId,id);assert.ok(patch._verification?.page,id);}});
+test('restored tables/formula and figure notices support answering from the intended source',()=>{assert.match(byId.get('book-1-236').context,/15 \| 20 \| 30 \| 20 \| 15/);assert.match(byId.get('book-399-36').question,/Σ\(x − x̄\)² \/ \(n − 1\)/);assert.equal(byId.get('boc-4-235').needsSource,true);assert.equal(byId.get('boc-4-238').needsSource,true);});
+test('corrected plain-language prompts do not name the answer in known image cases',()=>{for(const[id,answer]of[['boc-3-86','ghost cells'],['boc-3-125','cloth fiber'],['boc-3-134','budding yeast'],['boc-8-193','nucleolar']])assert.ok(!notes[id].questionInPlainEnglish.toLowerCase().includes(answer),id);});

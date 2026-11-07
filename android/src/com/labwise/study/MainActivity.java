@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
@@ -99,7 +100,9 @@ public final class MainActivity extends Activity {
       }
     });
     web.setDownloadListener((url,ua,disposition,mime,size)->{
-      if(url.contains("/docs/textbook.pdf"))openPdf(1);
+      Uri uri=Uri.parse(url);
+      String documentId=documentId(uri);
+      if(documentId!=null)openPdf(documentId,linkPage(uri));
       else toast("Use Export progress or Export bank to save a JSON backup.");
     });
     web.loadUrl("https://"+HOST+"/assets/index.html");
@@ -107,19 +110,31 @@ public final class MainActivity extends Activity {
 
   private boolean openLink(Uri uri){
     if("https".equals(uri.getScheme())&&HOST.equals(uri.getHost())){
-      if(uri.getPath()!=null&&uri.getPath().endsWith("/docs/textbook.pdf")){
-        int page=1;
-        String fragment=uri.getFragment();
-        if(fragment!=null&&fragment.startsWith("page="))try{page=Integer.parseInt(fragment.substring(5));}catch(NumberFormatException ignored){}
-        openPdf(page);return true;
-      }
-      return !uri.getPath().startsWith("/assets/");
+      String documentId=documentId(uri);
+      if(documentId!=null){openPdf(documentId,linkPage(uri));return true;}
+      return uri.getPath()==null||!uri.getPath().startsWith("/assets/");
     }
     // App content cannot navigate to arbitrary schemes or expose its native bridge remotely.
     toast("This study app works offline. External links are not opened here.");
     return true;
   }
-  private void openPdf(int page){startActivity(new Intent(this,PdfActivity.class).putExtra("page",Math.max(1,Math.min(434,page))));}
+  private static String documentId(Uri uri){
+    if(!"https".equals(uri.getScheme())||!HOST.equals(uri.getHost()))return null;
+    String path=uri.getPath();
+    if("/assets/docs/textbook.pdf".equals(path))return "textbook";
+    if("/assets/docs/boc-1.pdf".equals(path))return "boc1";
+    if("/assets/docs/boc-2.pdf".equals(path))return "boc2";
+    return null;
+  }
+  private static int linkPage(Uri uri){
+    String fragment=uri.getFragment();
+    if(fragment!=null)for(String part:fragment.split("&"))if(part.startsWith("page="))try{return Math.max(1,Integer.parseInt(part.substring(5)));}catch(NumberFormatException ignored){}
+    return 1;
+  }
+  private void openPdf(String documentId,int page){
+    if(PdfActivity.assetFor(documentId)==null){toast("This document is not available in the offline library.");return;}
+    startActivity(new Intent(this,PdfActivity.class).putExtra("documentId",documentId).putExtra("page",Math.max(1,page)));
+  }
   private static String mime(String path){
     if(path.endsWith(".html"))return "text/html";
     if(path.endsWith(".js"))return "text/javascript";
@@ -134,8 +149,24 @@ public final class MainActivity extends Activity {
   private void toast(String text){runOnUiThread(()->Toast.makeText(this,text,Toast.LENGTH_LONG).show());}
 
   private final class NativeBridge {
-    @JavascriptInterface public String version(){return "3.1.0";}
-    @JavascriptInterface public void openTextbook(int page){runOnUiThread(()->openPdf(page));}
+    @JavascriptInterface public String version(){return "4.0.0";}
+    @JavascriptInterface public void openTextbook(int page){openDocument("textbook",page);}
+    @JavascriptInterface public void openDocument(String documentId,int page){runOnUiThread(()->openPdf(documentId,page));}
+    @JavascriptInterface public String takeReadingPosition(){
+      SharedPreferences prefs=getSharedPreferences("reader-position",MODE_PRIVATE);
+      if(!prefs.getBoolean("pending",false))return "null";
+      String id=prefs.getString("documentId","");int page=prefs.getInt("page",1);
+      prefs.edit().putBoolean("pending",false).apply();
+      if(PdfActivity.assetFor(id)==null)return "null";
+      return "{\"documentId\":"+org.json.JSONObject.quote(id)+",\"page\":"+Math.max(1,page)+"}";
+    }
+    @JavascriptInterface public void openUpdates(){
+      runOnUiThread(()->{
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk"));
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+        try{startActivity(intent);}catch(ActivityNotFoundException e){toast("No browser is available. Open the Labwise GitHub releases page on another device.");}
+      });
+    }
     @JavascriptInterface public void exportJSON(String filename,String content){
       if(content==null||content.length()>25*1024*1024){toast("Backup is too large to save.");return;}
       final String safeName=filename!=null&&filename.matches("[a-zA-Z0-9._-]{1,80}\\.json")?filename:"labwise-backup.json";
@@ -160,6 +191,6 @@ public final class MainActivity extends Activity {
   @Override public void onSaveInstanceState(Bundle out){super.onSaveInstanceState(out);/* Large export contents are deliberately not placed in Binder state. */}
   @Override public void onBackPressed(){web.evaluateJavascript("window.labwiseBack ? window.labwiseBack() : false",result->{if(!"true".equals(result))new AlertDialog.Builder(this).setTitle("Close Labwise?").setMessage("Your progress is saved on this device.").setNegativeButton("Keep studying",null).setPositiveButton("Close",(d,w)->finish()).show();});}
   @Override protected void onPause(){web.onPause();super.onPause();}
-  @Override protected void onResume(){super.onResume();if(web!=null)web.onResume();}
+  @Override protected void onResume(){super.onResume();if(web!=null){web.onResume();web.evaluateJavascript("window.labwiseNativeReading && window.labwiseNativeReading()",null);}}
   @Override protected void onDestroy(){if(chooser!=null){chooser.onReceiveValue(null);chooser=null;}if(web!=null){web.removeJavascriptInterface("LabwiseAndroid");web.destroy();}super.onDestroy();}
 }

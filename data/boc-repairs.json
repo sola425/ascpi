@@ -1,0 +1,29 @@
+{
+  "lineRepairs": {
+    "CAB": "c AB",
+    "CLO": "c LD",
+    "dat100°C": "d at 100°C",
+    "~f v a severe liver disease": "a severe liver disease",
+    "ootv a Type I hypersensitivity": "a Type I hypersensitivity"
+  },
+  "pageRepairs": [
+    {
+      "documentId": "boc1",
+      "page": 269,
+      "question": 161,
+      "reason": "Merged header and rationale opening; repaired with targeted OCR and visual inspection."
+    }
+  ],
+  "optionLabelRepairs": {
+    "3": "a",
+    "t": "c"
+  },
+  "note": "Targeted OCR label and spacing repairs; no absent questions reconstructed.",
+  "verifiedOptionRepairs": {
+    "boc-2-363": {
+      "documentId": "boc1",
+      "page": 186,
+      "reason": "Visual inspection separated c/d choices and excluded following Toxicology heading."
+    }
+  }
+}

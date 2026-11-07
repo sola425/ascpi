@@ -1,0 +1,1017 @@
+{
+  "bookId": "boc7",
+  "sourcePdfPages": 666,
+  "bookStatedQuestionCount": 2556,
+  "numberedChapterQuestionCount": 2562,
+  "countDiscrepancy": "The preface states 2556 questions; chapter numbering ends at 438,376,256,320,194,386,323,269 (2562 total).",
+  "practiceQuestions": 2469,
+  "complete": false,
+  "sourceDefects": [
+    {
+      "documentId": "boc1",
+      "afterPage": 244,
+      "beforePage": 245,
+      "missingPrintedPages": [
+        225,
+        240
+      ],
+      "missingQuestionNumbers": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "description": "Supplied PDF jumps from printed page 224 to 241; sixteen question pages are absent."
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "topic": "Blood bank",
+      "questionGlobalPages": [
+        21,
+        88
+      ],
+      "answerGlobalPages": [
+        89,
+        128
+      ],
+      "expectedQuestions": 438,
+      "detectedQuestions": 438,
+      "detectedRationales": 438,
+      "extractedQuestions": 438,
+      "missingNumbers": [],
+      "complete": true,
+      "answerOnlyRecords": []
+    },
+    {
+      "chapter": 2,
+      "topic": "Chemistry",
+      "questionGlobalPages": [
+        129,
+        187
+      ],
+      "answerGlobalPages": [
+        188,
+        218
+      ],
+      "expectedQuestions": 376,
+      "detectedQuestions": 376,
+      "detectedRationales": 376,
+      "extractedQuestions": 376,
+      "missingNumbers": [],
+      "complete": true,
+      "answerOnlyRecords": []
+    },
+    {
+      "chapter": 3,
+      "topic": "Urinalysis",
+      "questionGlobalPages": [
+        219,
+        246
+      ],
+      "answerGlobalPages": [
+        247,
+        282
+      ],
+      "expectedQuestions": 256,
+      "detectedQuestions": 163,
+      "detectedRationales": 256,
+      "extractedQuestions": 163,
+      "missingNumbers": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "complete": false,
+      "answerOnlyRecords": [
+        {
+          "number": 154,
+          "answer": 0,
+          "explanation": "The photomicrograph shows the presence of 2 spherical transitional epithelial (urothelial)\ncells in the urine sediment. Transitional epithelial cells are 20-30 µm in size and appear in\nseveral forms including spherical, polyhedral, and caudate. They have moderate cytoplasm\nand a centrally-located nucleus. Transitional epithelial cells line the renal pelvis, ureter,\nbladder, and a portion of the urethra; therefore, their presence in a urine sediment is\nassociated with lower urinary tract infections, such as urethritis and cystitis.\n[QCMLS 2021: 3.1.4.3.2) [Strasinger 2021, p183]",
+          "answerPage": 267,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 155,
+          "answer": 0,
+          "explanation": "Glucose is filtered at the glomerulus and reabsorbed by active transport mechanisms\nin the proximal convoluted tubules until the plasma renal threshold is met. Once the\nrenal threshold is met, excess glucose is excreted in the urine, resulting in glucosuria.\nIn hyperglycemic disorders, such as diabetes mellitus, blood glucose concentrations are\nelevated and excess glucose is excreted in the urine. Patients with diabetes mellitus often\ndevelop proteinuria as the disease progresses due to nephropathy.\n[QCMLS 2021 : 3.1.5.2] [Strasinger 2021, p144, 148]\nl_. _U_ri_na_l-=--ys_i_s",
+          "answerPage": 267,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 156,
+          "answer": 1,
+          "explanation": "After being filtered at the glomerulus, glucose in the filtrate is reabsorbed by active\ntransport mechanisms in the proximal convoluted tubules (PCT) up to the renal threshold.\nNearly all glucose will be reabsorbed from the filtrate, and it should not be present in urine.\nDamage and/or dysfunction of the PCT may cause decreased glucose reabsorption in the\nPCT, leading to inappropriate excretion of glucose in the urine (renal glycosuria) despite a\nnormal or low plasma glucose concentration.\n(QCMLS 2021: 2.7.2.3, 3.1.5.3) [Strasinger 2021, p110, 226]",
+          "answerPage": 268,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 157,
+          "answer": 3,
+          "explanation": "The presence of RBCs in the urine (hematuria), as evidenced by the positive occult blood\ntest pad and visualization of RBCs microscopically, is associated with damage to the kidneys\nand/or genitourinary tract, such as trauma, kidney stones, glomerular disease, infection,\nand exposure to endogenous or exogenous toxins. The presence of RBC casts is primarily\nassociated with glomerular diseases, such as glomerulonephritis, in which damage to the\nglomerular membrane allows cells and large proteins to inappropriately pass through the\nmembrane into the renal tubules. In the renal tubules, the proteins contribute to the formation\nof casts which will adhere the RBCs forming RBC casts.\n[QCMLS 2021: 3.1.4.4.1, 3.1.4.5.2) [Strasinger 2021, p153]",
+          "answerPage": 268,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 158,
+          "answer": 1,
+          "explanation": "The presence of a few uric acid crystals may be considered normal, but large amounts\nwould be considered clinically significant as they are associated with increased purine\nmetabolism, as occurs in gout, following chemotherapy, and in some metabolic disorders.\n[QCMLS 2021 : 3.1.4.6.2) [Strasinger 2021, p202]",
+          "answerPage": 268,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 159,
+          "answer": 1,
+          "explanation": "Damage to the electrical charge of the glomerular membrane, allowing the passage\nof high molecular weight proteins and lipids, occurs in nephrotic syndrome. This results in\nmarkedly increased urine protein levels and the appearance of fatty casts and oval fat bodies\nthat are characteristic of nephrotic syndrome.\n(QCMLS 2021 : 3.1.3.6, 3.1.4.3.4, 3.1.4.5.8) (Strasinger 2021, p202]",
+          "answerPage": 268,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 160,
+          "answer": 1,
+          "explanation": "The photomicrograph shows the presence of a squamous epithelial cell with a rough or\ngranular appearance, known as a \"clue cell.\" The negative results for leukocyte esterase\nand nitrite rule out a urinary tract infection. Clue cells are squamous epithelial cells from the\nvagina that are covered with coccobacilli, Gardnerella vagina/is, which gives them a granular\nand irregular appearance. As these cells are sloughed, they may appear in the urine sediment\nand are considered clinically significant as they indicate bacterial vaginosis.\n(QCMLS 2021: 3.1.4.3.5) [Strasinger 2021, p228; Brunzel 2018, p223]",
+          "answerPage": 268,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 161,
+          "answer": 3,
+          "explanation": "The negative result for nitrite and lack of bacteria upon microscopic examination suggests\nthat the patient does not have an active urinary tract infection and that the WBCs are present\ndue to inflammation. Acute interstitial nephritis is caused by an allergic reaction, often\noccurring following organ transplantation or administration of a medication/drug that results\nin inflammation of the renal tubules. WBCs and WBC casts may be present in the urine\nsediment as a result of the inflammatory process.\n[QCMLS 2021 : 3.1.4.5.4) [Strasinger 2021, p228]",
+          "answerPage": 269,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 162,
+          "answer": 3,
+          "explanation": "A major cause of glomerular disorders, such as acute glomerulonephritis, is the deposition\nof immune complexes on the glomerular membrane. The resulting damage allows proteins\nand cells, such as RBCs, to pass through the membrane and into the renal tubules. In the\nrenal tubules, the proteins contribute to the formation of casts, which will adhere the RBCs,\nforming RBC casts. The presence of RBCs in the urine may yield a red colored sample and\ngenerate a positive result for the occult test pad. Increased proteins (albumin) will cause a\npositive reaction on the protein test pad.\n[QCMLS 2021: 3.1.2.1, 3.1.4.4.1, 3.1.4.5.2) [Strasinger 2021, p220]",
+          "answerPage": 269,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 163,
+          "answer": 1,
+          "explanation": "The photomicrograph shows the presence of tyrosine crystals, which appear in acidic\nurines as colorless or yellow, fine needles in clusters or sheaves. They are associated with\nliver disease and inherited amino acid metabolic disorders such as tyrosinemia.\n[QCMLS 2021: 3.1.4.7.7) [Strasinger 2021 , p207, 237]\n3\n0\nC\n•'\n'\nJ",
+          "answerPage": 269,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 164,
+          "answer": 3,
+          "explanation": "The photomicrograph shows the presence of RBCs and a granular cast. The presence\nof RBCs in the urine indicates damage to the kidneys (eg, the glomerular membrane)\nor the genitourinary tract. Granular casts are thought to be the result of degeneration\nof cellular casts, such as RBC casts, indicating a prolonged disease state (eg, chronic\nglomerulonephritis ).\n[QCMLS 2021: 3.1.4.4.1, 3.1.4.5.6] [Strasinger2021, p180, 196]",
+          "answerPage": 270,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 165,
+          "answer": 1,
+          "explanation": "The photomicrograph shows the presence of RBCs (red arrows), calcium oxalate\n(dihydrate) crystals (black arrows), and amorphous debris. The majority of renal calculi\nare composed of calcium oxalate, and the presence of these crystals in the urine suggests\nthat the patient may have a kidney stone. As the stone passes through the kidney and\ngenitourinary tract, damage can occur, resulting in the hematuria and a positive occult blood\nresult on the reagent test strip.\n(QCMLS 2021: 3.1.4.4.1, 3.1.4.6.1] [Strasinger 2021, p203]\nII. Body Fluids\nA. Physical",
+          "answerPage": 270,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 166,
+          "answer": 0,
+          "explanation": "CSF is a clear, colorless fluid. Specimens with a significantly increased amount of protein\nmay appear cloudy, but the presence of lipids causes the sample to appear milky. When\nbacteria are present, the sample will likely have an increased number of WBCs, which would\ncause the sample to appear cloudy, but not milky. Glucose is soluble in CSF and would not\ncontribute to the turbidity of the sample despite being present in elevated concentrations.\n[QCMLS 2021: 3.3.4.2] [Strasinger 2021, p254]",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 167,
+          "answer": 2,
+          "explanation": "Normal synovial fluid is viscous due to its high concentration of hyaluronic acid. When\nexpressed from a syringe (string test), it will form a string of 4-6 cm. If the fluid forms small\ndiscrete droplets, it is considered to have abnormally low viscosity, which is associated with\ninflammatory disorders. Hyaluronidase, produced by neutrophils and some bacteria, degrades\nthe hyaluronic acid, leading to decreased viscosity.\n(QCMLS 2021: 3.5.4.3] [Strasinger 2021 , p296]",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 168,
+          "answer": 0,
+          "explanation": "Serous fluids are collected by inserting a sterile needle into the body cavity and aspirating\nseveral milliliters of the effusion. The procedures are named according to the cavity involved:\nthoracentesis (pleural), pericardiocentesis (pericardia!), and paracentesis (peritoneal).\nThe accumulation of fluid in the peritoneal cavity is referred to as \"ascites,\" and it is collected\nby paracentesis.\n[QCMLS 2021: 3.4.3, 3.4.4) [Strasinger 2021, p306, 314]",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 169,
+          "answer": 0,
+          "explanation": "Normal CSF is clear and colorless with viscosity similar to water. Samples that are\nopalescent appear hazy, which is usually due to the presence of lipids. Fluids that are\npale-yellow, yellow, pink, or orange are described as being \"xanthochromic.\" Xanthochromia\ngenerally indicates the presence of RBC degradation products from a bleed into the CNS.\nThe color depends on the amount of blood and the length of time since the bleed occurred.\n[QCMLS 2021: 3.3.4.1] [Strasinger 2021, p254]",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 170,
+          "answer": 1,
+          "explanation": "Sperm vitality, or viability, is evaluated by preparing a stained smear using eosin-nigrosin\nstain and observing the slide under oil immersion (1OOx objective). Dead or damaged sperm\ndo not have an intact plasma membrane and will readily take up the stain, appearing pink or\nred against the purple background. Viable sperm have an intact membrane and will not take\nup the stain, appearing bluish-white against the purple background. One hundred sperm are\nviewed and classified as viable (white) or non-viable (pink/red). Specimens with <58% vitality\nare considered abnormal and may be associated with decreased infertility.\n(QCMLS 2021: 3.6.7.3) [Strasinger 2021, p286]",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 171,
+          "answer": 2,
+          "explanation": "Amniotic fluid is normally colorless, but may also appear pale yellow or yellow later in\npregnancy. A dark yellow appearance suggests the presence of bilirubin, which is associated\nwith increased RBC destruction and hemolytic disease of the fetus and newborn (HDFN).\n[QCMLS 2021: 3.2.5.1] [Strasinger 2021, p331)",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 172,
+          "answer": 2,
+          "explanation": "Amniotic fluid is normally colorless or pale yellow. Fluids that appear green may contain\nmeconium. Meconium is formed in the fetal intestines from intestinal secretions and ingestion\nof amniotic fluid. It contains biliverdin which will give amniotic fluid a green coloration.\nMeconium is not normally excreted in utero, and its presence in amniotic fluid indicates fetal\ndistress.\n(QCMLS 2021: 3.2.5.1] [Strasinger 2021, p331]",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 173,
+          "answer": 2,
+          "explanation": "During bacterial vaginosis, microbes such as Gardnerella vagina/is proliferate, leading to\nincreased production of polyamines. To evaluate for the increased presence of polyamines,\nan amine (whiff) test is performed on the vaginal secretion by placing a drop of the sample\nsuspension onto a clean slide along with one drop of 10% potassium hydroxide (KOH).\nWhen present, polyamines are volatized into trimethylamines, producing a \"fishy\" odor.\n(QCMLS 2021: 6.7.9) [Strasinger 2021, p361)\n- ~ - - - -",
+          "answerPage": 271,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 174,
+          "answer": 2,
+          "explanation": "Semen from a healthy adult should coagulate after ejaculation then liquefy within 30\nminutes. Once the fluid is completely liquefied, the viscosity of the sample is evaluated by\naspirating it into a Pasteur pipette and allowing it to fall under the influence of gravity. Normal\nseminal fluid is watery and forms discrete droplets. An abnormal viscosity is indicated by the\nformation of a string or thread >2 cm in length, and may be associated with the presence of\nanti-sperm antibodies.\n[QCMLS 2021: 3.6.5.2, 3.6.5.4] [Strasinger 2021, p281]",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 175,
+          "answer": 0,
+          "explanation": "Normal semen coagulates shortly after ejaculation to form a coagulum. The coagulum\nshould liquefy within 30 minutes of collection. Specimens that do not liquefy by 60 minutes\nare reported to have liquefaction time >60 minutes and are considered abnormal.\n[QCMLS 2021: 3.6.5.2] (Strasinger 2021, p280]\nB. Chemical",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 176,
+          "answer": 0,
+          "explanation": "CSF contains approximately 15-45 mg/dl of proteins. Similar to serum, albumin accounts\nfor the majority of total proteins in CSF. Transthyretin is the second most prevalent CSF\nprotein, with haptoglobin, ceruloplasmin, transferrin, tau transferrin, and immunoglobins\ncomprising the remaining portion. Fibrinogen is not normally found in CSF and indicates\ncontamination with peripheral blood when present.\n{QCMLS 2021: 3.3.5.2] (Strasinger 2021, p266]",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 177,
+          "answer": 3,
+          "explanation": "To evaluate if a specimen is synovial fluid, the Ropes or mucin clot test can be performed\nby adding a solution of 2-5% acetic acid to an aliquot of the sample. The acid polymerizes the\nhyaluronic acid normally found in synovial fluid and forms a solid clot.\n[QCMLS 2021: 3.5.5.1] [Strasinger 2021, p296]",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 178,
+          "answer": 1,
+          "explanation": "Urine and CSF can be ruled out based on the sample's protein concentration as these\nfluids would have concentrations in the mg/dl range, not g/dl. The sample is likely to be\nsynovial fluid based on the presence of hyaluronate, because this is a component of synovial\nfluid, not pleural fluid.\n[QCMLS 2021: 3.5.4.3] [Strasinger 2021, p295]",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 179,
+          "answer": 0,
+          "explanation": "Synovial fluid contains a large amount of hyaluronic acid. To evaluate if a specimen is\nsynovial fluid, a few drops of 2-5% acetic acid can be added to an aliquot of the sample.\nThe acid will polymerize the hyaluronic acid in synovial fluid, causing it to become turbid and\nform a solid clot.\n[QCMLS 2021 : 3.5.5.1] [Strasinger 2021, p296]",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 180,
+          "answer": 2,
+          "explanation": "Hyaluronic acid, also known as hyaluronate, is the principal mucin in synovial fluid and\nserves to lubricate the joint. A low hyaluronic acid concentration leads to decreased viscosity\nof the synovial fluid, and inflammation of the joint.\n[QCMLS 2021: 3.5.4.3] [Strasinger 2021, p294]",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 181,
+          "answer": 0,
+          "explanation": "In guaiac-based fecal occult blood tests, guaiac (colorless chromogen) is oxidized in the\npresence of a peroxide (reagent) and a peroxidase to yield a blue color. False positives may\noccur if the patient ingests foods that produce peroxidase (eg, horseradish, broccoli, radishes,\nmelons) or foods that contain animal blood, since the reaction is not specific for human\nhemoglobin. Patients that take aspirin frequently may have occult bleeding not associated\nwith colorectal cancer, but acetaminophen is not known to cause bleeding. Ascorbic acid\n(vitamin C) is a strong reducing agent and, at high doses, can interfere with the test, leading\nto a false-negative result.\n[QCMLS 2021: 3.7.4.1) (Strasinger\"2021, p345]",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 182,
+          "answer": 0,
+          "explanation": "Fecal occult blood testing may be performed to screen for gastrointestinal bleeding and\nis commonly used to screen for colorectal cancer. Fecal occult blood tests employ several\nmethods, including those that are guaiac-based (gFOBT), immunochemical (iFOBT or FIT),\nand porphyrin-based. In guaiac-based methods, guaiac is oxidized in the presence of a\nperoxide (reagent) and a peroxidase to yield a blue color. The heme moiety of hemoglobin\nhas pseudoperoxidase activity and will result in a positive occult blood reaction.\n[QCMLS 2021: 3.7.4.1] (Strasinger 2021, p345]\n---=-----------'---------'----",
+          "answerPage": 272,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 183,
+          "answer": 3,
+          "explanation": "Normal CSF contains protein fractions similar to those found in serum, such as\ntransthyretin (prealbumin), albumin, transferrin, haptoglobin, ceruloplasmin, lgG, and lgA.\nNormal CSF does not contain lgM, fibrinogen, or beta lipoprotein.\n[QCMLS 2021: 3.3.5.2] [Strasinger 2021 , p266]",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 184,
+          "answer": 1,
+          "explanation": "The lgG index is a comparison of the CSF lgG:serum lgG ratio to the CSF albumin:serum\nalbumin ratio. It is used to determine if increased lgG in CSF is due to increased production\nin the CNS or contamination from a breach in the blood-brain barrier. An lgG index >0.70\nsuggests increased intrathecal production of immunoglobulins; whereas values <0.70 indicate\ndamage to the blood-brain barrier.\n(QCMLS 2021: 3.3.5.2] [Strasinger 2021 , p267]",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 185,
+          "answer": 0,
+          "explanation": "Seminal fluid contains a high concentration of acid phosphatase. Measurement of the\nacid phosphatase activity of a fluid can allow for positive determination of the presence of\nseminal fluid.\n[QCMLS 2021: 3.6.6.4) [Strasinger 2021, p287]",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 186,
+          "answer": 0,
+          "explanation": "Sweat is collected by stimulating an area of the skin with the cholinergic drug, pilocarpine\nnitrate. In a process known as iontophoresis, a small electric current is used to deliver the\npilocarpine into the sweat glands. The sweat is collected into gauze or a plastic microbore\ntube and measured to determine the concentration of chloride. Abnormal sweat chloride\nconcentrations are associated with cystic fibrosis.\n[QCMLS 2021: 3.8.2) [Tietz 2019, p424]",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 187,
+          "answer": 1,
+          "explanation": "There are several types of meningitis including bacterial, tubercular, and fungal.\nChemical and microscopic analysis of CSF can assist in differentiating them. CSF glucose\nconcentrations are decreased in bacterial meningitis due to glycolysis by bacteria and\nWBCs (pleocytosis). CSF lactate concentrations are significantly elevated due to anaerobic\nglycolysis. If the blood-brain barrier were damaged, CSF albumin and total protein\nconcentrations would be elevated due to inappropriate passage of plasma proteins into\nthe CSF.\n[QCMLS 2021 : 3.3.5.1) [Strasinger 2021, p268]",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 188,
+          "answer": 0,
+          "explanation": "For patients with normal opening pressure, approximately 1-2 ml of CSF is collected into\neach of 3-4 sterile tubes. The tubes are labeled in the order of collection (1 , 2, 3, 4) and sent\nto the laboratory for analysis. In general, tube 1 is used for chemical and serological testing as\nthis tube is the most likely to contain peripheral blood or be contaminated from the collection\nitself. Tube 2 (or 4) is used for microbiological testing and tube 3 is used for cellular studies.\n[QCMLS 2021: 3.3.3.1] [Strasinger2021, p253)",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 189,
+          "answer": 1,
+          "explanation": "Demyelination of the myelin sheath, as occurs in multiple sclerosis (MS), results in the\npresence of myelin basic proteins (MBP) in the CSF. Measurement of MBP can be used to\nmonitor disease progression and the effectiveness of treatment for patients with MS.\n(QCMLS 2021: 3.3.5.2) [Strasinger 2021, p267]",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 190,
+          "answer": 0,
+          "explanation": "Pleural effusions are analyzed to determine their concentration of total proteins and\nlactate dehydrogenase activity, which is compared to their serum concentrations to classify\nthe fluid as a transudate or exudate. Pleural exudates often have additional chemical\ntesting, including analyses to determine their pH, glucose and triglyceride concentrations,\nand levels of adenosine deaminase and amylase activity. An abnormally low pH (<7.3) aids\nin identification of situations that require more aggressive treatments, such as placement\nof a chest-tube drain, in addition to administration of antibiotics in cases of pneumonia.\nSignificantly low pH value (6.0) suggests an esophageal rupture has occurred, allowing the\ninflux of gastric fluid.\n[QCMLS 2021: 3.4.6.5) [Strasinger 2021, p307, 312]\nll_. B_o_d--=y:.....F_l_u_id_s",
+          "answerPage": 273,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 191,
+          "answer": 0,
+          "explanation": "When collecting amniotic fluid by amniocentesis, there is a small chance the fluid\ncollected may be urine, given the close proximity of the uterus and maternal bladder.\nUrine and amniotic fluid both appear as clear, colorless or yellow fluids, making it impossible\nto distinguish them based on physical examination alone. Chemical examinations, such as\nglucose, protein, urea and creatinine, may be performed to identify the fluid type. Amniotic\nfluid contains significant concentrations of glucose and protein, whereas maternal urine, in\nthe absence of renal disease and diabetes mellitus, should be negative for these analytes.\nIn contrast, urine contains significant concentrations of urea and creatinine that do not appear\nin amniotic fluid until late in pregnancy (37 weeks), when fetal renal function begins.\n[QCMLS 2021: 3.2.6.1) [Strasinger 2021, p329)",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 192,
+          "answer": 0,
+          "explanation": "Lecithin (L) is a component of surfactants that coat pulmonary alveoli and provide\nstability to the alveoli as they expand and contract during respiration. It is produced in low\namounts until the 35th week of gestation, when production rapidly increases to stabilize the\nfetal pulmonary alveoli. Sphingomyelin (S) is a lipid produced in constant amounts after the\n26th week of gestation. Evaluation of the ratio of lecithin to sphingomyelin (US ratio) in an\namniotic fluid provides information on the maturity of the fetal lungs and risk for respiratory\ndistress syndrome (in the event of preterm delivery). An L:S ratio of <2.0 suggests fetal lung\nimmaturity, whereas a ratio ~2.0 indicates maturity.\n(QCMLS 2021 : 3.2.6.3) [Strasinger 2021, p333]",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 193,
+          "answer": 0,
+          "explanation": "Measurement of carcinoembryonic antigen (CEA) may be useful in evaluating pleural\nand peritoneal effusions from patients with previous history of or suspected to have a\nCEA-producing tumor.\n(QCMLS 2021 : 3.4.6.6) (Strasinger 2021, p312, 316]",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 194,
+          "answer": 0,
+          "explanation": "Fetal fibronection (fFN) is a glycoprotein found in the extramedullary matrix at the\njunction of the placenta and uterine wall. In normal pregnancy, fFN should not be detectable\nafter 24-35 weeks' gestation. Increased concentrations (>50 µg/L) are associated with an\nincreased risk for preterm delivery.\n[QCMLS 2021: 3.9.1) [Strasinger 2021, p365]",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 195,
+          "answer": 3,
+          "explanation": "Albumin is not synthesized in the CSF, but is transported across the blood-brain barrier.\nThe CSF/serum albumin index is used to evaluate the integrity of the blood-brain barrier,\nas damage would result in increased CSF albumin. An index <9.0 is considered normal.\nIndices >9.0 indicate damage has occurred to the blood-brain barrier allowing proteins to\ninappropriately enter the CSF.\n[QCMLS 2021: 3.3.5.2] [Strasinger 2021, p267]",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 196,
+          "answer": 3,
+          "explanation": "Phosphatidylglycerol (PG) is a lipid component of pulmonary surfactants. Surfactants coat\nthe alveoli and provide stability during respiration. PG is undetectable in amniotic fluid until\nthe 35th week of gestation. Performing this test on amniotic fluid collected prior to 35 weeks is\ninappropriate and should be considered invalid.\n[QCMLS 2021 : 3.2.6.3) [Strasinger 2021, p333]",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 197,
+          "answer": 0,
+          "explanation": "A paired, fasting plasma specimen must be collected at the same time the arthrocentesis\nis performed in order to evaluate the difference in glucose concentrations between the fluids.\nIn noninflammatory and hemorrhagic conditions, the difference is typically <20 mg/dl.\nDifferences >20 mg/dl suggest an inflammatory condition, and those >40 mg/dl indicate\nsepsis.\n[QCMLS 2021: 3.5.5.2) [Strasinger 2021, p300]",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 198,
+          "answer": 1,
+          "explanation": "The presence of \"fresh\" blood in the stool of a newborn must be evaluated to determine if\nthe blood is from a gastrointestinal bleed in the newborn or if maternal blood was swallowed\nduring the delivery. In the Apt test, a suspension is made from the stool and centrifuged,\nresulting in a pink supernatant that is transferred to 2 tubes. The second tube is alkalinized\nwith sodium hydroxide and any resulting color change evaluated. Maternal hemoglobin (HbA)\nturns yellow or brown, while fetal hemoglobin (HbF) remains pink.\n[QCMLS 2021: 3.7.4.2) (Brunzel 2018, p333]",
+          "answerPage": 274,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 199,
+          "answer": 2,
+          "explanation": "For adult patients, a normal fasting plasma/serum glucose would be in the range of\n74-100 mg/dl. Normally, fasting whole-blood glucose concentrations are approximately\n10-12% lower than serum/plasma glucose concentrations. Glucose is actively transported\nacross the blood-brain barrier, and CSF glucose concentrations are approximately 60-70%\nthat of serum/plasma.\n[QCMLS 2021: 3.3.5.1] [Strasinger 2021, p268;Tietz 2019, p384-386]",
+          "answerPage": 275,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 200,
+          "answer": 1,
+          "explanation": "Since glucose is actively transported across the blood-brain barrier, measurement of\npaired CSF and blood samples is performed. CSF glucose concentrations are normally\napproximately 60-70% that of the blood. If the blood glucose is reported as 80 mg/dl\n(4.4 mmol/L), the CSF glucose concentration would be expected to be approximately\n48-56 mg/dl (2.6-3.1 mmol/L).\n[QCMLS 2021: 3.3.5.1] [Strasinger 2021, p268]",
+          "answerPage": 275,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 201,
+          "answer": 2,
+          "explanation": "CSF testing should be performed immediately. If testing will be delayed, the tube(s) to\nbe used for chemical and serological testing should be stored in the freezer to minimize\nglycolysis by any cellular elements present in the sample. The tube(s) for hematology should\nbe refrigerated (up to 4 hours), and the tube(s) for microbiology should be kept at room\ntemperature.\n[QCMLS 2021 : 3.3.3.2] [Strasinger 2021, 254]\nC. Microscopic",
+          "answerPage": 275,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 202,
+          "answer": 2,
+          "explanation": "CSF is collected by inserting a sterile needle between the 3rd and 4th, or 4th and\n5th, lumbar vertebrae and into the subarachnoid space. The first tube collected may be\ncontaminated with peripheral blood and should not be used for cellular studies. The cell\ncount should be performed on the last tube collected, because it will be the least likely to\nhave been contaminated by peripheral blood. Cell counts are performed on a well-mixed\nsample; whereas a WBC differential would be performed on a stained, cytocentrifuged slide\npreparation. The addition of glacial acetic acid would lyse RBCs present in the sample.\n(QCMLS 2021: 3.3.3.1] [Strasinger 2021, p254]",
+          "answerPage": 275,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 203,
+          "answer": 2,
+          "explanation": "Sperm motility is evaluated microscopically by preparing a wet mount and observing the\nslide under high dry power (40x objective). To evaluate sperm morphology, a prepared slide\nis stained using Giemsa, Wright, or Papanicolaou stain and observed using oil immersion\n(100x objective). Sperm vitality can be evaluated by preparing a stained smear using\neosin-nigrosin stain and observing the slide using oil immersion. The concentration of sperm\ncan be determined by performing a manual count on a well-mixed, diluted specimen loaded\nonto a cover-slipped Neubauer hemacytometer.\n(QCMLS 2021: 3.6.7.2] [Strasinger 2021, p284]",
+          "answerPage": 275,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 204,
+          "answer": 1,
+          "explanation": "Monosodium urate (MSU) and calcium pyrophosphate dihydrate (CPPD) crystals\nare the most common crystals seen in synovial fluid; however, hydroxyapatite, cholesterol,\ncorticosteroid and calcium oxalate crystals are also found. Ammonium biurate crystals\nare most often see in urine, not synovial fluid. MSU crystals appear as fine sharp\nneedles with negative birefringence. CPPD crystals are rhomboid or square crystals\nwith positive birefringence. Calcium oxalate crystals are octahedrals and demonstrate\nnegative birefringence.\n[QCMLS 2021: 3.5.6.3) [Strasinger 2021 , p299]",
+          "answerPage": 275,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 205,
+          "answer": 3,
+          "explanation": "Using a Neubauer hemacytometer, the concentration of sperm in a seminal fluid can be\ndetermined by performing a manual count on a well-mixed, diluted aliquot of the sample.\nThe same number of quadrants are counted on both sides of the hemacytometer, and the\nvalues should match within the laboratory's predefined criteria. The values are then averaged\nand used to calculate the sperm concentration (sperm/µL) using the formula: (cell average x\ndilution factor) divided by (number of quadrants counted x quadrant volume [µL]). Reference\nintervals for sperm concentration are most commonly reported in milliliters. To convert the\ncalculated value from microliters to milliliters, the value is multiplied by 1,000. Alternately, if a\nstandard dilution of 1 :20 is performed and 5 RSC quadrants are counted in the large center\nsquare, the average number of sperm counted can be multiplied by 1,000,000 to yield the\nconcentration per milliliter directly.\n[QCMLS 2021: 3.6. 7.5] [Strasinger 2021, p207 -208]",
+          "answerPage": 276,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 206,
+          "answer": 1,
+          "explanation": "When the axes of monosodium urate crystals are aligned (parallel to) the polarizer,\nthey appear yellow. When their axes are perpendicular to the polarizer, they appear blue.\n{QCMLS 2021 : 3.5.6.3] [Strasinger 2021, p299]",
+          "answerPage": 276,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 207,
+          "answer": 3,
+          "explanation": "Blood from a pathologic cause (eg, cerebral hemorrhage) would yield the same\nappearance in all of the tubes collected; whereas, a traumatic collection would affect the\nfirst tube collected more than subsequent ones. Since the CSF in tube 1 appears light pink\nand the fluid in tube 3 is colorless, it is likely tube 1 contains peripheral blood. This is also\nsupported by the significantly different cell counts.\n[QCMLS 2021: 3.3.4.1] [Strasinger 2021, p256]",
+          "answerPage": 276,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 208,
+          "answer": 3,
+          "explanation": "Blood from a traumatic lumbar puncture would affect the first tube collected more than\nsubsequent ones, while blood from a pathological cause (eg, subarachnoid hemorrhage)\nwould yield the same appearance in all of the tubes collected. Since all three tubes appear\nlight pink and hazy, it is likely the patient has a subarachnoid hemorrhage.\n(QCMLS 2021: 3.3.4.1] [Strasinger2021, p256]",
+          "answerPage": 276,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 209,
+          "answer": 0,
+          "explanation": "The etched grid on an \"improved\" Neubauer hemacytometer delineates 9 quadrants in\na 3x3 grid, each measuring 1 mm by 1 mm for an area of 1 mm2. When a glass coverslip is\nseated on the ridges of the hemacytometer, a chamber with fixed depth of 0.1 mm is created.\nEach quadrant measures 1 x 1 x 0.1 mm for a volume of 0.1 mm3 or 0.1 µL. The entire\nchamber measures 3 x 3 x 0.1 mm for a volume of 0.9 mm3 or 0.9 µL.\n(QCMLS 2021: 3.3.6.1] (Brunzel 2018, p355]",
+          "answerPage": 276,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 210,
+          "answer": 2,
+          "explanation": "Sperm motility is evaluated by preparing a wet mount and viewing the slide under high\ndry power (40x objective) within 1 hour of collection. Two hundred sperm are viewed and\nclassified based on their speed and direction of movement. The World Health Organization\n(WHO) established a grading scale of Oto 4, with 4 indicating rapid, straight-line movement\nand 0 indicating no movement. At least 50% of the evaluated sperm should have a rating\nof 2 or more. A simpler system for grading motility has also been established by the WHO\nand includes classifying sperm as having: progressive motility, nonprogressive motility, or\nno motility. At least 50% of the evaluated sperm should demonstrate motility (progressive or\nnon progressive) to be considered normal.\n[QCMLS 2021: 3.6.7.1] [Strasinger 2021, p282-283]",
+          "answerPage": 276,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 211,
+          "answer": 0,
+          "explanation": "After synovial fluid is collected using a sterile needle and syringe, it is transferred to\nappropriately labeled collection tubes based on the testing to be performed. In general,\nthe first portion is placed into a plain red-top tube for chemical and immunologic testing.\nThe second portion is placed into a tube with liquid EDTA or sodium heparin for microscopic\nstudies, including a cell count and crystal identification. The final portion is placed into a\nsterile red-top tube or sterile tube with sodium heparin or sodium polyanethole sulfonate for\nmicrobiological studies.\n(QCMLS 2021 : 3.5.3] [Strasinger 2021, p295]\n~ - -- -",
+          "answerPage": 276,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 212,
+          "answer": 0,
+          "explanation": "Sperm motility and agglutination are evaluated using a wet preparation and observing\nthe slide under high dry power (40x objective). A slide stained with Giemsa, Wright,\nor Papanicolaou stain is used to evaluate sperm morphology under oil immersion\n(100x objective). Sperm vitality is evaluated on a stained smear prepared with eosin-nigrosin\nstain, using the 1 00x objective and oil immersion.\n(QCMLS 2021 : 3.6.7.4] [Brunzel 2018, p296)",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 213,
+          "answer": 3,
+          "explanation": "Monosodium urate (MSU) crystals and calcium pyrophosphate dihydrate (CPPD) crystals\nare found in synovial fluid samples from patients with gout and pseudogout, respectively.\nMSU crystals appear as fine sharp needles with strong negative birefringence, whereas\nCPPD crystals are rhomboid-shaped crystals with weak positive birefringence.\n[QCMLS 2021 : 3.5.6.3] [Strasinger 2021, p299]",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 214,
+          "answer": 3,
+          "explanation": "During routine semen analysis, the morphology of 200 sperm are evaluated using oil\nimmersion and the 100x objective (1000x magnification). Normal sperm have 3 distinct\ncomponents including a head, midpiece, and tail. Abnormalities may occur in 1 or more\nof these components, leading to poor ovum penetration (head abnormalities) and/or\ndecreased motility (abnormalities of the midpiece and/or tail). Specimens with <14% of sperm\ndemonstrating normal morphology may be associated with infertility.\n[QCMLS 2021 : 3.6.7.2] [Strasinger 2021, p283-284)",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 215,
+          "answer": 3,
+          "explanation": "After the cell count is performed for each side/chamber of the hemacytometer, the values\nare compared and should match within the laboratory's predefined acceptance criteria\n(generally 20% or less). If the counts have a difference greater than the acceptable limit, the\nhemacytometer should be cleaned with 70% alcohol, dried, and reloaded with a well-mixed\nspecimen for a new count to be performed.\n[QCMLS 2021: 3.3.6.1] [Brunzel 2018, p353]",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 216,
+          "answer": 1,
+          "explanation": "Steatorrhea is characterized by the excretion of > 7 g of fecal fat per day, which is\nassociated with disorders of malabsorption or maldigestion. Chemical and microscopic\nanalyses may be performed on a stool sample to aid in differentiating between these 2 types\nof conditions. To qualitatively evaluate the presence of fecal fats (neutral fats, fatty acid salts,\nfatty acids, and cholesterol), 2 slides are viewed microscopically. One slide is pretreated with\nethanol and the second slide is pretreated with acetic acid. Both slides are then stained with\nSudan Ill, Sudan IV, or oil red 0 .\n[QCMLS 2021: 3.7.5.1] [Strasinger 2021, p342, 344]",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 217,
+          "answer": 2,
+          "explanation": "Gout is associated with increased purine metabolism, which leads to elevated blood and\nsynovial concentrations of uric acid. Uric acid precipitates in the joint(s) forming monosodium\nurate (MSU) crystals which causes the pain and swelling associated with gout.\n(QCMLS 2021 : 3.5.7.1] [Strasinger 2021, 297]",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 218,
+          "answer": 0,
+          "explanation": "Pseudogout is most often associated with degenerative arthritis and endocrine disorders\nthat produce elevated serum calcium levels. Calcium pyrophosphate dihydrate (CPPD)\ncrystals form in the synovial fluid and are associated with pseudogout.\n(QCMLS 2021: 3.5.7.2] [Strasinger 2021, 297)\nD. Physiology",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 219,
+          "answer": 0,
+          "explanation": "Tau transferrin is found only in CSF. When present in nasal or middle ear fluids,\nit confirms the presence of CSF, which aids in the diagnosis of CSF rhinorrhea\nand otorrhea, respectively.\n(QCMLS 2021 : 3.3.5.2] [Strasinger 2021, p266]\n-----=-------------~",
+          "answerPage": 277,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 220,
+          "answer": 2,
+          "explanation": "Pulmonary surfactant is packaged into granules for storage starting at the 24th week of\ngestation. The granules enter amniotic fluid during the 26th week. Quantitative measurement\nof these granules, known as lamellar bodies, in amniotic fluid is used in the evaluation of fetal\nlung maturity and risk for respiratory distress syndrome associated with preterm delivery.\nThe diameter of lamellar bodies is similar to that of small platelets; therefore, the lamellar\nbody count (LBC) can be performed using the platelet channel of an automated hematology\nanalyzer.\n[QCMLS 2021: 3.2.6.3] [Strasinger 2021 , p334]",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 221,
+          "answer": 2,
+          "explanation": "Bilirubin is a degradation product of hemoglobin. It is conjugated in the liver and converted\ninto urobilinogen and stercobilinogen by bacteria in the intestines. Intestinal oxidation of\nstercobilinogen forms urobilin, which gives feces its normal orange-brown coloration.\n[QCMLS 2021: 3.7.3.1] [Strasinger 2021, p343]",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 222,
+          "answer": 1,
+          "explanation": "Seminal fluid is gray-white, translucent, and should liquefy within 30 minutes. Complete\ncollections yield a volume of 2-5 ml and fresh semen is slightly alkaline (7.2-7.8). Volumes <2\nml or >5 ml have been associated with infertility.\n(QCMLS 2021: 3.2.5.3] [Strasinger 2021, p280]",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 223,
+          "answer": 2,
+          "explanation": "Albumin is not synthesized in the CSF, but is transported across the blood-brain barrier.\nThe CSF/serum albumin index is used to evaluate the integrity of the blood-brain barrier,\nbecause damage would result in increased CSF albumin. The lgG index compares\nCSF/serum lgG to CSF/serum albumin to determine if high lgG concentrations are due\nto increased intrathecal damage to the blood-brain barrier. Total protein determinations\nare performed on CSF to evaluate the blood-brain barrier, but are not reported as a ratio.\nThe fluid/serum lactate dehydrogenase ratio is used to determine if an effusion is a transudate\nor an exudate.\n[QCMLS 2021 : 3.3.5.2] [Strasinger 2021, p266, 307]",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 224,
+          "answer": 1,
+          "explanation": "Effusions are classified as transudates or exudates based on their physical, chemical,\nand cellular characteristics; which assists the clinician to identify and treat the underlying\ncause. Transudates are generally clear and pale yellow, while exudates appear cloudy and\nyellow, green, pink, etc. A paired blood sample is collected to allow for comparison of analyte\nconcentrations (glucose, proteins, lactate dehydrogenase (LO]) between the fluid and serum.\nTransudates have a fluid/serum total protein ratio <0.5, fluid/serum LO ratio <0.6, and fluid\nglucose >60 mg/dl; while exudates have a fluid/serum total protein ratio >0.5,\nfluid/serum LO ratio >0.6, and fluid glucose <60 mg/dl. Additionally, exudates generally have\nhigher WBC counts (>1000/µL). Chylous and pseudochylous effusions appear milky due to\nthe presence of lipids such as cholesterol and/or triglycerides.\n(QCMLS 2021: 3.4.5, 3.4.6.1, 3.4.6.2, 3.4.7.1, t3.8] [Strasinger 2021, p307-308]",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 225,
+          "answer": 2,
+          "explanation": "After a successful vasectomy, there should be no sperm present in the ejaculate\n(azoospermia). Occasionally a few sperm are present following vasectomy, but they should\nbe nonmotile. The presence of a single motile spermatozoon indicates the vasectomy was\nunsuccessful.\n[Strasinger 2021, p287]",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 226,
+          "answer": 3,
+          "explanation": "Amniotic fluid may be collected early in gestation (after 14 weeks' gestation) if the fetus\nis suspected of having a neural tube defect or genetic defect. If the fluid is collected to\nevaluate fetal lung maturity and risk for respiratory distress associated with preterm delivery,\namniocentesis should not be performed before 20 weeks' gestation as all results will show\nlung immaturity.\n[QCMLS 2021: 3.2.6.3] [Strasinger 2021, p329]",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 227,
+          "answer": 3,
+          "explanation": "When performing a lumbar puncture, if the opening pressure is low, only 1-2 ml of fluid\nwill be collected. With low-volume specimens, testing must be prioritized to ensure a sterile\nspecimen is used for microbiological testing. The ordering physician should be consulted to\nprioritize testing, but, in general, the Gram stain and culture will be performed first, followed\nby the cell count, and then chemical and immunological testing.\n[QCMLS 2021 : 6.7.6.3] [Brunzel 2018, p246]\n---=------ --'---------'----",
+          "answerPage": 278,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 228,
+          "answer": 0,
+          "explanation": "Effusions with a milky appearance that persists after centrifugation may contain chyle.\nTo differentiate if the specimen is chylous or pseudochylous, lipoprotein analysis is performed.\nChylous specimens demonstrate an elevated triglyceride content and the presence of\nchylomicrons; whereas, pseudochylous specimens have low triglyceride content and\nchylomicrons are not present.\n[QCMLS 2021: 3.4.5.2, 3.4.6.3, t3.7] [Strasinger 2021, p308, 314]",
+          "answerPage": 279,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 229,
+          "answer": 2,
+          "explanation": "M450 determinations are performed on amniotic fluid to measure the concentration of\nbilirubin in the sample. Bilirubin is light labile, and samples should be protected from light.\nAmber-colored containers or aluminum foil should be used in the collection of amniotic fluid\nto prevent photo-oxidation of bilirubin. If the specimen is not immediately protected from light\nafter collection and throughout transport, the loss of bilirubin may cause falsely low results.\n(QCMLS 2021: 3.2.4.2, 3.2.6.2] [Strasinger, p330-331]",
+          "answerPage": 279,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 230,
+          "answer": 1,
+          "explanation": "CSF is normally clear and colorless. Fluids with a pink, yellow, or orange appearance\nare referred to as \"xanthochromic.\" Xanthochromia generally indicates the presence of RBC\ndegradation products from a bleed into the CNS. The color depends on the amount of blood\nand the length of time since the bleed occurred. A pink supernatant after centrifugation\nindicates the presence of hemoglobin. An orange color is associated with heavy hemolysis,\nand the presence of bilirubin will cause a yellow coloration.\n[QCMLS 2021 : 3,3.4.1] [Strasinger 2021, p256]",
+          "answerPage": 279,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 231,
+          "answer": 3,
+          "explanation": "CSF normally appears clear and colorless. Specimens that contain radiographic contrast\nmedia may appear oily; whereas the presence of WBCs, lipids, and proteins may cause the\nsample to appear hazy, cloudy, turbid, or milky.\n(QCMLS 2021 : 3.3.4.2] [Strasinger 2021, p256]\nE. Disease States",
+          "answerPage": 279,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 232,
+          "answer": 2,
+          "explanation": "Pleural effusions are classified as transudates or exudates based on their physical,\nchemical, and cellular characteristics. Transudates are clear, pale yellow fluids that occur\nas a result of a noninflammatory process. Exudates are cloudy fluids, associated with an\ninflammatory process, that appear yellow, green, pink, etc. Collection of a paired blood\nsample allows for comparison of analyte concentrations between the fluid and serum.\nTransudates have a fluid/serum total protein ratio <0.5, fluid/serum lactate dehydrogenase\n(LD) ratio <0.6, and difference between fluid-serum glucose <30 mg/dl; whereas exudates\nhave a fluid/serum total protein ratio >0.5, fluid/serum LD ratio >0.6, and fluid-serum glucose\ndifference >30 mg/dl. Transudates generally have lower WBC counts (<1000/µL) than\nexudates.\n[QCMLS 2021 : 3.4.5, 3.4.6.1, 3.4.6.2, 3.4.7.1, t3.8] [Strasinger 2021, p307-308]",
+          "answerPage": 279,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 233,
+          "answer": 1,
+          "explanation": "Transudates occur as a result of a noninflammatory process associated with an increase\nin hydrostatic pressure or a decrease in oncotic pressure. Congestive heart failure can lead to\na transudative effusion as a result of poor cardiac function. Transudates are clear, pale yellow\nfluids that have a fluid/serum total protein ratio <0.5, fluid/serum lactate dehydrogenase ratio\n<0.6, fluid glucose <60 mg/dl, and WBC count <1000/µL.\n[QCMLS 2021 : 3.4.3, 3.4.5, 3.4.6.1, 3.4.6.2, 3.4.7.1, 13.8] [Strasinger 2021, p307-308]",
+          "answerPage": 279,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 234,
+          "answer": 0,
+          "explanation": "A small amount of serous fluid normally fills the cavity between the cavity wall (the parietal\nmembrane) and the organ (visceral membrane). The fluid serves as a cushion, lubricant,\nand transport media between the visceral and parietal membranes. An increase in the fluid,\nreferred to as an \"effusion,\" can be due to infection, inflammation, cancer, and defects in\nhydrostatic and/or colloidal pressure. Effusions are classified as transudates or exudates\nbased on their physical, chemical, and cellular characteristics.\n[QCMLS 2021: 3.4.3] [Strasinger 2021, p306]\nl_l. _B_o--'dy\"---Fl_u_id_s",
+          "answerPage": 279,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 235,
+          "answer": 0,
+          "explanation": "Serous fluid is collected by inserting a sterile needle into the body cavity and aspirating\nseveral milliliters of the effusion. The procedures are named according to the cavity involved:\nthoracentesis (pleural), pericardiocentesis (pericardia!), and paracentesis (peritoneal).\nCollection by thoracentesis indicates the fluid is a pleural effusion. To classify the effusion\nas a transudate or exudate, evaluations of the fluid's physical, chemical, and cellular\ncharacteristics are performed along with chemical analysis of a paired blood sample. Fluids\nare classified as an exudate if their fluid/serum lactate dehydrogenase ratio is >0.6.\n[QCMLS 2021: 3.4.4, 3.4.6.1, 13.8) [Strasinger 2021, p306-307]",
+          "answerPage": 280,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 236,
+          "answer": 0,
+          "explanation": "Lamellar bodies are produced by type II fetal pneumocytes around the 24th week of\ngestation and secreted into the amniotic fluid near the 26th week. Quantitative measurement\nof lamellar bodies in amniotic fluid is used in the evaluation of fetal lung maturity and risk for\nrespiratory distress syndrome associated with preterm delivery.\n[QCMLS 2021: 3.2.6.3] [Strasinger 2021, p334]",
+          "answerPage": 280,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 237,
+          "answer": 1,
+          "explanation": "Amniocentesis is an invasive procedure and should only be performed when absolutely\nnecessary. Gestational age is generally determined based on the patient's last menstrual\nperiod and does not routinely require amniocentesis. An amniocentesis may be performed\nfor an Rh-negative mother if hemolytic disease of the newborn is suspected (M450\ndetermination); however, this would be inappropriate for an Rh-positive mother. Measurement\nof folic acid concentrations in maternal serum would be more appropriate. In women with a\nhigh maternal serum alpha-fetoprotein (AFP), amniocentesis is used to collect fluid to detect\nlevels of AFP and acetylcholinesterase. High levels are predictive of neural tube disorders,\nsuch as spina bifida and anencephaly.\n[QCMLS 2021 : 3.2.6.4] (Strasinger 2021, p332]",
+          "answerPage": 280,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 238,
+          "answer": 3,
+          "explanation": "Cystic fibrosis is an autosomal recessive disease affecting ion channels that results in\nabnormal electrolyte and mucous secretions. Patients with cystic fibrosis have elevated sweat\nchloride concentrations (~60 mmol/L) and abnormally viscous secretions throughout the body.\n[QCMLS 2021 : 3.8.3] [Tietz 2019, p425]",
+          "answerPage": 280,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 239,
+          "answer": 2,
+          "explanation": "Cystic fibrosis is most commonly caused by a deletion of phenylalanine at position 508\n(.1F508) of the cystic fibrosis transmembrane conductance regulator (CFTR) protein. Trisomy\n21 describes the presence of a third copy of chromosome 21 , which is associated with Down\nsyndrome. The Philadelphia chromosome is a gene translocation associated with acute\nmyelocytic leukemia. Fragile Xis caused by an increased number of nucleotide repeats leads\nto a form of intellectual disability.\n[QCMLS 2021: 3.8.3] [Tietz 2019, p298]",
+          "answerPage": 280,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 240,
+          "answer": 3,
+          "explanation": "Increased intrathecal synthesis of lgG in the CNS is associated with neurologic disorders\nsuch as multiple sclerosis. CSF protein electrophoresis may be performed to evaluate the\npresence of oligoclonal bands in the gamma region, which indicate an increased amount of\nimmunoglobulins such as lgG. To confirm the oligoclonal bands are the result of neurological\ndisease rather than leakage of blood into the CNS, a serum protein electrophoresis should be\nperformed at the same time. The presence of 2 or more oligoclonal bands in the CSF pattern\nthat are not present in the serum pattern indicate a neurological disorder such as MS.\n[QCMLS 2021: 3.3.5.2] [Strasinger 2021, p267]",
+          "answerPage": 280,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 241,
+          "answer": 2,
+          "explanation": "CSF from an adult patient contains 0-5 WBC/µL (primarily lymphocytes and monocytes).\nIn general, patients with bacterial meningitis will have a high WBC count with a predominance\nof neutrophils; whereas lymphocytes and monocytes predominate in viral meningitis.\nMacrophages appear in the CSF when they are needed to remove cellular debris, such as\ndegrading RBCs, indicating a previous hemorrhage.\n[QCMLS 2021 : 3.3.6.2) [Strasinger 2021 , p257-263]\n- - - - - -",
+          "answerPage": 280,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 242,
+          "answer": 0,
+          "explanation": "In bacterial meningitis, CSF glucose will be decreased due to bacterial and cellular\nglycolysis. Normal CSF glucose is approximately 60-70% of plasma glucose, which is\n70-100 mg/dl when the patient is in a fasting state. The CSF total protein concentration\nis normally expected to be 15-45 mg/dl. Patients with bacterial meningitis often have a\nmarkedly elevated CSF total protein. Lactate is produced during anaerobic glycolysis and\nCSF concentrations are significantly elevated (>35 mg/dl) in bacterial meningitis. Sample A\nhas a decreased glucose, markedly elevated total protein, and significantly elevated lactate\nconcentration, which is consistent with bacterial meningitis.\n(QCMLS 2021: 3.3.5.1, 3.3.5.2, 3.3.5.3] [Strasinger 2021, p266, 268]",
+          "answerPage": 281,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 243,
+          "answer": 0,
+          "explanation": "Ochronotic shards are small, dark, pepper-like granules that appear in synovial fluid\nfrom individuals with alkaptonuria. The granules are pieces of cartilage, pigmented by\nhomogentisic acid, that have broken loose within the joint space.\n[QCMLS 2021 : 3.5.4.2] [Brunzel 2018, p277]",
+          "answerPage": 281,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 244,
+          "answer": 0,
+          "explanation": "Lactoferrin is a glycoprotein expressed by activated neutrophils. A positive lactoferrin\nvalue is associated with an inflammatory disorder such as chronic inflammatory bowel\ndisease. Fecal occult blood testing is largely performed to screen for colorectal cancer but\nwill also yield a positive result in the presence of blood from anywhere in the gastrointestinal\ntract. Calprotectin is found in neutrophils, monocytes, and macrophages and is qualitatively\nmeasured in fecal specimens to differentiate inflammatory bowel disease and inflammatory\nbowel syndrome. Steatorrhea is associated with malabsorption syndromes and indicates an\nincreased amount of fecal fats.\n[QCMLS 2021: 37.5.1] [Strasinger 2021, p342]",
+          "answerPage": 281,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 245,
+          "answer": 0,
+          "explanation": "Patients with cystic fibrosis have elevated sweat chloride concentrations.\nSweat chloride determinations are performed by coulometric titration (also known as the\nCotlove chloridometer technique, or chloridometry).\n[QCMLS 2021: 3.8.2] [Tietz 2019, p425]",
+          "answerPage": 281,
+          "answerDocumentId": "boc1"
+        },
+        {
+          "number": 246,
+          "answer": 3,
+          "explanation": "Rh-negative mothers with an Rh-positive baby may develop anti-Rh antibodies if they\nare exposed to fetal RBCs. In subsequent pregnancies with an Rh-positive fetus, hemolytic\ndisease of the fetus/newborn (HDFN) may occur, leading to destruction of fetal RBCs. When\nlysed, RBCs release hemoglobin, which is converted into bilirubin. When HDFN is suspected,\na 6A450 determination may be performed on amniotic fluid to measure the concentration of\nbilirubin in the sample. In HDFN, the concentration of bilirubin in the amniotic fluid is elevated\nrelative to the severity of the disease.\n(QCMLS 2021 : 3.2.6.2, 3.2.8.1] [Strasinger 2021, p331]",
+          "answerPage": 281,
+          "answerDocumentId": "boc1"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "topic": "Hematology",
+      "questionGlobalPages": [
+        283,
+        338
+      ],
+      "answerGlobalPages": [
+        339,
+        368
+      ],
+      "expectedQuestions": 320,
+      "detectedQuestions": 320,
+      "detectedRationales": 320,
+      "extractedQuestions": 320,
+      "missingNumbers": [],
+      "complete": true,
+      "answerOnlyRecords": []
+    },
+    {
+      "chapter": 5,
+      "topic": "Hemostasis",
+      "questionGlobalPages": [
+        369,
+        397
+      ],
+      "answerGlobalPages": [
+        398,
+        416
+      ],
+      "expectedQuestions": 194,
+      "detectedQuestions": 194,
+      "detectedRationales": 194,
+      "extractedQuestions": 194,
+      "missingNumbers": [],
+      "complete": true,
+      "answerOnlyRecords": []
+    },
+    {
+      "chapter": 6,
+      "topic": "Microbiology",
+      "questionGlobalPages": [
+        417,
+        487
+      ],
+      "answerGlobalPages": [
+        488,
+        530
+      ],
+      "expectedQuestions": 386,
+      "detectedQuestions": 386,
+      "detectedRationales": 386,
+      "extractedQuestions": 386,
+      "missingNumbers": [],
+      "complete": true,
+      "answerOnlyRecords": []
+    },
+    {
+      "chapter": 7,
+      "topic": "Lab essentials",
+      "questionGlobalPages": [
+        531,
+        575
+      ],
+      "answerGlobalPages": [
+        576,
+        604
+      ],
+      "expectedQuestions": 323,
+      "detectedQuestions": 323,
+      "detectedRationales": 323,
+      "extractedQuestions": 323,
+      "missingNumbers": [],
+      "complete": true,
+      "answerOnlyRecords": []
+    },
+    {
+      "chapter": 8,
+      "topic": "Immunology",
+      "questionGlobalPages": [
+        605,
+        643
+      ],
+      "answerGlobalPages": [
+        644,
+        666
+      ],
+      "expectedQuestions": 269,
+      "detectedQuestions": 269,
+      "detectedRationales": 269,
+      "extractedQuestions": 269,
+      "missingNumbers": [],
+      "complete": true,
+      "answerOnlyRecords": []
+    }
+  ],
+  "problems": []
+}

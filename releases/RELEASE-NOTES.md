@@ -1,12 +1,19 @@
-# Labwise 3.1.0 — Complete teaching layer
+# Labwise 4.0.0 — Two collections, one study space
 
-- All **1,484 numbered questions** from the uploaded PDF, including 204 recovered questions and matching/table exercises.
-- **5,942 individually explained choices** in their original order.
-- Each question has a plain-language restatement, simple answer reasoning, a memory hook and a recall check.
-- Original book rationales remain in their own clearly labelled section.
-- 159 plain-language vocabulary definitions and source notes for known older/ambiguous guidance.
-- Original complete 434-page PDF, offline native PDF reader, practice, exams, flashcards, spaced review and progress backups.
+[Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 4.0.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-4.0.0.apk) · [SHA-256](Labwise-4.0.0.apk.sha256)
 
-Android8.0+ with an up-to-date Android System WebView. Signed with the same retained certificate as3.0.0; version code30100. No Internet or shared-storage permissions requested.
+- **3,760 active questions and separate teaching notes; 15,046 individually explained choices.** Success contributes 1,484 questions / 5,942 options; BOC 7e adds 2,276 / 9,104.
+- All three original PDFs bundled unchanged: **434 + 333 + 333 = 1,100 pages**, with document-aware source, rationale, and shared-context links, searchable page text, and selected reading pages per document.
+- Source/subject/status session setup with **5, 10, 20, 50, or 100** items, protected resume, stable flashcard queues, and separate MCQ accuracy and recall ratings.
+- **Understand / Every choice / Book rationale** teaching tabs, recall checks, memory hooks, and contextual glossary definitions.
+- Five phone navigation destinations, a tablet rail, wide-screen teaching panes, dark mode, and larger reading text.
+- Custom-bank storage in IndexedDB where available, import previews, progress-restore previews and Undo, and a **Get latest APK** button.
+- Offline native Android PDF reading with page jumps, zoom buttons, pinch zoom, and JSON document pickers.
 
-Full-content checks,17 automated tests, browser and Android-bridge checks passed. Package signature/alignment checks passed. Android device execution is unverified because hardware virtualization is unavailable here. Content received individual authoring and sampled independent review; it is not a full medical certification.
+Teaching is complete for every active item. The inventory preserves 3,953 extracted questions; 193 BOC questions are excluded at the user's request. The supplied BOC Part 1 lacks printed pages 225–240, so chapter 3 questions 154–246 (93 stems) remain absent. See [content coverage](../docs/CONTENT-COVERAGE.md) for source accounting and sampled editorial-review scope.
+
+Requires Android 8.0+ and an up-to-date Android System WebView. Package `com.labwise.study`, version code **40000**, target API **35**, signed with the retained 3.1.0 certificate. **Export progress first, then install over the existing app without uninstalling.** No Internet or shared-storage permission is requested for study; update downloads open the system browser.
+
+The build gates active teaching coverage and verifies signatures, alignment, metadata, packaged data, and all three original PDF byte sequences. See [release validation](../docs/VALIDATION.md) for actual check results. Android device/emulator execution and upgrade behavior remain unverified because usable hardware virtualization is unavailable here.
+
+Previous notes: [3.1.0](3.1.0-RELEASE-NOTES.md) · [3.0.0](3.0.0-RELEASE-NOTES.md).

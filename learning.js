@@ -10,10 +10,14 @@ export function schedule(previous={},rating='good',now=Date.now()){
  return {...previous,stage,due:now+delay,reviewedAt:now,reviews:(previous.reviews||0)+1};
 }
 export function shuffled(items,random=Math.random){const result=[...items];for(let i=result.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}return result}
-export function selectQueue(bank,records,{mode='all',topic='',query='',limit=0,randomize=false,now=Date.now()}={}){
- let result=bank.filter(q=>(!topic||q.topic===topic)&&(!query||`${q.question} ${q.context||''} ${q.source||''} ${q.explanation} ${q.simple||''}`.toLowerCase().includes(query.toLowerCase())));
+export function selectQueue(bank,records,{mode='all',topic='',query='',limit=0,randomize=false,now=Date.now(),bookId='',source='',sourceId=''}={}){
+ const scope=bookId||sourceId||source;
+ const inScope=q=>!scope||scope==='all'||(Array.isArray(scope)?!scope.length||scope.includes(q.bookId):q.bookId===scope);
+ let result=bank.filter(q=>inScope(q)&&(!topic||q.topic===topic)&&(!query||`${q.question} ${q.context||''} ${q.source||''} ${q.explanation} ${q.simple||''}`.toLowerCase().includes(query.toLowerCase())));
  if(mode==='due')result=result.filter(q=>records[q.id]?.due<=now).sort((a,b)=>records[a.id].due-records[b.id].due);
  if(mode==='mistakes')result=result.filter(q=>records[q.id]?.correct===false);
+ if(mode==='forgotten')result=result.filter(q=>records[q.id]?.lastRecallRating==='again');
+ if(mode==='weak')result=result.filter(q=>records[q.id]?.correct===false||records[q.id]?.lastRecallRating==='again');
  if(mode==='simple')result=result.filter(q=>hasCompleteTeaching(q)||q.explanationKind==='example');
  if(mode==='new')result=result.filter(q=>!records[q.id]);
  if(randomize)result=shuffled(result);
@@ -25,12 +29,15 @@ export function streak(log,now=Date.now()){
  while(days.has(dayKey(cursor))){n++;cursor-=DAY}return n;
 }
 export function validateBackup(data){
- if(data?.version!==1||!data.records||typeof data.records!=='object'||Array.isArray(data.records)||!Array.isArray(data.saved)||!Array.isArray(data.log))throw Error('This is not a Labwise progress backup.');
+ if(![1,2].includes(data?.version)||!data.records||typeof data.records!=='object'||Array.isArray(data.records)||!Array.isArray(data.saved)||!Array.isArray(data.log))throw Error('This is not a Labwise progress backup.');
  const records=Object.create(null);
  for(const[id,r]of Object.entries(data.records)){
   if(!r||typeof r!=='object'||!Number.isFinite(r.due)||r.due<0||!Number.isInteger(r.stage)||r.stage<0||r.stage>4||!Number.isFinite(r.reviews)||r.reviews<0||!(r.correct===undefined||typeof r.correct==='boolean'))throw Error('Backup contains invalid review data.');
-  records[id]={due:r.due,stage:r.stage,reviews:r.reviews,...(r.correct===undefined?{}:{correct:r.correct}),at:Number.isFinite(r.at)?r.at:0,reviewedAt:Number.isFinite(r.reviewedAt)?r.reviewedAt:0};
+  records[id]={due:r.due,stage:r.stage,reviews:r.reviews,...(r.correct===undefined?{}:{correct:r.correct}),at:Number.isFinite(r.at)?r.at:0,reviewedAt:Number.isFinite(r.reviewedAt)?r.reviewedAt:0,...(['again','hard','good','easy'].includes(r.lastRecallRating)?{lastRecallRating:r.lastRecallRating}:{}),...(Number.isFinite(r.lastRecallAt)&&r.lastRecallAt>=0?{lastRecallAt:r.lastRecallAt}:{})};
  }
  if(data.saved.some(id=>typeof id!=='string')||data.log.some(e=>!e||typeof e.id!=='string'||!Number.isFinite(e.at)||!['answer','review'].includes(e.kind)||typeof e.correct!=='boolean'))throw Error('Backup contains invalid study history.');
- return {records,saved:[...new Set(data.saved)],log:data.log.slice(-10000).map(e=>({id:e.id,at:e.at,correct:e.correct,kind:e.kind})),goal:[5,10,20,30].includes(data.goal)?data.goal:10};
+ const reading=Object.create(null);
+ if(data.reading&&typeof data.reading==='object'&&!Array.isArray(data.reading))for(const[id,page]of Object.entries(data.reading)){if(Number.isSafeInteger(page)&&page>0)reading[id]=page;}
+ const prefs={sessionSize:Number.isInteger(data.prefs?.sessionSize)&&data.prefs.sessionSize>=1&&data.prefs.sessionSize<=200?data.prefs.sessionSize:10,fontScale:Number.isFinite(data.prefs?.fontScale)&&data.prefs.fontScale>=0.8&&data.prefs.fontScale<=2?data.prefs.fontScale:1};
+ return {records,reading,prefs,saved:[...new Set(data.saved)],log:data.log.map(e=>({id:e.id,at:e.at,correct:e.correct,kind:e.kind})),goal:[5,10,20,30].includes(data.goal)?data.goal:10};
 }

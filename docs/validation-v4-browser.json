@@ -1,0 +1,336 @@
+{
+  "catalog": {
+    "availableQuestions": 3760,
+    "books": [
+      {
+        "id": "success4",
+        "questions": 1484
+      },
+      {
+        "id": "boc7",
+        "questions": 2276
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "active bank and subject totals match catalog",
+      "questions": 3760
+    },
+    {
+      "name": "bounded practice, every-choice/source tabs, and pause/reload resume"
+    },
+    {
+      "name": "source scope and empty/populated question search"
+    },
+    {
+      "name": "exam feedback and progress commit deferred until completion"
+    },
+    {
+      "name": "new-card queue remains stable and recall ratings stay separate"
+    },
+    {
+      "name": "catalog book totals, three source documents, page memory, source search"
+    },
+    {
+      "name": "restore preview, cancel, confirm, and undo preserve expected state"
+    },
+    {
+      "name": "import preview/cancel, safe text and quoted IDs, IndexedDB persistence, bundled recovery"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "view": "home"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "view": "practice"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "view": "cards"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "view": "library"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "view": "progress"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "view": "saved"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "home"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "practice"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "cards"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "library"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "progress"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "view": "saved"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "view": "home"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "view": "practice"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "view": "cards"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "view": "library"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "view": "progress"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "view": "saved"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "view": "home"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "view": "practice"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "view": "cards"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "view": "library"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "view": "progress"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "view": "saved"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "view": "home"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "view": "practice"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "view": "cards"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "view": "library"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "view": "progress"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "view": "saved"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "view": "home"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "view": "practice"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "view": "cards"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "view": "library"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "view": "progress"
+    },
+    {
+      "name": "responsive destination",
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "view": "saved"
+    }
+  ],
+  "errors": [],
+  "screenshotCount": 8,
+  "exampleScreenshots": [
+    "screenshots/v4-phone-teaching.png",
+    "screenshots/v4-tablet-library.png"
+  ]
+}
