@@ -1,0 +1,74 @@
+{
+  "startedAt": "2026-11-07T11:39:59.166Z",
+  "environment": "Headless Chromium; native speech bridge mocked; no audio captured.",
+  "scenarios": [
+    {
+      "name": "Play navigation, source scope and interrupted replacement",
+      "status": "passed"
+    },
+    {
+      "name": "Five questions, two recoveries, teaching and separate accuracy",
+      "status": "passed"
+    },
+    {
+      "name": "Atomic backup restore and undo of active adventure",
+      "status": "passed"
+    },
+    {
+      "name": "Repeated daily questions and completion XP caps",
+      "status": "passed"
+    },
+    {
+      "name": "Native speech review, editing, recall, cancellation and stale results",
+      "status": "passed"
+    },
+    {
+      "name": "Practice and exam spoken answers preserve their scoring rules",
+      "status": "passed"
+    },
+    {
+      "name": "No speech provider and provider exceptions retain manual answers",
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Play opens from header and desktop navigation; source and subject scopes constrain new rounds; interrupted feedback resumes and replacement preserves history"
+    },
+    {
+      "name": "Five distinct first tries, two bounded recoveries, explicit Next, paused feedback clock, all choice/source tabs, two self-rated recalls, three quests, XP persistence and unchanged MCQ accuracy",
+      "xp": 95,
+      "answers": 7
+    },
+    {
+      "name": "Version 3 exported backup contains active queue and XP; restore preview/cancel, replacement, Undo and reload resume restore atomic progress",
+      "backupPath": "/tmp/labwise-game-v5/active-round-backup.json"
+    },
+    {
+      "name": "Repeated daily answers award XP once per item and correct answer; completion bonus stops after three rounds",
+      "roundTotals": [
+        110,
+        120,
+        130,
+        130
+      ]
+    },
+    {
+      "name": "Native transcript stays editable and requires confirmation; full option text and explicit letters match; recall needs self-rating; wrong, canceled and stale tokens cannot score; unavailable provider falls back to typing"
+    },
+    {
+      "name": "Practice speech scores only on explicit confirmation; exam speech keeps feedback and all five progress writes deferred until completion; navigation invalidates voice"
+    },
+    {
+      "name": "A browser with no speech provider permits typing and tapping; a synchronous provider failure shows a recoverable error"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-07T11:40:14.400Z",
+  "screenshotCount": 0,
+  "exampleScreenshots": [
+    "screenshots/v5-adventure-phone.png",
+    "screenshots/v5-adventure-tablet.png",
+    "screenshots/v5-answer-review.png"
+  ]
+}

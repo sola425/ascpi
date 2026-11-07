@@ -8,6 +8,9 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.speech.RecognizerIntent;
 import android.webkit.JavascriptInterface;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
@@ -24,15 +27,21 @@ import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.ArrayList;
 
-/** Offline-only asset host. No INTERNET or storage permission is requested. */
+/** Offline asset host. Optional speech is delegated to the device's external speech provider. */
 public final class MainActivity extends Activity {
   private static final String HOST="appassets.androidplatform.net";
   private static final int PICK_JSON=101, SAVE_JSON=102;
+  private static int nextVoiceRequest=2000;
   private WebView web;
   private ValueCallback<Uri[]> chooser;
   private String pendingExport;
   private String pendingName;
+  private final Handler voiceHandler=new Handler(Looper.getMainLooper());
+  private String voiceToken;
+  private int voiceRequest;
+  private Runnable voiceTimeout;
 
   @Override public void onCreate(Bundle state) {
     super.onCreate(state);
@@ -65,6 +74,7 @@ public final class MainActivity extends Activity {
     web.setBackgroundColor(Color.rgb(248,249,244));
     web.addJavascriptInterface(new NativeBridge(),"LabwiseAndroid");
     web.setWebViewClient(new WebViewClient(){
+      @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap icon){cancelNativeVoice(false);}
       @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
         Uri uri=request.getUrl();
         if(!"https".equals(uri.getScheme())||!HOST.equals(uri.getHost()))return error(403,"Network unavailable in offline app");
@@ -148,8 +158,67 @@ public final class MainActivity extends Activity {
   private static WebResourceResponse error(int status,String message){return new WebResourceResponse("text/plain","UTF-8",status,status==404?"Not Found":"Forbidden",new HashMap<>(),new ByteArrayInputStream(message.getBytes(StandardCharsets.UTF_8)));}
   private void toast(String text){runOnUiThread(()->Toast.makeText(this,text,Toast.LENGTH_LONG).show());}
 
+  private static boolean validVoiceToken(String token){return token!=null&&token.length()<=96&&token.matches("lwvoice_[a-z0-9]+_[a-z0-9]+_[a-z0-9]+");}
+  private static String voiceLanguage(String language){return language!=null&&language.length()<=63&&language.matches("[a-zA-Z]{2,8}(-[a-zA-Z0-9]{1,8}){0,6}")?language:"en-US";}
+  private static String javascriptString(String value){return org.json.JSONObject.quote(value).replace(String.valueOf((char)0x2028),"\\u2028").replace(String.valueOf((char)0x2029),"\\u2029");}
+  private void voiceResult(String token,String status,ArrayList<String> alternatives,String code,String message){
+    if(!validVoiceToken(token)||web==null)return;
+    try{
+      org.json.JSONObject payload=new org.json.JSONObject();
+      org.json.JSONArray texts=new org.json.JSONArray();
+      if(alternatives!=null)for(String text:alternatives)texts.put(text);
+      payload.put("status",status).put("text",texts.length()>0?texts.getString(0):"").put("alternatives",texts);
+      if(code!=null)payload.put("code",code);
+      if(message!=null)payload.put("message",message);
+      web.evaluateJavascript("window.labwiseNativeVoiceResult && window.labwiseNativeVoiceResult("+javascriptString(token)+",JSON.parse("+javascriptString(payload.toString())+"))",null);
+    }catch(org.json.JSONException ignored){/* All payload values are local strings. */}
+  }
+  private String clearNativeVoice(){
+    String token=voiceToken;voiceToken=null;voiceRequest=0;
+    if(voiceTimeout!=null){voiceHandler.removeCallbacks(voiceTimeout);voiceTimeout=null;}
+    return token;
+  }
+  private void cancelNativeVoice(boolean notify){
+    int request=voiceRequest;String token=clearNativeVoice();
+    if(token==null)return;
+    try{finishActivity(request);}catch(RuntimeException ignored){}
+    if(notify)voiceResult(token,"cancelled",null,null,null);
+  }
+  private void startNativeVoice(String token,String language){
+    if(!validVoiceToken(token)||isFinishing()||web==null)return;
+    cancelNativeVoice(true);
+    if(nextVoiceRequest>65000){voiceResult(token,"error",null,"error","Please reopen Labwise before starting another voice session.");return;}
+    voiceToken=token;
+    // Each launch gets a distinct request ID so a cancelled activity cannot satisfy a later token.
+    final int request=nextVoiceRequest++;voiceRequest=request;
+    Intent intent=new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+    intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+    intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE,voiceLanguage(language));
+    intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS,5);
+    intent.putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE,true);
+    // Never provide question content or answer choices to the external provider.
+    intent.putExtra(RecognizerIntent.EXTRA_PROMPT,"Speak your answer, then review the transcript in Labwise.");
+    try{
+      startActivityForResult(intent,request);
+      voiceTimeout=()->{
+        if(voiceRequest!=request||!token.equals(voiceToken))return;
+        cancelNativeVoice(false);
+        voiceResult(token,"error",null,"timeout","Voice input timed out. Try again or type your answer.");
+      };
+      voiceHandler.postDelayed(voiceTimeout,60000);
+    }catch(ActivityNotFoundException ex){
+      clearNativeVoice();voiceResult(token,"unavailable",null,"unavailable","No system speech provider is installed. You can type your answer.");
+    }catch(SecurityException ex){
+      clearNativeVoice();voiceResult(token,"error",null,"not-allowed","The system speech provider could not open. Check its microphone permission or type your answer.");
+    }catch(RuntimeException ex){
+      clearNativeVoice();voiceResult(token,"error",null,"error","The system speech provider could not open. You can type your answer.");
+    }
+  }
+
   private final class NativeBridge {
-    @JavascriptInterface public String version(){return "4.0.0";}
+    @JavascriptInterface public String version(){return "5.0.0";}
+    @JavascriptInterface public void startVoiceInput(String token,String language){if(validVoiceToken(token))runOnUiThread(()->startNativeVoice(token,language));}
+    @JavascriptInterface public void cancelVoiceInput(String token){if(validVoiceToken(token))runOnUiThread(()->{if(token.equals(voiceToken))cancelNativeVoice(true);});}
     @JavascriptInterface public void openTextbook(int page){openDocument("textbook",page);}
     @JavascriptInterface public void openDocument(String documentId,int page){runOnUiThread(()->openPdf(documentId,page));}
     @JavascriptInterface public String takeReadingPosition(){
@@ -180,6 +249,28 @@ public final class MainActivity extends Activity {
   }
   @Override protected void onActivityResult(int request,int result,Intent data){
     super.onActivityResult(request,result,data);
+    if(request==voiceRequest&&voiceToken!=null){
+      String token=clearNativeVoice();
+      if(result==RESULT_CANCELED){voiceResult(token,"cancelled",null,null,null);return;}
+      if(result==RESULT_OK){
+        try{
+          ArrayList<String> values=data==null?null:data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+          ArrayList<String> alternatives=new ArrayList<>();
+          if(values!=null)for(String value:values){
+            if(value==null)continue;
+            String text=value.trim();if(text.length()>12000)text=text.substring(0,12000);
+            if(!text.isEmpty()&&!alternatives.contains(text))alternatives.add(text);
+            if(alternatives.size()>=5)break;
+          }
+          if(!alternatives.isEmpty())voiceResult(token,"ok",alternatives,null,null);
+          else voiceResult(token,"error",null,"no-speech","No speech was recognized. Try again or type your answer.");
+        }catch(RuntimeException ex){voiceResult(token,"error",null,"error","The speech provider returned an unreadable result. You can type your answer.");}
+        return;
+      }
+      String code=result==RecognizerIntent.RESULT_NO_MATCH?"no-speech":result==RecognizerIntent.RESULT_NETWORK_ERROR?"network":result==RecognizerIntent.RESULT_AUDIO_ERROR?"audio-capture":"error";
+      voiceResult(token,"error",null,code,"The system speech provider could not finish. Try again or type your answer.");
+      return;
+    }
     if(request==PICK_JSON&&chooser!=null){chooser.onReceiveValue(result==RESULT_OK&&data!=null&&data.getData()!=null?new Uri[]{data.getData()}:null);chooser=null;}
     if(request==SAVE_JSON){
       String content=pendingExport;pendingExport=null;pendingName=null;
@@ -192,5 +283,5 @@ public final class MainActivity extends Activity {
   @Override public void onBackPressed(){web.evaluateJavascript("window.labwiseBack ? window.labwiseBack() : false",result->{if(!"true".equals(result))new AlertDialog.Builder(this).setTitle("Close Labwise?").setMessage("Your progress is saved on this device.").setNegativeButton("Keep studying",null).setPositiveButton("Close",(d,w)->finish()).show();});}
   @Override protected void onPause(){web.onPause();super.onPause();}
   @Override protected void onResume(){super.onResume();if(web!=null){web.onResume();web.evaluateJavascript("window.labwiseNativeReading && window.labwiseNativeReading()",null);}}
-  @Override protected void onDestroy(){if(chooser!=null){chooser.onReceiveValue(null);chooser=null;}if(web!=null){web.removeJavascriptInterface("LabwiseAndroid");web.destroy();}super.onDestroy();}
+  @Override protected void onDestroy(){cancelNativeVoice(false);if(chooser!=null){chooser.onReceiveValue(null);chooser=null;}if(web!=null){web.removeJavascriptInterface("LabwiseAndroid");web.destroy();web=null;}super.onDestroy();}
 }

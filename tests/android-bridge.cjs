@@ -6,6 +6,7 @@ catch { ({chromium} = require('/opt/codex/runtimes/codex-primary-runtime/depende
 let browser;
 (async () => {
   const appURL = process.env.APP_URL || 'http://127.0.0.1:3000', origin = new URL(appURL).origin;
+  assert.equal(origin, 'http://127.0.0.1:3000', 'Bridge simulation must use the loopback test server');
   browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', args: ['--no-sandbox']});
   const page = await browser.newPage({viewport: {width: 412, height: 915}});
   const errors = [], externalRequests = [];
@@ -17,7 +18,7 @@ let browser;
   await page.addInitScript(() => {
     window.nativeCalls = [];
     window.LabwiseAndroid = {
-      version: () => '4.0.0',
+      version: () => '5.0.0',
       takeReadingPosition: () => {const value=window.nativeReading||null;window.nativeReading=null;return JSON.stringify(value)},
       openDocument: (id, page) => window.nativeCalls.push({type: 'pdf', id, page}),
       openUpdates: () => window.nativeCalls.push({type: 'update'}),
@@ -33,11 +34,14 @@ let browser;
   await page.getByRole('heading', {name: 'Make room for a little discovery.'}).waitFor();
   assert.equal(await page.evaluate(() => window.nativeCalls.length), 0);
   const catalog = await page.evaluate(async () => (await fetch('./data/catalog.json')).json());
+  assert.equal(catalog.version, '5.0.0');
+  assert.equal(catalog.availableQuestions, 3760); assert.equal(catalog.excludedQuestions, 193); assert.equal(catalog.missingSourceQuestions, 93);
   assert.deepEqual(catalog.documents.map(doc => doc.id), ['textbook', 'boc1', 'boc2']);
   await nav('progress'); await action('backup');
   const backup = await lastCall();
   assert.equal(backup.type, 'export'); assert.equal(backup.name, 'labwise-progress.json');
-  assert.equal(backup.data.version, 2); assert.equal(backup.data.appVersion, catalog.version);
+  assert.equal(backup.data.version, 3); assert.equal(backup.data.appVersion, '5.0.0');
+  assert.equal(backup.data.game.version, 1); assert.equal(backup.data.game.xp, 0); assert.equal(backup.data.game.active, null);
   assert.equal(backup.data.records['book-1-1'].reviews, 3); assert.equal(backup.data.records['book-1-1'].correct, true);
   assert.equal(backup.data.goal, 20); assert.deepEqual(backup.data.saved, ['book-1-1']);
   assert.deepEqual(backup.data.log, [{id: 'book-1-1', at: 1699999999000, kind: 'answer', correct: true}]);
@@ -82,6 +86,24 @@ let browser;
   await page.evaluate(()=>window.labwiseNativeReading());
   assert.equal(await page.locator('#page-number').inputValue(),'42');
   await nav('progress');await action('backup');assert.equal((await lastCall()).data.reading.boc2,42);
+  const snapshot = (await lastCall()).data;
+  for (const version of [1, 2, 3]) {
+    const restoredPage = 70 + version;
+    const imported = {...snapshot, version, goal: [10, 20, 30][version - 1], reading: {...snapshot.reading, boc2: restoredPage}};
+    if (version < 3) delete imported.game;
+    if (version === 3) imported.log = [...snapshot.log, {id: 'book-1-1', at: 1700000001000, kind: 'game', correct: false}];
+    await page.locator('#progress-input').setInputFiles({name: `progress-v${version}.json`, mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(imported))});
+    await page.getByRole('heading', {name: 'Restore this progress?'}).waitFor(); await action('confirm-restore');
+    await page.evaluate(() => window.labwiseNativeReading());
+    await nav('library'); await page.locator('#reader-document').selectOption('boc2');
+    assert.equal(await page.locator('#page-number').inputValue(), String(restoredPage), 'A consumed native event must not overwrite restored positions');
+    await nav('progress'); await action('backup');
+    const exported = (await lastCall()).data;
+    assert.equal(exported.version, 3); assert.equal(exported.appVersion, '5.0.0'); assert.equal(exported.goal, imported.goal);
+    assert.deepEqual(exported.records, snapshot.records); assert.deepEqual(exported.saved, snapshot.saved);
+    assert.deepEqual(exported.log, imported.log); assert.deepEqual(exported.game, snapshot.game);
+    assert.equal(exported.reading.boc2, restoredPage);
+  }
   assert.deepEqual(errors, []); assert.deepEqual(externalRequests, []);
-  console.log('PASS: Android bridge simulation preserves v1 progress in v2 backups, routes three PDF IDs at both page boundaries and across source/rationale PDFs, saves per-document positions, opens updates only on click, handles Android back, and makes no external requests or service-worker registrations. Native Java interaction is not exercised.');
+  console.log('PASS: v5 Android bridge simulation preserves v1 progress in v3 backups, restores v1/v2/v3 with game history, routes three PDF IDs at both page boundaries and across source/rationale PDFs, consumes reading events once without overwriting restored positions, opens updates only on click, handles Android back, and makes no external requests or service-worker registrations. Native Java and speech-provider execution are not exercised.');
 })().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => { await browser?.close(); });

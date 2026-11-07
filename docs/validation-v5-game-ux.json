@@ -1,0 +1,3665 @@
+{
+  "startedAt": "2026-11-07T11:40:34.453Z",
+  "environment": "Headless Chromium with simulated touch/CSS viewports; not a physical Android device or WebView.",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 568,
+      "height": 320
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 820,
+      "height": 1180
+    },
+    {
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "checks": [
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "header-play-access",
+      "rect": {
+        "x": 161,
+        "y": 12,
+        "width": 44,
+        "height": 44,
+        "bottom": 56,
+        "right": 205
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "svg.[object SVGAnimatedString]",
+      "font": "15px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "home-light-standard",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "settings-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 206.203125,
+        "y": 457.421875,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 501.421875,
+        "right": 273.5
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": true,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "hub-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "hub-start",
+      "rect": {
+        "x": 41,
+        "y": 217.34375,
+        "width": 163.546875,
+        "height": 44,
+        "bottom": 261.34375,
+        "right": 204.546875
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "subject-room",
+      "rect": {
+        "x": 17,
+        "y": 121.484375,
+        "width": 286,
+        "height": 235.609375,
+        "bottom": 357.09375,
+        "right": 303
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.lab-room ",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "question-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "type-fallback",
+      "rect": {
+        "x": 53,
+        "y": 217.0625,
+        "width": 99.671875,
+        "height": 44,
+        "bottom": 261.0625,
+        "right": 152.671875
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "transcript-confirm",
+      "rect": {
+        "x": 53,
+        "y": 217.03125,
+        "width": 160.21875,
+        "height": 44,
+        "bottom": 261.03125,
+        "right": 213.21875
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "transcript-review",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "required-next-top",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "feedback-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "required-next-middle",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "feedback-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "required-next-bottom",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "feedback-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "every-choice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "source-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "reveal-recall",
+      "rect": {
+        "x": 56,
+        "y": 216.703125,
+        "width": 208,
+        "height": 44,
+        "bottom": 260.703125,
+        "right": 264
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "SUMMARY.",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "recall-again",
+      "rect": {
+        "x": 56,
+        "y": 217.390625,
+        "width": 115.140625,
+        "height": 44,
+        "bottom": 261.390625,
+        "right": 171.140625
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "recall-good",
+      "rect": {
+        "x": 56,
+        "y": 217.390625,
+        "width": 103.515625,
+        "height": 44,
+        "bottom": 261.390625,
+        "right": 159.515625
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "recall-rating",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "required-next-after-recall",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "keyboard-room-transcript-confirm-tabs-reveal-self-rate-and-next"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "next-1",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "next-2",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "next-3",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "next-4",
+      "rect": {
+        "x": 164.28125,
+        "y": 434,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "next-5",
+      "rect": {
+        "x": 174.109375,
+        "y": 434,
+        "width": 119.890625,
+        "height": 44,
+        "bottom": 478,
+        "right": 294
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "results",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "results-next-round",
+      "rect": {
+        "x": 66.25,
+        "y": 216.515625,
+        "width": 187.5,
+        "height": 44,
+        "bottom": 260.515625,
+        "right": 253.75
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "bottomNavigationTop": 496,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "tag": "dark-theme-largest-text-and-results-survive-reload"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "header-play-access",
+      "rect": {
+        "x": 227,
+        "y": 12,
+        "width": 44,
+        "height": 44,
+        "bottom": 56,
+        "right": 271
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "svg.[object SVGAnimatedString]",
+      "font": "15px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "home-light-standard",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "settings-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 276.203125,
+        "y": 712.703125,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 756.703125,
+        "right": 343.5
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": true,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "hub-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "hub-start",
+      "rect": {
+        "x": 41,
+        "y": 354.84375,
+        "width": 163.546875,
+        "height": 44,
+        "bottom": 398.84375,
+        "right": 204.546875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "subject-room",
+      "rect": {
+        "x": 17,
+        "y": 249.234375,
+        "width": 173,
+        "height": 255.203125,
+        "bottom": 504.4375,
+        "right": 190
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "P.",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "question-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "type-fallback",
+      "rect": {
+        "x": 168.109375,
+        "y": 355.34375,
+        "width": 99.671875,
+        "height": 44,
+        "bottom": 399.34375,
+        "right": 267.78125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "transcript-confirm",
+      "rect": {
+        "x": 53,
+        "y": 355.3125,
+        "width": 160.21875,
+        "height": 44,
+        "bottom": 399.3125,
+        "right": 213.21875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "transcript-review",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "required-next-top",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "feedback-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "required-next-middle",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "feedback-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "required-next-bottom",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "feedback-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "every-choice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "source-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "reveal-recall",
+      "rect": {
+        "x": 56,
+        "y": 354.625,
+        "width": 278,
+        "height": 44,
+        "bottom": 398.625,
+        "right": 334
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "SUMMARY.",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "recall-again",
+      "rect": {
+        "x": 56,
+        "y": 408.3125,
+        "width": 115.140625,
+        "height": 44,
+        "bottom": 452.3125,
+        "right": 171.140625
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "recall-good",
+      "rect": {
+        "x": 180.140625,
+        "y": 408.3125,
+        "width": 103.515625,
+        "height": 44,
+        "bottom": 452.3125,
+        "right": 283.65625
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "recall-rating",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "required-next-after-recall",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "keyboard-room-transcript-confirm-tabs-reveal-self-rate-and-next"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "next-1",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "next-2",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "next-3",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "next-4",
+      "rect": {
+        "x": 234.28125,
+        "y": 710,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "next-5",
+      "rect": {
+        "x": 244.109375,
+        "y": 710,
+        "width": 119.890625,
+        "height": 44,
+        "bottom": 754,
+        "right": 364
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "results",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "results-next-round",
+      "rect": {
+        "x": 101.25,
+        "y": 355.3125,
+        "width": 187.5,
+        "height": 44,
+        "bottom": 399.3125,
+        "right": 288.75
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bottomNavigationTop": 772,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tag": "dark-theme-largest-text-and-results-survive-reload"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "header-play-access",
+      "rect": {
+        "x": 405,
+        "y": 3.5,
+        "width": 44,
+        "height": 44,
+        "bottom": 47.5,
+        "right": 449
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "svg.[object SVGAnimatedString]",
+      "font": "15px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "home-light-standard",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "settings-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 454.203125,
+        "y": 227.8125,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 271.8125,
+        "right": 521.5
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": true,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "hub-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "hub-start",
+      "rect": {
+        "x": 41,
+        "y": 103.25,
+        "width": 163.546875,
+        "height": 44,
+        "bottom": 147.25,
+        "right": 204.546875
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "subject-room",
+      "rect": {
+        "x": 17,
+        "y": 7.140625,
+        "width": 262,
+        "height": 235.609375,
+        "bottom": 242.75,
+        "right": 279
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.lab-room ",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "question-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "type-fallback",
+      "rect": {
+        "x": 168.109375,
+        "y": 103.140625,
+        "width": 99.671875,
+        "height": 44,
+        "bottom": 147.140625,
+        "right": 267.78125
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "transcript-confirm",
+      "rect": {
+        "x": 53,
+        "y": 103.3125,
+        "width": 160.21875,
+        "height": 44,
+        "bottom": 147.3125,
+        "right": 213.21875
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "transcript-review",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "required-next-top",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "feedback-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "required-next-middle",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "feedback-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "required-next-bottom",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "feedback-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "every-choice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "source-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "reveal-recall",
+      "rect": {
+        "x": 56,
+        "y": 102.59375,
+        "width": 456,
+        "height": 44,
+        "bottom": 146.59375,
+        "right": 512
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "SUMMARY.",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "recall-again",
+      "rect": {
+        "x": 56,
+        "y": 103.484375,
+        "width": 115.140625,
+        "height": 44,
+        "bottom": 147.484375,
+        "right": 171.140625
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "recall-good",
+      "rect": {
+        "x": 180.140625,
+        "y": 103.484375,
+        "width": 103.515625,
+        "height": 44,
+        "bottom": 147.484375,
+        "right": 283.65625
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "recall-rating",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "required-next-after-recall",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "keyboard-room-transcript-confirm-tabs-reveal-self-rate-and-next"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "next-1",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "next-2",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "next-3",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "next-4",
+      "rect": {
+        "x": 413.28125,
+        "y": 203,
+        "width": 129.71875,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "next-5",
+      "rect": {
+        "x": 423.109375,
+        "y": 203,
+        "width": 119.890625,
+        "height": 44,
+        "bottom": 247,
+        "right": 543
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "results",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "results-next-round",
+      "rect": {
+        "x": 61.9375,
+        "y": 102.578125,
+        "width": 187.5,
+        "height": 44,
+        "bottom": 146.578125,
+        "right": 249.4375
+      },
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "bottomNavigationTop": 260,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "tag": "dark-theme-largest-text-and-results-survive-reload"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "header-play-access",
+      "rect": {
+        "x": 588,
+        "y": 16,
+        "width": 44,
+        "height": 44,
+        "bottom": 60,
+        "right": 632
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "svg.[object SVGAnimatedString]",
+      "font": "15px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "home-light-standard",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "settings-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 557.703125,
+        "y": 842.21875,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 886.21875,
+        "right": 625
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": true,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "hub-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "hub-start",
+      "rect": {
+        "x": 147,
+        "y": 534.71875,
+        "width": 163.546875,
+        "height": 44,
+        "bottom": 578.71875,
+        "right": 310.546875
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "subject-room",
+      "rect": {
+        "x": 119,
+        "y": 472.453125,
+        "width": 302.5,
+        "height": 266.34375,
+        "bottom": 738.796875,
+        "right": 421.5
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "P.",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "question-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "type-fallback",
+      "rect": {
+        "x": 282.109375,
+        "y": 535,
+        "width": 99.671875,
+        "height": 44,
+        "bottom": 579,
+        "right": 381.78125
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "transcript-confirm",
+      "rect": {
+        "x": 167,
+        "y": 560.171875,
+        "width": 160.21875,
+        "height": 44,
+        "bottom": 604.171875,
+        "right": 327.21875
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "transcript-review",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "required-next-top",
+      "rect": {
+        "x": 584.28125,
+        "y": 953,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 997,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "feedback-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "required-next-middle",
+      "rect": {
+        "x": 584.28125,
+        "y": 868.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 912.921875,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "feedback-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "required-next-bottom",
+      "rect": {
+        "x": 584.28125,
+        "y": 868.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 912.921875,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "feedback-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "every-choice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "source-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "reveal-recall",
+      "rect": {
+        "x": 163,
+        "y": 570.328125,
+        "width": 533,
+        "height": 44,
+        "bottom": 614.328125,
+        "right": 696
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "SUMMARY.",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "recall-again",
+      "rect": {
+        "x": 163,
+        "y": 663.21875,
+        "width": 115.140625,
+        "height": 44,
+        "bottom": 707.21875,
+        "right": 278.140625
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "recall-good",
+      "rect": {
+        "x": 287.140625,
+        "y": 663.21875,
+        "width": 103.515625,
+        "height": 44,
+        "bottom": 707.21875,
+        "right": 390.65625
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "recall-rating",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "required-next-after-recall",
+      "rect": {
+        "x": 584.28125,
+        "y": 868.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 912.921875,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "keyboard-room-transcript-confirm-tabs-reveal-self-rate-and-next"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "next-1",
+      "rect": {
+        "x": 584.28125,
+        "y": 953,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 997,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "next-2",
+      "rect": {
+        "x": 584.28125,
+        "y": 953,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 997,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "next-3",
+      "rect": {
+        "x": 584.28125,
+        "y": 953,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 997,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "next-4",
+      "rect": {
+        "x": 584.28125,
+        "y": 953,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 997,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "next-5",
+      "rect": {
+        "x": 594.109375,
+        "y": 953,
+        "width": 125.890625,
+        "height": 44,
+        "bottom": 997,
+        "right": 720
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "results",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "results-next-round",
+      "rect": {
+        "x": 207.4375,
+        "y": 535.0625,
+        "width": 187.5,
+        "height": 44,
+        "bottom": 579.0625,
+        "right": 394.9375
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "tag": "dark-theme-largest-text-and-results-survive-reload"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "header-play-access",
+      "rect": {
+        "x": 640,
+        "y": 16,
+        "width": 44,
+        "height": 44,
+        "bottom": 60,
+        "right": 684
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "svg.[object SVGAnimatedString]",
+      "font": "15px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "home-light-standard",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "settings-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 583.703125,
+        "y": 920.21875,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 964.21875,
+        "right": 651
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": true,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "hub-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "hub-start",
+      "rect": {
+        "x": 147,
+        "y": 561.71875,
+        "width": 163.546875,
+        "height": 44,
+        "bottom": 605.71875,
+        "right": 310.546875
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "subject-room",
+      "rect": {
+        "x": 119,
+        "y": 628.453125,
+        "width": 328.5,
+        "height": 266.34375,
+        "bottom": 894.796875,
+        "right": 447.5
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "P.",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "question-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "type-fallback",
+      "rect": {
+        "x": 282.109375,
+        "y": 672,
+        "width": 99.671875,
+        "height": 44,
+        "bottom": 716,
+        "right": 381.78125
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "transcript-confirm",
+      "rect": {
+        "x": 167,
+        "y": 716.171875,
+        "width": 160.21875,
+        "height": 44,
+        "bottom": 760.171875,
+        "right": 327.21875
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "transcript-review",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "required-next-top",
+      "rect": {
+        "x": 636.28125,
+        "y": 1055.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1099.921875,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "feedback-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "required-next-middle",
+      "rect": {
+        "x": 636.28125,
+        "y": 1024.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1068.921875,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "feedback-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "required-next-bottom",
+      "rect": {
+        "x": 636.28125,
+        "y": 1024.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1068.921875,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "feedback-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "every-choice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "source-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "reveal-recall",
+      "rect": {
+        "x": 163,
+        "y": 726.328125,
+        "width": 585,
+        "height": 44,
+        "bottom": 770.328125,
+        "right": 748
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "SUMMARY.",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "recall-again",
+      "rect": {
+        "x": 163,
+        "y": 819.21875,
+        "width": 115.140625,
+        "height": 44,
+        "bottom": 863.21875,
+        "right": 278.140625
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "recall-good",
+      "rect": {
+        "x": 287.140625,
+        "y": 819.21875,
+        "width": 103.515625,
+        "height": 44,
+        "bottom": 863.21875,
+        "right": 390.65625
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "recall-rating",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "required-next-after-recall",
+      "rect": {
+        "x": 636.28125,
+        "y": 1024.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1068.921875,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "keyboard-room-transcript-confirm-tabs-reveal-self-rate-and-next"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "next-1",
+      "rect": {
+        "x": 636.28125,
+        "y": 1055.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1099.921875,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "next-2",
+      "rect": {
+        "x": 636.28125,
+        "y": 1055.921875,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1099.921875,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "next-3",
+      "rect": {
+        "x": 636.28125,
+        "y": 1100.703125,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1144.703125,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "next-4",
+      "rect": {
+        "x": 636.28125,
+        "y": 1109,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 1153,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "next-5",
+      "rect": {
+        "x": 646.109375,
+        "y": 1033.921875,
+        "width": 125.890625,
+        "height": 44,
+        "bottom": 1077.921875,
+        "right": 772
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "results",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "results-next-round",
+      "rect": {
+        "x": 233.4375,
+        "y": 584.0625,
+        "width": 187.5,
+        "height": 44,
+        "bottom": 628.0625,
+        "right": 420.9375
+      },
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "tag": "dark-theme-largest-text-and-results-survive-reload"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "header-play-access",
+      "rect": {
+        "x": 844,
+        "y": 16,
+        "width": 44,
+        "height": 44,
+        "bottom": 60,
+        "right": 888
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "svg.[object SVGAnimatedString]",
+      "font": "15px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "home-light-standard",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "settings-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "settings-done",
+      "rect": {
+        "x": 685.703125,
+        "y": 656.84375,
+        "width": 67.296875,
+        "height": 44,
+        "bottom": 700.84375,
+        "right": 753
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": true,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "hub-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "hub-start",
+      "rect": {
+        "x": 147,
+        "y": 407.28125,
+        "width": 163.546875,
+        "height": 44,
+        "bottom": 451.28125,
+        "right": 310.546875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "subject-room",
+      "rect": {
+        "x": 119,
+        "y": 296.015625,
+        "width": 430.5,
+        "height": 266.34375,
+        "bottom": 562.359375,
+        "right": 549.5
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "P.",
+      "font": "19.5px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "question-dark-largest",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "type-fallback",
+      "rect": {
+        "x": 275.109375,
+        "y": 407,
+        "width": 99.671875,
+        "height": 44,
+        "bottom": 451,
+        "right": 374.78125
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "transcript-confirm",
+      "rect": {
+        "x": 160,
+        "y": 407.171875,
+        "width": 160.21875,
+        "height": 44,
+        "bottom": 451.171875,
+        "right": 320.21875
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "11px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "transcript-review",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "required-next-top",
+      "rect": {
+        "x": 840.28125,
+        "y": 697,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 741,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "feedback-top",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "required-next-middle",
+      "rect": {
+        "x": 840.28125,
+        "y": 612.09375,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 656.09375,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "feedback-middle",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "required-next-bottom",
+      "rect": {
+        "x": 840.28125,
+        "y": 612.09375,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 656.09375,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "feedback-bottom",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "every-choice",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "source-rationale",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "reveal-recall",
+      "rect": {
+        "x": 159,
+        "y": 407.296875,
+        "width": 797,
+        "height": 44,
+        "bottom": 451.296875,
+        "right": 956
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "SUMMARY.",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "recall-again",
+      "rect": {
+        "x": 159,
+        "y": 477.1875,
+        "width": 115.140625,
+        "height": 44,
+        "bottom": 521.1875,
+        "right": 274.140625
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn ",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "recall-good",
+      "rect": {
+        "x": 283.140625,
+        "y": 477.1875,
+        "width": 103.515625,
+        "height": 44,
+        "bottom": 521.1875,
+        "right": 386.65625
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "recall-rating",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "required-next-after-recall",
+      "rect": {
+        "x": 840.28125,
+        "y": 612.09375,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 656.09375,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "keyboard-room-transcript-confirm-tabs-reveal-self-rate-and-next"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "next-1",
+      "rect": {
+        "x": 840.28125,
+        "y": 697,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 741,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "next-2",
+      "rect": {
+        "x": 840.28125,
+        "y": 697,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 741,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "next-3",
+      "rect": {
+        "x": 840.28125,
+        "y": 697,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 741,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "next-4",
+      "rect": {
+        "x": 840.28125,
+        "y": 697,
+        "width": 135.71875,
+        "height": 44,
+        "bottom": 741,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "next-5",
+      "rect": {
+        "x": 850.109375,
+        "y": 697,
+        "width": 125.890625,
+        "height": 44,
+        "bottom": 741,
+        "right": 976
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "results",
+      "overflow": 0
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "results-next-round",
+      "rect": {
+        "x": 335.4375,
+        "y": 407.0625,
+        "width": 187.5,
+        "height": 44,
+        "bottom": 451.0625,
+        "right": 522.9375
+      },
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "bottomNavigationTop": null,
+      "modal": false,
+      "centerHit": true,
+      "visible": true,
+      "minTouchTarget": true,
+      "hit": "BUTTON.btn primary",
+      "font": "12px"
+    },
+    {
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "tag": "dark-theme-largest-text-and-results-survive-reload"
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "finishedAt": "2026-11-07T11:41:29.125Z",
+  "screenshotCount": 42,
+  "exampleScreenshots": [
+    "screenshots/v5-adventure-phone.png",
+    "screenshots/v5-adventure-tablet.png",
+    "screenshots/v5-answer-review.png"
+  ]
+}

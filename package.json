@@ -1,6 +1,6 @@
 {
   "name": "labwise-study",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,6 +13,9 @@
     "test:teaching-ui": "node tests/teaching-browser.cjs",
     "test:offline": "node tests/offline-v4.cjs",
     "test:ux": "node tests/ux-audit-v4.cjs",
-    "test:apk-assets": "node tests/apk-assets.cjs"
+    "test:apk-assets": "node tests/apk-assets.cjs",
+    "test:game": "node tests/game-browser.cjs",
+    "test:voice": "node --test tests/voice.test.js",
+    "test:game-ux": "node tests/ux-game-v5.cjs"
   }
 }
