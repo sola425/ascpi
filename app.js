@@ -100,7 +100,7 @@ function lessonTab(button){clearVoice();const group=button.closest('.lesson'),ke
 
 function syncLabel(){return !syncStatus.configured?'Progress on this device':!syncStatus.user?'Account sync · optional':syncStatus.phase==='synced'&&!syncStatus.pending?'Progress synced':syncStatus.phase==='offline'?'Offline · changes queued':syncStatus.pending?'Changes waiting to sync':'Account sync';}
 function refreshSyncLabels(){document.querySelectorAll('[data-sync-label]').forEach(el=>el.textContent=syncLabel());}
-function hostSettings(){return {voiceId:'',rate:1,language:ui.voiceLanguage||'en-US',autoListen:true,...ui.hostVoice};}
+function hostSettings(){return {voiceId:'',rate:1,autoListen:true,...ui.hostVoice,language:ui.voiceLanguage||'en-US'};}
 function hostPool(includeVisual=false){const source=scoped(),audio=eligibleHostQuestions(source);if(!includeVisual)return audio;const ids=new Set(audio.map(q=>q.id));return eligibleHostQuestions(source,{includeVisual:true}).filter(q=>ids.has(q.id)||hasQuestionFigure(q));}
 function hostContext(){const s=hostSummary(hostGame),a=s.active,q=a?byId.get(a.queue[a.index]?.id):null;return a&&q?{roundId:a.id,index:a.index,phase:a.phase,q,questionCount:s.questionCount,lastResponse:s.lastResponse,terminal:s.terminal,hiddenChoices:a.hiddenChoices}:null;}
 function saveHost(){if(!saveJSON('labwise-host-session-v1',hostGame).ok)toast('Keep this session open; this device could not save your round.');}

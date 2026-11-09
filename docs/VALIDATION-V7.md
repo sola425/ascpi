@@ -12,7 +12,7 @@ Auth failures distinguish credentials, unconfirmed email, invalid public key, mi
 
 Quiz Show has up to fifteen questions, three hearts, 50/50, a plain-language clue and a skip. A spoken choice is read back and requires separate confirmation before grading. Explanations are untimed; Next is explicit. Wrong answers and selected correct-answer turns lead to an authored recall prompt, model answer and explicit learner rating. Arbitrary speech is not presented as AI-graded understanding.
 
-The actual app/controller/engine browser test passes twelve check groups and ten layouts: reading, spoken choices, confirmation, feedback, recall comparison, self-rating, lifelines, background cancellation, stale callbacks, silent resume, focus and transcript privacy. Speech is simulated. Engine, dialogue and IO tests cover limits, validation, privacy, idempotence, interruptions, disposal, bounded retries, chunking and cleanup. A mixed-action check exercised 7,584 actions across 600 rounds.
+The actual app/controller/engine browser test passes thirteen check groups and ten layouts: reading, spoken choices, confirmation, feedback, recall comparison, self-rating, lifelines, background cancellation, stale callbacks, silent resume, focus and transcript privacy. Speech is simulated. Engine, dialogue and IO tests cover limits, validation, privacy, idempotence, interruptions, disposal, bounded retries, chunking and cleanup. A mixed-action check exercised 7,584 actions across 600 rounds.
 
 Android uses installed TTS voices and foreground recognition; microphone permission is requested only by a listening action. Online device voices may send the text being read to their provider, and recognition may use a network service. Labwise saves no audio or transcript history. Premium online AI voices are not configured. Real Android audio still requires physical-device acceptance.
 
@@ -38,4 +38,4 @@ The owner previously reported successful SQL setup and a confirmed account. The 
 
 ## Signed artifact
 
-Final APK: **71,432,655 bytes**, SHA-256 `1161c39ae90c2e1115cb80f4b2e7a4d814814d7f64c22b049e7795d15bc54c4b`. APK signature schemes v2/v3 verify; signer certificate SHA-256 remains `bca20db3b7816e0155660db761c4dbd1dd74e57e3f2ab6b6dbc1ace6027c4158`. The versioned and stable copies have identical bytes. Packaged verification includes Quiz Show confirmation and decoding/zooming an original BOC picture under the Android origin/CSP.
+Final APK: **71,432,655 bytes**, SHA-256 `b05212b3081df46ca95483d5ea8de471182ef188120737bcebda5a40712ade4d`. APK signature schemes v2/v3 verify; signer certificate SHA-256 remains `bca20db3b7816e0155660db761c4dbd1dd74e57e3f2ab6b6dbc1ace6027c4158`. The versioned and stable copies have identical bytes. Packaged verification includes Quiz Show confirmation and decoding/zooming an original BOC picture under the Android origin/CSP.
