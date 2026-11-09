@@ -12,6 +12,7 @@ const manifest = readFileSync(join(root, 'android/AndroidManifest.xml'), 'utf8')
 const tools = process.env.LABWISE_ANDROID_TOOLS || '/workspace/android-tools';
 const platform = join(tools, 'platform/android-35/android.jar');
 const stubs = join(tools, 'build-tools/android-15/core-lambda-stubs.jar');
+const appVersion = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8')).version;
 
 test('native bridge keeps auth private, durable and separate from exported progress', () => {
   assert.match(source, /SYNC_AUTH_STORAGE_KEY="labwise-sync-auth-v1"/);
@@ -31,8 +32,9 @@ test('native bridge keeps auth private, durable and separate from exported progr
   assert.match(source, /name\.contains\("password"\)/);
   assert.match(manifest, /android:allowBackup="false"/);
   assert.match(manifest, /android:usesCleartextTraffic="false"/);
-  assert.match(manifest, /android:versionCode="60000" android:versionName="6\.0\.0"/);
-  assert.deepEqual([...manifest.matchAll(/<uses-permission android:name="([^"]+)"/g)].map(match => match[1]), ['android.permission.INTERNET']);
+  assert.match(manifest, new RegExp(`android:versionName="${appVersion.replaceAll('.', '\\.') }"`));
+  assert.deepEqual([...manifest.matchAll(/<uses-permission android:name="([^"]+)"/g)].map(match => match[1]), ['android.permission.INTERNET', 'android.permission.RECORD_AUDIO']);
+  assert.match(manifest, /<uses-feature android:name="android\.hardware\.microphone" android:required="false"/);
 });
 
 test('network policy reads only bounded bundled configuration and retains normal WebView TLS', () => {
@@ -73,12 +75,13 @@ public final class NativeSyncHarness {
     final MainActivity.SyncPolicy policy=MainActivity.SyncPolicy.configured(true,origin);
     check(origin.equals(policy.origin),"configured origin");
     check(origin.equals(MainActivity.SyncPolicy.configured(true,origin+":443").origin),"normalize standard HTTPS port");
+    check(origin.equals(MainActivity.SyncPolicy.configured(true,origin+"/").origin),"normalize project origin slash like the JavaScript validator");
     check(MainActivity.SyncPolicy.configured(false,origin).origin==null,"disabled configuration");
     check(MainActivity.SyncPolicy.configured(true,null).origin==null,"missing configuration");
     String[] invalidOrigins={
       "http://ncfovahpjofwrygxnbst.supabase.co",
       "https://supabase.co","https://example.org",
-      origin+".attacker.test",origin+".",origin+"/",origin+"/auth/v1/token",
+      origin+".attacker.test",origin+".",origin+"/auth/v1/token",
       origin+"?x=1",origin+"#x",origin+":444",origin+":0443",
       "https://user:password@ncfovahpjofwrygxnbst.supabase.co",
       "https://ncfovahpjofwrygxnbst.supabase.co@attacker.test",
@@ -103,6 +106,13 @@ public final class NativeSyncHarness {
       check(policy.allows(origin+"/auth/v1/user",method,false),"user method");
     for(String method:new String[]{"POST","PATCH","DELETE"})
       check(!policy.allows(origin+"/auth/v1/user",method,false),"unexpected user method");
+    for(String path:new String[]{"/auth/v1/settings","/auth/v1/health"}){
+      check(policy.allows(origin+path,"GET",false),"public Auth diagnostic read");
+      check(policy.allows(origin+path,"OPTIONS",false),"public Auth diagnostic preflight");
+      for(String method:new String[]{"POST","PUT","PATCH","DELETE","HEAD"})check(!policy.allows(origin+path,method,false),"no diagnostic mutation");
+      check(!policy.allows(origin+path+"?redirect_to=example.org","GET",false),"no diagnostic query");
+      check(!policy.allows(origin+path,"GET",true),"no diagnostic main frame");
+    }
     String[] rpcs={"labwise_read_progress","labwise_write_progress","labwise_create_challenge","labwise_join_challenge","labwise_get_challenge","labwise_get_turn","labwise_submit_answer","labwise_next_turn","labwise_list_challenges"};
     for(String name:rpcs){
       String path="/rest/v1/rpc/"+name;
@@ -178,7 +188,7 @@ test('production native allowlist and AES/GCM reject bypasses, tampering and ove
   writeFileSync(harnessFile, harness);
   const classpath = workspace + delimiter + platform;
   const options = {cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], timeout: 30000};
-  execFileSync('java', ['com.sun.tools.javac.Main', '-source', '8', '-target', '8', '-Xlint:-options', '-bootclasspath', platform + delimiter + stubs, '-encoding', 'UTF-8', '-d', workspace, 'android/src/com/labwise/study/MainActivity.java', 'android/src/com/labwise/study/PdfActivity.java'], options);
+  execFileSync('java', ['com.sun.tools.javac.Main', '-source', '8', '-target', '8', '-Xlint:-options', '-bootclasspath', platform + delimiter + stubs, '-encoding', 'UTF-8', '-d', workspace, 'android/src/com/labwise/study/MainActivity.java', 'android/src/com/labwise/study/PdfActivity.java', 'android/src/com/labwise/study/HostVoice.java', 'android/src/com/labwise/study/HostVoiceRules.java'], options);
   execFileSync('java', ['com.sun.tools.javac.Main', '-source', '8', '-target', '8', '-Xlint:-options', '-classpath', classpath, '-encoding', 'UTF-8', '-d', workspace, harnessFile], options);
   const output = execFileSync('java', ['-cp', classpath, 'com.labwise.study.NativeSyncHarness', JSON.stringify({version: 1, project: 'https://ncfovahpjofwrygxnbst.supabase.co', session: {accessToken: 'access.fake', refreshToken: 'refresh.fake', expiresAt: 1794000000000, user: {id: 'fake-user', email: 'fake@example.org'}}})], options);
   assert.match(output, /PASS: \d+ production native policy and AES\/GCM checks/);

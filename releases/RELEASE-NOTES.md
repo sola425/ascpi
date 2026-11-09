@@ -1,3 +1,40 @@
+# Labwise 7.0.0 — Voice Quiz Show, original figures and tablet compatibility
+
+[Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.0.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.0.0.apk)
+
+- **Learn out loud in Quiz Show:** choose one or several subjects and up to **5, 10 or 15 questions**. The host reads the question and options, listens to your answer, and asks for explicit spoken or tapped confirmation before scoring it. There is no countdown.
+- **A knowledge climb with help:** start with **three hearts**, earn **100 points per correct answer**, and use three once-per-round lifelines: **50/50**, **a clue**, and **one skip**. Wrong answers cost a heart; skipping keeps your hearts and opens the explanation. Final explanations remain available.
+- **Explain it back:** after explaining an answer, the host sometimes asks you to put the idea into your own words. It reads the supplied model answer for comparison and lets you rate your own recall. This is guided learning from the existing teaching notes, not generative AI grading. Voice commands cover repeat, confirm, next, pause, lifelines, explanations and recall; manual controls and typed commands remain available.
+- **Device voices and foreground listening:** choose an installed voice and speed. Android Quiz Show uses text-to-speech and an in-app speech recognizer, requesting microphone permission only when listening starts. A started session can proceed through voice turns without repeated taps. Going into the background stops voice; it does not silently resume. A premium paid voice service is not configured. See [voice-host details](../docs/VOICE-HOST.md).
+- **Relevant pictures in the familiar study layout:** the existing question, answer choices and rationale presentation stay in place. Verified original photographs, diagrams and charts from Success and BOC attach beside the relevant question, cropped to the visual and useful labels. Images can be enlarged, retain source references and white paper colors, and use a source/content key to avoid mismatches with custom banks. Figures marked rationale-only remain hidden until reveal. See [verified figure coverage](../docs/FIGURES.md).
+- **Tablet sign-in compatibility and diagnostics:** a classic compatibility script loads first, fixing a reproduced initialization failure when a compatible older WebView lacks `Object.hasOwn` or `Array.at`. Relative session expiry avoids a refresh loop caused by a device-clock offset. Actionable account messages and a read-only **Check connection** distinguish Auth, configuration, storage, connection and backend-setup failures. The exact cause on the user's physical tablet remains unconfirmed.
+
+## Accounts and saved state
+
+The existing confirmed-account pilot continues. Public signup and password-reset controls remain hidden while the email redirect is empty; prepared callback files still need hosting and SMTP setup. Live Supabase access is blocked by this development environment's outbound policy. A proposal allowing only the project's hostname awaits environment review/save/publication. No live sign-in, physical two-phone sync or live two-account Duel is claimed from mocked tests. See [Supabase setup](../docs/SUPABASE-SETUP.md).
+
+Quiz Show active rounds and local summaries stay on the device, like unfinished Practice sessions. Its recorded answers and self-rated recall events enter ordinary study progress and can sync. Version **4** progress backups continue to include study history and Sprint/Frenzy state and accept restores from versions **1–4**. The separate Quiz Show queue, private Duel data and Auth credentials are not progress-export fields. Signed-out restores offer local replacement and Undo; signed-in restores merge into the account.
+
+Sprint, Frenzy, private Friend Duels, the six-step tour, source scopes, complete teaching and original PDF reading remain available. Version 7 changes no bank content or original PDF bytes. Study coverage stays at **3,760 active questions**, **15,046 option explanations**, and **1,100 PDF pages**. The existing exclusions and missing source-page accounting remain in [CONTENT-COVERAGE.md](../docs/CONTENT-COVERAGE.md). The quiz-registry digest is unchanged; this release requires **no SQL change**.
+
+## Install, permissions and privacy
+
+Requires Android 8.0+ and an up-to-date Android System WebView. Package `com.labwise.study`, version code **70000**, target API **35**, with the retained signing certificate. Export progress, then install over the existing app to retain on-device data. The stable latest-APK link is unchanged. See [Android installation and build](../docs/ANDROID.md).
+
+Quiz Show adds foreground microphone permission, requested at listening time. Local study and manual play remain available without it. The older input-only voice controls retain their external provider flow. The WebView still limits account traffic to the configured HTTPS project and approved routes, including diagnostics; the update link opens a separate browser.
+
+Labwise saves no audio or transcript history. Some device voices may send the **text being read** to their provider, and recognition may send audio to its provider or require installed offline language data. These provider connections differ from the earlier input-only voice feature. Cloud study progress and exports exclude audio, transcripts and authentication credentials. Android sessions remain in the separate Keystore-backed store.
+
+## Validation
+
+[Version 7 validation evidence](../docs/VALIDATION-V7.md) records final engine/dialogue/compatibility tests, browser and figure reviews, SDK/JVM checks, signing and packaged-asset results. Mocked speech and account tests do not establish real-device voice quality, recognition accuracy, Keystore persistence or live Supabase behavior. Physical device acceptance remains required; this environment has no usable hardware-accelerated Android emulator.
+
+The Quiz Show visuals and interactions are original; no television branding, artwork or sound assets are bundled. Earlier design references remain in [game-design sources](../docs/GAME-INSPIRATION.md) and [onboarding inspiration](../docs/ONBOARDING-INSPIRATION.md).
+
+---
+
+The following notes describe earlier releases; their permission and backup behavior are historical.
+
 # Labwise 6.0.0 — Frenzy, private Duels and optional account sync
 
 [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 6.0.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-6.0.0.apk)

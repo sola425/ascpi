@@ -1,11 +1,12 @@
 // Fetch-only Supabase adapter. Session persistence belongs to the caller;
 // credentials are kept out of progress documents, backups and error messages.
 export class SupabaseError extends Error {
-  constructor(code, message, status = 0) {
+  constructor(code, message, status = 0, reason = '') {
     super(message);
     this.name = 'SupabaseError';
     this.code = code;
     this.status = status;
+    if (reason) this.reason = reason;
   }
 }
 
@@ -13,6 +14,24 @@ const MAX_DOCUMENT_BYTES = 8 * 1024 * 1024;
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 const invalid = message => new SupabaseError('invalid', message);
 const malformed = () => new SupabaseError('server', 'The account service returned an unreadable response. Try again.');
+
+// Fixed diagnostics only: never copy provider messages, SQL or credentials.
+const ACCOUNT_ERRORS = Object.freeze({
+  invalid_credentials: 'The email or password did not match. Check both and try again.',
+  email_not_confirmed: 'Confirm your email before signing in. For this pilot, the app owner can confirm your account in Supabase.',
+  weak_password: 'Choose a stronger password and try again.',
+  invalid_api_key: 'This app’s account connection needs an update. Install the latest app or ask the app owner to check its public project key.',
+  email_disabled: 'Email sign-in is not enabled for this app. Ask the app owner to enable it.',
+  backend_setup: 'Sign-in worked, but progress sync is not set up on the account service. Ask the app owner to finish the sync setup.',
+  backend_permissions: 'The account service refused progress access. Ask the app owner to check the sync permissions.',
+  project_unavailable: 'The account project is unavailable or paused. Ask the app owner to check its Supabase dashboard.',
+  rate_limited: 'Too many account requests. Wait a little before trying again.',
+  webview_outdated: 'This device’s web component is too old for account sign-in. Update Android System WebView or Chrome, then reopen Labwise.'
+});
+export function accountErrorDetails(error) {
+  const reason = typeof error?.reason === 'string' && Object.prototype.hasOwnProperty.call(ACCOUNT_ERRORS, error.reason) ? error.reason : null;
+  return reason ? {code: reason, message: ACCOUNT_ERRORS[reason]} : null;
+}
 
 function secureUrl(value, { originOnly = false } = {}) {
   let parsed;
@@ -62,9 +81,12 @@ function user(value) {
 
 function session(value) {
   if (!object(value) || typeof value.access_token !== 'string' || !value.access_token || typeof value.refresh_token !== 'string' || !value.refresh_token) throw malformed();
-  const expiresAt = Number.isFinite(value.expires_at) && value.expires_at > 0
-    ? value.expires_at * 1000
-    : Number.isFinite(value.expires_in) && value.expires_in > 0 ? Date.now() + value.expires_in * 1000 : NaN;
+  // GoTrue supplies a duration as well as server wall-clock expiry. Use the
+  // duration on this device so a tablet with a skewed clock does not refresh
+  // its newly issued session repeatedly before its first progress request.
+  const expiresAt = Number.isFinite(value.expires_in) && value.expires_in > 0
+    ? Date.now() + value.expires_in * 1000
+    : Number.isFinite(value.expires_at) && value.expires_at > 0 ? value.expires_at * 1000 : NaN;
   if (!Number.isSafeInteger(expiresAt)) throw malformed();
   return { accessToken: value.access_token, refreshToken: value.refresh_token, expiresAt, user: user(value.user) };
 }
@@ -88,16 +110,19 @@ function progress(value) {
 }
 
 function responseError(status, detail, authRequest) {
+  const reason = typeof detail?.error_code === 'string' ? detail.error_code : typeof detail?.code === 'string' ? detail.code : '';
+  const message = typeof detail?.message === 'string' ? detail.message : '';
+  if (/^invalid api key\b/i.test(message) || ['invalid_api_key', 'invalid_apikey', 'no_api_key'].includes(reason)) return new SupabaseError('configuration', ACCOUNT_ERRORS.invalid_api_key, status, 'invalid_api_key');
+  if (['email_provider_disabled', 'email_disabled'].includes(reason)) return new SupabaseError('configuration', ACCOUNT_ERRORS.email_disabled, status, 'email_disabled');
+  if (!authRequest && ['PGRST202', '42883'].includes(reason)) return new SupabaseError('backend_setup', ACCOUNT_ERRORS.backend_setup, status, 'backend_setup');
+  if (!authRequest && reason === '42501') return new SupabaseError('backend_setup', ACCOUNT_ERRORS.backend_permissions, status, 'backend_permissions');
+  if (status >= 500 && /^.*project (?:is )?paused\b/i.test(message)) return new SupabaseError('server', ACCOUNT_ERRORS.project_unavailable, status, 'project_unavailable');
   if (status === 409) return new SupabaseError('conflict', 'Cloud progress changed. Fetch the latest progress and try again.', status);
   if (status === 401 || status === 403 || (authRequest && status >= 400 && status < 500 && status !== 429)) {
-    const message = detail?.error_code === 'email_not_confirmed' || detail?.code === 'email_not_confirmed'
-      ? 'Confirm your email before signing in.'
-      : detail?.error_code === 'weak_password' || detail?.code === 'weak_password'
-        ? 'Choose a stronger password and try again.'
-        : 'Your account details or session could not be verified. Check your details and try again.';
-    return new SupabaseError('auth', message, status);
+    const known = ['email_not_confirmed', 'weak_password', 'invalid_credentials'].includes(reason) ? reason : '';
+    return new SupabaseError('auth', known ? ACCOUNT_ERRORS[known] : 'Your account details or session could not be verified. Check your details and try again.', status, known);
   }
-  if (status === 429) return new SupabaseError('server', 'Too many requests. Wait a little before trying again.', status);
+  if (status === 429) return new SupabaseError('server', ACCOUNT_ERRORS.rate_limited, status, 'rate_limited');
   return new SupabaseError('server', 'The account service is unavailable. Try again later.', status);
 }
 
@@ -105,6 +130,7 @@ function createRequest({ url, publishableKey, fetch: fetchImpl = globalThis.fetc
   const base = secureUrl(url, { originOnly: true });
   const key = publicKey(publishableKey);
   if (typeof fetchImpl !== 'function') throw invalid('This app needs browser networking to use account sync.');
+  if (typeof globalThis.AbortController !== 'function' || typeof globalThis.TextEncoder !== 'function') throw new SupabaseError('compatibility', ACCOUNT_ERRORS.webview_outdated, 0, 'webview_outdated');
   if (!Number.isFinite(timeoutMs) || timeoutMs <= 0 || timeoutMs > 120000) throw invalid('The account request timeout is invalid.');
 
   async function request(path, { method = 'POST', body, accessToken, authRequest = false } = {}) {
@@ -165,10 +191,15 @@ export function createSupabaseRpcCaller(options, allowedNames) {
  */
 export function createSupabaseClient(options = {}) {
   const request = createRequest(options);
-  const redirect = options.redirectUrl === undefined ? undefined : secureUrl(options.redirectUrl);
+  const redirect = options.redirectUrl === undefined || options.redirectUrl === '' ? undefined : secureUrl(options.redirectUrl);
 
   const withRedirect = path => redirect ? `${path}?redirect_to=${encodeURIComponent(redirect)}` : path;
   return Object.freeze({
+    async checkConnection() {
+      const result = await request('/auth/v1/settings', {method: 'GET'});
+      if (!object(result) || !object(result.external) || typeof result.external.email !== 'boolean') throw malformed();
+      return {emailEnabled: result.external.email};
+    },
     async signIn(address, secret) {
       return session(await request('/auth/v1/token?grant_type=password', { body: { email: email(address), password: password(secret) }, authRequest: true }));
     },

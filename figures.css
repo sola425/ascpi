@@ -1,0 +1,18 @@
+/* Source colors and labels stay as printed, including in dark appearance. */
+.question-figures{min-width:0;margin:18px 0;color:var(--ink)}
+.source-figure-heading{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:0 0 10px}
+.source-figure-heading strong{font-size:13px}.source-figure-heading span{font-size:11px;color:var(--muted)}
+.source-figure-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;align-items:start}
+.source-figure{margin:0;min-width:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.source-figure-open{position:relative;display:block;width:100%;padding:10px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:#fff;color:#234b3e;min-height:44px;text-align:center;cursor:zoom-in}
+.source-figure-open img{display:block;width:auto;max-width:100%;height:auto;max-height:410px;margin:0 auto;object-fit:contain;background:#fff;color:#234b3e}
+.source-figure-enlarge{display:inline-flex;align-items:center;min-height:30px;margin-top:5px;padding:2px 6px;font-size:11px;font-weight:600}
+.source-figure figcaption{display:flex;align-items:center;justify-content:space-between;gap:6px 12px;flex-wrap:wrap;padding:9px 13px;overflow-wrap:anywhere}
+.source-figure figcaption strong{font-size:12px}.source-figure figcaption .source-link{margin:0;font-size:10px;min-height:44px}
+.source-figure-note{font-size:12px;line-height:1.7;color:var(--muted);margin:6px 0 13px}
+.source-figure-fallback{padding:12px 15px;border:1px dashed var(--line);border-radius:9px;margin:15px 0;background:var(--surface)}
+.source-figure-fallback p{font-size:12px;margin:0 0 3px}.source-figure-fallback .source-link{min-height:44px}
+.source-figure-open:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.figure-zoom{max-width:100%;overflow:auto;touch-action:pan-x pan-y pinch-zoom;background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px}
+.figure-zoom img{display:block;max-width:none;height:auto;background:#fff}
+@media(max-width:719px){.source-figure-heading span{font-size:10px}.source-figure-open{padding:8px}.source-figure figcaption{padding:7px 11px}}

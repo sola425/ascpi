@@ -1,5 +1,5 @@
 // Auth storage and progress are separate. Only allowlisted sync documents are uploaded.
-import {createSupabaseClient} from './supabase-client.js';
+import {createSupabaseClient,accountErrorDetails} from './supabase-client.js';
 import {validateSyncConfig} from './sync-config.js';
 import {validateGame} from './game.js';
 import {blankSyncDocument, validateSyncDocument, captureProgress, mergeSyncDocuments, projectProgress} from './sync-model.js';
@@ -20,6 +20,8 @@ const storageError = () => failure('storage', 'Account sync could not save its d
 const authRemovalError = 'Saved sign-in could not be cleared. Account sync is paused. Try clearing saved sign-in again before closing the app.';
 const malformed = () => failure('document', 'Cloud progress could not be read safely. Your device progress has been kept.');
 function safeError(error) {
+  const detail = accountErrorDetails(error);
+  if (detail) return detail.message;
   switch (error?.code) {
     case 'storage': return storageError().message;
     case 'document': return malformed().message;
@@ -28,8 +30,17 @@ function safeError(error) {
     case 'network': case 'timeout': return 'You are offline or the account service could not be reached. Your device progress is safe and will sync when connected.';
     case 'conflict': return 'Another device is updating this account. Your changes are queued and will retry.';
     case 'invalid': return 'Check your email address and password, then try again.';
+    case 'configuration': return 'This app’s account connection needs an update. Install the latest app or contact the app owner.';
+    case 'compatibility': return 'Update Android System WebView or Chrome, then reopen Labwise and try signing in again.';
+    case 'backend_setup': return 'Sign-in worked, but progress sync needs setup by the app owner.';
+    case 'server': return 'The account service is unavailable. Your device progress is safe. Try again later.';
     default: return 'Account sync is unavailable. Your device progress is safe. Try again later.';
   }
+}
+function safeCode(error) {
+  const detail = accountErrorDetails(error);
+  if (detail) return detail.code;
+  return ['storage','document','size','auth','network','timeout','conflict','invalid','server','configuration','compatibility','backend_setup','stale'].includes(error?.code) ? error.code : 'unavailable';
 }
 function document(value) {
   let result;
@@ -87,7 +98,7 @@ export function createSyncController({config, storage, getProgress, setProgress,
   const keys = {profiles: 'labwise-sync-profiles-v1', device: 'labwise-sync-device-v1'};
   const accountId = uid => { const value = `${suffix}:${uid}`; if (!id(value)) throw failure('auth', 'The account identifier is invalid.'); return value; };
   let state = {configured, phase: configurationError ? 'error' : configured ? 'signedOut' : 'local', user: null,
-    lastSyncedAt: null, pending: false, error: configurationError};
+    lastSyncedAt: null, pending: false, error: configurationError, errorCode: configurationError ? 'configuration' : null};
   let client, session = null, owner = emptyMetadata(), doc = null, lastSnapshot = null, deviceId;
   let initialized = false, initialization = null, initializationError = null, stopped = false, generation = 0, authBusy = false;
   let sessionVerified = false, needsAttach = false, identityFlight = null, captureError = null;
@@ -95,6 +106,7 @@ export function createSyncController({config, storage, getProgress, setProgress,
   const listeners = [];
   const getStatus = () => clone(state);
   function publish(patch = {}) {
+    if (Object.prototype.hasOwnProperty.call(patch, 'error') && patch.error === null) patch = {...patch, errorCode: null};
     state = {...state, ...patch};
     try { onStatus(getStatus()); } catch { /* UI observers do not own the queue. */ }
   }
@@ -213,7 +225,7 @@ export function createSyncController({config, storage, getProgress, setProgress,
   function fail(error) {
     if (error?.code === 'stale') return;
     const offline = error?.code === 'network' || error?.code === 'timeout';
-    publish({phase: session ? offline ? 'offline' : 'error' : configured ? 'signedOut' : 'local', error: safeError(error), user: session ? {...session.user} : null});
+    publish({phase: session ? offline ? 'offline' : 'error' : configured ? 'signedOut' : 'local', error: safeError(error), errorCode: safeCode(error), user: session ? {...session.user} : null});
   }
   function dropSession(error) {
     generation++;
@@ -224,7 +236,7 @@ export function createSyncController({config, storage, getProgress, setProgress,
     needsAttach = false;
     clearTimers();
     const removed = clearAuth();
-    publish({phase: 'signedOut', user: null, error: removed ? safeError(error) : authRemovalError});
+    publish({phase: 'signedOut', user: null, error: removed ? safeError(error) : authRemovalError, errorCode: removed ? safeCode(error) : 'storage'});
   }
   function schedule(delay = debounceMs) {
     if (!initialized || stopped || !session || authBusy || !configured) return;
@@ -518,7 +530,7 @@ export function createSyncController({config, storage, getProgress, setProgress,
   }
   async function authenticate(kind, email, password, options = {}) {
     await init();
-    if (!configured || stopped || authBusy || initializationError || captureError) return {ok: false, error: initializationError || captureError ? safeError(initializationError || captureError) : 'Account sync is unavailable.', status: getStatus()};
+    if (!configured || stopped || authBusy || initializationError || captureError) return {ok: false, error: initializationError || captureError ? safeError(initializationError || captureError) : 'Account sync is unavailable.', code: initializationError || captureError ? safeCode(initializationError || captureError) : 'unavailable', status: getStatus()};
     const epoch = ++generation;
     authBusy = true;
     clearTimers();
@@ -538,7 +550,7 @@ export function createSyncController({config, storage, getProgress, setProgress,
       return {ok: true, user: {...session.user}, requiresEmailConfirmation: false, status: getStatus()};
     } catch (error) {
       if (epoch === generation && !stopped) fail(error);
-      return {ok: false, error: safeError(error), status: getStatus()};
+      return {ok: false, error: safeError(error), code: safeCode(error), status: getStatus()};
     } finally {
       if (epoch === generation) {
         authBusy = false;
@@ -558,7 +570,7 @@ export function createSyncController({config, storage, getProgress, setProgress,
     rerun = false;
     clearTimers();
     const removed = clearAuth();
-    publish({phase: configured ? 'signedOut' : 'local', user: null, error: removed ? null : authRemovalError});
+    publish({phase: configured ? 'signedOut' : 'local', user: null, error: removed ? null : authRemovalError, errorCode: removed ? null : 'storage'});
     if (old && configured && !stopped) {
       try { await transport().signOut(old.accessToken); } catch { /* Opt-out succeeds even while offline. */ }
     }
@@ -576,6 +588,31 @@ export function createSyncController({config, storage, getProgress, setProgress,
     const epoch = generation, uid = session.user.id;
     try { await prepareSession(epoch, uid); const value = await freshSession(epoch, uid); assertCurrent(epoch, uid); return value; }
     catch (error) { throw failure(error?.code === 'network' || error?.code === 'timeout' ? error.code : 'auth', safeError(error)); }
+  }
+  async function checkConnection() {
+    await init();
+    const diagnostic = {ok: false, stage: 'local', code: 'unavailable', message: 'Account sync is not configured in this build.', checkedAt: clock(), authenticated: !!session};
+    if (!configured || stopped) return diagnostic;
+    if (initializationError || captureError) {
+      const error = initializationError || captureError;
+      return {...diagnostic, code: safeCode(error), message: safeError(error)};
+    }
+    const epoch = generation, uid = session?.user.id;
+    let stage = 'auth';
+    try {
+      const settingsResult = await transport().checkConnection();
+      if (stopped || generation !== epoch) return {...diagnostic, code: 'stale', message: 'The account changed during this check. Try the connection check again.'};
+      if (settingsResult?.emailEnabled !== true) return {...diagnostic, stage, code: 'email_disabled', message: accountErrorDetails({reason: 'email_disabled'}).message};
+      if (!uid) return {...diagnostic, ok: true, stage, code: 'sign_in_required', message: 'The account service is reachable. Sign in to check progress sync.'};
+      stage = 'progress';
+      await prepareSession(epoch, uid);
+      assertCurrent(epoch, uid);
+      readCloud(await authenticated('readProgress', [], epoch, uid));
+      assertCurrent(epoch, uid);
+      return {...diagnostic, ok: true, stage, code: 'ready', progressReady: true, message: 'The progress service is reachable. Sync now to merge your latest progress.'};
+    } catch (error) {
+      return {...diagnostic, stage, code: safeCode(error), message: safeError(error)};
+    }
   }
   function mergeImportedProgress(progress) {
     ensureDocument();
@@ -611,5 +648,5 @@ export function createSyncController({config, storage, getProgress, setProgress,
   }
   return Object.freeze({init, localChanged, signUp: (email, password) => authenticate('signUp', email, password),
     signIn: (email, password, options) => authenticate('signIn', email, password, options), resetPassword,
-    signOut, syncNow, stop, getStatus, getAccessToken, mergeImportedProgress});
+    signOut, syncNow, stop, getStatus, getAccessToken, checkConnection, mergeImportedProgress});
 }

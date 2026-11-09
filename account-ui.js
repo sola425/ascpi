@@ -12,7 +12,7 @@ function lastSync(value) {
 
 function feedback(status, message) {
   const error = copy(status.error), information = copy(message);
-  return `${error ? `<p class="account-notice account-error" role="alert">${esc(error)}</p>` : ''}${information ? `<p class="account-notice" role="status" aria-live="polite">${esc(information)}</p>` : ''}`;
+  return `${error ? `<p class="account-notice account-error" role="alert">${esc(error)}</p>` : ''}${information && !error ? `<p class="account-notice" role="status" aria-live="polite">${esc(information)}</p>` : ''}`;
 }
 
 function accountChoices(mode, disabled) {
@@ -23,7 +23,7 @@ function accountChoices(mode, disabled) {
   ].map(([value, label, action]) => `<button type="button" data-action="${action}" aria-pressed="${mode === value}"${disabled ? ' disabled' : ''}>${label}</button>`).join('')}</nav>`;
 }
 
-function accountForm(mode, working, emailFlowsAvailable) {
+function accountForm(mode, working, emailFlowsAvailable, emailAddress) {
   const signup = mode === 'signUp', reset = mode === 'reset';
   const title = reset ? 'Request a password reset' : signup ? 'Create your account' : 'Sign in to your account';
   const description = reset
@@ -39,8 +39,8 @@ function accountForm(mode, working, emailFlowsAvailable) {
     <form id="account-form" method="post" aria-describedby="account-form-description" aria-busy="${working}">
       <fieldset class="account-fields"${working ? ' disabled' : ''}>
         <legend class="account-sr">${title}</legend>
-        <div class="account-field"><label for="account-email">Email address</label><input id="account-email" name="email" type="email" inputmode="email" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="320" required></div>
-        ${reset ? '' : `<div class="account-field"><label for="account-password">Password</label><input id="account-password" name="password" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}"${signup ? ' minlength="12"' : ''} maxlength="128" aria-describedby="account-password-help" required><p id="account-password-help" class="account-field-help">${signup ? 'Use at least 12 characters. A longer passphrase is welcome.' : 'Use your existing password.'}</p></div>`}
+        <div class="account-field"><label for="account-email">Email address</label><input id="account-email" name="email" type="email" inputmode="email" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="320" value="${esc(typeof emailAddress === 'string' ? emailAddress.slice(0,320) : '')}" required></div>
+        ${reset ? '' : `<div class="account-field"><label for="account-password">Password</label><div class="account-password-row"><input id="account-password" name="password" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}"${signup ? ' minlength="12"' : ''} maxlength="128" aria-describedby="account-password-help" required><button class="btn account-button" type="button" data-action="account-password-toggle" aria-controls="account-password" aria-pressed="false">Show</button></div><p id="account-password-help" class="account-field-help">${signup ? 'Use at least 12 characters. A longer passphrase is welcome.' : 'Use your existing password.'}</p></div>`}
         <button type="submit" class="btn primary account-button account-submit">${working ? 'Please wait…' : submit}</button>
       </fieldset>
     </form>
@@ -83,8 +83,13 @@ function ownershipNote() {
   </ul>${button('Export progress backup', 'backup')}</aside>`;
 }
 
+function connectionHelp(diagnostics, checking, disabled) {
+  const result = diagnostics && typeof diagnostics === 'object' ? diagnostics : null;
+  return `<section class="account-connection" aria-labelledby="account-connection-title"><div><h2 id="account-connection-title">Trouble signing in?</h2><p>Check whether this device can reach the account service. This never sends your password or changes your progress.</p></div>${button(checking ? 'Checking connection…' : 'Check connection', 'account-check', {disabled: disabled || checking})}${checking ? '<p class="account-working" role="status">Checking the account connection…</p>' : ''}${result ? `<div class="account-notice${result.ok === true ? '' : ' account-error'}" role="status"><p>${esc(copy(result.message))}</p>${result.ok !== true && typeof result.code === 'string' ? `<small>Help code: ${esc(result.code.slice(0,80))}</small>` : ''}</div>` : ''}</section>`;
+}
+
 /** Pure view: the host handles forms/actions, requests and transient credentials. */
-export function renderAccount({status = {}, mode = 'signIn', busy = false, message = '', returnToDuel = false, emailFlowsAvailable = true} = {}) {
+export function renderAccount({status = {}, mode = 'signIn', busy = false, message = '', returnToDuel = false, emailFlowsAvailable = true, emailAddress = '', diagnostics = null, checking = false} = {}) {
   const state = status && typeof status === 'object' ? status : {};
   const configured = state.configured === true;
   const user = state.user;
@@ -97,5 +102,5 @@ export function renderAccount({status = {}, mode = 'signIn', busy = false, messa
     : '';
   const header = `<header class="account-header"><p class="eyebrow">YOUR STUDY SPACE</p><div class="account-title-row"><h1 tabindex="-1">${authenticated ? 'Your study account.' : 'Your progress, with you.'}</h1>${button('Back to Play', 'arcade-hub')}</div><p>An optional account keeps your study progress across phones. You can keep learning on this device without an account.</p></header>`;
   if (!configured) return `<div class="account-page">${header}${feedback(state, message)}<section class="account-card account-local" aria-labelledby="account-local-title"><span class="account-emblem" aria-hidden="true">${icon('saved')}</span><h2 id="account-local-title">Keep learning on this device.</h2><p>Account sync isn’t available in this build. Your questions, explanations and local progress are ready to use.</p><p>Export a progress backup to bring your work to another phone.</p><div class="account-actions">${button('Export progress backup', 'backup', {primary: true})}${button('Explore Play', 'arcade-hub')}</div></section></div>`;
-  return `<div class="account-page">${header}${feedback(state, message)}${!authenticated && state.error ? `<div class="account-actions">${button('Clear saved sign-in', 'account-signout', {disabled: working})}</div>` : ''}${confirmation}${!authenticated && returnToDuel ? '<p class="account-notice">Sign in to create or join a Friend Duel. You can return to Play whenever you like.</p>' : ''}<div class="account-layout">${authenticated ? signedIn(state, busy === true, returnToDuel === true) : accountForm(selectedMode, working, emailReady)}${ownershipNote()}</div></div>`;
+  return `<div class="account-page">${header}${feedback(state, message)}${!authenticated && state.error ? `<div class="account-actions">${button('Clear saved sign-in', 'account-signout', {disabled: working})}</div>` : ''}${confirmation}${!authenticated && returnToDuel ? '<p class="account-notice">Sign in to create or join a Friend Duel. You can return to Play whenever you like.</p>' : ''}<div class="account-layout">${authenticated ? signedIn(state, busy === true, returnToDuel === true) : accountForm(selectedMode, working, emailReady, emailAddress)}${ownershipNote()}</div>${connectionHelp(diagnostics, checking === true, working)}</div>`;
 }

@@ -44,7 +44,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
 
-/** Bundled study host with opt-in account APIs. Speech uses the external device provider. */
+/** Bundled study host with opt-in account APIs and foreground device speech. */
 public final class MainActivity extends Activity {
   private static final String HOST="appassets.androidplatform.net";
   private static final int MAX_SYNC_CONFIG_BYTES=16*1024;
@@ -63,6 +63,8 @@ public final class MainActivity extends Activity {
   private String voiceToken;
   private int voiceRequest;
   private Runnable voiceTimeout;
+  private HostVoice hostVoice;
+  private volatile String webViewVersion="";
 
   @Override public void onCreate(Bundle state) {
     super.onCreate(state);
@@ -70,6 +72,7 @@ public final class MainActivity extends Activity {
     if(state!=null){pendingExport=state.getString("export");pendingName=state.getString("exportName");}
     getWindow().setStatusBarColor(Color.rgb(35,75,62));
     getWindow().setNavigationBarColor(Color.rgb(35,75,62));
+    setVolumeControlStream(android.media.AudioManager.STREAM_MUSIC);
     FrameLayout root=new FrameLayout(this);
     root.setBackgroundColor(Color.rgb(248,249,244));
     root.setOnApplyWindowInsetsListener((v,insets)->{
@@ -77,9 +80,18 @@ public final class MainActivity extends Activity {
       return insets.consumeSystemWindowInsets();
     });
     web=new WebView(this);
+    try{android.content.pm.PackageInfo engine=WebView.getCurrentWebViewPackage();if(engine!=null&&engine.versionName!=null)webViewVersion=engine.versionName;}catch(RuntimeException ignored){}
+    hostVoice=new HostVoice(this,new HostVoice.Events(){
+      @Override public void speech(String token,String status,String code){hostVoiceEvent("labwiseNativeHostSpeech",token,status,null,code);}
+      @Override public void recognition(String token,String status,String text,String code){hostVoiceEvent("labwiseNativeHostResult",token,status,text,code);}
+      @Override public void beforeHostAudio(){cancelNativeVoice(true);}
+    });
     root.addView(web,new FrameLayout.LayoutParams(-1,-1));
     setContentView(root);
     WebSettings settings=web.getSettings();
+    // Every APK upgrade reads its bundled bytes, even when asset URLs are unchanged.
+    // This affects HTTP resource caching, never DOM storage or saved progress.
+    settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
     settings.setJavaScriptEnabled(true);
     settings.setDomStorageEnabled(true);
     settings.setDatabaseEnabled(true);
@@ -96,7 +108,7 @@ public final class MainActivity extends Activity {
     web.setBackgroundColor(Color.rgb(248,249,244));
     web.addJavascriptInterface(new NativeBridge(),"LabwiseAndroid");
     web.setWebViewClient(new WebViewClient(){
-      @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap icon){cancelNativeVoice(false);}
+      @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap icon){cancelNativeVoice(false);if(hostVoice!=null)hostVoice.pageChanged();}
       @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
         Uri uri=request.getUrl();
         if(!isAssetOrigin(uri)){
@@ -113,6 +125,7 @@ public final class MainActivity extends Activity {
           InputStream data=getAssets().open(path);
           Map<String,String> headers=new HashMap<>();
           headers.put("X-Content-Type-Options","nosniff");
+          headers.put("Cache-Control","no-store");
           headers.put("Content-Security-Policy",syncPolicy.contentSecurityPolicy());
           String mime=mime(path);
           return new WebResourceResponse(mime,mime.startsWith("text/")||mime.contains("json")?"UTF-8":null,200,"OK",headers,data);
@@ -180,6 +193,8 @@ public final class MainActivity extends Activity {
     if(path.endsWith(".css"))return "text/css";
     if(path.endsWith(".json")||path.endsWith(".webmanifest"))return "application/json";
     if(path.endsWith(".png"))return "image/png";
+    if(path.endsWith(".jpg")||path.endsWith(".jpeg"))return "image/jpeg";
+    if(path.endsWith(".webp"))return "image/webp";
     if(path.endsWith(".svg"))return "image/svg+xml";
     if(path.endsWith(".pdf"))return "application/pdf";
     return "application/octet-stream";
@@ -208,7 +223,7 @@ public final class MainActivity extends Activity {
       if(!enabled||value==null||value.length()>256)return disabled();
       try{
         URI uri=new URI(value);String host=uri.getHost();
-        if(!"https".equals(uri.getScheme())||host==null||!host.matches("[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.supabase\\.co")||!validAuthority(uri)||uri.getRawQuery()!=null||uri.getRawFragment()!=null||!"".equals(uri.getRawPath()))return disabled();
+        if(!"https".equals(uri.getScheme())||host==null||!host.matches("[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.supabase\\.co")||!validAuthority(uri)||uri.getRawQuery()!=null||uri.getRawFragment()!=null||!("".equals(uri.getRawPath())||"/".equals(uri.getRawPath())))return disabled();
         return new SyncPolicy("https://"+host);
       }catch(Exception ignored){return disabled();}
     }
@@ -223,11 +238,14 @@ public final class MainActivity extends Activity {
         if(!"https".equals(uri.getScheme())||!validAuthority(uri)||!origin.equals("https://"+uri.getHost())||uri.getRawFragment()!=null)return false;
         String path=uri.getRawPath();
         boolean user="/auth/v1/user".equals(path);
+        boolean diagnostic="/auth/v1/settings".equals(path)||"/auth/v1/health".equals(path);
         boolean auth=user||"/auth/v1/token".equals(path)||"/auth/v1/signup".equals(path)||"/auth/v1/recover".equals(path)||"/auth/v1/logout".equals(path);
         boolean rpc="/rest/v1/rpc/labwise_read_progress".equals(path)||"/rest/v1/rpc/labwise_write_progress".equals(path)||"/rest/v1/rpc/labwise_create_challenge".equals(path)||"/rest/v1/rpc/labwise_join_challenge".equals(path)||"/rest/v1/rpc/labwise_get_challenge".equals(path)||"/rest/v1/rpc/labwise_get_turn".equals(path)||"/rest/v1/rpc/labwise_submit_answer".equals(path)||"/rest/v1/rpc/labwise_next_turn".equals(path)||"/rest/v1/rpc/labwise_list_challenges".equals(path);
-        if(!auth&&!rpc)return false;
+        if(!auth&&!rpc&&!diagnostic)return false;
         if(rpc&&uri.getRawQuery()!=null)return false;
+        if(diagnostic&&uri.getRawQuery()!=null)return false;
         if("OPTIONS".equals(method))return true;
+        if(diagnostic)return "GET".equals(method);
         return user?("GET".equals(method)||"PUT".equals(method)):"POST".equals(method);
       }catch(Exception ignored){return false;}
     }
@@ -326,6 +344,14 @@ public final class MainActivity extends Activity {
   private static boolean validVoiceToken(String token){return token!=null&&token.length()<=96&&token.matches("lwvoice_[a-z0-9]+_[a-z0-9]+_[a-z0-9]+");}
   private static String voiceLanguage(String language){return language!=null&&language.length()<=63&&language.matches("[a-zA-Z]{2,8}(-[a-zA-Z0-9]{1,8}){0,6}")?language:"en-US";}
   private static String javascriptString(String value){return org.json.JSONObject.quote(value).replace(String.valueOf((char)0x2028),"\\u2028").replace(String.valueOf((char)0x2029),"\\u2029");}
+  private void hostVoiceEvent(String callback,String token,String status,String text,String code){
+    if(!HostVoiceRules.validToken(token)||web==null)return;
+    try{
+      org.json.JSONObject payload=new org.json.JSONObject().put("status",status);
+      if(text!=null)payload.put("text",text);if(code!=null)payload.put("code",code);
+      web.evaluateJavascript("window."+callback+" && window."+callback+"("+javascriptString(token)+",JSON.parse("+javascriptString(payload.toString())+"))",null);
+    }catch(org.json.JSONException ignored){/* Bounded local speech events only. */}
+  }
   private void voiceResult(String token,String status,ArrayList<String> alternatives,String code,String message){
     if(!validVoiceToken(token)||web==null)return;
     try{
@@ -351,6 +377,7 @@ public final class MainActivity extends Activity {
   }
   private void startNativeVoice(String token,String language){
     if(!validVoiceToken(token)||isFinishing()||web==null)return;
+    if(hostVoice!=null){hostVoice.stopListening();hostVoice.stopSpeech();}
     cancelNativeVoice(true);
     if(nextVoiceRequest>65000){voiceResult(token,"error",null,"error","Please reopen Labwise before starting another voice session.");return;}
     voiceToken=token;
@@ -381,10 +408,21 @@ public final class MainActivity extends Activity {
   }
 
   private final class NativeBridge {
-    @JavascriptInterface public String version(){return "6.0.0";}
+    @JavascriptInterface public String version(){return "7.0.0";}
     @JavascriptInterface public String readSecureSyncSession(String key){return readSecureSession(key);}
     @JavascriptInterface public boolean writeSecureSyncSession(String key,String json){return writeSecureSession(key,json);}
     @JavascriptInterface public boolean clearSecureSyncSession(String key){return clearSecureSession(key);}
+    @JavascriptInterface public String syncCapabilities(){
+      try{
+        org.json.JSONObject value=new org.json.JSONObject().put("configured",syncPolicy.origin!=null).put("origin",syncPolicy.origin==null?"":syncPolicy.origin);
+        return value.put("webViewVersion",webViewVersion).toString();
+      }catch(RuntimeException|org.json.JSONException ignored){return "{\"configured\":false}";}
+    }
+    @JavascriptInterface public String hostVoiceCapabilities(){return hostVoice==null?"{}":hostVoice.capabilities();}
+    @JavascriptInterface public boolean speakHost(String text,String token,String voiceId,double rate){return hostVoice!=null&&hostVoice.speak(text,token,voiceId,rate);}
+    @JavascriptInterface public void stopHostSpeech(){if(hostVoice!=null)hostVoice.stopSpeech();}
+    @JavascriptInterface public boolean startHostListening(String token,String language){return hostVoice!=null&&hostVoice.listen(token,language);}
+    @JavascriptInterface public void stopHostListening(){if(hostVoice!=null)hostVoice.stopListening();}
     @JavascriptInterface public void startVoiceInput(String token,String language){if(validVoiceToken(token))runOnUiThread(()->startNativeVoice(token,language));}
     @JavascriptInterface public void cancelVoiceInput(String token){if(validVoiceToken(token))runOnUiThread(()->{if(token.equals(voiceToken))cancelNativeVoice(true);});}
     @JavascriptInterface public void openTextbook(int page){openDocument("textbook",page);}
@@ -448,8 +486,9 @@ public final class MainActivity extends Activity {
     }
   }
   @Override public void onSaveInstanceState(Bundle out){super.onSaveInstanceState(out);/* Large export contents are deliberately not placed in Binder state. */}
+  @Override public void onRequestPermissionsResult(int request,String[] permissions,int[] grants){super.onRequestPermissionsResult(request,permissions,grants);if(hostVoice!=null)hostVoice.permissionResult(request,grants);}
   @Override public void onBackPressed(){web.evaluateJavascript("window.labwiseBack ? window.labwiseBack() : false",result->{if(!"true".equals(result))new AlertDialog.Builder(this).setTitle("Close Labwise?").setMessage("Your progress is saved on this device.").setNegativeButton("Keep studying",null).setPositiveButton("Close",(d,w)->finish()).show();});}
-  @Override protected void onPause(){web.onPause();super.onPause();}
-  @Override protected void onResume(){super.onResume();if(web!=null){web.onResume();web.evaluateJavascript("window.labwiseNativeReading && window.labwiseNativeReading()",null);}}
-  @Override protected void onDestroy(){cancelNativeVoice(false);if(chooser!=null){chooser.onReceiveValue(null);chooser=null;}if(web!=null){web.removeJavascriptInterface("LabwiseAndroid");web.destroy();web=null;}super.onDestroy();}
+  @Override protected void onPause(){if(hostVoice!=null)hostVoice.pause();if(web!=null)web.onPause();super.onPause();}
+  @Override protected void onResume(){super.onResume();if(hostVoice!=null)hostVoice.resume();if(web!=null){web.onResume();web.evaluateJavascript("window.labwiseNativeReading && window.labwiseNativeReading()",null);}}
+  @Override protected void onDestroy(){cancelNativeVoice(false);if(hostVoice!=null){hostVoice.destroy();hostVoice=null;}if(chooser!=null){chooser.onReceiveValue(null);chooser=null;}if(web!=null){web.removeJavascriptInterface("LabwiseAndroid");web.destroy();web=null;}super.onDestroy();}
 }

@@ -31,12 +31,14 @@ function content(id, syncAvailable) {
       return `<p class="onboarding-summary" id="tour-description">Each answer is a starting point for understanding.</p>
         ${list([
           item('Read the explanation', 'See the idea in plain language after answering.'),
+          item('View an attached picture', 'Original photographs, diagrams and charts appear beside matched questions. Tap a picture to enlarge it.'),
           item('Explore every choice', 'Learn why each option fits or misses the question.'),
           item('Try the memory check', 'Recall the idea before revealing the answer, then continue when you’re ready.')
         ])}`;
     case 'play':
       return `<p class="onboarding-summary" id="tour-description">Open Play and choose a subject, or mix subjects.</p>
         ${list([
+          item('Quiz Show · learn out loud', 'A voice host reads questions, listens to your choice, asks for confirmation and helps you recall the idea.'),
           item('Lab Sprint · five questions', 'Take a short round with explanations and memory checks. Read at your own pace.'),
           item('Frenzy · 30 seconds each · 3 hearts', 'Try a faster round when you feel ready. A wrong answer or timeout costs one heart.'),
           item('Practice · your own pace', 'Explore questions without a countdown, and revisit explanations whenever you need.')
@@ -45,11 +47,11 @@ function content(id, syncAvailable) {
     case 'voice':
       return `<p class="onboarding-summary" id="tour-description">Voice is optional. Tapping an answer always works.</p>
         ${list([
-          item('Choose when to speak', 'Tap the microphone only when you want to use it.'),
+          item('Choose when to speak', 'Start the Quiz Show host for spoken questions and hands-free turns, or use the microphone on other study screens.'),
           item('Check or edit the transcript', 'Make sure the words and selected answer match what you meant.'),
           item('Confirm your answer', 'You submit the answer after checking it.')
         ])}
-        ${note('Voice availability depends on your device or browser and may need a connection. This tour never opens the microphone.')}`;
+        ${note('Your device supplies the voice and speech recognition; online services may need a connection. You can pause, repeat, or use the buttons. This tour never opens the microphone.')}`;
     case 'friends':
       return `<p class="onboarding-summary" id="tour-description">Use Friend challenge in Play to share a round and compare results.</p>
         ${list([

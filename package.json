@@ -1,6 +1,6 @@
 {
   "name": "labwise-study",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -20,6 +20,7 @@
     "test:callback": "node tests/auth-callback.cjs",
     "test:db": "node supabase/tests/run-postgres.mjs",
     "test:voice": "node --test tests/voice.test.js",
-    "test:game-ux": "node tests/ux-game-v5.cjs"
+    "test:game-ux": "node tests/ux-game-v5.cjs",
+    "test:compatibility": "node tests/compatibility-browser.cjs"
   }
 }

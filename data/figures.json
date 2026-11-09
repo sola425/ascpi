@@ -1,0 +1,5013 @@
+{
+  "version": 1,
+  "documents": {
+    "textbook": {
+      "path": "docs/textbook.pdf",
+      "label": "Success textbook",
+      "pages": 434,
+      "sha256": "646b9f4c6bdd5641158705869657e0a04365dc5ae3b21315b1f9f61ae0b4abbc"
+    },
+    "boc1": {
+      "path": "docs/boc-1.pdf",
+      "label": "BOC · Part 1",
+      "pages": 333,
+      "sha256": "8dd37b3415ea5c368ee9bf6ab0ab5f346435e3f524c80f4f60deb848ad7dc6cf"
+    },
+    "boc2": {
+      "path": "docs/boc-2.pdf",
+      "label": "BOC · Part 2",
+      "pages": 333,
+      "sha256": "a801b3ef7ecf1692a883b06f5f956ef6c835d5d794ccf94b5777ff71ce53d83d"
+    }
+  },
+  "figures": {
+    "fig-01859810f61a6cf5e6": {
+      "id": "fig-01859810f61a6cf5e6",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 285,
+      "rect": [
+        86.75,
+        337.23,
+        295.03,
+        487.91
+      ],
+      "path": "assets/figures/284abcb4ad9f417fa1318175.webp",
+      "width": 480,
+      "height": 348,
+      "bytes": 11678,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 285.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-8"
+      ]
+    },
+    "fig-0986879d35eb9647a2": {
+      "id": "fig-0986879d35eb9647a2",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 156,
+      "rect": [
+        145.35,
+        125.58,
+        359.66,
+        211.63
+      ],
+      "path": "assets/figures/d03c7ce0a6d5284b86103791.webp",
+      "width": 494,
+      "height": 199,
+      "bytes": 5070,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 156.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-2-166"
+      ]
+    },
+    "fig-0c42849fe55536e9a6": {
+      "id": "fig-0c42849fe55536e9a6",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 321,
+      "rect": [
+        87.0,
+        322.0,
+        245.0,
+        497.35
+      ],
+      "path": "assets/figures/975a927b82f0cd2670818598.webp",
+      "width": 364,
+      "height": 404,
+      "bytes": 10186,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 321.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-4-234"
+      ]
+    },
+    "fig-0cfa8a3b5cdb45372f": {
+      "id": "fig-0cfa8a3b5cdb45372f",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 260,
+      "rect": [
+        157.08,
+        180.5,
+        279.96,
+        315.44
+      ],
+      "path": "assets/figures/ab94092321e3a5119379f87e.webp",
+      "width": 283,
+      "height": 311,
+      "bytes": 13218,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 260.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-111"
+      ]
+    },
+    "fig-0d9f6247d751c1a049": {
+      "id": "fig-0d9f6247d751c1a049",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        40.0,
+        185.0,
+        298.0,
+        336.0
+      ],
+      "path": "assets/figures/c26c1347df0a6166b6790d7d.webp",
+      "width": 594,
+      "height": 348,
+      "bytes": 13960,
+      "caption": "Color Plate 26",
+      "alt": "Color Plate 26 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-203-12"
+      ]
+    },
+    "fig-0ff445241ef396ad5f": {
+      "id": "fig-0ff445241ef396ad5f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 152,
+      "rect": [
+        88.09,
+        102.14,
+        453.43,
+        258.85
+      ],
+      "path": "assets/figures/477cfa4c6594ba274ce538a5.webp",
+      "width": 841,
+      "height": 362,
+      "bytes": 43478,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 152.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-376"
+      ]
+    },
+    "fig-1036c0fe53a3d21eba": {
+      "id": "fig-1036c0fe53a3d21eba",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 236,
+      "rect": [
+        185.21,
+        262.55,
+        307.09,
+        396.49
+      ],
+      "path": "assets/figures/708c6842a869d719be63c1ec.webp",
+      "width": 282,
+      "height": 309,
+      "bytes": 13906,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 236.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-111"
+      ]
+    },
+    "fig-137d81030cec295a07": {
+      "id": "fig-137d81030cec295a07",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 12,
+      "rect": [
+        62.97,
+        385.79,
+        263.21,
+        540.49
+      ],
+      "path": "assets/figures/793d1cef99306287c256be63.webp",
+      "width": 462,
+      "height": 357,
+      "bytes": 13218,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 12.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-4-85"
+      ]
+    },
+    "fig-1532a19b4c835084fc": {
+      "id": "fig-1532a19b4c835084fc",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 426,
+      "rect": [
+        298.0,
+        267.0,
+        540.0,
+        448.0
+      ],
+      "path": "assets/figures/6b8aaee9f9aa5f21680008b0.webp",
+      "width": 557,
+      "height": 417,
+      "bytes": 8554,
+      "caption": "Color Plate 22",
+      "alt": "Color Plate 22 from Success textbook, PDF page 426.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-110-16"
+      ]
+    },
+    "fig-17759382869b04678a": {
+      "id": "fig-17759382869b04678a",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 431,
+      "rect": [
+        40.0,
+        20.0,
+        291.0,
+        222.0
+      ],
+      "path": "assets/figures/8721220c1ea8bbe63421a7bb.webp",
+      "width": 578,
+      "height": 465,
+      "bytes": 14122,
+      "caption": "Color Plate 50",
+      "alt": "Color Plate 50 from Success textbook, PDF page 431.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-41"
+      ]
+    },
+    "fig-1a888cf1099254984e": {
+      "id": "fig-1a888cf1099254984e",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 424,
+      "rect": [
+        20.0,
+        261.0,
+        269.0,
+        451.0
+      ],
+      "path": "assets/figures/bf19b47f215f262fedd34773.webp",
+      "width": 573,
+      "height": 438,
+      "bytes": 12900,
+      "caption": "Color Plate 8",
+      "alt": "Color Plate 8 from Success textbook, PDF page 424.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-86"
+      ]
+    },
+    "fig-1b106b9b7edc4833e0": {
+      "id": "fig-1b106b9b7edc4833e0",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 429,
+      "rect": [
+        290.0,
+        35.0,
+        540.0,
+        225.0
+      ],
+      "path": "assets/figures/dfb1323bfa01ee8dd479d7e9.webp",
+      "width": 575,
+      "height": 438,
+      "bytes": 17750,
+      "caption": "Color Plate 41",
+      "alt": "Color Plate 41 from Success textbook, PDF page 429.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-56"
+      ]
+    },
+    "fig-1e9acd293d54451363": {
+      "id": "fig-1e9acd293d54451363",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 214,
+      "rect": [
+        89.1,
+        185.19,
+        263.55,
+        322.81
+      ],
+      "path": "assets/figures/841abd6075d404a5d68e6346.webp",
+      "width": 403,
+      "height": 318,
+      "bytes": 10980,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 214.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-7-118"
+      ]
+    },
+    "fig-20f92ca8d4cf9d508c": {
+      "id": "fig-20f92ca8d4cf9d508c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 232,
+      "rect": [
+        89.0,
+        210.0,
+        260.0,
+        399.0
+      ],
+      "path": "assets/figures/6db6b64edea09de633755841.webp",
+      "width": 394,
+      "height": 435,
+      "bytes": 15214,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 232.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-7-250"
+      ]
+    },
+    "fig-22a42a03eaea554a63": {
+      "id": "fig-22a42a03eaea554a63",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 430,
+      "rect": [
+        20.0,
+        455.0,
+        270.0,
+        645.0
+      ],
+      "path": "assets/figures/474b56cad0954a5fa5754f00.webp",
+      "width": 575,
+      "height": 438,
+      "bytes": 35320,
+      "caption": "Color Plate 46",
+      "alt": "Color Plate 46 from Success textbook, PDF page 430.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-27"
+      ]
+    },
+    "fig-2495f5456f27654f24": {
+      "id": "fig-2495f5456f27654f24",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 255,
+      "rect": [
+        64.99,
+        190.89,
+        263.22,
+        338.97
+      ],
+      "path": "assets/figures/4b9271a660b461d97e1c8dd5.webp",
+      "width": 457,
+      "height": 341,
+      "bytes": 43056,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 255.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-81"
+      ]
+    },
+    "fig-25f5369f94756b0bcb": {
+      "id": "fig-25f5369f94756b0bcb",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 426,
+      "rect": [
+        20.0,
+        35.0,
+        287.0,
+        242.0
+      ],
+      "path": "assets/figures/5e046495aa5352a61044d96b.webp",
+      "width": 615,
+      "height": 477,
+      "bytes": 8472,
+      "caption": "Color Plate 19",
+      "alt": "Color Plate 19 from Success textbook, PDF page 426.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-235"
+      ]
+    },
+    "fig-2689d2fca307a74e19": {
+      "id": "fig-2689d2fca307a74e19",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 232,
+      "rect": [
+        225.06,
+        352.97,
+        304.07,
+        461.12
+      ],
+      "path": "assets/figures/b55362eade10aa165e34923a.webp",
+      "width": 183,
+      "height": 250,
+      "bytes": 6460,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 232.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-87"
+      ]
+    },
+    "fig-28c2800dcdec47ae3b": {
+      "id": "fig-28c2800dcdec47ae3b",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 430,
+      "rect": [
+        271.0,
+        35.0,
+        540.0,
+        224.0
+      ],
+      "path": "assets/figures/a4ae3d361975391d3e8ef6c2.webp",
+      "width": 619,
+      "height": 436,
+      "bytes": 40782,
+      "caption": "Color Plate 47",
+      "alt": "Color Plate 47 from Success textbook, PDF page 430.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-36"
+      ]
+    },
+    "fig-2990724544ecff83cd": {
+      "id": "fig-2990724544ecff83cd",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 424,
+      "rect": [
+        270.0,
+        35.0,
+        540.0,
+        242.0
+      ],
+      "path": "assets/figures/b8987a84d68fac2a28fc4c76.webp",
+      "width": 621,
+      "height": 477,
+      "bytes": 16500,
+      "caption": "Color Plate 10",
+      "alt": "Color Plate 10 from Success textbook, PDF page 424.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-96"
+      ]
+    },
+    "fig-2b6bc670dd6da0e311": {
+      "id": "fig-2b6bc670dd6da0e311",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 430,
+      "rect": [
+        20.0,
+        35.0,
+        270.0,
+        224.0
+      ],
+      "path": "assets/figures/cf38dbdea342c418b253ee5c.webp",
+      "width": 575,
+      "height": 436,
+      "bytes": 26248,
+      "caption": "Color Plate 44",
+      "alt": "Color Plate 44 from Success textbook, PDF page 430.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-59"
+      ]
+    },
+    "fig-2d12d2470f88e2df54": {
+      "id": "fig-2d12d2470f88e2df54",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 428,
+      "rect": [
+        20.0,
+        488.0,
+        269.0,
+        660.0
+      ],
+      "path": "assets/figures/bad352dc9f5218bdeb593c2f.webp",
+      "width": 573,
+      "height": 396,
+      "bytes": 27546,
+      "caption": "Color Plate 34",
+      "alt": "Color Plate 34 from Success textbook, PDF page 428.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-5"
+      ]
+    },
+    "fig-309d79c488e581f9fe": {
+      "id": "fig-309d79c488e581f9fe",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 28,
+      "rect": [
+        68.0,
+        322.0,
+        265.0,
+        472.0
+      ],
+      "path": "assets/figures/ebaea8bfd9b4a90699b5341b.webp",
+      "width": 454,
+      "height": 346,
+      "bytes": 14654,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 28.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-4-257"
+      ]
+    },
+    "fig-33482a610a86347eaa": {
+      "id": "fig-33482a610a86347eaa",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 89,
+      "rect": [
+        136.32,
+        435.68,
+        202.27,
+        568.61
+      ],
+      "path": "assets/figures/01a858efcddbcdd3d86fdbd1.webp",
+      "width": 153,
+      "height": 306,
+      "bytes": 7460,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 89.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-37"
+      ]
+    },
+    "fig-345884b24c6de6978f": {
+      "id": "fig-345884b24c6de6978f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 232,
+      "rect": [
+        82.0,
+        483.0,
+        239.0,
+        698.1
+      ],
+      "path": "assets/figures/2f87c3e4c8b395d2010d5865.webp",
+      "width": 362,
+      "height": 496,
+      "bytes": 24056,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 232.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-7-251"
+      ]
+    },
+    "fig-38085497317cfdec9a": {
+      "id": "fig-38085497317cfdec9a",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 262,
+      "rect": [
+        141.67,
+        564.28,
+        275.61,
+        654.35
+      ],
+      "path": "assets/figures/c2483532ad01b1689c314c28.webp",
+      "width": 309,
+      "height": 209,
+      "bytes": 7832,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 262.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-125"
+      ]
+    },
+    "fig-397d251a9eca1d0895": {
+      "id": "fig-397d251a9eca1d0895",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 322,
+      "rect": [
+        141.0,
+        108.0,
+        344.0,
+        284.0
+      ],
+      "path": "assets/figures/6d7564574275b5ead22f95ab.webp",
+      "width": 468,
+      "height": 406,
+      "bytes": 15704,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 322.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-4-235"
+      ]
+    },
+    "fig-3a63b3839aab7f6296": {
+      "id": "fig-3a63b3839aab7f6296",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 159,
+      "rect": [
+        114.88,
+        482.9,
+        310.43,
+        628.56
+      ],
+      "path": "assets/figures/31329da72567ec4c2ef608f1.webp",
+      "width": 450,
+      "height": 336,
+      "bytes": 33510,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 159.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-40"
+      ]
+    },
+    "fig-3d482f8d29426dae68": {
+      "id": "fig-3d482f8d29426dae68",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 251,
+      "rect": [
+        144.02,
+        88.08,
+        259.87,
+        221.97
+      ],
+      "path": "assets/figures/c8c84410adcf97180df7d0c9.webp",
+      "width": 267,
+      "height": 309,
+      "bytes": 13024,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 251.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-7-79"
+      ]
+    },
+    "fig-3dd9b318079d5cd0ee": {
+      "id": "fig-3dd9b318079d5cd0ee",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 428,
+      "rect": [
+        270.0,
+        269.0,
+        540.0,
+        468.0
+      ],
+      "path": "assets/figures/b50a3db47f7e2be3768301e4.webp",
+      "width": 621,
+      "height": 459,
+      "bytes": 23718,
+      "caption": "Color Plate 36",
+      "alt": "Color Plate 36 from Success textbook, PDF page 428.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-6"
+      ]
+    },
+    "fig-3e62de8fbe0fb347ab": {
+      "id": "fig-3e62de8fbe0fb347ab",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 428,
+      "rect": [
+        20.0,
+        35.0,
+        269.0,
+        248.0
+      ],
+      "path": "assets/figures/a7d0f8510c247979cf3d266b.webp",
+      "width": 573,
+      "height": 491,
+      "bytes": 8640,
+      "caption": "Color Plate 32",
+      "alt": "Color Plate 32 from Success textbook, PDF page 428.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-3"
+      ]
+    },
+    "fig-3f5b23fa344ea199ba": {
+      "id": "fig-3f5b23fa344ea199ba",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 423,
+      "rect": [
+        288.0,
+        474.0,
+        540.0,
+        664.0
+      ],
+      "path": "assets/figures/b69069be4cdf3fa8061b4e43.webp",
+      "width": 580,
+      "height": 438,
+      "bytes": 13984,
+      "caption": "Color Plate 6",
+      "alt": "Color Plate 6 from Success textbook, PDF page 423.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-70"
+      ]
+    },
+    "fig-3f8c742a8abc9fce69": {
+      "id": "fig-3f8c742a8abc9fce69",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 304,
+      "rect": [
+        88.0,
+        547.0,
+        370.0,
+        655.0
+      ],
+      "path": "assets/figures/700ede406d23f8b7a3614301.webp",
+      "width": 649,
+      "height": 249,
+      "bytes": 14232,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 304.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-8-235"
+      ]
+    },
+    "fig-442dfe0dbb90bbd919": {
+      "id": "fig-442dfe0dbb90bbd919",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 160,
+      "rect": [
+        258.54,
+        260.55,
+        337.89,
+        301.05
+      ],
+      "path": "assets/figures/1ae23603782983bbe4f9589a.webp",
+      "width": 184,
+      "height": 94,
+      "bytes": 2434,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 160.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-2-190"
+      ]
+    },
+    "fig-46e762e8785c553d4c": {
+      "id": "fig-46e762e8785c553d4c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 323,
+      "rect": [
+        88.42,
+        103.48,
+        277.95,
+        321.47
+      ],
+      "path": "assets/figures/3a23b0d16bf41228ebe33bd4.webp",
+      "width": 437,
+      "height": 502,
+      "bytes": 31974,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 323.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-238"
+      ]
+    },
+    "fig-49d65d5d1810356c41": {
+      "id": "fig-49d65d5d1810356c41",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 155,
+      "rect": [
+        92.0,
+        405.0,
+        245.0,
+        510.0
+      ],
+      "path": "assets/figures/1e25748aa03e5638593d6b56.webp",
+      "width": 353,
+      "height": 242,
+      "bytes": 4870,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 155.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-2-165"
+      ]
+    },
+    "fig-4c3c5b6a028caba1d1": {
+      "id": "fig-4c3c5b6a028caba1d1",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 150,
+      "rect": [
+        140.0,
+        117.0,
+        307.0,
+        252.0
+      ],
+      "path": "assets/figures/f068428163b60a4e64473b01.webp",
+      "width": 385,
+      "height": 311,
+      "bytes": 5260,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 150.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-2-137"
+      ]
+    },
+    "fig-4d96b1824f27881db7": {
+      "id": "fig-4d96b1824f27881db7",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 429,
+      "rect": [
+        40.0,
+        35.0,
+        289.0,
+        225.0
+      ],
+      "path": "assets/figures/e6c6d2a71eb4d0d0952db5df.webp",
+      "width": 573,
+      "height": 438,
+      "bytes": 3448,
+      "caption": "Color Plate 38",
+      "alt": "Color Plate 38 from Success textbook, PDF page 429.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-53"
+      ]
+    },
+    "fig-4e0ff1dfd16c543998": {
+      "id": "fig-4e0ff1dfd16c543998",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 432,
+      "rect": [
+        20.0,
+        90.0,
+        269.0,
+        363.0
+      ],
+      "path": "assets/figures/b202648e088564b6b6688482.webp",
+      "width": 573,
+      "height": 628,
+      "bytes": 17140,
+      "caption": "Color Plate 56",
+      "alt": "Color Plate 56 from Success textbook, PDF page 432.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-331-13"
+      ]
+    },
+    "fig-4f7e3c5d1f55b21cc2": {
+      "id": "fig-4f7e3c5d1f55b21cc2",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 430,
+      "rect": [
+        271.0,
+        455.0,
+        540.0,
+        645.0
+      ],
+      "path": "assets/figures/f4aaad86b7b8353e94bb5c84.webp",
+      "width": 619,
+      "height": 438,
+      "bytes": 10874,
+      "caption": "Color Plate 49",
+      "alt": "Color Plate 49 from Success textbook, PDF page 430.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-40"
+      ]
+    },
+    "fig-51b07170abd035c617": {
+      "id": "fig-51b07170abd035c617",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 185,
+      "rect": [
+        117.0,
+        263.0,
+        311.0,
+        405.0
+      ],
+      "path": "assets/figures/9ae10f968c62d492a637498b.webp",
+      "width": 447,
+      "height": 328,
+      "bytes": 10216,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 185.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-6-309",
+        "boc-6-310"
+      ]
+    },
+    "fig-535de924ed7afa7aa5": {
+      "id": "fig-535de924ed7afa7aa5",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 140,
+      "rect": [
+        84.4,
+        351.63,
+        293.68,
+        509.34
+      ],
+      "path": "assets/figures/011ef06c265aeb7d6c38f727.webp",
+      "width": 482,
+      "height": 364,
+      "bytes": 10464,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 140.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-314"
+      ]
+    },
+    "fig-53b765d57af7703fb4": {
+      "id": "fig-53b765d57af7703fb4",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 261,
+      "rect": [
+        130.62,
+        118.55,
+        190.88,
+        182.83
+      ],
+      "path": "assets/figures/15bb8705b34396dadb513bd3.webp",
+      "width": 140,
+      "height": 149,
+      "bytes": 2496,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 261.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-119"
+      ]
+    },
+    "fig-555eb5af1682ad7d0e": {
+      "id": "fig-555eb5af1682ad7d0e",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        300.0,
+        356.0,
+        540.0,
+        504.0
+      ],
+      "path": "assets/figures/5af4e105ccc43d411580d23b.webp",
+      "width": 552,
+      "height": 342,
+      "bytes": 28670,
+      "caption": "Color Plate 29",
+      "alt": "Color Plate 29 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-203-235"
+      ]
+    },
+    "fig-559017b2a1357e5b25": {
+      "id": "fig-559017b2a1357e5b25",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 198,
+      "rect": [
+        91.0,
+        461.0,
+        267.0,
+        578.0
+      ],
+      "path": "assets/figures/9341d44a6c82b83443a84ff3.webp",
+      "width": 406,
+      "height": 270,
+      "bytes": 11036,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 198.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-7-2"
+      ]
+    },
+    "fig-57bf1140b60e32a448": {
+      "id": "fig-57bf1140b60e32a448",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 252,
+      "rect": [
+        97.13,
+        86.07,
+        211.98,
+        220.0
+      ],
+      "path": "assets/figures/1fabdfdb889a178b6547d157.webp",
+      "width": 265,
+      "height": 309,
+      "bytes": 13206,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 252.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-7-85"
+      ]
+    },
+    "fig-5c0d33c35de9b2270d": {
+      "id": "fig-5c0d33c35de9b2270d",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 259,
+      "rect": [
+        110.53,
+        303.08,
+        211.31,
+        374.39
+      ],
+      "path": "assets/figures/27acc00e5144301b8c593d02.webp",
+      "width": 233,
+      "height": 165,
+      "bytes": 4364,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 259.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-105"
+      ]
+    },
+    "fig-5c9f49d49598e09346": {
+      "id": "fig-5c9f49d49598e09346",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 147,
+      "rect": [
+        160.09,
+        136.97,
+        325.5,
+        257.84
+      ],
+      "path": "assets/figures/8bf7fa250e0ab1a0ede9c583.webp",
+      "width": 381,
+      "height": 279,
+      "bytes": 10152,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 147.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-355"
+      ]
+    },
+    "fig-5d578d1f7e37eb7bac": {
+      "id": "fig-5d578d1f7e37eb7bac",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 188,
+      "rect": [
+        68.0,
+        373.0,
+        261.0,
+        519.0
+      ],
+      "path": "assets/figures/ece849e7e9e4b9dbf0c0d035.webp",
+      "width": 445,
+      "height": 337,
+      "bytes": 24204,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 188.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-332"
+      ]
+    },
+    "fig-5f07b6b1a2215b1938": {
+      "id": "fig-5f07b6b1a2215b1938",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 255,
+      "rect": [
+        140.33,
+        86.74,
+        262.54,
+        220.64
+      ],
+      "path": "assets/figures/d23650df2f3869e1f48c3e1e.webp",
+      "width": 282,
+      "height": 309,
+      "bytes": 10648,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 255.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-7-118"
+      ]
+    },
+    "fig-5f84d1fa3184f6dc9d": {
+      "id": "fig-5f84d1fa3184f6dc9d",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 315,
+      "rect": [
+        116.0,
+        344.0,
+        319.0,
+        504.0
+      ],
+      "path": "assets/figures/2fcc2535b0a5c5127e35595f.webp",
+      "width": 468,
+      "height": 369,
+      "bytes": 17656,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 315.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-8-68",
+        "boc-8-69",
+        "boc-8-70",
+        "boc-8-71",
+        "boc-8-72"
+      ]
+    },
+    "fig-62acf6b864570ee69a": {
+      "id": "fig-62acf6b864570ee69a",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 210,
+      "rect": [
+        88.09,
+        185.2,
+        262.54,
+        322.58
+      ],
+      "path": "assets/figures/c2ee33b71170f35b22e6e8cc.webp",
+      "width": 402,
+      "height": 317,
+      "bytes": 14092,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 210.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-7-85"
+      ]
+    },
+    "fig-636df7c296de9c813c": {
+      "id": "fig-636df7c296de9c813c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 187,
+      "rect": [
+        117.0,
+        117.0,
+        313.0,
+        258.0
+      ],
+      "path": "assets/figures/9033e115b7cab52bb362b307.webp",
+      "width": 451,
+      "height": 325,
+      "bytes": 19954,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 187.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-6-319"
+      ]
+    },
+    "fig-6525eee2c25205bc51": {
+      "id": "fig-6525eee2c25205bc51",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 423,
+      "rect": [
+        288.0,
+        263.0,
+        540.0,
+        455.0
+      ],
+      "path": "assets/figures/ce5549ace85841348e6337be.webp",
+      "width": 580,
+      "height": 443,
+      "bytes": 14440,
+      "caption": "Color Plate 5",
+      "alt": "Color Plate 5 from Success textbook, PDF page 423.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-66"
+      ]
+    },
+    "fig-66de43360fc165ee71": {
+      "id": "fig-66de43360fc165ee71",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 430,
+      "rect": [
+        20.0,
+        246.0,
+        270.0,
+        433.0
+      ],
+      "path": "assets/figures/e77a560106c29c4c6f1e676b.webp",
+      "width": 575,
+      "height": 431,
+      "bytes": 10430,
+      "caption": "Color Plate 45",
+      "alt": "Color Plate 45 from Success textbook, PDF page 430.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-60"
+      ]
+    },
+    "fig-6747c269744ecc7056": {
+      "id": "fig-6747c269744ecc7056",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 171,
+      "rect": [
+        113.88,
+        477.21,
+        313.45,
+        624.88
+      ],
+      "path": "assets/figures/fb97dda7bd6177ea65ced1df.webp",
+      "width": 460,
+      "height": 341,
+      "bytes": 15322,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 171.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-163"
+      ]
+    },
+    "fig-678ca4d97d1eb4483e": {
+      "id": "fig-678ca4d97d1eb4483e",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 428,
+      "rect": [
+        20.0,
+        269.0,
+        269.0,
+        468.0
+      ],
+      "path": "assets/figures/5a3dc79d1d7c8f8bb454ba65.webp",
+      "width": 573,
+      "height": 459,
+      "bytes": 18798,
+      "caption": "Color Plate 33",
+      "alt": "Color Plate 33 from Success textbook, PDF page 428.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-5"
+      ]
+    },
+    "fig-685d9537520cc787ee": {
+      "id": "fig-685d9537520cc787ee",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 261,
+      "rect": [
+        62.97,
+        393.82,
+        149.02,
+        462.67
+      ],
+      "path": "assets/figures/40713a15d3e555f2ec60dfe8.webp",
+      "width": 199,
+      "height": 160,
+      "bytes": 4696,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 261.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-120"
+      ]
+    },
+    "fig-698a8a6d5b8571bf1d": {
+      "id": "fig-698a8a6d5b8571bf1d",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 432,
+      "rect": [
+        295.0,
+        438.0,
+        466.0,
+        607.0
+      ],
+      "path": "assets/figures/4932f56f87d05b0004a46539.webp",
+      "width": 394,
+      "height": 390,
+      "bytes": 5934,
+      "caption": "Color Plate 57 · panel 2",
+      "alt": "Color Plate 57 · panel 2 from Success textbook, PDF page 432.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-331-40"
+      ]
+    },
+    "fig-69f37df52ba63fecc5": {
+      "id": "fig-69f37df52ba63fecc5",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 426,
+      "rect": [
+        20.0,
+        267.0,
+        287.0,
+        448.0
+      ],
+      "path": "assets/figures/e996487df0ce02acdb871887.webp",
+      "width": 615,
+      "height": 417,
+      "bytes": 6928,
+      "caption": "Color Plate 21",
+      "alt": "Color Plate 21 from Success textbook, PDF page 426.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-110-1"
+      ]
+    },
+    "fig-6b2e02488eafeaf068": {
+      "id": "fig-6b2e02488eafeaf068",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 423,
+      "rect": [
+        40.0,
+        474.0,
+        287.0,
+        664.0
+      ],
+      "path": "assets/figures/2174070ed84ca3bb14949fc9.webp",
+      "width": 569,
+      "height": 438,
+      "bytes": 17910,
+      "caption": "Color Plate 3",
+      "alt": "Color Plate 3 from Success textbook, PDF page 423.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-64"
+      ]
+    },
+    "fig-6e1c9adabeef11c489": {
+      "id": "fig-6e1c9adabeef11c489",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 425,
+      "rect": [
+        40.0,
+        472.0,
+        289.0,
+        662.0
+      ],
+      "path": "assets/figures/f2087b6a7a380a12efcadb40.webp",
+      "width": 573,
+      "height": 438,
+      "bytes": 12310,
+      "caption": "Color Plate 15",
+      "alt": "Color Plate 15 from Success textbook, PDF page 425.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-192"
+      ]
+    },
+    "fig-6ea8de9129750b9583": {
+      "id": "fig-6ea8de9129750b9583",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 426,
+      "rect": [
+        64.0,
+        481.0,
+        477.0,
+        639.0
+      ],
+      "path": "assets/figures/db4396c11428010392d18577.webp",
+      "width": 951,
+      "height": 364,
+      "bytes": 12904,
+      "caption": "Color Plate 23",
+      "alt": "Color Plate 23 from Success textbook, PDF page 426.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-110-42"
+      ]
+    },
+    "fig-6eb90da7b8dc614e32": {
+      "id": "fig-6eb90da7b8dc614e32",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 432,
+      "rect": [
+        294.0,
+        138.0,
+        462.0,
+        316.0
+      ],
+      "path": "assets/figures/6e9361cbce055bf21f92c919.webp",
+      "width": 387,
+      "height": 410,
+      "bytes": 15804,
+      "caption": "Color Plate 57 · panel 1",
+      "alt": "Color Plate 57 · panel 1 from Success textbook, PDF page 432.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-331-40"
+      ]
+    },
+    "fig-706b1d1f4eebea5584": {
+      "id": "fig-706b1d1f4eebea5584",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        40.0,
+        356.0,
+        298.0,
+        503.0
+      ],
+      "path": "assets/figures/d026d0efd0434d4f4f201649.webp",
+      "width": 594,
+      "height": 339,
+      "bytes": 9504,
+      "caption": "Color Plate 28",
+      "alt": "Color Plate 28 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-203-131"
+      ]
+    },
+    "fig-7238f7a8933480b950": {
+      "id": "fig-7238f7a8933480b950",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 151,
+      "rect": [
+        111.0,
+        117.0,
+        255.0,
+        254.0
+      ],
+      "path": "assets/figures/c2d4830d65e630d996eaf66d.webp",
+      "width": 332,
+      "height": 316,
+      "bytes": 11536,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 151.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-2-141"
+      ]
+    },
+    "fig-73cc25a04bd934f6c7": {
+      "id": "fig-73cc25a04bd934f6c7",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        40.0,
+        523.0,
+        298.0,
+        669.0
+      ],
+      "path": "assets/figures/87c2056640f41c0b9d91ef08.webp",
+      "width": 594,
+      "height": 337,
+      "bytes": 17226,
+      "caption": "Color Plate 30",
+      "alt": "Color Plate 30 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-1"
+      ]
+    },
+    "fig-7556a750341980edfd": {
+      "id": "fig-7556a750341980edfd",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 153,
+      "rect": [
+        102.82,
+        266.57,
+        253.5,
+        362.66
+      ],
+      "path": "assets/figures/349e5815d8eb32f5af1fa1d9.webp",
+      "width": 348,
+      "height": 222,
+      "bytes": 3632,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 153.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-2-152"
+      ]
+    },
+    "fig-7589f893a42b37cb57": {
+      "id": "fig-7589f893a42b37cb57",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 28,
+      "rect": [
+        68.0,
+        86.0,
+        266.0,
+        235.0
+      ],
+      "path": "assets/figures/b4fe4ebae153f572dda06e85.webp",
+      "width": 456,
+      "height": 344,
+      "bytes": 24352,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 28.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-4-256"
+      ]
+    },
+    "fig-762d457818beb93fd0": {
+      "id": "fig-762d457818beb93fd0",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 87,
+      "rect": [
+        180.86,
+        479.56,
+        342.59,
+        634.92
+      ],
+      "path": "assets/figures/ef81b2df50e9f1faf2d9cb88.webp",
+      "width": 373,
+      "height": 359,
+      "bytes": 21766,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 87.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-25"
+      ]
+    },
+    "fig-778e4a2b52958f1835": {
+      "id": "fig-778e4a2b52958f1835",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 424,
+      "rect": [
+        270.0,
+        261.0,
+        540.0,
+        451.0
+      ],
+      "path": "assets/figures/ffc103df951b50ef68dac561.webp",
+      "width": 621,
+      "height": 438,
+      "bytes": 16056,
+      "caption": "Color Plate 11",
+      "alt": "Color Plate 11 from Success textbook, PDF page 424.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-106",
+        "book-1-178"
+      ]
+    },
+    "fig-791558281c77aa9c5c": {
+      "id": "fig-791558281c77aa9c5c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 235,
+      "rect": [
+        84.74,
+        308.43,
+        293.02,
+        464.8
+      ],
+      "path": "assets/figures/e5ae186a18df8ab591b70d9b.webp",
+      "width": 480,
+      "height": 361,
+      "bytes": 7144,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 235.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-105"
+      ]
+    },
+    "fig-79e5e72e7e3a861787": {
+      "id": "fig-79e5e72e7e3a861787",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 149,
+      "rect": [
+        133.63,
+        424.64,
+        314.78,
+        492.6
+      ],
+      "path": "assets/figures/cb2626c6647fde72e86f444b.webp",
+      "width": 418,
+      "height": 157,
+      "bytes": 5700,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 149.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-366"
+      ]
+    },
+    "fig-7e3fc157a4dec98cd1": {
+      "id": "fig-7e3fc157a4dec98cd1",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 431,
+      "rect": [
+        40.0,
+        243.0,
+        291.0,
+        403.0
+      ],
+      "path": "assets/figures/6a6404ddd2c38b93ead04137.webp",
+      "width": 578,
+      "height": 369,
+      "bytes": 11784,
+      "caption": "Color Plate 51",
+      "alt": "Color Plate 51 from Success textbook, PDF page 431.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-43"
+      ]
+    },
+    "fig-7f1f3109026de1704f": {
+      "id": "fig-7f1f3109026de1704f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 157,
+      "rect": [
+        91.0,
+        416.0,
+        246.0,
+        519.0
+      ],
+      "path": "assets/figures/20e4bafa342b46194ae9d211.webp",
+      "width": 357,
+      "height": 238,
+      "bytes": 4312,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 157.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-2-171"
+      ]
+    },
+    "fig-82504d8dd4139c8320": {
+      "id": "fig-82504d8dd4139c8320",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 191,
+      "rect": [
+        136.98,
+        112.86,
+        255.85,
+        231.48
+      ],
+      "path": "assets/figures/1736b652e4f4affd8bf06845.webp",
+      "width": 274,
+      "height": 274,
+      "bytes": 9244,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 191.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-355"
+      ]
+    },
+    "fig-83ef7e2079a19925dd": {
+      "id": "fig-83ef7e2079a19925dd",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 316,
+      "rect": [
+        69.0,
+        215.0,
+        317.0,
+        280.0
+      ],
+      "path": "assets/figures/c9d724df88281302c8b27f07.webp",
+      "width": 572,
+      "height": 150,
+      "bytes": 22466,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 316.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-8-73",
+        "boc-8-74",
+        "boc-8-75",
+        "boc-8-76",
+        "boc-8-77"
+      ]
+    },
+    "fig-8872ac7b13838b857c": {
+      "id": "fig-8872ac7b13838b857c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 434,
+      "rect": [
+        20.0,
+        270.0,
+        370.0,
+        430.0
+      ],
+      "path": "assets/figures/49455405c3a4c5864a86aa6b.webp",
+      "width": 805,
+      "height": 368,
+      "bytes": 35780,
+      "caption": "Color Plate 60",
+      "alt": "Color Plate 60 from Success textbook, PDF page 434.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-331-50"
+      ]
+    },
+    "fig-890b5f50842ce16ac5": {
+      "id": "fig-890b5f50842ce16ac5",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 428,
+      "rect": [
+        270.0,
+        488.0,
+        540.0,
+        660.0
+      ],
+      "path": "assets/figures/92bf5786c8bf8488018e415e.webp",
+      "width": 621,
+      "height": 396,
+      "bytes": 19500,
+      "caption": "Color Plate 37",
+      "alt": "Color Plate 37 from Success textbook, PDF page 428.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-10"
+      ]
+    },
+    "fig-89782f0862f88516e5": {
+      "id": "fig-89782f0862f88516e5",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 99,
+      "rect": [
+        135.98,
+        206.63,
+        346.94,
+        365.34
+      ],
+      "path": "assets/figures/21f2a40e0c2950727fd4ce14.webp",
+      "width": 486,
+      "height": 366,
+      "bytes": 12176,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 99.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-81"
+      ]
+    },
+    "fig-8b4b39817cab857b8f": {
+      "id": "fig-8b4b39817cab857b8f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 325,
+      "rect": [
+        86.75,
+        97.46,
+        295.02,
+        253.15
+      ],
+      "path": "assets/figures/ced2ec53644c34e803507164.webp",
+      "width": 480,
+      "height": 359,
+      "bytes": 22288,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 325.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-247"
+      ]
+    },
+    "fig-8c0e8a6bc498523ec8": {
+      "id": "fig-8c0e8a6bc498523ec8",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 425,
+      "rect": [
+        290.0,
+        35.0,
+        540.0,
+        243.0
+      ],
+      "path": "assets/figures/e27d3b5c11ac07b192553109.webp",
+      "width": 575,
+      "height": 479,
+      "bytes": 34328,
+      "caption": "Color Plate 16",
+      "alt": "Color Plate 16 from Success textbook, PDF page 425.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-193"
+      ]
+    },
+    "fig-8d294ef5d1e0683f9e": {
+      "id": "fig-8d294ef5d1e0683f9e",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 143,
+      "rect": [
+        136.32,
+        197.92,
+        302.73,
+        352.95
+      ],
+      "path": "assets/figures/8e4ca56c0d1e05df290bb052.webp",
+      "width": 384,
+      "height": 357,
+      "bytes": 19874,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 143.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-332"
+      ]
+    },
+    "fig-8d4e51a7ac019bb9fd": {
+      "id": "fig-8d4e51a7ac019bb9fd",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 159,
+      "rect": [
+        113.87,
+        89.41,
+        180.16,
+        219.33
+      ],
+      "path": "assets/figures/83bac75298fbb3bfb659a6af.webp",
+      "width": 154,
+      "height": 300,
+      "bytes": 6632,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 159.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-37"
+      ]
+    },
+    "fig-8e503e97514218ab39": {
+      "id": "fig-8e503e97514218ab39",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 314,
+      "rect": [
+        261.56,
+        254.85,
+        341.91,
+        318.79
+      ],
+      "path": "assets/figures/f6cacd8059df5a4daa92ce94.webp",
+      "width": 186,
+      "height": 148,
+      "bytes": 2836,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 314.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-199"
+      ]
+    },
+    "fig-92dbee2d5d471c7e68": {
+      "id": "fig-92dbee2d5d471c7e68",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 429,
+      "rect": [
+        290.0,
+        462.0,
+        540.0,
+        648.0
+      ],
+      "path": "assets/figures/2f87d8688d559ed9230d3b3b.webp",
+      "width": 575,
+      "height": 429,
+      "bytes": 42850,
+      "caption": "Color Plate 43",
+      "alt": "Color Plate 43 from Success textbook, PDF page 429.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-58"
+      ]
+    },
+    "fig-93db7a3f5b51accad0": {
+      "id": "fig-93db7a3f5b51accad0",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 193,
+      "rect": [
+        112.2,
+        91.1,
+        283.97,
+        232.73
+      ],
+      "path": "assets/figures/992e56d70f96ea284c601d1d.webp",
+      "width": 396,
+      "height": 327,
+      "bytes": 15364,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 193.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-366"
+      ]
+    },
+    "fig-953e81fd1c7aad5477": {
+      "id": "fig-953e81fd1c7aad5477",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 431,
+      "rect": [
+        292.0,
+        243.0,
+        540.0,
+        403.0
+      ],
+      "path": "assets/figures/3b4dbcf5f8560caf1b91d607.webp",
+      "width": 571,
+      "height": 369,
+      "bytes": 31052,
+      "caption": "Color Plate 54",
+      "alt": "Color Plate 54 from Success textbook, PDF page 431.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-58"
+      ]
+    },
+    "fig-9878a610b4d85a5557": {
+      "id": "fig-9878a610b4d85a5557",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 54,
+      "rect": [
+        85.41,
+        459.8,
+        145.67,
+        510.35
+      ],
+      "path": "assets/figures/acebb15bf524ad3ea86ea40c.webp",
+      "width": 140,
+      "height": 117,
+      "bytes": 3466,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 54.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-5-127"
+      ]
+    },
+    "fig-98a8ba98bee5885dbd": {
+      "id": "fig-98a8ba98bee5885dbd",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 53,
+      "rect": [
+        136.0,
+        110.0,
+        491.0,
+        328.0
+      ],
+      "path": "assets/figures/4e4e9e8dbff02266dbdaabf7.webp",
+      "width": 818,
+      "height": 502,
+      "bytes": 40410,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 53.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-5-120"
+      ]
+    },
+    "fig-9b22cc4276b49bc3f2": {
+      "id": "fig-9b22cc4276b49bc3f2",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 265,
+      "rect": [
+        113.2,
+        446.4,
+        261.2,
+        636.6
+      ],
+      "path": "assets/figures/d62f31d7fa6488c57477894f.webp",
+      "width": 341,
+      "height": 439,
+      "bytes": 21304,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 265.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-7-251"
+      ]
+    },
+    "fig-9b72d6fd19e0ebb828": {
+      "id": "fig-9b72d6fd19e0ebb828",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 265,
+      "rect": [
+        118.56,
+        274.61,
+        230.73,
+        354.63
+      ],
+      "path": "assets/figures/e56dc5fb58c493b1cffa2459.webp",
+      "width": 259,
+      "height": 185,
+      "bytes": 8010,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 265.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-7-250"
+      ]
+    },
+    "fig-a003e6c0c663e57b4a": {
+      "id": "fig-a003e6c0c663e57b4a",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 243,
+      "rect": [
+        132.63,
+        229.74,
+        290.01,
+        309.08
+      ],
+      "path": "assets/figures/0f57d99e26d70acbd9da2e1d.webp",
+      "width": 363,
+      "height": 183,
+      "bytes": 6334,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 243.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-7-2"
+      ]
+    },
+    "fig-a1f0fd4579381e9aea": {
+      "id": "fig-a1f0fd4579381e9aea",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 244,
+      "rect": [
+        93.79,
+        203.62,
+        235.42,
+        246.13
+      ],
+      "path": "assets/figures/d824745bfd9fc5e83215f25e.webp",
+      "width": 327,
+      "height": 99,
+      "bytes": 5500,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 244.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-7-13"
+      ]
+    },
+    "fig-a2fc6119b3a6175b5e": {
+      "id": "fig-a2fc6119b3a6175b5e",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 264,
+      "rect": [
+        112.87,
+        442.05,
+        312.44,
+        592.73
+      ],
+      "path": "assets/figures/398062b338dddb9935c669d7.webp",
+      "width": 460,
+      "height": 348,
+      "bytes": 6728,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 264.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-134"
+      ]
+    },
+    "fig-a5efd0dad2b4d63209": {
+      "id": "fig-a5efd0dad2b4d63209",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 231,
+      "rect": [
+        86.75,
+        216.0,
+        295.03,
+        370.7
+      ],
+      "path": "assets/figures/6353791fc37724160bc2aaaa.webp",
+      "width": 480,
+      "height": 357,
+      "bytes": 50944,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 231.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-81"
+      ]
+    },
+    "fig-a6659f81a9a239c794": {
+      "id": "fig-a6659f81a9a239c794",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 31,
+      "rect": [
+        117.0,
+        130.0,
+        313.0,
+        287.0
+      ],
+      "path": "assets/figures/bd6be7a45628cdc749ab4f42.webp",
+      "width": 451,
+      "height": 362,
+      "bytes": 15562,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 31.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-4-273",
+        "boc-4-274"
+      ]
+    },
+    "fig-a748c74de3fc497013": {
+      "id": "fig-a748c74de3fc497013",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        190.0,
+        35.0,
+        535.0,
+        164.0
+      ],
+      "path": "assets/figures/827a48b09d4e960903af020d.webp",
+      "width": 794,
+      "height": 298,
+      "bytes": 13038,
+      "caption": "Color Plate 25",
+      "alt": "Color Plate 25 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-110-94"
+      ]
+    },
+    "fig-a9e619ec7b32887861": {
+      "id": "fig-a9e619ec7b32887861",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 424,
+      "rect": [
+        20.0,
+        471.0,
+        269.0,
+        661.0
+      ],
+      "path": "assets/figures/f96bd7703121e6e9429467d5.webp",
+      "width": 573,
+      "height": 438,
+      "bytes": 15982,
+      "caption": "Color Plate 9",
+      "alt": "Color Plate 9 from Success textbook, PDF page 424.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-95"
+      ]
+    },
+    "fig-ac9b5a38b86a30a4b8": {
+      "id": "fig-ac9b5a38b86a30a4b8",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 327,
+      "rect": [
+        87.08,
+        102.14,
+        295.36,
+        257.17
+      ],
+      "path": "assets/figures/f29caa0da39210cbb0095d61.webp",
+      "width": 480,
+      "height": 358,
+      "bytes": 23606,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 327.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-256"
+      ]
+    },
+    "fig-adfbf322f055105a31": {
+      "id": "fig-adfbf322f055105a31",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 265,
+      "rect": [
+        172.14,
+        399.85,
+        264.21,
+        512.69
+      ],
+      "path": "assets/figures/6c58af5f97c5c0eb29f0b665.webp",
+      "width": 213,
+      "height": 261,
+      "bytes": 6556,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 265.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-138"
+      ]
+    },
+    "fig-ae5717defa14861ecb": {
+      "id": "fig-ae5717defa14861ecb",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 429,
+      "rect": [
+        290.0,
+        247.0,
+        540.0,
+        440.0
+      ],
+      "path": "assets/figures/3d7fd23abab49dbd8c42dc7f.webp",
+      "width": 575,
+      "height": 444,
+      "bytes": 28922,
+      "caption": "Color Plate 42",
+      "alt": "Color Plate 42 from Success textbook, PDF page 429.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-57"
+      ]
+    },
+    "fig-b1a50468773048caa5": {
+      "id": "fig-b1a50468773048caa5",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 23,
+      "rect": [
+        116.0,
+        239.0,
+        237.0,
+        391.0
+      ],
+      "path": "assets/figures/68193eb96cd8425c96874fb7.webp",
+      "width": 280,
+      "height": 351,
+      "bytes": 11632,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 23.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-4-226",
+        "boc-4-230"
+      ]
+    },
+    "fig-b4e863644f0823a96b": {
+      "id": "fig-b4e863644f0823a96b",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 149,
+      "rect": [
+        133.63,
+        488.93,
+        314.78,
+        580.0
+      ],
+      "path": "assets/figures/aebd55f63886c80bcca35652.webp",
+      "width": 418,
+      "height": 211,
+      "bytes": 11596,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 149.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-366"
+      ]
+    },
+    "fig-b5132ea27ca6977bf0": {
+      "id": "fig-b5132ea27ca6977bf0",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 24,
+      "rect": [
+        68.0,
+        184.0,
+        249.0,
+        409.0
+      ],
+      "path": "assets/figures/684c255660f04b777c278a91.webp",
+      "width": 417,
+      "height": 518,
+      "bytes": 17316,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 24.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-4-234"
+      ]
+    },
+    "fig-b535b739eb48da675c": {
+      "id": "fig-b535b739eb48da675c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 430,
+      "rect": [
+        271.0,
+        246.0,
+        540.0,
+        433.0
+      ],
+      "path": "assets/figures/a37cd29cb1a02a0384e03885.webp",
+      "width": 619,
+      "height": 431,
+      "bytes": 17260,
+      "caption": "Color Plate 48",
+      "alt": "Color Plate 48 from Success textbook, PDF page 430.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-37"
+      ]
+    },
+    "fig-b5d5764a0675f24c36": {
+      "id": "fig-b5d5764a0675f24c36",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 429,
+      "rect": [
+        40.0,
+        462.0,
+        289.0,
+        648.0
+      ],
+      "path": "assets/figures/834db46e2697f69ac31aff50.webp",
+      "width": 573,
+      "height": 429,
+      "bytes": 23136,
+      "caption": "Color Plate 40",
+      "alt": "Color Plate 40 from Success textbook, PDF page 429.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-55"
+      ]
+    },
+    "fig-b5e4e9b16e652f142d": {
+      "id": "fig-b5e4e9b16e652f142d",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 429,
+      "rect": [
+        40.0,
+        247.0,
+        289.0,
+        440.0
+      ],
+      "path": "assets/figures/2375b9ebdc6fe4d2f0857fda.webp",
+      "width": 573,
+      "height": 444,
+      "bytes": 10242,
+      "caption": "Color Plate 39",
+      "alt": "Color Plate 39 from Success textbook, PDF page 429.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-302-54"
+      ]
+    },
+    "fig-b709fb1353a126bf1b": {
+      "id": "fig-b709fb1353a126bf1b",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 256,
+      "rect": [
+        191.91,
+        314.46,
+        270.92,
+        423.61
+      ],
+      "path": "assets/figures/00989819f7202f264d1b953a.webp",
+      "width": 183,
+      "height": 252,
+      "bytes": 6532,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 256.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-87"
+      ]
+    },
+    "fig-b733c17cc5212bdcd1": {
+      "id": "fig-b733c17cc5212bdcd1",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 257,
+      "rect": [
+        69.67,
+        120.22,
+        261.88,
+        230.39
+      ],
+      "path": "assets/figures/7a67141740643474de6a0683.webp",
+      "width": 443,
+      "height": 254,
+      "bytes": 16344,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 257.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-90"
+      ]
+    },
+    "fig-b7abccef64e7f8f0e3": {
+      "id": "fig-b7abccef64e7f8f0e3",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 6,
+      "rect": [
+        69.0,
+        248.0,
+        267.0,
+        400.0
+      ],
+      "path": "assets/figures/a64b13ecda8fe8fea26ce0e0.webp",
+      "width": 457,
+      "height": 350,
+      "bytes": 21800,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 6.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-4-2",
+        "boc-4-3",
+        "boc-4-4"
+      ]
+    },
+    "fig-ba005ada82904afd88": {
+      "id": "fig-ba005ada82904afd88",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 214,
+      "rect": [
+        127.61,
+        93.77,
+        279.29,
+        177.81
+      ],
+      "path": "assets/figures/1455d8988f77299cea212f82.webp",
+      "width": 350,
+      "height": 194,
+      "bytes": 6734,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 214.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-2-323"
+      ]
+    },
+    "fig-ba79dcad2cd3fee5c6": {
+      "id": "fig-ba79dcad2cd3fee5c6",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 425,
+      "rect": [
+        40.0,
+        262.0,
+        289.0,
+        453.0
+      ],
+      "path": "assets/figures/6de283eef16882705b35ae97.webp",
+      "width": 573,
+      "height": 440,
+      "bytes": 20484,
+      "caption": "Color Plate 14",
+      "alt": "Color Plate 14 from Success textbook, PDF page 425.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-185"
+      ]
+    },
+    "fig-bb5128a1154f8162b7": {
+      "id": "fig-bb5128a1154f8162b7",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 76,
+      "rect": [
+        64.98,
+        233.75,
+        221.69,
+        370.7
+      ],
+      "path": "assets/figures/bccd467dcc5e9a770d8128b2.webp",
+      "width": 361,
+      "height": 316,
+      "bytes": 16954,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 76.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-5-126"
+      ]
+    },
+    "fig-bfea1e7354e63ae17c": {
+      "id": "fig-bfea1e7354e63ae17c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 239,
+      "rect": [
+        102.49,
+        234.42,
+        254.17,
+        340.56
+      ],
+      "path": "assets/figures/d6faa5588fd39bc55999af77.webp",
+      "width": 350,
+      "height": 245,
+      "bytes": 10062,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 239.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-125"
+      ]
+    },
+    "fig-c026aff5aff1e04aea": {
+      "id": "fig-c026aff5aff1e04aea",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        40.0,
+        35.0,
+        187.0,
+        166.0
+      ],
+      "path": "assets/figures/2c23502a8c77281b3c5abac8.webp",
+      "width": 339,
+      "height": 302,
+      "bytes": 6734,
+      "caption": "Color Plate 24",
+      "alt": "Color Plate 24 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-110-67",
+        "book-110-68"
+      ]
+    },
+    "fig-c09d4a57f4131ce3f4": {
+      "id": "fig-c09d4a57f4131ce3f4",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 240,
+      "rect": [
+        138.33,
+        350.29,
+        340.58,
+        498.96
+      ],
+      "path": "assets/figures/76ccc965447d76599ea4f5c1.webp",
+      "width": 466,
+      "height": 343,
+      "bytes": 22780,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 240.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-131"
+      ]
+    },
+    "fig-c386e849e3cc32d030": {
+      "id": "fig-c386e849e3cc32d030",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 241,
+      "rect": [
+        86.75,
+        103.48,
+        295.02,
+        260.86
+      ],
+      "path": "assets/figures/7388a4c454b8ba924a21f860.webp",
+      "width": 480,
+      "height": 362,
+      "bytes": 10260,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 241.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-134"
+      ]
+    },
+    "fig-c434ac749db0708c9b": {
+      "id": "fig-c434ac749db0708c9b",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 329,
+      "rect": [
+        83.4,
+        509.7,
+        292.68,
+        666.07
+      ],
+      "path": "assets/figures/c40bdbf96ceac38dc4eac58e.webp",
+      "width": 483,
+      "height": 360,
+      "bytes": 17776,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 329.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-268"
+      ]
+    },
+    "fig-c6dae47ff5d102e9de": {
+      "id": "fig-c6dae47ff5d102e9de",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 24,
+      "rect": [
+        65.0,
+        488.0,
+        266.0,
+        661.0
+      ],
+      "path": "assets/figures/5cb9dd6a3dba402d1928b13a.webp",
+      "width": 463,
+      "height": 399,
+      "bytes": 15412,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 24.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-4-235"
+      ]
+    },
+    "fig-c759f86522dc5c23d9": {
+      "id": "fig-c759f86522dc5c23d9",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 233,
+      "rect": [
+        88.09,
+        101.14,
+        295.36,
+        256.84
+      ],
+      "path": "assets/figures/6560185d9986a859973ba276.webp",
+      "width": 478,
+      "height": 359,
+      "bytes": 23022,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 233.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-90"
+      ]
+    },
+    "fig-c7da5efc4f2064b320": {
+      "id": "fig-c7da5efc4f2064b320",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 89,
+      "rect": [
+        234.44,
+        435.69,
+        345.26,
+        593.4
+      ],
+      "path": "assets/figures/d35741abc8be8e331d6b2e9f.webp",
+      "width": 256,
+      "height": 363,
+      "bytes": 15378,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 89.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-37"
+      ]
+    },
+    "fig-cb2bea15743aa9f3a2": {
+      "id": "fig-cb2bea15743aa9f3a2",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 157,
+      "rect": [
+        131.96,
+        396.84,
+        312.44,
+        545.51
+      ],
+      "path": "assets/figures/4c7f3f4381c84e5ccf127056.webp",
+      "width": 416,
+      "height": 343,
+      "bytes": 22056,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 157.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-25"
+      ]
+    },
+    "fig-cb83d41f42a9a38686": {
+      "id": "fig-cb83d41f42a9a38686",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 431,
+      "rect": [
+        40.0,
+        424.0,
+        291.0,
+        650.0
+      ],
+      "path": "assets/figures/ea3e05f5df1f257a2ea6bafd.webp",
+      "width": 578,
+      "height": 520,
+      "bytes": 53678,
+      "caption": "Color Plate 52",
+      "alt": "Color Plate 52 from Success textbook, PDF page 431.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-45"
+      ]
+    },
+    "fig-cdc1a6276497559a3b": {
+      "id": "fig-cdc1a6276497559a3b",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 423,
+      "rect": [
+        288.0,
+        35.0,
+        540.0,
+        244.0
+      ],
+      "path": "assets/figures/aefc7f6287bcfd877082c197.webp",
+      "width": 580,
+      "height": 482,
+      "bytes": 10978,
+      "caption": "Color Plate 4",
+      "alt": "Color Plate 4 from Success textbook, PDF page 423.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-246",
+        "book-1-65"
+      ]
+    },
+    "fig-d1e4dd18c0de903480": {
+      "id": "fig-d1e4dd18c0de903480",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 185,
+      "rect": [
+        311.0,
+        263.0,
+        505.0,
+        405.0
+      ],
+      "path": "assets/figures/5be54adfa751aeae5dd041d8.webp",
+      "width": 447,
+      "height": 328,
+      "bytes": 8684,
+      "caption": "Shared question diagram",
+      "alt": "Shared question diagram from BOC · Part 2, PDF page 185.",
+      "method": "reviewed-context-crop-without-answer-text",
+      "questionIds": [
+        "boc-6-311",
+        "boc-6-312"
+      ]
+    },
+    "fig-d72c38cd19fbc6ae62": {
+      "id": "fig-d72c38cd19fbc6ae62",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 327,
+      "rect": [
+        85.07,
+        329.53,
+        293.35,
+        487.24
+      ],
+      "path": "assets/figures/1f5051a88682a09db515fe80.webp",
+      "width": 480,
+      "height": 364,
+      "bytes": 14906,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 327.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-257"
+      ]
+    },
+    "fig-d787ad000e2c385294": {
+      "id": "fig-d787ad000e2c385294",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 264,
+      "rect": [
+        117.89,
+        100.47,
+        312.44,
+        228.38
+      ],
+      "path": "assets/figures/3d958934364eb3d575406ceb.webp",
+      "width": 448,
+      "height": 295,
+      "bytes": 17470,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 264.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-3-131"
+      ]
+    },
+    "fig-dac5dfaf393e335209": {
+      "id": "fig-dac5dfaf393e335209",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 425,
+      "rect": [
+        290.0,
+        472.0,
+        540.0,
+        662.0
+      ],
+      "path": "assets/figures/7368db5bab8074c2e1512067.webp",
+      "width": 575,
+      "height": 438,
+      "bytes": 14402,
+      "caption": "Color Plate 18",
+      "alt": "Color Plate 18 from Success textbook, PDF page 425.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-211"
+      ]
+    },
+    "fig-e034968ae3b6c7f940": {
+      "id": "fig-e034968ae3b6c7f940",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 181,
+      "rect": [
+        99.0,
+        112.0,
+        254.0,
+        214.0
+      ],
+      "path": "assets/figures/0f8af2a7a53ac4373b0239c8.webp",
+      "width": 358,
+      "height": 236,
+      "bytes": 8302,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 181.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-2-323"
+      ]
+    },
+    "fig-e184feefac56149cf8": {
+      "id": "fig-e184feefac56149cf8",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 200,
+      "rect": [
+        89.0,
+        230.0,
+        296.0,
+        342.0
+      ],
+      "path": "assets/figures/380dda5cdddb827b842af436.webp",
+      "width": 477,
+      "height": 258,
+      "bytes": 13242,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 200.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-7-13"
+      ]
+    },
+    "fig-e204402d18a82a6c77": {
+      "id": "fig-e204402d18a82a6c77",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        300.0,
+        185.0,
+        540.0,
+        336.0
+      ],
+      "path": "assets/figures/ac2dd485e2d8f0ed4925b342.webp",
+      "width": 552,
+      "height": 348,
+      "bytes": 17228,
+      "caption": "Color Plate 27",
+      "alt": "Color Plate 27 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-203-91"
+      ]
+    },
+    "fig-e367e8a5486693fc7f": {
+      "id": "fig-e367e8a5486693fc7f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 157,
+      "rect": [
+        94.0,
+        115.0,
+        242.0,
+        195.0
+      ],
+      "path": "assets/figures/788d34ce70ecbc9df9da26d7.webp",
+      "width": 341,
+      "height": 185,
+      "bytes": 4160,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 157.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-2-170"
+      ]
+    },
+    "fig-e4b77ff51d89ddc37c": {
+      "id": "fig-e4b77ff51d89ddc37c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 90,
+      "rect": [
+        89.76,
+        239.78,
+        295.02,
+        394.48
+      ],
+      "path": "assets/figures/9609cc18d1c6209c83953ee1.webp",
+      "width": 473,
+      "height": 357,
+      "bytes": 39668,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 90.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-40"
+      ]
+    },
+    "fig-e5d781f75ac01c2621": {
+      "id": "fig-e5d781f75ac01c2621",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 242,
+      "rect": [
+        158.08,
+        167.78,
+        223.36,
+        215.98
+      ],
+      "path": "assets/figures/c8b686f463b2a9635a9d1fdc.webp",
+      "width": 151,
+      "height": 112,
+      "bytes": 2808,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 242.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-138"
+      ]
+    },
+    "fig-e607e6e56a34b1224b": {
+      "id": "fig-e607e6e56a34b1224b",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 424,
+      "rect": [
+        20.0,
+        35.0,
+        269.0,
+        242.0
+      ],
+      "path": "assets/figures/5498161a2a74a9a28e42602d.webp",
+      "width": 573,
+      "height": 477,
+      "bytes": 18426,
+      "caption": "Color Plate 7",
+      "alt": "Color Plate 7 from Success textbook, PDF page 424.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-78"
+      ]
+    },
+    "fig-e6e6190ca2f70f7582": {
+      "id": "fig-e6e6190ca2f70f7582",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 434,
+      "rect": [
+        20.0,
+        60.0,
+        270.0,
+        231.0
+      ],
+      "path": "assets/figures/728e0cbe3987d93d7b6dcbfa.webp",
+      "width": 575,
+      "height": 394,
+      "bytes": 35548,
+      "caption": "Color Plate 59",
+      "alt": "Color Plate 59 from Success textbook, PDF page 434.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-331-48"
+      ]
+    },
+    "fig-e75215e7339a8f69e6": {
+      "id": "fig-e75215e7339a8f69e6",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 427,
+      "rect": [
+        300.0,
+        523.0,
+        540.0,
+        668.0
+      ],
+      "path": "assets/figures/9d9f513d245584d477feb576.webp",
+      "width": 552,
+      "height": 335,
+      "bytes": 10250,
+      "caption": "Color Plate 31",
+      "alt": "Color Plate 31 from Success textbook, PDF page 427.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-1"
+      ]
+    },
+    "fig-e95b2fa53a2c40044f": {
+      "id": "fig-e95b2fa53a2c40044f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 428,
+      "rect": [
+        270.0,
+        35.0,
+        540.0,
+        248.0
+      ],
+      "path": "assets/figures/a6927419885d3b562fd05a11.webp",
+      "width": 621,
+      "height": 491,
+      "bytes": 30298,
+      "caption": "Color Plate 35",
+      "alt": "Color Plate 35 from Success textbook, PDF page 428.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-289-6"
+      ]
+    },
+    "fig-ea60484805dc96d2f4": {
+      "id": "fig-ea60484805dc96d2f4",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 424,
+      "rect": [
+        270.0,
+        471.0,
+        540.0,
+        661.0
+      ],
+      "path": "assets/figures/7a2e2cbab56f5eb9004139d0.webp",
+      "width": 621,
+      "height": 438,
+      "bytes": 25418,
+      "caption": "Color Plate 12",
+      "alt": "Color Plate 12 from Success textbook, PDF page 424.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-181"
+      ]
+    },
+    "fig-ec6e88bb040c3839ad": {
+      "id": "fig-ec6e88bb040c3839ad",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 329,
+      "rect": [
+        115.22,
+        515.06,
+        393.15,
+        573.64
+      ],
+      "path": "assets/figures/e37aab1b1814a6307e76a170.webp",
+      "width": 641,
+      "height": 136,
+      "bytes": 8750,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 329.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-8-235"
+      ]
+    },
+    "fig-ee41292d2a112acd48": {
+      "id": "fig-ee41292d2a112acd48",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 431,
+      "rect": [
+        292.0,
+        20.0,
+        540.0,
+        222.0
+      ],
+      "path": "assets/figures/f491e2851c45d52888e71b25.webp",
+      "width": 571,
+      "height": 465,
+      "bytes": 16424,
+      "caption": "Color Plate 53",
+      "alt": "Color Plate 53 from Success textbook, PDF page 431.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-351-55"
+      ]
+    },
+    "fig-ee594a479d858d12e3": {
+      "id": "fig-ee594a479d858d12e3",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 155,
+      "rect": [
+        93.0,
+        108.0,
+        240.0,
+        201.0
+      ],
+      "path": "assets/figures/d5fdab854bfcc0590ce443ab.webp",
+      "width": 339,
+      "height": 215,
+      "bytes": 3896,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 155.",
+      "method": "reviewed-chart-with-axis-labels",
+      "questionIds": [
+        "boc-2-164"
+      ]
+    },
+    "fig-ef377fa5ea79af6a1f": {
+      "id": "fig-ef377fa5ea79af6a1f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 232,
+      "rect": [
+        139.66,
+        108.85,
+        342.92,
+        256.51
+      ],
+      "path": "assets/figures/268bd1e39f52b68decf09829.webp",
+      "width": 468,
+      "height": 340,
+      "bytes": 22696,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 232.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-86"
+      ]
+    },
+    "fig-f13998a4fcc44e44df": {
+      "id": "fig-f13998a4fcc44e44df",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 426,
+      "rect": [
+        298.0,
+        35.0,
+        540.0,
+        241.0
+      ],
+      "path": "assets/figures/f29f0d7e1dcda6aced9023fd.webp",
+      "width": 557,
+      "height": 475,
+      "bytes": 11500,
+      "caption": "Color Plate 20",
+      "alt": "Color Plate 20 from Success textbook, PDF page 426.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-220",
+        "book-1-254"
+      ]
+    },
+    "fig-f15c88d810e2d6d8cd": {
+      "id": "fig-f15c88d810e2d6d8cd",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 285,
+      "rect": [
+        88.76,
+        114.54,
+        297.04,
+        266.22
+      ],
+      "path": "assets/figures/25ad2c37740476995f3634d4.webp",
+      "width": 480,
+      "height": 350,
+      "bytes": 11716,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 285.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-4-7"
+      ]
+    },
+    "fig-f2457b22b65daf2b7b": {
+      "id": "fig-f2457b22b65daf2b7b",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 140,
+      "rect": [
+        86.41,
+        101.48,
+        295.69,
+        259.19
+      ],
+      "path": "assets/figures/2037c89c31acf0d0a5ecb49e.webp",
+      "width": 483,
+      "height": 364,
+      "bytes": 22746,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 140.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-313"
+      ]
+    },
+    "fig-f3fa73d3c980438f56": {
+      "id": "fig-f3fa73d3c980438f56",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 425,
+      "rect": [
+        40.0,
+        35.0,
+        289.0,
+        243.0
+      ],
+      "path": "assets/figures/87a718955be7c758acb937d8.webp",
+      "width": 573,
+      "height": 479,
+      "bytes": 10498,
+      "caption": "Color Plate 13",
+      "alt": "Color Plate 13 from Success textbook, PDF page 425.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-184"
+      ]
+    },
+    "fig-f6417b78f6f46df4d9": {
+      "id": "fig-f6417b78f6f46df4d9",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 159,
+      "rect": [
+        220.37,
+        89.42,
+        313.45,
+        232.06
+      ],
+      "path": "assets/figures/401668314aa2bf7564b3e474.webp",
+      "width": 215,
+      "height": 329,
+      "bytes": 12186,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 159.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-37"
+      ]
+    },
+    "fig-f8067deb265972e15f": {
+      "id": "fig-f8067deb265972e15f",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "textbook",
+      "page": 423,
+      "rect": [
+        40.0,
+        263.0,
+        287.0,
+        455.0
+      ],
+      "path": "assets/figures/9f4187be19f707b4138d9f0d.webp",
+      "width": 569,
+      "height": 443,
+      "bytes": 15382,
+      "caption": "Color Plate 2",
+      "alt": "Color Plate 2 from Success textbook, PDF page 423.",
+      "method": "reviewed-color-plate-crop",
+      "questionIds": [
+        "book-1-44"
+      ]
+    },
+    "fig-fa85865b74722f9dc9": {
+      "id": "fig-fa85865b74722f9dc9",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 242,
+      "rect": [
+        249.51,
+        123.91,
+        345.26,
+        241.77
+      ],
+      "path": "assets/figures/d36ce44c601136b1f1664622.webp",
+      "width": 222,
+      "height": 272,
+      "bytes": 7696,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 242.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-138"
+      ]
+    },
+    "fig-fb2fd0765862cbdf4e": {
+      "id": "fig-fb2fd0765862cbdf4e",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc2",
+      "page": 193,
+      "rect": [
+        231.42,
+        445.74,
+        310.76,
+        531.78
+      ],
+      "path": "assets/figures/25e371a2761e5673ecb8b9dd.webp",
+      "width": 183,
+      "height": 199,
+      "bytes": 6342,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 2, PDF page 193.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-6-370"
+      ]
+    },
+    "fig-fc060cc6a002bc1764": {
+      "id": "fig-fc060cc6a002bc1764",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc1",
+      "page": 237,
+      "rect": [
+        158.41,
+        372.4,
+        218.67,
+        435.0
+      ],
+      "path": "assets/figures/076fe68e2fe3c42d391f2a32.webp",
+      "width": 139,
+      "height": 145,
+      "bytes": 2366,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 1, PDF page 237.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-3-119"
+      ]
+    },
+    "fig-ff88a5317a2c22202c": {
+      "id": "fig-ff88a5317a2c22202c",
+      "kind": "figure",
+      "reveal": "question",
+      "documentId": "boc2",
+      "page": 150,
+      "rect": [
+        181.19,
+        284.32,
+        296.04,
+        430.65
+      ],
+      "path": "assets/figures/e49b522def576b22161c650d.webp",
+      "width": 265,
+      "height": 338,
+      "bytes": 12294,
+      "caption": "Original source figure",
+      "alt": "Original source figure from BOC · Part 2, PDF page 150.",
+      "method": "embedded-image-inside-question",
+      "questionIds": [
+        "boc-6-370"
+      ]
+    },
+    "fig-ffcbd0052afa11346d": {
+      "id": "fig-ffcbd0052afa11346d",
+      "kind": "figure",
+      "reveal": "answer",
+      "documentId": "boc1",
+      "page": 199,
+      "rect": [
+        88.42,
+        200.6,
+        218.34,
+        293.68
+      ],
+      "path": "assets/figures/6df61cdb3403867da0ac6cfd.webp",
+      "width": 300,
+      "height": 215,
+      "bytes": 3790,
+      "caption": "Original rationale figure",
+      "alt": "Original rationale figure from BOC · Part 1, PDF page 199.",
+      "method": "picture-before-printed-rationale-number",
+      "questionIds": [
+        "boc-2-137"
+      ]
+    }
+  },
+  "questions": {
+    "boc-2-137": {
+      "key": "2cf78b31",
+      "figureIds": [
+        "fig-4c3c5b6a028caba1d1",
+        "fig-ffcbd0052afa11346d"
+      ],
+      "notes": []
+    },
+    "boc-2-141": {
+      "key": "2f37dc55",
+      "figureIds": [
+        "fig-7238f7a8933480b950"
+      ],
+      "notes": []
+    },
+    "boc-2-152": {
+      "key": "fe878763",
+      "figureIds": [
+        "fig-7556a750341980edfd"
+      ],
+      "notes": []
+    },
+    "boc-2-164": {
+      "key": "2366d361",
+      "figureIds": [
+        "fig-ee594a479d858d12e3"
+      ],
+      "notes": []
+    },
+    "boc-2-165": {
+      "key": "824f3443",
+      "figureIds": [
+        "fig-49d65d5d1810356c41"
+      ],
+      "notes": []
+    },
+    "boc-2-166": {
+      "key": "649c7dd9",
+      "figureIds": [
+        "fig-0986879d35eb9647a2"
+      ],
+      "notes": []
+    },
+    "boc-2-170": {
+      "key": "d0777a1f",
+      "figureIds": [
+        "fig-e367e8a5486693fc7f"
+      ],
+      "notes": []
+    },
+    "boc-2-171": {
+      "key": "fb24276d",
+      "figureIds": [
+        "fig-7f1f3109026de1704f"
+      ],
+      "notes": []
+    },
+    "boc-2-190": {
+      "key": "3c3cc939",
+      "figureIds": [
+        "fig-442dfe0dbb90bbd919"
+      ],
+      "notes": []
+    },
+    "boc-2-323": {
+      "key": "80b1d5c5",
+      "figureIds": [
+        "fig-e034968ae3b6c7f940",
+        "fig-ba005ada82904afd88"
+      ],
+      "notes": []
+    },
+    "boc-3-105": {
+      "key": "688ce7e3",
+      "figureIds": [
+        "fig-791558281c77aa9c5c",
+        "fig-5c0d33c35de9b2270d"
+      ],
+      "notes": []
+    },
+    "boc-3-111": {
+      "key": "df4f3e28",
+      "figureIds": [
+        "fig-1036c0fe53a3d21eba",
+        "fig-0cfa8a3b5cdb45372f"
+      ],
+      "notes": []
+    },
+    "boc-3-119": {
+      "key": "950dda67",
+      "figureIds": [
+        "fig-fc060cc6a002bc1764",
+        "fig-53b765d57af7703fb4"
+      ],
+      "notes": []
+    },
+    "boc-3-120": {
+      "key": "1216e27f",
+      "figureIds": [
+        "fig-685d9537520cc787ee"
+      ],
+      "notes": []
+    },
+    "boc-3-125": {
+      "key": "f9120efe",
+      "figureIds": [
+        "fig-bfea1e7354e63ae17c",
+        "fig-38085497317cfdec9a"
+      ],
+      "notes": []
+    },
+    "boc-3-131": {
+      "key": "240ddff3",
+      "figureIds": [
+        "fig-c09d4a57f4131ce3f4",
+        "fig-d787ad000e2c385294"
+      ],
+      "notes": []
+    },
+    "boc-3-134": {
+      "key": "1a77c2d6",
+      "figureIds": [
+        "fig-c386e849e3cc32d030",
+        "fig-a2fc6119b3a6175b5e"
+      ],
+      "notes": []
+    },
+    "boc-3-138": {
+      "key": "1d05bfdf",
+      "figureIds": [
+        "fig-e5d781f75ac01c2621",
+        "fig-fa85865b74722f9dc9",
+        "fig-adfbf322f055105a31"
+      ],
+      "notes": []
+    },
+    "boc-3-81": {
+      "key": "d1792ae0",
+      "figureIds": [
+        "fig-a5efd0dad2b4d63209",
+        "fig-2495f5456f27654f24"
+      ],
+      "notes": []
+    },
+    "boc-3-86": {
+      "key": "af3462ef",
+      "figureIds": [
+        "fig-ef377fa5ea79af6a1f"
+      ],
+      "notes": []
+    },
+    "boc-3-87": {
+      "key": "dd36bce8",
+      "figureIds": [
+        "fig-2689d2fca307a74e19",
+        "fig-b709fb1353a126bf1b"
+      ],
+      "notes": []
+    },
+    "boc-3-90": {
+      "key": "a1f4903b",
+      "figureIds": [
+        "fig-c759f86522dc5c23d9",
+        "fig-b733c17cc5212bdcd1"
+      ],
+      "notes": []
+    },
+    "boc-4-199": {
+      "key": "efbc4d92",
+      "figureIds": [
+        "fig-8e503e97514218ab39"
+      ],
+      "notes": []
+    },
+    "boc-4-2": {
+      "key": "9bfe959b",
+      "figureIds": [
+        "fig-b7abccef64e7f8f0e3"
+      ],
+      "notes": []
+    },
+    "boc-4-226": {
+      "key": "af50d888",
+      "figureIds": [
+        "fig-b1a50468773048caa5"
+      ],
+      "notes": []
+    },
+    "boc-4-230": {
+      "key": "69b6fd73",
+      "figureIds": [
+        "fig-b1a50468773048caa5"
+      ],
+      "notes": []
+    },
+    "boc-4-234": {
+      "key": "50108db9",
+      "figureIds": [
+        "fig-0c42849fe55536e9a6",
+        "fig-b5132ea27ca6977bf0"
+      ],
+      "notes": []
+    },
+    "boc-4-235": {
+      "key": "b4b333c1",
+      "figureIds": [
+        "fig-397d251a9eca1d0895",
+        "fig-c6dae47ff5d102e9de"
+      ],
+      "notes": []
+    },
+    "boc-4-238": {
+      "key": "1d53935d",
+      "figureIds": [
+        "fig-46e762e8785c553d4c"
+      ],
+      "notes": []
+    },
+    "boc-4-247": {
+      "key": "b6428bf5",
+      "figureIds": [
+        "fig-8b4b39817cab857b8f"
+      ],
+      "notes": []
+    },
+    "boc-4-256": {
+      "key": "31d35897",
+      "figureIds": [
+        "fig-ac9b5a38b86a30a4b8",
+        "fig-7589f893a42b37cb57"
+      ],
+      "notes": []
+    },
+    "boc-4-257": {
+      "key": "76869c49",
+      "figureIds": [
+        "fig-d72c38cd19fbc6ae62",
+        "fig-309d79c488e581f9fe"
+      ],
+      "notes": []
+    },
+    "boc-4-268": {
+      "key": "c1824ab1",
+      "figureIds": [
+        "fig-c434ac749db0708c9b"
+      ],
+      "notes": []
+    },
+    "boc-4-273": {
+      "key": "1f152cd3",
+      "figureIds": [
+        "fig-a6659f81a9a239c794"
+      ],
+      "notes": []
+    },
+    "boc-4-274": {
+      "key": "90994e64",
+      "figureIds": [
+        "fig-a6659f81a9a239c794"
+      ],
+      "notes": []
+    },
+    "boc-4-3": {
+      "key": "8c0e68dc",
+      "figureIds": [
+        "fig-b7abccef64e7f8f0e3"
+      ],
+      "notes": []
+    },
+    "boc-4-4": {
+      "key": "115d9ab7",
+      "figureIds": [
+        "fig-b7abccef64e7f8f0e3"
+      ],
+      "notes": []
+    },
+    "boc-4-7": {
+      "key": "80c9b687",
+      "figureIds": [
+        "fig-f15c88d810e2d6d8cd"
+      ],
+      "notes": []
+    },
+    "boc-4-8": {
+      "key": "b627f177",
+      "figureIds": [
+        "fig-01859810f61a6cf5e6"
+      ],
+      "notes": []
+    },
+    "boc-4-85": {
+      "key": "d3b769fd",
+      "figureIds": [
+        "fig-137d81030cec295a07"
+      ],
+      "notes": []
+    },
+    "boc-5-120": {
+      "key": "86ce9e47",
+      "figureIds": [
+        "fig-98a8ba98bee5885dbd"
+      ],
+      "notes": []
+    },
+    "boc-5-126": {
+      "key": "df63911b",
+      "figureIds": [
+        "fig-bb5128a1154f8162b7"
+      ],
+      "notes": []
+    },
+    "boc-5-127": {
+      "key": "f5679d75",
+      "figureIds": [
+        "fig-9878a610b4d85a5557"
+      ],
+      "notes": []
+    },
+    "boc-6-163": {
+      "key": "d71efd2f",
+      "figureIds": [
+        "fig-6747c269744ecc7056"
+      ],
+      "notes": []
+    },
+    "boc-6-25": {
+      "key": "91771181",
+      "figureIds": [
+        "fig-762d457818beb93fd0",
+        "fig-cb2bea15743aa9f3a2"
+      ],
+      "notes": []
+    },
+    "boc-6-309": {
+      "key": "43f6dffb",
+      "figureIds": [
+        "fig-51b07170abd035c617"
+      ],
+      "notes": []
+    },
+    "boc-6-310": {
+      "key": "bfbd5bea",
+      "figureIds": [
+        "fig-51b07170abd035c617"
+      ],
+      "notes": []
+    },
+    "boc-6-311": {
+      "key": "d5045169",
+      "figureIds": [
+        "fig-d1e4dd18c0de903480"
+      ],
+      "notes": []
+    },
+    "boc-6-312": {
+      "key": "a3a06c29",
+      "figureIds": [
+        "fig-d1e4dd18c0de903480"
+      ],
+      "notes": []
+    },
+    "boc-6-313": {
+      "key": "a42d35b2",
+      "figureIds": [
+        "fig-f2457b22b65daf2b7b"
+      ],
+      "notes": []
+    },
+    "boc-6-314": {
+      "key": "15675a8e",
+      "figureIds": [
+        "fig-535de924ed7afa7aa5"
+      ],
+      "notes": []
+    },
+    "boc-6-319": {
+      "key": "915af975",
+      "figureIds": [
+        "fig-636df7c296de9c813c"
+      ],
+      "notes": []
+    },
+    "boc-6-332": {
+      "key": "8476bd6f",
+      "figureIds": [
+        "fig-8d294ef5d1e0683f9e",
+        "fig-5d578d1f7e37eb7bac"
+      ],
+      "notes": []
+    },
+    "boc-6-355": {
+      "key": "b3b84167",
+      "figureIds": [
+        "fig-5c9f49d49598e09346",
+        "fig-82504d8dd4139c8320"
+      ],
+      "notes": []
+    },
+    "boc-6-366": {
+      "key": "48b96ed3",
+      "figureIds": [
+        "fig-79e5e72e7e3a861787",
+        "fig-b4e863644f0823a96b",
+        "fig-93db7a3f5b51accad0"
+      ],
+      "notes": []
+    },
+    "boc-6-37": {
+      "key": "ffe9ebb7",
+      "figureIds": [
+        "fig-33482a610a86347eaa",
+        "fig-c7da5efc4f2064b320",
+        "fig-8d4e51a7ac019bb9fd",
+        "fig-f6417b78f6f46df4d9"
+      ],
+      "notes": []
+    },
+    "boc-6-370": {
+      "key": "b9b76af8",
+      "figureIds": [
+        "fig-ff88a5317a2c22202c",
+        "fig-fb2fd0765862cbdf4e"
+      ],
+      "notes": []
+    },
+    "boc-6-376": {
+      "key": "3f41ddcb",
+      "figureIds": [
+        "fig-0ff445241ef396ad5f"
+      ],
+      "notes": []
+    },
+    "boc-6-40": {
+      "key": "9f9f2f29",
+      "figureIds": [
+        "fig-e4b77ff51d89ddc37c",
+        "fig-3a63b3839aab7f6296"
+      ],
+      "notes": []
+    },
+    "boc-6-81": {
+      "key": "1c7b675c",
+      "figureIds": [
+        "fig-89782f0862f88516e5"
+      ],
+      "notes": []
+    },
+    "boc-7-118": {
+      "key": "f6fba660",
+      "figureIds": [
+        "fig-1e9acd293d54451363",
+        "fig-5f07b6b1a2215b1938"
+      ],
+      "notes": []
+    },
+    "boc-7-13": {
+      "key": "836ae7c7",
+      "figureIds": [
+        "fig-e184feefac56149cf8",
+        "fig-a1f0fd4579381e9aea"
+      ],
+      "notes": []
+    },
+    "boc-7-2": {
+      "key": "fcec5bd5",
+      "figureIds": [
+        "fig-559017b2a1357e5b25",
+        "fig-a003e6c0c663e57b4a"
+      ],
+      "notes": []
+    },
+    "boc-7-250": {
+      "key": "fe0bd3a3",
+      "figureIds": [
+        "fig-20f92ca8d4cf9d508c",
+        "fig-9b72d6fd19e0ebb828"
+      ],
+      "notes": []
+    },
+    "boc-7-251": {
+      "key": "48e18012",
+      "figureIds": [
+        "fig-345884b24c6de6978f",
+        "fig-9b22cc4276b49bc3f2"
+      ],
+      "notes": []
+    },
+    "boc-7-79": {
+      "key": "53257f08",
+      "figureIds": [
+        "fig-3d482f8d29426dae68"
+      ],
+      "notes": []
+    },
+    "boc-7-85": {
+      "key": "a6482f66",
+      "figureIds": [
+        "fig-62acf6b864570ee69a",
+        "fig-57bf1140b60e32a448"
+      ],
+      "notes": []
+    },
+    "boc-8-235": {
+      "key": "b3fedad2",
+      "figureIds": [
+        "fig-3f8c742a8abc9fce69",
+        "fig-ec6e88bb040c3839ad"
+      ],
+      "notes": []
+    },
+    "boc-8-68": {
+      "key": "aeee5dcb",
+      "figureIds": [
+        "fig-5f84d1fa3184f6dc9d"
+      ],
+      "notes": []
+    },
+    "boc-8-69": {
+      "key": "f42d5e4f",
+      "figureIds": [
+        "fig-5f84d1fa3184f6dc9d"
+      ],
+      "notes": []
+    },
+    "boc-8-70": {
+      "key": "9318ae1d",
+      "figureIds": [
+        "fig-5f84d1fa3184f6dc9d"
+      ],
+      "notes": []
+    },
+    "boc-8-71": {
+      "key": "9428c595",
+      "figureIds": [
+        "fig-5f84d1fa3184f6dc9d"
+      ],
+      "notes": []
+    },
+    "boc-8-72": {
+      "key": "048933fb",
+      "figureIds": [
+        "fig-5f84d1fa3184f6dc9d"
+      ],
+      "notes": []
+    },
+    "boc-8-73": {
+      "key": "adcdf481",
+      "figureIds": [
+        "fig-83ef7e2079a19925dd"
+      ],
+      "notes": []
+    },
+    "boc-8-74": {
+      "key": "5b889384",
+      "figureIds": [
+        "fig-83ef7e2079a19925dd"
+      ],
+      "notes": []
+    },
+    "boc-8-75": {
+      "key": "99302bf6",
+      "figureIds": [
+        "fig-83ef7e2079a19925dd"
+      ],
+      "notes": []
+    },
+    "boc-8-76": {
+      "key": "d9c2629f",
+      "figureIds": [
+        "fig-83ef7e2079a19925dd"
+      ],
+      "notes": []
+    },
+    "boc-8-77": {
+      "key": "7717ed72",
+      "figureIds": [
+        "fig-83ef7e2079a19925dd"
+      ],
+      "notes": []
+    },
+    "book-1-106": {
+      "key": "73da6291",
+      "figureIds": [
+        "fig-778e4a2b52958f1835"
+      ],
+      "notes": []
+    },
+    "book-1-178": {
+      "key": "554108a5",
+      "figureIds": [
+        "fig-778e4a2b52958f1835"
+      ],
+      "notes": []
+    },
+    "book-1-181": {
+      "key": "710bae43",
+      "figureIds": [
+        "fig-ea60484805dc96d2f4"
+      ],
+      "notes": []
+    },
+    "book-1-184": {
+      "key": "0ac5da34",
+      "figureIds": [
+        "fig-f3fa73d3c980438f56"
+      ],
+      "notes": []
+    },
+    "book-1-185": {
+      "key": "1fc8c3ce",
+      "figureIds": [
+        "fig-ba79dcad2cd3fee5c6"
+      ],
+      "notes": []
+    },
+    "book-1-192": {
+      "key": "86ef163f",
+      "figureIds": [
+        "fig-6e1c9adabeef11c489"
+      ],
+      "notes": []
+    },
+    "book-1-193": {
+      "key": "d71a0396",
+      "figureIds": [
+        "fig-8c0e8a6bc498523ec8"
+      ],
+      "notes": []
+    },
+    "book-1-211": {
+      "key": "e5d26dfb",
+      "figureIds": [
+        "fig-dac5dfaf393e335209"
+      ],
+      "notes": []
+    },
+    "book-1-220": {
+      "key": "67a5b442",
+      "figureIds": [
+        "fig-f13998a4fcc44e44df"
+      ],
+      "notes": []
+    },
+    "book-1-235": {
+      "key": "fca52d2d",
+      "figureIds": [
+        "fig-25f5369f94756b0bcb"
+      ],
+      "notes": []
+    },
+    "book-1-246": {
+      "key": "2c46ca0a",
+      "figureIds": [
+        "fig-cdc1a6276497559a3b"
+      ],
+      "notes": []
+    },
+    "book-1-254": {
+      "key": "4ace5513",
+      "figureIds": [
+        "fig-f13998a4fcc44e44df"
+      ],
+      "notes": []
+    },
+    "book-1-44": {
+      "key": "e0d833f1",
+      "figureIds": [
+        "fig-f8067deb265972e15f"
+      ],
+      "notes": [
+        "The printed question references Color Plate 2."
+      ]
+    },
+    "book-1-64": {
+      "key": "3f44ad51",
+      "figureIds": [
+        "fig-6b2e02488eafeaf068"
+      ],
+      "notes": []
+    },
+    "book-1-65": {
+      "key": "50a2f440",
+      "figureIds": [
+        "fig-cdc1a6276497559a3b"
+      ],
+      "notes": []
+    },
+    "book-1-66": {
+      "key": "92817b05",
+      "figureIds": [
+        "fig-6525eee2c25205bc51"
+      ],
+      "notes": []
+    },
+    "book-1-70": {
+      "key": "7504323b",
+      "figureIds": [
+        "fig-3f5b23fa344ea199ba"
+      ],
+      "notes": []
+    },
+    "book-1-78": {
+      "key": "7319aae1",
+      "figureIds": [
+        "fig-e607e6e56a34b1224b"
+      ],
+      "notes": [
+        "The printed question references Color Plate 7."
+      ]
+    },
+    "book-1-86": {
+      "key": "85593e1a",
+      "figureIds": [
+        "fig-1a888cf1099254984e"
+      ],
+      "notes": []
+    },
+    "book-1-95": {
+      "key": "d6815933",
+      "figureIds": [
+        "fig-a9e619ec7b32887861"
+      ],
+      "notes": []
+    },
+    "book-1-96": {
+      "key": "74be71e8",
+      "figureIds": [
+        "fig-2990724544ecff83cd"
+      ],
+      "notes": []
+    },
+    "book-110-1": {
+      "key": "4f27cb4f",
+      "figureIds": [
+        "fig-69f37df52ba63fecc5"
+      ],
+      "notes": []
+    },
+    "book-110-16": {
+      "key": "1474a633",
+      "figureIds": [
+        "fig-1532a19b4c835084fc"
+      ],
+      "notes": []
+    },
+    "book-110-42": {
+      "key": "01dfa9ed",
+      "figureIds": [
+        "fig-6ea8de9129750b9583"
+      ],
+      "notes": []
+    },
+    "book-110-67": {
+      "key": "d4d4435b",
+      "figureIds": [
+        "fig-c026aff5aff1e04aea"
+      ],
+      "notes": []
+    },
+    "book-110-68": {
+      "key": "f17cc2d4",
+      "figureIds": [
+        "fig-c026aff5aff1e04aea"
+      ],
+      "notes": []
+    },
+    "book-110-94": {
+      "key": "96dabed0",
+      "figureIds": [
+        "fig-a748c74de3fc497013"
+      ],
+      "notes": []
+    },
+    "book-203-12": {
+      "key": "10e5bf21",
+      "figureIds": [
+        "fig-0d9f6247d751c1a049"
+      ],
+      "notes": []
+    },
+    "book-203-131": {
+      "key": "98a0c47f",
+      "figureIds": [
+        "fig-706b1d1f4eebea5584"
+      ],
+      "notes": []
+    },
+    "book-203-235": {
+      "key": "7aa2e6d9",
+      "figureIds": [
+        "fig-555eb5af1682ad7d0e"
+      ],
+      "notes": []
+    },
+    "book-203-91": {
+      "key": "0384668d",
+      "figureIds": [
+        "fig-e204402d18a82a6c77"
+      ],
+      "notes": []
+    },
+    "book-289-1": {
+      "key": "63230f27",
+      "figureIds": [
+        "fig-73cc25a04bd934f6c7",
+        "fig-e75215e7339a8f69e6"
+      ],
+      "notes": []
+    },
+    "book-289-10": {
+      "key": "c10a7c5a",
+      "figureIds": [
+        "fig-890b5f50842ce16ac5"
+      ],
+      "notes": []
+    },
+    "book-289-3": {
+      "key": "8fbe1918",
+      "figureIds": [
+        "fig-3e62de8fbe0fb347ab"
+      ],
+      "notes": []
+    },
+    "book-289-5": {
+      "key": "50ebf8e5",
+      "figureIds": [
+        "fig-678ca4d97d1eb4483e",
+        "fig-2d12d2470f88e2df54"
+      ],
+      "notes": []
+    },
+    "book-289-6": {
+      "key": "482cbb7f",
+      "figureIds": [
+        "fig-e95b2fa53a2c40044f",
+        "fig-3dd9b318079d5cd0ee"
+      ],
+      "notes": []
+    },
+    "book-302-53": {
+      "key": "c0af18c2",
+      "figureIds": [
+        "fig-4d96b1824f27881db7"
+      ],
+      "notes": []
+    },
+    "book-302-54": {
+      "key": "190be1f9",
+      "figureIds": [
+        "fig-b5e4e9b16e652f142d"
+      ],
+      "notes": []
+    },
+    "book-302-55": {
+      "key": "3b44c1e4",
+      "figureIds": [
+        "fig-b5d5764a0675f24c36"
+      ],
+      "notes": []
+    },
+    "book-302-56": {
+      "key": "6c56cb62",
+      "figureIds": [
+        "fig-1b106b9b7edc4833e0"
+      ],
+      "notes": []
+    },
+    "book-302-57": {
+      "key": "6eb5e54e",
+      "figureIds": [
+        "fig-ae5717defa14861ecb"
+      ],
+      "notes": []
+    },
+    "book-302-58": {
+      "key": "a8c5b1d1",
+      "figureIds": [
+        "fig-92dbee2d5d471c7e68"
+      ],
+      "notes": []
+    },
+    "book-302-59": {
+      "key": "330dd223",
+      "figureIds": [
+        "fig-2b6bc670dd6da0e311"
+      ],
+      "notes": []
+    },
+    "book-302-60": {
+      "key": "3509397d",
+      "figureIds": [
+        "fig-66de43360fc165ee71"
+      ],
+      "notes": []
+    },
+    "book-331-13": {
+      "key": "64c7e508",
+      "figureIds": [
+        "fig-4e0ff1dfd16c543998"
+      ],
+      "notes": []
+    },
+    "book-331-40": {
+      "key": "73a360d5",
+      "figureIds": [
+        "fig-6eb90da7b8dc614e32",
+        "fig-698a8a6d5b8571bf1d"
+      ],
+      "notes": []
+    },
+    "book-331-48": {
+      "key": "ef516312",
+      "figureIds": [
+        "fig-e6e6190ca2f70f7582"
+      ],
+      "notes": []
+    },
+    "book-331-50": {
+      "key": "c3f6a574",
+      "figureIds": [
+        "fig-8872ac7b13838b857c"
+      ],
+      "notes": []
+    },
+    "book-351-27": {
+      "key": "382c8a98",
+      "figureIds": [
+        "fig-22a42a03eaea554a63"
+      ],
+      "notes": []
+    },
+    "book-351-36": {
+      "key": "b0f32686",
+      "figureIds": [
+        "fig-28c2800dcdec47ae3b"
+      ],
+      "notes": []
+    },
+    "book-351-37": {
+      "key": "ad918c22",
+      "figureIds": [
+        "fig-b535b739eb48da675c"
+      ],
+      "notes": []
+    },
+    "book-351-40": {
+      "key": "38ed7e05",
+      "figureIds": [
+        "fig-4f7e3c5d1f55b21cc2"
+      ],
+      "notes": []
+    },
+    "book-351-41": {
+      "key": "4cf74c2e",
+      "figureIds": [
+        "fig-17759382869b04678a"
+      ],
+      "notes": []
+    },
+    "book-351-43": {
+      "key": "36d660d1",
+      "figureIds": [
+        "fig-7e3fc157a4dec98cd1"
+      ],
+      "notes": [
+        "The printed question references Color Plate 51."
+      ]
+    },
+    "book-351-45": {
+      "key": "1db92d37",
+      "figureIds": [
+        "fig-cb83d41f42a9a38686"
+      ],
+      "notes": []
+    },
+    "book-351-55": {
+      "key": "e35e22cb",
+      "figureIds": [
+        "fig-ee41292d2a112acd48"
+      ],
+      "notes": []
+    },
+    "book-351-58": {
+      "key": "e2252aa4",
+      "figureIds": [
+        "fig-953e81fd1c7aad5477"
+      ],
+      "notes": []
+    }
+  },
+  "coverage": {
+    "activeQuestions": 3760,
+    "sourceDependentQuestions": 475,
+    "questionsWithInlineFigures": 130,
+    "questionsWithOriginalLayouts": 0,
+    "questionsWithRationaleFigures": 35,
+    "sourceDependentWithoutInlineFigure": [
+      "boc-1-100",
+      "boc-1-115",
+      "boc-1-143",
+      "boc-1-145",
+      "boc-1-186",
+      "boc-1-190",
+      "boc-1-197",
+      "boc-1-20",
+      "boc-1-203",
+      "boc-1-205",
+      "boc-1-218",
+      "boc-1-231",
+      "boc-1-232",
+      "boc-1-233",
+      "boc-1-234",
+      "boc-1-238",
+      "boc-1-241",
+      "boc-1-243",
+      "boc-1-247",
+      "boc-1-249",
+      "boc-1-250",
+      "boc-1-261",
+      "boc-1-262",
+      "boc-1-263",
+      "boc-1-264",
+      "boc-1-267",
+      "boc-1-269",
+      "boc-1-270",
+      "boc-1-274",
+      "boc-1-282",
+      "boc-1-284",
+      "boc-1-29",
+      "boc-1-291",
+      "boc-1-296",
+      "boc-1-298",
+      "boc-1-308",
+      "boc-1-310",
+      "boc-1-314",
+      "boc-1-319",
+      "boc-1-320",
+      "boc-1-322",
+      "boc-1-329",
+      "boc-1-330",
+      "boc-1-331",
+      "boc-1-342",
+      "boc-1-35",
+      "boc-1-371",
+      "boc-1-386",
+      "boc-1-392",
+      "boc-1-40",
+      "boc-1-419",
+      "boc-1-60",
+      "boc-1-70",
+      "boc-1-76",
+      "boc-1-77",
+      "boc-1-80",
+      "boc-1-83",
+      "boc-1-84",
+      "boc-1-88",
+      "boc-1-89",
+      "boc-2-105",
+      "boc-2-120",
+      "boc-2-122",
+      "boc-2-123",
+      "boc-2-124",
+      "boc-2-138",
+      "boc-2-145",
+      "boc-2-16",
+      "boc-2-161",
+      "boc-2-193",
+      "boc-2-196",
+      "boc-2-2",
+      "boc-2-20",
+      "boc-2-208",
+      "boc-2-209",
+      "boc-2-211",
+      "boc-2-228",
+      "boc-2-242",
+      "boc-2-246",
+      "boc-2-249",
+      "boc-2-265",
+      "boc-2-27",
+      "boc-2-270",
+      "boc-2-295",
+      "boc-2-296",
+      "boc-2-298",
+      "boc-2-311",
+      "boc-2-318",
+      "boc-2-353",
+      "boc-2-363",
+      "boc-2-44",
+      "boc-2-49",
+      "boc-2-54",
+      "boc-2-65",
+      "boc-2-69",
+      "boc-2-71",
+      "boc-2-90",
+      "boc-2-91",
+      "boc-2-93",
+      "boc-2-98",
+      "boc-3-120",
+      "boc-3-121",
+      "boc-3-130",
+      "boc-3-151",
+      "boc-3-251",
+      "boc-3-254",
+      "boc-3-36",
+      "boc-3-49",
+      "boc-3-62",
+      "boc-3-65",
+      "boc-3-66",
+      "boc-3-68",
+      "boc-3-69",
+      "boc-3-73",
+      "boc-3-75",
+      "boc-3-91",
+      "boc-3-96",
+      "boc-4-100",
+      "boc-4-101",
+      "boc-4-102",
+      "boc-4-112",
+      "boc-4-120",
+      "boc-4-121",
+      "boc-4-122",
+      "boc-4-133",
+      "boc-4-166",
+      "boc-4-178",
+      "boc-4-191",
+      "boc-4-197",
+      "boc-4-201",
+      "boc-4-208",
+      "boc-4-211",
+      "boc-4-220",
+      "boc-4-222",
+      "boc-4-225",
+      "boc-4-231",
+      "boc-4-236",
+      "boc-4-242",
+      "boc-4-245",
+      "boc-4-252",
+      "boc-4-255",
+      "boc-4-258",
+      "boc-4-259",
+      "boc-4-285",
+      "boc-4-286",
+      "boc-4-295",
+      "boc-4-296",
+      "boc-4-41",
+      "boc-4-54",
+      "boc-4-56",
+      "boc-4-62",
+      "boc-4-83",
+      "boc-4-85",
+      "boc-4-86",
+      "boc-5-125",
+      "boc-5-126",
+      "boc-5-130",
+      "boc-5-153",
+      "boc-5-157",
+      "boc-5-167",
+      "boc-5-36",
+      "boc-5-4",
+      "boc-5-40",
+      "boc-5-42",
+      "boc-5-43",
+      "boc-5-49",
+      "boc-5-63",
+      "boc-5-64",
+      "boc-5-77",
+      "boc-6-13",
+      "boc-6-163",
+      "boc-6-29",
+      "boc-6-3",
+      "boc-6-30",
+      "boc-6-33",
+      "boc-6-46",
+      "boc-6-50",
+      "boc-6-51",
+      "boc-6-53",
+      "boc-6-54",
+      "boc-7-132",
+      "boc-7-142",
+      "boc-7-16",
+      "boc-7-161",
+      "boc-7-175",
+      "boc-7-181",
+      "boc-7-183",
+      "boc-7-184",
+      "boc-7-191",
+      "boc-7-199",
+      "boc-7-234",
+      "boc-7-235",
+      "boc-7-236",
+      "boc-7-238",
+      "boc-7-239",
+      "boc-7-240",
+      "boc-7-264",
+      "boc-7-290",
+      "boc-7-314",
+      "boc-7-40",
+      "boc-7-8",
+      "boc-8-150",
+      "boc-8-156",
+      "boc-8-185",
+      "boc-8-194",
+      "boc-8-254",
+      "boc-8-86",
+      "book-1-102",
+      "book-1-147",
+      "book-1-179",
+      "book-1-19",
+      "book-1-199",
+      "book-1-205",
+      "book-1-207",
+      "book-1-228",
+      "book-1-249",
+      "book-1-250",
+      "book-1-255",
+      "book-1-256",
+      "book-1-259",
+      "book-1-260",
+      "book-1-261",
+      "book-1-262",
+      "book-1-263",
+      "book-1-268",
+      "book-1-271",
+      "book-1-274",
+      "book-1-277",
+      "book-1-280",
+      "book-1-283",
+      "book-1-284",
+      "book-1-33",
+      "book-1-74",
+      "book-110-22",
+      "book-110-85",
+      "book-110-96",
+      "book-110-98",
+      "book-135-105",
+      "book-135-12",
+      "book-135-127",
+      "book-135-13",
+      "book-135-133",
+      "book-135-14",
+      "book-135-140",
+      "book-135-144",
+      "book-135-146",
+      "book-135-15",
+      "book-135-152",
+      "book-135-156",
+      "book-135-161",
+      "book-135-172",
+      "book-135-18",
+      "book-135-19",
+      "book-135-199",
+      "book-135-20",
+      "book-135-209",
+      "book-135-21",
+      "book-135-29",
+      "book-135-30",
+      "book-135-31",
+      "book-135-37",
+      "book-135-43",
+      "book-135-48",
+      "book-135-67",
+      "book-135-7",
+      "book-135-71",
+      "book-135-78",
+      "book-135-87",
+      "book-135-9",
+      "book-135-91",
+      "book-135-95",
+      "book-135-96",
+      "book-203-228",
+      "book-203-23",
+      "book-203-239",
+      "book-203-252",
+      "book-203-253",
+      "book-203-262",
+      "book-203-45",
+      "book-203-51",
+      "book-289-30",
+      "book-302-11",
+      "book-302-35",
+      "book-331-11",
+      "book-331-12",
+      "book-331-14",
+      "book-331-20",
+      "book-331-25",
+      "book-331-26",
+      "book-331-39",
+      "book-351-14",
+      "book-373-3",
+      "book-373-44",
+      "book-373-55",
+      "book-373-56",
+      "book-373-57",
+      "book-399-10",
+      "book-399-18",
+      "book-399-20",
+      "book-399-21",
+      "book-399-22",
+      "book-399-26",
+      "book-399-27",
+      "book-399-44",
+      "book-399-52",
+      "book-399-59",
+      "book-399-68",
+      "book-399-81",
+      "book-86-10",
+      "book-86-11",
+      "book-86-12",
+      "book-86-13",
+      "book-86-14",
+      "book-86-15",
+      "book-86-16",
+      "book-86-17",
+      "book-86-18",
+      "book-86-2",
+      "book-86-26",
+      "book-86-35",
+      "book-86-38",
+      "book-86-39",
+      "book-86-4",
+      "book-86-40",
+      "book-86-43",
+      "book-86-45",
+      "book-86-46",
+      "book-86-48",
+      "book-86-5",
+      "book-86-56",
+      "book-86-58",
+      "book-86-59",
+      "book-86-6",
+      "book-86-62",
+      "book-86-63",
+      "book-86-64",
+      "book-86-65",
+      "book-86-66",
+      "book-86-67",
+      "book-86-68",
+      "book-86-69",
+      "book-86-7",
+      "book-86-70",
+      "book-86-71",
+      "book-86-72",
+      "book-86-73",
+      "book-86-74",
+      "book-86-8",
+      "book-86-9"
+    ],
+    "figureRecords": 155,
+    "uniqueImageFiles": 155,
+    "imageBytes": 2445088,
+    "reviewedReferenceCorrections": [
+      "book-1-44",
+      "book-1-78",
+      "book-351-43"
+    ],
+    "byBook": {
+      "success4": {
+        "questionsWithInlineFigures": 57,
+        "questionsWithRationaleFigures": 0,
+        "questionFigureRecords": 57,
+        "rationaleFigureRecords": 0
+      },
+      "boc7": {
+        "questionsWithInlineFigures": 73,
+        "questionsWithRationaleFigures": 35,
+        "questionFigureRecords": 62,
+        "rationaleFigureRecords": 36
+      }
+    }
+  },
+  "pdfAudit": {
+    "textbook": {
+      "pages": 434,
+      "pagesWithDrawings": 0,
+      "imageCountHistogram": {
+        "2": 434
+      }
+    },
+    "boc1": {
+      "pages": 333,
+      "pagesWithDrawings": 147,
+      "imageCountHistogram": {
+        "1": 241,
+        "2": 59,
+        "3": 21,
+        "4": 7,
+        "5": 3,
+        "6": 1,
+        "7": 1
+      }
+    },
+    "boc2": {
+      "pages": 333,
+      "pagesWithDrawings": 98,
+      "imageCountHistogram": {
+        "1": 260,
+        "2": 27,
+        "3": 25,
+        "4": 14,
+        "5": 4,
+        "6": 3
+      }
+    }
+  }
+}

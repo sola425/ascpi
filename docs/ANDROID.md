@@ -1,89 +1,111 @@
-# Android installation and build — 6.0.0
+# Android installation and build — 7.0.0
 
 ## Install or update
 
 1. If Labwise is already installed, open **Progress → Export progress** and save a backup. Export any custom question bank separately.
-2. [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk). The fixed v6 release is [Labwise-6.0.0.apk](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-6.0.0.apk).
-3. Open the APK from Downloads. If Android asks, allow the browser or file manager to install this downloaded app.
-4. Choose **Install** or **Update**, then open Labwise. **Install over the existing app without uninstalling** to retain its on-device data.
+2. [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk). The fixed v7 release is [Labwise-7.0.0.apk](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.0.0.apk).
+3. Open the APK from Downloads. If Android asks, allow that browser or file manager to install the downloaded app.
+4. Choose **Install** or **Update**, then open Labwise. Install over the existing app, keeping its on-device data.
 
-Requires Android 8.0 (API 26) or newer and an up-to-date Android System WebView. The package remains `com.labwise.study`, version name `6.0.0`, version code `60000`, target API `35`. It retains the signing identity used by earlier releases and uses a higher version code for an in-place update. Device installation and upgrade behavior have not been exercised in this environment.
+Requires **Android 8.0 (API 26) or newer** and an up-to-date Android System WebView. The package remains `com.labwise.study`, version name `7.0.0`, version code **70000**, target API **35**. It retains the signing identity used by earlier releases. Physical-device installation and upgrade behavior have not been exercised here.
 
-The APK bundles the unchanged **3,760 active questions**, **15,046 individual option explanations**, and all three original PDFs (**434 + 333 + 333 pages**). Library and question/rationale links open the appropriate native PDF reader, with page jumps, previous/next, zoom buttons and pinch zoom. Successful page changes in the reader return to the app's per-document reading positions. Local study, Lab Sprints and Frenzy work without an account or connection.
+The APK bundles **3,760 active questions**, **15,046 individual option explanations**, all three original PDFs (**434 + 333 + 333 pages**), and the mapped original figures. Library and source links open the native PDF reader with page jumps, previous/next, zoom buttons and pinch zoom. Successful reader page changes return to saved per-document positions. Local study and solo games do not require an account.
 
-**Settings → Get latest APK** launches the system browser at the stable download URL. Android still asks you to install the downloaded update. Uninstalling or clearing app data removes local progress, so keep a backup even when account sync is enabled.
+**Settings → Get latest APK** opens the separate system browser at the stable download URL. Android still asks you to install that downloaded update. Clearing app data or uninstalling removes local progress, so keep a backup even when account sync is enabled.
 
-## Play and the getting-started tour
+## Voice-hosted Quiz Show
 
-The header's **Play** button opens **Lab Sprint**, **Solo Frenzy** and **Friend Duels**. All three offer selection of one or several subjects within the selected source collection. Longer and figure-dependent questions remain in Practice.
+Open **Play → Quiz Show**, choose one or several subjects and up to **5, 10 or 15 questions**, then choose **Start voice host**. The host reads the question and choices, listens to your answer and asks for an explicit spoken or tapped confirmation before scoring it. A round starts with **three hearts**, awards **100 points per correct answer**, and offers three once-per-round lifelines: **50/50**, **a clue**, and **one skip**. A wrong answer costs a heart; a skip keeps your hearts and opens the explanation. There is no question or explanation countdown.
 
-- **Sprint:** five questions with explanations, memory checks, and up to two recovery questions. First-attempt scores stay separate from recovery. XP, cosmetic upgrades, daily quests and active rounds remain saved with progress.
-- **Frenzy:** up to 10 or 20 questions, **30 seconds per question**, **three hearts**, and 100 points per correct answer. A wrong answer or timeout costs a heart. Feedback is untimed; leaving or reopening an unanswered question keeps its existing deadline. The final explanation stays available after a round ends.
-- **Duels:** two signed-in accounts share a private invitation and the same ordered set of 10 or 20 questions. The server selects and grades the questions, stores each player's answers, and preserves each opened question's 30-second deadline. Players advance independently; explanations are untimed and Next starts the following question. Three misses or the question limit end a player's round, and equal final scores are a draw. Duels require a connection and the matching backend registry.
+After explaining an answer, the host may ask you to explain the idea in your own words. It reads the supplied model answer for comparison, then asks you to rate your recall. The prompts come from the teaching notes; there is no generative AI assessment of what you said. Say “repeat”, “next”, “why”, “explain choices”, “book rationale” or “pause” while listening. The **Pause voice** button works while the host speaks. Typed commands and manual answer controls remain available.
 
-A six-step first-use tour supports Back, Next and Skip, with no automatic advance. Reopen it from **Study settings → Getting started**. Short 140 ms arrival effects are disabled by the reduced-motion preference.
+Quiz Show uses the best available installed device text-to-speech voice and a foreground in-app `SpeechRecognizer`. Voice and speed can be chosen in Voice settings. Microphone permission is requested only when listening starts. The initial start can then continue through speaking, answering and confirmation turns without repeated taps. Going into the background stops speech/listening; resuming voice is an explicit action. Commands are recognized during listening turns, with the pause button available at other times.
 
-## Optional account sync and progress backups
+Some device voices use a network service and may send the text being read to their provider. Recognition may also need a connection or installed language data. Labwise saves no audio or transcript history. Voice quality depends on the installed engine and voice data. No paid premium voice provider is configured. See [voice-host details](VOICE-HOST.md).
 
-Open **Study settings → Account sync → Open account** to sign in. Saved questions, review counts/history, preferences, reading pages, XP and content-free completed-game summaries merge with the account. Active local study and solo-game rounds stay on their current device during sync. Offline changes remain local until synchronization can resume. Signing out retains a local progress copy.
+Active Quiz Show rounds and their local summaries stay on that device, like unfinished Practice sessions. Answer and self-rated recall events enter normal study history and can sync. Picture questions are optional in Quiz Show and require looking at the screen; audio-only rounds omit figure-dependent items.
 
-The v6 bundle enables public configuration for a **closed pilot with confirmed accounts**. The owner reports successful SQL setup and a confirmed pilot account. The email redirect is empty, so signup and password-reset controls remain hidden. Callback HTML, JavaScript and CSS are prepared but have not been deployed or verified. See [Supabase setup and owner acceptance](SUPABASE-SETUP.md). Live sign-in, hosted email delivery, two-device synchronization and a live two-account Duel have not been verified here.
+## Original PDF figures
 
-Android account sessions use **Android Keystore-backed encryption** in private app storage. Session tokens are separate from progress, never included in cloud progress or backups, and cleared on sign-out. The bundle contains only the public project URL/key. No service-role key or password belongs in app configuration.
+The existing question, answer-choice and rationale layout is preserved. Verified original photographs, diagrams and charts from Success and BOC attach to the relevant question, cropped to the visual and its useful labels. Question text stays in the app's normal layout. Pictures retain their white paper background, show document/page references and can be enlarged. Figures marked rationale-only stay hidden until reveal, including in exam practice. Current verified coverage is recorded in [FIGURES.md](FIGURES.md).
 
-**Progress → Export progress / Restore progress** uses Android's document picker. Version **4** exports include study progress and local game state, including active solo rounds; restores accept versions **1, 2, 3 and 4**. Restores show a preview. Signed-out restores replace local progress and offer **Undo**. Signed-in restores merge the backup into the account and sync that merge, without replacement Undo. Export a separate copy first if needed. Custom question-bank contents, PDFs, authentication sessions and private Duel data are not included. Browser and Android local storage are separate; exports can move progress between them.
+Mappings check both the question ID and its source/content key, avoiding mismatched images when a custom bank reuses an ID. Original scans limit the available detail. The original PDFs remain available for reading and verification. See [figure coverage and extraction rules](FIGURES.md).
 
-## Network access and optional voice
+## Other games and orientation
 
-Version 6 requests Android **Internet permission** for optional account sync and Duels. The WebView allows only the configured Supabase project and approved Auth/progress/challenge routes, using HTTPS. It blocks other remote requests, remote navigation and external scripts. The update button opens a separate system browser. Study assets and PDFs continue to load from the package; no shared-storage permission is requested.
+- **Lab Sprint:** five short questions, explanations, memory checks and up to two recovery questions. First-attempt scores stay separate from recovery. XP, cosmetic upgrades and daily quests remain available.
+- **Solo Frenzy:** up to 10 or 20 questions, **30 seconds per question**, **three hearts**, and 100 points per correct answer. Wrong answers and timeouts cost a heart. Feedback is untimed; leaving or reopening an unanswered question preserves its deadline. The final explanation remains available.
+- **Friend Duels:** two signed-in accounts share a private invitation and the same ordered 10- or 20-question set. The server selects and grades questions and preserves each opened question's thirty-second deadline. Players advance independently; explanations are untimed and Next starts the next question. Three misses or the question limit end a player's round; equal final scores are a draw. Duels need a connection and the matching backend registry.
 
-Voice answers still launch an external provider through `RecognizerIntent`. Labwise explains this before first use, returns an editable transcript, uses conservative option matching and requires explicit confirmation. Speech does not submit an answer automatically. Free recall is self-rated after reveal, and tapping or typing remains available.
+All modes offer subject selection within the selected source collection. Sprint, Frenzy and Duels use short self-contained questions. Longer cases remain in Practice. A six-step first-use tour supports Back, Next and Skip; reopen it from **Study settings → Getting started**. Brief arrival effects respect reduced motion.
 
-The provider handles microphone audio and may require Internet access or an offline language pack. Labwise requests **no microphone permission**, never records or stores audio, and does not send question text to the provider. Provider availability, recognition accuracy, cancellation and return behavior have not been tested on a real Android device or emulator here.
+## Account sync, tablet compatibility and diagnostics
+
+Open **Study settings → Account sync → Open account** to sign in. Saved questions, review counts/history, preferences, reading pages, XP and content-free completed-game summaries merge with the account. Active local sessions stay on their device. Offline changes wait until synchronization can resume; signing out retains a local copy.
+
+Version 7 fixes a reproduced compatibility failure: missing `Object.hasOwn` or `Array.at` in an older compatible WebView could stop account initialization before any sign-in request. A classic compatibility script now loads first. Relative session expiry is preferred when the service supplies it, avoiding refresh loops caused by a device-clock offset. This does not replace updating an obsolete Android System WebView.
+
+Account errors now distinguish credentials, unconfirmed email, project configuration, connection failures, secure storage and backend setup. **Check connection** performs a read-only public Auth settings check and, when signed in, checks progress access. It does not create an account, send email or change the database.
+
+The bundle remains a **closed pilot with confirmed accounts**. Public signup and password-reset controls stay hidden while the email redirect is empty. Callback files are prepared but not deployed or verified. Live Supabase testing is blocked by this development environment's outbound policy; a proposal allowing only the project's hostname awaits environment review/save/publication. The user's specific tablet failure remains unconfirmed on physical hardware. See [Supabase setup and owner acceptance](SUPABASE-SETUP.md) and [version 7 validation](VALIDATION-V7.md).
+
+Android account sessions use **Android Keystore-backed encryption** in private storage. Session tokens are separate from progress and never included in sync documents or backups. The bundle contains only the public project URL/key. No service-role key or password belongs in app configuration.
+
+## Backups and local session boundaries
+
+**Progress → Export progress / Restore progress** uses Android's document picker. Version **4** exports include study history, saved questions, schedules, preferences, reading pages and Sprint/Frenzy state, including their active rounds; restores accept versions **1–4**. Restores show a preview. Signed-out restores replace local progress and offer Undo. Signed-in restores merge into the account and sync that merge, without replacement Undo. Export a separate copy first if needed.
+
+The Quiz Show queue and local summaries are stored separately, like unfinished Practice and Flashcard sessions. Its recorded answer and recall events are included in normal progress. Complete custom banks, PDFs, authentication sessions and private Duel data are not part of a progress export. Browser and Android local storage are separate; exports can transfer study progress between them.
+
+## Permissions and network access
+
+The app declares **Internet** permission for optional account sync and Duels and **microphone** permission for foreground Quiz Show listening. The microphone is optional for installation and manual study. Permission is requested at listening time; it is not requested just by launching or reading the app. The older input-only voice controls retain their external `RecognizerIntent` provider flow.
+
+The WebView permits only the configured HTTPS Supabase project and approved Auth/progress/challenge routes, including read-only account diagnostics. Other remote requests, remote navigation and external scripts remain blocked. The fixed update action opens a separate browser. Device TTS and recognition services handle their own provider connections. Study assets, figures and PDFs load from the package. No shared-storage permission is required.
 
 ## Rebuild
 
-With Python 3, Node.js and Java 21, including `jdk.compiler`:
+With Python 3, Node.js and Java 21 including `jdk.compiler`:
 
 ```sh
 python3 scripts/install_android_tools.py
 python3 scripts/build_apk.py
 ```
 
-The installer fetches official Android platform 35 and build tools 35.0.0, checking recorded metadata and checksums. No Gradle, npm packages or frontend SDK is required. Local study does not require a server; optional account features need the owner-configured service described in [Supabase setup](SUPABASE-SETUP.md). Existing SDK tools can be selected with `LABWISE_ANDROID_TOOLS` (default `/workspace/android-tools`).
+The installer uses official Android platform 35 and build tools 35.0.0, checking recorded metadata and checksums. No Gradle, npm packages or frontend SDK is required. Existing SDK tools can be selected with `LABWISE_ANDROID_TOOLS` (default `/workspace/android-tools`). Local study needs no server; account features need the owner-configured service.
 
-The build assembles the source registry and requires complete teaching for all **3,760 active questions and 15,046 options**. Before copying assets, it compares `data/quiz-meta.json.contentDigest` with the SHA-256 of the exact assembled `data/study-bank.json` bytes. A mismatch stops the build. After a content change, regenerate metadata and combined SQL:
+The build requires complete teaching for all **3,760 active questions and 15,046 options**, verifies the declared figure assets and PDFs, and rejects quiz metadata whose digest differs from the exact assembled bank. Version 7 keeps the current registry digest and requires no SQL change. Future content changes require regenerated metadata and an owner-applied server seed:
 
 ```sh
 node scripts/prepare_quiz_registry.mjs
 node supabase/build-setup.mjs supabase/quiz-seed.sql
 ```
 
-The project owner must apply the updated registry seed/setup in Supabase **before releasing changed content**. Regeneration and APK packaging do not apply SQL or change a remote project. The current metadata covers **2,993 eligible short questions**; the rest of the study collection remains available in Practice.
+Figure regeneration is separate:
 
-The build verifies signing, alignment, package metadata, ZIP integrity, all declared web/data assets against their source bytes, all three embedded PDFs, dataset/page counts and the packaged bank digest. It retains the public sync configuration, local client modules, tour/account/arcade assets and prepared email-callback files. Outputs are:
+```sh
+python3 scripts/prepare_figures.py
+```
 
-- `releases/Labwise-6.0.0.apk` and `.apk.sha256`.
+Follow [FIGURES.md](FIGURES.md) after changing PDFs or question/source metadata. Packaging does not apply SQL or change a remote project.
+
+The build verifies signing, alignment, package metadata, ZIP integrity, declared asset/source bytes, embedded PDFs and the packaged bank digest. Outputs are:
+
+- `releases/Labwise-7.0.0.apk` and `.apk.sha256`.
 - `releases/Labwise-latest.apk` and `.apk.sha256`, copied from the same verified build.
 
-Build intermediates in `android/build/` are ignored. Final release check results belong in [version 6 validation evidence](VALIDATION-V6.md).
+Build intermediates in `android/build/` are ignored. Final compilation, signing and packaged-asset results are in [version 7 validation](VALIDATION-V7.md).
 
-## Retained signing key
+## Retained signing key and verification limits
 
-The release key is retained outside the repository in `/workspace/.labwise-signing`, with owner-only permissions. Keep that directory securely for future updates, or set `LABWISE_SIGNING_DIR` to its retained location. **Do not regenerate the key for an update.** The build refuses to generate a replacement when existing release APKs are present. Keys and passwords are excluded from repository downloads.
+The release key is retained outside the repository in `/workspace/.labwise-signing`, with owner-only permissions. Preserve it for future updates, or set `LABWISE_SIGNING_DIR` to its retained location. Do not regenerate it for an update. The build refuses a replacement when existing release APKs are present. Keys and passwords are excluded from repository downloads.
 
-Public signing-certificate SHA-256 fingerprint, unchanged from 3.1.0:
+The public signing-certificate SHA-256 fingerprint is unchanged:
 
 ```text
 bca20db3b7816e0155660db761c4dbd1dd74e57e3f2ab6b6dbc1ace6027c4158
 ```
 
-This is a directly installed release, outside Google Play App Signing.
+This is a directly installed release outside Google Play App Signing. The app serves bundled JavaScript from an intercepted HTTPS origin, retains disabled file/universal file access, and opens only the three bundled source IDs in its native PDF reader.
 
-## Architecture and validation
-
-A native Activity serves the shared JavaScript interface from packaged assets at an intercepted HTTPS origin. File URLs and universal file access remain disabled. Source links accept only the three bundled document IDs and open a `PdfRenderer` Activity. The native bridge provides app version, bundled-document opening, consumed reading-position updates, a fixed update URL, size-limited document-picker exports, external speech recognition and the separate encrypted account-session store. The project's public configuration determines the restricted network policy and CSP; JavaScript and styles are bundled locally.
-
-The unit suite's **19 files**, **seven existing browser/bridge checks**, and the arcade suite's **three scenarios / 19 checks** passed during integration. Browser and callback account-service responses are mocked; database tests use disposable local PostgreSQL. These checks do not verify a live Supabase project, SMTP, two physical devices or Android speech accuracy. See [version 6 validation evidence](VALIDATION-V6.md) for final compilation, signing, packaged-asset and acceptance results and their limits.
-
-Installation, upgrade and native interaction on an Android device or emulator remain unverified: this cloud machine has no usable KVM/hardware virtualization for the official emulator.
+SDK compilation, JVM policy/crypto checks and mocked browser speech tests establish their stated contracts. They do not establish actual device voice quality, microphone recognition, Keystore persistence, live Supabase access or two physical phones. This environment has no usable hardware-accelerated Android emulator. See [VALIDATION-V7.md](VALIDATION-V7.md) for executed checks and remaining owner/device acceptance.

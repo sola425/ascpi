@@ -6,11 +6,11 @@ let chromium;
 try { ({chromium} = require('playwright')); }
 catch { ({chromium} = require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')); }
 const origin = 'https://appassets.androidplatform.net';
-const modules = ['app.js', 'learning.js', 'questions.js', 'teaching.js', 'storage.js', 'sources.js', 'icons.js', 'game.js', 'game-ui.js', 'voice.js'];
+const modules = ['app.js', 'learning.js', 'questions.js', 'teaching.js', 'storage.js', 'sources.js', 'icons.js', 'game.js', 'game-ui.js', 'voice.js', 'compatibility.js', 'host-voice.js', 'host-dialogue.js', 'host-game.js', 'host-ui.js', 'figures.js'];
 const packagedAssets = [...modules, 'index.html', 'style.css', 'game.css', 'manifest.webmanifest',
   'sync-config.json', 'sync-config.js', 'sync-model.js', 'sync.js', 'supabase-client.js', 'duel-client.js',
   'game-sync.js', 'frenzy.js', 'arcade-ui.js', 'arcade.css', 'onboarding.js', 'onboarding.css', 'account-ui.js', 'account.css',
-  'auth-callback.html', 'auth-callback.js', 'auth-callback.css', 'data/glossary.json', 'data/boc-inventory.json', 'data/quiz-meta.json'];
+  'auth-callback.html', 'auth-callback.js', 'auth-callback.css', 'host.css', 'figures.css', 'data/glossary.json', 'data/boc-inventory.json', 'data/quiz-meta.json', 'data/figures.json'];
 const json = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const digest = file => createHash('sha256').update(fs.readFileSync(file)).digest('hex');
 let browser;
@@ -20,12 +20,13 @@ let browser;
   const bank = json(path.join(root, 'data/study-bank.json'));
   const coverage = json(path.join(root, 'data/teaching-coverage.json'));
   const quizMeta = json(path.join(root, 'data/quiz-meta.json'));
+  const figureManifest = json(path.join(root, 'data/figures.json'));
   assert.equal(quizMeta.contentDigest, digest(path.join(root, 'data/study-bank.json')), 'Duel registry must identify the exact packaged bank bytes');
   const syncConfig = json(path.join(root, 'sync-config.json'));
   const syncOrigin = syncConfig.enabled ? new URL(syncConfig.url).origin : '';
   if (syncOrigin) assert.match(syncOrigin, /^https:\/\/[a-z0-9]{20}\.supabase\.co$/, 'Account connections must use the configured Supabase origin');
   const csp = `default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'${syncOrigin ? ' ' + syncOrigin : ''}; object-src 'none'; base-uri 'none'; form-action 'none'`;
-  assert.equal(catalog.version, '6.0.0', 'Extracted APK assets must be the v6 release');
+  assert.equal(catalog.version, '7.0.0', 'Extracted APK assets must be the v7 release');
   assert.equal(catalog.version, json(path.join(__dirname, '../package.json')).version, 'Extracted assets must match this release');
   assert.deepEqual(catalog.documents.map(d => d.id), ['textbook', 'boc1', 'boc2']);
   assert.equal(catalog.availableQuestions, 3760); assert.equal(catalog.excludedQuestions, 193); assert.equal(catalog.missingSourceQuestions, 93);
@@ -42,6 +43,25 @@ let browser;
   for (const name of packagedAssets) {
     assert.equal(digest(path.join(root, name)), digest(path.join(__dirname, '..', name)), `Extracted asset must match the current release source: ${name}`);
   }
+  assert.equal(figureManifest.version, 1);
+  const figurePaths = [...new Set(Object.values(figureManifest.figures).map(figure => figure.path))].sort();
+  assert.equal(figurePaths.length, figureManifest.coverage.uniqueImageFiles);
+  assert.equal(Object.keys(figureManifest.figures).length, figureManifest.coverage.figureRecords);
+  assert.equal(figureManifest.coverage.activeQuestions, bank.length);
+  assert.deepEqual(fs.readdirSync(path.join(root, 'assets/figures')).filter(name=>name.endsWith('.webp')).map(name=>'assets/figures/'+name).sort(), figurePaths);
+  for (const name of figurePaths) {
+    assert.match(name, /^assets\/figures\/[a-f0-9]{24}\.webp$/);
+    const file=path.join(root,name),bytes=fs.readFileSync(file);
+    assert.equal(digest(file),digest(path.join(__dirname,'..',name)),`Bundled original visual differs: ${name}`);
+    assert.equal(digest(file).slice(0,24),path.basename(name,'.webp'),'Visual filename must identify its exact bytes');
+    assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');
+  }
+  assert.equal(figurePaths.reduce((total,name)=>total+fs.statSync(path.join(root,name)).size,0),figureManifest.coverage.imageBytes);
+  const bankIds=new Set(bank.map(q=>q.id));
+  for (const figure of Object.values(figureManifest.figures)) {
+    assert.equal(fs.statSync(path.join(root,figure.path)).size,figure.bytes);
+    for(const id of figure.questionIds)assert.ok(bankIds.has(id),'Only active questions can receive inline visual mappings');
+  }
   for (const doc of catalog.documents) {
     const file = path.resolve(root, doc.path);
     assert.ok(file.startsWith(root + path.sep), 'Catalog paths must stay inside the APK');
@@ -49,6 +69,7 @@ let browser;
     const fd = fs.openSync(file, 'r'), header = Buffer.alloc(5);
     try { fs.readSync(fd, header, 0, 5, 0); } finally { fs.closeSync(fd); }
     assert.equal(header.toString(), '%PDF-', `Invalid PDF header: ${doc.id}`);
+    assert.equal(figureManifest.documents[doc.id].sha256,digest(file),'Visual source PDF must match the packaged original');
   }
   browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', args: ['--no-sandbox']});
   const page = await browser.newPage({viewport: {width: 412, height: 915}});
@@ -61,6 +82,9 @@ let browser;
       takeReadingPosition: () => {const value = window.nativeReading || null; window.nativeReading = null; return JSON.stringify(value);},
       openDocument: (id, page) => window.nativeCalls.push({type: 'pdf', id, page}),
       openUpdates: () => window.nativeCalls.push({type: 'update'}),
+      readSecureSyncSession: () => null,
+      writeSecureSyncSession: () => true,
+      clearSecureSyncSession: () => true,
       exportJSON: (name, content) => window.nativeCalls.push({type: 'export', name, data: JSON.parse(content)})
     };
   }, catalog.version);
@@ -74,7 +98,7 @@ let browser;
       missing.push(relative); return route.fulfill({status: 404, body: 'Not found'});
     }
     requests.add(relative);
-    const mime = {'.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.svg': 'image/svg+xml', '.webmanifest': 'application/json', '.pdf': 'application/pdf'}[path.extname(file)] || 'application/octet-stream';
+    const mime = {'.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.webmanifest': 'application/json', '.pdf': 'application/pdf'}[path.extname(file)] || 'application/octet-stream';
     await route.fulfill({status: 200, contentType: mime, body: fs.readFileSync(file), headers: {'Content-Security-Policy': csp, 'X-Content-Type-Options': 'nosniff'}});
   });
   const nav = view => page.locator(`[data-view="${view}"]:visible`).first().click();
@@ -100,7 +124,7 @@ let browser;
   await nav('progress'); await action('backup');
   const backup = await lastCall();
   assert.equal(backup.type, 'export'); assert.equal(backup.name, 'labwise-progress.json');
-  assert.equal(backup.data.version, 4); assert.equal(backup.data.appVersion, '6.0.0');
+  assert.equal(backup.data.version, 4); assert.equal(backup.data.appVersion, '7.0.0');
   assert.equal(backup.data.game.version, 1); assert.equal(backup.data.game.xp, 0); assert.equal(backup.data.game.active, null);
   await nav('library');
   assert.equal(await page.locator('[data-action="cache-pdf"]').count(), 0);
@@ -122,9 +146,9 @@ let browser;
   assert.ok(cross, 'Packaged cross-PDF source/rationale metadata must remain available');
   await nav('practice'); await page.locator('#practice-query').fill(cross.source);
   await page.locator(`.question-row[data-question="${cross.id}"]`).click(); await page.locator('.plain-question').waitFor();
-  await page.locator('.study .source-link').nth(0).click();
+  await page.locator('.study > .source-links .source-link').nth(0).click();
   assert.deepEqual(await lastCall(), {type: 'pdf', id: cross.documentId, page: cross.page});
-  await page.locator('.study .source-link').nth(1).click();
+  await page.locator('.study > .source-links .source-link').nth(1).click();
   assert.deepEqual(await lastCall(), {type: 'pdf', id: cross.answerDocumentId, page: cross.answerPage});
   await page.locator('[data-answer="0"]').click();
   await page.locator('.memory-hook').waitFor(); await page.locator('.recall-check').waitFor();
@@ -156,9 +180,22 @@ let browser;
   const gameBackup = (await lastCall()).data;
   assert.equal(gameBackup.version, 4); assert.ok(gameBackup.game.xp >= 5); assert.equal(gameBackup.game.active.phase, 'feedback');
   assert.equal(gameBackup.log.at(-1).kind, 'game');
+  await nav('play'); await action('game-pause'); await action('host-open'); await action('host-setup'); await action('host-confirm-setup');
+  await page.locator('[data-host-answer="0"]').click();
+  assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('labwise-host-session-v1')).active.responses.length), 0, 'Quiz Show requires a separate confirmation');
+  await action('host-confirm'); await page.locator('.host-feedback').waitFor();
+  assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('labwise-host-session-v1')).active.responses.length), 1);
+  const pictured = bank.find(q => q.id === 'boc-4-7'); assert.ok(pictured);
+  await nav('practice'); await page.locator('#practice-query').fill(pictured.source);
+  await page.locator(`.question-row[data-question="${pictured.id}"]`).click();
+  if (await page.locator('#modal[open] [data-action="start-new"]').count()) await action('start-new');
+  const picture = page.locator('.study .source-figure img').first(); await picture.waitFor();
+  await page.waitForFunction(() => {const img=document.querySelector('.study .source-figure img');return img?.complete&&img.naturalWidth>0;});
+  assert.equal(await page.locator('.source-layout,.source-figure-layout').count(), 0, 'Show real pictures without question screenshots');
+  await picture.click(); await page.locator('#figure-zoom-image').waitFor(); await action('figure-actual'); await action('figure-fit'); await action('close-dialog');
   assert.equal(await page.evaluate(() => window.nativeCalls.some(call => call.type === 'update')), false);
   await action('settings'); await action('updates'); assert.deepEqual(await lastCall(), {type: 'update'});
   assert.equal(await page.evaluate(async () => (await navigator.serviceWorker.getRegistrations()).length), 0);
   assert.deepEqual(errors, []); assert.deepEqual(missing, [], 'All requests must resolve from extracted APK assets');
-  console.log(`PASS: v${catalog.version} APK assets match current release sources and boot at the Android origin/CSP with every module, ${catalog.documents.length} PDFs, ${catalog.availableQuestions} taught questions, cross-PDF routing, reading positions, Sprint and Frenzy feedback, optional pilot account and Friend Duel entry, v4 backup, and explicit update action; no external requests or page errors. Native Java and speech-provider execution are not exercised.`);
+  console.log(`PASS: v${catalog.version} APK assets match current sources and boot at the Android origin/CSP with every module, ${figurePaths.length} original visual files, ${catalog.documents.length} PDFs, ${catalog.availableQuestions} taught questions, cross-PDF routing, reading positions, Sprint, Frenzy and confirmed Quiz Show feedback, decoded BOC pictures/zoom, optional pilot account and Friend Duel entry, v4 backup, and explicit update action; no external requests or page errors. Native Java and speech-provider execution are not exercised.`);
 })().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => { await browser?.close(); });

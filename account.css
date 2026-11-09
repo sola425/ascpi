@@ -63,6 +63,15 @@
 .account-local { max-width: 620px; }
 .account-local > .account-emblem { margin-bottom: 19px; }
 .account-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.account-password-row { display: flex; align-items: stretch; gap: 8px; min-width: 0; }
+.account-password-row input { min-width: 0; flex: 1; }
+.account-password-row .account-button { flex: 0 0 auto; min-width: 58px; padding-inline: 12px; }
+.account-connection { margin-top: 22px; padding: 20px; border: 1px solid var(--line, #dce3d4); border-radius: 12px; background: var(--surface, #fff); }
+.account-connection h2 { margin: 0 0 8px; font-size: 22px; }
+.account-connection > div > p { max-width: 680px; color: var(--muted, #687568); font-size: 12px; line-height: 1.7; }
+.account-connection .account-notice { margin-bottom: 0; }
+.account-connection .account-notice p { margin: 0; }
+.account-connection .account-notice small { display: block; margin-top: 8px; overflow-wrap: anywhere; }
 
 @media (max-width: 760px) {
   .account-layout { grid-template-columns: minmax(0, 1fr); gap: 18px; }
