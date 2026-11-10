@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import io
 import json
+import math
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -23,6 +24,49 @@ DOCUMENTS = {
     'boc1': ('docs/boc-1.pdf', 'BOC · Part 1'),
     'boc2': ('docs/boc-2.pdf', 'BOC · Part 2'),
 }
+QUALITY_VERSION = 1
+
+
+def source_quality(page, rect):
+    """Measure real raster detail, not PDF metadata's nominal 96 DPI.
+
+    These books contain low-resolution page scans, often with additional
+    1-pixel mask objects. The masks describe picture boundaries but contain no
+    picture detail. Success also has two full-page layers, so a single xref
+    cannot safely replace a composited page crop. Render all layers and chart
+    strokes at the best overlapping raster's actual pixel density.
+    """
+    candidates = []
+    for item in page.get_image_info(xrefs=True):
+        bounds = fitz.Rect(item['bbox'])
+        if item['width'] < 16 or item['height'] < 16 or bounds.is_empty:
+            continue
+        if (bounds & rect).get_area() < rect.get_area() * .5:
+            continue
+        a, b, c, d, _, _ = item['transform']
+        points_x, points_y = math.hypot(a, b), math.hypot(c, d)
+        if not points_x or not points_y:
+            continue
+        density_x, density_y = item['width'] / points_x, item['height'] / points_y
+        candidates.append((min(density_x, density_y), density_x, density_y, item))
+    if not candidates:
+        raise ValueError(f'No genuine raster source for picture crop on PDF page {page.number + 1}. Review this new source before exporting it.')
+    scale, density_x, density_y, source = max(candidates, key=lambda value: value[0])
+    # Round only after measuring the actual transform; exportDpi is also the
+    # reproducible rendering scale. No 2.3x interpolation or lossy re-encoding.
+    export_dpi = round(scale * 72, 6)
+    source_width = max(1, round(rect.width * density_x))
+    source_height = max(1, round(rect.height * density_y))
+    limited = scale * 72 < 150 or min(source_width, source_height) < 180
+    return {
+        'version': QUALITY_VERSION,
+        'sourceWidth': source_width, 'sourceHeight': source_height,
+        'sourceDpi': round(scale * 72, 2), 'exportDpi': export_dpi,
+        'sourceRasterWidth': source['width'], 'sourceRasterHeight': source['height'],
+        'sourceLimited': limited,
+        'reason': 'low-resolution-pdf' if scale * 72 < 150 else 'small-source-picture' if limited else None,
+        'export': 'lossless-page-render', 'addedUpscaling': False,
+    }
 
 # Rectangles were reviewed against the original pages, including the caption
 # and neighboring-question boundaries. They contain the picture, not a key.
@@ -280,17 +324,21 @@ def build(root=ROOT):
         identity = json.dumps([document_id, page_number, geometry, 'figure', reveal], separators=(',', ':'))
         fid = 'fig-' + hashlib.sha256(identity.encode()).hexdigest()[:18]
         if fid not in figures:
+            page = documents[document_id][page_number - 1]
+            # Manifest coordinates are the reproducible, reviewed crop bounds.
+            export_rect = fitz.Rect(geometry)
+            quality = source_quality(page, export_rect)
             cached = previous.get('figures', {}).get(fid)
             source_unchanged = previous.get('documents', {}).get(document_id, {}).get('sha256') == source_metadata[document_id]['sha256']
-            if cached and source_unchanged and re.fullmatch(r'assets/figures/[0-9a-f]{24}\.webp', cached.get('path', '')) and (root / cached['path']).is_file():
+            if cached and source_unchanged and cached.get('quality') == quality and re.fullmatch(r'assets/figures/[0-9a-f]{24}\.webp', cached.get('path', '')) and (root / cached['path']).is_file():
                 filename = Path(cached['path']).name
                 width, height, size = cached['width'], cached['height'], cached['bytes']
             else:
-                scale = min(2.3, 1150 / max(rect.width, 1))
-                pix = documents[document_id][page_number - 1].get_pixmap(matrix=fitz.Matrix(scale, scale), clip=rect, alpha=False)
+                scale = quality['exportDpi'] / 72
+                pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale), clip=export_rect, alpha=False)
                 im = Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGB')
                 data = io.BytesIO()
-                im.save(data, 'WEBP', quality=87, method=6)
+                im.save(data, 'WEBP', lossless=True, method=6, exact=True)
                 content = data.getvalue()
                 filename = hashlib.sha256(content).hexdigest()[:24] + '.webp'
                 (target / filename).write_bytes(content)
@@ -300,6 +348,7 @@ def build(root=ROOT):
             figures[fid] = {'id': fid, 'kind': 'figure', 'reveal': reveal, 'documentId': document_id,
                             'page': page_number, 'rect': geometry, 'path': 'assets/figures/' + filename,
                             'width': width, 'height': height, 'bytes': size,
+                            'quality': quality,
                             'caption': caption, 'alt': f'{caption} from {DOCUMENTS[document_id][1]}, PDF page {page_number}.',
                             'method': method, 'questionIds': []}
         else:
@@ -397,6 +446,8 @@ def build(root=ROOT):
         'questionsWithRationaleFigures': len({qid for f in figures.values() if f['reveal'] == 'answer' for qid in f['questionIds']}),
         'sourceDependentWithoutInlineFigure': sorted(q['id'] for q in source_dependent if q['id'] not in with_input),
         'figureRecords': len(figures), 'uniqueImageFiles': len(used_files), 'imageBytes': byte_count,
+        'sourceLimitedFigures': sum(f['quality']['sourceLimited'] for f in figures.values()),
+        'losslessFigures': sum(f['quality']['export'] == 'lossless-page-render' for f in figures.values()),
         'reviewedReferenceCorrections': sorted(REFERENCE_REPAIRS),
         'byBook': {book: {
             'questionsWithInlineFigures': len({qid for qid in with_input if by_id[qid].get('bookId') == book}),

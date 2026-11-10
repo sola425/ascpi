@@ -1,6 +1,6 @@
 # A voice host for understanding
 
-Labwise 7.0.0 adds an original Quiz Show for learning out loud. It uses installed device speech services and the existing teaching notes. It has no paid voice subscription, generative conversation service or automatic semantic grading.
+Labwise 7.1.0 provides an original Quiz Show for learning out loud. It uses installed device speech services and the existing teaching notes. It has no paid voice subscription, generative conversation service or automatic semantic grading.
 
 ## Start a round
 
@@ -25,9 +25,9 @@ Three lifelines are available once per round:
 | **A clue** | Shows and reads the question in plain words. It does not reveal the answer. |
 | **One skip** | Opens the explanation with no points and no lost heart. It is not recorded as an incorrect answer attempt. |
 
-The host reads the book's selected answer, its separate plain-language explanation and the memory hook. On misses and selected other questions, it asks you to explain an idea in your own words. It then reads the supplied recall answer and asks whether you remembered the idea or want another look.
+After every confirmed answer, the host explicitly says whether it is correct according to the book key. It explains the selected option and, when different, why the correct option fits. It reads the original book rationale, then the separately labelled plain-language explanation and memory hook. It asks you to explain back what you learned from the question or correction in your own words. After your response, it reads the supplied recall answer and asks whether you remembered the idea or want another look. A skipped question follows the same learning steps without being marked wrong.
 
-**Recall is self-rated.** Labwise does not judge your reasoning with a generative model. “Got it” and “review again” are your ratings after comparison; they feed the normal review schedule. The book rationale remains separate from the simplified teaching and can be read on request.
+**Recall is self-rated.** Labwise does not judge your reasoning with a generative model. “Got it” and “review again” are your ratings after comparison; they feed the normal review schedule. The book rationale remains separate from the simplified teaching and can also be repeated on request. Saying Next lets you move on at your own pace.
 
 The knowledge climb shows your place and recorded outcomes. Points celebrate practice; they do not establish exam readiness or subject mastery.
 
@@ -74,4 +74,4 @@ Picture questions keep the existing text question and choices, with the associat
 
 ## Verification
 
-The engine, dialogue, speech adapter, native rules and responsive UI have automated checks. Mock speech services establish turn order, confirmation, cancellation and state contracts; SDK/JVM checks establish compilation and policy behavior. They do not establish actual voice naturalness, recognition accuracy, microphone behavior or Android device audio. Physical device and live account acceptance remain separate. See [VALIDATION-V7.md](VALIDATION-V7.md) for final executed results.
+The engine, dialogue, speech adapter, native rules and responsive UI have automated checks. Mock speech services establish turn order, confirmation, cancellation and state contracts; SDK/JVM checks establish compilation and policy behavior. They do not establish actual voice naturalness, recognition accuracy, microphone behavior or Android device audio. Physical device and live account acceptance remain separate. See [VALIDATION-V7.1.md](VALIDATION-V7.1.md) for executed results.

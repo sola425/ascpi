@@ -47,6 +47,42 @@ test('all local WebP files are present, content addressed, bounded and sourced t
   assert.equal(manifest.coverage.questionsWithOriginalLayouts, 0);
 });
 
+test('every export preserves native source pixels with lossless encoding and measured quality metadata', () => {
+  configureFigures(manifest);
+  for (const f of Object.values(manifest.figures)) {
+    const q = f.quality;
+    assert.equal(q.version, 1); assert.equal(q.export, 'lossless-page-render'); assert.equal(q.addedUpscaling, false);
+    assert.ok(q.sourceWidth > 0 && q.sourceHeight > 0 && q.sourceRasterWidth >= 16 && q.sourceRasterHeight >= 16);
+    assert.ok(q.exportDpi <= q.sourceDpi + .02, 'Do not add interpolation pixels to a scanned photo.');
+    assert.ok(Math.abs(f.width - q.sourceWidth) <= 2 && Math.abs(f.height - q.sourceHeight) <= 2, 'Only edge rounding may add a pixel.');
+    assert.deepEqual(getFigure(f.id).quality, q);
+    assert.ok(Object.isFrozen(getFigure(f.id).quality));
+    if (q.sourceLimited) assert.match(renderFigures(byId.get(f.questionIds[0]), {revealed: true}), /Original PDF scan · limited detail/);
+  }
+  assert.equal(manifest.coverage.sourceLimitedFigures, Object.values(manifest.figures).filter(f => f.quality.sourceLimited).length);
+  assert.equal(manifest.coverage.losslessFigures, Object.keys(manifest.figures).length);
+  const result = spawnSync('python3', ['-c', String.raw`
+import io,json,fitz
+from pathlib import Path
+from PIL import Image
+from scripts.prepare_figures import source_quality
+m=json.loads(Path('data/figures.json').read_text())
+docs={k:fitz.open(v['path']) for k,v in m['documents'].items()}
+for f in m['figures'].values():
+ p=docs[f['documentId']][f['page']-1];r=fitz.Rect(f['rect']);q=source_quality(p,r)
+ assert q==f['quality'],('Source density must come from real raster dimensions and its page transform',f['id'])
+ scale=q['exportDpi']/72
+ pix=p.get_pixmap(matrix=fitz.Matrix(scale,scale),clip=r,alpha=False)
+ expected=Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGB')
+ actual=Image.open(f['path']).convert('RGB')
+ assert actual.size==expected.size==(f['width'],f['height']),(f['id'],actual.size,expected.size)
+ assert actual.tobytes()==expected.tobytes(),('Added image compression must not alter source features or colors',f['id'])
+ assert Path(f['path']).read_bytes()[12:16]==b'VP8L',('WebP must use lossless encoding',f['id'])
+print('All source crops decode to the exact RGB pixels of the native-density PDF composite.')
+`], {cwd: root, encoding: 'utf8'});
+  assert.equal(result.status, 0, result.stderr || result.stdout);
+});
+
 test('cross-page context figures are available before answering without rationale paragraphs', () => {
   configureFigures(manifest);
   for (const id of ['boc-4-2', 'boc-4-226', 'boc-4-273', 'boc-6-309', 'boc-6-319', 'boc-8-68', 'boc-8-73']) {
@@ -185,6 +221,15 @@ test('invalid manifest paths and source mappings fail atomically without replaci
   }
   const bad = copy(manifest); bad.questions[q.id].figureIds = ['fig-000000000000000000'];
   assert.throws(() => configureFigures(bad)); assert.equal(renderFigures(q), expected);
+});
+
+test('invalid quality metadata fails atomically without replacing valid visuals', () => {
+  configureFigures(manifest);
+  const q = byId.get('book-1-44'), expected = renderFigures(q), id = manifest.questions[q.id].figureIds[0];
+  for (const patch of [{sourceWidth: -1}, {sourceDpi: 0}, {exportDpi: 9600}, {addedUpscaling: true}, {sourceLimited: 'yes'}, {reason: '<script>bad()</script>'}, {export: 'invented-detail'}]) {
+    const bad = copy(manifest); Object.assign(bad.figures[id].quality, patch);
+    assert.throws(() => configureFigures(bad)); assert.equal(renderFigures(q), expected);
+  }
 });
 
 test('captions and notes are escaped, images have dimensions and enlarged-source controls', () => {

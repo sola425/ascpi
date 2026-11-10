@@ -29,8 +29,24 @@ export function configureFigures(manifest) {
       || !Number.isInteger(value.width) || value.width < 1 || value.width > 5000 || !Number.isInteger(value.height) || value.height < 1 || value.height > 10000
       || typeof value.caption !== 'string' || value.caption.length > 200 || typeof value.alt !== 'string' || value.alt.length > 500
       || !Array.isArray(value.questionIds) || value.questionIds.some(qid => !safeId(qid))) throw Error('A source visual is invalid.');
+    let quality;
+    if (own(value, 'quality')) {
+      const q = value.quality;
+      if (!object(q) || q.version !== 1 || !Number.isInteger(q.sourceWidth) || q.sourceWidth < 1 || q.sourceWidth > 5000
+        || !Number.isInteger(q.sourceHeight) || q.sourceHeight < 1 || q.sourceHeight > 10000
+        || !Number.isInteger(q.sourceRasterWidth) || q.sourceRasterWidth < 16 || q.sourceRasterWidth > 100000
+        || !Number.isInteger(q.sourceRasterHeight) || q.sourceRasterHeight < 16 || q.sourceRasterHeight > 100000
+        || !Number.isFinite(q.sourceDpi) || q.sourceDpi <= 0 || q.sourceDpi > 9600
+        || !Number.isFinite(q.exportDpi) || q.exportDpi <= 0 || q.exportDpi > q.sourceDpi + .02
+        || typeof q.sourceLimited !== 'boolean' || q.addedUpscaling !== false || q.export !== 'lossless-page-render'
+        || (q.sourceLimited ? !['low-resolution-pdf', 'small-source-picture'].includes(q.reason) : q.reason !== null)) throw Error('A source visual quality record is invalid.');
+      quality = Object.freeze({version: q.version, sourceWidth: q.sourceWidth, sourceHeight: q.sourceHeight,
+        sourceRasterWidth: q.sourceRasterWidth, sourceRasterHeight: q.sourceRasterHeight, sourceDpi: q.sourceDpi, exportDpi: q.exportDpi,
+        sourceLimited: q.sourceLimited, reason: q.reason, export: q.export, addedUpscaling: false});
+    }
     nextFigures[id] = Object.freeze({id, kind: value.kind, reveal: value.reveal, path: value.path, documentId: value.documentId,
       page: value.page, width: value.width, height: value.height, caption: value.caption, alt: value.alt,
+      ...(quality ? {quality} : {}),
       questionIds: Object.freeze([...new Set(value.questionIds)])});
   }
   for (const [id, value] of Object.entries(manifest.questions)) {
@@ -68,7 +84,8 @@ function sourceLink(documentId, page, text = 'Open original PDF') {
 }
 
 function figureHTML(figure) {
-  return `<figure class="source-figure source-figure-${figure.kind}"><button type="button" class="source-figure-open" data-figure-id="${figure.id}" aria-label="Enlarge ${esc(figure.caption)}"><img src="./${figure.path}" width="${figure.width}" height="${figure.height}" loading="lazy" decoding="async" alt="${esc(figure.alt)}"><span class="source-figure-enlarge" aria-hidden="true">Enlarge picture</span></button><figcaption><strong>${esc(figure.caption)}</strong>${sourceLink(figure.documentId, figure.page)}</figcaption></figure>`;
+  const clarity = figure.quality?.sourceLimited ? '<span class="source-figure-quality">Original PDF scan · limited detail. A clearer source is needed for finer features.</span>' : '';
+  return `<figure class="source-figure source-figure-${figure.kind}"><button type="button" class="source-figure-open" data-figure-id="${figure.id}" aria-label="Enlarge ${esc(figure.caption)}"><img src="./${figure.path}" width="${figure.width}" height="${figure.height}" loading="lazy" decoding="async" alt="${esc(figure.alt)}"><span class="source-figure-enlarge" aria-hidden="true">Enlarge picture</span></button><figcaption><strong>${esc(figure.caption)}</strong>${sourceLink(figure.documentId, figure.page)}${clarity}</figcaption></figure>`;
 }
 
 /** The app controls answer reveal; an exam question never shows rationale figures. */

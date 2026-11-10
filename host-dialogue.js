@@ -39,13 +39,24 @@ export function createHostDialogue({io,getContext,onChange=()=>{},onAnswer=()=>{
  async function confirm(){if(state.phase!=='confirm'||state.candidate===null)return;if(getContext()?.phase!=='question'||pendingKey!==contextKey()){pause();emit({phase:'idle'});return;}const index=state.candidate;generation++;speech.stop();emit({candidate:null,transcript:''});onAnswer(index);await feedback();}
  async function cancelConfirm(){generation++;speech.stop();emit({candidate:null,phase:'question',transcript:''});if(state.running)await say('Choose an option, or say repeat.');}
  async function feedback(){const c=getContext(),q=c?.q,key=contextKey();if(!q||c.phase==='question')return;emit({phase:'feedback',candidate:null,transcript:''});if(!state.running)return;
-  const r=c.lastResponse,lead=r?.skipped?'We will learn this one together.':r?.correct?'That connection clicked.':'Let us make this idea clearer.';
-  const explanation=q.teaching?.explanation||q.explanation;
-  const text=`${lead} ${q.teaching?.questionInPlainEnglish||''}. The book selects option ${letter(q.answer)}. ${q.options[q.answer]}. ${explanation}. ${q.teaching?.sourceNote?`A note about the source. ${q.teaching.sourceNote}.`:''} ${q.teaching?.memory||q.memory||''}`;
+  const r=c.lastResponse,choice=Number.isInteger(r?.choice)&&r.choice>=0&&r.choice<q.options.length?r.choice:null;
+  const graded=r?.skipped!==true&&choice!==null,correct=graded&&choice===q.answer;
+  const result=r?.skipped?'You skipped this question. No answer was marked wrong.':graded?`Your answer is ${correct?'correct':'incorrect'} according to the book. You chose option ${letter(choice)}. ${q.options[choice]}.`:'Let us review the book answer.';
+  const chosenReason=graded?q.teaching?.optionExplanations?.[choice]:'';
+  const correctReason=graded&&!correct?q.teaching?.optionExplanations?.[q.answer]:'';
+  const plain=q.teaching?.explanation;
+  const text=[result,`The book's correct answer is option ${letter(q.answer)}. ${q.options[q.answer]}.`,
+   chosenReason?`Why your chosen answer is ${correct?'correct':'wrong for this question'}. ${chosenReason}`:'',
+   correctReason?`Why the correct answer fits. ${correctReason}`:'',
+   q.explanation?`Here is the original book rationale. ${q.explanation}`:'',
+   q.teaching?.questionInPlainEnglish?`In plain words, this question is asking: ${q.teaching.questionInPlainEnglish}`:'',
+   plain&&plain.trim()!==q.explanation?.trim()?`A simpler explanation. ${plain}`:'',
+   q.teaching?.sourceNote?`A note about the source. ${q.teaching.sourceNote}`:'',
+   q.teaching?.memory||q.memory?`Memory cue. ${q.teaching?.memory||q.memory}`:''].filter(Boolean).join(' ');
   const finished=await say(text,false);if(!finished||!state.running||key!==contextKey())return;
-  if(!r?.correct||(c.index+1)%3===0)await askRecall();else {emit({phase:'ready'});await say('Take your time with the explanation. Say why for a memory check, explain choices, book rationale, or next when ready.');}
+  await askRecall();
  }
- async function askRecall(){const c=getContext();if(!c?.q||c.phase==='question')return;emit({phase:'recall',running:true,transcript:''});await say(`Now try it in your own words. ${c.q.teaching?.quickCheck?.question||'What was the key idea you learned?'} You can say reveal if you need help.`);}
+ async function askRecall(){const c=getContext();if(!c?.q||c.phase==='question')return;emit({phase:'recall',running:true,transcript:''});await say(`Now explain back what you learned from this question or its correction, in your own words. ${c.q.teaching?.quickCheck?.question||'What was the key idea you learned?'} You can say reveal if you need help, or next when you are ready to continue.`);}
  async function revealRecall(){const q=current();if(!q||getContext().phase==='question')return;emit({phase:'compare',running:true});await say(`Here is an answer to compare with your own. ${q.teaching?.quickCheck?.answer||q.options[q.answer]}. Compare the ideas. Say got it if you remembered, or review again if you want another look.`);}
  async function rateRecall(rating){if(!['compare','recall'].includes(state.phase)||getContext()?.phase==='question')return;onRecall(rating);emit({phase:'ready'});if(state.running)await say(rating==='again'?'We will revisit this idea. Say explain choices, repeat, or next when ready.':'Recall noted. Say next when you are ready.');}
  async function readOptions(){const q=current();if(!q)return;emit({running:true});if(getContext().phase==='question'){await repeat();return;}emit({phase:'ready'});await say(q.options.map((o,i)=>`Option ${letter(i)}. ${o}. ${q.teaching?.optionExplanations?.[i]||''}`).join(' '));}

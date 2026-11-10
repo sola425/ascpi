@@ -1,14 +1,14 @@
 # Labwise
 
-An offline clinical laboratory science study app for Android and the browser. **Labwise 7.0.0** adds a **voice-hosted Quiz Show**, original PDF pictures beside relevant questions, and tablet sign-in compatibility fixes with clearer connection diagnostics. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; device speech availability depends on the installed services.
+An offline clinical laboratory science study app for Android and the browser. **Labwise 7.1.0** explains every Quiz Show answer out loud, reads its book rationale, and asks the learner to explain it back. Original PDF pictures now use lossless export at their source resolution and fit without automatic stretching. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; device speech availability depends on the installed services.
 
 ## Download and install
 
-[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.0.0](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.0.0.apk)
+[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.0](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.0.apk)
 
 Requires **Android 8.0+** and an up-to-date Android System WebView. Open the downloaded APK from Downloads, allow that browser or file manager to install it if Android asks, then choose Install.
 
-**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.0.0 keeps the same app ID and retained signing certificate, with version code **70000**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
+**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.1.0 keeps the same app ID and retained signing certificate, with version code **70100**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
 
 ## Study and read
 
@@ -18,6 +18,7 @@ Requires **Android 8.0+** and an up-to-date Android System WebView. Open the dow
 - Recall before revealing a flashcard, then rate Again / Hard / Good / Easy. Recall ratings and MCQ accuracy are tracked separately. Review due cards, forgotten cards, missed practice answers, or saved questions.
 - Open question, rationale, and shared-context links in the correct source PDF. Search text across **1,100 PDF pages** and keep a reading position for each document. Android's native reader has page jumps, previous/next, zoom buttons and pinch zoom; pages reached in the reader return to saved progress.
 - See the associated original photograph, diagram or chart beside relevant questions from Success and BOC, then enlarge it. The existing question, answer-choice and rationale layout stays in place; visuals are cropped to the picture and its useful labels. Figures marked rationale-only appear after reveal. Figure links check the question's source/content key so a custom bank cannot accidentally inherit a different question's picture. See [verified figure coverage and source mapping](docs/FIGURES.md).
+- Pictures are lossless crops at the supplied PDF's raster density and fit without stretching. Actual size and explicit 2× enlargement are available. The roughly 72-DPI source scans cannot provide detail absent from the original; clearer microscopy needs higher-resolution originals or licensed photographs with reviewed questions. See the [image-content sourcing and review plan](docs/IMAGE-CONTENT-PLAN.md).
 - Follow daily effort, activity history, and subject progress. Use dark mode, larger reading text and responsive navigation.
 - Preview progress restores and custom-bank imports before applying them. Custom banks use IndexedDB where available and preserve progress for matching IDs.
 
@@ -27,7 +28,7 @@ The **six-step tour** advances only when you choose Next, supports Back and Skip
 
 Open **Play → Quiz Show**, choose subjects and up to **5, 10 or 15 questions**, then choose **Start voice host**. The device voice reads the question and options, listens to your choice, and asks for an explicit spoken or tapped confirmation before scoring it. Each round starts with **three hearts** and three once-per-round lifelines: **50/50**, **a clue**, and **one skip**. A correct answer earns 100 points; an incorrect answer costs a heart. Skipping keeps your hearts and opens the explanation. Questions and explanations have no countdown.
 
-After explaining an answer, the host sometimes asks you to explain the idea in your own words, including after a missed answer. Compare your response with the supplied model answer and rate your own recall. These are guided prompts from the teaching notes, **not generative AI grading**. Say “repeat”, “next”, “why”, “explain choices”, “book rationale” or “pause” while listening; the Pause button also works while the host speaks. Tapping and typing remain available.
+After every answer, the host states whether it matches the book key, explains the selected choice and the correct choice when needed, and reads the original rationale separately from the simpler teaching. It then asks you to explain what you learned in your own words. Compare your response with the supplied model answer and rate your own recall. These are guided prompts from the teaching notes; free explanations are self-rated. Say “repeat”, “next”, “why”, “explain choices”, “book rationale” or “pause” while listening; the Pause button also works while the host speaks. Tapping and typing remain available.
 
 Choose an installed device voice and speaking speed. Android uses foreground text-to-speech and in-app speech recognition; microphone permission is requested when listening starts. Voice pauses when the app goes into the background. Some device voices may send the text being read to their provider, and recognition may need a connection. Labwise saves no audio or transcript history. A paid premium voice provider is not included in this release. See [voice-host behavior, commands and privacy](docs/VOICE-HOST.md).
 
@@ -69,7 +70,7 @@ This input-only flow still uses the external Android provider and does not read 
 | BOC Study Guide, 7th edition | 2,276 | 9,104 | 333 + 333 pages |
 | **Total** | **3,760** | **15,046** | **1,100 pages** |
 
-Every active question has complete teaching. Version 7.0.0 changes no question content or source PDFs. The figure manifest records verified corrections to a few OCR plate references without rewriting the bank. The source inventory contains 3,953 extracted questions: 193 BOC questions remain excluded at the user's request. Another 93 BOC questions are absent because supplied Part 1 skips printed pages 225–240 (chapter 3, questions 154–246); their stems and choices have not been invented. See [content coverage and editorial review](docs/CONTENT-COVERAGE.md).
+Every active question has complete teaching. Version 7.1.0 changes no question content or source PDFs. The figure manifest records verified corrections to a few OCR plate references without rewriting the bank. The source inventory contains 3,953 extracted questions: 193 BOC questions remain excluded at the user's request. Another 93 BOC questions are absent because supplied Part 1 skips printed pages 225–240 (chapter 3, questions 154–246); their stems and choices have not been invented. See [content coverage and editorial review](docs/CONTENT-COVERAGE.md).
 
 ## Run and check locally
 
@@ -93,7 +94,7 @@ npm run test:android-bridge
 npm run test:db
 ```
 
-Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7 validation evidence](docs/VALIDATION-V7.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
+Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7.1 validation evidence](docs/VALIDATION-V7.1.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
 
 ## Offline use and backups
 

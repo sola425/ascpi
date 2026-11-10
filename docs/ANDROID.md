@@ -1,13 +1,13 @@
-# Android installation and build — 7.0.0
+# Android installation and build — 7.1.0
 
 ## Install or update
 
 1. If Labwise is already installed, open **Progress → Export progress** and save a backup. Export any custom question bank separately.
-2. [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk). The fixed v7 release is [Labwise-7.0.0.apk](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.0.0.apk).
+2. [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk). The fixed v7.1 release is [Labwise-7.1.0.apk](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.0.apk).
 3. Open the APK from Downloads. If Android asks, allow that browser or file manager to install the downloaded app.
 4. Choose **Install** or **Update**, then open Labwise. Install over the existing app, keeping its on-device data.
 
-Requires **Android 8.0 (API 26) or newer** and an up-to-date Android System WebView. The package remains `com.labwise.study`, version name `7.0.0`, version code **70000**, target API **35**. It retains the signing identity used by earlier releases. Physical-device installation and upgrade behavior have not been exercised here.
+Requires **Android 8.0 (API 26) or newer** and an up-to-date Android System WebView. The package remains `com.labwise.study`, version name `7.1.0`, version code **70100**, target API **35**. It retains the signing identity used by earlier releases. Physical-device installation and upgrade behavior have not been exercised here.
 
 The APK bundles **3,760 active questions**, **15,046 individual option explanations**, all three original PDFs (**434 + 333 + 333 pages**), and the mapped original figures. Library and source links open the native PDF reader with page jumps, previous/next, zoom buttons and pinch zoom. Successful reader page changes return to saved per-document positions. Local study and solo games do not require an account.
 
@@ -47,7 +47,7 @@ Version 7 fixes a reproduced compatibility failure: missing `Object.hasOwn` or `
 
 Account errors now distinguish credentials, unconfirmed email, project configuration, connection failures, secure storage and backend setup. **Check connection** performs a read-only public Auth settings check and, when signed in, checks progress access. It does not create an account, send email or change the database.
 
-The bundle remains a **closed pilot with confirmed accounts**. Public signup and password-reset controls stay hidden while the email redirect is empty. Callback files are prepared but not deployed or verified. Live Supabase testing is blocked by this development environment's outbound policy; a proposal allowing only the project's hostname awaits environment review/save/publication. The user's specific tablet failure remains unconfirmed on physical hardware. See [Supabase setup and owner acceptance](SUPABASE-SETUP.md) and [version 7 validation](VALIDATION-V7.md).
+The bundle remains a **closed pilot with confirmed accounts**. Public signup and password-reset controls stay hidden while the email redirect is empty. Callback files are prepared but not deployed or verified. Live Supabase testing is blocked by this development environment's outbound policy; a proposal allowing only the project's hostname awaits environment review/save/publication. The user's specific tablet failure remains unconfirmed on physical hardware. See [Supabase setup and owner acceptance](SUPABASE-SETUP.md) and [version 7.1 validation](VALIDATION-V7.1.md).
 
 Android account sessions use **Android Keystore-backed encryption** in private storage. Session tokens are separate from progress and never included in sync documents or backups. The bundle contains only the public project URL/key. No service-role key or password belongs in app configuration.
 
@@ -91,10 +91,10 @@ Follow [FIGURES.md](FIGURES.md) after changing PDFs or question/source metadata.
 
 The build verifies signing, alignment, package metadata, ZIP integrity, declared asset/source bytes, embedded PDFs and the packaged bank digest. Outputs are:
 
-- `releases/Labwise-7.0.0.apk` and `.apk.sha256`.
+- `releases/Labwise-7.1.0.apk` and `.apk.sha256`.
 - `releases/Labwise-latest.apk` and `.apk.sha256`, copied from the same verified build.
 
-Build intermediates in `android/build/` are ignored. Final compilation, signing and packaged-asset results are in [version 7 validation](VALIDATION-V7.md).
+Build intermediates in `android/build/` are ignored. Final compilation, signing and packaged-asset results are in [version 7.1 validation](VALIDATION-V7.1.md).
 
 ## Retained signing key and verification limits
 
@@ -108,4 +108,4 @@ bca20db3b7816e0155660db761c4dbd1dd74e57e3f2ab6b6dbc1ace6027c4158
 
 This is a directly installed release outside Google Play App Signing. The app serves bundled JavaScript from an intercepted HTTPS origin, retains disabled file/universal file access, and opens only the three bundled source IDs in its native PDF reader.
 
-SDK compilation, JVM policy/crypto checks and mocked browser speech tests establish their stated contracts. They do not establish actual device voice quality, microphone recognition, Keystore persistence, live Supabase access or two physical phones. This environment has no usable hardware-accelerated Android emulator. See [VALIDATION-V7.md](VALIDATION-V7.md) for executed checks and remaining owner/device acceptance.
+SDK compilation, JVM policy/crypto checks and mocked browser speech tests establish their stated contracts. They do not establish actual device voice quality, microphone recognition, Keystore persistence, live Supabase access or two physical phones. This environment has no usable hardware-accelerated Android emulator. See [VALIDATION-V7.1.md](VALIDATION-V7.1.md) for executed checks and remaining owner/device acceptance.

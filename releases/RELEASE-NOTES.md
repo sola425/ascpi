@@ -1,3 +1,20 @@
+# Labwise 7.1.0 — Source-detail pictures and the complete voice learning loop
+
+[Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.0.apk)
+
+- **Every answer gets a complete voice turn:** hear the question and choices, speak an answer and confirm it, then hear an explicit correct/incorrect result, the selected-option explanation and the correct-option explanation when needed. The original book rationale and simpler teaching are read with separate labels. Every question ends with an invitation to explain back what was learned; compare with the supplied model answer and self-rate recall. Next stays under the learner's control.
+- **Preserve source detail:** all 155 existing picture files are exported losslessly at the source raster density. Inline and fitted pictures no longer stretch small originals. Native size and explicit 2× enlargement are available. Original colors, source links, question mappings and hidden-until-reveal rationale images are preserved.
+- **Honest source limits:** the supplied PDFs contain roughly 72-DPI raster pages; some clinical photographs have only a few hundred pixels. Lossless export avoids additional degradation but cannot restore missing detail. The app identifies limited-detail source scans. No generated clinical detail, substitute look-alike photograph or question-text screenshot was added.
+- **A route to more image questions:** [the image-content plan](../docs/IMAGE-CONTENT-PLAN.md) distinguishes identification questions from post-answer illustrations and sets out source licensing, attribution and clinical review. It lists candidate image sources for investigation. No LabCE bank or new external photographs have been imported.
+
+Study coverage remains **3,760 questions**, **15,046 option explanations** and **1,100 original PDF pages**. Existing source exclusions and missing-source accounting remain. No backend migration or question-registry update is needed for this release. Account configuration and the confirmed-account pilot are unchanged.
+
+Requires Android 8.0+ and an up-to-date Android System WebView. Package `com.labwise.study`, version code **70100**, target API **35**, signed with the retained release certificate. **Export progress, then install over the existing app without uninstalling.** The stable download link is unchanged.
+
+[Version 7.1 validation](../docs/VALIDATION-V7.1.md) records executed checks. Speech is simulated in browser tests; physical-device voice quality, microphone accuracy, installation/upgrade and live two-phone sync are not established by those checks.
+
+---
+
 # Labwise 7.0.0 — Voice Quiz Show, original figures and tablet compatibility
 
 [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.0.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.0.0.apk)

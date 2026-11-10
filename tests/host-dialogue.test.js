@@ -121,6 +121,58 @@ test('a spoken choice requires a separate explicit yes before scoring', async ()
   await f.dialogue.submit('yes'); assert.equal(f.answers.length, 1); f.dialogue.dispose();
 });
 
+test('every correct answer explains the selected choice and book rationale, then asks for teach-back', async () => {
+  for (const index of [0, 1, 2]) {
+    const f = harness({context: {index, terminal: index === 2}});
+    await f.dialogue.start(); await f.dialogue.submit('option B'); noTeachingLeak(f);
+    const start = f.spoken.length;
+    await f.dialogue.submit('yes');
+    const feedback = f.spoken.slice(start).map(item => item.text).join('\n');
+    assert.match(feedback, /Your answer is correct according to the book\. You chose option B\. Blue label/);
+    assert.match(feedback, /Why your chosen answer is correct\. SECOND_CHOICE_NOTE/);
+    assert.match(feedback, /Here is the original book rationale\. ORIGINAL_RATIONALE_AFTER_CONFIRMED_CHOICE/);
+    assert.match(feedback, /A simpler explanation\. EXPLANATION_AFTER_CONFIRMED_CHOICE/);
+    assert.ok(feedback.indexOf(SOURCE) < feedback.indexOf(EXPLANATION), 'The original and simplified explanations are clearly separated');
+    assert.match(feedback, /explain back what you learned.*in your own words/i);
+    assert.equal(feedback.includes(RECALL), false, 'Teach-back does not reveal the comparison answer first');
+    assert.equal(feedback.includes(OPTION_NOTES[0]), false, 'Only the chosen option needs an automatic choice explanation');
+    assert.equal(f.dialogue.getState().phase, 'recall');
+    assert.equal(f.answers.length, 1); assert.equal(f.recalls.length, 0); assert.equal(f.nexts.length, 0);
+    f.dialogue.dispose();
+  }
+});
+
+test('a wrong answer explains the actual wrong choice and correct choice before book rationale and teach-back', async () => {
+  const f = harness(); await f.dialogue.start(); await f.dialogue.submit('option A'); noTeachingLeak(f);
+  const start = f.spoken.length; await f.dialogue.submit('yes');
+  const feedback = f.spoken.slice(start).map(item => item.text).join('\n');
+  assert.match(feedback, /Your answer is incorrect according to the book\. You chose option A\. Amber label/);
+  assert.match(feedback, /The book's correct answer is option B\. Blue label/);
+  assert.match(feedback, /Why your chosen answer is wrong for this question\. FIRST_CHOICE_NOTE/);
+  assert.match(feedback, /Why the correct answer fits\. SECOND_CHOICE_NOTE/);
+  assert.match(feedback, /Here is the original book rationale\. ORIGINAL_RATIONALE_AFTER_CONFIRMED_CHOICE/);
+  assert.match(feedback, /A simpler explanation\. EXPLANATION_AFTER_CONFIRMED_CHOICE/);
+  assert.match(feedback, /explain back what you learned from this question or its correction, in your own words/);
+  assert.equal(f.dialogue.getState().phase, 'recall'); assert.equal(f.nexts.length, 0);
+  await f.dialogue.submit('I compared the label to all the choices.');
+  assert.equal(f.dialogue.getState().phase, 'compare'); assert.ok(allSpeech(f).includes(RECALL));
+  assert.equal(f.recalls.length, 0, 'Speaking freely is not automatically graded');
+  await f.dialogue.submit('review again');
+  assert.deepEqual(f.recalls, [{rating: 'again', id: 'label-a'}]); assert.equal(f.answers.length, 1);
+  assert.equal(f.nexts.length, 0); f.dialogue.dispose();
+});
+
+test('an imported question without teaching still reads its book rationale and asks for teach-back', async () => {
+  const f = harness({context: {q: question('unannotated', {teaching: undefined})}});
+  await f.dialogue.start(); await f.dialogue.choose(0); await f.dialogue.confirm();
+  const spoken = allSpeech(f);
+  assert.match(spoken, /Your answer is incorrect according to the book/);
+  assert.match(spoken, /Here is the original book rationale\. ORIGINAL_RATIONALE_AFTER_CONFIRMED_CHOICE/);
+  assert.match(spoken, /What was the key idea you learned/);
+  for (const note of OPTION_NOTES) assert.equal(spoken.includes(note), false, 'Do not invent missing choice explanations');
+  assert.equal(f.dialogue.getState().phase, 'recall'); assert.equal(f.nexts.length, 0); f.dialogue.dispose();
+});
+
 test('confirm without a candidate cannot grade, and no cancels a pending choice', async () => {
   const f = harness(); await f.dialogue.start(); await f.dialogue.confirm(); await f.dialogue.submit('yes');
   assert.equal(f.answers.length, 0);
@@ -197,7 +249,10 @@ test('question lifeline commands route to the engine and skip stays separate fro
   await f.dialogue.submit('hint'); assert.deepEqual(f.lifelines, ['fifty', 'hint']);
   assert.equal(f.answers.length, 0); await f.dialogue.submit('skip');
   assert.deepEqual(f.lifelines, ['fifty', 'hint', 'skip']); assert.equal(f.answers.length, 0);
-  assert.equal(f.nexts.length, 0); assert.ok(allSpeech(f).includes(EXPLANATION)); f.dialogue.dispose();
+  assert.equal(f.nexts.length, 0); assert.ok(allSpeech(f).includes(EXPLANATION));
+  assert.match(allSpeech(f), /You skipped this question\. No answer was marked wrong/);
+  assert.equal(allSpeech(f).includes('Your answer is incorrect'), false);
+  assert.equal(f.dialogue.getState().phase, 'recall'); f.dialogue.dispose();
 });
 
 test('a paused manual session supports explicit choices without reopening the microphone', async () => {

@@ -102,13 +102,13 @@ def main():
   run('keytool','-genkeypair','-keystore',key,'-storetype','PKCS12','-storepass:file',password,'-keypass:file',password,'-alias','labwise-release','-keyalg','RSA','-keysize','3072','-validity','10000','-dname','CN=Labwise Local Release','-noprompt')
   key.chmod(0o600)
  if not password.exists():raise SystemExit('Retained signing password file is missing.')
- apk=OUT/'Labwise-7.0.0.apk'
+ apk=OUT/'Labwise-7.1.0.apk'
  run('java','-jar',bt/'lib/apksigner.jar','sign','--ks',key,'--ks-key-alias','labwise-release','--ks-pass','file:'+str(password),'--v1-signing-enabled','false','--v2-signing-enabled','true','--v3-signing-enabled','true','--out',apk,BUILD/'aligned.apk')
  run('java','-jar',bt/'lib/apksigner.jar','verify','--verbose','--print-certs',apk)
  run(bt/'zipalign','-c','-P','16','4',apk)
  run(bt/'aapt','dump','badging',apk)
  checksum=hashlib.sha256(apk.read_bytes()).hexdigest()
- (OUT/'Labwise-7.0.0.apk.sha256').write_text(checksum+'  '+apk.name+'\n')
+ (OUT/'Labwise-7.1.0.apk.sha256').write_text(checksum+'  '+apk.name+'\n')
  with zipfile.ZipFile(apk) as z:
   assert z.testzip() is None
   for name in WEB_ASSETS:assert z.read('assets/'+name)==(ROOT/name).read_bytes()

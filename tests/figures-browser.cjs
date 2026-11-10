@@ -3,7 +3,7 @@ const assert = require('node:assert/strict'), fs = require('node:fs'), path = re
 let chromium;
 try { ({chromium} = require('playwright')); }
 catch { ({chromium} = require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')); }
-const root = path.resolve(__dirname, '..'), origin = 'http://127.0.0.1:3000', artifacts = '/tmp/labwise-figures-v7';
+const root = path.resolve(__dirname, '..'), origin = 'http://127.0.0.1:3000', artifacts = '/tmp/labwise-figures-v8';
 const bank = JSON.parse(fs.readFileSync(path.join(root, 'data/study-bank.json'))), manifest = JSON.parse(fs.readFileSync(path.join(root, 'data/figures.json')));
 const math = bank.find(q => q.topic === 'Laboratory mathematics' && q.needsSource);
 const bocPicture = bank.find(q => q.id === 'boc-4-8');
@@ -39,8 +39,10 @@ async function checkLayout(page, label) {
   await decodeVisible(page);
   const result = await page.evaluate(() => ({overflow: document.documentElement.scrollWidth - innerWidth,
     badImages: [...document.querySelectorAll('#content .question-figures img')].filter(im => im.offsetHeight && (!im.complete || !im.naturalWidth)).length,
+    upscaledImages: [...document.querySelectorAll('#content .question-figures img')].filter(im => im.offsetHeight && im.getBoundingClientRect().width > im.naturalWidth + 1).length,
     smallTargets: [...document.querySelectorAll('#content .question-figures button,#content .question-figures a,#content .question-figures summary')].filter(el => el.getBoundingClientRect().height > 0 && el.getBoundingClientRect().height < 43.9).map(el => el.tagName)}));
   assert.ok(result.overflow <= 1, label + ' full-app overflow'); assert.equal(result.badImages, 0, label + ' image decoding');
+  assert.equal(result.upscaledImages, 0, label + ' pictures must not be enlarged by default');
   assert.deepEqual(result.smallTargets, [], label + ' figure controls must be at least 44 px');
   report.integration.push({label, ...result});
 }
@@ -108,9 +110,15 @@ async function fullAppReview() {
       const hash = await picture.locator('img').evaluate(async im => [...new Uint8Array(await crypto.subtle.digest('SHA-256', await (await fetch(im.src)).arrayBuffer()))].map(v => v.toString(16).padStart(2, '0')).join(''));
       const actual = require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root, f.path))).digest('hex'); assert.equal(hash, actual);
       await picture.click(); await page.locator('#figure-zoom-image').evaluate(im => im.decode());
+      assert.ok(await page.locator('#figure-zoom-image').evaluate(im => im.getBoundingClientRect().width <= im.naturalWidth + 1), 'Opening a picture must not enlarge low-resolution source pixels by default.');
       await action(page, 'figure-actual'); assert.equal(await page.locator('#figure-zoom-image').evaluate(im => parseFloat(im.style.width)), f.width);
-      assert.ok(await page.locator('.figure-zoom').evaluate(el => el.scrollWidth > el.clientWidth), 'Actual-size picture should pan within the modal.');
+      const actualSize = await page.locator('.figure-zoom').evaluate(el => ({pans: el.scrollWidth > el.clientWidth + 1,
+        needsPanning: el.querySelector('img').getBoundingClientRect().width + parseFloat(getComputedStyle(el).paddingLeft) + parseFloat(getComputedStyle(el).paddingRight) > el.clientWidth + 1}));
+      assert.equal(actualSize.pans, actualSize.needsPanning, 'Only a picture larger than the viewport needs panning at native size.');
+      await action(page, 'figure-enlarge');
+      assert.equal(await page.locator('#figure-zoom-image').evaluate(im => im.getBoundingClientRect().width), f.width * 2, 'Explicit enlargement shows the same source pixels at twice their native width.');
       await action(page, 'figure-fit'); assert.ok(await page.locator('#figure-zoom-image').evaluate(im => im.getBoundingClientRect().width <= im.parentElement.clientWidth));
+      assert.ok(await page.locator('#figure-zoom-image').evaluate(im => im.getBoundingClientRect().width <= im.naturalWidth + 1), 'Fit picture must only reduce an image to fit.');
       await action(page, 'close-dialog');
       await picture.locator('..').locator('.source-link').click(); assert.deepEqual(await page.evaluate(() => window.nativeFigureCalls.at(-1)), {id: f.documentId, page: f.page});
       await page.locator('.study > .source-links .source-link').first().click(); assert.deepEqual(await page.evaluate(() => window.nativeFigureCalls.at(-1)), {id: plate.documentId, page: plate.page});
@@ -178,9 +186,11 @@ let browser;
       const key = `${viewport.width}x${viewport.height}-${theme}-${sample.id}`;
       const layout = await page.evaluate(() => ({overflow: document.documentElement.scrollWidth - innerWidth,
         broken: [...document.images].filter(im => !im.complete || !im.naturalWidth).length,
+        upscaledImages: [...document.querySelectorAll('#content .question-figures img')].filter(im => im.getBoundingClientRect().width > im.naturalWidth + 1).length,
         undersized: [...document.querySelectorAll('button,a,summary')].filter(el => el.getBoundingClientRect().height > 0 && el.getBoundingClientRect().height < 43.9).map(el => el.tagName),
         paper: getComputedStyle(document.querySelector('.source-figure-open')).backgroundColor}));
       assert.ok(layout.overflow <= 1, key + ' overflow'); assert.equal(layout.broken, 0, key + ' broken image');
+      assert.equal(layout.upscaledImages, 0, key + ' pictures must not be enlarged by default');
       assert.deepEqual(layout.undersized, [], key + ' small target'); assert.equal(layout.paper, 'rgb(255, 255, 255)', key + ' paper');
       await page.locator('[data-figure-id]').first().click(); await page.locator('dialog[open] img').evaluate(im => im.decode());
       assert.ok(await page.locator('dialog[open] img').evaluate(im => im.naturalWidth > 0));

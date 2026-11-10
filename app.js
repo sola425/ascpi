@@ -21,7 +21,7 @@ import {configureFigures,renderFigures,getFigure,hasQuestionFigure} from './figu
 
 const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const VERSION='7.0.0',UPDATE_URL='https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk';
+const VERSION='7.1.0',UPDATE_URL='https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk';
 const blank=()=>validateBackup({version:4,records:{},saved:[],log:[],goal:10});
 let cloudController=null,syncConfig={enabled:false},syncStatus={configured:false,phase:'local',user:null,pending:false},quizMeta={};
 let accountMode='signIn',accountBusy=false,accountMessage='',accountReturnToDuel=false,tourIndex=null,pendingArcade=null;
@@ -128,7 +128,7 @@ function beginHost(){if(!pendingHostSetup)return;updateHostCount();if($('[data-a
  hostDialogue.pause();hostGame=startHostGame({...hostGame,active:null},hostPool(includeVisual),{topics:selected,limit,includeVisual,now:Date.now(),seed:Math.random(),runId:'show-'+(globalThis.crypto?.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2))});saveHost();closeModal();pendingHostSetup=null;navigate('host');
 }
 function startHostVoice(){clearVoice();if(!ui.hostVoiceAcknowledged){modal('Meet your voice host.','<p>The host reads a question and options, listens to your choice, and asks you to confirm before scoring. After an explanation, it may ask you to explain the idea in your own words.</p><p>Your device provides speech and recognition. Online device voices may send the text being read to their provider; recognition may need a connection. Labwise keeps no audio or transcript history.</p><p>Use voice commands while the host is listening. The Pause button works at any time.</p>',btn('Later','close-dialog')+btn('Start voice host','host-voice-consent',true));return;}void hostDialogue.start();}
-function openFigure(id){const f=getFigure(id);if(!f)return;clearVoice();if(view==='host')hostDialogue.pause();modal(esc(f.caption),`<div class="figure-zoom" tabindex="0" aria-label="Scrollable original picture"><img id="figure-zoom-image" src="./${f.path}" alt="${esc(f.alt)}" style="width:100%" data-natural-width="${f.width}"></div><p class="source">Original PDF picture. Use Actual size to pan across fine details.</p>`,btn('Fit picture','figure-fit')+btn('Actual size','figure-actual')+btn('Close','close-dialog',true));}
+function openFigure(id){const f=getFigure(id);if(!f)return;clearVoice();if(view==='host')hostDialogue.pause();modal(esc(f.caption),`<div class="figure-zoom" tabindex="0" aria-label="Scrollable original picture"><img id="figure-zoom-image" src="./${f.path}" alt="${esc(f.alt)}" style="width:min(100%,${f.width}px)" data-natural-width="${f.width}"></div><p class="source">Picture from the supplied PDF. Fit picture never stretches it. Enlarging can help you look, but cannot restore detail missing from the original.</p>`,btn('Fit picture','figure-fit')+btn('Actual size','figure-actual')+btn('Enlarge 2×','figure-enlarge')+btn('Close','close-dialog',true));}
 function hostView(){const c=hostContext(),conversation=hostDialogue.getState();return renderHost({game:hostGame,q:c?.q,summary:hostSummary(hostGame),conversation,lessonHTML:c?.q?lesson(c.q):'',figuresHTML:c?.q?context(c.q)+renderFigures(c.q,{revealed:c.phase!=='question'}):'',voices:(conversation.capabilities?.voices||[]).map(v=>({...v,name:v.label||v.name})),settings:hostSettings()});}
 let hostPaintKey='';
 function updateHostVoice(next){
@@ -386,8 +386,9 @@ document.addEventListener('click',async e=>{
  case 'host-recall-again':void hostDialogue.rateRecall('again');break;case 'host-recall-good':void hostDialogue.rateRecall('good');break;
  case 'host-submit':{const text=$('#host-transcript')?.value||'';if($('#host-transcript'))$('#host-transcript').value='';void hostDialogue.submit(text);break;}
  case 'host-leave':ui.playLobby=true;saveUI();navigate('play');break;
- case 'figure-fit':if($('#figure-zoom-image'))$('#figure-zoom-image').style.width='100%';break;
+ case 'figure-fit':if($('#figure-zoom-image'))$('#figure-zoom-image').style.width=`min(100%,${$('#figure-zoom-image').dataset.naturalWidth}px)`;break;
  case 'figure-actual':if($('#figure-zoom-image'))$('#figure-zoom-image').style.width=$('#figure-zoom-image').dataset.naturalWidth+'px';break;
+ case 'figure-enlarge':if($('#figure-zoom-image'))$('#figure-zoom-image').style.width=(2*Number($('#figure-zoom-image').dataset.naturalWidth))+'px';break;
  case 'account':openAccount();break;
  case 'account-password-toggle':{const field=$('#account-password');if(field){const visible=field.type==='password';field.type=visible?'text':'password';b.textContent=visible?'Hide':'Show';b.setAttribute('aria-pressed',String(visible));}break;}
  case 'account-check':if(!accountChecking){accountChecking=true;render();try{accountDiagnostics=await cloudController.checkConnection();}catch{accountDiagnostics={ok:false,stage:'local',code:'network',message:'The connection check could not finish. Try again when connected.'};}finally{accountChecking=false;if(view==='account')render();}}break;
