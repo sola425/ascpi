@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#234b3e">
+  <title>Labwise · Test this device</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="web-test.css">
+</head>
+<body>
+  <main>
+    <header><a class="brand" href="./">labwise.</a><span id="version">Browser test space</span></header>
+    <p class="eyebrow">TRY IT ON YOUR DEVICE</p>
+    <h1>Your learning app, in your browser.</h1>
+    <p class="lead">Use the same study screens, pictures and games as the Android app. Check this device, then try a complete learning session.</p>
+    <div class="actions"><a class="button primary" href="./">Open Labwise</a><a class="button" href="./#play">Try the games</a><button id="refresh">Run checks again</button></div>
+
+    <section aria-labelledby="checks-title">
+      <h2 id="checks-title">1. Check this browser</h2>
+      <p>These checks describe this browser. An available speech API still needs an actual speaking and listening test.</p>
+      <ul id="checks" class="checks" aria-live="polite"><li>Checking this device…</li></ul>
+      <div class="actions"><button id="prepare" class="primary">Prepare offline study</button><button id="pdfs">Save the three PDFs offline</button><button id="export">Download check report</button></div>
+      <p id="offline-status" class="status" role="status"></p>
+      <p class="small">Saving all PDFs downloads about 66 MB. Browser storage can be cleared or evicted; keep a progress export too. Preparing offline study does not change your study history.</p>
+    </section>
+
+    <section aria-labelledby="voice-title">
+      <h2 id="voice-title">2. Try your voice</h2>
+      <p>Use headphones or a quiet place. Your browser may ask for microphone permission when you choose Listen. The speech provider may need Internet access.</p>
+      <label for="voice">Reading voice</label><select id="voice"><option value="">Best available device voice</option></select>
+      <div class="actions"><button id="speak">Read a sample</button><button id="listen">Listen to a sample answer</button><button id="stop">Stop voice</button></div>
+      <p id="voice-status" class="status" role="status">Say “option B” when listening begins. This sample does not score a question.</p>
+      <output id="transcript" aria-label="Temporary sample transcript"></output>
+      <p class="small">The sample words stay on this page and are excluded from the check report. Labwise saves no audio or transcript history. Your device's voice and recognition providers have their own processing policies.</p>
+      <p>For the full learning loop, open <strong>Play → Quiz Show → Start voice host</strong>. Hear a question, speak and confirm your choice, hear the result and explanations, then explain back what you learned. Compare your explanation with the supplied model answer and self-rate your recall.</p>
+    </section>
+
+    <section aria-labelledby="walkthrough-title">
+      <h2 id="walkthrough-title">3. Try the real workflows</h2>
+      <p>Take these one at a time. A checkmark is your own observation; it is not an automated pass.</p>
+      <div class="walkthrough">
+        <label><input type="checkbox"> <span><strong>Study and pictures.</strong> Choose each source collection in Practice. Answer a question, compare Every choice and Book rationale, and try a question with a photograph. Check fit, native size and enlargement.</span></label>
+        <label><input type="checkbox"> <span><strong>Learn out loud.</strong> In Quiz Show, try both a correct and an incorrect answer. Check confirmation, each explanation, explain-back, Pause and Next. Also try typed or tapped answers.</span></label>
+        <label><input type="checkbox"> <span><strong>Games.</strong> Try Sprint and Frenzy with your chosen topics. In Frenzy, check the 30-second question clock, three hearts and untimed explanations.</span></label>
+        <label><input type="checkbox"> <span><strong>Offline study.</strong> Prepare offline study above. Turn off Wi-Fi and mobile data, reload Labwise, answer questions, open pictures and resume a game. Read the PDFs after saving them separately. Reconnect when finished.</span></label>
+        <label><input type="checkbox"> <span><strong>Sync and a friend.</strong> With Internet on, sign into your confirmed account through Study settings. Study on one device and check the progress on another. Use two separate accounts for a private Friend Duel.</span></label>
+        <label><input type="checkbox"> <span><strong>Keep your progress.</strong> In Progress, export a backup. Browser and APK storage are separate; use optional account sync or a progress backup when moving between them.</span></label>
+      </div>
+    </section>
+
+    <section aria-labelledby="offline-title">
+      <h2 id="offline-title">What works without Internet?</h2>
+      <table><thead><tr><th scope="col">Feature</th><th scope="col">Offline behavior</th></tr></thead><tbody>
+        <tr><td>Questions, explanations, pictures, solo games and local progress</td><td>Available after successful caching in this browser.</td></tr>
+        <tr><td>Original PDF reading</td><td>Save each PDF first.</td></tr>
+        <tr><td>Reading aloud</td><td>Depends on the installed voice. Test a local device voice while disconnected.</td></tr>
+        <tr><td>Spoken answers</td><td>Browser/provider support varies and often needs Internet. Tapping and typing remain available.</td></tr>
+        <tr><td>Account sync and Friend Duels</td><td>Need Internet. Offline study changes can sync after reconnection.</td></tr>
+      </tbody></table>
+      <p>Offline feedback uses the saved book answer key and authored explanations. A GPT model is not bundled with the app.</p>
+      <p class="small">The web app tests shared learning behavior. Android installation, upgrades, native PDF reading, microphone permission and device speech still need APK testing on an Android phone or tablet.</p>
+    </section>
+    <footer><a href="./">Return to Labwise</a><span>Your study progress stays separate from these checks.</span></footer>
+  </main>
+  <script src="compatibility.js"></script>
+  <script type="module" src="web-test.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+name: Publish Labwise web app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - '*.js'
+      - '*.css'
+      - '*.json'
+      - '*.webmanifest'
+      - 'icon*'
+      - 'data/**'
+      - 'assets/figures/**'
+      - 'docs/*.pdf'
+      - 'scripts/build_web.py'
+      - 'scripts/build_apk.py'
+      - '.github/workflows/web-app.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: labwise-web-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check shared learning and voice logic
+        run: node --test tests/questions.test.js tests/teaching.test.js tests/host-game.test.js tests/host-dialogue.test.js tests/host-voice.test.js tests/sw-v7.test.js
+      - name: Build the reviewed browser app
+        run: python3 scripts/build_web.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .web-build/ascpi
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Publish HTTPS app
+        id: deployment
+        uses: actions/deploy-pages@v4

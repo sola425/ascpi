@@ -10,6 +10,14 @@ Requires **Android 8.0+** and an up-to-date Android System WebView. Open the dow
 
 **Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.1.0 keeps the same app ID and retained signing certificate, with version code **70100**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
 
+## Browser app and device testing
+
+The browser build uses the same reviewed study data, screens and game/voice controllers as the APK. The HTTPS addresses, after the repository owner enables GitHub Pages, are [Labwise web app](https://sola425.github.io/ascpi/) and [Test this device](https://sola425.github.io/ascpi/web-test.html). The test page checks local storage, cached study files, all 155 picture files and the three PDFs, offers reading/listening samples, and provides a paced checklist for study, games, sync and Duels. It exports a content-free check report; it does not save sample transcripts.
+
+The deployment workflow is prepared in [.github/workflows/web-app.yml](.github/workflows/web-app.yml). One-time owner setup: open [repository Settings → Pages](https://github.com/sola425/ascpi/settings/pages), choose **Source → GitHub Actions**, then run **Publish Labwise web app** from Actions. Later relevant pushes to main rebuild and deploy automatically. Live deployment is separate from the executed local tests. See [web hosting, offline behavior and validation](docs/WEB-APP.md).
+
+Cached questions, explanations, pictures, solo games and progress work offline. Save PDFs separately. Reading aloud and spoken answers depend on browser/device providers and may need Internet. Account sync and Friend Duels need Internet. Offline learning uses the saved answer key and teaching; no GPT model is bundled. Browser tests complement physical Android installation, microphone and native-reader testing.
+
 ## Study and read
 
 - Choose **All sources**, **Success**, or **BOC 7e**, then filter by subject, search text, or study status.
