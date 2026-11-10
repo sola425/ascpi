@@ -76,6 +76,9 @@ let browser;
   }
   browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', args: ['--no-sandbox']});
   const page = await browser.newPage({viewport: {width: 412, height: 915}});
+  const cpuRate=Number(process.env.APK_CPU_RATE||1);
+  assert.ok(Number.isFinite(cpuRate)&&cpuRate>=1&&cpuRate<=20,'Use a CPU slowdown from 1 to 20.');
+  if(cpuRate>1)await(await page.context().newCDPSession(page)).send('Emulation.setCPUThrottlingRate',{rate:cpuRate});
   const errors = [], missing = [], requests = new Set();
   page.on('pageerror', error => errors.push(error.message));
   await page.addInitScript(version => {
@@ -110,8 +113,10 @@ let browser;
     return (await inModal.count() ? inModal.first() : page.locator(selector).first()).click();
   };
   const lastCall = () => page.evaluate(() => window.nativeCalls.at(-1));
+  const coldStart=Date.now();
   await page.goto(`${origin}/assets/index.html`);
   await page.getByRole('heading', {name: 'Make room for a little discovery.'}).waitFor();
+  console.log('APK_STARTUP '+JSON.stringify({cpuSlowdown:cpuRate,elapsedMs:Date.now()-coldStart,scope:'Extracted APK in Chromium; not a physical Android benchmark'}));
   await page.locator('.onboarding').waitFor();
   await action('tour-skip');
   assert.equal(quizMeta.questions, await page.evaluate(async () => {

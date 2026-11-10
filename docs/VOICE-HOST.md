@@ -1,6 +1,6 @@
 # A voice host for understanding
 
-Labwise 7.1.0 provides an original Quiz Show for learning out loud. It uses installed device speech services and the existing teaching notes. It has no paid voice subscription, generative conversation service or automatic semantic grading.
+Labwise 7.1.1 provides an original Quiz Show for learning out loud. It uses installed device speech services and the existing teaching notes. It has no paid voice subscription, generative conversation service or automatic semantic grading.
 
 ## Start a round
 
@@ -74,4 +74,4 @@ Picture questions keep the existing text question and choices, with the associat
 
 ## Verification
 
-The engine, dialogue, speech adapter, native rules and responsive UI have automated checks. Mock speech services establish turn order, confirmation, cancellation and state contracts; SDK/JVM checks establish compilation and policy behavior. They do not establish actual voice naturalness, recognition accuracy, microphone behavior or Android device audio. Physical device and live account acceptance remain separate. See [VALIDATION-V7.1.md](VALIDATION-V7.1.md) for executed results.
+The engine, dialogue, speech adapter, native rules and responsive UI have automated checks. Mock speech services establish turn order, confirmation, cancellation and state contracts; SDK/JVM checks establish compilation and policy behavior. They do not establish actual voice naturalness, recognition accuracy, microphone behavior or Android device audio. Physical device and live account acceptance remain separate. See [VALIDATION-V7.1.1.md](VALIDATION-V7.1.1.md) for executed results.

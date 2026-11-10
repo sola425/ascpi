@@ -1,6 +1,6 @@
 {
   "name": "labwise-study",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -23,6 +23,7 @@
     "test:db": "node supabase/tests/run-postgres.mjs",
     "test:voice": "node --test tests/voice.test.js",
     "test:game-ux": "node tests/ux-game-v5.cjs",
-    "test:compatibility": "node tests/compatibility-browser.cjs"
+    "test:compatibility": "node tests/compatibility-browser.cjs",
+    "test:reliability": "node tests/reliability-browser.cjs"
   }
 }

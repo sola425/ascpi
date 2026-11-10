@@ -188,7 +188,7 @@ test('production native allowlist and AES/GCM reject bypasses, tampering and ove
   writeFileSync(harnessFile, harness);
   const classpath = workspace + delimiter + platform;
   const options = {cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], timeout: 30000};
-  execFileSync('java', ['com.sun.tools.javac.Main', '-source', '8', '-target', '8', '-Xlint:-options', '-bootclasspath', platform + delimiter + stubs, '-encoding', 'UTF-8', '-d', workspace, 'android/src/com/labwise/study/MainActivity.java', 'android/src/com/labwise/study/PdfActivity.java', 'android/src/com/labwise/study/HostVoice.java', 'android/src/com/labwise/study/HostVoiceRules.java'], options);
+  execFileSync('java', ['com.sun.tools.javac.Main', '-source', '8', '-target', '8', '-Xlint:-options', '-bootclasspath', platform + delimiter + stubs, '-encoding', 'UTF-8', '-d', workspace, 'android/src/com/labwise/study/MainActivity.java', 'android/src/com/labwise/study/PdfActivity.java', 'android/src/com/labwise/study/ReaderCache.java', 'android/src/com/labwise/study/HostVoice.java', 'android/src/com/labwise/study/HostVoiceRules.java'], options);
   execFileSync('java', ['com.sun.tools.javac.Main', '-source', '8', '-target', '8', '-Xlint:-options', '-classpath', classpath, '-encoding', 'UTF-8', '-d', workspace, harnessFile], options);
   const output = execFileSync('java', ['-cp', classpath, 'com.labwise.study.NativeSyncHarness', JSON.stringify({version: 1, project: 'https://ncfovahpjofwrygxnbst.supabase.co', session: {accessToken: 'access.fake', refreshToken: 'refresh.fake', expiresAt: 1794000000000, user: {id: 'fake-user', email: 'fake@example.org'}}})], options);
   assert.match(output, /PASS: \d+ production native policy and AES\/GCM checks/);

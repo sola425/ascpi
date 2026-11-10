@@ -20,3 +20,22 @@ test('aborted IndexedDB write reports failure and leaves prior bank and legacy d
  const indexedDB=indexedMemory({abortWrite:true});indexedDB.values.set('custom',[{id:'old'}]);const localStorage=memoryStorage({'labwise-bank':'[{"id":"legacy"}]'});const result=await storeCustomBank([{id:'replacement'}],{indexedDB,localStorage});assert.equal(result.ok,false);assert.match(result.error.message,/Disk full/);assert.equal(indexedDB.values.get('custom')[0].id,'old');assert.equal(localStorage.getItem('labwise-bank'),'[{"id":"legacy"}]');assert.equal(indexedDB.closed,1);
 });
 test('IndexedDB read failure exposes warning alongside recoverable legacy bank',async()=>{const indexedDB={open(){throw Error('Access denied');}},localStorage=memoryStorage({'labwise-bank':'[{"id":"legacy"}]'});const result=await loadCustomBank({indexedDB,localStorage});assert.equal(result.ok,false);assert.equal(result.value[0].id,'legacy');assert.match(result.error.message,/Access denied/);});
+
+test('a stalled database open times out, keeps the legacy bank, and closes a late connection',async()=>{
+ let pending,closed=0;const indexedDB={open(){return pending={};}},localStorage=memoryStorage({'labwise-bank':'[{"id":"legacy"}]'});
+ const result=await Promise.race([loadCustomBank({indexedDB,localStorage,timeoutMs:20}),new Promise(resolve=>setTimeout(()=>resolve({hung:true}),250))]);
+ assert.equal(result.hung,undefined);assert.equal(result.ok,false);assert.equal(result.value[0].id,'legacy');assert.match(result.error.message,/too long/);
+ pending.result={close(){closed++;},transaction(){throw Error('A timed-out connection must not start a transaction.');}};pending.onsuccess();assert.equal(closed,1);
+ assert.equal(localStorage.getItem('labwise-bank'),'[{"id":"legacy"}]');
+});
+
+test('stalled transactions abort and cannot turn a failed save/delete into a successful result',async()=>{
+ for(const kind of ['put','delete']){
+  let aborted=0,closed=0,transaction;const localStorage=memoryStorage({'labwise-bank':'[{"id":"legacy"}]'});
+  const indexedDB={open(){const request={};queueMicrotask(()=>{request.result={close(){closed++;},transaction(){transaction={abort(){aborted++;transaction.onabort?.();},objectStore(){return{put(){return{};},delete(){return{};}};}};return transaction;}};request.onsuccess();});return request;}};
+  const options={indexedDB,localStorage,timeoutMs:20};
+  const result=await(kind==='put'?storeCustomBank([{id:'new'}],options):deleteCustomBank(options));
+  assert.equal(result.ok,false);assert.match(result.error.message,/too long/);assert.equal(aborted,1);assert.equal(closed,1);
+  transaction.oncomplete();assert.equal(result.ok,false);assert.equal(localStorage.getItem('labwise-bank'),'[{"id":"legacy"}]');
+ }
+});

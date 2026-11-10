@@ -27,7 +27,8 @@ function safeError(error) {
     case 'document': return malformed().message;
     case 'size': return 'Cloud progress must be under 8 MiB. Export a local backup to keep a copy.';
     case 'auth': return 'Your account or session could not be verified. Confirm your email or sign in again.';
-    case 'network': case 'timeout': return 'You are offline or the account service could not be reached. Your device progress is safe and will sync when connected.';
+    case 'network': return 'The account service could not be reached. Check your connection and try again.';
+    case 'timeout': return 'The account service took too long. Check your connection and try again.';
     case 'conflict': return 'Another device is updating this account. Your changes are queued and will retry.';
     case 'invalid': return 'Check your email address and password, then try again.';
     case 'configuration': return 'This app’s account connection needs an update. Install the latest app or contact the app owner.';

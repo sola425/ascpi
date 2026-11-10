@@ -122,6 +122,7 @@ public final class PdfActivity extends Activity {
         descriptor=ParcelFileDescriptor.open(file,ParcelFileDescriptor.MODE_READ_ONLY);renderer=new PdfRenderer(descriptor);
         final int count=renderer.getPageCount();
         if(count<1)throw new java.io.IOException("Empty PDF");
+        ReaderCache.pruneOlderCopies(getCacheDir(),documentId,file);
         runOnUiThread(()->{if(!closed){pageCount=count;page=Math.max(0,Math.min(count-1,page));drawPage(true);}});
       }catch(Exception e){
         if(file!=null)file.delete();

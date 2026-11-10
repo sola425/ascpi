@@ -1,5 +1,7 @@
 # Labwise browser app and device testing
 
+Public web hosting was cancelled at the owner's request. The automatic Pages workflow has been removed. The local packaging and browser helpers below are retained as developer tools; there is no Pages setup step for the owner to complete. The deployment history below records the earlier attempt.
+
 The browser app shares the APK's reviewed data and learning code. Its separate device-test page helps a learner try those features on an actual phone, tablet or computer. There is no subscription or external AI service needed for local study.
 
 ## HTTPS hosting

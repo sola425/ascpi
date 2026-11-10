@@ -408,7 +408,7 @@ public final class MainActivity extends Activity {
   }
 
   private final class NativeBridge {
-    @JavascriptInterface public String version(){return "7.1.0";}
+    @JavascriptInterface public String version(){return "7.1.1";}
     @JavascriptInterface public String readSecureSyncSession(String key){return readSecureSession(key);}
     @JavascriptInterface public boolean writeSecureSyncSession(String key,String json){return writeSecureSession(key,json);}
     @JavascriptInterface public boolean clearSecureSyncSession(String key){return clearSecureSession(key);}
@@ -487,7 +487,7 @@ public final class MainActivity extends Activity {
   }
   @Override public void onSaveInstanceState(Bundle out){super.onSaveInstanceState(out);/* Large export contents are deliberately not placed in Binder state. */}
   @Override public void onRequestPermissionsResult(int request,String[] permissions,int[] grants){super.onRequestPermissionsResult(request,permissions,grants);if(hostVoice!=null)hostVoice.permissionResult(request,grants);}
-  @Override public void onBackPressed(){web.evaluateJavascript("window.labwiseBack ? window.labwiseBack() : false",result->{if(!"true".equals(result))new AlertDialog.Builder(this).setTitle("Close Labwise?").setMessage("Your progress is saved on this device.").setNegativeButton("Keep studying",null).setPositiveButton("Close",(d,w)->finish()).show();});}
+  @Override public void onBackPressed(){web.evaluateJavascript("window.labwiseBack ? window.labwiseBack() : false",result->{if(!"true".equals(result))new AlertDialog.Builder(this).setTitle("Close Labwise?").setMessage("Saved progress stays on this device. Export a backup before closing if you saw a storage warning.").setNegativeButton("Keep studying",null).setPositiveButton("Close",(d,w)->finish()).show();});}
   @Override protected void onPause(){if(hostVoice!=null)hostVoice.pause();if(web!=null)web.onPause();super.onPause();}
   @Override protected void onResume(){super.onResume();if(hostVoice!=null)hostVoice.resume();if(web!=null){web.onResume();web.evaluateJavascript("window.labwiseNativeReading && window.labwiseNativeReading()",null);}}
   @Override protected void onDestroy(){cancelNativeVoice(false);if(hostVoice!=null){hostVoice.destroy();hostVoice=null;}if(chooser!=null){chooser.onReceiveValue(null);chooser=null;}if(web!=null){web.removeJavascriptInterface("LabwiseAndroid");web.destroy();web=null;}super.onDestroy();}

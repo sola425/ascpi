@@ -1,22 +1,20 @@
 # Labwise
 
-An offline clinical laboratory science study app for Android and the browser. **Labwise 7.1.0** explains every Quiz Show answer out loud, reads its book rationale, and asks the learner to explain it back. Original PDF pictures now use lossless export at their source resolution and fit without automatic stretching. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; device speech availability depends on the installed services.
+An offline clinical laboratory science study app for Android and the browser. **Labwise 7.1.1** improves recovery from stalled storage and sign-in requests, and reclaims obsolete native reader caches after updates. Quiz Show explains every answer out loud and asks the learner to explain it back. Original PDF pictures use lossless export at their source resolution and fit without automatic stretching. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; device speech availability depends on the installed services.
 
 ## Download and install
 
-[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.0](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.0.apk)
+[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.1](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.1.apk)
 
 Requires **Android 8.0+** and an up-to-date Android System WebView. Open the downloaded APK from Downloads, allow that browser or file manager to install it if Android asks, then choose Install.
 
-**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.1.0 keeps the same app ID and retained signing certificate, with version code **70100**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
+**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.1.1 keeps the same app ID and retained signing certificate, with version code **70101**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
 
-## Browser app and device testing
+## APK quality checks
 
-The browser build uses the same reviewed study data, screens and game/voice controllers as the APK. The HTTPS addresses, after the repository owner enables GitHub Pages, are [Labwise web app](https://sola425.github.io/ascpi/) and [Test this device](https://sola425.github.io/ascpi/web-test.html). The test page checks local storage, cached study files, all 155 picture files and the three PDFs, offers reading/listening samples, and provides a paced checklist for study, games, sync and Duels. It exports a content-free check report; it does not save sample transcripts.
+Public web hosting is cancelled at the owner's request. Local automated screen tests remain useful because the APK bundles the same learning code. The release checks run the signed APK's extracted files at the Android app origin and verify study flows, pictures, games, backups and account entry. SDK/JVM checks cover native compilation and rules. Real Android speech, microphone permission, installation/upgrade and live two-device sync still need physical-device acceptance.
 
-The deployment workflow is prepared in [.github/workflows/web-app.yml](.github/workflows/web-app.yml). One-time owner setup: open [repository Settings → Pages](https://github.com/sola425/ascpi/settings/pages), choose **Source → GitHub Actions**, then run **Publish Labwise web app** from Actions. Later relevant pushes to main rebuild and deploy automatically. Live deployment is separate from the executed local tests. See [web hosting, offline behavior and validation](docs/WEB-APP.md).
-
-Cached questions, explanations, pictures, solo games and progress work offline. Save PDFs separately. Reading aloud and spoken answers depend on browser/device providers and may need Internet. Account sync and Friend Duels need Internet. Offline learning uses the saved answer key and teaching; no GPT model is bundled. Browser tests complement physical Android installation, microphone and native-reader testing.
+See the [APK quality and rollout checklist](docs/APK-QUALITY.md) for release gates, practical device checks and prioritized improvements.
 
 ## Study and read
 
@@ -78,7 +76,7 @@ This input-only flow still uses the external Android provider and does not read 
 | BOC Study Guide, 7th edition | 2,276 | 9,104 | 333 + 333 pages |
 | **Total** | **3,760** | **15,046** | **1,100 pages** |
 
-Every active question has complete teaching. Version 7.1.0 changes no question content or source PDFs. The figure manifest records verified corrections to a few OCR plate references without rewriting the bank. The source inventory contains 3,953 extracted questions: 193 BOC questions remain excluded at the user's request. Another 93 BOC questions are absent because supplied Part 1 skips printed pages 225–240 (chapter 3, questions 154–246); their stems and choices have not been invented. See [content coverage and editorial review](docs/CONTENT-COVERAGE.md).
+Every active question has complete teaching. Version 7.1.1 changes no question content or source PDFs. The figure manifest records verified corrections to a few OCR plate references without rewriting the bank. The source inventory contains 3,953 extracted questions: 193 BOC questions remain excluded at the user's request. Another 93 BOC questions are absent because supplied Part 1 skips printed pages 225–240 (chapter 3, questions 154–246); their stems and choices have not been invented. See [content coverage and editorial review](docs/CONTENT-COVERAGE.md).
 
 ## Run and check locally
 
@@ -102,7 +100,7 @@ npm run test:android-bridge
 npm run test:db
 ```
 
-Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7.1 validation evidence](docs/VALIDATION-V7.1.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
+Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7.1.1 validation evidence](docs/VALIDATION-V7.1.1.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
 
 ## Offline use and backups
 

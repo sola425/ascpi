@@ -21,7 +21,7 @@ import {configureFigures,renderFigures,getFigure,hasQuestionFigure} from './figu
 
 const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const VERSION='7.1.0',UPDATE_URL='https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk';
+const VERSION='7.1.1',UPDATE_URL='https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk';
 const blank=()=>validateBackup({version:4,records:{},saved:[],log:[],goal:10});
 let cloudController=null,syncConfig={enabled:false},syncStatus={configured:false,phase:'local',user:null,pending:false},quizMeta={};
 let accountMode='signIn',accountBusy=false,accountMessage='',accountReturnToDuel=false,tourIndex=null,pendingArcade=null;

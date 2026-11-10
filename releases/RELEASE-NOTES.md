@@ -1,3 +1,21 @@
+# Labwise 7.1.1 — Loading recovery and safer device storage
+
+[Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.1 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.1.apk)
+
+- **Recover from stalled question storage:** database operations have bounded waits. Startup can open the bundled collection with a visible warning while preserving saved progress and recoverable custom data. Late connections close and timed-out pending transactions are aborted.
+- **Reclaim obsolete reader caches:** after a new bundled PDF copy opens successfully, remove only other revision copies of that same document. Keep current copies, other documents, temporary files and unrelated data.
+- **Clear sign-in retry messages:** connectivity failures ask for another attempt without promising sync before sign-in succeeds. A hanging sign-in releases the form, keeps the email, clears the password and leaves local study usable.
+- **Accurate close guidance:** the exit message no longer claims all changes were saved when a storage warning may be present.
+- **APK focus:** the automatic public-web deployment workflow is removed at the owner's request. Local automated screen checks remain part of Android quality assurance.
+
+The familiar question, options, rationale, pictures and voice explain-back layout is retained. Coverage stays at **3,760 questions**, **15,046 option explanations**, **155 picture files** and **1,100 original PDF pages**. Source exclusions are preserved. No backend migration or shared-question registry update is needed.
+
+Version **7.1.1**, code **70101**, package `com.labwise.study`, Android8+ and target API35, signed with the retained certificate. **Export progress, then install over the existing app without uninstalling.** SHA-256: `a170a4ca35e9a28d98192ef26037e954cb248069dbb77f591d82df82f37565bc`.
+
+All 28 unit test files and the executed screen/database/package checks pass. The extracted signed APK also passes at 4× simulated CPU slowdown. Real Android speech/microphone behavior, installation/upgrade and live two-phone sync still need physical-device acceptance. The confirmed-account pilot and source-picture resolution limits remain. See [validation](../docs/VALIDATION-V7.1.1.md) and the [quality/rollout checklist](../docs/APK-QUALITY.md).
+
+---
+
 # Labwise 7.1.0 — Source-detail pictures and the complete voice learning loop
 
 [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.0.apk)

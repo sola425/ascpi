@@ -45,6 +45,15 @@ test('empty pilot redirect is valid and the public connection check sends no use
   assert.equal(call.request.credentials,'omit');assert.equal(call.request.cache,'no-store');
 });
 
+test('failed sign-in connectivity never promises automatic sync before authentication',async t=>{
+ for(const code of ['network','timeout']){
+  const p=controllerWith({signIn:async()=>{throw Object.assign(new Error('PRIVATE_SERVICE_DETAIL'),{code});}});t.after(()=>p.controller.stop());
+  const result=await p.controller.signIn('learner@example.test','not-real');
+  assert.equal(result.ok,false);assert.equal(result.code,code);assert.equal(p.controller.getStatus().user,null);assert.equal(p.controller.getStatus().lastSyncedAt,null);
+  assert.match(result.error,/try again/i);assert.doesNotMatch(result.error,/will sync|PRIVATE_SERVICE_DETAIL/);
+ }
+});
+
 test('fresh GoTrue session duration tolerates a tablet clock ahead of the server', async () => {
   const before=Date.now();
   const client=createSupabaseClient({...config,fetch:async()=>response({access_token:'fake-access',refresh_token:'fake-refresh',expires_at:Math.floor(before/1000)-7200,expires_in:3600,user:{id:'learner',email:'learner@example.test'}})});
