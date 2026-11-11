@@ -1,16 +1,16 @@
 # Labwise
 
-An offline clinical laboratory science study app for Android and the browser. **Labwise 7.3.0** adds a voice tutor throughout ordinary Practice, including long questions and shared cases. It reads the question and choices, confirms a spoken answer, explains the result and guides self-rated recall. The release also includes the page-by-page visual audit: **215 readable tables** and **386 questions with verified question visuals**, drawn from all **1,100 supplied PDF pages**. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; speech availability and network requirements depend on installed device services.
+An offline clinical laboratory science study app for Android and the browser. **Labwise 7.4.0** adds **Exam Challenge**, an untimed 50- or 100-question review game with a virtual prize ladder and separate personal records. It retains the Practice voice tutor introduced in 7.3.0: read a full question and case, confirm a spoken answer, hear the explanation and guide your own recall. The release includes the page-by-page visual audit: **215 readable tables** and **386 questions with verified question visuals**, drawn from all **1,100 supplied PDF pages**. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; speech availability and network requirements depend on installed device services.
 
-See [7.3.0 validation](docs/VALIDATION-V7.3.md), [voice study](docs/VOICE-HOST.md) and [the source-visual audit](docs/VISUAL-AUDIT.md). The audit was first prepared as a local 7.2.0 draft; its reviewed visuals are incorporated in 7.3.0.
+See [7.4.0 validation](docs/VALIDATION-V7.4.md), [voice study](docs/VOICE-HOST.md), [Exam Challenge rules](docs/EXAM-CHALLENGE.md), and [the source-visual audit](docs/VISUAL-AUDIT.md). The audit was first prepared as a local 7.2.0 draft; its reviewed visuals were released in 7.3.0 and remain included in 7.4.0.
 
 ## Download and install
 
-[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.3.0](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.3.0.apk)
+[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.4.0](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.4.0.apk)
 
 Requires **Android 8.0+** and an up-to-date Android System WebView. Open the downloaded APK from Downloads, allow that browser or file manager to install it if Android asks, then choose Install.
 
-**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.3.0 keeps the same app ID and retained signing certificate, with version code **70300**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
+**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.4.0 keeps the same app ID and retained signing certificate, with version code **70400**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
 
 ## APK quality checks
 
@@ -50,6 +50,14 @@ Choose an installed device voice and speaking speed. Android uses foreground tex
 
 Active Quiz Show rounds and their local summaries stay on the device, like an unfinished Practice session. Answer and self-rated recall events still enter the normal study history and can sync with an account. Selecting picture questions keeps the screen part of the activity; audio-only rounds exclude figure-dependent items.
 
+## Exam Challenge
+
+Open **Play → Exam Challenge**, choose your source and subjects, then select **50 or 100 different questions**. The selection needs enough questions to fill the chosen round. Correct answers climb a virtual prize ladder toward **$1,000,000**, with a protected checkpoint every ten correct answers. There is no countdown or cash value. One wrong answer ends the round at the last secured amount; its explanation and original rationale remain available until you choose **See my result**.
+
+Use each lifeline once: **50/50**, **a plain-language clue**, or **swap for one unused question** when a reserve is available. You can bank your current prize after earning one. Every answer has untimed teaching, and Next is explicit. Original question images and tables stay attached where needed.
+
+**Your record to beat** shows your highest awarded virtual prize separately for the 50- and 100-question modes, with recent rounds. These are personal records on this device, separated by signed-in profile. Active challenges, best prizes and bounded challenge history stay local and are outside standard version 4 progress backups. Answer-learning events still enter ordinary study progress and may sync. An online global leaderboard is a future feature requiring a separate backend and privacy design; this release does not show a global rank. See [full rules and storage boundaries](docs/EXAM-CHALLENGE.md).
+
 ## Other games: Sprint, Frenzy and Friend Duels
 
 Open **Play** from the header. Each mode lets you choose one or several subjects within the selected source collection; the setup shows how many eligible short questions are available. Sprint and Frenzy use the current collection of short self-contained questions. Duels use the verified published question collection and show mapped question visuals where present. Longer cases are available with voice study in Practice; Quiz Show can optionally include eligible picture questions.
@@ -60,7 +68,7 @@ Open **Play** from the header. Each mode lets you choose one or several subjects
 
 Duels show private scores for the two members, with no public player search or leaderboard. They need a connection and the matching backend registry. The original question text and teaching stay in the app. Server grading does not make a Duel a secure exam: the offline app already contains answers.
 
-Game activity contributes to daily effort and review scheduling while keeping game results separate from practice accuracy. Active solo rounds stay on their current device during account sync; completed summaries and game progress can sync.
+Game activity contributes to daily effort and review scheduling while keeping game results separate from practice accuracy. Active solo rounds stay on their current device during account sync. Sprint/Frenzy completed summaries and game progress can sync; Exam Challenge prize records and round history stay local.
 
 ## Optional account sync
 
@@ -110,7 +118,7 @@ npm run test:android-bridge
 npm run test:db
 ```
 
-Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7.3.0 validation evidence](docs/VALIDATION-V7.3.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
+Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7.4.0 validation evidence](docs/VALIDATION-V7.4.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
 
 ## Offline use and backups
 
@@ -118,7 +126,7 @@ The Android APK bundles all study data and all three PDFs. Study, solo Play and 
 
 In a browser, the app shell and study data are cached after the first successful load. In **Library**, choose **Keep this PDF offline** for each source you need; cached PDFs support byte-range requests. Service workers require HTTPS away from localhost. Browser storage can be cleared or evicted; account sync is optional, so keep exports as well.
 
-A **version 4 progress backup** contains study history, saved questions, review dates, preferences, reading pages, and Sprint/Frenzy state including their active rounds. The Quiz Show queue and local summaries are stored separately on the device, like unfinished Practice and Flashcard sessions; its recorded answer and recall events are part of normal progress. Restores accept **versions 1–4**. While signed out, a restore previews a local replacement and offers **Undo**. While signed in, a restore previews a **merge into the account's progress** and syncs that merge; it does not offer replacement Undo. Export a separate copy first if needed. Authentication sessions and private Duel data are not part of a progress export. Export custom question banks separately; progress backups do not contain a complete question bank or PDFs. Saved active Sprint/Frenzy rounds retain their local question snapshots.
+A **version 4 progress backup** contains study history, saved questions, review dates, preferences, reading pages, and Sprint/Frenzy state including their active rounds. The Quiz Show queue/local summaries and Exam Challenge active round, prize records and history are stored separately on the device, like unfinished Practice and Flashcard sessions. Their recorded learning events are part of normal progress. Restores accept **versions 1–4**. While signed out, a restore previews a local replacement and offers **Undo**. While signed in, a restore previews a **merge into the account's progress** and syncs that merge; it does not offer replacement Undo. Export a separate copy first if needed. Authentication sessions and private Duel data are not part of a progress export. Export custom question banks separately; progress backups do not contain a complete question bank or PDFs. Saved active Sprint/Frenzy rounds retain their local question snapshots.
 
 Export before clearing app data, uninstalling or changing devices, even when account sync is enabled. Browser-to-Android transfers can use a progress export and restore.
 
@@ -135,7 +143,7 @@ node scripts/prepare_quiz_registry.mjs
 node supabase/build-setup.mjs supabase/quiz-seed.sql
 ```
 
-For 7.3.0, these commands preserve the published seed/setup bytes and require **no live SQL change**. The generator and APK build reject a changed registered question or altered compatibility proof. A future change to the registered content needs a deliberate backend migration rather than reusing the old hosted digest. Packaging never applies SQL. See [Supabase setup](docs/SUPABASE-SETUP.md).
+For 7.4.0, these commands preserve the published seed/setup bytes and require **no live SQL change**. The generator and APK build reject a changed registered question or altered compatibility proof. A future change to the registered content needs a deliberate backend migration rather than reusing the old hosted digest. Packaging never applies SQL. See [Supabase setup](docs/SUPABASE-SETUP.md).
 
 ## Build and design
 

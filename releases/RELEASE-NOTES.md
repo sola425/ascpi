@@ -1,3 +1,19 @@
+# Labwise 7.4.0 — Exam Challenge and personal prize records
+
+[Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.4.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.4.0.apk) · [SHA-256](Labwise-7.4.0.apk.sha256)
+
+- **Learn and climb in Exam Challenge.** Choose exactly 50 or 100 distinct questions, filtered by source and subject. Correct answers climb toward $1,000,000 in virtual study money, with a protected checkpoint every ten correct answers. One wrong answer ends the round at the secured amount. There is no countdown or cash value.
+- **Keep the learning after every answer.** Original question visuals stay attached. Read the simplified explanation, every-choice reasoning and original rationale at your own pace, then choose Next. The final missed answer's explanation stays available before the result screen.
+- **Use three lifelines or bank the prize.** Once per round, use 50/50, a plain-language clue or a swap for an unused reserve question. Bank an earned current prize when ready. Swap availability depends on having an extra eligible question beyond the selected round.
+- **Beat your own record.** The welcome/result screens show personal best awarded prizes separately for 50 and 100 questions, with recent rounds. Active rounds, best-prize records and bounded history stay on the device under the current profile. They do not sync or enter standard version 4 progress exports; answer-learning events enter ordinary progress and may sync. No global leaderboard is enabled. See [rules, storage boundaries and future ranking design](../docs/EXAM-CHALLENGE.md).
+- **Retain Practice voice and audited visuals.** The complete Practice voice flow introduced in 7.3.0 remains available, alongside 215 readable tables and verified question visuals for 386 questions. The published Friend Duel registry and compatibility proof remain unchanged, so this update needs **no live SQL change**, new network route or extra Android permission.
+
+Requires Android 8.0+, package `com.labwise.study`, version code **70400**, target API 35, with the retained signing identity. Export progress and install over the existing app without uninstalling. Coverage remains **3,760 active questions**, **15,046 explained options**, 193 exclusions and 93 question stems absent from the supplied missing pages.
+
+See [7.4.0 validation](../docs/VALIDATION-V7.4.md) for executed checks. Physical installation/upgrade, real device speech, Bluetooth and live two-device account acceptance remain separate from simulated checks. Public web hosting remains cancelled. The previously published 7.3.0 release and its notes are preserved below.
+
+---
+
 # Labwise 7.3.0 — Voice study throughout Practice and audited question visuals
 
 [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.3.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.3.0.apk) · [SHA-256](Labwise-7.3.0.apk.sha256)

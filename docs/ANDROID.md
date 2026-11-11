@@ -1,13 +1,13 @@
-# Android installation and build — 7.3.0
+# Android installation and build — 7.4.0
 
 ## Install or update
 
 1. If Labwise is already installed, open **Progress → Export progress** and save a backup. Export any custom question bank separately.
-2. [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk). The fixed 7.3.0 release is [Labwise-7.3.0.apk](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.3.0.apk).
+2. [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk). The fixed 7.4.0 release is [Labwise-7.4.0.apk](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.4.0.apk).
 3. Open the APK from Downloads. If Android asks, allow that browser or file manager to install the downloaded app.
 4. Choose **Install** or **Update**, then open Labwise. Install over the existing app, keeping its on-device data.
 
-Requires **Android 8.0 (API 26) or newer** and an up-to-date Android System WebView. The package remains `com.labwise.study`, version name `7.3.0`, version code **70300**, target API **35**. It retains the signing identity used by earlier releases. Physical-device installation and upgrade behavior have not been exercised here.
+Requires **Android 8.0 (API 26) or newer** and an up-to-date Android System WebView. The package remains `com.labwise.study`, version name `7.4.0`, version code **70400**, target API **35**. It retains the signing identity used by earlier releases. Physical-device installation and upgrade behavior have not been exercised here.
 
 The APK bundles **3,760 active questions**, **15,046 individual option explanations**, all three original PDFs (**434 + 333 + 333 pages**), and the mapped original figures. Library and source links open the native PDF reader with page jumps, previous/next, zoom buttons and pinch zoom. Successful reader page changes return to saved per-document positions. Local study and solo games do not require an account.
 
@@ -37,6 +37,14 @@ The existing question, answer-choice and rationale layout is preserved. The page
 
 Mappings check both the question ID and its source/content key, avoiding mismatched images when a custom bank reuses an ID. Original scans limit the available detail. The original PDFs remain available for reading and verification. See [figure coverage and extraction rules](FIGURES.md).
 
+## Exam Challenge
+
+Open **Play → Exam Challenge**, select your source and subjects, then choose an exact **50- or 100-question** round. Every selected question is different. There is no timer. Correct answers climb a virtual prize ladder toward $1,000,000; each ten correct answers secures a checkpoint. One wrong answer ends the round at that checkpoint's amount, after its explanation and rationale remain available for untimed review. Explicit Next opens the final result.
+
+Three once-per-round lifelines provide 50/50, a plain-language clue and a swap for an unused reserve question. A swap is unavailable if the selected collection has no reserve. Bank your earned current prize when ready. Prize values are virtual learning scores with no cash value. Original question diagrams, images and tables stay in view.
+
+The welcome/result screens show **Your record to beat**, separately for 50 and 100 questions, plus recent rounds. Active rounds, personal records and bounded history are stored on the current device, under the signed-in profile's separate local namespace. They do not sync or enter standard version 4 progress exports; answer-learning events can enter normal synced progress. No global leaderboard, new network route, backend migration or extra Android permission is added. See [Exam Challenge](EXAM-CHALLENGE.md).
+
 ## Other games and orientation
 
 - **Lab Sprint:** five short questions, explanations, memory checks and up to two recovery questions. First-attempt scores stay separate from recovery. XP, cosmetic upgrades and daily quests remain available.
@@ -53,7 +61,7 @@ Version 7 fixes a reproduced compatibility failure: missing `Object.hasOwn` or `
 
 Account errors now distinguish credentials, unconfirmed email, project configuration, connection failures, secure storage and backend setup. **Check connection** performs a read-only public Auth settings check and, when signed in, checks progress access. It does not create an account, send email or change the database.
 
-The bundle remains a **closed pilot with confirmed accounts**. Public signup and password-reset controls stay hidden while the email redirect is empty. Callback files are prepared but not deployed or verified. Live sign-in, account recovery, two-device sync and a two-account Duel still need owner/device acceptance. The user's specific tablet failure remains unconfirmed on physical hardware. See [Supabase setup and owner acceptance](SUPABASE-SETUP.md) and [version 7.3.0 validation](VALIDATION-V7.3.md).
+The bundle remains a **closed pilot with confirmed accounts**. Public signup and password-reset controls stay hidden while the email redirect is empty. Callback files are prepared but not deployed or verified. Live sign-in, account recovery, two-device sync and a two-account Duel still need owner/device acceptance. The user's specific tablet failure remains unconfirmed on physical hardware. See [Supabase setup and owner acceptance](SUPABASE-SETUP.md) and [version 7.4.0 validation](VALIDATION-V7.4.md).
 
 Android account sessions use **Android Keystore-backed encryption** in private storage. Session tokens are separate from progress and never included in sync documents or backups. The bundle contains only the public project URL/key. No service-role key or password belongs in app configuration.
 
@@ -61,7 +69,7 @@ Android account sessions use **Android Keystore-backed encryption** in private s
 
 **Progress → Export progress / Restore progress** uses Android's document picker. Version **4** exports include study history, saved questions, schedules, preferences, reading pages and Sprint/Frenzy state, including their active rounds; restores accept versions **1–4**. Restores show a preview. Signed-out restores replace local progress and offer Undo. Signed-in restores merge into the account and sync that merge, without replacement Undo. Export a separate copy first if needed.
 
-The Quiz Show queue and local summaries are stored separately, like unfinished Practice and Flashcard sessions. Its recorded answer and recall events are included in normal progress. Complete custom banks, PDFs, authentication sessions and private Duel data are not part of a progress export. Browser and Android local storage are separate; exports can transfer study progress between them.
+The Quiz Show queue/local summaries and Exam Challenge active round, personal prize records and history are stored separately, like unfinished Practice and Flashcard sessions. Their recorded learning events are included in normal progress. Exam Challenge records stay local to each profile and are not restored from a version 4 progress backup. Complete custom banks, PDFs, authentication sessions and private Duel data are not part of a progress export. Browser and Android local storage are separate; exports can transfer study progress between them.
 
 ## Permissions and network access
 
@@ -80,7 +88,7 @@ python3 scripts/build_apk.py
 
 The installer uses official Android platform 35 and build tools 35.0.0, checking recorded metadata and checksums. No Gradle, npm packages or frontend SDK is required. Existing SDK tools can be selected with `LABWISE_ANDROID_TOOLS` (default `/workspace/android-tools`). Local study needs no server; account features need the owner-configured service.
 
-The build requires complete teaching for all **3,760 active questions and 15,046 options**, verifies the declared figure assets and PDFs, and rejects quiz metadata whose digest differs from the exact assembled bank. Version 7.3.0 verifies the exact artifact bank digest separately from the compatible hosted Duel digest. A hash-pinned inventory proves that all 2,993 published Duel questions retain their stems, choices, grading fields and shared context. The published seed/setup bytes stay unchanged, so this release requires no SQL change. Regenerate the metadata and verify that compatibility with:
+The build requires complete teaching for all **3,760 active questions and 15,046 options**, verifies the declared figure assets and PDFs, and rejects quiz metadata whose digest differs from the exact assembled bank. Version 7.4.0 verifies the exact artifact bank digest separately from the compatible hosted Duel digest. A hash-pinned inventory proves that all 2,993 published Duel questions retain their stems, choices, grading fields and shared context. The published seed/setup bytes stay unchanged, so this release requires no SQL change. Regenerate the metadata and verify that compatibility with:
 
 ```sh
 node scripts/prepare_quiz_registry.mjs
@@ -97,10 +105,10 @@ Follow [FIGURES.md](FIGURES.md) after changing PDFs or question/source metadata.
 
 The build verifies signing, alignment, package metadata, ZIP integrity, declared asset/source bytes, embedded PDFs and the packaged bank digest. Outputs are:
 
-- `releases/Labwise-7.3.0.apk` and `.apk.sha256`.
+- `releases/Labwise-7.4.0.apk` and `.apk.sha256`.
 - `releases/Labwise-latest.apk` and `.apk.sha256`, copied from the same verified build.
 
-Build intermediates in `android/build/` are ignored. Final compilation, signing and packaged-asset results are in [version 7.3.0 validation](VALIDATION-V7.3.md).
+Build intermediates in `android/build/` are ignored. Final compilation, signing and packaged-asset results are in [version 7.4.0 validation](VALIDATION-V7.4.md).
 
 ## Retained signing key and verification limits
 
@@ -114,4 +122,4 @@ bca20db3b7816e0155660db761c4dbd1dd74e57e3f2ab6b6dbc1ace6027c4158
 
 This is a directly installed release outside Google Play App Signing. The app serves bundled JavaScript from an intercepted HTTPS origin, retains disabled file/universal file access, and opens only the three bundled source IDs in its native PDF reader.
 
-SDK compilation, JVM policy/crypto checks and mocked browser speech tests establish their stated contracts. They do not establish actual device voice quality, microphone recognition, Keystore persistence, live Supabase access or two physical phones. This environment has no usable hardware-accelerated Android emulator. See [VALIDATION-V7.3.md](VALIDATION-V7.3.md) for executed checks and remaining owner/device acceptance.
+SDK compilation, JVM policy/crypto checks and mocked browser speech tests establish their stated contracts. They do not establish actual device voice quality, microphone recognition, Keystore persistence, live Supabase access or two physical phones. This environment has no usable hardware-accelerated Android emulator. See [VALIDATION-V7.4.md](VALIDATION-V7.4.md) for executed checks and remaining owner/device acceptance.

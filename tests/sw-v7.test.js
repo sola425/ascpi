@@ -7,7 +7,7 @@ const source=readFileSync(new URL('../sw.js',import.meta.url),'utf8');
 function worker(){
  const listeners={},added=[],put=[],shell=[],base='https://example.test/labwise/',a='assets/figures/'+'a'.repeat(24)+'.webp',b='assets/figures/'+'b'.repeat(24)+'.webp';let skipped=false;
  const cache={addAll:async urls=>{shell.push(...urls);},match:async()=>({json:async()=>({figures:{first:{path:a},second:{path:b},private:{path:'https://private.example/audio?token=secret'}}})}),put:async url=>{put.push(url);},add:async url=>{added.push(url);throw Error('Browser image quota exhausted.');}};
- const context=vm.createContext({URL,Set,Promise,Response,console,self:{location:{href:base+'sw.js',origin:new URL(base).origin},addEventListener:(name,listener)=>{listeners[name]=listener;},skipWaiting:async()=>{skipped=true;},clients:{claim:async()=>{}}},caches:{open:async name=>{assert.equal(name,'labwise-v16');return cache;},match:async value=>String(value?.url||value).endsWith(a)?{ok:true}:null,keys:async()=>[],delete:async()=>true},fetch:async()=>({network:true})});
+ const context=vm.createContext({URL,Set,Promise,Response,console,self:{location:{href:base+'sw.js',origin:new URL(base).origin},addEventListener:(name,listener)=>{listeners[name]=listener;},skipWaiting:async()=>{skipped=true;},clients:{claim:async()=>{}}},caches:{open:async name=>{assert.equal(name,'labwise-v17');return cache;},match:async value=>String(value?.url||value).endsWith(a)?{ok:true}:null,keys:async()=>[],delete:async()=>true},fetch:async()=>({network:true})});
  vm.runInContext(source,context);
  return{listeners,added,put,shell,base,a,b,get skipped(){return skipped;}};
 }

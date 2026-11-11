@@ -6,8 +6,8 @@ let chromium;
 try { ({chromium} = require('playwright')); }
 catch { ({chromium} = require('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')); }
 const origin = 'https://appassets.androidplatform.net';
-const modules = ['app.js', 'learning.js', 'questions.js', 'teaching.js', 'storage.js', 'sources.js', 'icons.js', 'game.js', 'game-ui.js', 'voice.js', 'compatibility.js', 'host-voice.js', 'host-dialogue.js', 'host-game.js', 'host-ui.js', 'figures.js'];
-const packagedAssets = [...modules, 'index.html', 'style.css', 'game.css', 'manifest.webmanifest',
+const modules = ['exam-challenge.js','exam-challenge-ui.js','app.js', 'learning.js', 'questions.js', 'teaching.js', 'storage.js', 'sources.js', 'icons.js', 'game.js', 'game-ui.js', 'voice.js', 'compatibility.js', 'host-voice.js', 'host-dialogue.js', 'host-game.js', 'host-ui.js', 'figures.js'];
+const packagedAssets = ['exam-challenge.css',...modules, 'index.html', 'style.css', 'game.css', 'manifest.webmanifest',
   'sync-config.json', 'sync-config.js', 'sync-model.js', 'sync.js', 'supabase-client.js', 'duel-client.js',
   'game-sync.js', 'frenzy.js', 'arcade-ui.js', 'arcade.css', 'onboarding.js', 'onboarding.css', 'account-ui.js', 'account.css',
   'auth-callback.html', 'auth-callback.js', 'auth-callback.css', 'host.css', 'figures.css', 'data/glossary.json', 'data/boc-inventory.json', 'data/quiz-meta.json', 'data/figures.json'];
@@ -249,6 +249,22 @@ let browser;
   assert.ok((await page.evaluate(()=>window.apkSpoken.join(''))).includes(panelQuestion.explanation));
   assert.ok(await page.locator('.study .source-table').count(),'The question table stays with the voice lesson.');
   await action('practice-voice-pause');
+  await nav('play');
+  const sprintPause=page.locator('[data-action="game-pause"]:visible');if(await sprintPause.count())await sprintPause.first().click();
+  await action('exam-challenge-open');await action('exam-challenge-new');await action('exam-challenge-confirm');
+  const examSaved=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('labwise-exam-challenge-v1')));
+  const challenge=await examSaved();assert.equal(challenge.active.total,50);
+  assert.equal(new Set(challenge.active.queue.map(q=>q.id)).size,50);
+  const examQ=bank.find(q=>q.id===challenge.active.queue[0].id);assert.ok(examQ);
+  await page.locator(`[data-exam-challenge-answer="${examQ.answer}"]`).click();
+  await page.locator('[data-action="exam-challenge-next"]').waitFor();await page.locator('.lesson').waitFor();
+  assert.equal((await examSaved()).active.responses.length,1);
+  await action('exam-challenge-next');await page.reload();
+  await page.waitForFunction(()=>window.labwiseAppReady===true);
+  assert.equal((await examSaved()).active.index,1,'The packaged challenge must retain its saved place.');
+  await action('exam-challenge-bank');await action('exam-challenge-confirm-bank');
+  const bankedChallenge=await examSaved();assert.equal(bankedChallenge.active.phase,'complete');
+  assert.ok(bankedChallenge.records['50'].payout>0,'The packaged game must keep its best virtual prize.');
   assert.equal(await page.evaluate(() => window.nativeCalls.some(call => call.type === 'update')), false);
   await action('settings'); await action('updates'); assert.deepEqual(await lastCall(), {type: 'update'});
   assert.equal(await page.evaluate(async () => (await navigator.serviceWorker.getRegistrations()).length), 0);

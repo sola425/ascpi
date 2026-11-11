@@ -10,6 +10,7 @@ BUILD=ROOT/'android/build'
 SIGNING=Path(os.environ.get('LABWISE_SIGNING_DIR','/workspace/.labwise-signing'))
 OUT=ROOT/'releases'
 WEB_ASSETS=[
+ 'exam-challenge.js','exam-challenge-ui.js','exam-challenge.css',
  'index.html','app.js','learning.js','questions.js','teaching.js','storage.js','sources.js','icons.js',
  'style.css','game.css','game.js','game-ui.js','voice.js','icon.svg','icon-192.png','icon-512.png','manifest.webmanifest',
  'sync-config.json','sync-config.js','sync-model.js','sync.js','supabase-client.js','duel-client.js',
