@@ -1,0 +1,2383 @@
+[
+  {
+    "documentId": "boc2",
+    "page": 1,
+    "printedPage": 330,
+    "rect": [
+      137.0,
+      301.0,
+      303.0,
+      431.0
+    ],
+    "sourceRect": [
+      137.0,
+      301.0,
+      303.0,
+      431.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-4-295"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 295 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "RBC",
+          "4.2 × 10⁶/µL (4.2 × 10¹²/L)"
+        ],
+        [
+          "WBC",
+          "5.0 × 10³/µL (5.0 × 10⁹/L)"
+        ],
+        [
+          "HCT",
+          "30%"
+        ],
+        [
+          "HGB",
+          "8.5 g/dL (85 g/L)"
+        ],
+        [
+          "Serum iron",
+          "40 µg/dL (7.2 µmol/L)"
+        ],
+        [
+          "TIBC",
+          "460 µg/dL (82.3 µmol/L)"
+        ],
+        [
+          "Serum ferritin",
+          "12 ng/mL (12 µg/L)"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-001"
+  },
+  {
+    "documentId": "boc2",
+    "page": 2,
+    "printedPage": 331,
+    "rect": [
+      91.0,
+      127.0,
+      257.0,
+      303.0
+    ],
+    "sourceRect": [
+      91.0,
+      127.0,
+      257.0,
+      303.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-4-296"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 296 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "WBC",
+          "5.8 × 10³/µL (5.8 × 10⁹/L)"
+        ],
+        [
+          "RBC",
+          "3.7 × 10⁶/µL (3.7 × 10¹²/L)"
+        ],
+        [
+          "HGB",
+          "10.0 g/dL (100 g/L)"
+        ],
+        [
+          "HCT",
+          "32%"
+        ],
+        [
+          "MCV",
+          "86 µm³ (86 fL)"
+        ],
+        [
+          "MCH",
+          "26 pg"
+        ],
+        [
+          "MCHC",
+          "32%"
+        ],
+        [
+          "Serum iron",
+          "220 µg/dL (39.4 µmol/L)"
+        ],
+        [
+          "TIBC",
+          "300 µg/dL (53.7 µmol/L)"
+        ],
+        [
+          "Serum ferritin",
+          "2800 ng/mL (2800 µg/L)"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-002"
+  },
+  {
+    "documentId": "boc2",
+    "page": 36,
+    "printedPage": 365,
+    "rect": [
+      91.0,
+      548.0,
+      271.0,
+      600.0
+    ],
+    "sourceRect": [
+      91.0,
+      548.0,
+      271.0,
+      600.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-4"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 4 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "aPTT",
+          "29.5 seconds",
+          "25–35 seconds"
+        ],
+        [
+          "PT",
+          "19.2 seconds",
+          "10.5–12.5 seconds"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-003"
+  },
+  {
+    "documentId": "boc2",
+    "page": 40,
+    "printedPage": 369,
+    "rect": [
+      91.0,
+      358.0,
+      305.0,
+      441.0
+    ],
+    "sourceRect": [
+      91.0,
+      358.0,
+      305.0,
+      441.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-36"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 36 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Patient result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "Factor VIII",
+          "100%",
+          "50–150%"
+        ],
+        [
+          "Factor V",
+          "75%",
+          "50–150%"
+        ],
+        [
+          "Factor IX",
+          "38%",
+          "50–150%"
+        ],
+        [
+          "Factor II",
+          "22%",
+          "50–150%"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-004"
+  },
+  {
+    "documentId": "boc2",
+    "page": 41,
+    "printedPage": 370,
+    "rect": [
+      140.0,
+      117.0,
+      418.0,
+      200.0
+    ],
+    "sourceRect": [
+      140.0,
+      117.0,
+      418.0,
+      200.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-39"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 39 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Results",
+        "aPTT",
+        "Platelet screen",
+        "Ristocetin cofactor"
+      ],
+      "rows": [
+        [
+          "a",
+          "abnormal",
+          "normal",
+          "normal"
+        ],
+        [
+          "b",
+          "normal",
+          "abnormal",
+          "normal"
+        ],
+        [
+          "c",
+          "abnormal",
+          "abnormal",
+          "abnormal"
+        ],
+        [
+          "d",
+          "normal",
+          "normal",
+          "abnormal"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-005"
+  },
+  {
+    "documentId": "boc2",
+    "page": 41,
+    "printedPage": 370,
+    "rect": [
+      140.0,
+      278.0,
+      422.0,
+      360.0
+    ],
+    "sourceRect": [
+      140.0,
+      278.0,
+      422.0,
+      360.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-40"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 40 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Patient result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "PT",
+          "11.5 seconds",
+          "10–13 seconds"
+        ],
+        [
+          "aPTT",
+          "32.5 seconds",
+          "23–35 seconds"
+        ],
+        [
+          "Fibrinogen",
+          "345 mg/dL (3.45 g/L)",
+          "200–400 mg/dL (2.0–4.0 g/L)"
+        ],
+        [
+          "Platelets",
+          "324 × 10³/µL (324 × 10⁹/L)",
+          "150–450 × 10³/µL (150–450 × 10⁹/L)"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-006"
+  },
+  {
+    "documentId": "boc2",
+    "page": 41,
+    "printedPage": 370,
+    "rect": [
+      140.0,
+      527.0,
+      246.0,
+      610.0
+    ],
+    "sourceRect": [
+      140.0,
+      527.0,
+      246.0,
+      610.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-42"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 42 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "PT and aPTT",
+          "prolonged"
+        ],
+        [
+          "Fibrinogen",
+          "decreased"
+        ],
+        [
+          "D-dimer",
+          "increased"
+        ],
+        [
+          "Platelets",
+          "decreased"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-007"
+  },
+  {
+    "documentId": "boc2",
+    "page": 42,
+    "printedPage": 371,
+    "rect": [
+      92.0,
+      106.0,
+      287.97,
+      155.0
+    ],
+    "sourceRect": [
+      92.0,
+      106.0,
+      287.97,
+      155.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-43"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 43 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "Thrombin time",
+          "48 seconds",
+          "12–21 seconds"
+        ],
+        [
+          "Reptilase time",
+          "38 seconds",
+          "14–22 seconds"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-008"
+  },
+  {
+    "documentId": "boc2",
+    "page": 42,
+    "printedPage": 371,
+    "rect": [
+      90.0,
+      600.0,
+      177.0,
+      667.0
+    ],
+    "sourceRect": [
+      90.0,
+      600.0,
+      177.0,
+      667.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-49"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 49 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Dilution",
+        "Result"
+      ],
+      "rows": [
+        [
+          "1:10",
+          "50%"
+        ],
+        [
+          "1:20",
+          "77%"
+        ],
+        [
+          "1:40",
+          "127%"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-009"
+  },
+  {
+    "documentId": "boc2",
+    "page": 44,
+    "printedPage": 373,
+    "rect": [
+      92.0,
+      191.0,
+      397.0,
+      258.0
+    ],
+    "sourceRect": [
+      92.0,
+      191.0,
+      397.0,
+      258.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-60"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 60 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "PT",
+          "11.5 seconds",
+          "10.5–13.5 seconds"
+        ],
+        [
+          "aPTT",
+          "45.1 seconds",
+          "25–35 seconds"
+        ],
+        [
+          "1:1 mixing study",
+          "Patient = 28.1 seconds",
+          "Pooled normal plasma = 29 seconds"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-010"
+  },
+  {
+    "documentId": "boc2",
+    "page": 44,
+    "printedPage": 373,
+    "rect": [
+      90.0,
+      518.0,
+      315.0,
+      616.0
+    ],
+    "sourceRect": [
+      90.0,
+      518.0,
+      315.0,
+      616.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-63"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 63 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "PT",
+          "15.5 seconds",
+          "10.5–12.5 seconds"
+        ],
+        [
+          "aPTT",
+          "50.3 seconds",
+          "24–34.0 seconds"
+        ],
+        [
+          "D-dimer",
+          "1.62 mg/L",
+          "<1.10 mg/L"
+        ],
+        [
+          "Fibrinogen",
+          "35 mg/dL",
+          "180–400 mg/dL"
+        ],
+        [
+          "Fibrinogen antigen",
+          "268 mg/dL",
+          "150–350 mg/dL"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-011"
+  },
+  {
+    "documentId": "boc2",
+    "page": 45,
+    "printedPage": 374,
+    "rect": [
+      139.0,
+      108.0,
+      336.53,
+      203.0
+    ],
+    "sourceRect": [
+      139.0,
+      108.0,
+      336.53,
+      203.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-64"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 64 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "Protein C activity",
+          "62%",
+          "70–120%"
+        ],
+        [
+          "Protein S activity",
+          "50%",
+          "62–145%"
+        ],
+        [
+          "vWF activity",
+          "199%",
+          ">50%"
+        ],
+        [
+          "vWF antigen",
+          "192%",
+          "50–150%"
+        ],
+        [
+          "Factor VIII",
+          "189%",
+          "50–150%"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-012"
+  },
+  {
+    "documentId": "boc2",
+    "page": 47,
+    "printedPage": 376,
+    "rect": [
+      139.0,
+      341.0,
+      477.0,
+      470.0
+    ],
+    "sourceRect": [
+      139.0,
+      341.0,
+      477.0,
+      470.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-81"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 81 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Hemoglobin",
+          "15 g/dL (150 g/L)"
+        ],
+        [
+          "Absolute neutrophil count",
+          "10.0 × 10³/µL (10.0 × 10⁹/L)"
+        ],
+        [
+          "Platelet count",
+          "900 × 10³/µL (900 × 10⁹/L)"
+        ],
+        [
+          "Uncorrected retic count",
+          "1%"
+        ],
+        [
+          "Morphology",
+          "Normal red cell morphology and indices; a slight increase in bands; rare metamyelocyte and myelocyte; giant and bizarre-shaped platelets"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-013"
+  },
+  {
+    "documentId": "boc2",
+    "page": 49,
+    "printedPage": 378,
+    "rect": [
+      140.0,
+      210.0,
+      303.0,
+      262.0
+    ],
+    "sourceRect": [
+      140.0,
+      210.0,
+      303.0,
+      262.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-93"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 93 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "PT",
+          "12.1 seconds (11.4–13.5 seconds)"
+        ],
+        [
+          "aPTT",
+          "32.6 seconds (25–35 seconds)"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-014"
+  },
+  {
+    "documentId": "boc2",
+    "page": 54,
+    "printedPage": 383,
+    "rect": [
+      88,
+      185,
+      296,
+      354
+    ],
+    "sourceRect": [
+      88,
+      185,
+      296,
+      354
+    ],
+    "visualType": "chart",
+    "caption": "Question aggregation tracing",
+    "questionIds": [
+      "boc-5-126"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Original graphic printed directly inside question 126; crop includes the complete graphic and useful labels but no question stem, choices or answer.",
+    "auditId": "boc2-input-015"
+  },
+  {
+    "documentId": "boc2",
+    "page": 54,
+    "printedPage": 383,
+    "rect": [
+      86,
+      437,
+      324,
+      544
+    ],
+    "sourceRect": [
+      86,
+      437,
+      324,
+      544
+    ],
+    "visualType": "chart",
+    "caption": "Question tracing",
+    "questionIds": [
+      "boc-5-127"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Original graphic printed directly inside question 127; crop includes the complete graphic and useful labels but no question stem, choices or answer.",
+    "replacesFigureIds": [
+      "fig-9878a610b4d85a5557"
+    ],
+    "auditId": "boc2-input-016"
+  },
+  {
+    "documentId": "boc2",
+    "page": 55,
+    "printedPage": 384,
+    "rect": [
+      141.0,
+      106.0,
+      421.53,
+      237.0
+    ],
+    "sourceRect": [
+      141.0,
+      106.0,
+      421.53,
+      237.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-130"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 130 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Patient result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "PT",
+          "18.5 seconds",
+          "11.0–13.5 seconds"
+        ],
+        [
+          "aPTT",
+          "47.5 seconds",
+          "24–35 seconds"
+        ],
+        [
+          "Thrombin time",
+          "14.0 seconds",
+          "12–19 seconds"
+        ],
+        [
+          "ATIII",
+          "82%",
+          "70–130%"
+        ],
+        [
+          "Protein C",
+          "54%",
+          "77–167%"
+        ],
+        [
+          "Protein S",
+          "48%",
+          "65–140%"
+        ],
+        [
+          "Activated protein C resistance",
+          "2.6",
+          ">2.1"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-017"
+  },
+  {
+    "documentId": "boc2",
+    "page": 58,
+    "printedPage": 387,
+    "rect": [
+      89.0,
+      463.0,
+      275.22,
+      547.0
+    ],
+    "sourceRect": [
+      89.0,
+      463.0,
+      275.22,
+      547.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-157"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 157 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "PT",
+          "25.6 seconds",
+          "11.5–13.9 seconds"
+        ],
+        [
+          "aPTT",
+          "77.5 seconds",
+          "25.0–35.7 seconds"
+        ],
+        [
+          "Hgb",
+          "23.5 g/dL",
+          ""
+        ],
+        [
+          "Hct",
+          "76.2%",
+          ""
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-018"
+  },
+  {
+    "documentId": "boc2",
+    "page": 60,
+    "printedPage": 389,
+    "rect": [
+      92.0,
+      134.0,
+      288.0,
+      354.0
+    ],
+    "sourceRect": [
+      92.0,
+      134.0,
+      288.0,
+      354.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-164"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 164 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "PT",
+          "16.7",
+          ""
+        ],
+        [
+          "aPTT",
+          "45.2",
+          ""
+        ],
+        [
+          "Mixing study",
+          "corrects to normal",
+          ""
+        ],
+        [
+          "Platelet count",
+          "normal",
+          ""
+        ],
+        [
+          "Platelet function screen",
+          "normal",
+          ""
+        ],
+        [
+          "Factor II",
+          "32%",
+          "50–150%"
+        ],
+        [
+          "Factor V",
+          "102%",
+          "50–150%"
+        ],
+        [
+          "Factor VII",
+          "21%",
+          "50–150%"
+        ],
+        [
+          "Factor VIII",
+          "123%",
+          "50–150%"
+        ],
+        [
+          "Factor IX",
+          "41%",
+          "50–150%"
+        ],
+        [
+          "Factor XI",
+          "89%",
+          "50–150%"
+        ]
+      ],
+      "notes": [
+        "The source prints 50–150% once for the factor-assay section. Blank cells indicate that no reference value is printed for that row."
+      ]
+    },
+    "auditId": "boc2-input-019"
+  },
+  {
+    "documentId": "boc2",
+    "page": 61,
+    "printedPage": 390,
+    "rect": [
+      140.0,
+      134.0,
+      367.0,
+      217.0
+    ],
+    "sourceRect": [
+      140.0,
+      134.0,
+      367.0,
+      217.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-167"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 167 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "Protein C activity",
+          "123%",
+          "80–120%"
+        ],
+        [
+          "Protein S activity",
+          "99%",
+          "55–145%"
+        ],
+        [
+          "AT III",
+          "110%",
+          "70–120%"
+        ],
+        [
+          "Dilute Russel viper venom",
+          "negative",
+          "negative"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-020"
+  },
+  {
+    "documentId": "boc2",
+    "page": 61,
+    "printedPage": 390,
+    "rect": [
+      140.0,
+      412.0,
+      340.33,
+      496.0
+    ],
+    "sourceRect": [
+      140.0,
+      412.0,
+      340.33,
+      496.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-169"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 169 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result",
+        "Reference range"
+      ],
+      "rows": [
+        [
+          "PT",
+          "17.2",
+          "11.5–13.5"
+        ],
+        [
+          "aPTT",
+          "38.1",
+          "25.5–35.5"
+        ],
+        [
+          "Fibrinogen",
+          "175",
+          "180–340"
+        ],
+        [
+          "D-dimer",
+          "12.2",
+          "<0.500 FEU"
+        ]
+      ],
+      "notes": [
+        "Values and the displayed FEU label follow the source; other units are not printed in this table."
+      ]
+    },
+    "auditId": "boc2-input-021"
+  },
+  {
+    "documentId": "boc2",
+    "page": 92,
+    "printedPage": 421,
+    "rect": [
+      91.0,
+      243.0,
+      308.64,
+      400.0
+    ],
+    "sourceRect": [
+      91.0,
+      243.0,
+      308.64,
+      400.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-6-50"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 50 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Oxidase",
+          "negative"
+        ],
+        [
+          "TSI",
+          "alkaline/acid, no hydrogen sulfide"
+        ],
+        [
+          "Motility",
+          "positive"
+        ],
+        [
+          "Indole",
+          "positive"
+        ],
+        [
+          "Citrate",
+          "positive"
+        ],
+        [
+          "Ornithine decarboxylase",
+          "negative"
+        ],
+        [
+          "Urea",
+          "positive"
+        ],
+        [
+          "Phenylalanine deaminase",
+          "positive"
+        ],
+        [
+          "VP",
+          "negative"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-022"
+  },
+  {
+    "documentId": "boc2",
+    "page": 93,
+    "printedPage": 422,
+    "rect": [
+      139.0,
+      130.0,
+      273.0,
+      193.0
+    ],
+    "sourceRect": [
+      139.0,
+      130.0,
+      273.0,
+      193.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-6-53"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 53 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Oxidase",
+          "positive"
+        ],
+        [
+          "MacConkey agar",
+          "pink colonies"
+        ],
+        [
+          "O/129 (150 µg)",
+          "susceptible"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-023"
+  },
+  {
+    "documentId": "boc2",
+    "page": 209,
+    "printedPage": 538,
+    "rect": [
+      133,
+      270,
+      307,
+      405
+    ],
+    "sourceRect": [
+      133,
+      270,
+      307,
+      405
+    ],
+    "visualType": "diagram",
+    "caption": "Question symbol",
+    "questionIds": [
+      "boc-7-79"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Original graphic printed directly inside question 79; crop includes the complete graphic and useful labels but no question stem, choices or answer.",
+    "auditId": "boc2-input-024"
+  },
+  {
+    "documentId": "boc2",
+    "page": 217,
+    "printedPage": 546,
+    "rect": [
+      139.0,
+      351.0,
+      494.0,
+      400.0
+    ],
+    "sourceRect": [
+      139.0,
+      351.0,
+      494.0,
+      400.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-7-142"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 142 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Sample mixture",
+        "Observed concentration"
+      ],
+      "rows": [
+        [
+          "0.9 mL serum sample + 0.1 mL H₂O",
+          "89 mEq/L"
+        ],
+        [
+          "0.9 mL serum sample + 0.1 mL analyte standard at 800 mEq/L",
+          "161 mEq/L"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-025"
+  },
+  {
+    "documentId": "boc2",
+    "page": 220,
+    "printedPage": 549,
+    "rect": [
+      94.0,
+      106.0,
+      214.0,
+      166.0
+    ],
+    "sourceRect": [
+      94.0,
+      106.0,
+      214.0,
+      166.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-7-161"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 161 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Absorbance",
+          "0.500"
+        ],
+        [
+          "Light path",
+          "1.0 cm"
+        ],
+        [
+          "Concentration",
+          "0.2 mol/L"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-026"
+  },
+  {
+    "documentId": "boc2",
+    "page": 223,
+    "printedPage": 552,
+    "rect": [
+      139.0,
+      117.0,
+      268.0,
+      165.0
+    ],
+    "sourceRect": [
+      139.0,
+      117.0,
+      268.0,
+      165.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-7-183"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 183 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Statistic",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Standard deviation",
+          "153.2/µL"
+        ],
+        [
+          "Mean value",
+          "12,450/µL"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-027"
+  },
+  {
+    "documentId": "boc2",
+    "page": 223,
+    "printedPage": 552,
+    "rect": [
+      135.0,
+      267.0,
+      245.0,
+      282.0
+    ],
+    "sourceRect": [
+      135.0,
+      267.0,
+      245.0,
+      282.0
+    ],
+    "visualType": "table",
+    "caption": "Question control values",
+    "questionIds": [
+      "boc-7-184"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 184 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Sodium control value (mEq/L)"
+      ],
+      "rows": [
+        [
+          "140"
+        ],
+        [
+          "135"
+        ],
+        [
+          "138"
+        ],
+        [
+          "140"
+        ],
+        [
+          "142"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-028"
+  },
+  {
+    "documentId": "boc2",
+    "page": 224,
+    "printedPage": 553,
+    "rect": [
+      93.0,
+      175.0,
+      215.0,
+      253.0
+    ],
+    "sourceRect": [
+      93.0,
+      175.0,
+      215.0,
+      253.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-7-191"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 191 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Statistic",
+        "Value"
+      ],
+      "rows": [
+        [
+          "X (mean of data)",
+          "137 mg/dL"
+        ],
+        [
+          "#x",
+          "1918 mg/dL"
+        ],
+        [
+          "2 SD",
+          "6 mg/dL"
+        ],
+        [
+          "N",
+          "14"
+        ]
+      ],
+      "notes": [
+        "The source prints the total-values row label as #x."
+      ]
+    },
+    "auditId": "boc2-input-029"
+  },
+  {
+    "documentId": "boc2",
+    "page": 225,
+    "printedPage": 554,
+    "rect": [
+      136,
+      270,
+      252,
+      400
+    ],
+    "sourceRect": [
+      136,
+      270,
+      252,
+      400
+    ],
+    "visualType": "diagram",
+    "caption": "Question result plot",
+    "questionIds": [
+      "boc-7-199"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Original graphic printed directly inside question 199; crop includes the complete graphic and useful labels but no question stem, choices or answer.",
+    "auditId": "boc2-input-030"
+  },
+  {
+    "documentId": "boc2",
+    "page": 229,
+    "printedPage": 558,
+    "rect": [
+      147.0,
+      112.0,
+      225.0,
+      161.0
+    ],
+    "sourceRect": [
+      147.0,
+      112.0,
+      225.0,
+      161.0
+    ],
+    "visualType": "table",
+    "caption": "Question standard-solution values",
+    "questionIds": [
+      "boc-7-227"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 227 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Standard",
+        "Concentration"
+      ],
+      "rows": [
+        [
+          "Std A",
+          "0.8 mg/dL"
+        ],
+        [
+          "Std B",
+          "1.6 mg/dL"
+        ],
+        [
+          "Std C",
+          "2.4 mg/dL"
+        ],
+        [
+          "Std D",
+          "4.0 mg/dL"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-031"
+  },
+  {
+    "documentId": "boc2",
+    "page": 284,
+    "printedPage": 613,
+    "rect": [
+      94.0,
+      108.0,
+      425.0,
+      137.0
+    ],
+    "sourceRect": [
+      94.0,
+      108.0,
+      425.0,
+      137.0
+    ],
+    "visualType": "table",
+    "caption": "Question titration reactions",
+    "questionIds": [
+      "boc-8-80"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 80 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Tube #",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rows": [
+        [
+          "Reaction",
+          "1+",
+          "2+",
+          "4+",
+          "4+",
+          "3+",
+          "3+",
+          "2+",
+          "1+",
+          "1+",
+          "0",
+          "0"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-032"
+  },
+  {
+    "documentId": "boc2",
+    "page": 285,
+    "printedPage": 614,
+    "rect": [
+      139.0,
+      106.0,
+      500.0,
+      169.0
+    ],
+    "sourceRect": [
+      139.0,
+      106.0,
+      500.0,
+      169.0
+    ],
+    "visualType": "table",
+    "caption": "Question cold-agglutinin results",
+    "questionIds": [
+      "boc-8-86"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 86 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Tube #",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rows": [
+        [
+          "Dilution",
+          "1:1",
+          "1:2",
+          "1:4",
+          "1:8",
+          "1:16",
+          "1:32",
+          "1:64",
+          "1:128",
+          "1:256",
+          "1:512"
+        ],
+        [
+          "4°C",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0"
+        ],
+        [
+          "37°C",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-033"
+  },
+  {
+    "documentId": "boc2",
+    "page": 293,
+    "printedPage": 622,
+    "rect": [
+      139.0,
+      109.0,
+      293.0,
+      157.0
+    ],
+    "sourceRect": [
+      139.0,
+      109.0,
+      293.0,
+      157.0
+    ],
+    "visualType": "table",
+    "caption": "Question HLA typing results",
+    "questionIds": [
+      "boc-8-150"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 150 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Source",
+        "Locus A",
+        "Locus B"
+      ],
+      "rows": [
+        [
+          "Father",
+          "(8,12)",
+          "(17,22)"
+        ],
+        [
+          "Mother",
+          "(7,12)",
+          "(13,27)"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-034"
+  },
+  {
+    "documentId": "boc2",
+    "page": 294,
+    "printedPage": 623,
+    "rect": [
+      94.0,
+      106.0,
+      414.0,
+      171.0
+    ],
+    "sourceRect": [
+      94.0,
+      106.0,
+      414.0,
+      171.0
+    ],
+    "visualType": "table",
+    "caption": "Question serology results",
+    "questionIds": [
+      "boc-8-156"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 156 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Patient",
+        "HBsAg",
+        "Anti-HBc IgM",
+        "Anti-HAV IgM"
+      ],
+      "rows": [
+        [
+          "1",
+          "−",
+          "−",
+          "+"
+        ],
+        [
+          "2",
+          "+",
+          "+",
+          "−"
+        ],
+        [
+          "3",
+          "−",
+          "+",
+          "−"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-035"
+  },
+  {
+    "documentId": "boc2",
+    "page": 295,
+    "printedPage": 624,
+    "rect": [
+      139.0,
+      115.0,
+      460.0,
+      197.0
+    ],
+    "sourceRect": [
+      139.0,
+      115.0,
+      460.0,
+      197.0
+    ],
+    "visualType": "table",
+    "caption": "Question serology profiles",
+    "questionIds": [
+      "boc-8-163"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 163 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Profile",
+        "HBsAg",
+        "IgM anti-HBc",
+        "Anti-HBc",
+        "Anti-HBs"
+      ],
+      "rows": [
+        [
+          "a",
+          "+",
+          "−",
+          "+",
+          "−"
+        ],
+        [
+          "b",
+          "+",
+          "+",
+          "−",
+          "−"
+        ],
+        [
+          "c",
+          "−",
+          "−",
+          "+",
+          "−"
+        ],
+        [
+          "d",
+          "−",
+          "−",
+          "−",
+          "+"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-036"
+  },
+  {
+    "documentId": "boc2",
+    "page": 298,
+    "printedPage": 627,
+    "rect": [
+      103,
+      112,
+      307,
+      267
+    ],
+    "sourceRect": [
+      103,
+      112,
+      307,
+      267
+    ],
+    "visualType": "photo",
+    "caption": "Question image panels A–D",
+    "questionIds": [
+      "boc-8-185"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Original graphic printed directly inside question 185; crop includes the complete graphic and useful labels but no question stem, choices or answer.",
+    "auditId": "boc2-input-037"
+  },
+  {
+    "documentId": "boc2",
+    "page": 307,
+    "printedPage": 636,
+    "rect": [
+      139.0,
+      361.0,
+      256.0,
+      440.0
+    ],
+    "sourceRect": [
+      139.0,
+      361.0,
+      256.0,
+      440.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-8-254"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 254 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Absolute WBC",
+          "8930"
+        ],
+        [
+          "Total lymphocytes",
+          "30%"
+        ],
+        [
+          "B lymphocytes",
+          "40%"
+        ],
+        [
+          "T lymphocytes",
+          "58%"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-038"
+  },
+  {
+    "documentId": "boc2",
+    "page": 308,
+    "printedPage": 637,
+    "rect": [
+      93.0,
+      106.0,
+      268.0,
+      214.0
+    ],
+    "sourceRect": [
+      93.0,
+      106.0,
+      268.0,
+      214.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-8-256"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 256 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "WBC",
+          "10.0 × 10³/µL (10.0 × 10⁹/L)"
+        ],
+        [
+          "Neutrophils",
+          "68%"
+        ],
+        [
+          "Lymphocytes",
+          "25% (40% T cells)"
+        ],
+        [
+          "Monocytes",
+          "4%"
+        ],
+        [
+          "Eosinophils",
+          "2%"
+        ],
+        [
+          "Basophils",
+          "1%"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-039"
+  },
+  {
+    "documentId": "boc2",
+    "page": 308,
+    "printedPage": 637,
+    "rect": [
+      93.0,
+      402.0,
+      248.43,
+      464.0
+    ],
+    "sourceRect": [
+      93.0,
+      402.0,
+      248.43,
+      464.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-8-258",
+      "boc-8-259"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Identical hematologic input table is printed with questions258 and259 on the same page. This crop is the question258 copy; every value and label is the same in question259.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "WBC",
+          "5.0 × 10³/µL (5.0 × 10⁹/L)"
+        ],
+        [
+          "Lymphocytes",
+          "15%"
+        ],
+        [
+          "CD4",
+          "8%"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-040"
+  },
+  {
+    "documentId": "boc2",
+    "page": 91,
+    "printedPage": 420,
+    "rect": [
+      140.0,
+      258.0,
+      307.0,
+      355.0
+    ],
+    "sourceRect": [
+      140.0,
+      258.0,
+      307.0,
+      355.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-6-46"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 46 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Optochin susceptibility",
+          "negative"
+        ],
+        [
+          "Bacitracin (0.04 U) susceptibility",
+          "negative"
+        ],
+        [
+          "Bile esculin hydrolysis",
+          "negative"
+        ],
+        [
+          "Hippurate hydrolysis",
+          "positive"
+        ],
+        [
+          "Catalase",
+          "negative"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-041"
+  },
+  {
+    "documentId": "boc2",
+    "page": 93,
+    "printedPage": 422,
+    "rect": [
+      139.0,
+      310.0,
+      427.0,
+      359.0
+    ],
+    "sourceRect": [
+      139.0,
+      310.0,
+      427.0,
+      359.0
+    ],
+    "visualType": "table",
+    "caption": "Question laboratory observations",
+    "questionIds": [
+      "boc-6-54"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 54 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Gram stain",
+          "small, gram-negative coccobacilli"
+        ],
+        [
+          "Sheep blood agar",
+          "growth after 48 hours with small, smooth, raised colonies"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-042"
+  },
+  {
+    "documentId": "boc2",
+    "page": 46,
+    "printedPage": 375,
+    "rect": [
+      89.0,
+      548.0,
+      265.0,
+      659.0
+    ],
+    "sourceRect": [
+      89.0,
+      548.0,
+      265.0,
+      659.0
+    ],
+    "visualType": "table",
+    "caption": "Question data table",
+    "questionIds": [
+      "boc-5-77"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Table printed within question 77 on its source page; rows, columns and labels checked against the page image.",
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Hemoglobin",
+          "12.5 g/dL (125 g/L)"
+        ],
+        [
+          "Hematocrit",
+          "37%"
+        ],
+        [
+          "Prothrombin time",
+          "12.3 seconds"
+        ],
+        [
+          "aPTT",
+          "34 seconds"
+        ],
+        [
+          "Platelet count",
+          "40.0 × 10³/µL (40.0 × 10⁹/L)"
+        ],
+        [
+          "Fibrinogen",
+          "250 mg/dL (2.5 g/L)"
+        ]
+      ],
+      "notes": []
+    },
+    "auditId": "boc2-input-043"
+  },
+  {
+    "documentId": "boc2",
+    "page": 116,
+    "printedPage": 445,
+    "rect": [
+      91,
+      113,
+      296,
+      267
+    ],
+    "sourceRect": [
+      91,
+      113,
+      296,
+      267
+    ],
+    "visualType": "photo",
+    "caption": "Question test image",
+    "questionIds": [
+      "boc-6-163"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "visually-verified",
+    "evidence": "Original graphic printed directly inside question 163; crop includes the complete graphic and useful labels but no question stem, choices or answer.",
+    "auditId": "boc2-input-044"
+  }
+]

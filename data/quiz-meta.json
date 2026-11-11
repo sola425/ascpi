@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "contentDigest": "d0bd982f87d392e8f28575c536b2644519c657fa94b7ed186b6c666fed47cf24",
-  "questions": 2993,
+  "version": 2,
+  "contentDigest": "e5ce86e0e2493e62fdbd1286f8a11c5ee3153c65b3b848fac1dc06fa2bb0089e",
+  "questions": 2967,
   "topics": [
     "Hematology",
     "Hemostasis",
@@ -17,5 +17,8 @@
     "Lab essentials",
     "Chemistry",
     "Microbiology"
-  ]
+  ],
+  "duelContentDigest": "d0bd982f87d392e8f28575c536b2644519c657fa94b7ed186b6c666fed47cf24",
+  "duelQuestions": 2993,
+  "duelRegistryProofDigest": "e4c7d4f64b0a9b2fc830f481fee4c8c23d6b7fcf4f3aea66458eda54729b29ae"
 }

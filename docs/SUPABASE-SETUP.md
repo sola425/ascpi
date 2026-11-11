@@ -2,11 +2,17 @@
 
 The Supabase backend and client adapters are prepared and tested locally. **Live owner acceptance is still required.** Local study, solo Frenzy and progress exports continue to work without an account. Account sign-in needs the project, SQL, public configuration and confirmed users. Hosted email confirmation and password recovery are optional additions for the pilot; they require the email setup below.
 
+## Release 7.3.0 registry compatibility
+
+**An existing project already using the published 2,993-question seed needs no SQL update for 7.3.0.** The app's exact bank hash (`quiz-meta.json.contentDigest`, `e5ce…`) is separate from the hosted collection hash (`duelContentDigest`, `d0bd…`). The generator and APK build use [a pinned compatibility inventory](../data/duel-registry-compat.json) to verify every registered stem, choice, answer position, subject, book and shared context. The current solo eligibility count is 2,967; the existing hosted Duel collection remains 2,993.
+
+Both [quiz-seed.sql](../supabase/quiz-seed.sql) and [setup.sql](../supabase/setup.sql) retain their published bytes. Replacing their row digests with the new artifact bank hash would disrupt new challenge creation for older clients, because the current registry uses question ID as its primary key. Do not apply a draft seed that changes that collection digest. A future registered-content change needs a planned multi-version database migration. Existing challenge snapshots remain separate from this check.
+
 ## 1. Create the project and apply the migration
 
 1. Open your project at [Supabase](https://supabase.com/dashboard), or create one in your own organization if needed.
 2. Open the project's **SQL Editor**. Paste and run the complete [setup.sql](../supabase/setup.sql) once; it combines both migrations and all 2,993 matching question metadata rows in one transaction. Developers can rebuild it with `node supabase/build-setup.mjs supabase/quiz-seed.sql`. The sources are [202611070001_progress.sql](../supabase/migrations/202611070001_progress.sql), [202611070002_challenges.sql](../supabase/migrations/202611070002_challenges.sql) and [quiz-seed.sql](../supabase/quiz-seed.sql).
-3. The combined file already includes the matching app release's quiz-registry seed. Its rows populate `public.labwise_quiz_questions` with only question ID, subject, source ID, answer index, option count and the release's SHA-256 content digest. It contains no question text, explanations or PDFs. A friend quiz cannot start until enough questions from the app's digest are registered.
+3. The combined file already includes the matching app release's quiz-registry seed. Its rows populate `public.labwise_quiz_questions` with only question ID, subject, source ID, answer index, option count and the hosted collection's SHA-256 digest. It contains no question text, explanations or PDFs. A friend quiz cannot start until enough questions from the app's declared `duelContentDigest` are registered.
 4. Confirm that `public.labwise_progress`, the progress RPCs, `public.labwise_quiz_questions` and the seven challenge RPCs exist. Rerunning the migrations preserves stored progress and live quiz snapshots.
 
 Only the migrations and release seed belong in the live SQL Editor. Files in `supabase/tests/` create a fake Auth schema for a disposable local database and must not be applied to a Supabase project. Keep `labwise_private` and `pg_catalog` out of the exposed API schemas; expose the normal `public` RPCs only.

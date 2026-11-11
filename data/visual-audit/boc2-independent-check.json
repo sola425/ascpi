@@ -1,0 +1,974 @@
+{
+  "documentId": "boc2",
+  "source": "docs/boc-2.pdf",
+  "sourceSha256": "a801b3ef7ecf1692a883b06f5f956ef6c835d5d794ccf94b5777ff71ce53d83d",
+  "snapshotPath": "/tmp/labwise-visual-audit/boc2-independent/final-snapshot.json",
+  "snapshotFileSha256": "8b97a2a6efbf5373c5da022331fb47a78cc608e1d4d53af2e0e5b6536069d0b5",
+  "snapshotRecordCount": 44,
+  "snapshotStructuredTableCount": 38,
+  "snapshotVisualTypes": {
+    "table": 38,
+    "chart": 2,
+    "diagram": 2,
+    "photo": 2
+  },
+  "currentFileSha256AtReport": "8b97a2a6efbf5373c5da022331fb47a78cc608e1d4d53af2e0e5b6536069d0b5",
+  "currentFileMatchesSnapshotAtReport": true,
+  "scope": "Independent original-source verification of question-input additions only. No edits to BOC2 additions, core code, source PDFs or question bank.",
+  "reviewMethod": "All 35 distinct source pages were visually inspected as full-page renders. All 44 source rectangles were rendered separately and visually inspected. Structured cells were compared with the source page, including values, units, reference ranges and column alignment. The first 42 records are unchanged from the previous independently verified snapshot; records043/044 received a supplemental full-page and isolated-crop review.",
+  "fullPagesActuallyReviewed": [
+    1,
+    2,
+    36,
+    40,
+    41,
+    42,
+    44,
+    45,
+    46,
+    47,
+    49,
+    54,
+    55,
+    58,
+    60,
+    61,
+    91,
+    92,
+    93,
+    116,
+    209,
+    217,
+    220,
+    223,
+    224,
+    225,
+    229,
+    284,
+    285,
+    293,
+    294,
+    295,
+    298,
+    307,
+    308
+  ],
+  "recordsVerified": 44,
+  "requiredCorrectionCount": 0,
+  "presentationRecommendationCount": 2,
+  "limitations": [
+    "The source scan limits genuine image resolution. Rendering at larger display size aids inspection but does not recover missing detail.",
+    "This report verifies the recorded snapshot only; compare its file/record hashes if additions change.",
+    "The review checks source fidelity and question association, not the clinical currency of the books’ answers."
+  ],
+  "records": [
+    {
+      "recordIndex": 0,
+      "auditId": "boc2-input-001",
+      "snapshotRecordSha256": "5f5e65ee196d430f5ee105332d733e5d2735f5e8d50e53ceea9f34733e73a83f",
+      "documentId": "boc2",
+      "page": 1,
+      "questionIds": [
+        "boc-4-295"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 295. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 1,
+      "auditId": "boc2-input-002",
+      "snapshotRecordSha256": "fc44accd641e5186cafbc7efdb413ab2123936856908c1a6882b486088666a34",
+      "documentId": "boc2",
+      "page": 2,
+      "questionIds": [
+        "boc-4-296"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 296. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 2,
+      "auditId": "boc2-input-003",
+      "snapshotRecordSha256": "1e78aca7e97b17635ef0dc513d13a9ab87f1a95adbf575f3ddcb9af3c9c55de8",
+      "documentId": "boc2",
+      "page": 36,
+      "questionIds": [
+        "boc-5-4"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 4. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 3,
+      "auditId": "boc2-input-004",
+      "snapshotRecordSha256": "5120b94e552e5241c056bc5173828d3734c129552572d000de3a3e17c6b0c135",
+      "documentId": "boc2",
+      "page": 40,
+      "questionIds": [
+        "boc-5-36"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 36. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 4,
+      "auditId": "boc2-input-005",
+      "snapshotRecordSha256": "327e26d31d0bb5aa90278ec3f1057a646258c3a264cc0170079a7102e08d7eda",
+      "documentId": "boc2",
+      "page": 41,
+      "questionIds": [
+        "boc-5-39"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "Result matrix a–d belongs to printed q39. Each table row matches its printed result profile; the separate answer lines (“result a” etc.) are below and outside the crop.",
+      "presentationRecommendation": {
+        "useSourceCrop": false,
+        "sourceContainsOptions": true,
+        "requiredForDataAccuracy": false,
+        "reason": "The input table defines the a–d profiles selected by the answer choices. Structured-only display would match the handling of equivalent Success option matrices and avoid a second image of those choice definitions."
+      }
+    },
+    {
+      "recordIndex": 5,
+      "auditId": "boc2-input-006",
+      "snapshotRecordSha256": "89b0efcd5c3c717e92cdf0e89288a3f05c8e4ef019007a7956e3e44ceba9d918",
+      "documentId": "boc2",
+      "page": 41,
+      "questionIds": [
+        "boc-5-40"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 40. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 6,
+      "auditId": "boc2-input-007",
+      "snapshotRecordSha256": "60079d6d8429f9fd08610191ae8d687ae90af22f34f291c5966b7d99dc7fe541",
+      "documentId": "boc2",
+      "page": 41,
+      "questionIds": [
+        "boc-5-42"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 42. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 7,
+      "auditId": "boc2-input-008",
+      "snapshotRecordSha256": "846c3dd02274768dcf2c4a2323e30d06e1718a800e4081e7cacd2bf915cfcb9b",
+      "documentId": "boc2",
+      "page": 42,
+      "questionIds": [
+        "boc-5-43"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 43. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 8,
+      "auditId": "boc2-input-009",
+      "snapshotRecordSha256": "5c23520b83ecea68e4138d21ff48f92c9e4e530539e427abb5541338721e7095",
+      "documentId": "boc2",
+      "page": 42,
+      "questionIds": [
+        "boc-5-49"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 49. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 9,
+      "auditId": "boc2-input-010",
+      "snapshotRecordSha256": "31cb4fde3da8f07cb946cee374983cf7a3323f6ae65a66868e5355f0150e2187",
+      "documentId": "boc2",
+      "page": 44,
+      "questionIds": [
+        "boc-5-60"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The 1:1 mixing-study row pairs patient 28.1 seconds with pooled-normal-plasma 29 seconds. The printed source places the pooled-normal-plasma entry under the reference-range column; the transcription preserves that alignment."
+    },
+    {
+      "recordIndex": 10,
+      "auditId": "boc2-input-011",
+      "snapshotRecordSha256": "62b57bb7bbf03b337d85a971331c85dbb573c759e77ca3d24226d929b6df6139",
+      "documentId": "boc2",
+      "page": 44,
+      "questionIds": [
+        "boc-5-63"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 63. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 11,
+      "auditId": "boc2-input-012",
+      "snapshotRecordSha256": "0b7c0ca76067e714fea67a7f72d89d0aa707cc143c5bf69421746d7b9a65a28d",
+      "documentId": "boc2",
+      "page": 45,
+      "questionIds": [
+        "boc-5-64"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 64. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 12,
+      "auditId": "boc2-input-013",
+      "snapshotRecordSha256": "4d70a111b659d175e8b5809cb1d397ac2fb24e0d995d29db067bcd622bb3d46e",
+      "documentId": "boc2",
+      "page": 47,
+      "questionIds": [
+        "boc-5-81"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 81. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 13,
+      "auditId": "boc2-input-014",
+      "snapshotRecordSha256": "8cf4884ae53e0f3c8caef98d6d63ebe43c1f027f389063931b3d2d1875d279b1",
+      "documentId": "boc2",
+      "page": 49,
+      "questionIds": [
+        "boc-5-93"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 93. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 14,
+      "auditId": "boc2-input-015",
+      "snapshotRecordSha256": "5cda2aeb7a641228dd641c998fc71223b06042685c07eee2f26024623b513ea7",
+      "documentId": "boc2",
+      "page": 54,
+      "questionIds": [
+        "boc-5-126"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": false,
+      "valuesAndUnitsVerified": null,
+      "columnAssociationsVerified": null,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The tracing is inside printed q126. Crop retains both vertical number scales, dose labels, plotting grid and the lower tracing; no stem or options included."
+    },
+    {
+      "recordIndex": 15,
+      "auditId": "boc2-input-016",
+      "snapshotRecordSha256": "0980a41f023474c38419938aa98ca1f14dbd026a6b54b46e01392289a31acb01",
+      "documentId": "boc2",
+      "page": 54,
+      "questionIds": [
+        "boc-5-127"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": false,
+      "valuesAndUnitsVerified": null,
+      "columnAssociationsVerified": null,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The thromboelastography tracing is inside q127. Replacement rectangle retains full frame, control/patient curves, scale and lower labels; the neighboring q127 stem and its options remain outside.",
+      "replacementCoverageVerified": true,
+      "replacementFigureIds": [
+        "fig-9878a610b4d85a5557"
+      ]
+    },
+    {
+      "recordIndex": 16,
+      "auditId": "boc2-input-017",
+      "snapshotRecordSha256": "6aa3487e1873eed73656ca5a35e6574a691ec5a5da3b6758197dd5c035c9a8b1",
+      "documentId": "boc2",
+      "page": 55,
+      "questionIds": [
+        "boc-5-130"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 130. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 17,
+      "auditId": "boc2-input-018",
+      "snapshotRecordSha256": "13fcdc93982db2149b0188aadf19b4dad87b309a7fc09477d6df8117ada54f85",
+      "documentId": "boc2",
+      "page": 58,
+      "questionIds": [
+        "boc-5-157"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 157. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 18,
+      "auditId": "boc2-input-019",
+      "snapshotRecordSha256": "4caff178cc49287d2316576b6cc47e824c22affeffc5d5afeaa3223d8f3eb570",
+      "documentId": "boc2",
+      "page": 60,
+      "questionIds": [
+        "boc-5-164"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The source gives (50–150%) as a common factor-assay-section range. Applying it to each of the six factor rows follows the printed grouping; earlier coagulation/screen rows have no displayed reference ranges or units."
+    },
+    {
+      "recordIndex": 19,
+      "auditId": "boc2-input-020",
+      "snapshotRecordSha256": "b0ccae9dc1a8485d80499eefa4658143e02ebc0b0a70c8b7b7b03af9aac429d9",
+      "documentId": "boc2",
+      "page": 61,
+      "questionIds": [
+        "boc-5-167"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 167. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 20,
+      "auditId": "boc2-input-021",
+      "snapshotRecordSha256": "9bde72b7941956110cfb154dd20ee066a0b14f1c4c47e04af8c8f6290a32aa33",
+      "documentId": "boc2",
+      "page": 61,
+      "questionIds": [
+        "boc-5-169"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "No units other than the displayed FEU reference label are printed. PT 17.2, aPTT 38.1, fibrinogen 175, D-dimer 12.2 and their four reference entries match the scan."
+    },
+    {
+      "recordIndex": 21,
+      "auditId": "boc2-input-022",
+      "snapshotRecordSha256": "96394d361ec80c87b1b7fbcf2265d3c48967bf28943180628595d1a0a07acada",
+      "documentId": "boc2",
+      "page": 92,
+      "questionIds": [
+        "boc-6-50"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 50. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 22,
+      "auditId": "boc2-input-023",
+      "snapshotRecordSha256": "cf48cb9cb714cde9fd74e6b1beb3846d73f93ed487781759b7b2e115eeb0b11f",
+      "documentId": "boc2",
+      "page": 93,
+      "questionIds": [
+        "boc-6-53"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 53. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 23,
+      "auditId": "boc2-input-024",
+      "snapshotRecordSha256": "d3e41ae6b17cda4120acfe5abe2940354ac0408938fc2cd72a8fc0afc5bb5e98",
+      "documentId": "boc2",
+      "page": 209,
+      "questionIds": [
+        "boc-7-79"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": false,
+      "valuesAndUnitsVerified": null,
+      "columnAssociationsVerified": null,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The single hazard symbol is printed directly after q79. All symbol edges are retained and the stem/options are excluded."
+    },
+    {
+      "recordIndex": 24,
+      "auditId": "boc2-input-025",
+      "snapshotRecordSha256": "d8e6f3946edd5de2f36407afcc0659f941d3ef7790d5776e9019fc073f72e798",
+      "documentId": "boc2",
+      "page": 217,
+      "questionIds": [
+        "boc-7-142"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "Both independent sample-mixture rows retain their own observed concentrations: water mixture 89 mEq/L; analyte-standard mixture 161 mEq/L. No crossed-column association found."
+    },
+    {
+      "recordIndex": 25,
+      "auditId": "boc2-input-026",
+      "snapshotRecordSha256": "1a538e5fa5670718f65da87b361d048bba2519d226621a7dfc6a2fda89810a3f",
+      "documentId": "boc2",
+      "page": 220,
+      "questionIds": [
+        "boc-7-161"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 161. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 26,
+      "auditId": "boc2-input-027",
+      "snapshotRecordSha256": "b997f5fb91c605cbaf00e47dc8b0fb2996ee816f8679824fe613288f1f2b643b",
+      "documentId": "boc2",
+      "page": 223,
+      "questionIds": [
+        "boc-7-183"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 183. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 27,
+      "auditId": "boc2-input-028",
+      "snapshotRecordSha256": "981fea0ce58d3788818ce4d8c74c6553d8f8f50d33dd3fb1afa194b192cd0767",
+      "documentId": "boc2",
+      "page": 223,
+      "questionIds": [
+        "boc-7-184"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The five source sodium values are one comma-separated list: 140, 135, 138, 140, 142. Converting them to five rows preserves sequence and repeats; mEq/L is explicitly stated in q184."
+    },
+    {
+      "recordIndex": 28,
+      "auditId": "boc2-input-029",
+      "snapshotRecordSha256": "874e9118412c2c4c8875e862f94f58e9c251afcf5cb989c1f8ea04d62b1aded4",
+      "documentId": "boc2",
+      "page": 224,
+      "questionIds": [
+        "boc-7-191"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The scan visibly prints the total-values row label as #x. The transcription correctly retains #x and 1918 mg/dL rather than silently substituting a different symbol."
+    },
+    {
+      "recordIndex": 29,
+      "auditId": "boc2-input-030",
+      "snapshotRecordSha256": "e40782661d14c1cc7ddcbfe5fe39794a00eac44bf2fb901362ef8ca8269206e6",
+      "documentId": "boc2",
+      "page": 225,
+      "questionIds": [
+        "boc-7-199"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": false,
+      "valuesAndUnitsVerified": null,
+      "columnAssociationsVerified": null,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The target diagram is printed inside q199; the full target and all plotted red points are retained. No choice text is included."
+    },
+    {
+      "recordIndex": 30,
+      "auditId": "boc2-input-031",
+      "snapshotRecordSha256": "c7907c30bdb180a6fbde5631ba40da61540a0658d5a0df0d5ce4991f1d9fc5ad",
+      "documentId": "boc2",
+      "page": 229,
+      "questionIds": [
+        "boc-7-227"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The source lists Std A=0.8, B=1.6, C=2.4, D=4.0 mg/dL inside q227. Added two-column presentation preserves the four pairings."
+    },
+    {
+      "recordIndex": 31,
+      "auditId": "boc2-input-032",
+      "snapshotRecordSha256": "3fb1be47e3ea3ee5f8b270f5b5c5053a1996d8b5f4e9816472d572490b89e24c",
+      "documentId": "boc2",
+      "page": 284,
+      "questionIds": [
+        "boc-8-80"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The 11 tube reactions exactly match the source: 1+,2+,4+,4+,3+,3+,2+,1+,1+,0,0."
+    },
+    {
+      "recordIndex": 32,
+      "auditId": "boc2-input-033",
+      "snapshotRecordSha256": "bd17fba1cbabd6454c1fd4302ba79b658d289354c880390cb4256459ee41de0d",
+      "documentId": "boc2",
+      "page": 285,
+      "questionIds": [
+        "boc-8-86"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The 10 tube dilutions run 1:1 through 1:512. The first eight 4°C entries are +, last two 0; all ten 37°C entries are 0. Enlarged isolated crop also reviewed."
+    },
+    {
+      "recordIndex": 33,
+      "auditId": "boc2-input-034",
+      "snapshotRecordSha256": "d4c6b7775ad4cf7d7453b23632832ae796a03f34535a346c5a2f9a68059d5cbb",
+      "documentId": "boc2",
+      "page": 293,
+      "questionIds": [
+        "boc-8-150"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The printed family table shows father locus A (8,12), B (17,22); mother A (7,12), B (13,27). These exact source values are retained."
+    },
+    {
+      "recordIndex": 34,
+      "auditId": "boc2-input-035",
+      "snapshotRecordSha256": "af835382e8bd495a56eaea1e3518505e74c8e4f3bdcb5e72156a290128580499",
+      "documentId": "boc2",
+      "page": 294,
+      "questionIds": [
+        "boc-8-156"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 156. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 35,
+      "auditId": "boc2-input-036",
+      "snapshotRecordSha256": "f9f1ac91a5b05ef9785ec592d2d14036a91159c973d0c8b2b0c8f8f00a320766",
+      "documentId": "boc2",
+      "page": 295,
+      "questionIds": [
+        "boc-8-163"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "Profiles a–d belong to printed q163. Positive/negative marker cells match all four source rows; separate options “profile a” etc. are below the crop.",
+      "presentationRecommendation": {
+        "useSourceCrop": false,
+        "sourceContainsOptions": true,
+        "requiredForDataAccuracy": false,
+        "reason": "The input table defines the a–d profiles selected by the answer choices. Structured-only display would match the handling of equivalent Success option matrices and avoid a second image of those choice definitions."
+      }
+    },
+    {
+      "recordIndex": 36,
+      "auditId": "boc2-input-037",
+      "snapshotRecordSha256": "c455533ea881d7d3c5370c40a88078136dd35308ea49df723f539bc0c4fc8f8b",
+      "documentId": "boc2",
+      "page": 298,
+      "questionIds": [
+        "boc-8-185"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": false,
+      "valuesAndUnitsVerified": null,
+      "columnAssociationsVerified": null,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The A–D microscopy panels are printed inside q185. Crop retains four complete image panels and their letter labels, while the separate text options are excluded."
+    },
+    {
+      "recordIndex": 37,
+      "auditId": "boc2-input-038",
+      "snapshotRecordSha256": "150864877332ae43892df236e569546c22fcc0003db5606eaa90b2c58ba7d1a2",
+      "documentId": "boc2",
+      "page": 307,
+      "questionIds": [
+        "boc-8-254"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "Absolute WBC is 8930 in the original scan; isolated enlarged crop and its source text layer both checked. Lymphocytes 30%, B 40%, T 58% are correctly paired."
+    },
+    {
+      "recordIndex": 38,
+      "auditId": "boc2-input-039",
+      "snapshotRecordSha256": "0df015d329fd8ac2ff2706291ec86cd5d5a62b2990164f658874d83abe514a3c",
+      "documentId": "boc2",
+      "page": 308,
+      "questionIds": [
+        "boc-8-256"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The isolated table is printed inside question 256. Every result, displayed unit and reference entry was compared against the full original page and reviewed source crop."
+    },
+    {
+      "recordIndex": 39,
+      "auditId": "boc2-input-040",
+      "snapshotRecordSha256": "64726dc22bdb24c0bb1a57589fa648fbbd1f3c48d0176b7784c4bd1cf74ed0e1",
+      "documentId": "boc2",
+      "page": 308,
+      "questionIds": [
+        "boc-8-258",
+        "boc-8-259"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The table beside q258 and the table repeated beside q259 contain identical WBC, lymphocyte and CD4 values. Mapping the verified data to both questions is supported directly by their printed tables."
+    },
+    {
+      "recordIndex": 40,
+      "auditId": "boc2-input-041",
+      "snapshotRecordSha256": "932170c5b8b76a39c840139523beb46075b52bce4d31d035dfa64b3be81bc240",
+      "documentId": "boc2",
+      "page": 91,
+      "questionIds": [
+        "boc-6-46"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The five q46 results match the printed order, including bacitracin (0.04 U), negative susceptibility results, positive hippurate and negative catalase."
+    },
+    {
+      "recordIndex": 41,
+      "auditId": "boc2-input-042",
+      "snapshotRecordSha256": "1b92bda7a111b6db1f38692b3fce32b12e08dd4769bdb035fcba81958251043e",
+      "documentId": "boc2",
+      "page": 93,
+      "questionIds": [
+        "boc-6-54"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The two source rows are printed immediately inside q54 and their column pairings match. The crop contains only the table, with no organism-naming option or additional procedure."
+    },
+    {
+      "recordIndex": 42,
+      "auditId": "boc2-input-043",
+      "snapshotRecordSha256": "259e7aafbad86acb2162d01c35e56397364bf63b9af35199f84ed48348689355",
+      "documentId": "boc2",
+      "page": 46,
+      "questionIds": [
+        "boc-5-77"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": true,
+      "valuesAndUnitsVerified": true,
+      "columnAssociationsVerified": true,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "Six patient result rows are printed within q77 on PDF p46. Hemoglobin 12.5 g/dL (125 g/L), hematocrit 37%, PT 12.3 seconds, aPTT 34 seconds, platelets 40.0 × 10³/µL (40.0 × 10⁹/L), and fibrinogen 250 mg/dL (2.5 g/L) exactly match the original table. Crop includes all rows and headings while excluding stem/options."
+    },
+    {
+      "recordIndex": 43,
+      "auditId": "boc2-input-044",
+      "snapshotRecordSha256": "45d4ea0caa18f853b4c318f6c6143c5532596c06d732968c5b4be64ed5b20c4c",
+      "documentId": "boc2",
+      "page": 116,
+      "questionIds": [
+        "boc-6-163"
+      ],
+      "status": "verified",
+      "verified": true,
+      "structuredTableChecked": false,
+      "valuesAndUnitsVerified": null,
+      "columnAssociationsVerified": null,
+      "questionAssociationVerified": true,
+      "sourceCropBoundsVerified": true,
+      "sourceCropContainsStemOrSeparateTextOptions": false,
+      "corrections": [],
+      "evidence": "The original plate photograph is printed immediately below q163 on PDF p116. Its complete photographed test region and border are retained. Crop excludes q163 stem and separate text options; caption gives no identification answer."
+    }
+  ],
+  "currentFileRecordCountAtReport": 44,
+  "changesSinceSnapshot": {
+    "addedAuditIds": [],
+    "removedAuditIds": [],
+    "changedExistingRecords": []
+  },
+  "previousVerifiedSnapshot": {
+    "fileSha256": "a79e0c6ed21d4b535fe792311403f501cb94bfcd9afe121e4df51180c41b7335",
+    "recordCount": 42,
+    "unchangedFirst42RecordsConfirmed": true
+  }
+}

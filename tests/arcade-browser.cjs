@@ -329,6 +329,7 @@ async function run() {
       await nav(page, 'practice');
       await page.locator('[data-question="arcade-fixture-0-0"]').click();
       await page.locator('[data-answer]').first().waitFor();
+      await page.locator('details.practice-input-only > summary').click();
       await action(page, 'voice-type');
       const draft = 'Option B';
       await page.locator('#spoken-answer').fill(draft);

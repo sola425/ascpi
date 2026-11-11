@@ -408,7 +408,7 @@ public final class MainActivity extends Activity {
   }
 
   private final class NativeBridge {
-    @JavascriptInterface public String version(){return "7.1.1";}
+    @JavascriptInterface public String version(){return "7.3.0";}
     @JavascriptInterface public String readSecureSyncSession(String key){return readSecureSession(key);}
     @JavascriptInterface public boolean writeSecureSyncSession(String key,String json){return writeSecureSession(key,json);}
     @JavascriptInterface public boolean clearSecureSyncSession(String key){return clearSecureSession(key);}

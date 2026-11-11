@@ -1,0 +1,3875 @@
+[
+  {
+    "id": "textbook-audit-q65-cbc",
+    "documentId": "textbook",
+    "page": 7,
+    "rect": [
+      308,
+      190,
+      515,
+      390
+    ],
+    "sourceRect": [
+      308,
+      190,
+      515,
+      390
+    ],
+    "visualType": "table",
+    "caption": "Complete blood count results",
+    "questionIds": [
+      "book-1-65"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 65; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "WBC",
+          "12.2 × 10⁹/L (12.2 × 10³/µL)"
+        ],
+        [
+          "RBC",
+          "3.05 × 10¹²/L (3.05 × 10⁶/µL)"
+        ],
+        [
+          "Hemoglobin",
+          "61 g/L (6.1 g/dL)"
+        ],
+        [
+          "Hematocrit",
+          "0.20 L/L (20%)"
+        ],
+        [
+          "MCV",
+          "65.5 fL"
+        ],
+        [
+          "MCH",
+          "20 pg"
+        ],
+        [
+          "MCHC",
+          "305 g/L (30.5 g/dL)"
+        ],
+        [
+          "RDW",
+          "25%"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true.",
+    "displayQuestionById": {
+      "book-1-65": "A 9-month-old male was seen in the Emergency Department with a femur fracture that had occurred from a fall down the stairs. Upon physical examination, the physician noted hepatosplenomegaly, extreme pallor, and a slight arrhythmia. A complete blood count revealed the following:\n\nThe Wright's stained blood smear showed the findings seen in Color Plate 4. Hemoglobin electrophoresis was ordered with results as follows:\n\nWhich condition is most likely causing the hematologic abnormalities?"
+    },
+    "rootVerification": "Display stem checked against printed page7; its two data blocks are retained as separate readable tables, with canonical question text kept intact."
+  },
+  {
+    "id": "textbook-audit-q65-electrophoresis",
+    "documentId": "textbook",
+    "page": 7,
+    "rect": [
+      307,
+      462,
+      426,
+      540
+    ],
+    "sourceRect": [
+      307,
+      462,
+      426,
+      540
+    ],
+    "visualType": "table",
+    "caption": "Hemoglobin electrophoresis results",
+    "questionIds": [
+      "book-1-65"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 65; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Hgb A",
+          "0%"
+        ],
+        [
+          "Hgb A₂",
+          "3%"
+        ],
+        [
+          "Hgb F",
+          "97%"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q66-cbc",
+    "documentId": "textbook",
+    "page": 8,
+    "rect": [
+      67,
+      136,
+      274,
+      335
+    ],
+    "sourceRect": [
+      67,
+      136,
+      274,
+      335
+    ],
+    "visualType": "table",
+    "caption": "Complete blood count results",
+    "questionIds": [
+      "book-1-66"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 66; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "WBC",
+          "7.0 × 10⁹/L (7.0 × 10³/µL)"
+        ],
+        [
+          "RBC",
+          "2.90 × 10¹²/L (2.90 × 10⁶/µL)"
+        ],
+        [
+          "Hemoglobin",
+          "85 g/L (8.5 g/dL)"
+        ],
+        [
+          "Hematocrit",
+          "0.25 L/L (25%)"
+        ],
+        [
+          "MCV",
+          "86.2 fL"
+        ],
+        [
+          "MCH",
+          "29.3 pg"
+        ],
+        [
+          "MCHC",
+          "340 g/L (34.0 g/dL)"
+        ],
+        [
+          "RDW",
+          "21%"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q236-lap",
+    "documentId": "textbook",
+    "page": 26,
+    "rect": [
+      72,
+      227,
+      256,
+      278
+    ],
+    "sourceRect": [
+      72,
+      227,
+      256,
+      278
+    ],
+    "visualType": "table",
+    "caption": "LAP staining categories and cell counts",
+    "questionIds": [
+      "book-1-236"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 236; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "Column headings are the printed LAP staining categories; the row is the number of cells in each category."
+    ],
+    "table": {
+      "headers": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "rows": [
+        [
+          "15",
+          "20",
+          "30",
+          "20",
+          "15"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q241-results-options",
+    "documentId": "textbook",
+    "page": 26,
+    "rect": [
+      289,
+      225,
+      525,
+      352
+    ],
+    "sourceRect": [
+      289,
+      225,
+      525,
+      352
+    ],
+    "visualType": "table",
+    "caption": "Result combinations in the answer options",
+    "questionIds": [
+      "book-1-241"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 241; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": false,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Option",
+        "RBC × 10¹²/L",
+        "Hgb (g/dL)",
+        "Hct (%)"
+      ],
+      "rows": [
+        [
+          "A",
+          "2.50",
+          "7.6",
+          "22.9"
+        ],
+        [
+          "B",
+          "2.75",
+          "9.5",
+          "24.8"
+        ],
+        [
+          "C",
+          "3.40",
+          "10.0",
+          "31.0"
+        ],
+        [
+          "D",
+          "3.75",
+          "11.1",
+          "34.0"
+        ]
+      ],
+      "notes": []
+    },
+    "sourceContainsOptions": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q255-platelet-histogram",
+    "documentId": "textbook",
+    "page": 28,
+    "rect": [
+      72,
+      217,
+      216,
+      371
+    ],
+    "sourceRect": [
+      72,
+      217,
+      216,
+      371
+    ],
+    "visualType": "chart",
+    "caption": "Platelet histogram",
+    "questionIds": [
+      "book-1-255"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 255; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "Preserve the title and both axes: relative number and femtoliters. Source-limited scan; do not infer or redraw the curve."
+    ],
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q7-aggregation",
+    "documentId": "textbook",
+    "page": 87,
+    "rect": [
+      68,
+      185,
+      207,
+      316
+    ],
+    "sourceRect": [
+      68,
+      185,
+      207,
+      316
+    ],
+    "visualType": "chart",
+    "caption": "Platelet aggregation tracing",
+    "questionIds": [
+      "book-86-7"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 7; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "Preserve percent-transmittance axis, time axis and the aggregating-agent arrow."
+    ],
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q61-clotting",
+    "documentId": "textbook",
+    "page": 93,
+    "rect": [
+      285,
+      453,
+      523,
+      508
+    ],
+    "sourceRect": [
+      285,
+      453,
+      523,
+      508
+    ],
+    "visualType": "table",
+    "caption": "Coagulation test results",
+    "questionIds": [
+      "book-86-61"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 61; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Prothrombin time",
+          ">100.0 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          ">200.0 sec (control 32.0 sec)"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q62-results",
+    "documentId": "textbook",
+    "page": 94,
+    "rect": [
+      36,
+      140,
+      269,
+      260
+    ],
+    "sourceRect": [
+      36,
+      140,
+      269,
+      260
+    ],
+    "visualType": "table",
+    "caption": "Patient laboratory results",
+    "questionIds": [
+      "book-86-62"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 62; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Hemoglobin",
+          "60 g/L"
+        ],
+        [
+          "Hematocrit",
+          "0.19 L/L"
+        ],
+        [
+          "Platelet count",
+          "25 × 10⁹/L"
+        ],
+        [
+          "RBC morphology",
+          "Many schistocytes"
+        ],
+        [
+          "ADAMTS-13",
+          "Markedly decreased"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q64-results",
+    "documentId": "textbook",
+    "page": 94,
+    "rect": [
+      279,
+      127,
+      517,
+      280
+    ],
+    "sourceRect": [
+      279,
+      127,
+      517,
+      280
+    ],
+    "visualType": "table",
+    "caption": "Hemostasis case results",
+    "questionIds": [
+      "book-86-64"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 64; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Platelet count",
+          "250 × 10⁹/L"
+        ],
+        [
+          "Bleeding time",
+          ">15 min (reference range ≤8.0 min)"
+        ],
+        [
+          "Prothrombin time",
+          "13.0 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          "75.0 sec (control 32.0 sec)"
+        ],
+        [
+          "Platelet aggregation",
+          "Normal response to ADP, collagen, epinephrine; no response with ristocetin"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q65-hemostasis-results",
+    "documentId": "textbook",
+    "page": 94,
+    "rect": [
+      279,
+      411,
+      517,
+      603
+    ],
+    "sourceRect": [
+      279,
+      411,
+      517,
+      603
+    ],
+    "visualType": "table",
+    "caption": "Hemostasis case results",
+    "questionIds": [
+      "book-86-65"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 65; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Platelet count",
+          "145 × 10⁹/L"
+        ],
+        [
+          "Bleeding time",
+          ">15 min (reference range ≤8.0 min)"
+        ],
+        [
+          "MPV",
+          "16.0 fL (reference range 8.0–10.0 fL)"
+        ],
+        [
+          "Platelet aggregation",
+          "Normal response to ADP, collagen, epinephrine; no response with ristocetin"
+        ],
+        [
+          "Prothrombin time",
+          "11.5 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          "33.0 sec (control 32.0 sec)"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q66-hemostasis-results",
+    "documentId": "textbook",
+    "page": 95,
+    "rect": [
+      43,
+      139,
+      277,
+      305
+    ],
+    "sourceRect": [
+      43,
+      139,
+      277,
+      305
+    ],
+    "visualType": "table",
+    "caption": "Hemostasis case results",
+    "questionIds": [
+      "book-86-66"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 66; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Platelet count",
+          "320 × 10⁹/L"
+        ],
+        [
+          "Bleeding time",
+          ">15 min (reference range ≤8.0 min)"
+        ],
+        [
+          "Platelet aggregation",
+          "Normal response to ristocetin; weak response to ADP, collagen, epinephrine"
+        ],
+        [
+          "Prothrombin time",
+          "12.0 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          "31.0 sec (control 32.0 sec)"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q67-results",
+    "documentId": "textbook",
+    "page": 95,
+    "rect": [
+      43,
+      443,
+      276,
+      573
+    ],
+    "sourceRect": [
+      43,
+      443,
+      276,
+      573
+    ],
+    "visualType": "table",
+    "caption": "Coagulation case results",
+    "questionIds": [
+      "book-86-67"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 67; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Platelet count",
+          "225 × 10⁹/L"
+        ],
+        [
+          "Bleeding time",
+          "6.5 min (reference range ≤8.0 min)"
+        ],
+        [
+          "Prothrombin time",
+          "12.8 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          "85.0 sec (control 32.0 sec)"
+        ],
+        [
+          "aPTT 1:1 mixing study",
+          "65.0 sec"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q68-results",
+    "documentId": "textbook",
+    "page": 95,
+    "rect": [
+      286,
+      193,
+      523,
+      265
+    ],
+    "sourceRect": [
+      286,
+      193,
+      523,
+      265
+    ],
+    "visualType": "table",
+    "caption": "Anticoagulation monitoring results",
+    "questionIds": [
+      "book-86-68"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 68; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "PT",
+          "52.0 sec (control 12.0 sec)"
+        ],
+        [
+          "INR",
+          "5.5 (therapeutic range 2.0–3.0)"
+        ],
+        [
+          "aPTT",
+          "50.0 sec (control 32.0 sec)"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q69-results",
+    "documentId": "textbook",
+    "page": 96,
+    "rect": [
+      64,
+      108,
+      249,
+      275
+    ],
+    "sourceRect": [
+      64,
+      108,
+      249,
+      275
+    ],
+    "visualType": "table",
+    "caption": "Patient laboratory results",
+    "questionIds": [
+      "book-86-69"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 69; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "WBC",
+          "24.7 × 10⁹/L"
+        ],
+        [
+          "RBC",
+          "6.67 × 10¹²/L"
+        ],
+        [
+          "Hgb",
+          "200 g/L"
+        ],
+        [
+          "Hct",
+          "0.61 L/L"
+        ],
+        [
+          "Plt",
+          "79 × 10⁹/L"
+        ],
+        [
+          "PT",
+          "19.3 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          "81.2 sec (control 32.0 sec)"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q70-results",
+    "documentId": "textbook",
+    "page": 96,
+    "rect": [
+      278,
+      125,
+      515,
+      283
+    ],
+    "sourceRect": [
+      278,
+      125,
+      515,
+      283
+    ],
+    "visualType": "table",
+    "caption": "Hemostasis case results",
+    "questionIds": [
+      "book-86-70"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 70; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Bleeding time",
+          "5.0 min (reference range ≤8.0 min)"
+        ],
+        [
+          "Prothrombin time",
+          "13.0 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          "95.0 sec (control 32.0 sec)"
+        ],
+        [
+          "aPTT 1:1 mixing study",
+          "35.0 sec"
+        ],
+        [
+          "Platelet aggregation",
+          "Normal with ristocetin, ADP, collagen, and epinephrine"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q71-results",
+    "documentId": "textbook",
+    "page": 97,
+    "rect": [
+      43,
+      116,
+      277,
+      258
+    ],
+    "sourceRect": [
+      43,
+      116,
+      277,
+      258
+    ],
+    "visualType": "table",
+    "caption": "Hemostasis case results",
+    "questionIds": [
+      "book-86-71"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 71; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Platelet count",
+          "325 × 10⁹/L"
+        ],
+        [
+          "Bleeding time",
+          "4.5 min (reference range ≤8.0 min)"
+        ],
+        [
+          "Prothrombin time",
+          "13.0 sec (control 12.0 sec)"
+        ],
+        [
+          "aPTT",
+          "95.0 sec (control 32.0 sec)"
+        ],
+        [
+          "aPTT 1:1 mixing study",
+          "32.0 sec"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q72-results",
+    "documentId": "textbook",
+    "page": 97,
+    "rect": [
+      286,
+      176,
+      523,
+      396
+    ],
+    "sourceRect": [
+      286,
+      176,
+      523,
+      396
+    ],
+    "visualType": "table",
+    "caption": "Patient laboratory results",
+    "questionIds": [
+      "book-86-72"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 72; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Platelet count",
+          "Markedly decreased"
+        ],
+        [
+          "Prothrombin time",
+          "Prolonged"
+        ],
+        [
+          "aPTT",
+          "Prolonged"
+        ],
+        [
+          "Fibrinogen",
+          "Decreased"
+        ],
+        [
+          "Thrombin time",
+          "Prolonged"
+        ],
+        [
+          "D-dimer",
+          "Positive"
+        ],
+        [
+          "FDP",
+          "Positive"
+        ],
+        [
+          "Antithrombin",
+          "Decreased"
+        ],
+        [
+          "RBC morphology",
+          "Schistocytes present"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q73-results",
+    "documentId": "textbook",
+    "page": 98,
+    "rect": [
+      34,
+      145,
+      269,
+      362
+    ],
+    "sourceRect": [
+      34,
+      145,
+      269,
+      362
+    ],
+    "visualType": "table",
+    "caption": "Patient laboratory results",
+    "questionIds": [
+      "book-86-73"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 73; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Platelet count",
+          "Normal"
+        ],
+        [
+          "Prothrombin time",
+          "Prolonged"
+        ],
+        [
+          "aPTT",
+          "Prolonged"
+        ],
+        [
+          "Fibrinogen",
+          "Decreased"
+        ],
+        [
+          "Thrombin time",
+          "Prolonged"
+        ],
+        [
+          "D-dimer",
+          "Negative"
+        ],
+        [
+          "FDP",
+          "Positive"
+        ],
+        [
+          "Antithrombin",
+          "Normal"
+        ],
+        [
+          "RBC morphology",
+          "Schistocytes absent"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q74-results",
+    "documentId": "textbook",
+    "page": 98,
+    "rect": [
+      278,
+      169,
+      547,
+      295
+    ],
+    "sourceRect": [
+      278,
+      169,
+      547,
+      295
+    ],
+    "visualType": "table",
+    "caption": "Results before and during therapy",
+    "questionIds": [
+      "book-86-74"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 74; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Test",
+        "Before Therapy",
+        "Day 2",
+        "Day 3"
+      ],
+      "rows": [
+        [
+          "Prothrombin time",
+          "Normal",
+          "Normal",
+          "Normal"
+        ],
+        [
+          "aPTT",
+          "Normal",
+          "Prolonged",
+          "Prolonged"
+        ],
+        [
+          "Platelet count",
+          "325 × 10⁹/L",
+          "160 × 10⁹/L",
+          "42 × 10⁹/L"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q96-serology",
+    "documentId": "textbook",
+    "page": 120,
+    "rect": [
+      70,
+      183,
+      254,
+      337
+    ],
+    "sourceRect": [
+      70,
+      183,
+      254,
+      337
+    ],
+    "visualType": "table",
+    "caption": "Serologic test results",
+    "questionIds": [
+      "book-110-96"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 96; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Anti-HAV",
+          "Nonreactive"
+        ],
+        [
+          "Anti-HBc",
+          "Reactive"
+        ],
+        [
+          "Anti-HBs",
+          "Nonreactive"
+        ],
+        [
+          "HBsAg",
+          "Reactive"
+        ],
+        [
+          "HBeAg",
+          "Reactive"
+        ],
+        [
+          "Anti-HCV",
+          "Nonreactive"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q97-antibody-titers",
+    "documentId": "textbook",
+    "page": 120,
+    "rect": [
+      285,
+      188,
+      523,
+      307
+    ],
+    "sourceRect": [
+      285,
+      188,
+      523,
+      307
+    ],
+    "visualType": "table",
+    "caption": "IgG and IgM titers",
+    "questionIds": [
+      "book-110-97"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 97; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Test",
+        "IgG Titer",
+        "IgM Titer"
+      ],
+      "rows": [
+        [
+          "Cytomegalovirus (CMV)",
+          "20",
+          "0"
+        ],
+        [
+          "Epstein-Barr virus (EBV) VCA",
+          "0",
+          "80"
+        ],
+        [
+          "Mono spot",
+          "0",
+          "0"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q65-kell-family",
+    "documentId": "textbook",
+    "page": 142,
+    "rect": [
+      45,
+      213,
+      279,
+      263
+    ],
+    "sourceRect": [
+      45,
+      213,
+      279,
+      263
+    ],
+    "visualType": "table",
+    "caption": "Family Kell antigen typing",
+    "questionIds": [
+      "book-135-65"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 65; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Mother",
+        "Father",
+        "Child 1",
+        "Child 2"
+      ],
+      "rows": [
+        [
+          "K + k +",
+          "K − k +",
+          "K + k −",
+          "K − k +"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q68-69-cell-typing",
+    "documentId": "textbook",
+    "page": 142,
+    "rect": [
+      288,
+      209,
+      523,
+      298
+    ],
+    "sourceRect": [
+      288,
+      209,
+      523,
+      298
+    ],
+    "visualType": "table",
+    "caption": "Prenatal patient cell and serum typing",
+    "questionIds": [
+      "book-135-68",
+      "book-135-69"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Shared source case instruction on p142 explicitly supplies this typing and antibody screen for questions 68–69.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Serum typing: A₁ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "4+",
+          "4+"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q68-69-screen",
+    "documentId": "textbook",
+    "page": 142,
+    "rect": [
+      288,
+      321,
+      524,
+      463
+    ],
+    "sourceRect": [
+      288,
+      321,
+      524,
+      463
+    ],
+    "visualType": "table",
+    "caption": "Prenatal patient antibody screen",
+    "questionIds": [
+      "book-135-68",
+      "book-135-69"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Shared source case instruction on p142 explicitly supplies this typing and antibody screen for questions 68–69.",
+    "useSourceCrop": true,
+    "notes": [
+      "Empty check-cell entries are blank in the printed source, not negative results."
+    ],
+    "table": {
+      "headers": [
+        "Phase",
+        "Screening cell I",
+        "Screening cell II",
+        "Autocontrol"
+      ],
+      "rows": [
+        [
+          "IS",
+          "4+",
+          "4+",
+          "0"
+        ],
+        [
+          "37°C LISS",
+          "4+",
+          "4+",
+          "0"
+        ],
+        [
+          "AHG",
+          "4+",
+          "4+",
+          "0"
+        ],
+        [
+          "Check cells",
+          "",
+          "",
+          "✓"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q71-abo-typing",
+    "documentId": "textbook",
+    "page": 143,
+    "rect": [
+      34,
+      221,
+      269,
+      311
+    ],
+    "sourceRect": [
+      34,
+      221,
+      269,
+      311
+    ],
+    "visualType": "table",
+    "caption": "ABO typing reactions",
+    "questionIds": [
+      "book-135-71"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 71; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Serum typing: A₁ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "4+",
+          "2+",
+          "0",
+          "4+"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q79-81-family-rh",
+    "documentId": "textbook",
+    "page": 144,
+    "rect": [
+      44,
+      316,
+      279,
+      439
+    ],
+    "sourceRect": [
+      44,
+      316,
+      279,
+      439
+    ],
+    "visualType": "table",
+    "caption": "Family Rh typing results",
+    "questionIds": [
+      "book-135-79",
+      "book-135-80",
+      "book-135-81"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed shared-context instruction on p144 explicitly names questions 79–81.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Individual",
+        "Anti-D",
+        "Anti-C",
+        "Anti-E",
+        "Anti-c",
+        "Anti-e",
+        "Test for weak D"
+      ],
+      "rows": [
+        [
+          "Husband",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "Wife",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0"
+        ],
+        [
+          "Infant",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "N/A"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q94-96-red-cell-panel-1",
+    "documentId": "textbook",
+    "page": 146,
+    "rect": [
+      87,
+      118,
+      458,
+      634
+    ],
+    "sourceRect": [
+      87,
+      118,
+      458,
+      634
+    ],
+    "visualType": "table",
+    "caption": "Red cell panel chart 1",
+    "questionIds": [
+      "book-135-94",
+      "book-135-95",
+      "book-135-96"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The p146 shared instructions explicitly name questions 94–96. Chart 1 contains patient reactions; q96 refers to the patient described in q95 and also uses Chart 2.",
+    "useSourceCrop": true,
+    "notes": [
+      "The printed chart is sideways; display it rotated 90° clockwise.",
+      "Blank cells, slash marks, 0 results and check marks are different source entries."
+    ],
+    "table": {
+      "headers": [
+        "Cell #",
+        "D",
+        "C",
+        "E",
+        "c",
+        "e",
+        "M",
+        "N",
+        "S",
+        "s",
+        "P₁",
+        "Leᵃ",
+        "Leᵇ",
+        "Luᵃ",
+        "Luᵇ",
+        "K",
+        "k",
+        "Kpᵃ",
+        "Jsᵃ",
+        "Fyᵃ",
+        "Fyᵇ",
+        "Jkᵃ",
+        "Jkᵇ",
+        "Xgᵃ",
+        "IS",
+        "37",
+        "AHG",
+        "CkC"
+      ],
+      "rows": [
+        [
+          "1",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ],
+        [
+          "2",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ],
+        [
+          "3",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ],
+        [
+          "4",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "4+",
+          ""
+        ],
+        [
+          "5",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "3+",
+          ""
+        ],
+        [
+          "6",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ],
+        [
+          "7",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "2+",
+          ""
+        ],
+        [
+          "8",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ],
+        [
+          "9",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "3+",
+          ""
+        ],
+        [
+          "10",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ],
+        [
+          "11",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "/",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ],
+        [
+          "A/C",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0",
+          "0",
+          "0",
+          "✓"
+        ]
+      ],
+      "notes": [],
+      "headerGroups": [
+        {
+          "label": "",
+          "span": 1
+        },
+        {
+          "label": "Rh",
+          "span": 5
+        },
+        {
+          "label": "MNSs",
+          "span": 4
+        },
+        {
+          "label": "P",
+          "span": 1
+        },
+        {
+          "label": "LEWIS",
+          "span": 2
+        },
+        {
+          "label": "LUTHERAN",
+          "span": 2
+        },
+        {
+          "label": "KELL",
+          "span": 4
+        },
+        {
+          "label": "DUFFY",
+          "span": 2
+        },
+        {
+          "label": "KIDD",
+          "span": 2
+        },
+        {
+          "label": "",
+          "span": 1
+        },
+        {
+          "label": "",
+          "span": 4
+        }
+      ]
+    },
+    "rotation": 90,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true.",
+    "rootVerification": "Grouped antigen headings, source bounds and upright rotation independently checked against original PDF pages146–147."
+  },
+  {
+    "id": "textbook-audit-q96-red-cell-panel-2",
+    "documentId": "textbook",
+    "page": 147,
+    "rect": [
+      23,
+      293,
+      513,
+      602
+    ],
+    "sourceRect": [
+      23,
+      293,
+      513,
+      602
+    ],
+    "visualType": "table",
+    "caption": "Red cell panel chart 2",
+    "questionIds": [
+      "book-135-96"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Question 96 explicitly begins “From the cells in red cell panel chart 2”; q95 does not reference Chart 2.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell #",
+        "D",
+        "C",
+        "E",
+        "c",
+        "e",
+        "M",
+        "N",
+        "S",
+        "s",
+        "P₁",
+        "Leᵃ",
+        "Leᵇ",
+        "Luᵃ",
+        "Luᵇ",
+        "K",
+        "k",
+        "Kpᵃ",
+        "Jsᵃ",
+        "Fyᵃ",
+        "Fyᵇ",
+        "Jkᵃ",
+        "Jkᵇ",
+        "Xgᵃ"
+      ],
+      "rows": [
+        [
+          "1",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+"
+        ],
+        [
+          "2",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "3",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+"
+        ],
+        [
+          "4",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+"
+        ],
+        [
+          "5",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0"
+        ],
+        [
+          "6",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0"
+        ],
+        [
+          "7",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+"
+        ],
+        [
+          "8",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0"
+        ],
+        [
+          "9",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0"
+        ],
+        [
+          "10",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0"
+        ]
+      ],
+      "notes": [],
+      "headerGroups": [
+        {
+          "label": "",
+          "span": 1
+        },
+        {
+          "label": "Rh",
+          "span": 5
+        },
+        {
+          "label": "MNSs",
+          "span": 4
+        },
+        {
+          "label": "P",
+          "span": 1
+        },
+        {
+          "label": "LEWIS",
+          "span": 2
+        },
+        {
+          "label": "LUTHERAN",
+          "span": 2
+        },
+        {
+          "label": "KELL",
+          "span": 4
+        },
+        {
+          "label": "DUFFY",
+          "span": 2
+        },
+        {
+          "label": "KIDD",
+          "span": 2
+        },
+        {
+          "label": "",
+          "span": 1
+        }
+      ]
+    },
+    "presentationRepair": {
+      "book-135-95": {
+        "options": {
+          "3": "Anti-K, anti-Jsᵃ, and anti-Leᵃ"
+        }
+      },
+      "book-135-96": {
+        "options": {
+          "3": "2, 3, 4, 6, 9"
+        }
+      }
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true.",
+    "rootVerification": "Grouped antigen headings, source bounds and upright rotation independently checked against original PDF pages146–147."
+  },
+  {
+    "id": "textbook-audit-q110-family-typing",
+    "documentId": "textbook",
+    "page": 149,
+    "rect": [
+      276,
+      137,
+      512,
+      250
+    ],
+    "sourceRect": [
+      276,
+      137,
+      512,
+      250
+    ],
+    "visualType": "table",
+    "caption": "Family ABO, Rh and HLA typing",
+    "questionIds": [
+      "book-135-110"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 110; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Individual",
+        "ABO",
+        "Rh",
+        "HLA"
+      ],
+      "rows": [
+        [
+          "Mother",
+          "A",
+          "ce",
+          "A2, A29, B12, B17"
+        ],
+        [
+          "Baby",
+          "O",
+          "ce",
+          "A2, A3, B12, B15"
+        ],
+        [
+          "Alleged Father",
+          "A",
+          "DCce",
+          "A3, A9, B5, B27"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q111-118-option-matrix",
+    "documentId": "textbook",
+    "page": 150,
+    "rect": [
+      75,
+      168,
+      282,
+      342
+    ],
+    "sourceRect": [
+      75,
+      168,
+      282,
+      342
+    ],
+    "visualType": "table",
+    "caption": "Cell and serum typing options",
+    "questionIds": [
+      "book-135-111",
+      "book-135-112",
+      "book-135-113",
+      "book-135-114",
+      "book-135-115",
+      "book-135-116",
+      "book-135-117",
+      "book-135-118"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed shared instructions name questions 111–118 and give the A–D typing matrix as the answer choices.",
+    "useSourceCrop": false,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Option",
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Serum typing: A₁ cells",
+        "Serum typing: B cells",
+        "Serum typing: O cells"
+      ],
+      "rows": [
+        [
+          "A",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "B",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0"
+        ],
+        [
+          "C",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0"
+        ],
+        [
+          "D",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "notes": []
+    },
+    "sourceContainsOptions": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q124-132-red-cell-panel-3",
+    "documentId": "textbook",
+    "page": 151,
+    "rect": [
+      21,
+      331,
+      512,
+      574
+    ],
+    "sourceRect": [
+      21,
+      331,
+      512,
+      574
+    ],
+    "visualType": "table",
+    "caption": "Red cell panel chart 3",
+    "questionIds": [
+      "book-135-124",
+      "book-135-125",
+      "book-135-126",
+      "book-135-127",
+      "book-135-128",
+      "book-135-129",
+      "book-135-130",
+      "book-135-131",
+      "book-135-132"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed p150 shared instructions explicitly name questions 124–132 and red cell panel chart 3; q129–132 also use the supplementary reactions on p152.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell #",
+        "D",
+        "C",
+        "E",
+        "c",
+        "e",
+        "M",
+        "N",
+        "P₁",
+        "S",
+        "s",
+        "K",
+        "k",
+        "Jkᵃ",
+        "Jkᵇ",
+        "Fyᵃ",
+        "Fyᵇ",
+        "Luᵃ",
+        "Leᵃ",
+        "Leᵇ",
+        "Xgᵃ"
+      ],
+      "rows": [
+        [
+          "1",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0"
+        ],
+        [
+          "2",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+"
+        ],
+        [
+          "3",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+"
+        ],
+        [
+          "4",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0"
+        ],
+        [
+          "5",
+          "0",
+          "+",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "0",
+          "0",
+          "+",
+          "0"
+        ],
+        [
+          "6",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "7",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+"
+        ],
+        [
+          "8",
+          "0",
+          "0",
+          "0",
+          "+",
+          "+",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "+",
+          "+",
+          "0",
+          "0",
+          "+",
+          "0",
+          "+",
+          "0",
+          "+"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q129-132-additional-reactions",
+    "documentId": "textbook",
+    "page": 152,
+    "rect": [
+      46,
+      242,
+      280,
+      388
+    ],
+    "sourceRect": [
+      46,
+      242,
+      280,
+      388
+    ],
+    "visualType": "table",
+    "caption": "Additional patient reactions for panel chart 3",
+    "questionIds": [
+      "book-135-129",
+      "book-135-130",
+      "book-135-131",
+      "book-135-132"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The p152 shared-context heading explicitly names questions 129–132 and says to use these results in addition to Chart 3.",
+    "useSourceCrop": true,
+    "notes": [
+      "Shared source context: the patient is group A, D-negative and has not been recently transfused. Cells #5, #6 and #7 are negative in all phases with this patient’s serum. The autocontrol is negative."
+    ],
+    "table": {
+      "headers": [
+        "Cell #",
+        "IS",
+        "37°C LISS",
+        "AHG"
+      ],
+      "rows": [
+        [
+          "1",
+          "0",
+          "1+",
+          "4+"
+        ],
+        [
+          "2",
+          "0",
+          "1+",
+          "4+"
+        ],
+        [
+          "3",
+          "2+",
+          "1+",
+          "4+"
+        ],
+        [
+          "4",
+          "0",
+          "1+",
+          "4+"
+        ],
+        [
+          "8",
+          "2+",
+          "0",
+          "0"
+        ]
+      ],
+      "notes": [
+        "Shared source context: the patient is group A, D-negative and has not been recently transfused. Cells #5, #6 and #7 are negative in all phases with this patient’s serum. The autocontrol is negative."
+      ]
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q141-crossmatch-options",
+    "documentId": "textbook",
+    "page": 153,
+    "rect": [
+      307,
+      391,
+      485,
+      561
+    ],
+    "sourceRect": [
+      307,
+      391,
+      485,
+      561
+    ],
+    "visualType": "table",
+    "caption": "Donor and recipient combinations in the options",
+    "questionIds": [
+      "book-135-141"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 141; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": false,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Option",
+        "Donor",
+        "Recipient"
+      ],
+      "rows": [
+        [
+          "A",
+          "Group A, D-negative",
+          "Group A, D-positive"
+        ],
+        [
+          "B",
+          "Group O, D-positive",
+          "Group A, D-positive"
+        ],
+        [
+          "C",
+          "Group AB, D-positive",
+          "Group A, D-positive"
+        ],
+        [
+          "D",
+          "Group A, D-positive",
+          "Group A, D-negative"
+        ]
+      ],
+      "notes": []
+    },
+    "sourceContainsOptions": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q169-170-tube-typing",
+    "documentId": "textbook",
+    "page": 157,
+    "rect": [
+      278,
+      418,
+      513,
+      529
+    ],
+    "sourceRect": [
+      278,
+      418,
+      513,
+      529
+    ],
+    "visualType": "table",
+    "caption": "Patient tube typing results",
+    "questionIds": [
+      "book-135-169",
+      "book-135-170"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Table is printed inside q169; q170 explicitly refers to “the tube typing results in question 169”.",
+    "useSourceCrop": true,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Cell typing: Anti-D",
+        "Rh control",
+        "Serum typing: A₁ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "2+",
+          "4+",
+          "3+",
+          "2+",
+          "4+",
+          "4+"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q174-donor-typing",
+    "documentId": "textbook",
+    "page": 158,
+    "rect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "sourceRect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "visualType": "table",
+    "caption": "Donor typing results for question 174",
+    "questionIds": [
+      "book-135-174"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed donor-table row is labelled 174. Only that row and its immediately following donor-specific note are represented for this question. Shared instruction applies donor-table rows 174–179; rows 180–184 are a separate block on p159.",
+    "useSourceCrop": false,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Cell typing: Anti-D",
+        "Serum typing: A₁ cells",
+        "Serum typing: A₂ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "3+",
+          "4+",
+          "3+",
+          "4+"
+        ]
+      ],
+      "notes": []
+    },
+    "sourceContainsQuestionLabels": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q175-donor-typing",
+    "documentId": "textbook",
+    "page": 158,
+    "rect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "sourceRect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "visualType": "table",
+    "caption": "Donor typing results for question 175",
+    "questionIds": [
+      "book-135-175"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed donor-table row is labelled 175. Only that row and its immediately following donor-specific note are represented for this question. Shared instruction applies donor-table rows 174–179; rows 180–184 are a separate block on p159.",
+    "useSourceCrop": false,
+    "notes": [
+      "Weak D test = 3+, DAT = 0"
+    ],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Cell typing: Anti-D",
+        "Serum typing: A₁ cells",
+        "Serum typing: A₂ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "0",
+          "4+",
+          "4+",
+          "4+"
+        ]
+      ],
+      "notes": [
+        "Weak D test = 3+, DAT = 0"
+      ]
+    },
+    "sourceContainsQuestionLabels": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q176-donor-typing",
+    "documentId": "textbook",
+    "page": 158,
+    "rect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "sourceRect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "visualType": "table",
+    "caption": "Donor typing results for question 176",
+    "questionIds": [
+      "book-135-176"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed donor-table row is labelled 176. Only that row and its immediately following donor-specific note are represented for this question. Shared instruction applies donor-table rows 174–179; rows 180–184 are a separate block on p159.",
+    "useSourceCrop": false,
+    "notes": [
+      "Weak D test = 1+, DAT = 1+"
+    ],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Cell typing: Anti-D",
+        "Serum typing: A₁ cells",
+        "Serum typing: A₂ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "0",
+          "4+",
+          "4+",
+          "4+"
+        ]
+      ],
+      "notes": [
+        "Weak D test = 1+, DAT = 1+"
+      ]
+    },
+    "sourceContainsQuestionLabels": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q177-donor-typing",
+    "documentId": "textbook",
+    "page": 158,
+    "rect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "sourceRect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "visualType": "table",
+    "caption": "Donor typing results for question 177",
+    "questionIds": [
+      "book-135-177"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed donor-table row is labelled 177. Only that row and its immediately following donor-specific note are represented for this question. Shared instruction applies donor-table rows 174–179; rows 180–184 are a separate block on p159.",
+    "useSourceCrop": false,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Cell typing: Anti-D",
+        "Serum typing: A₁ cells",
+        "Serum typing: A₂ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "3+",
+          "2+",
+          "0",
+          "4+"
+        ]
+      ],
+      "notes": []
+    },
+    "sourceContainsQuestionLabels": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q178-donor-typing",
+    "documentId": "textbook",
+    "page": 158,
+    "rect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "sourceRect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "visualType": "table",
+    "caption": "Donor typing results for question 178",
+    "questionIds": [
+      "book-135-178"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed donor-table row is labelled 178. Only that row and its immediately following donor-specific note are represented for this question. Shared instruction applies donor-table rows 174–179; rows 180–184 are a separate block on p159.",
+    "useSourceCrop": false,
+    "notes": [],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Cell typing: Anti-D",
+        "Serum typing: A₁ cells",
+        "Serum typing: A₂ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "3+",
+          "0",
+          "0",
+          "4+"
+        ]
+      ],
+      "notes": []
+    },
+    "sourceContainsQuestionLabels": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q179-donor-typing",
+    "documentId": "textbook",
+    "page": 158,
+    "rect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "sourceRect": [
+      314,
+      278,
+      520,
+      569
+    ],
+    "visualType": "table",
+    "caption": "Donor typing results for question 179",
+    "questionIds": [
+      "book-135-179"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed donor-table row is labelled 179. Only that row and its immediately following donor-specific note are represented for this question. Shared instruction applies donor-table rows 174–179; rows 180–184 are a separate block on p159.",
+    "useSourceCrop": false,
+    "notes": [
+      "Antibody screen = positive",
+      "Antibody identification = anti-Fyᵃ"
+    ],
+    "table": {
+      "headers": [
+        "Cell typing: Anti-A",
+        "Cell typing: Anti-B",
+        "Cell typing: Anti-D",
+        "Serum typing: A₁ cells",
+        "Serum typing: A₂ cells",
+        "Serum typing: B cells"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "3+",
+          "4+",
+          "4+",
+          "4+"
+        ]
+      ],
+      "notes": [
+        "Antibody screen = positive",
+        "Antibody identification = anti-Fyᵃ"
+      ]
+    },
+    "sourceContainsQuestionLabels": true,
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q202-205-screen",
+    "documentId": "textbook",
+    "page": 161,
+    "rect": [
+      278,
+      271,
+      513,
+      441
+    ],
+    "sourceRect": [
+      278,
+      271,
+      513,
+      441
+    ],
+    "visualType": "table",
+    "caption": "Antibody screening reactions",
+    "questionIds": [
+      "book-135-202",
+      "book-135-203",
+      "book-135-204",
+      "book-135-205"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed shared case instruction names questions 202–205; the table is the antibody screen from that case. The separate q200–201 block uses an FMH percentage and does not refer to this table.",
+    "useSourceCrop": true,
+    "notes": [
+      "*NT = not tested"
+    ],
+    "table": {
+      "headers": [
+        "Phase",
+        "Screen Cell I",
+        "Screen Cell II",
+        "Screen Cell III",
+        "Autocontrol"
+      ],
+      "rows": [
+        [
+          "IS",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "37°C LISS",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "AHG",
+          "4+",
+          "4+",
+          "4+",
+          "4+"
+        ],
+        [
+          "CC",
+          "NT*",
+          "NT",
+          "NT",
+          "NT"
+        ]
+      ],
+      "notes": [
+        "*NT = not tested"
+      ]
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q210-211-gel-card",
+    "documentId": "textbook",
+    "page": 163,
+    "rect": [
+      75,
+      231,
+      215,
+      397
+    ],
+    "sourceRect": [
+      75,
+      231,
+      215,
+      397
+    ],
+    "visualType": "photo",
+    "caption": "Gel reactions labelled SC I, SC II and AC",
+    "questionIds": [
+      "book-135-210",
+      "book-135-211"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "Printed shared case instruction explicitly names questions 210 and 211 and directs the reader to these gel reactions.",
+    "useSourceCrop": true,
+    "notes": [
+      "SC = screening cell; AC = autocontrol. Preserve all three column labels and the full reaction columns.",
+      "Source-limited photograph; no replacement or image enhancement."
+    ],
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q78-biochemical",
+    "documentId": "textbook",
+    "page": 211,
+    "rect": [
+      308,
+      151,
+      480,
+      254
+    ],
+    "sourceRect": [
+      308,
+      151,
+      480,
+      254
+    ],
+    "visualType": "table",
+    "caption": "Laboratory reaction results",
+    "questionIds": [
+      "book-203-78"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 78; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source has no column-heading row. “Test” and “Result” are accessibility labels; all result values follow the source."
+    ],
+    "table": {
+      "headers": [
+        "Test",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Citrate",
+          "negative"
+        ],
+        [
+          "Indole",
+          "positive"
+        ],
+        [
+          "Urease",
+          "negative"
+        ],
+        [
+          "ONPG",
+          "positive"
+        ],
+        [
+          "Voges-Proskauer",
+          "negative"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q44-absorbance",
+    "documentId": "textbook",
+    "page": 377,
+    "rect": [
+      280,
+      408,
+      386,
+      552
+    ],
+    "sourceRect": [
+      280,
+      408,
+      386,
+      552
+    ],
+    "visualType": "table",
+    "caption": "Absorbance readings over time",
+    "questionIds": [
+      "book-373-44"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 44; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The two printed columns are independent lists. Readings and method information are presented separately to avoid implying that each reading corresponds to a different method parameter."
+    ],
+    "table": {
+      "headers": [
+        "Absorbance (A) Readings"
+      ],
+      "rows": [
+        [
+          "0.204 A at 1 minute"
+        ],
+        [
+          "0.406 A at 2 minutes"
+        ],
+        [
+          "0.610 A at 3 minutes"
+        ],
+        [
+          "0.813 A at 4 minutes"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-audit-q44-method",
+    "documentId": "textbook",
+    "page": 377,
+    "rect": [
+      386,
+      408,
+      515,
+      552
+    ],
+    "sourceRect": [
+      386,
+      408,
+      515,
+      552
+    ],
+    "visualType": "table",
+    "caption": "Method information for the calculation",
+    "questionIds": [
+      "book-373-44"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "434-page contact-sheet census followed by original-page visual inspection",
+    "matchingEvidence": "The printed table/figure is part of question 44; numbering and adjacent source text were visually checked.",
+    "useSourceCrop": true,
+    "notes": [
+      "The source prints no units for the absorptivity value; none have been added.",
+      "The original two columns are independent lists, not paired result/parameter observations."
+    ],
+    "table": {
+      "headers": [
+        "Method Information"
+      ],
+      "rows": [
+        [
+          "Reagent volume = 3.0 mL"
+        ],
+        [
+          "Sample volume = 200 µL"
+        ],
+        [
+          "Light path = 1 cm"
+        ],
+        [
+          "ε₃₄₀ ₙₘ of NADH = 6.22 × 10³"
+        ]
+      ],
+      "notes": []
+    },
+    "cropReview": "Original-source rectangle rendered and visually inspected; stems and choice text excluded when useSourceCrop is true."
+  },
+  {
+    "id": "textbook-gap-q33-plate1",
+    "auditId": "textbook-gap-q33-plate1",
+    "documentId": "textbook",
+    "page": 423,
+    "rect": [
+      40,
+      35,
+      287,
+      244
+    ],
+    "sourceRect": [
+      40,
+      35,
+      287,
+      244
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 1",
+    "questionIds": [
+      "book-1-33"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "Printed q33 on PDF p4 explicitly says “Color Plate 1”. The current question OCR corrupts the digit and plate marker; the reference was verified directly on the original page.",
+    "referencePages": [
+      4
+    ],
+    "plateNumber": 1,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "presentationRepair": {
+      "book-1-33": {
+        "question": "Which of the following is most frequently associated with the inclusion bodies seen in Color Plate 1?"
+      }
+    }
+  },
+  {
+    "id": "textbook-gap-q199-plate17",
+    "auditId": "textbook-gap-q199-plate17",
+    "documentId": "textbook",
+    "page": 425,
+    "rect": [
+      290,
+      262,
+      540,
+      453
+    ],
+    "sourceRect": [
+      290,
+      262,
+      540,
+      453
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 17",
+    "questionIds": [
+      "book-1-199"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "Printed q199 on PDF p22 explicitly says “Color Plate 17”. Current question OCR has an unrecognized digit/marker sequence, so automatic digit extraction missed this reference.",
+    "referencePages": [
+      22
+    ],
+    "plateNumber": 17,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "presentationRepair": {
+      "book-1-199": {
+        "question": "The cytoplasmic inclusion present in the cell shown in Color Plate 17"
+      }
+    }
+  },
+  {
+    "id": "textbook-gap-q264-268-case-plate4",
+    "auditId": "textbook-gap-q264-268-case-plate4",
+    "documentId": "textbook",
+    "page": 423,
+    "rect": [
+      288,
+      35,
+      540,
+      244
+    ],
+    "sourceRect": [
+      288,
+      35,
+      540,
+      244
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 4",
+    "questionIds": [
+      "book-1-264",
+      "book-1-265",
+      "book-1-266",
+      "book-1-267",
+      "book-1-268"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "The p29 shared instruction says to use the supplied information for questions264–268. Its case explicitly begins “The peripheral blood shown in Color Plate 4”. All five active questions share this case; this is a printed case reference, not a topic-similar added illustration.",
+    "referencePages": [
+      29
+    ],
+    "plateNumber": 4,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "reuseFigureId": "fig-cdc1a6276497559a3b",
+    "textRepairProposals": [
+      {
+        "questionIds": [
+          "book-1-264",
+          "book-1-265",
+          "book-1-266",
+          "book-1-267",
+          "book-1-268"
+        ],
+        "field": "context",
+        "replace": "Color Plate 41",
+        "with": "Color Plate 4",
+        "evidence": "Printed p29 has digit4 followed by the square plate marker, not plate41."
+      }
+    ]
+  },
+  {
+    "id": "textbook-gap-q272-274-case-plate11",
+    "auditId": "textbook-gap-q272-274-case-plate11",
+    "documentId": "textbook",
+    "page": 424,
+    "rect": [
+      270,
+      261,
+      540,
+      451
+    ],
+    "sourceRect": [
+      270,
+      261,
+      540,
+      451
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 11",
+    "questionIds": [
+      "book-1-272",
+      "book-1-273",
+      "book-1-274"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "The p30 shared instruction names questions272–274. The case explicitly begins “The peripheral blood shown in Color Plate 11”. The same shared-case photograph belongs with all three questions.",
+    "referencePages": [
+      30
+    ],
+    "plateNumber": 11,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "reuseFigureId": "fig-778e4a2b52958f1835"
+  }
+]

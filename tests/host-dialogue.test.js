@@ -20,7 +20,7 @@ function deferred() {
 const error = (code, message = `Mock speech ${code}.`) => Object.assign(new Error(message), {code});
 async function pump() { for (let index = 0; index < 30; index++) await Promise.resolve(); }
 
-function harness({autoListen = false, manualSpeech = false, ignoreStop = false, context: overrides = {}, settings: settingOverrides = {}} = {}) {
+function harness({autoListen = false, manualSpeech = false, ignoreStop = false, completeWithNull = false, context: overrides = {}, settings: settingOverrides = {}} = {}) {
   let context = {roundId: 'round-a', index: 0, phase: 'question', q: question(), questionCount: 3,
     hiddenChoices: [], lastResponse: null, terminal: false, ...overrides};
   let settings = {autoListen, language: 'en-US', rate: 1, ...settingOverrides};
@@ -60,7 +60,7 @@ function harness({autoListen = false, manualSpeech = false, ignoreStop = false, 
     },
     onNext: () => {
       nexts.push({roundId: context.roundId, index: context.index});
-      context = context.terminal ? {...context, phase: 'complete'} : {...context, index: context.index + 1,
+      context = context.terminal ? completeWithNull ? null : {...context, phase: 'complete'} : {...context, index: context.index + 1,
         phase: 'question', q: question(`label-${context.index + 1}`), lastResponse: null, hiddenChoices: []};
     },
     onLifeline: type => {
@@ -379,4 +379,71 @@ test('natural final-answer confirmation reads plain wording and source caveats a
   await f.dialogue.submit("Yes, that's my final answer, please.");
   assert.equal(f.answers.length, 1); assert.ok(allSpeech(f).includes(plain));
   assert.ok(allSpeech(f).includes(sourceNote)); assert.equal(f.nexts.length, 0); f.dialogue.dispose();
+});
+
+test('Practice reads every long question, case and option chunk before opening the microphone', async () => {
+  const q=question('long-practice',{question:'Long question detail. '.repeat(1800)+'QUESTION_TAIL',
+    context:'Shared case observations. '.repeat(1400)+'CASE_TAIL',
+    options:['First option details. '.repeat(1300)+'OPTION_TAIL','Second option']});
+  const f=harness({autoListen:true,manualSpeech:true,context:{mode:'practice',q}});
+  const started=f.dialogue.start();await pump();
+  let completed=0;
+  while(f.speech()){
+    assert.equal(f.listened.length,0,'No listening turn may interrupt the reading');
+    assert.ok(f.speech().text.length<=2400);assert.ok(++completed<100);
+    await f.endSpeech();
+  }
+  assert.ok(completed>2);assert.equal(f.listened.length,1);
+  const full=f.spoken.map(part=>part.text).join('');
+  assert.ok(full.includes(q.question));assert.ok(full.includes(q.context));
+  assert.ok(full.includes(q.options[0]));assert.ok(full.includes('Option B. Second option.'));
+  assert.doesNotMatch(full,/skip|lifeline/);noTeachingLeak(f);
+  f.dialogue.pause();await started;f.dialogue.dispose();
+});
+
+test('Practice long explanations retain the ending and ask teach-back only after all feedback',async()=>{
+  const q=question('long-feedback',{explanation:'Printed source rationale. '.repeat(1100)+'SOURCE_TAIL'});
+  q.teaching={...q.teaching,explanation:'A complete simpler explanation. '.repeat(1200)+'PLAIN_TAIL'};
+  const f=harness({context:{mode:'practice',q}});await f.dialogue.start();await f.dialogue.choose(0);const from=f.spoken.length;await f.dialogue.confirm();
+  const spoken=f.spoken.slice(from);assert.ok(spoken.length>4);assert.ok(spoken.every(part=>part.text.length<=2400));
+  const full=spoken.map(part=>part.text).join('');assert.ok(full.includes(q.explanation));assert.ok(full.includes(q.teaching.explanation));
+  assert.ok(full.indexOf('PLAIN_TAIL')<full.indexOf('Now explain back'));assert.equal(f.dialogue.getState().phase,'recall');
+  assert.equal(f.answers.length,1);assert.equal(f.nexts.length,0);f.dialogue.dispose();
+});
+
+test('pausing a later Practice speech chunk prevents all remaining chunks and recognition',async()=>{
+  const f=harness({autoListen:true,manualSpeech:true,ignoreStop:true,context:{mode:'practice',q:question('long',{question:'Case details. '.repeat(3000)+'END_OF_CASE'})}});
+  const started=f.dialogue.start();await pump();await f.endSpeech();const pending=f.speech();assert.ok(pending);assert.equal(f.spoken.length,2);
+  f.dialogue.pause();pending.resolve(true);await pump();await started;
+  assert.equal(f.spoken.length,2);assert.equal(f.listened.length,0);assert.equal(f.answers.length,0);assert.equal(f.dialogue.getState().running,false);f.dialogue.dispose();
+});
+
+test('changed Practice context during a long reading cannot read its remaining source or listen',async()=>{
+  const f=harness({autoListen:true,manualSpeech:true,ignoreStop:true,context:{mode:'practice',q:question('long',{question:'Case details. '.repeat(3000)+'STALE_CASE_END'})}});
+  const started=f.dialogue.start();await pump();const pending=f.speech();f.updateContext({q:question('replacement-at-same-index')});pending.resolve(true);await pump();await started;
+  assert.equal(f.spoken.length,1);assert.equal(f.listened.length,0);assert.equal(f.answers.length,0);assert.equal(allSpeech(f).includes('STALE_CASE_END'),false);f.dialogue.dispose();
+});
+
+test('a Practice candidate cannot grade a replacement question at the same session index',async()=>{
+  const f=harness({context:{mode:'practice'}});await f.dialogue.start();await f.dialogue.choose(1);
+  f.updateContext({q:question('same-index-replacement')});await f.dialogue.confirm();
+  assert.equal(f.answers.length,0);assert.equal(f.dialogue.getState().candidate,null);f.dialogue.dispose();
+});
+
+test('Practice does not promise game lifelines or permit skipping an unanswered question',async()=>{
+  const f=harness({context:{mode:'practice'}});await f.dialogue.start();
+  await f.dialogue.submit('next');await f.dialogue.submit('skip');await f.dialogue.submit('fifty fifty');
+  assert.equal(f.lifelines.length,0);assert.equal(f.answers.length,0);assert.equal(f.nexts.length,0);noTeachingLeak(f);
+  assert.doesNotMatch(allSpeech(f),/skip lifeline|three hearts|fifty fifty/);
+  await f.dialogue.submit('hint');assert.deepEqual(f.lifelines,['hint']);assert.match(allSpeech(f),/Here is the question in plain words/);f.dialogue.dispose();
+});
+
+test('finishing Practice speaks a completion line once and ignores stale last-question actions',async()=>{
+  for(const returnsNull of [false,true]){
+    const f=harness({completeWithNull:returnsNull,context:{mode:'practice',terminal:true}});await f.dialogue.start();await f.dialogue.choose(1);await f.dialogue.confirm();
+    await f.dialogue.next();const count=f.spoken.length;assert.match(f.spoken.at(-1).text,/Your practice session is complete/);
+    assert.equal(f.dialogue.getState().running,false);assert.equal(f.dialogue.getState().phase,'complete');
+    await f.dialogue.repeat();await f.dialogue.listen();await f.dialogue.choose(0);await f.dialogue.confirm();await f.dialogue.feedback();await f.dialogue.askRecall();await f.dialogue.revealRecall();await f.dialogue.readOptions();await f.dialogue.readRationale();await f.dialogue.submit('option A');await f.dialogue.next();
+    assert.equal(f.spoken.length,count);assert.equal(f.listened.length,0);assert.equal(f.answers.length,1);assert.equal(f.nexts.length,1);f.dialogue.dispose();
+  }
 });

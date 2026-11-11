@@ -1,0 +1,2432 @@
+{
+  "documentId": "textbook",
+  "source": "docs/textbook.pdf",
+  "sourceSha256": "646b9f4c6bdd5641158705869657e0a04365dc5ae3b21315b1f9f61ae0b4abbc",
+  "hintSnapshotSha256": "f9498debaddfa352705e1513869d2d966aba665a3c53712f62761342faa54ae1",
+  "hintRecordCount": 122,
+  "reviewedQuestionCount": 122,
+  "fullSourcePagesReviewed": [
+    3,
+    4,
+    9,
+    12,
+    16,
+    20,
+    22,
+    23,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    112,
+    118,
+    120,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    144,
+    145,
+    148,
+    152,
+    153,
+    154,
+    155,
+    156,
+    158,
+    161,
+    162,
+    205,
+    208,
+    225,
+    226,
+    228,
+    229,
+    293,
+    303,
+    306,
+    332,
+    333,
+    334,
+    335,
+    353,
+    373,
+    378,
+    379,
+    400,
+    401,
+    402,
+    404,
+    405,
+    406,
+    407,
+    409
+  ],
+  "fullSourcePageCount": 70,
+  "additionalOriginalPlatePagesReviewed": [
+    423,
+    424,
+    425
+  ],
+  "additionalPlateCropsReviewed": [
+    1,
+    4,
+    11,
+    17
+  ],
+  "dispositionCounts": {
+    "ordinary-text-question": 74,
+    "clinical-or-numerical-data-already-in-text": 15,
+    "missing-explicit-color-plate": 2,
+    "missing-shared-case-color-plate": 2,
+    "shared-prose-case-already-in-context": 9,
+    "reference-to-another-text-question": 1,
+    "text-matching-set": 2,
+    "culture-plate-term-without-source-picture": 7,
+    "chapter-reference-only": 1,
+    "graph-or-chart-concept-without-source-graphic": 9
+  },
+  "listedQuestionsWithVerifiedVisualGaps": 4,
+  "proposedAdditionRecordCount": 4,
+  "activeQuestionsCoveredByProposals": 10,
+  "newPlateImagesRequired": 2,
+  "existingPlateImagesReusable": 2,
+  "additionalTableGapsFound": 0,
+  "nonvisualFollowupCount": 1,
+  "additionalObservations": [
+    {
+      "questionId": "book-399-31",
+      "page": 402,
+      "disposition": "formula-already-accessible-as-text",
+      "evidence": "The nearby printed square-root formula was checked against the canonical app stem. The app already contains s = √[Σ(x − x̄)² / (n − 1)] with symbol explanations, so no formula screenshot is needed."
+    }
+  ],
+  "limitations": [
+    "Every exact listed question and its printed surrounding/shared context was visually reviewed. Only explicitly supplied/referenced question visuals are proposed.",
+    "No new explanatory/rationale illustrations or arbitrary topic-matched images are proposed.",
+    "Photo detail is limited by the original scanned PDF. The new mappings do not create higher-resolution source detail.",
+    "No changes were made to the primary audit additions, question bank, core code, PDFs or existing assets."
+  ],
+  "records": [
+    {
+      "questionId": "book-1-102",
+      "documentId": "textbook",
+      "page": 12,
+      "number": 102,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q102 on PDF p12 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 12,
+        "printedQuestionNumber": 102,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-012.png"
+      }
+    },
+    {
+      "questionId": "book-1-147",
+      "documentId": "textbook",
+      "page": 16,
+      "number": 147,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q147 on PDF p16 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 16,
+        "printedQuestionNumber": 147,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-016.png"
+      }
+    },
+    {
+      "questionId": "book-1-179",
+      "documentId": "textbook",
+      "page": 20,
+      "number": 179,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "CBC findings and the elevated platelet count are stated in sentences; no source table or image is printed for this item.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 20,
+        "printedQuestionNumber": 179,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-020.png"
+      }
+    },
+    {
+      "questionId": "book-1-19",
+      "documentId": "textbook",
+      "page": 3,
+      "number": 19,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q19 on PDF p3 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 3,
+        "printedQuestionNumber": 19,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-003.png"
+      }
+    },
+    {
+      "questionId": "book-1-199",
+      "documentId": "textbook",
+      "page": 22,
+      "number": 199,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": true,
+      "disposition": "missing-explicit-color-plate",
+      "evidence": "Printed q199 on PDF p22 explicitly says “Color Plate 17”. Current question OCR has an unrecognized digit/marker sequence, so automatic digit extraction missed this reference.",
+      "contextInBank": false,
+      "proposedAdditionIds": [
+        "textbook-gap-q199-plate17"
+      ],
+      "sourceEvidence": {
+        "pdfPage": 22,
+        "printedQuestionNumber": 199,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-022.png"
+      }
+    },
+    {
+      "questionId": "book-1-205",
+      "documentId": "textbook",
+      "page": 22,
+      "number": 205,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q205 on PDF p22 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 22,
+        "printedQuestionNumber": 205,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-022.png"
+      }
+    },
+    {
+      "questionId": "book-1-207",
+      "documentId": "textbook",
+      "page": 23,
+      "number": 207,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q207 on PDF p23 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 23,
+        "printedQuestionNumber": 207,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-023.png"
+      }
+    },
+    {
+      "questionId": "book-1-228",
+      "documentId": "textbook",
+      "page": 25,
+      "number": 228,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The citrate-sample platelet count is supplied within the prose calculation; no separate table or illustration exists.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 25,
+        "printedQuestionNumber": 228,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-025.png"
+      }
+    },
+    {
+      "questionId": "book-1-249",
+      "documentId": "textbook",
+      "page": 27,
+      "number": 249,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q249 on PDF p27 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 27,
+        "printedQuestionNumber": 249,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-027.png"
+      }
+    },
+    {
+      "questionId": "book-1-250",
+      "documentId": "textbook",
+      "page": 27,
+      "number": 250,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q250 on PDF p27 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 27,
+        "printedQuestionNumber": 250,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-027.png"
+      }
+    },
+    {
+      "questionId": "book-1-256",
+      "documentId": "textbook",
+      "page": 28,
+      "number": 256,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q256 on PDF p28 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 28,
+        "printedQuestionNumber": 256,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-028.png"
+      }
+    },
+    {
+      "questionId": "book-1-259",
+      "documentId": "textbook",
+      "page": 28,
+      "number": 259,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The WBC/RBC/Hgb/Hct/MCH/MCHC results are an inline numerical list in the printed stem and are already in the app question text. The adjacent histogram belongs only to q255.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 28,
+        "printedQuestionNumber": 259,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-028.png"
+      }
+    },
+    {
+      "questionId": "book-1-260",
+      "documentId": "textbook",
+      "page": 28,
+      "number": 260,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q260 on PDF p28 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 28,
+        "printedQuestionNumber": 260,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-028.png"
+      }
+    },
+    {
+      "questionId": "book-1-261",
+      "documentId": "textbook",
+      "page": 28,
+      "number": 261,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q261 on PDF p28 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 28,
+        "printedQuestionNumber": 261,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-028.png"
+      }
+    },
+    {
+      "questionId": "book-1-262",
+      "documentId": "textbook",
+      "page": 29,
+      "number": 262,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q262 on PDF p29 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 29,
+        "printedQuestionNumber": 262,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-029.png"
+      }
+    },
+    {
+      "questionId": "book-1-263",
+      "documentId": "textbook",
+      "page": 29,
+      "number": 263,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q263 on PDF p29 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 29,
+        "printedQuestionNumber": 263,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-029.png"
+      }
+    },
+    {
+      "questionId": "book-1-268",
+      "documentId": "textbook",
+      "page": 29,
+      "number": 268,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": true,
+      "disposition": "missing-shared-case-color-plate",
+      "evidence": "The p29 shared instruction says to use the supplied information for questions264–268. Its case explicitly begins “The peripheral blood shown in Color Plate 4”. All five active questions share this case; this is a printed case reference, not a topic-similar added illustration.",
+      "contextInBank": true,
+      "proposedAdditionIds": [
+        "textbook-gap-q264-268-case-plate4"
+      ],
+      "sharedQuestionNumbers": [
+        264,
+        265,
+        266,
+        267,
+        268
+      ],
+      "sourceContextPage": 29,
+      "sourceEvidence": {
+        "pdfPage": 29,
+        "printedQuestionNumber": 268,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-029.png"
+      }
+    },
+    {
+      "questionId": "book-1-271",
+      "documentId": "textbook",
+      "page": 30,
+      "number": 271,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "CBC and iron-study results are in a shared prose case, already stored in context; no image/table is cited.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        269,
+        270,
+        271
+      ],
+      "sourceContextPage": 30,
+      "sourceEvidence": {
+        "pdfPage": 30,
+        "printedQuestionNumber": 271,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-030.png"
+      }
+    },
+    {
+      "questionId": "book-1-274",
+      "documentId": "textbook",
+      "page": 30,
+      "number": 274,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": true,
+      "disposition": "missing-shared-case-color-plate",
+      "evidence": "The p30 shared instruction names questions272–274. The case explicitly begins “The peripheral blood shown in Color Plate 11”. The same shared-case photograph belongs with all three questions.",
+      "contextInBank": true,
+      "proposedAdditionIds": [
+        "textbook-gap-q272-274-case-plate11"
+      ],
+      "sharedQuestionNumbers": [
+        272,
+        273,
+        274
+      ],
+      "sourceContextPage": 30,
+      "sourceEvidence": {
+        "pdfPage": 30,
+        "printedQuestionNumber": 274,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-030.png"
+      }
+    },
+    {
+      "questionId": "book-1-277",
+      "documentId": "textbook",
+      "page": 31,
+      "number": 277,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "The shared history/CBC is a boxed paragraph, already present in context; it contains no figure reference or table.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        275,
+        276,
+        277
+      ],
+      "sourceContextPage": 31,
+      "sourceEvidence": {
+        "pdfPage": 31,
+        "printedQuestionNumber": 277,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-031.png"
+      }
+    },
+    {
+      "questionId": "book-1-280",
+      "documentId": "textbook",
+      "page": 31,
+      "number": 280,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "The shared history/CBC is a boxed prose paragraph already present in context. Described inclusions are not accompanied by a printed micrograph.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        278,
+        279,
+        280
+      ],
+      "sourceContextPage": 31,
+      "sourceEvidence": {
+        "pdfPage": 31,
+        "printedQuestionNumber": 280,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-031.png"
+      }
+    },
+    {
+      "questionId": "book-1-283",
+      "documentId": "textbook",
+      "page": 32,
+      "number": 283,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "The shared CBC, reticulocyte percentage and morphology are stated in a boxed paragraph and are present in context; there is no actual chart/table/photo.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        281,
+        282,
+        283
+      ],
+      "sourceContextPage": 32,
+      "sourceEvidence": {
+        "pdfPage": 32,
+        "printedQuestionNumber": 283,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-032.png"
+      }
+    },
+    {
+      "questionId": "book-1-284",
+      "documentId": "textbook",
+      "page": 32,
+      "number": 284,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "The shared CBC/differential and marrow findings are in a prose paragraph, already present in context; no picture is printed or cited.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        284,
+        285,
+        286,
+        287,
+        288
+      ],
+      "sourceContextPage": 32,
+      "sourceEvidence": {
+        "pdfPage": 32,
+        "printedQuestionNumber": 284,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-032.png"
+      }
+    },
+    {
+      "questionId": "book-1-33",
+      "documentId": "textbook",
+      "page": 4,
+      "number": 33,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": true,
+      "disposition": "missing-explicit-color-plate",
+      "evidence": "Printed q33 on PDF p4 explicitly says “Color Plate 1”. The current question OCR corrupts the digit and plate marker; the reference was verified directly on the original page.",
+      "contextInBank": false,
+      "proposedAdditionIds": [
+        "textbook-gap-q33-plate1"
+      ],
+      "sourceEvidence": {
+        "pdfPage": 4,
+        "printedQuestionNumber": 33,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-004.png"
+      }
+    },
+    {
+      "questionId": "book-1-74",
+      "documentId": "textbook",
+      "page": 9,
+      "number": 74,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q74 on PDF p9 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 9,
+        "printedQuestionNumber": 74,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-009.png"
+      }
+    },
+    {
+      "questionId": "book-110-22",
+      "documentId": "textbook",
+      "page": 112,
+      "number": 22,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q22 on PDF p112 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 112,
+        "printedQuestionNumber": 22,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-112.png"
+      }
+    },
+    {
+      "questionId": "book-110-85",
+      "documentId": "textbook",
+      "page": 118,
+      "number": 85,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q85 on PDF p118 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 118,
+        "printedQuestionNumber": 85,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-118.png"
+      }
+    },
+    {
+      "questionId": "book-110-98",
+      "documentId": "textbook",
+      "page": 120,
+      "number": 98,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "Immunoglobulin concentrations and T-cell findings are described in the prose stem. The two nearby tables belong to q96/q97, not q98.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 120,
+        "printedQuestionNumber": 98,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-120.png"
+      }
+    },
+    {
+      "questionId": "book-135-105",
+      "documentId": "textbook",
+      "page": 148,
+      "number": 105,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q105 on PDF p148 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 148,
+        "printedQuestionNumber": 105,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-148.png"
+      }
+    },
+    {
+      "questionId": "book-135-12",
+      "documentId": "textbook",
+      "page": 136,
+      "number": 12,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q12 on PDF p136 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 136,
+        "printedQuestionNumber": 12,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-136.png"
+      }
+    },
+    {
+      "questionId": "book-135-13",
+      "documentId": "textbook",
+      "page": 137,
+      "number": 13,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q13 on PDF p137 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 137,
+        "printedQuestionNumber": 13,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-137.png"
+      }
+    },
+    {
+      "questionId": "book-135-133",
+      "documentId": "textbook",
+      "page": 152,
+      "number": 133,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "ABO/Rh, screening, DAT, antibody and phenotyping results are printed as an indented text list, not an antibody-panel chart. The entire list is already included in this app stem; Chart3 and the reaction table belong to q124–132.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 152,
+        "printedQuestionNumber": 133,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-152.png"
+      }
+    },
+    {
+      "questionId": "book-135-14",
+      "documentId": "textbook",
+      "page": 137,
+      "number": 14,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q14 on PDF p137 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 137,
+        "printedQuestionNumber": 14,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-137.png"
+      }
+    },
+    {
+      "questionId": "book-135-140",
+      "documentId": "textbook",
+      "page": 153,
+      "number": 140,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q140 on PDF p153 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 153,
+        "printedQuestionNumber": 140,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-153.png"
+      }
+    },
+    {
+      "questionId": "book-135-144",
+      "documentId": "textbook",
+      "page": 154,
+      "number": 144,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q144 on PDF p154 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 154,
+        "printedQuestionNumber": 144,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-154.png"
+      }
+    },
+    {
+      "questionId": "book-135-146",
+      "documentId": "textbook",
+      "page": 154,
+      "number": 146,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The two antigen-frequency percentages are given directly in the prose stem. No frequency chart or separate input table is printed.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 154,
+        "printedQuestionNumber": 146,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-154.png"
+      }
+    },
+    {
+      "questionId": "book-135-15",
+      "documentId": "textbook",
+      "page": 137,
+      "number": 15,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q15 on PDF p137 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 137,
+        "printedQuestionNumber": 15,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-137.png"
+      }
+    },
+    {
+      "questionId": "book-135-152",
+      "documentId": "textbook",
+      "page": 155,
+      "number": 152,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q152 on PDF p155 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 155,
+        "printedQuestionNumber": 152,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-155.png"
+      }
+    },
+    {
+      "questionId": "book-135-156",
+      "documentId": "textbook",
+      "page": 156,
+      "number": 156,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q156 on PDF p156 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 156,
+        "printedQuestionNumber": 156,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-156.png"
+      }
+    },
+    {
+      "questionId": "book-135-161",
+      "documentId": "textbook",
+      "page": 156,
+      "number": 161,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q161 on PDF p156 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 156,
+        "printedQuestionNumber": 161,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-156.png"
+      }
+    },
+    {
+      "questionId": "book-135-172",
+      "documentId": "textbook",
+      "page": 158,
+      "number": 172,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "reference-to-another-text-question",
+      "evidence": "Printed q172 refers to the clinical reaction described in q171 on the same page. Q171 is a text vignette, not a picture or table. No visual should be added to q172.",
+      "contextInBank": false,
+      "nonvisualFollowup": {
+        "type": "shared-text-context",
+        "sourceQuestionId": "book-135-171",
+        "sourcePage": 158,
+        "reason": "Current q172 has no context field even though its stem requires the reaction described in q171. If questions are shown independently, provide q171’s vignette as text or a question-reference link."
+      },
+      "sourceEvidence": {
+        "pdfPage": 158,
+        "printedQuestionNumber": 172,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-158.png"
+      }
+    },
+    {
+      "questionId": "book-135-18",
+      "documentId": "textbook",
+      "page": 138,
+      "number": 18,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "Volumes and platelet counts are supplied in the shared prose paragraph already stored in context; the printed source does not format it as a separate table or diagram.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceContextPage": 138,
+      "sourceEvidence": {
+        "pdfPage": 138,
+        "printedQuestionNumber": 18,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-138.png"
+      }
+    },
+    {
+      "questionId": "book-135-19",
+      "documentId": "textbook",
+      "page": 138,
+      "number": 19,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "Volumes and platelet counts are supplied in the shared prose paragraph already stored in context; the printed source does not format it as a separate table or diagram.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceContextPage": 138,
+      "sourceEvidence": {
+        "pdfPage": 138,
+        "printedQuestionNumber": 19,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-138.png"
+      }
+    },
+    {
+      "questionId": "book-135-199",
+      "documentId": "textbook",
+      "page": 161,
+      "number": 199,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q199 on PDF p161 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 161,
+        "printedQuestionNumber": 199,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-161.png"
+      }
+    },
+    {
+      "questionId": "book-135-20",
+      "documentId": "textbook",
+      "page": 138,
+      "number": 20,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "Volumes and platelet counts are supplied in the shared prose paragraph already stored in context; the printed source does not format it as a separate table or diagram.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceContextPage": 138,
+      "sourceEvidence": {
+        "pdfPage": 138,
+        "printedQuestionNumber": 20,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-138.png"
+      }
+    },
+    {
+      "questionId": "book-135-209",
+      "documentId": "textbook",
+      "page": 162,
+      "number": 209,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q209 on PDF p162 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 162,
+        "printedQuestionNumber": 209,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-162.png"
+      }
+    },
+    {
+      "questionId": "book-135-21",
+      "documentId": "textbook",
+      "page": 138,
+      "number": 21,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "shared-prose-case-already-in-context",
+      "evidence": "Volumes and platelet counts are supplied in the shared prose paragraph already stored in context; the printed source does not format it as a separate table or diagram.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "sourceContextPage": 138,
+      "sourceEvidence": {
+        "pdfPage": 138,
+        "printedQuestionNumber": 21,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-138.png"
+      }
+    },
+    {
+      "questionId": "book-135-29",
+      "documentId": "textbook",
+      "page": 139,
+      "number": 29,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q29 on PDF p139 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 139,
+        "printedQuestionNumber": 29,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-139.png"
+      }
+    },
+    {
+      "questionId": "book-135-30",
+      "documentId": "textbook",
+      "page": 139,
+      "number": 30,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The four pH/volume pairs are printed inline in the stem and are already present there; no source table or picture is printed.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 139,
+        "printedQuestionNumber": 30,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-139.png"
+      }
+    },
+    {
+      "questionId": "book-135-31",
+      "documentId": "textbook",
+      "page": 139,
+      "number": 31,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q31 on PDF p139 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 139,
+        "printedQuestionNumber": 31,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-139.png"
+      }
+    },
+    {
+      "questionId": "book-135-37",
+      "documentId": "textbook",
+      "page": 140,
+      "number": 37,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "Weight, platelet count and pool size are given in the question sentence; there is no source image or separate data table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 140,
+        "printedQuestionNumber": 37,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-140.png"
+      }
+    },
+    {
+      "questionId": "book-135-43",
+      "documentId": "textbook",
+      "page": 140,
+      "number": 43,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "text-matching-set",
+      "evidence": "This is a component-to-storage-temperature matching set with shared lettered text choices. There is no temperature chart/table image.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "sourceContextPage": 140,
+      "sourceEvidence": {
+        "pdfPage": 140,
+        "printedQuestionNumber": 43,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-140.png"
+      }
+    },
+    {
+      "questionId": "book-135-48",
+      "documentId": "textbook",
+      "page": 141,
+      "number": 48,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "text-matching-set",
+      "evidence": "This is a component-to-shelf-life matching set with shared lettered text choices. The shared prompt/choices are textual, not an input table.",
+      "contextInBank": true,
+      "sharedQuestionNumbers": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "sourceContextPage": 141,
+      "sourceEvidence": {
+        "pdfPage": 141,
+        "printedQuestionNumber": 48,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-141.png"
+      }
+    },
+    {
+      "questionId": "book-135-67",
+      "documentId": "textbook",
+      "page": 142,
+      "number": 67,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q67 on PDF p142 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 142,
+        "printedQuestionNumber": 67,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-142.png"
+      }
+    },
+    {
+      "questionId": "book-135-7",
+      "documentId": "textbook",
+      "page": 136,
+      "number": 7,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q7 on PDF p136 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 136,
+        "printedQuestionNumber": 7,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-136.png"
+      }
+    },
+    {
+      "questionId": "book-135-78",
+      "documentId": "textbook",
+      "page": 144,
+      "number": 78,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q78 on PDF p144 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 144,
+        "printedQuestionNumber": 78,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-144.png"
+      }
+    },
+    {
+      "questionId": "book-135-87",
+      "documentId": "textbook",
+      "page": 145,
+      "number": 87,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q87 on PDF p145 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 145,
+        "printedQuestionNumber": 87,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-145.png"
+      }
+    },
+    {
+      "questionId": "book-135-9",
+      "documentId": "textbook",
+      "page": 136,
+      "number": 9,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q9 on PDF p136 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 136,
+        "printedQuestionNumber": 9,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-136.png"
+      }
+    },
+    {
+      "questionId": "book-135-91",
+      "documentId": "textbook",
+      "page": 145,
+      "number": 91,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q91 on PDF p145 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 145,
+        "printedQuestionNumber": 91,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-145.png"
+      }
+    },
+    {
+      "questionId": "book-203-228",
+      "documentId": "textbook",
+      "page": 225,
+      "number": 228,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "culture-plate-term-without-source-picture",
+      "evidence": "The printed item describes a culture plate or culture findings in words; “plate” here is laboratory equipment/media, not a book color-plate or illustration reference. No picture/table accompanies this exact question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 225,
+        "printedQuestionNumber": 228,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-225.png"
+      }
+    },
+    {
+      "questionId": "book-203-23",
+      "documentId": "textbook",
+      "page": 205,
+      "number": 23,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "culture-plate-term-without-source-picture",
+      "evidence": "The printed item describes a culture plate or culture findings in words; “plate” here is laboratory equipment/media, not a book color-plate or illustration reference. No picture/table accompanies this exact question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 205,
+        "printedQuestionNumber": 23,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-205.png"
+      }
+    },
+    {
+      "questionId": "book-203-239",
+      "documentId": "textbook",
+      "page": 226,
+      "number": 239,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q239 on PDF p226 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 226,
+        "printedQuestionNumber": 239,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-226.png"
+      }
+    },
+    {
+      "questionId": "book-203-252",
+      "documentId": "textbook",
+      "page": 228,
+      "number": 252,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "culture-plate-term-without-source-picture",
+      "evidence": "The printed item describes a culture plate or culture findings in words; “plate” here is laboratory equipment/media, not a book color-plate or illustration reference. No picture/table accompanies this exact question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 228,
+        "printedQuestionNumber": 252,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-228.png"
+      }
+    },
+    {
+      "questionId": "book-203-253",
+      "documentId": "textbook",
+      "page": 228,
+      "number": 253,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "culture-plate-term-without-source-picture",
+      "evidence": "The printed item describes a culture plate or culture findings in words; “plate” here is laboratory equipment/media, not a book color-plate or illustration reference. No picture/table accompanies this exact question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 228,
+        "printedQuestionNumber": 253,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-228.png"
+      }
+    },
+    {
+      "questionId": "book-203-262",
+      "documentId": "textbook",
+      "page": 229,
+      "number": 262,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "culture-plate-term-without-source-picture",
+      "evidence": "The printed item describes a culture plate or culture findings in words; “plate” here is laboratory equipment/media, not a book color-plate or illustration reference. No picture/table accompanies this exact question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 229,
+        "printedQuestionNumber": 262,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-229.png"
+      }
+    },
+    {
+      "questionId": "book-203-45",
+      "documentId": "textbook",
+      "page": 208,
+      "number": 45,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "culture-plate-term-without-source-picture",
+      "evidence": "The printed item describes a culture plate or culture findings in words; “plate” here is laboratory equipment/media, not a book color-plate or illustration reference. No picture/table accompanies this exact question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 208,
+        "printedQuestionNumber": 45,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-208.png"
+      }
+    },
+    {
+      "questionId": "book-203-51",
+      "documentId": "textbook",
+      "page": 208,
+      "number": 51,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "culture-plate-term-without-source-picture",
+      "evidence": "The printed item describes a culture plate or culture findings in words; “plate” here is laboratory equipment/media, not a book color-plate or illustration reference. No picture/table accompanies this exact question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 208,
+        "printedQuestionNumber": 51,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-208.png"
+      }
+    },
+    {
+      "questionId": "book-289-30",
+      "documentId": "textbook",
+      "page": 293,
+      "number": 30,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q30 on PDF p293 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 293,
+        "printedQuestionNumber": 30,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-293.png"
+      }
+    },
+    {
+      "questionId": "book-302-11",
+      "documentId": "textbook",
+      "page": 303,
+      "number": 11,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "Clinical and laboratory observations are a continuous prose case. It describes a smear finding but does not print or cite a smear photograph.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 303,
+        "printedQuestionNumber": 11,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-303.png"
+      }
+    },
+    {
+      "questionId": "book-302-35",
+      "documentId": "textbook",
+      "page": 306,
+      "number": 35,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q35 on PDF p306 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 306,
+        "printedQuestionNumber": 35,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-306.png"
+      }
+    },
+    {
+      "questionId": "book-331-11",
+      "documentId": "textbook",
+      "page": 332,
+      "number": 11,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q11 on PDF p332 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 332,
+        "printedQuestionNumber": 11,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-332.png"
+      }
+    },
+    {
+      "questionId": "book-331-12",
+      "documentId": "textbook",
+      "page": 332,
+      "number": 12,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q12 on PDF p332 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 332,
+        "printedQuestionNumber": 12,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-332.png"
+      }
+    },
+    {
+      "questionId": "book-331-14",
+      "documentId": "textbook",
+      "page": 332,
+      "number": 14,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q14 on PDF p332 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 332,
+        "printedQuestionNumber": 14,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-332.png"
+      }
+    },
+    {
+      "questionId": "book-331-20",
+      "documentId": "textbook",
+      "page": 333,
+      "number": 20,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q20 on PDF p333 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 333,
+        "printedQuestionNumber": 20,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-333.png"
+      }
+    },
+    {
+      "questionId": "book-331-25",
+      "documentId": "textbook",
+      "page": 334,
+      "number": 25,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q25 on PDF p334 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 334,
+        "printedQuestionNumber": 25,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-334.png"
+      }
+    },
+    {
+      "questionId": "book-331-26",
+      "documentId": "textbook",
+      "page": 334,
+      "number": 26,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q26 on PDF p334 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 334,
+        "printedQuestionNumber": 26,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-334.png"
+      }
+    },
+    {
+      "questionId": "book-331-39",
+      "documentId": "textbook",
+      "page": 335,
+      "number": 39,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q39 on PDF p335 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 335,
+        "printedQuestionNumber": 39,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-335.png"
+      }
+    },
+    {
+      "questionId": "book-351-14",
+      "documentId": "textbook",
+      "page": 353,
+      "number": 14,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q14 on PDF p353 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 353,
+        "printedQuestionNumber": 14,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-353.png"
+      }
+    },
+    {
+      "questionId": "book-373-3",
+      "documentId": "textbook",
+      "page": 373,
+      "number": 3,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "chapter-reference-only",
+      "evidence": "Q3 is a text calculation with no individual image/table citation. A chapter-wide footnote on p373 points to the periodic table on p380 (printed p967); that general reference is not a question-specific table. It remains a source-PDF reference rather than an arbitrary added image.",
+      "contextInBank": false,
+      "referencePage": 380,
+      "sourceEvidence": {
+        "pdfPage": 373,
+        "printedQuestionNumber": 3,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-373.png"
+      }
+    },
+    {
+      "questionId": "book-373-55",
+      "documentId": "textbook",
+      "page": 378,
+      "number": 55,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q55 on PDF p378 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 378,
+        "printedQuestionNumber": 55,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-378.png"
+      }
+    },
+    {
+      "questionId": "book-373-56",
+      "documentId": "textbook",
+      "page": 379,
+      "number": 56,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "The item asks about the meaning and scales of graphs. No graph is supplied, cited or needed as a source input.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 379,
+        "printedQuestionNumber": 56,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-379.png"
+      }
+    },
+    {
+      "questionId": "book-373-57",
+      "documentId": "textbook",
+      "page": 379,
+      "number": 57,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q57 on PDF p379 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 379,
+        "printedQuestionNumber": 57,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-379.png"
+      }
+    },
+    {
+      "questionId": "book-399-10",
+      "documentId": "textbook",
+      "page": 400,
+      "number": 10,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q10 on PDF p400 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 400,
+        "printedQuestionNumber": 10,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-400.png"
+      }
+    },
+    {
+      "questionId": "book-399-18",
+      "documentId": "textbook",
+      "page": 401,
+      "number": 18,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "The stem asks how a Levey–Jennings chart is prepared; no chart is printed as a question input.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 401,
+        "printedQuestionNumber": 18,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-401.png"
+      }
+    },
+    {
+      "questionId": "book-399-20",
+      "documentId": "textbook",
+      "page": 401,
+      "number": 20,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "The item asks about interpretation criteria in words. It mentions charts but supplies no actual plotted data.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 401,
+        "printedQuestionNumber": 20,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-401.png"
+      }
+    },
+    {
+      "questionId": "book-399-21",
+      "documentId": "textbook",
+      "page": 401,
+      "number": 21,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "The item asks how a calibrator error would appear on a chart; choices describe trends/shifts in words, with no chart input.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 401,
+        "printedQuestionNumber": 21,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-401.png"
+      }
+    },
+    {
+      "questionId": "book-399-22",
+      "documentId": "textbook",
+      "page": 401,
+      "number": 22,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The digoxin control interval is supplied in the question sentence. No plotted distribution/chart is supplied as an input.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 401,
+        "printedQuestionNumber": 22,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-401.png"
+      }
+    },
+    {
+      "questionId": "book-399-26",
+      "documentId": "textbook",
+      "page": 402,
+      "number": 26,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "The choices state possible plotted patterns as text. No quality-control plot is printed for this question.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 402,
+        "printedQuestionNumber": 26,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-402.png"
+      }
+    },
+    {
+      "questionId": "book-399-27",
+      "documentId": "textbook",
+      "page": 402,
+      "number": 27,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "The item asks which action produces a shift; no plotted control data or chart is printed.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 402,
+        "printedQuestionNumber": 27,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-402.png"
+      }
+    },
+    {
+      "questionId": "book-399-44",
+      "documentId": "textbook",
+      "page": 404,
+      "number": 44,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The two bilirubin results are in successive sentences; no chemistry-profile table/chart is printed for q44.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 404,
+        "printedQuestionNumber": 44,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-404.png"
+      }
+    },
+    {
+      "questionId": "book-399-52",
+      "documentId": "textbook",
+      "page": 405,
+      "number": 52,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q52 on PDF p405 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 405,
+        "printedQuestionNumber": 52,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-405.png"
+      }
+    },
+    {
+      "questionId": "book-399-59",
+      "documentId": "textbook",
+      "page": 406,
+      "number": 59,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q59 on PDF p406 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 406,
+        "printedQuestionNumber": 59,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-406.png"
+      }
+    },
+    {
+      "questionId": "book-399-68",
+      "documentId": "textbook",
+      "page": 407,
+      "number": 68,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q68 on PDF p407 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 407,
+        "printedQuestionNumber": 68,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-407.png"
+      }
+    },
+    {
+      "questionId": "book-399-81",
+      "documentId": "textbook",
+      "page": 409,
+      "number": 81,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q81 on PDF p409 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 409,
+        "printedQuestionNumber": 81,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-409.png"
+      }
+    },
+    {
+      "questionId": "book-86-10",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 10,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q10 on PDF p87 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 10,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    },
+    {
+      "questionId": "book-86-11",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 11,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q11 on PDF p87 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 11,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    },
+    {
+      "questionId": "book-86-12",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 12,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q12 on PDF p87 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 12,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    },
+    {
+      "questionId": "book-86-13",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 13,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "The item asks for a textual description of a normal platelet histogram. No histogram is printed for q13; the neighboring actual tracing is part of q7.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 13,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    },
+    {
+      "questionId": "book-86-14",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 14,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q14 on PDF p87 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 14,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    },
+    {
+      "questionId": "book-86-15",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 15,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q15 on PDF p87 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 15,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    },
+    {
+      "questionId": "book-86-16",
+      "documentId": "textbook",
+      "page": 88,
+      "number": 16,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "Dilution volumes and chamber count are stated in the calculation stem. No chamber diagram or result table is printed.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 88,
+        "printedQuestionNumber": 16,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-088.png"
+      }
+    },
+    {
+      "questionId": "book-86-17",
+      "documentId": "textbook",
+      "page": 88,
+      "number": 17,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q17 on PDF p88 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 88,
+        "printedQuestionNumber": 17,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-088.png"
+      }
+    },
+    {
+      "questionId": "book-86-18",
+      "documentId": "textbook",
+      "page": 88,
+      "number": 18,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q18 on PDF p88 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 88,
+        "printedQuestionNumber": 18,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-088.png"
+      }
+    },
+    {
+      "questionId": "book-86-2",
+      "documentId": "textbook",
+      "page": 86,
+      "number": 2,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q2 on PDF p86 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 86,
+        "printedQuestionNumber": 2,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-086.png"
+      }
+    },
+    {
+      "questionId": "book-86-26",
+      "documentId": "textbook",
+      "page": 88,
+      "number": 26,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q26 on PDF p88 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 88,
+        "printedQuestionNumber": 26,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-088.png"
+      }
+    },
+    {
+      "questionId": "book-86-35",
+      "documentId": "textbook",
+      "page": 89,
+      "number": 35,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q35 on PDF p89 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 89,
+        "printedQuestionNumber": 35,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-089.png"
+      }
+    },
+    {
+      "questionId": "book-86-38",
+      "documentId": "textbook",
+      "page": 90,
+      "number": 38,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q38 on PDF p90 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 90,
+        "printedQuestionNumber": 38,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-090.png"
+      }
+    },
+    {
+      "questionId": "book-86-39",
+      "documentId": "textbook",
+      "page": 90,
+      "number": 39,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q39 on PDF p90 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 90,
+        "printedQuestionNumber": 39,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-090.png"
+      }
+    },
+    {
+      "questionId": "book-86-4",
+      "documentId": "textbook",
+      "page": 86,
+      "number": 4,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q4 on PDF p86 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 86,
+        "printedQuestionNumber": 4,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-086.png"
+      }
+    },
+    {
+      "questionId": "book-86-40",
+      "documentId": "textbook",
+      "page": 90,
+      "number": 40,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q40 on PDF p90 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 90,
+        "printedQuestionNumber": 40,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-090.png"
+      }
+    },
+    {
+      "questionId": "book-86-43",
+      "documentId": "textbook",
+      "page": 90,
+      "number": 43,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q43 on PDF p90 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 90,
+        "printedQuestionNumber": 43,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-090.png"
+      }
+    },
+    {
+      "questionId": "book-86-45",
+      "documentId": "textbook",
+      "page": 90,
+      "number": 45,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q45 on PDF p90 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 90,
+        "printedQuestionNumber": 45,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-090.png"
+      }
+    },
+    {
+      "questionId": "book-86-46",
+      "documentId": "textbook",
+      "page": 91,
+      "number": 46,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q46 on PDF p91 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 91,
+        "printedQuestionNumber": 46,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-091.png"
+      }
+    },
+    {
+      "questionId": "book-86-48",
+      "documentId": "textbook",
+      "page": 91,
+      "number": 48,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q48 on PDF p91 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 91,
+        "printedQuestionNumber": 48,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-091.png"
+      }
+    },
+    {
+      "questionId": "book-86-5",
+      "documentId": "textbook",
+      "page": 86,
+      "number": 5,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "This is a text question about a biphasic aggregation curve. It does not cite the tracing that is printed later inside q7.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 86,
+        "printedQuestionNumber": 5,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-086.png"
+      }
+    },
+    {
+      "questionId": "book-86-56",
+      "documentId": "textbook",
+      "page": 92,
+      "number": 56,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The numerical platelet count and smear estimate are contained in the printed clinical vignette; there is no actual smear photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 92,
+        "printedQuestionNumber": 56,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-092.png"
+      }
+    },
+    {
+      "questionId": "book-86-58",
+      "documentId": "textbook",
+      "page": 92,
+      "number": 58,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "Automated count and smear observations are stated in prose, with no actual micrograph or image reference.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 92,
+        "printedQuestionNumber": 58,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-092.png"
+      }
+    },
+    {
+      "questionId": "book-86-59",
+      "documentId": "textbook",
+      "page": 93,
+      "number": 59,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q59 on PDF p93 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 93,
+        "printedQuestionNumber": 59,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-093.png"
+      }
+    },
+    {
+      "questionId": "book-86-6",
+      "documentId": "textbook",
+      "page": 86,
+      "number": 6,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "graph-or-chart-concept-without-source-graphic",
+      "evidence": "This is a text question about an aggregating agent and curve type. No tracing is printed for this item.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 86,
+        "printedQuestionNumber": 6,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-086.png"
+      }
+    },
+    {
+      "questionId": "book-86-63",
+      "documentId": "textbook",
+      "page": 94,
+      "number": 63,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "clinical-or-numerical-data-already-in-text",
+      "evidence": "The platelet count and clinical timing are in the prose case. The three actual tables on p94 belong to q62/q64/q65, not q63.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 94,
+        "printedQuestionNumber": 63,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-094.png"
+      }
+    },
+    {
+      "questionId": "book-86-8",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 8,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q8 on PDF p87 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 8,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    },
+    {
+      "questionId": "book-86-9",
+      "documentId": "textbook",
+      "page": 87,
+      "number": 9,
+      "printedQuestionVerified": true,
+      "sharedContextReviewed": true,
+      "reviewMethod": "Exact printed question and adjacent/shared context visually inspected on original full page",
+      "visualAdditionRequired": false,
+      "disposition": "ordinary-text-question",
+      "evidence": "Printed q9 on PDF p87 consists of a text stem and lettered text choices. It supplies and cites no question-input diagram, chart, photograph or table.",
+      "contextInBank": false,
+      "sourceEvidence": {
+        "pdfPage": 87,
+        "printedQuestionNumber": 9,
+        "pageImage": "/tmp/labwise-visual-audit/textbook-gap/page-087.png"
+      }
+    }
+  ]
+}

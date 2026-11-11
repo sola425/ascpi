@@ -1,0 +1,1188 @@
+[
+  {
+    "questionId": "boc-1-218",
+    "documentId": "boc1",
+    "page": 51,
+    "printedPage": 31,
+    "number": 218,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text result combinations",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The stem asks which results accompany a drug-independent antibody. Each of the four choices contains its own DAT / antibody-screen / eluate result combination as prose. No printed reaction grid, illustration or shared figure is supplied.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      593.93,
+      542.0,
+      674.31
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[0]",
+        "current": "positive direct antiglobulin test (DAT) with lgG; positive antibody screen",
+        "sourceText": "positive direct antiglobulin test (DAT) with IgG; positive antibody screen",
+        "reason": "Uppercase I in IgG was transcribed as lowercase l."
+      },
+      {
+        "field": "options[1]",
+        "current": "positive DAT with lgG; negative eluate",
+        "sourceText": "positive DAT with IgG; negative eluate",
+        "reason": "Uppercase I in IgG was transcribed as lowercase l."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-1-274",
+    "documentId": "boc1",
+    "page": 63,
+    "printedPage": 43,
+    "number": 274,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text phenotype choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The stem itself states that anti-M reacts more strongly with homozygous M+ cells. Four M/N/S/s phenotype strings are printed as ordinary choices; there is no antibody panel graphic or external panel reference.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      82.24,
+      542.0,
+      176.0
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-29",
+    "documentId": "boc1",
+    "page": 25,
+    "printedPage": 5,
+    "number": 29,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Numerical text choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The printed item consists of a one-line storage-temperature question and four temperature choices: −80°C, −20°C, −12°C and 4°C. No chart, table or photograph accompanies it.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      81.35,
+      542.0,
+      149.08
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[0]",
+        "current": "-so·c",
+        "sourceText": "-80°C",
+        "reason": "The source clearly prints −80°C; the active OCR text reads “-so·c”. This is a text correction, not a missing visual."
+      },
+      {
+        "field": "options[1]",
+        "current": "-2o·c",
+        "sourceText": "-20°C",
+        "reason": "The source clearly prints −20°C; the active OCR text uses letter o in place of zero."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-1-291",
+    "documentId": "boc1",
+    "page": 65,
+    "printedPage": 45,
+    "number": 291,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text clinical scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The storage/return scenario states the unit temperature of 12°C directly in the paragraph, followed by four action choices. The source contains no temperature chart or image of the unit.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      406.29,
+      542.0,
+      533.21
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-298",
+    "documentId": "boc1",
+    "page": 66,
+    "printedPage": 46,
+    "number": 298,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text laboratory scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The panel result is summarized verbally as presumptive evidence of an antibody to a high-incidence antigen. No panel data rows or figure are printed for this item; four investigation choices follow.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The phenotype table earlier on page 66 belongs to printed question 296 and is not referenced by question 298."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      505.32,
+      542.0,
+      597.41
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-314",
+    "documentId": "boc1",
+    "page": 69,
+    "printedPage": 49,
+    "number": 314,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text laboratory results",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "All necessary observations are prose: weak 1+w reactions with 16 of 16 group O panel cells, a negative autocontrol, and no reactivity with ficin-treated cells. The source supplies four antibody-name choices, with no 16-cell panel image.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The tables belonging to questions 310 and 311 on page 69 are separate inputs; question 314 contains its own verbal reaction observations and does not refer to either table."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      537.57,
+      542.0,
+      629.32
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-331",
+    "documentId": "boc1",
+    "page": 73,
+    "printedPage": 53,
+    "number": 331,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text laboratory scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The stem states 2+ antiglobulin reactivity with all panel cells including the patient’s own and a transfusion six months earlier. Four adsorption-method choices are text. No actual panel matrix or method diagram is printed.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      80.46,
+      542.0,
+      182.26
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "question",
+        "current": "A patient's serum is reactive 2+ in the antiglobulin phase of testing with all cells on a routine\n~v panel including their own. There had been 2 units of Red Blood Cells transfused 6-months\npreviously. The optimal adsorption method to remove the autoantibody is:",
+        "sourceText": "A patient's serum is reactive 2+ in the antiglobulin phase of testing with all cells on a routine\npanel including their own. There had been 2 units of Red Blood Cells transfused 6-months\npreviously. The optimal adsorption method to remove the autoantibody is:",
+        "reason": "Remove the OCR fragment of the MLS ONLY margin label; it is not part of the printed sentence."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-1-342",
+    "documentId": "boc1",
+    "page": 75,
+    "printedPage": 55,
+    "number": 342,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text laboratory scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "Anti-E identification and failure of check cells to agglutinate are described in prose. Four course-of-action choices follow. No panel matrix is shown for this item.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The calibration table below belongs to printed question 343. Question 342 does not refer to it, so it must not inherit that table."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      102.1,
+      542.0,
+      192.52
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-35",
+    "documentId": "boc1",
+    "page": 25,
+    "printedPage": 5,
+    "number": 35,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Numerical text choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The −18°C storage condition is in the stem. The choices are four shelf-life durations written as a list; there is no shelf-life table or graph.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      518.36,
+      542.0,
+      587.34
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-371",
+    "documentId": "boc1",
+    "page": 79,
+    "printedPage": 59,
+    "number": 371,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text blood-group choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The stem states group AB, Rh-negative and the need for two units of plasma. Four ABO/Rh unit descriptions are text choices, not a compatibility table or figure.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      410.41,
+      542.0,
+      489.45
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[0]",
+        "current": "group 0, Rh-negative",
+        "sourceText": "group O, Rh-negative",
+        "reason": "The printed blood group is the letter O, rather than the digit 0."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-1-386",
+    "documentId": "boc1",
+    "page": 81,
+    "printedPage": 61,
+    "number": 386,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Numerical text choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The item asks when a weak antibody is typically detectable after transfusion. Four time intervals are ordinary choices; there is no reaction timeline graphic.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      306.37,
+      542.0,
+      396.79
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-40",
+    "documentId": "boc1",
+    "page": 26,
+    "printedPage": 6,
+    "number": 40,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text transfusion-service scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The incomplete leaking weld, resealing, and expiration question are all described in words. Four duration choices follow; the source does not show a weld photograph or device diagram.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      243.54,
+      542.0,
+      372.47
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-1-419",
+    "documentId": "boc1",
+    "page": 85,
+    "printedPage": 65,
+    "number": 419,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text clinical scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The transfusion symptoms and time interval are written in the stem. Four possible laboratory findings are prose choices; the source includes no sample photograph or results table.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      624.42,
+      542.0,
+      740.0
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-2-196",
+    "documentId": "boc1",
+    "page": 161,
+    "printedPage": 141,
+    "number": 196,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text assay-validation scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The CEA EIA reference-range difference and acceptable control coefficient of variation are described in words. Four possible explanations follow, without a distribution plot or control chart.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The electrophoresis graph near the top of page 161 belongs to printed question 193. The separate CEA EIA question 196 does not reference that graph."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      462.89,
+      542.0,
+      555.66
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "question",
+        "current": "In developing the reference for a new EIA for CEA, the range for the normal population is\n~t~v broader than that published by the vendor. Controls are acceptable with a narrow coefficient\nof variation. This may be explained by:",
+        "sourceText": "In developing the reference for a new EIA for CEA, the range for the normal population is\nbroader than that published by the vendor. Controls are acceptable with a narrow coefficient\nof variation. This may be explained by:",
+        "reason": "Remove an OCR fragment from the MLS ONLY margin label."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-2-20",
+    "documentId": "boc1",
+    "page": 132,
+    "printedPage": 112,
+    "number": 20,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text condition choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The ion-exchange HbA₁c question has four disease/variant names as choices. No chromatogram, electrophoresis trace or linked shared illustration is present for this item.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      82.57,
+      542.0,
+      158.82
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "The source has handwritten option-circle markup. It is not a question input and must not be exported before answering."
+    ],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-2-27",
+    "documentId": "boc1",
+    "page": 132,
+    "printedPage": 112,
+    "number": 27,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text analyte choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The room-temperature eight-hour delay appears in the stem and four serum constituents appear as choices. The source has no stability graph or specimen-results table.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      60,
+      592.26,
+      542.0,
+      670.3
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "The source has handwritten option-circle markup. It is not a question input and must not be exported before answering."
+    ],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-2-353",
+    "documentId": "boc1",
+    "page": 185,
+    "printedPage": 165,
+    "number": 353,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text condition choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The lower-protein / higher-free-drug relationship is stated in prose, followed by four condition names. There is no protein-binding illustration or measured drug-level table.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      80.0,
+      542.0,
+      160.92
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "question",
+        "current": "Free therapeutic drug levels are usually higher when serum protein concentrations are below\nnormal. In which of the following conditions would this most likely occur?\nMLs",
+        "sourceText": "Free therapeutic drug levels are usually higher when serum protein concentrations are below\nnormal. In which of the following conditions would this most likely occur?",
+        "reason": "The trailing MLS label is a margin label and does not belong to the question sentence."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-2-363",
+    "documentId": "boc1",
+    "page": 186,
+    "printedPage": 166,
+    "number": 363,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text chromatography terminology",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The item asks what reverse phase implies about an eluant. The source gives four verbal definitions, not a chromatogram or column schematic.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      221.1,
+      542.0,
+      327.6
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-2-69",
+    "documentId": "boc1",
+    "page": 138,
+    "printedPage": 118,
+    "number": 69,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text reagent-test principle",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The word “tablet” refers to the bilirubin reagent test. Four reaction/color statements are text choices; no tablet image, chemical diagram or numerical table is printed.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The serial bilirubin table on page 138 belongs to question 65. The bilirubin-tablet chemistry item 69 has its own complete text and no shared input reference."
+    },
+    "sourceQuestionInspectionRect": [
+      60,
+      672.21,
+      542.0,
+      760
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[3]",
+        "current": "chemical coupling of bilirubin with a diazonium salt to make a purple color\n- - - - - ' - - - - - - -",
+        "sourceText": "chemical coupling of bilirubin with a diazonium salt to make a purple color",
+        "reason": "Remove the OCR fragment of the page divider; the printed option is complete text, without an image."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-2-98",
+    "documentId": "boc1",
+    "page": 144,
+    "printedPage": 124,
+    "number": 98,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text laboratory time-course choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The four choices describe enzyme timing or isoenzyme relationships in words. There is no accompanying enzyme time-course graph or results table.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      84.01,
+      542.0,
+      165.05
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[0]",
+        "current": "LO isoenzyme 1 elevates higher than LO isoenzyme 2 within 72 hours",
+        "sourceText": "LD isoenzyme 1 elevates higher than LD isoenzyme 2 within 72 hours",
+        "reason": "The printed abbreviation is LD in both isoenzyme names."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-3-49",
+    "documentId": "boc1",
+    "page": 225,
+    "printedPage": 205,
+    "number": 49,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text reagent choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "“Tablet test” names the ketone test in the stem. Four reagent names are printed as choices; there is no tablet photograph or reaction table.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      60,
+      660.71,
+      542.0,
+      760
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[3]",
+        "current": "glacial acetic acid\n- ~ - - - -",
+        "sourceText": "glacial acetic acid",
+        "reason": "Remove the OCR fragment of the page divider; the printed option is complete text, without an image."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-3-62",
+    "documentId": "boc1",
+    "page": 227,
+    "printedPage": 207,
+    "number": 62,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text named-test choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "Four test names are the choices for a historical bilirubin confirmation question. “Tablet tests” is terminology; the source supplies no photographs or comparison table.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      393.46,
+      542.0,
+      474.94
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[2]",
+        "current": "lctotest®",
+        "sourceText": "Ictotest®",
+        "reason": "The printed test name starts with uppercase I: Ictotest."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-3-65",
+    "documentId": "boc1",
+    "page": 227,
+    "printedPage": 207,
+    "number": 65,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text color-result scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The pink surrounding mat is described in words, followed by four reporting terms. No photograph of a colored mat or color reference card is printed.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      648.74,
+      542.0,
+      740.0
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[3]",
+        "current": "nonreactive\n- ~ - - - -",
+        "sourceText": "nonreactive",
+        "reason": "Remove the OCR fragment of the page divider; the printed option is complete text, without an image."
+      },
+      {
+        "field": "question",
+        "current": "Development of a pink color on the absorbent mat surrounding an lctotest® tablet should be\nreported as:",
+        "sourceText": "Development of a pink color on the absorbent mat surrounding an Ictotest® tablet should be\nreported as:",
+        "reason": "The printed test name starts with uppercase I: Ictotest."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-3-66",
+    "documentId": "boc1",
+    "page": 228,
+    "printedPage": 208,
+    "number": 66,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text color-result scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The dark-purple Ictotest mat is a verbal observation in the stem. Four analyte names are choices; no mat photograph or color chart accompanies them.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      82.67,
+      542.0,
+      164.04
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "question",
+        "current": "The absorbent mat surrounding an lctotest® tablet develops a dark purple color. This reaction\nindicates the presence of which of the following?",
+        "sourceText": "The absorbent mat surrounding an Ictotest® tablet develops a dark purple color. This reaction\nindicates the presence of which of the following?",
+        "reason": "The printed test name starts with uppercase I: Ictotest."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-3-68",
+    "documentId": "boc1",
+    "page": 228,
+    "printedPage": 208,
+    "number": 68,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text color-result scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The Acetest tablet’s dark-purple surface is described verbally. Four analyte names are text choices, without a tablet photograph or chart.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      245.55,
+      542.0,
+      326.93
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-3-69",
+    "documentId": "boc1",
+    "page": 228,
+    "printedPage": 208,
+    "number": 69,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text clinical laboratory scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The infant’s history, negative glucose-oxidase strip, and historical copper-reduction tablet test are written in the stem. Four analyte names follow; no infant laboratory-results table or test photograph is supplied.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      326.93,
+      542.0,
+      420.02
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-4-100",
+    "documentId": "boc1",
+    "page": 298,
+    "printedPage": 294,
+    "number": 100,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Numerical threshold in prose",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The granulocyte threshold 7.5 × 10³/µL (7.5 × 10⁹/L) is printed inline in the stem, followed by four terminology choices. There is no differential table or image.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      540.15,
+      542.0,
+      610.14
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-4-101",
+    "documentId": "boc1",
+    "page": 298,
+    "printedPage": 294,
+    "number": 101,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Numerical threshold in prose",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The total white-cell threshold 11.0 × 10³/µL (11 × 10⁹/L) is printed inline. Four terminology choices follow, with no cell-count table or photograph.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      610.14,
+      542.0,
+      680.46
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-4-102",
+    "documentId": "boc1",
+    "page": 298,
+    "printedPage": 294,
+    "number": 102,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Numerical threshold in prose",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The lymphocyte threshold above 45% is stated in the stem. Four terminology choices are a text list; no differential table or image is supplied.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      60,
+      680.46,
+      542.0,
+      760
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[3]",
+        "current": "absolute neutrophilic leukocytosis\n-----------------------------",
+        "sourceText": "absolute neutrophilic leukocytosis",
+        "reason": "Remove the OCR fragment of the page divider; the printed option is complete text, without an image."
+      }
+    ]
+  },
+  {
+    "questionId": "boc-4-166",
+    "documentId": "boc1",
+    "page": 308,
+    "printedPage": 304,
+    "number": 166,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text cytogenetic choices",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "Four named cytogenetic abnormalities are printed as text choices for a prognosis question. No karyotype, chromosome photograph or FISH image is present or referenced.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      81.69,
+      542.0,
+      163.06
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-4-222",
+    "documentId": "boc1",
+    "page": 318,
+    "printedPage": 314,
+    "number": 222,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text instrument-control scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "The stem describes one MCV control slightly below range and asks for an action. No actual control values, Levey–Jennings chart or analyzer screenshot is printed for this item.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The CBC table earlier on page 318 belongs to question 220. Question 222 is a separate control-action item and does not refer to that table."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      501.28,
+      542.0,
+      582.66
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [],
+    "textFidelityStatus": "no-material-text-gap-observed"
+  },
+  {
+    "questionId": "boc-4-83",
+    "documentId": "boc1",
+    "page": 295,
+    "printedPage": 291,
+    "number": 83,
+    "status": "reviewed",
+    "disposition": "no-separate-visual-input",
+    "contentType": "Text diagnostic-criteria scenario",
+    "requiredVisual": false,
+    "visualGap": false,
+    "proposeAddition": false,
+    "needsSourceRecommendation": "clear-broad-visual-hint-after-any-listed-text-correction",
+    "evidence": "Increased red-cell mass and low erythropoietin are stated in the stem. Four diagnostic-criterion / mutation names follow as text. No marrow photograph, mutation diagram or results table is printed.",
+    "sharedContextReview": {
+      "explicitSharedVisualReference": false,
+      "finding": "The printed item contains no reference to another figure, table, numbered illustration or shared visual context."
+    },
+    "sourceQuestionInspectionRect": [
+      66.0,
+      581.19,
+      542.0,
+      740.0
+    ],
+    "reviewMethod": [
+      "original full-page context reviewed during the 333-page audit",
+      "exact printed question and all four text choices visually rechecked in a source crop in this gap pass"
+    ],
+    "runtimeVisualIds": [],
+    "notes": [
+      "Text corrections are evidence/proposals only; the active question bank was not changed."
+    ],
+    "textFidelityStatus": "source-text-cleanup-recorded",
+    "textCorrections": [
+      {
+        "field": "options[3]",
+        "current": "BCRIABL 1 translocation",
+        "sourceText": "BCR/ABL1 translocation",
+        "reason": "The source prints a slash between BCR and ABL1, not letter I."
+      }
+    ]
+  }
+]

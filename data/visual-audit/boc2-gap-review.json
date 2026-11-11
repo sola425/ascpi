@@ -1,0 +1,492 @@
+[
+  {
+    "questionId": "boc-5-125",
+    "documentId": "boc2",
+    "page": 54,
+    "printedPage": 383,
+    "questionRegionRect": [
+      52.0,
+      82.562,
+      555.0,
+      160.932
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "neighboring-input-unrelated",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The printed item asks which properties thromboelastography evaluates and has four text options. The two separate tracings farther down the page are explicitly introduced by questions 126 and 127; neither is referenced by question 125.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-5-153",
+    "documentId": "boc2",
+    "page": 58,
+    "printedPage": 387,
+    "questionRegionRect": [
+      52.0,
+      83.019,
+      555.0,
+      162.729
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "inline-numerical-data",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The printed item gives aPTT 24 seconds and the 25–35 seconds reference interval directly in the sentence. Both values are present in the active bank stem. No separate data table or figure accompanies this item; the table lower on the page belongs to question 157.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-6-13",
+    "documentId": "boc2",
+    "page": 85,
+    "printedPage": 414,
+    "questionRegionRect": [
+      52.0,
+      679.912,
+      555.0,
+      745.0
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The specimen-request acceptability item consists of a text stem and four text choices at the bottom of the page. The complete page has no question graphic, data table, or shared visual reference.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-6-29",
+    "documentId": "boc2",
+    "page": 88,
+    "printedPage": 417,
+    "questionRegionRect": [
+      52.0,
+      373.796,
+      555.0,
+      452.153
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The differential-medium identification item consists of a text description and four named text choices. The complete page contains only text questions; there is no supplied photograph, diagram, table, or shared visual input.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-6-3",
+    "documentId": "boc2",
+    "page": 84,
+    "printedPage": 413,
+    "questionRegionRect": [
+      52.0,
+      533.457,
+      555.0,
+      600.981
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The specimen-group acceptability item consists of a text stem and four paired text choices. The chapter opening and subsection headings supply no common diagram or table for this question.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-6-30",
+    "documentId": "boc2",
+    "page": 88,
+    "printedPage": 417,
+    "questionRegionRect": [
+      52.0,
+      453.153,
+      555.0,
+      531.853
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The anticoagulant-selection item is printed as a text stem and four paired text choices. The complete source page has no accompanying or shared graphic or table.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-6-33",
+    "documentId": "boc2",
+    "page": 88,
+    "printedPage": 417,
+    "questionRegionRect": [
+      52.0,
+      681.543,
+      555.0,
+      745.0
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The specimen-source item is printed at the page bottom as a text stem and four text choices. It does not refer to a supplied picture or table, and no shared visual is printed on the page.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-6-51",
+    "documentId": "boc2",
+    "page": 92,
+    "printedPage": 421,
+    "questionRegionRect": [
+      52.0,
+      477.062,
+      555.0,
+      580.309
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "neighboring-input-unrelated",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The printed clinical scenario and four options are entirely text. The test/result table immediately above is introduced within question 50 and ends before its own options; question 51 starts a separate scenario and does not reference that table.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-132",
+    "documentId": "boc2",
+    "page": 216,
+    "printedPage": 545,
+    "questionRegionRect": [
+      52.0,
+      121.519,
+      555.0,
+      213.279
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "inline-numerical-data",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "All inputs are inline: 1 mL specimen, 9 mL water, and a 350 U/L reading. These inputs are present in the active bank stem. The dilution item has four text options and no separate graphic or data table.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-16",
+    "documentId": "boc2",
+    "page": 200,
+    "printedPage": 529,
+    "questionRegionRect": [
+      52.0,
+      571.162,
+      555.0,
+      674.642
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "inline-numerical-data",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The printed sentence supplies all data: 30 determinations, mean 5.8 mg/dL, standard deviation 0.15 mg/dL, and limits at ±2 standard deviations. These are present in the bank stem. The Levey–Jennings chart higher on the same page is expressly introduced by question 13, not this item.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-175",
+    "documentId": "boc2",
+    "page": 221,
+    "printedPage": 550,
+    "questionRegionRect": [
+      52.0,
+      585.572,
+      555.0,
+      745.0
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "inline-numerical-data",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "Mean 15.2 g/dL, standard deviation 0.20, and ±2 standard-deviation limits are printed inline and preserved in the active bank stem. The surrounding headings introduce statistical topics, with no shared data table, chart, or illustration.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-181",
+    "documentId": "boc2",
+    "page": 222,
+    "printedPage": 551,
+    "questionRegionRect": [
+      52.0,
+      439.445,
+      555.0,
+      531.205
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "inline-numerical-data",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The two-standard-deviation limit and 100 control runs are supplied directly in the printed sentence and active bank stem. Its answer choices are numbers in a plain list; the page has no supplied chart or table.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-234",
+    "documentId": "boc2",
+    "page": 230,
+    "printedPage": 559,
+    "questionRegionRect": [
+      52.0,
+      101.654,
+      555.0,
+      170.304
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The chromatography-principle item is a text stem with four text choices. The chromatography subsection heading does not introduce a common illustration or table; the entire page contains only text items.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-235",
+    "documentId": "boc2",
+    "page": 230,
+    "printedPage": 559,
+    "questionRegionRect": [
+      52.0,
+      171.304,
+      555.0,
+      240.294
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The gel-filtration item asks a conceptual separation question using a text stem and four text choices. No supplied figure, table, or shared visual accompanies it on this all-text source page.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-236",
+    "documentId": "boc2",
+    "page": 230,
+    "printedPage": 559,
+    "questionRegionRect": [
+      52.0,
+      241.294,
+      555.0,
+      309.614
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "inline-numerical-data",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The R_f value 0.5 is stated in the printed sentence, followed by four text interpretations. No chromatogram or distance diagram is supplied or referenced. The active bank retains 0.5, although the R_f notation has an OCR formatting issue.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank.",
+    "textOnlyCorrectionSuggestion": {
+      "currentBankNotation": "R,",
+      "sourceNotation": "R_f",
+      "note": "Source prints R with a subscript f; no visual needs adding. Bank has not been edited."
+    }
+  },
+  {
+    "questionId": "boc-7-238",
+    "documentId": "boc2",
+    "page": 230,
+    "printedPage": 559,
+    "questionRegionRect": [
+      52.0,
+      391.994,
+      555.0,
+      460.314
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The gas-liquid chromatography item is entirely a text stem and four text choices. No diagram, chromatogram, data table, or common visual is printed on the page.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-239",
+    "documentId": "boc2",
+    "page": 230,
+    "printedPage": 559,
+    "questionRegionRect": [
+      52.0,
+      461.314,
+      555.0,
+      541.694
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The column-chromatography item asks for a true text statement and provides four text choices. Its source page has no shared chart, image, or table.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-240",
+    "documentId": "boc2",
+    "page": 230,
+    "printedPage": 559,
+    "questionRegionRect": [
+      52.0,
+      542.694,
+      555.0,
+      611.344
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The item asks for the definition of R_f using four text options. It supplies no chromatogram or other visual input, and the page heading does not introduce a shared visual. The bank notation has an OCR formatting issue, not an omitted image.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank.",
+    "textOnlyCorrectionSuggestion": {
+      "currentBankNotation": "R,",
+      "sourceNotation": "R_f",
+      "note": "Source prints R with a subscript f; no visual needs adding. Bank has not been edited."
+    }
+  },
+  {
+    "questionId": "boc-7-264",
+    "documentId": "boc2",
+    "page": 234,
+    "printedPage": 563,
+    "questionRegionRect": [
+      52.0,
+      512.115,
+      555.0,
+      642.055
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The analyzer-control scenario is given entirely in text, followed by four text choices. No numerical data table or visual is supplied. The management heading below starts the next subsection and is not question context.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-290",
+    "documentId": "boc2",
+    "page": 238,
+    "printedPage": 567,
+    "questionRegionRect": [
+      52.0,
+      80.885,
+      555.0,
+      161.265
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The personnel-competence assessment item is printed entirely as text with four text choices. The management subsection page contains no attached or shared figure, chart, or table.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-314",
+    "documentId": "boc2",
+    "page": 241,
+    "printedPage": 570,
+    "questionRegionRect": [
+      52.0,
+      280.477,
+      555.0,
+      360.857
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The printed wording begins with research having shown a way to promote a safety culture. Here shown refers to research findings, not a displayed figure. The stem and all four choices are text, and the entire page has no visual input.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-40",
+    "documentId": "boc2",
+    "page": 204,
+    "printedPage": 533,
+    "questionRegionRect": [
+      52.0,
+      231.584,
+      555.0,
+      323.138
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The alternative testing-reliability item consists of a text stem and four text choices. The surrounding quality-assessment items and heading introduce no shared graphic, data table, or picture.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-7-8",
+    "documentId": "boc2",
+    "page": 199,
+    "printedPage": 528,
+    "questionRegionRect": [
+      52.0,
+      397.678,
+      555.0,
+      478.058
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "inline-numerical-data",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The elapsed time of 7 hours is printed in the sentence, and one option contains a temperature range; the active bank retains those inputs. The source is a plain text item with four options, with no separate specimen photograph, table, or shared visual.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  },
+  {
+    "questionId": "boc-8-194",
+    "documentId": "boc2",
+    "page": 299,
+    "printedPage": 628,
+    "questionRegionRect": [
+      52.0,
+      325.017,
+      555.0,
+      405.727
+    ],
+    "reviewStatus": "visually-verified",
+    "reviewDate": "2026-11-11",
+    "disposition": "no-separate-question-visual",
+    "classification": "text-only-concept",
+    "requiresNewVisual": false,
+    "recommendedNeedsSource": false,
+    "evidence": "The fluorescence-pattern association item names patterns as text answer choices. No image is supplied or explicitly referenced by this item. The complete page is text-only; the four-panel image on the preceding page is explicitly attached to question 185 and is not shared with question 194.",
+    "reviewScope": "Rendered printed question and options, full original source page, surrounding item boundaries and shared headings; compared inline data with active bank."
+  }
+]

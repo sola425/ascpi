@@ -58,6 +58,8 @@ async function nativeResult(page, token, payload) {
   await page.evaluate(({token, payload}) => window.labwiseNativeVoiceResult(token, payload), {token, payload});
 }
 async function speak(page) {
+  const inputOnly = page.locator('details.practice-input-only');
+  if (await inputOnly.count() && !await inputOnly.evaluate(el => el.open)) await inputOnly.locator('summary').click();
   await action(page, 'voice-start');
   if (await page.locator('[data-action="voice-consent"]').isVisible()) await action(page, 'voice-consent');
   await page.locator('[data-action="voice-cancel"]').waitFor();

@@ -1,14 +1,16 @@
 # Labwise
 
-An offline clinical laboratory science study app for Android and the browser. **Labwise 7.1.1** improves recovery from stalled storage and sign-in requests, and reclaims obsolete native reader caches after updates. Quiz Show explains every answer out loud and asks the learner to explain it back. Original PDF pictures use lossless export at their source resolution and fit without automatic stretching. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; device speech availability depends on the installed services.
+An offline clinical laboratory science study app for Android and the browser. **Labwise 7.3.0** adds a voice tutor throughout ordinary Practice, including long questions and shared cases. It reads the question and choices, confirms a spoken answer, explains the result and guides self-rated recall. The release also includes the page-by-page visual audit: **215 readable tables** and **386 questions with verified question visuals**, drawn from all **1,100 supplied PDF pages**. Study coverage stays at **3,760 active questions**, **15,046 individual option explanations**, and three original source PDFs. Local study and solo games work without an account or remote AI service; speech availability and network requirements depend on installed device services.
+
+See [7.3.0 validation](docs/VALIDATION-V7.3.md), [voice study](docs/VOICE-HOST.md) and [the source-visual audit](docs/VISUAL-AUDIT.md). The audit was first prepared as a local 7.2.0 draft; its reviewed visuals are incorporated in 7.3.0.
 
 ## Download and install
 
-[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.1](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.1.apk)
+[**Download the latest Android APK**](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.3.0](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.3.0.apk)
 
 Requires **Android 8.0+** and an up-to-date Android System WebView. Open the downloaded APK from Downloads, allow that browser or file manager to install it if Android asks, then choose Install.
 
-**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.1.1 keeps the same app ID and retained signing certificate, with version code **70101**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
+**Updating an existing installation:** first use **Progress → Export progress**, then install the new APK over the existing app **without uninstalling**. Version 7.3.0 keeps the same app ID and retained signing certificate, with version code **70300**. Settings → **Get latest APK** opens the stable download link; Android still asks you to install the downloaded file. See [Android installation and build details](docs/ANDROID.md).
 
 ## APK quality checks
 
@@ -30,6 +32,14 @@ See the [APK quality and rollout checklist](docs/APK-QUALITY.md) for release gat
 
 The **six-step tour** advances only when you choose Next, supports Back and Skip, and can be reopened from **Study settings → Getting started**. Short 140 ms arrival effects respect the device's reduced-motion preference.
 
+## Voice study throughout Practice
+
+Open **Practice**, choose any question or start a session, then choose **Start voice tutor** near the top of the question or in its tutor panel. This uses the current Practice question without Quiz Show's short-question eligibility limit. The tutor reads the full displayed question, shared case and every choice. Long readings and explanations are split into provider-sized chunks of at most 2,400 characters; listening begins after the final chunk.
+
+Say an answer or option letter, then confirm with “yes” or change it with “no”. Confirmation records a normal Practice answer. The tutor explains the selected answer, the correct answer when needed, the original rationale and the separate simplified teaching. It then asks you to explain what you learned, reads a supplied answer for comparison and lets you rate your recall. Say “next” when ready. Free explanations are self-rated, with no automatic assessment of their meaning.
+
+Original question images and tables stay on screen. Pause is always available; opening a source or visual, leaving the screen or putting the app in the background pauses voice. Voice does not restart automatically after reload. Exam practice keeps deferred feedback and does not show this tutor. The older answer-only recognizer remains under **Use answer-only voice input** in ordinary Practice.
+
 ## Voice-hosted Quiz Show
 
 Open **Play → Quiz Show**, choose subjects and up to **5, 10 or 15 questions**, then choose **Start voice host**. The device voice reads the question and options, listens to your choice, and asks for an explicit spoken or tapped confirmation before scoring it. Each round starts with **three hearts** and three once-per-round lifelines: **50/50**, **a clue**, and **one skip**. A correct answer earns 100 points; an incorrect answer costs a heart. Skipping keeps your hearts and opens the explanation. Questions and explanations have no countdown.
@@ -42,7 +52,7 @@ Active Quiz Show rounds and their local summaries stay on the device, like an un
 
 ## Other games: Sprint, Frenzy and Friend Duels
 
-Open **Play** from the header. Each mode lets you choose one or several subjects within the selected source collection; the setup shows how many eligible short questions are available. Sprint, Frenzy and Duels use short self-contained questions. Longer cases and figure-dependent questions remain available in Practice; Quiz Show can optionally include eligible picture questions.
+Open **Play** from the header. Each mode lets you choose one or several subjects within the selected source collection; the setup shows how many eligible short questions are available. Sprint and Frenzy use the current collection of short self-contained questions. Duels use the verified published question collection and show mapped question visuals where present. Longer cases are available with voice study in Practice; Quiz Show can optionally include eligible picture questions.
 
 - **Lab Sprint:** five questions, with explanations, memory checks and up to two recovery questions. First-attempt scores stay separate from recovery results. Saved rounds, predictable capped XP, cosmetic upgrades and daily quests remain available.
 - **Solo Frenzy:** choose up to 10 or 20 questions and start with **three hearts**. Each question has **30 seconds**; a correct answer earns 100 points, and a wrong answer or timeout costs a heart. The round ends at its question limit or when all hearts are used. Feedback is untimed, and the final explanation stays available. Leaving an unanswered question does not pause its saved deadline.
@@ -58,7 +68,7 @@ Open **Study settings → Account sync → Open account**. Sign in to merge your
 
 The current public configuration is enabled for a **closed pilot with confirmed accounts**. The owner reports successful SQL setup and a confirmed pilot account. Its email redirect is empty, so public signup and password-reset controls stay hidden. The callback files are prepared but have not been deployed or verified. See [Supabase setup and owner acceptance](docs/SUPABASE-SETUP.md) before enabling hosted email flows or inviting general users. Live sign-in, email delivery, two-device sync and a live two-account Duel have not been verified here.
 
-Version 7 fixes a reproduced failure on older compatible WebViews: missing `Object.hasOwn` or `Array.at` could stop account initialization before a sign-in request. A classic compatibility script now loads before the app. New sessions use the service's relative expiry duration when available, avoiding a refresh loop caused by a device clock offset. Account errors distinguish credentials, confirmation, project configuration, connection, storage and backend setup; **Check connection** tests the public Auth settings and, when signed in, progress access. These fixes address verified code paths; the exact cause on the reported physical tablet is still unconfirmed. Live service testing is blocked by this development environment's outbound policy, and a proposal allowing only the project's hostname awaits environment review/save/publication.
+Version 7 fixes a reproduced failure on older compatible WebViews: missing `Object.hasOwn` or `Array.at` could stop account initialization before a sign-in request. A classic compatibility script now loads before the app. New sessions use the service's relative expiry duration when available, avoiding a refresh loop caused by a device clock offset. Account errors distinguish credentials, confirmation, project configuration, connection, storage and backend setup; **Check connection** tests the public Auth settings and, when signed in, progress access. These fixes address verified code paths; the exact cause on the reported physical tablet is still unconfirmed. Live sign-in and physical two-device sync still require owner/device acceptance.
 
 Android stores account sessions separately using Android Keystore-backed encryption. Authentication tokens and passwords are never included in progress sync or exported backups. The app bundles only the public project configuration; no privileged Supabase key or remote JavaScript SDK is required.
 
@@ -66,7 +76,7 @@ Android stores account sessions separately using Android Keystore-backed encrypt
 
 Android opens an external speech-recognition provider; supported browsers use `SpeechRecognition`. First use explains the provider, then recognized text can be edited and any matched option must be explicitly confirmed. Speech never submits an answer automatically. Free recall is self-rated after revealing the answer; tapping choices and typing remain available.
 
-This input-only flow still uses the external Android provider and does not read question text aloud. The new Quiz Show uses the in-app foreground recognizer and requests microphone permission only when listening starts. Device voices and recognition can require a connection or installed language data. Actual voice quality, recognition accuracy and Android provider behavior have not been tested on a physical device here.
+This input-only flow still uses the external Android provider and does not read question text aloud. The Practice tutor and Quiz Show use the in-app foreground recognizer and request microphone permission only when listening starts. Device voices and recognition can require a connection or installed language data. Actual voice quality, recognition accuracy and Android provider behavior have not been tested on a physical device here.
 
 ## Source accounting
 
@@ -76,7 +86,7 @@ This input-only flow still uses the external Android provider and does not read 
 | BOC Study Guide, 7th edition | 2,276 | 9,104 | 333 + 333 pages |
 | **Total** | **3,760** | **15,046** | **1,100 pages** |
 
-Every active question has complete teaching. Version 7.1.1 changes no question content or source PDFs. The figure manifest records verified corrections to a few OCR plate references without rewriting the bank. The source inventory contains 3,953 extracted questions: 193 BOC questions remain excluded at the user's request. Another 93 BOC questions are absent because supplied Part 1 skips printed pages 225–240 (chapter 3, questions 154–246); their stems and choices have not been invented. See [content coverage and editorial review](docs/CONTENT-COVERAGE.md).
+Every active question has complete teaching. The original PDF bytes and answer positions are retained. The visual audit records reviewed source flags, plate-reference OCR repairs and two option-text repairs that remove captured table tails; see its [repair accounting](docs/VISUAL-AUDIT.md). The source inventory contains 3,953 extracted questions: 193 BOC questions remain excluded at the user's request. Another 93 BOC questions are absent because supplied Part 1 skips printed pages 225–240 (chapter 3, questions 154–246); their stems and choices have not been invented. See [content coverage and editorial review](docs/CONTENT-COVERAGE.md).
 
 ## Run and check locally
 
@@ -100,7 +110,7 @@ npm run test:android-bridge
 npm run test:db
 ```
 
-Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7.1.1 validation evidence](docs/VALIDATION-V7.1.1.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
+Browser checks require Playwright and Chromium; use `CHROMIUM_PATH` or `APP_URL` where supported for another browser binary or local port. Voice-host, compatibility and figure checks are in `tests/`; figure rebuild instructions are in [FIGURES.md](docs/FIGURES.md). Account/callback checks use mocked service responses, and database tests use disposable local PostgreSQL with no published ports. They do not create remote users or send email. See [version 7.3.0 validation evidence](docs/VALIDATION-V7.3.md) for final results and limits. Android device/emulator execution remains unverified because this cloud environment lacks usable hardware virtualization.
 
 ## Offline use and backups
 
@@ -118,17 +128,17 @@ Import a JSON array or `{ "questions": [...] }`, up to 20,000 questions and unde
 
 [data/catalog.json](data/catalog.json) defines the two collections and three documents; [data/teaching-coverage.json](data/teaching-coverage.json) records active coverage. Individually authored notes live in `data/teaching/` and `data/boc-teaching/`. Run `npm run check:content` after source or teaching changes. Raw extraction is candidate material: preserve reviewed repairs, shared context and stable IDs.
 
-Friend Duels require metadata matching the exact `data/study-bank.json` bytes. After a content change, regenerate the registry and combined SQL:
+The build verifies the exact `data/study-bank.json` bytes using `quiz-meta.json.contentDigest`. Friend Duels separately use `duelContentDigest`, which identifies the existing hosted collection. The pinned [compatibility inventory](data/duel-registry-compat.json) proves that all 2,993 registered question stems, choices, grading fields and shared context are unchanged. The current solo-question eligibility count is 2,967; it is distinct from the hosted Duel count. Regenerate and verify metadata with:
 
 ```sh
 node scripts/prepare_quiz_registry.mjs
 node supabase/build-setup.mjs supabase/quiz-seed.sql
 ```
 
-The project owner must apply the updated registry seed/setup before releasing the changed collection. The APK build stops if `data/quiz-meta.json.contentDigest` does not match the assembled bank. It does not publish SQL. See [Supabase setup](docs/SUPABASE-SETUP.md).
+For 7.3.0, these commands preserve the published seed/setup bytes and require **no live SQL change**. The generator and APK build reject a changed registered question or altered compatibility proof. A future change to the registered content needs a deliberate backend migration rather than reusing the old hosted digest. Packaging never applies SQL. See [Supabase setup](docs/SUPABASE-SETUP.md).
 
 ## Build and design
 
-`python3 scripts/build_apk.py` builds the signed APK and stable download copy after validating teaching, matching quiz metadata, packaged figures/assets and PDFs. See [Android build instructions](docs/ANDROID.md) for SDK setup and the retained signing key. This release keeps the existing quiz-registry digest and needs no SQL change.
+`python3 scripts/build_apk.py` builds the signed APK and stable download copy after validating teaching, matching quiz metadata, packaged figures/assets and PDFs. See [Android build instructions](docs/ANDROID.md) for SDK setup and the retained signing key. The exact bank digest and hosted Duel digest are verified separately; the published Duel seed remains unchanged, so this release needs no SQL change. `--draft` builds a separate review APK without replacing the stable download.
 
 The review scheduler uses explicit deterministic intervals: Again is 10 minutes, Hard is one day, and Good/Easy advance through one, three, seven and fourteen days. It does not implement FSRS or predict exam performance. [Project inspiration](docs/INSPIRATION.md), [game-design sources](docs/GAME-INSPIRATION.md), [onboarding inspiration](docs/ONBOARDING-INSPIRATION.md), [implementation decisions](docs/PLAN.md), and [release notes](releases/RELEASE-NOTES.md) describe the design and delivery. The public repository is [sola425/ascpi](https://github.com/sola425/ascpi), on `main`.

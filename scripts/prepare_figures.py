@@ -27,7 +27,7 @@ DOCUMENTS = {
 QUALITY_VERSION = 1
 
 
-def source_quality(page, rect):
+def source_quality(page, rect, rotation=0):
     """Measure real raster detail, not PDF metadata's nominal 96 DPI.
 
     These books contain low-resolution page scans, often with additional
@@ -57,6 +57,8 @@ def source_quality(page, rect):
     export_dpi = round(scale * 72, 6)
     source_width = max(1, round(rect.width * density_x))
     source_height = max(1, round(rect.height * density_y))
+    if rotation in (90, 270):
+        source_width, source_height = source_height, source_width
     limited = scale * 72 < 150 or min(source_width, source_height) < 180
     return {
         'version': QUALITY_VERSION,
@@ -283,6 +285,61 @@ def merge_picture_fragments(rectangles):
     return merged
 
 
+def load_page_audit(root, documents, by_id):
+    """Accept reviewed question-input visuals only; never infer links by topic."""
+    folder = root / 'data/visual-audit'
+    files = [folder / f'{key}-additions.json' for key in DOCUMENTS]
+    if not any(path.exists() for path in files):
+        return [], {}
+    if not all(path.exists() for path in files):
+        raise ValueError('Finish all three page-audit addition files before rebuilding visuals.')
+    audit_manifest = json.loads((folder / 'manifest.json').read_text())
+    records, review = [], {}
+    for document_id, doc in documents.items():
+        checked = audit_manifest['documents'][document_id]
+        for path, digest in [(root / DOCUMENTS[document_id][0], checked['sourceSha256']),
+                             (folder / f'{document_id}-pages.json', checked['ledgerSha256']),
+                             (folder / f'{document_id}-additions.json', checked['additionsSha256'])]:
+            if hashlib.sha256(path.read_bytes()).hexdigest() != digest:
+                raise ValueError('A reviewed source or audit file changed; review and refresh the audit manifest.')
+        ledger = json.loads((folder / f'{document_id}-pages.json').read_text())
+        if isinstance(ledger, dict):
+            expected = ledger.get('sourceSha256')
+            actual = hashlib.sha256((root / DOCUMENTS[document_id][0]).read_bytes()).hexdigest()
+            if expected and expected != actual:
+                raise ValueError('A page audit belongs to a different source PDF.')
+            ledger = ledger['pages']
+        if not isinstance(ledger, list) or len(ledger) != len(doc) or sorted(row['page'] for row in ledger) != list(range(1, len(doc) + 1)):
+            raise ValueError(f'The {document_id} audit must cover every page exactly once.')
+        review[document_id] = {'pagesReviewed': len(ledger), 'ledger': f'data/visual-audit/{document_id}-pages.json'}
+        additions = json.loads((folder / f'{document_id}-additions.json').read_text())
+        if isinstance(additions, dict):
+            additions = additions.get('additions', additions.get('visuals', []))
+        if not isinstance(additions, list):
+            raise ValueError('Visual audit additions must be a list.')
+        for index, item in enumerate(additions):
+            if item.get('reviewStatus', item.get('status')) in ('unresolved', 'excluded', 'out-of-scope') or item.get('verified') is False:
+                continue
+            if item.get('reveal', 'question') != 'question':
+                continue
+            if item.get('documentId', document_id) != document_id or not isinstance(item.get('page'), int) or not 1 <= item['page'] <= len(doc):
+                raise ValueError('A reviewed visual has an invalid source page.')
+            qids = item.get('questionIds', [])
+            if not isinstance(qids, list) or not qids or any(qid not in by_id for qid in qids):
+                raise ValueError('A reviewed visual links to an absent or excluded question.')
+            if any(audit_manifest['questionKeys'].get(qid) != question_key(by_id[qid]) for qid in qids):
+                raise ValueError('A reviewed question changed after its visual was checked.')
+            bounds = item.get('rect', item.get('sourceRect'))
+            if not isinstance(bounds, list) or len(bounds) != 4 or any(not isinstance(v, (int, float)) or not math.isfinite(v) for v in bounds):
+                raise ValueError('A reviewed visual needs explicit finite crop coordinates.')
+            rect = fitz.Rect(bounds)
+            if rect.is_empty or not doc[item['page'] - 1].rect.contains(rect):
+                raise ValueError('A reviewed visual extends outside its original page.')
+            records.append({**item, 'documentId': document_id, 'rect': list(rect),
+                            'auditRef': item.get('id', item.get('auditId', f'{document_id}-{item["page"]}-{index + 1}'))})
+    return records, review
+
+
 def build(root=ROOT):
     bank = json.loads((root / 'data/study-bank.json').read_text())
     by_id = {q['id']: q for q in bank}
@@ -294,7 +351,7 @@ def build(root=ROOT):
         pass
     target = root / 'assets/figures'
     target.mkdir(parents=True, exist_ok=True)
-    figures, question_map, source_metadata = {}, {}, {}
+    figures, tables, question_map, source_metadata = {}, {}, {}, {}
     used_files = set()
     anchor_cache = {}
     audit = {}
@@ -311,9 +368,9 @@ def build(root=ROOT):
                       'imageCountHistogram': {str(k): v for k, v in sorted(histogram.items())}}
 
     def mapping(q):
-        return question_map.setdefault(q['id'], {'key': question_key(q), 'figureIds': [], 'notes': []})
+        return question_map.setdefault(q['id'], {'key': question_key(q), 'figureIds': [], 'tableIds': [], 'notes': []})
 
-    def add(document_id, page_number, rectangle, qids, reveal='question', label=None, method='embedded-source-graphic'):
+    def add(document_id, page_number, rectangle, qids, reveal='question', label=None, method='embedded-source-graphic', rotation=0, attach=True, visual_type=None):
         qids = sorted(set(qid for qid in qids if qid in by_id))
         if not qids:
             return
@@ -321,13 +378,18 @@ def build(root=ROOT):
         if rect.width < 10 or rect.height < 10:
             return
         geometry = [round(v, 2) for v in rect]
-        identity = json.dumps([document_id, page_number, geometry, 'figure', reveal], separators=(',', ':'))
+        if rotation not in (0, 90, 180, 270):
+            raise ValueError('A source picture can only use a reviewed right-angle rotation.')
+        parts = [document_id, page_number, geometry, 'figure', reveal]
+        if rotation:
+            parts.append(rotation)
+        identity = json.dumps(parts, separators=(',', ':'))
         fid = 'fig-' + hashlib.sha256(identity.encode()).hexdigest()[:18]
         if fid not in figures:
             page = documents[document_id][page_number - 1]
             # Manifest coordinates are the reproducible, reviewed crop bounds.
             export_rect = fitz.Rect(geometry)
-            quality = source_quality(page, export_rect)
+            quality = source_quality(page, export_rect, rotation)
             cached = previous.get('figures', {}).get(fid)
             source_unchanged = previous.get('documents', {}).get(document_id, {}).get('sha256') == source_metadata[document_id]['sha256']
             if cached and source_unchanged and cached.get('quality') == quality and re.fullmatch(r'assets/figures/[0-9a-f]{24}\.webp', cached.get('path', '')) and (root / cached['path']).is_file():
@@ -337,6 +399,8 @@ def build(root=ROOT):
                 scale = quality['exportDpi'] / 72
                 pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale), clip=export_rect, alpha=False)
                 im = Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGB')
+                if rotation:
+                    im = im.rotate(-rotation, expand=True)
                 data = io.BytesIO()
                 im.save(data, 'WEBP', lossless=True, method=6, exact=True)
                 content = data.getvalue()
@@ -351,14 +415,19 @@ def build(root=ROOT):
                             'quality': quality,
                             'caption': caption, 'alt': f'{caption} from {DOCUMENTS[document_id][1]}, PDF page {page_number}.',
                             'method': method, 'questionIds': []}
+            if rotation:
+                figures[fid]['rotation'] = rotation
+            if visual_type:
+                figures[fid]['visualType'] = visual_type
         else:
             used_files.add(Path(figures[fid]['path']).name)
         figure = figures[fid]
         figure['questionIds'] = sorted(set(figure['questionIds'] + qids))
         for qid in qids:
             entry = mapping(by_id[qid])
-            if fid not in entry['figureIds']:
+            if attach and fid not in entry['figureIds']:
                 entry['figureIds'].append(fid)
+        return fid
 
     # Only isolated graphics inside a numbered question region are rendered.
     # The question itself, its options and its text tables stay normal app text.
@@ -431,17 +500,109 @@ def build(root=ROOT):
     for document_id, page_number, rect, qids in CONTEXTS:
         add(document_id, page_number, rect, qids, label='Shared question diagram', method='reviewed-context-crop-without-answer-text')
 
+    reviewed, page_review = load_page_audit(root, documents, by_id)
+    for item in reviewed:
+        document_id, page_number, qids = item['documentId'], item['page'], sorted(set(item['questionIds']))
+        for old_id in item.get('replacesFigureIds', item.get('supersedesFigureIds', [])):
+            old = figures.get(old_id)
+            if not old:
+                raise ValueError('A reviewed crop replacement refers to an unknown old figure.')
+            if old['reveal'] != 'question' or old['documentId'] != document_id or old['page'] != page_number:
+                raise ValueError('A reviewed crop replacement points to another source page.')
+            old['questionIds'] = [qid for qid in old['questionIds'] if qid not in qids]
+            for qid in qids:
+                entry = mapping(by_id[qid])
+                entry['figureIds'] = [fid for fid in entry['figureIds'] if fid != old_id]
+            if not old['questionIds']:
+                del figures[old_id]
+        data = item.get('table')
+        caption = item.get('caption') or ('Question data table' if data else 'Original question visual')
+        rotation = item.get('rotation', 0)
+        if data:
+            headers, rows = data.get('headers'), data.get('rows')
+            notes = list(dict.fromkeys(data.get('notes', []) + ['Display note: ' + note for note in item.get('notes', [])]))
+            header_groups = data.get('headerGroups', [])
+            if (not isinstance(headers, list) or not 1 <= len(headers) <= 32 or not all(isinstance(value, str) for value in headers)
+                    or not isinstance(rows, list) or not rows or len(rows) > 256
+                    or any(not isinstance(row, list) or len(row) != len(headers) or any(not isinstance(cell, str) for cell in row) for row in rows)
+                    or not isinstance(notes, list) or any(not isinstance(note, str) for note in notes)):
+                raise ValueError('A reviewed table has inconsistent headers/cells: ' + str(item['auditRef']))
+            if (not isinstance(header_groups, list) or any(not isinstance(group, dict) or not isinstance(group.get('label'), str)
+                    or not isinstance(group.get('span'), int) or group['span'] < 1 for group in header_groups)
+                    or header_groups and sum(group['span'] for group in header_groups) != len(headers)):
+                raise ValueError('A reviewed table has inconsistent column groups.')
+            original = None
+            if item.get('useSourceCrop', item.get('includeSourceCrop', True)) and not item.get('sourceContainsOptions', False):
+                original = add(document_id, page_number, item['rect'], qids, label=caption,
+                               method='reviewed-question-table-original', rotation=rotation, attach=False, visual_type='table')
+            identity = json.dumps([document_id, page_number, item['rect'], headers, rows, header_groups], ensure_ascii=False, separators=(',', ':'))
+            tid = 'tbl-' + hashlib.sha256(identity.encode()).hexdigest()[:18]
+            existing = tables.get(tid, {})
+            if existing and (existing.get('sourceFigureId') is None) != (original is None):
+                raise ValueError('Duplicate table records disagree about their original crop.')
+            qids = sorted(set(qids + existing.get('questionIds', [])))
+            notes = list(dict.fromkeys(existing.get('notes', []) + notes))
+            tables[tid] = {'id': tid, 'kind': 'table', 'reveal': 'question', 'documentId': document_id,
+                           'page': page_number, 'rect': item['rect'], 'caption': caption, 'headers': headers, 'rows': rows,
+                           'notes': notes, 'rowHeaders': data.get('rowHeaders', len(headers) > 1), 'sourceFigureId': original,
+                           'headerGroups': header_groups,
+                           'questionIds': qids, 'method': 'visually-reviewed-transcription', 'auditRef': item['auditRef']}
+            if original:
+                figures[original]['tableOriginal'] = tid
+            for qid in qids:
+                if tid not in mapping(by_id[qid])['tableIds']:
+                    mapping(by_id[qid])['tableIds'].append(tid)
+        else:
+            if item.get('sourceContainsOptions') or item.get('useSourceCrop', item.get('includeSourceCrop')) is False:
+                raise ValueError('An option matrix needs a verified structured table, not a screenshot.')
+            fid = add(document_id, page_number, item['rect'], qids, label=caption,
+                      method='reviewed-question-page-audit', rotation=rotation, visual_type=item.get('visualType', 'diagram'))
+            figures[fid]['auditRef'] = item['auditRef']
+
+    # Suppress only exact OCR table fragments already represented as readable
+    # cells. The canonical question remains intact for export and matching.
+    normalize = lambda text: re.sub(r'\s+', ' ', text).strip()
+    for qid, entry in question_map.items():
+        original = normalize(by_id[qid]['question'])
+        displayed = original
+        for tid in entry['tableIds']:
+            table = tables[tid]
+            if table['sourceFigureId'] is None:
+                continue
+            page = documents[table['documentId']][table['page'] - 1]
+            fragment = normalize(page.get_textbox(fitz.Rect(table['rect'])))
+            if len(fragment) >= 15 and len(fragment.split()) >= 4:
+                displayed = normalize(re.sub(r'(?<!\S)' + re.escape(fragment) + r'(?!\S)', ' ', displayed, count=1))
+        if displayed != original and len(displayed) >= 15:
+            entry['displayQuestion'] = displayed
+            entry['displayQuestionMethod'] = 'exact-source-table-text-elision'
+    for item in reviewed:
+        for qid, text in item.get('displayQuestionById', {}).items():
+            if qid not in item['questionIds'] or not isinstance(text, str) or len(text.strip()) < 15 or len(text) > 24000:
+                raise ValueError('A reviewed display stem has an invalid source association.')
+            entry = mapping(by_id[qid])
+            if not entry['tableIds']:
+                raise ValueError('A separate-table display stem needs its source data tables.')
+            entry['displayQuestion'] = text
+            entry['displayQuestionMethod'] = 'visually-reviewed-stem-with-separate-tables'
+
     # Deterministic cleanup affects only generated image files in this directory.
+    used_files = {Path(figure['path']).name for figure in figures.values()}
     for old in target.glob('*.webp'):
         if old.name not in used_files:
             old.unlink()
     byte_count = sum((target / filename).stat().st_size for filename in used_files)
-    standalone = [f for f in figures.values() if f['reveal'] == 'question']
+    standalone = [f for f in figures.values() if f['reveal'] == 'question' and not f.get('tableOriginal')]
     source_dependent = [q for q in bank if q.get('needsSource')]
     with_input = {qid for f in standalone for qid in f['questionIds']}
+    with_tables = {qid for table in tables.values() for qid in table['questionIds']}
     coverage = {
         'activeQuestions': len(bank), 'sourceDependentQuestions': sum(bool(q.get('needsSource')) for q in bank),
         'questionsWithInlineFigures': len(with_input),
+        'questionsWithInlineTables': len(with_tables), 'tableRecords': len(tables),
+        'questionsWithQuestionVisuals': len(with_input | with_tables),
+        'sourceDependentWithoutQuestionVisual': sorted(q['id'] for q in source_dependent if q['id'] not in with_input | with_tables),
+        'pagesVisuallyReviewed': sum(value['pagesReviewed'] for value in page_review.values()),
         'questionsWithOriginalLayouts': 0,
         'questionsWithRationaleFigures': len({qid for f in figures.values() if f['reveal'] == 'answer' for qid in f['questionIds']}),
         'sourceDependentWithoutInlineFigure': sorted(q['id'] for q in source_dependent if q['id'] not in with_input),
@@ -451,13 +612,14 @@ def build(root=ROOT):
         'reviewedReferenceCorrections': sorted(REFERENCE_REPAIRS),
         'byBook': {book: {
             'questionsWithInlineFigures': len({qid for qid in with_input if by_id[qid].get('bookId') == book}),
+            'questionsWithInlineTables': len({qid for qid in with_tables if by_id[qid].get('bookId') == book}),
             'questionsWithRationaleFigures': len({qid for f in figures.values() if f['reveal'] == 'answer' for qid in f['questionIds'] if by_id[qid].get('bookId') == book}),
             'questionFigureRecords': len([f for f in standalone if any(by_id[qid].get('bookId') == book for qid in f['questionIds'])]),
             'rationaleFigureRecords': len([f for f in figures.values() if f['reveal'] == 'answer' and any(by_id[qid].get('bookId') == book for qid in f['questionIds'])]),
         } for book in ['success4', 'boc7']},
     }
-    manifest = {'version': 1, 'documents': source_metadata, 'figures': dict(sorted(figures.items())),
-                'questions': dict(sorted(question_map.items())), 'coverage': coverage, 'pdfAudit': audit}
+    manifest = {'version': 1, 'documents': source_metadata, 'figures': dict(sorted(figures.items())), 'tables': dict(sorted(tables.items())),
+                'questions': dict(sorted(question_map.items())), 'coverage': coverage, 'pdfAudit': audit, 'pageReview': page_review}
     (root / 'data/figures.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(coverage, ensure_ascii=False))
 

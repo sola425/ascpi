@@ -57,7 +57,8 @@ test('every export preserves native source pixels with lossless encoding and mea
     assert.ok(Math.abs(f.width - q.sourceWidth) <= 2 && Math.abs(f.height - q.sourceHeight) <= 2, 'Only edge rounding may add a pixel.');
     assert.deepEqual(getFigure(f.id).quality, q);
     assert.ok(Object.isFrozen(getFigure(f.id).quality));
-    if (q.sourceLimited) assert.match(renderFigures(byId.get(f.questionIds[0]), {revealed: true}), /Original PDF scan · limited detail/);
+    if (q.sourceLimited && !f.tableOriginal) assert.match(renderFigures(byId.get(f.questionIds[0]), {revealed: true}), /Original PDF scan · limited detail/);
+    if (f.tableOriginal) assert.match(renderFigures(byId.get(f.questionIds[0])), new RegExp(`data-figure-id="${f.id}"`));
   }
   assert.equal(manifest.coverage.sourceLimitedFigures, Object.values(manifest.figures).filter(f => f.quality.sourceLimited).length);
   assert.equal(manifest.coverage.losslessFigures, Object.keys(manifest.figures).length);
@@ -69,11 +70,12 @@ from scripts.prepare_figures import source_quality
 m=json.loads(Path('data/figures.json').read_text())
 docs={k:fitz.open(v['path']) for k,v in m['documents'].items()}
 for f in m['figures'].values():
- p=docs[f['documentId']][f['page']-1];r=fitz.Rect(f['rect']);q=source_quality(p,r)
+ p=docs[f['documentId']][f['page']-1];r=fitz.Rect(f['rect']);rotation=f.get('rotation',0);q=source_quality(p,r,rotation)
  assert q==f['quality'],('Source density must come from real raster dimensions and its page transform',f['id'])
  scale=q['exportDpi']/72
  pix=p.get_pixmap(matrix=fitz.Matrix(scale,scale),clip=r,alpha=False)
  expected=Image.open(io.BytesIO(pix.tobytes('png'))).convert('RGB')
+ if rotation:expected=expected.rotate(-rotation,expand=True)
  actual=Image.open(f['path']).convert('RGB')
  assert actual.size==expected.size==(f['width'],f['height']),(f['id'],actual.size,expected.size)
  assert actual.tobytes()==expected.tobytes(),('Added image compression must not alter source features or colors',f['id'])
@@ -202,9 +204,14 @@ test('a custom bank cannot inherit a bundled figure by reusing an existing ID', 
   assert.equal(renderFigures({...q, page: q.page + 1}), '');
   assert.equal(hasQuestionFigure(q), true);
   assert.equal(hasQuestionFigure({...q, question: 'A different original question.'}), false);
-  const answerOnly = bank.find(q => manifest.questions[q.id]?.figureIds.some(id => manifest.figures[id].reveal === 'answer')
-    && !manifest.questions[q.id].figureIds.some(id => manifest.figures[id].reveal === 'question'));
-  assert.ok(answerOnly); assert.equal(hasQuestionFigure(answerOnly), false);
+  // Every current rationale-picture item also has a question visual. Exercise
+  // answer-only compatibility explicitly rather than requiring a coverage gap.
+  const answerFigure = Object.values(manifest.figures).find(f => f.reveal === 'answer');
+  const answerOnly = byId.get(answerFigure.questionIds[0]), fixture = copy(manifest);
+  Object.assign(fixture.questions[answerOnly.id], {figureIds: [answerFigure.id], tableIds: []});
+  delete fixture.questions[answerOnly.id].displayQuestion;
+  configureFigures(fixture); assert.equal(hasQuestionFigure(answerOnly), false);
+  configureFigures(manifest);
   const flagOnly = bank.find(q => q.needsSource && !manifest.questions[q.id]);
   assert.ok(flagOnly); assert.equal(hasQuestionFigure(flagOnly), false);
   assert.equal(hasQuestionFigure(null), false);

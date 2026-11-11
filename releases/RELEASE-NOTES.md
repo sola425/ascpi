@@ -1,3 +1,18 @@
+# Labwise 7.3.0 — Voice study throughout Practice and audited question visuals
+
+[Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.3.0 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.3.0.apk) · [SHA-256](Labwise-7.3.0.apk.sha256)
+
+- **Study any ordinary Practice question by voice.** Open a question and choose **Start voice tutor** near the top. The tutor reads the full displayed question, case and every option, including longer questions outside Quiz Show's eligibility limits. Long readings are split into chunks of at most 2,400 characters before listening begins.
+- **Confirm, understand and recall.** Speak an answer, confirm it separately, then hear the result, option reasoning, original rationale and simplified teaching. Explain back the idea and rate your recall against the supplied answer. Answers use normal Practice grading. Typing and tapping remain available; the older answer-only recognizer is in a collapsible panel. Exam practice retains deferred feedback.
+- **Keep the original question visuals in view.** The 1,100-page audit supplies 215 readable tables and question visuals for 386 questions. Tables scroll, enlarge and link to original comparisons. Charts, diagrams and color plates attach to their verified question references; incomplete crops are repaired. Original photos retain the limits of the supplied scans. See [the audit](../docs/VISUAL-AUDIT.md).
+- **Keep older Duel clients compatible.** All 2,993 published Duel questions are checked against a hash-pinned inventory. The exact new bank hash and existing hosted collection hash are separate metadata fields. The published seed/setup bytes remain unchanged, so this release needs **no SQL update**.
+
+Requires Android 8.0+, package `com.labwise.study`, version code **70300**, target API 35, with the retained signing identity. Export progress and install over the existing app without uninstalling. Coverage remains **3,760 active questions**, **15,046 explained options**, 193 exclusions and 93 question stems absent from the supplied missing pages.
+
+The tutor uses installed device voices and recognition; some services need a connection. Labwise keeps no audio or transcript history. Teach-back is self-rated, with no automatic semantic assessment. Local and simulated checks are recorded in [7.3.0 validation](../docs/VALIDATION-V7.3.md); physical microphone/voice behavior, Bluetooth, installation/upgrade and live two-device account acceptance remain unverified. Public web hosting remains cancelled.
+
+---
+
 # Labwise 7.1.1 — Loading recovery and safer device storage
 
 [Download the latest APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-latest.apk) · [Version 7.1.1 APK](https://github.com/sola425/ascpi/raw/refs/heads/main/releases/Labwise-7.1.1.apk)

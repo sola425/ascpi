@@ -1,0 +1,73 @@
+{
+  "documentId": "boc2",
+  "sourcePath": "docs/boc-2.pdf",
+  "sourceSha256": "a801b3ef7ecf1692a883b06f5f956ef6c835d5d794ccf94b5777ff71ce53d83d",
+  "reviewDate": "2026-11-11",
+  "pagesInSource": 333,
+  "pagesVisuallyReviewed": 333,
+  "contactSheetsReviewed": 21,
+  "candidatePagesInspectedAtFullSize": [
+    1,
+    2,
+    36,
+    40,
+    41,
+    42,
+    44,
+    45,
+    46,
+    47,
+    49,
+    53,
+    54,
+    55,
+    58,
+    60,
+    61,
+    91,
+    92,
+    93,
+    95,
+    116,
+    209,
+    217,
+    220,
+    223,
+    224,
+    225,
+    229,
+    284,
+    285,
+    293,
+    294,
+    295,
+    298,
+    307,
+    308
+  ],
+  "scope": "Original active-question inputs only; no new explanatory or rationale-only visuals.",
+  "verifiedVisualRecords": 44,
+  "structuredTables": 38,
+  "nonTableVisualRecords": 6,
+  "questionsReceivingNewOrRepairedInput": 45,
+  "replacements": [
+    {
+      "questionIds": [
+        "boc-5-127"
+      ],
+      "figureIds": [
+        "fig-9878a610b4d85a5557"
+      ]
+    }
+  ],
+  "existingExclusionsPreserved": true,
+  "questionBankSha256": "d0bd982f87d392e8f28575c536b2644519c657fa94b7ed186b6c666fed47cf24",
+  "limits": [
+    "Every supplied page was visually reviewed at contact-sheet scale; candidate additions also received full-page and isolated-crop inspection.",
+    "Original scan resolution limits photographs and chart labels. Structured tables preserve values and associations without inventing source detail.",
+    "No new runtime images or tables are drawn from excluded/nonactive questions or from rationale-only material.",
+    "Printed BOC page number equals this PDF page plus329; combined-document global numbering is distinct."
+  ],
+  "unresolvedQuestionInputs": [],
+  "newRationaleOnlyVisuals": 0
+}

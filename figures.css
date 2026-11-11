@@ -16,4 +16,21 @@
 .source-figure-open:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 .figure-zoom{max-width:100%;overflow:auto;touch-action:pan-x pan-y pinch-zoom;background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px}
 .figure-zoom img{display:block;max-width:none;height:auto;background:#fff}
+.source-table{min-width:0;max-width:100%;margin:12px 0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.source-table-scroll{max-width:100%;max-height:65vh;overflow:auto;overscroll-behavior:contain;scroll-padding:10px;touch-action:pan-x pan-y pinch-zoom}
+.source-table table{border-collapse:separate;border-spacing:0;min-width:100%;width:max-content;font-size:calc(14px * var(--font-scale,1));line-height:1.6;color:var(--ink);text-align:left}
+.source-table caption{padding:13px 14px;font-weight:700;text-align:left;caption-side:top}
+.source-table th,.source-table td{min-width:6rem;max-width:21rem;padding:10px 12px;border-top:1px solid var(--line);border-right:1px solid var(--line);vertical-align:top;white-space:normal;overflow-wrap:anywhere}
+.source-table thead th{position:sticky;top:0;z-index:2;background:var(--surface);font-weight:700;box-shadow:0 1px 0 var(--line)}
+.source-table tbody th:first-child:not(:last-child),.source-table tbody td:first-child:not(:last-child){position:sticky;left:0;z-index:1;background:var(--surface)}
+.source-table thead th:first-child:not(:last-child){left:0;z-index:3}
+.source-table .source-table-columns th:first-child:not(:last-child),.source-table tbody th:first-child:not(:last-child),.source-table tbody td:first-child:not(:last-child){max-width:min(14rem,35vw)}
+.source-table-groups th{white-space:nowrap}.source-table .has-column-groups .source-table-columns th{top:calc(1.6em + 21px)}
+.source-table tbody tr:nth-child(even){background:var(--bg)}
+.source-table-actions{display:flex;gap:8px 12px;align-items:center;flex-wrap:wrap;padding:10px 12px;border-top:1px solid var(--line)}
+.source-table-actions .btn,.source-table-actions .source-link{min-height:44px;white-space:normal;margin:0}
+.source-table-notes{padding:8px 12px;border-top:1px solid var(--line);font-size:13px;line-height:1.65}
+.source-table-notes p{margin:4px 0}.source-table-credit{padding:0 12px 10px;font-size:11px;line-height:1.6;color:var(--muted)}
+.source-table-scroll:focus-visible{outline:3px solid var(--green);outline-offset:-3px}
+.source-table-expanded table{font-size:calc(16px * var(--font-scale,1))}.source-table-expanded .source-table-scroll{max-height:60vh}
 @media(max-width:719px){.source-figure-heading span{font-size:10px}.source-figure-open{padding:8px}.source-figure figcaption{padding:7px 11px}}

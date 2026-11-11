@@ -1,82 +1,62 @@
-# Original pictures beside the existing questions
+# Original visuals beside their PDF questions
 
-Reviewed on 10 November 2026. The app keeps its normal question, options and rationale text. Inline images contain **actual source photographs, diagrams and charts**, with necessary labels. Question-text screenshots and repeated question-layout images are not included in the manifest, assets or renderer.
+**Labwise 7.3.0** incorporates the 11 November 2026 page-by-page audit, originally prepared in a local 7.2.0 draft. See [audit evidence](VISUAL-AUDIT.md) and [7.3.0 validation](VALIDATION-V7.3.md).
 
-## Verified picture coverage
+The app keeps the existing question, choices and rationale layout. Original question photographs, diagrams, charts and data tables appear while answering the questions they accompany. Their links are checked against the question text, choices and source location.
 
-| Collection | Questions with a before-answer picture | Before-answer picture records | Questions with a rationale picture | Rationale picture records |
-| --- | ---: | ---: | ---: | ---: |
-| Success, 4th edition | 57 | 57 | 0 | 0 |
-| BOC, 7th edition, both parts | 73 | 62 | 35 | 36 |
-| **Total** | **130** | **119** | **35** | **36** |
+## Verified coverage
 
-There are **155 lossless WebP files, 3,842,734 bytes in total**. A picture can serve multiple questions, and a question can use multiple pictures. Counts therefore describe different things and should not be added as if they were separate questions. BOC before-answer pictures include 32 records from Part 1 and 30 from Part 2.
+| Collection | Questions with pictures/charts/diagrams | Questions with readable tables | Questions with either |
+| --- | ---: | ---: | ---: |
+| Success, 4th edition | 71 | 62 | 131 |
+| BOC, 7th edition, both supplied parts | 92 | 169 | 255 |
+| **Total** | **163** | **231** | **386** |
 
-The active bank has 3,760 questions. Its 475 `needsSource` flags are broad text-extraction hints; they do not establish that 475 distinct pictures exist. Some items refer to text data or tables. Only verified pictures appear inline. Other source-dependent items retain the original PDF link; no replacement image or question screenshot is invented.
+There are **215 distinct readable tables** and **142 question-picture records**. Shared visuals may serve several questions; a question may use multiple tables or pictures. These counts should not be added as if each represented a different question.
 
-## Source mapping and review
+The image directory contains **379 lossless WebP files, 6,645,446 bytes**: 142 question pictures, 201 original-table comparison crops and 36 pre-existing rationale figures. The latter still serve 35 questions and keep their existing reveal behavior. This audit added question inputs.
 
-All 1,100 original PDF pages were inspected for embedded-image and drawing metadata. Success is a full-page scan, so referenced color plates use reviewed picture-only rectangles. BOC pictures also derive from full-page raster scans. Many additional BOC image objects are 1×1-pixel masks that mark photograph or diagram boundaries; these objects contain no higher-resolution photographic detail. Full-page backgrounds and decorative sidebars are excluded from inline assets.
+## Readable tables
 
-Question numbering defines the area in which a marked source-picture boundary can be associated with a question. The numbered question itself is never rendered as an image. Where a picture boundary omits chart axes or labels, reviewed chart rectangles preserve the complete chart and stop before the stem and option rows.
+Tables use selectable text, semantic row/column headers and preserved source values, units, blanks, signs and notes. Large red-cell panels keep their printed column groups. Wide tables scroll within the question card, with fixed row labels and column headings; single-column tables do not hide their values behind a fixed column. **Read table larger** opens the expanded table. **Compare original table** opens the exact source crop or the corresponding PDF page. Fourteen tables use a PDF comparison because a clean separate crop would include question or option text.
 
-Shared BOC diagrams printed among rationales use reviewed picture-only crops. They are attached to the explicitly named questions. They are not attached to an unrelated answer paragraph merely because that paragraph precedes the picture. Rationale pictures are matched to the following printed answer number, because BOC places each picture before its explanation. Touching image fragments are joined into the complete picture. Rationale-only graphics appear after reveal and stay hidden in unanswered exam questions.
+When the extracted question contains an exact copy of its table text, a display overlay removes that repeated block and shows the readable table separately. Seventy-five overlays use exact complete-token elision; one additional source-reviewed overlay separates the two tables in `book-1-65`. Canonical exported questions remain available. Question/source fingerprints guard both overlays and visuals against custom-bank ID collisions.
 
-Pictures preserve their printed colors on a white paper background in both themes. Captions identify the original document/page; an enlarge control supports inspecting the scan. Alternative text remains neutral and does not identify the correct cell, organism or answer.
+## Source mapping and clarity
 
-## Picture clarity and its limits
+Every one of the **1,100 supplied pages** has a review record. Candidate tables and new figure crops received closer inspection against their original pages. Audited mappings record the PDF, local page, crop coordinates, question IDs and review notes. The sealed manifest records hashes of the reviewed PDFs, ledgers and additions, plus question fingerprints. See [the audit manifest](../data/visual-audit/manifest.json).
 
-The native-image audit found that **all 155 current picture crops are source limited**. Their real raster density is about 72 pixels per inch, measured from embedded pixel dimensions divided by their placement on the PDF page. The image objects' nominal `xres`/`yres` values are not used as evidence of available detail. Typical BOC pages contain only about 612×792 genuine raster pixels; Success color-plate pages contain about 552×702. No independent higher-resolution original photograph was found underneath these crops.
+Pictures preserve source colors and useful labels. Where an existing mask selected an incomplete fragment, the reviewed full chart or diagram replaces that fragment. Shared color plates and cross-page diagrams attach to their explicitly referenced questions. Question text and ordinary option rows remain text.
 
-The v7 exporter rendered these scans at 2.3× and added lossy WebP compression. The current exporter composites the original PDF layers and chart strokes at their actual raster density, then saves lossless WebP. Compositing matters: Success has two overlapping page layers, and some BOC diagrams include separate strokes or labels. Extracting only one image xref can omit that information. The reviewed crop bounds, original colors, picture/question associations and answer-reveal timing are unchanged.
+All current picture and table-comparison crops are **source limited**, with about 72 genuine raster pixels per inch. Larger display size cannot recover detail missing from the PDFs. The exporter composites the PDF layers at their measured raster density, uses lossless encoding and does not sharpen, recolor or invent features. Inline pictures fit without automatic stretching; zoom supports explicit enlargement. Readable table transcription improves text legibility independently of the original scan's resolution. Original PDF links remain available.
 
-| Export measure | v7 | Current |
-| --- | ---: | ---: |
-| Picture files | 155 | 155 |
-| Median bitmap dimensions | 468×351 | 204×153 |
-| Lossless files | 0 | 155 |
-| Total image bytes | 2,445,088 | 3,842,734 |
-
-The smaller pixel dimensions remove interpolated pixels; they do not discard hidden fine detail. For example, the BOC Part 1 page 285 photograph associated with `boc-4-8` contains only about 208×151 original picture pixels. Its v7 asset was 480×348, which enlarged the same source information. A larger rendering cannot recover structures missing from the source scan, and lossless encoding cannot undo compression already present in the PDF.
-
-Inline pictures use their native bitmap width and fit down when space is limited. The app's zoom dialog also starts without enlargement; users may explicitly enlarge those same source pixels. Source-limited pictures carry a compact clarity note. No image enhancement, sharpening, recoloring or generated replacement is used.
-
-Finer detail needs a clearer corresponding original image or a separately reviewed, licensed question/image pair. A similar-looking image cannot safely substitute for the specific image on which a book question and answer depend. Tests of layout and lossless export do not establish that the original scan is sufficient to answer every image question.
-
-The manifest records original-PDF SHA-256 hashes and uses content-addressed image filenames. A source/question consistency key prevents a custom bank that reuses a bundled ID from inheriting the bundled item’s picture. It is not a cryptographic or exam-security guarantee.
-
-## Printed plate-reference corrections
-
-The question bank remains unchanged. These figure links were checked against the printed question:
-
-| Question ID | Printed reference |
-| --- | --- |
-| `book-1-44` | Color Plate 2 |
-| `book-1-78` | Color Plate 7 |
-| `book-351-43` | Color Plate 51 |
-
-Every verified referenced plate is retained when a question cites more than one. For example, `book-289-1` displays both plates 30 and 31. The two band panels of plate 57 retain their lane labels as separate pictures.
+The active bank's 556 `needsSource` flags are broad extraction hints. They can refer to a case, formula or inline data and do not prove that a separate image exists. The remaining flagged items were checked against the supplied source pages; they are not counted as missing photographs. Supplied Part 1 still omits printed pages 225–240. Excluded questions remain excluded.
 
 ## Renderer API
 
-- `configureFigures(manifest)` validates the manifest and local asset paths.
-- `renderFigures(q, {revealed = false, exam = false})` renders verified pictures or a compact PDF fallback. It never renders a question-layout screenshot.
-- `hasQuestionFigure(q)` is true only when this exact source/question key has a verified `reveal: "question"` picture. An answer-only picture or a `needsSource` flag alone does not qualify.
-- `getFigure(id)` supplies the validated local path, encoded dimensions, caption, alternative text and source location for the app's zoom dialog. Its optional frozen `quality` record contains `version`, `sourceWidth`, `sourceHeight` (native crop pixel spans), `sourceDpi`, `exportDpi`, `sourceRasterWidth`, `sourceRasterHeight` (underlying original raster dimensions), `sourceLimited`, `reason`, `export` and `addedUpscaling`. All current assets use `export: "lossless-page-render"`, `addedUpscaling: false` and `reason: "low-resolution-pdf"`. Encoded dimensions can exceed the rounded native pixel spans by one or two boundary pixels.
+- `configureFigures(manifest)` validates local paths, source locations, picture quality, table cells/groups and question mappings atomically.
+- `renderFigures(q, {revealed = false, exam = false})` renders verified question pictures and tables. Existing rationale figures retain their reveal rules.
+- `hasQuestionFigure(q)` checks whether this exact question has a verified question picture **or table**. A flag alone does not qualify.
+- `questionText(q)` returns its verified table-separated display stem, or the canonical stem when no matching overlay exists.
+- `getFigure(id)` returns validated picture metadata for zoom. Its frozen `quality` record includes measured source/export density, source dimensions, `sourceLimited`, `export: "lossless-page-render"` and `addedUpscaling: false`.
+- `getTable(id)` returns validated table metadata; `renderTable(id, {expanded = false})` renders its cells and source-comparison controls.
 - `figureManifestSummary()` returns a copy of the coverage metadata.
+
+Study, exam and flashcard screens use the shared renderer. The Practice voice tutor keeps these original question visuals in view and pauses when opening a visual or source. Games receive the same visual HTML where a question is eligible. Audio-only Quiz Show queues exclude verified visual questions; selecting picture questions keeps the screen part of that activity.
 
 ## Rebuild and check
 
-With the existing PyMuPDF and Pillow environment:
+After reviewing source changes, regenerate the content and registry as described in the README. If reviewed audit records changed, refresh their seal before generating visuals:
 
 ```sh
+python3 scripts/seal_visual_audit.py
 python3 scripts/prepare_figures.py
-node tests/figures.test.js
+npm test
+node tests/tables-browser.cjs
 node tests/figures-browser.cjs
+python3 scripts/build_apk.py --draft
 ```
 
-The generator reuses unchanged source pictures and removes unused generated WebP files only from `assets/figures/`. It does not change the question bank, teaching, PDFs or shared-quiz digest. Rebuild after source PDF or question/source metadata changes. Package `figures.js`, `figures.css`, `data/figures.json` and the current image directory together; regenerate the web cache list from the final manifest.
+Sealing records the review inputs; it does not perform the review. The figure generator refuses changed reviewed files or stale question fingerprints. It cleans only unused generated files in `assets/figures/`. Package the renderer, styles, manifest and generated assets together. `--draft` creates a separately named APK and leaves the stable download untouched.
 
-Eleven automated checks cover active-only mappings, source-key parity, actual asset integrity, measured source quality, lossless native-density RGB pixel equality, picture-only crop boundaries, retained chart labels, no question/option rows in pictures, rationale reveal gating, plate corrections, multiple references, custom-bank isolation and safe paths/captions. The browser suite checks picture display at phone/tablet sizes, both themes and larger text, plus the full Practice, exam, Cards, source-link and zoom workflows. It asserts that images are not enlarged by default, unverified visuals use a PDF fallback and no question-layout screenshot is shown.
-
-These checks establish the source/rendering behaviors above. They do not claim that every possible book illustration has been mapped or establish physical-device legibility. Original PDF links remain available for source inspection.
+Automated checks cover source hashes, all reviewed table cells/groups and mappings, exact source-pixel equality, image integrity, crop boundaries, source references, safe rendering, custom-bank isolation, phone/tablet layouts, enlargement, original comparison and extracted APK behavior. They do not establish physical-device legibility or recover missing image detail.

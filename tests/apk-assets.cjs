@@ -47,6 +47,8 @@ let browser;
   assert.equal(figurePaths.length, figureManifest.coverage.uniqueImageFiles);
   assert.equal(Object.keys(figureManifest.figures).length, figureManifest.coverage.figureRecords);
   assert.equal(figureManifest.coverage.activeQuestions, bank.length);
+  assert.equal(Object.keys(figureManifest.tables).length, figureManifest.coverage.tableRecords);
+  assert.equal(figureManifest.coverage.pagesVisuallyReviewed, 1100);
   assert.deepEqual(fs.readdirSync(path.join(root, 'assets/figures')).filter(name=>name.endsWith('.webp')).map(name=>'assets/figures/'+name).sort(), figurePaths);
   for (const name of figurePaths) {
     assert.match(name, /^assets\/figures\/[a-f0-9]{24}\.webp$/);
@@ -83,6 +85,7 @@ let browser;
   page.on('pageerror', error => errors.push(error.message));
   await page.addInitScript(version => {
     window.nativeCalls = [];
+    window.apkSpoken = []; window.apkListenToken = null;
     window.LabwiseAndroid = {
       version: () => version,
       takeReadingPosition: () => {const value = window.nativeReading || null; window.nativeReading = null; return JSON.stringify(value);},
@@ -91,7 +94,12 @@ let browser;
       readSecureSyncSession: () => null,
       writeSecureSyncSession: () => true,
       clearSecureSyncSession: () => true,
-      exportJSON: (name, content) => window.nativeCalls.push({type: 'export', name, data: JSON.parse(content)})
+      exportJSON: (name, content) => window.nativeCalls.push({type: 'export', name, data: JSON.parse(content)}),
+      hostVoiceCapabilities: () => JSON.stringify({ttsAvailable:true,recognitionAvailable:true,microphonePermission:true,voices:[{id:'apk-test',name:'APK test voice',locale:'en-US',network:false}]}),
+      speakHost: (text,token) => {window.apkSpoken.push(text);setTimeout(()=>window.labwiseNativeHostSpeech(token,{status:'end'}),0);return true;},
+      stopHostSpeech: () => {},
+      startHostListening: token => {window.apkListenToken=token;return true;},
+      stopHostListening: () => {window.apkListenToken=null;}
     };
   }, catalog.version);
   await page.route('**/*', async route => {
@@ -189,6 +197,11 @@ let browser;
   assert.equal(gameBackup.version, 4); assert.ok(gameBackup.game.xp >= 5); assert.equal(gameBackup.game.active.phase, 'feedback');
   assert.equal(gameBackup.log.at(-1).kind, 'game');
   await nav('play'); await action('game-pause'); await action('host-open'); await action('host-setup'); await action('host-confirm-setup');
+  const audioQueue = await page.evaluate(() => JSON.parse(localStorage.getItem('labwise-host-session-v1')).active.queue.map(q=>q.id));
+  for (const id of audioQueue) {
+    const mapping=figureManifest.questions[id];
+    assert.ok(!mapping || !mapping.tableIds.length && !mapping.figureIds.some(fid=>figureManifest.figures[fid].reveal==='question'), 'Audio-only rounds must exclude verified question visuals.');
+  }
   await page.locator('[data-host-answer="0"]').click();
   assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('labwise-host-session-v1')).active.responses.length), 0, 'Quiz Show requires a separate confirmation');
   await action('host-confirm'); await page.locator('.host-feedback').waitFor();
@@ -209,9 +222,36 @@ let browser;
   await action('figure-fit');
   assert.ok(await page.locator('#figure-zoom-image').evaluate(img=>img.getBoundingClientRect().width<=Math.min(img.parentElement.clientWidth,img.naturalWidth)+1));
   await action('close-dialog');
+  const panelQuestion=bank.find(q=>q.id==='book-135-94');
+  await nav('practice');await page.locator('#practice-query').fill(panelQuestion.source);
+  await page.locator(`.question-row[data-question="${panelQuestion.id}"]`).click();
+  if(await page.locator('#modal[open] [data-action="start-new"]').count())await action('start-new');
+  const panel=page.locator('.study .source-table').first();await panel.waitFor();
+  const tableId=await panel.getAttribute('data-source-table'),sourceTable=figureManifest.tables[tableId];
+  assert.ok(sourceTable.headers.length>20,'The packaged red-cell panel must retain its full columns.');
+  assert.equal(await panel.locator('tbody tr').count(),sourceTable.rows.length);
+  assert.equal(await panel.locator('.source-table-groups').count(),1);
+  assert.ok(await panel.locator('.source-table-scroll').evaluate(el=>el.scrollWidth>el.clientWidth));
+  await panel.locator('[data-table-id]').click();await page.locator('#modal[open] .source-table-expanded').waitFor();
+  await page.locator('#modal[open] .source-table [data-document]').click();
+  assert.deepEqual(await lastCall(),{type:'pdf',id:sourceTable.documentId,page:sourceTable.page});
+  await action('close-dialog');
+  await page.locator('.study .practice-voice-shortcut').click();
+  const consent=page.locator('#modal[open] [data-action="practice-voice-consent"]');if(await consent.isVisible())await consent.click();
+  await page.waitForFunction(()=>!!window.apkListenToken);
+  const speech=await page.evaluate(()=>window.apkSpoken.join(''));
+  for(const option of panelQuestion.options)assert.ok(speech.includes(option),'The packaged tutor must read every source option.');
+  async function hearTutor(text){await page.waitForFunction(()=>!!window.apkListenToken);await page.evaluate(text=>window.labwiseNativeHostResult(window.apkListenToken,{status:'result',text}),text);}
+  await hearTutor('option '+String.fromCharCode(65+panelQuestion.answer));await page.locator('.practice-voice .host-confirmation').waitFor();
+  assert.equal(await page.locator('.answer-status').count(),0,'Speech needs separate confirmation before Practice is scored.');
+  await hearTutor('yes');await page.locator('.answer-status').waitFor();await page.locator('.practice-voice .host-recall').waitFor();
+  await page.waitForFunction(()=>!!window.apkListenToken);
+  assert.ok((await page.evaluate(()=>window.apkSpoken.join(''))).includes(panelQuestion.explanation));
+  assert.ok(await page.locator('.study .source-table').count(),'The question table stays with the voice lesson.');
+  await action('practice-voice-pause');
   assert.equal(await page.evaluate(() => window.nativeCalls.some(call => call.type === 'update')), false);
   await action('settings'); await action('updates'); assert.deepEqual(await lastCall(), {type: 'update'});
   assert.equal(await page.evaluate(async () => (await navigator.serviceWorker.getRegistrations()).length), 0);
   assert.deepEqual(errors, []); assert.deepEqual(missing, [], 'All requests must resolve from extracted APK assets');
-  console.log(`PASS: v${catalog.version} APK assets match current sources and boot at the Android origin/CSP with every module, ${figurePaths.length} original visual files, ${catalog.documents.length} PDFs, ${catalog.availableQuestions} taught questions, cross-PDF routing, reading positions, Sprint, Frenzy and confirmed Quiz Show feedback, decoded BOC pictures/zoom, optional pilot account and Friend Duel entry, v4 backup, and explicit update action; no external requests or page errors. Native Java and speech-provider execution are not exercised.`);
+  console.log(`PASS: v${catalog.version} APK assets match current sources and boot at the Android origin/CSP with every module, ${figurePaths.length} original visual files, ${Object.keys(figureManifest.tables).length} source tables, ${catalog.documents.length} PDFs, ${catalog.availableQuestions} taught questions, cross-PDF routing, reading positions, Sprint, Frenzy and confirmed Quiz Show feedback, audio-only visual exclusion, decoded BOC pictures/zoom, wide source table/enlarge/native PDF comparison, confirmed Practice voice answer/rationale/teach-back, optional pilot account and Friend Duel entry, v4 backup, and explicit update action; no external requests or page errors. Native Java and speech-provider execution are not exercised.`);
 })().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => { await browser?.close(); });

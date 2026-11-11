@@ -1,8 +1,20 @@
-# A voice host for understanding
+# Voice study in Practice and Quiz Show
 
-Labwise 7.1.1 provides an original Quiz Show for learning out loud. It uses installed device speech services and the existing teaching notes. It has no paid voice subscription, generative conversation service or automatic semantic grading.
+Labwise 7.3.0 brings the voice learning loop to every ordinary Practice question, including longer questions and shared cases. Quiz Show remains a separate game. Both use installed device speech services and the existing teaching notes. There is no paid voice subscription, generative conversation service or automatic semantic grading.
 
-## Start a round
+## Start the Practice tutor
+
+1. Open **Practice**, choose a question or start a session, then choose **Start voice tutor** near the question's top or in its tutor panel.
+2. Hear the full displayed question, case and every option. Long text is spoken in chunks of at most 2,400 characters; the microphone opens only after the last chunk.
+3. Say an option or answer, then confirm with “yes”. Say “no” to change it. This records one normal Practice answer, with the existing explanation layout retained.
+4. Hear the result, selected-option reasoning, correct-option reasoning when needed, original book rationale and simplified teaching. Explain back what you learned, compare with the supplied recall answer, then rate your recall.
+5. Say “next” or use the normal Next button. The session remains at your pace, without game hearts, points or lifelines. A hint reads the plain-language question; unanswered questions cannot be skipped by a game command.
+
+The tutor uses the saved Practice session and has no Quiz Show question-length filter. It also supports questions without separate teaching by reading their original rationale. Images and readable tables remain available beside their questions; keep the screen nearby for those items. Opening a source or enlarged visual pauses speech. Typed commands, direct answer buttons and **Use answer-only voice input** remain available. Exam practice keeps its deferred feedback and does not show the tutor.
+
+Only confirmed answers and self-rated review events enter normal progress. Conversation text and the tutor's temporary recall UI state remain in memory. Reload and navigation do not automatically resume a microphone.
+
+## Start a Quiz Show round
 
 1. Open **Play → Quiz Show** and choose your subjects and source collection.
 2. Choose up to **5, 10 or 15 questions**. Audio-only selection uses short self-contained questions. Optionally include picture questions and keep the screen nearby.
@@ -13,7 +25,7 @@ Tapping choices, typed commands and manual controls stay available. A microphone
 
 The device voice, locale and provider determine pronunciation and naturalness. Choose an installed voice and speaking speed in **Voice settings**. The default selects the best available device voice; installing suitable voice/language data can change what is available. A premium online natural-voice service can be added later, but it is not configured in this release.
 
-## The learning loop
+## The Quiz Show learning loop
 
 Each round starts with **three hearts**. Correct answers earn **100 points**; incorrect answers cost one heart. Three misses or the end of the chosen question set finish the round. Explanations and the final answer remain available, with no countdown.
 
@@ -41,9 +53,9 @@ Voice commands work while the host is listening. The app takes speaking and list
 | “Yes”, “confirm”, or “final answer” | Confirms the currently proposed choice. |
 | “No”, or “change my answer” | Cancels that proposed choice. |
 | “Repeat”, or “read again” | Reads the question and remaining choices again. |
-| “Fifty fifty”, “hint”, or “skip” | Uses the corresponding available lifeline. |
-| “Next”, or “continue” | Starts the next question after feedback, or opens the final result. An unanswered question still needs an answer or skip. |
-| “Why”, or “test me” | After feedback, starts a recall prompt. Before an answer, uses the clue lifeline instead. |
+| “Fifty fifty”, “hint”, or “skip” | Quiz Show uses the corresponding available lifeline. Practice supports a plain-language hint, without game lifelines. |
+| “Next”, or “continue” | Starts the next question after feedback, or opens the final result. Practice requires a confirmed answer first; Quiz Show also permits its skip lifeline. |
+| “Why”, or “test me” | After feedback, starts a recall prompt. Before an answer, reads the Practice hint or uses the Quiz Show clue lifeline. |
 | “Explain choices” | After feedback, reads the explanations of each option. Before an answer, reads the choices without revealing their explanations. |
 | “Book rationale” | After feedback, reads the original source rationale. |
 | “Reveal”, or “show answer” | During a recall step, reveals the supplied answer for comparison. |
@@ -56,7 +68,7 @@ The on-screen controls provide the same actions. The transcript editor accepts a
 
 ## Device behavior and privacy
 
-Android uses `TextToSpeech` and a foreground `SpeechRecognizer` for Quiz Show. Supported browsers use their speech-synthesis and recognition APIs. Service availability and network requirements vary by device, language and provider.
+Android uses `TextToSpeech` and a foreground `SpeechRecognizer` for the Practice tutor and Quiz Show. Supported browsers use their speech-synthesis and recognition APIs. Service availability and network requirements vary by device, language and provider.
 
 - Microphone permission is requested only when foreground listening starts. Reading the app or speaking a question does not by itself request microphone access.
 - Online device voices may send the **text being read**, including question or teaching text, to that voice provider. Recognition may send microphone audio to its own provider. Installed offline services can avoid those provider connections where supported.
@@ -64,7 +76,7 @@ Android uses `TextToSpeech` and a foreground `SpeechRecognizer` for Quiz Show. S
 - Going into the background stops speaking/listening. Voice does not silently resume when returning; choose the voice control again.
 - There is no always-on wake word or background microphone service. The Pause button remains available during speech.
 
-The older input-only voice buttons in other study modes retain their external Android recognition-provider flow. Quiz Show adds read-aloud and in-app listening; provider privacy behavior therefore differs from the earlier input-only release.
+The older input-only voice controls retain their external Android recognition-provider flow. In ordinary Practice they are under **Use answer-only voice input**. The tutor and Quiz Show add read-aloud and in-app listening; provider privacy behavior therefore differs from input-only recognition.
 
 ## Saved progress and pictures
 
@@ -74,4 +86,4 @@ Picture questions keep the existing text question and choices, with the associat
 
 ## Verification
 
-The engine, dialogue, speech adapter, native rules and responsive UI have automated checks. Mock speech services establish turn order, confirmation, cancellation and state contracts; SDK/JVM checks establish compilation and policy behavior. They do not establish actual voice naturalness, recognition accuracy, microphone behavior or Android device audio. Physical device and live account acceptance remain separate. See [VALIDATION-V7.1.1.md](VALIDATION-V7.1.1.md) for executed results.
+The engine, dialogue, speech adapter, native rules and responsive UI have automated checks. Mock speech services establish turn order, confirmation, cancellation and state contracts; SDK/JVM checks establish compilation and policy behavior. They do not establish actual voice naturalness, recognition accuracy, microphone behavior or Android device audio. Physical device and live account acceptance remain separate. See [VALIDATION-V7.3.md](VALIDATION-V7.3.md) for executed results.

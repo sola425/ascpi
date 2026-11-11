@@ -1,0 +1,23 @@
+{
+  "documentId": "boc1",
+  "source": "docs/boc-1.pdf",
+  "sourceSha256": "8dd37b3415ea5c368ee9bf6ab0ab5f346435e3f524c80f4f60deb848ad7dc6cf",
+  "pagesReviewed": 333,
+  "reviewCoverage": "All 333 original pages were actually inspected in 17 contact sheets. All detected question table candidates were separately inspected at larger crop scale, with individual full-page follow-up for omissions and new figures.",
+  "candidateBlocks": 142,
+  "rejectedOrMergedCandidateBlocks": 9,
+  "verifiedTables": 135,
+  "structuredTables": 135,
+  "optionTables": 6,
+  "newCompleteQuestionFigures": 20,
+  "completeFigureProposalsForExistingPartialMappings": 6,
+  "questionIds": 149,
+  "unresolved": [],
+  "limits": [
+    "Original source photographs and charts remain about 72 dpi; no new image detail is invented.",
+    "Supplied source omits printed pages 225–240.",
+    "Source numerical/unit inconsistencies are preserved verbatim and noted in individual tables rather than silently corrected.",
+    "No excluded questions, new rationale-only images, stem screenshots, choice screenshots, external images, new content, question bank edits or teaching edits are included.",
+    "Some existing assets select partial figure masks. Complete original inputs are proposed with supersedesFigureIds so the root can prefer complete inputs without deleting original assets or changing rationale mappings."
+  ]
+}

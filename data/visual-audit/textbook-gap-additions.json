@@ -1,0 +1,187 @@
+[
+  {
+    "id": "textbook-gap-q33-plate1",
+    "auditId": "textbook-gap-q33-plate1",
+    "documentId": "textbook",
+    "page": 423,
+    "rect": [
+      40,
+      35,
+      287,
+      244
+    ],
+    "sourceRect": [
+      40,
+      35,
+      287,
+      244
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 1",
+    "questionIds": [
+      "book-1-33"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "Printed q33 on PDF p4 explicitly says “Color Plate 1”. The current question OCR corrupts the digit and plate marker; the reference was verified directly on the original page.",
+    "referencePages": [
+      4
+    ],
+    "plateNumber": 1,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "presentationRepair": {
+      "book-1-33": {
+        "question": "Which of the following is most frequently associated with the inclusion bodies seen in Color Plate 1?"
+      }
+    }
+  },
+  {
+    "id": "textbook-gap-q199-plate17",
+    "auditId": "textbook-gap-q199-plate17",
+    "documentId": "textbook",
+    "page": 425,
+    "rect": [
+      290,
+      262,
+      540,
+      453
+    ],
+    "sourceRect": [
+      290,
+      262,
+      540,
+      453
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 17",
+    "questionIds": [
+      "book-1-199"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "Printed q199 on PDF p22 explicitly says “Color Plate 17”. Current question OCR has an unrecognized digit/marker sequence, so automatic digit extraction missed this reference.",
+    "referencePages": [
+      22
+    ],
+    "plateNumber": 17,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "presentationRepair": {
+      "book-1-199": {
+        "question": "The cytoplasmic inclusion present in the cell shown in Color Plate 17"
+      }
+    }
+  },
+  {
+    "id": "textbook-gap-q264-268-case-plate4",
+    "auditId": "textbook-gap-q264-268-case-plate4",
+    "documentId": "textbook",
+    "page": 423,
+    "rect": [
+      288,
+      35,
+      540,
+      244
+    ],
+    "sourceRect": [
+      288,
+      35,
+      540,
+      244
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 4",
+    "questionIds": [
+      "book-1-264",
+      "book-1-265",
+      "book-1-266",
+      "book-1-267",
+      "book-1-268"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "The p29 shared instruction says to use the supplied information for questions264–268. Its case explicitly begins “The peripheral blood shown in Color Plate 4”. All five active questions share this case; this is a printed case reference, not a topic-similar added illustration.",
+    "referencePages": [
+      29
+    ],
+    "plateNumber": 4,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "reuseFigureId": "fig-cdc1a6276497559a3b",
+    "textRepairProposals": [
+      {
+        "questionIds": [
+          "book-1-264",
+          "book-1-265",
+          "book-1-266",
+          "book-1-267",
+          "book-1-268"
+        ],
+        "field": "context",
+        "replace": "Color Plate 41",
+        "with": "Color Plate 4",
+        "evidence": "Printed p29 has digit4 followed by the square plate marker, not plate41."
+      }
+    ]
+  },
+  {
+    "id": "textbook-gap-q272-274-case-plate11",
+    "auditId": "textbook-gap-q272-274-case-plate11",
+    "documentId": "textbook",
+    "page": 424,
+    "rect": [
+      270,
+      261,
+      540,
+      451
+    ],
+    "sourceRect": [
+      270,
+      261,
+      540,
+      451
+    ],
+    "visualType": "photo",
+    "caption": "Original Color Plate 11",
+    "questionIds": [
+      "book-1-272",
+      "book-1-273",
+      "book-1-274"
+    ],
+    "reveal": "question",
+    "required": true,
+    "referenceOnly": false,
+    "reviewStatus": "verified",
+    "reviewMethod": "Exact printed question/shared-case instructions and original plate crop visually inspected",
+    "matchingEvidence": "The p30 shared instruction names questions272–274. The case explicitly begins “The peripheral blood shown in Color Plate 11”. The same shared-case photograph belongs with all three questions.",
+    "referencePages": [
+      30
+    ],
+    "plateNumber": 11,
+    "useSourceCrop": true,
+    "cropReview": "Photo-only original plate rectangle inspected. No question text, choices or answer-identifying caption.",
+    "notes": [
+      "Source-limited original scan; no enhancement, substitution or new illustration."
+    ],
+    "reuseFigureId": "fig-778e4a2b52958f1835"
+  }
+]
